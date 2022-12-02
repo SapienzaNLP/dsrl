@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="squabbling">
+<roleset id="squabbling.01" name="argue with" source="verb-argue.02" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the squabbling within the Organization of Petroleum Exporting
+Countries
+</text>
+<rel>squabbling</rel>
+<arg f="LOC" n="M">within the Organization of Petroleum Exporting Countries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

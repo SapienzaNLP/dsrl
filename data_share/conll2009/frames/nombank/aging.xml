@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aging">
+<roleset id="aging.01" name="to make or become old or older" source="verb-age.01" vncls="45.4">
+<roles>
+
+<role descr="causer of aging, agent" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="entity getting old" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="attribute (how old" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the aging of baby boomers
+</text>
+<rel>aging</rel>
+<arg n="1">of baby boomers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

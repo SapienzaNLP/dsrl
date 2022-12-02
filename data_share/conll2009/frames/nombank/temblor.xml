@@ -1,0 +1,19 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="temblor">
+<roleset id="temblor.01" name="event">
+<roles>
+
+</roles>
+
+<example name="autogen2">
+<text>
+Tuesday 's temblor
+</text>
+<arg f="TMP" n="M">Tuesday 's</arg>
+<rel>temblor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

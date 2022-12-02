@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="housing">
+<roleset id="housing.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the rudder housing of a tanker
+</text>
+<rel>housing</rel>
+<arg n="1">of a tanker</arg>
+</example>
+
+</roleset>
+<roleset id="housing.02" name="nomlike-inhabit-to reside or be present in" source="verb-inhabit.01">
+<roles>
+
+<role descr="resident" n="0"></role>
+
+<role descr="place of residence" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+low-income housing
+</text>
+<arg n="1">low-income</arg>
+<rel>housing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+public housing tenants
+</text>
+<rel>housing</rel>
+<arg n="1">tenants</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

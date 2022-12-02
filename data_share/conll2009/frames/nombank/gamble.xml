@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gamble">
+<roleset id="gamble.01" name="to take a risk" source="verb-gamble.01">
+<roles>
+
+<role descr="gambler" n="0"></role>
+
+<role descr="entity gambled with/on" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Sotheby 's Inc. 's gamble in the art-dealing business
+</text>
+<arg n="0">Sotheby 's Inc. 's</arg>
+<rel>gamble</rel>
+<arg n="1">in the art-dealing business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its big gamble
+</text>
+<arg n="0">its</arg>
+<arg f="EXT" n="M">big</arg>
+<rel>gamble</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

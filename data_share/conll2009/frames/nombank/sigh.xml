@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sigh">
+<roleset id="sigh.01" name="manner of speaking" source="verb-sigh.01">
+<roles>
+
+<role descr="speaker" n="0"></role>
+
+<role descr="utterance" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Still , scientists breathed a collective sigh of relief about the
+finding , because it demonstrates how to overcome the `` flux
+pinning '' problem that earlier this year was widely publicized
+as undercutting new superconductors ' potential .
+</text>
+<arg n="0">scientists</arg>
+<arg n="Support">breathed</arg>
+<arg f="MNR" n="M">collective</arg>
+<rel>sigh</rel>
+<arg f="MNR" n="M">of relief</arg>
+<arg n="1">about the finding</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` The pilots are either for us or extremely against us , '' he
+says with a sigh .
+</text>
+<arg n="0">he</arg>
+<rel>sigh</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

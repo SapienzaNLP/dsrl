@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stay">
+<roleset id="stay.01" name="remain, be left over" source="verb-stay.01" vncls="47.1-1">
+<roles>
+
+<role descr="thing remaining" n="1">
+<vnrole vncls="47.1-1" vntheta="Theme"/></role>
+
+<role descr="beneficiary, probably will not occur" n="2"></role>
+
+<role descr="attribute of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their stay
+</text>
+<arg n="1">their</arg>
+<rel>stay</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his stay here
+</text>
+<arg n="1">his</arg>
+<rel>stay</rel>
+<arg f="LOC" n="M">here</arg>
+</example>
+
+</roleset>
+<roleset id="stay.02" name="legal term: postpone" source="verb-stay.03">
+<roles>
+
+<role descr="postponer" n="0"></role>
+
+<role descr="thing postponed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A federal judge granted a temporary stay of the California
+Student Aid Commission 's emergency action to stop guaranteeing
+loans for National Technical Schools , a unit of United Education
+&amp; Software Inc .
+</text>
+<arg n="0">A federal judge</arg>
+<arg n="Support">granted</arg>
+<arg f="TMP" n="M">temporary</arg>
+<rel>stay</rel>
+<arg n="1">
+of the California Student Aid Commission 's emergency action to
+stop guaranteeing loans for National Technical Schools , a unit
+of United Education &amp; Software Inc</arg>
+</example>
+
+<example name="autogen2">
+<text>
+nursing-home stays
+</text>
+<arg f="LOC" n="M">nursing-home</arg>
+<rel>stays</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

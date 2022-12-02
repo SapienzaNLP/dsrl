@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ubiquity">
+<roleset id="ubiquity.01" name="attribute/nomadj-ubiquitous">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their ubiquity
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">ubiquity</arg>
+<rel>ubiquity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

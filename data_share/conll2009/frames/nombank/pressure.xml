@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pressure">
+<roleset id="pressure.01" name="apply pressure1" source="verb-pressure.01">
+<roles>
+
+<role descr="presser" n="0"></role>
+
+<role descr="pressed on" n="1"></role>
+
+<role descr="goal, pressed-for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+First Interstate made the move under pressure from regulators .
+</text>
+<arg n="1">First Interstate</arg>
+<arg n="2">made the move</arg>
+<rel>pressure</rel>
+<arg n="0">from regulators</arg>
+</example>
+
+<example name="autogen2">
+<text>
+downward pressure on prices
+</text>
+<arg n="2">downward</arg>
+<rel>pressure</rel>
+<arg n="1">on prices</arg>
+</example>
+
+</roleset>
+<roleset id="pressure.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a high blood pressure medicine
+</text>
+<arg n="2">high</arg>
+<arg n="1">blood</arg>
+<rel>pressure</rel>
+</example>
+
+<example name="autogen2">
+<text>
+high blood pressure
+</text>
+<arg n="2">high</arg>
+<arg n="1">blood</arg>
+<rel>pressure</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="laggard">
+<roleset id="laggard.01" name="nom" source="verb-lag.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a laggard in black programming
+</text>
+<arg n="0">laggard</arg>
+<rel>laggard</rel>
+<arg n="1">in black programming</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

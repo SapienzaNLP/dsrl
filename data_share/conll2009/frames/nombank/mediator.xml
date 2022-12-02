@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mediator">
+<roleset id="mediator.01" name="to resolve or settle differences" source="verb-mediate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="employer" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Arab mediators
+</text>
+<arg n="2">Arab</arg>
+<arg n="0">mediators</arg>
+<rel>mediators</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the federal mediator
+</text>
+<arg n="3">federal</arg>
+<arg n="0">mediator</arg>
+<rel>mediator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

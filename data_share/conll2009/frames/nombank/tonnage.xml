@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tonnage">
+<roleset id="tonnage.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its coal tonnage
+</text>
+<arg n="3">its</arg>
+<arg n="1">coal</arg>
+<arg f="REF" n="2">tonnage</arg>
+<rel>tonnage</rel>
+</example>
+
+<example name="autogen2">
+<text>
+improved tonnages in its marine-shipping unit
+</text>
+<arg n="2">improved</arg>
+<rel>tonnages</rel>
+<arg n="1">in its marine-shipping unit</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

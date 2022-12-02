@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sweetheart">
+<roleset id="sweetheart.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his `` sweetheart
+</text>
+<arg n="1">his</arg>
+<arg n="0">sweetheart</arg>
+<rel>sweetheart</rel>
+</example>
+
+</roleset>
+<roleset id="sweetheart.02" name="nomadjlike-generous">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a sweetheart bank investment
+</text>
+<rel>sweetheart</rel>
+<arg n="1">bank investment</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

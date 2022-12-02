@@ -1,0 +1,92 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="store">
+<roleset id="store.01" name="commerce: seller" source="verb-sell.01" vncls="13.1-1">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing sold" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+25 off-price apparel stores
+</text>
+<arg n="1">apparel</arg>
+<arg n="0">stores</arg>
+<rel>stores</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his company 's stores
+</text>
+<arg n="2">his company 's</arg>
+<arg n="0">stores</arg>
+<rel>stores</rel>
+</example>
+
+</roleset>
+<roleset id="store.02" name="in-store" source="verb-happen.01" vncls="48.3">
+<roles>
+
+<role descr="event" n="1">
+<vnrole vncls="48.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a decline in store for cocoa
+</text>
+<arg n="1">a decline</arg>
+<rel>store</rel>
+<arg n="2">for cocoa</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a crash was n't in store
+</text>
+<arg n="1">a crash</arg>
+<rel>store</rel>
+</example>
+
+</roleset>
+<roleset id="store.03" name="store" source="verb-store.01" vncls="15.2">
+<roles>
+
+<role descr="storer" n="0">
+<vnrole vncls="15.2" vntheta="Agent"/></role>
+
+<role descr="commodity" n="1">
+<vnrole vncls="15.2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Earth , on the other hand , has a diminished store of such
+material but is rich in life
+</text>
+<arg n="0">Earth</arg>
+<arg n="Support">has</arg>
+<arg f="MNR" n="M">diminished</arg>
+<rel>store</rel>
+<arg n="1">of such material</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

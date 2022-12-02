@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="investor">
+<roleset id="investor.01" name="provide" source="verb-invest.01" vncls="13.4.2">
+<roles>
+
+<role descr="investor" n="0">
+<vnrole vncls="13.4.2" vntheta="Agent"/></role>
+
+<role descr="thing invested" n="1">
+<vnrole vncls="13.4.2" vntheta="Theme"/></role>
+
+<role descr="invested in" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a modest equity investor
+</text>
+<arg n="1">modest</arg>
+<arg n="2">equity</arg>
+<arg n="0">investor</arg>
+<rel>investor</rel>
+</example>
+
+<example name="autogen2">
+<text>
+some fund investors
+</text>
+<arg n="2">fund</arg>
+<arg n="0">investors</arg>
+<rel>investors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

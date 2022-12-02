@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sight">
+<roleset id="sight.01" name="view" source="verb-see.01" vncls="29.2">
+<roles>
+
+<role descr="viewer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing viewed" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Both Ford and its rival General Motors recently set their sights
+on grabbing significant minority stakes in the British company .
+</text>
+<arg n="Support">set</arg>
+<arg n="0">their</arg>
+<rel>sights</rel>
+<arg n="1">on grabbing significant minority stakes in the British company</arg>
+</example>
+
+<example name="autogen2">
+<text>
+There is n't a black worker in sight .
+</text>
+<arg n="1">a black worker</arg>
+<rel>sight</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

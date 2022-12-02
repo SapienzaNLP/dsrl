@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="organ">
+<roleset id="organ.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the male organs of rice plants
+</text>
+<rel>organs</rel>
+<arg n="1">of rice plants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+plants ' female reproductive organs
+</text>
+<arg n="1">plants '</arg>
+<rel>organs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="impulse">
+<roleset id="impulse.01" name="nomlike" source="verb-throb.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+nerve impulses
+</text>
+<arg n="1">nerve</arg>
+<rel>impulses</rel>
+</example>
+
+</roleset>
+<roleset id="impulse.02" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+Pat had a sudden impulse to buy a carrot
+</text>
+<arg n="0">Pat</arg>
+<arg n="Support">had</arg>
+<rel>impulse</rel>
+<arg n="1">to buy a carrot</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

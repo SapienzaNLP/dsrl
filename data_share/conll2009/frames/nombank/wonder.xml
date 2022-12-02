@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wonder">
+<roleset id="wonder.01" name="think about, ponder" source="verb-wonder.01" vncls="31.3">
+<roles>
+
+<role descr="thinker" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="thought" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Small wonder that Britain 's Labor Party wants credit controls .
+</text>
+<arg f="EXT" n="M">Small</arg>
+<rel>wonder</rel>
+<arg n="1">that Britain 's Labor Party wants credit controls</arg>
+</example>
+
+<example name="autogen2">
+<text>
+No wonder all kinds of big-time scams have flourished here , from
+phony tax-sheltered Bible sales to crooked car dealers to bogus
+penny-stock traders
+</text>
+<arg f="NEG" n="M">No</arg>
+<rel>wonder</rel>
+<arg n="1">
+all kinds of big-time scams have flourished here , from phony
+tax-sheltered Bible sales to crooked car dealers to bogus
+penny-stock traders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

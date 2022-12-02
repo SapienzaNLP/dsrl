@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="south">
+<roleset id="south.01" name="nomadj-south">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its main link to the south
+</text>
+<arg n="1">its main link</arg>
+<rel>south</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the biggest artery to the south
+</text>
+<arg n="1">the biggest artery</arg>
+<rel>south</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="basket">
+<roleset id="basket.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+big baskets of stock
+</text>
+<rel>baskets</rel>
+<arg n="1">of stock</arg>
+</example>
+
+<example name="autogen3">
+<text>
+a basket of stocks that tracks the Standard &amp; Poor 's 500-stock
+index
+</text>
+<rel>basket</rel>
+<arg n="1">of stocks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

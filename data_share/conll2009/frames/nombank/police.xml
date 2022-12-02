@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="police">
+<roleset id="police.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the transit police in David City , capital of the Chiriqui
+Province
+</text>
+<arg n="1">transit</arg>
+<arg n="0">police</arg>
+<rel>police</rel>
+<arg n="2">in David City , capital of the Chiriqui Province</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Police in Prague
+</text>
+<arg n="0">Police</arg>
+<rel>Police</rel>
+<arg n="2">in Prague</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

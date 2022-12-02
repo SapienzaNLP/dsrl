@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="elitist">
+<roleset id="elitist.01" name="nomadj-elitist">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+musical elitists
+</text>
+<arg n="1">musical</arg>
+<arg n="0">elitists</arg>
+<rel>elitists</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

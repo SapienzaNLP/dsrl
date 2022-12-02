@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="answer">
+<roleset id="answer.01" name="give an answer, reply" source="verb-answer.01">
+<roles>
+
+<role descr="replier" n="0"></role>
+
+<role descr="in response to" n="1"></role>
+
+<role descr="answer" n="2"></role>
+
+<role descr="asker/recipient of answer" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+After the company reported red ink for the fiscal third quarter ,
+Wang 's marketing department provided the sales force answers to
+questions such as `` How could you not have known you were going
+to lose $ 55 million ? '' and `` Is Wang still a viable company ?
+''
+</text>
+<arg n="0">Wang 's marketing department</arg>
+<arg n="Support">provided</arg>
+<arg n="3">the sales force</arg>
+<rel>answers</rel>
+<arg n="1">
+to questions such as `` How could you not have known you were
+going to lose $ 55 million ? '' and `` Is Wang still a viable
+company ?</arg>
+</example>
+
+<example name="autogen2">
+<text>
+His answer
+</text>
+<arg n="0">His</arg>
+<rel>answer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

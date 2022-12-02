@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reshuffle">
+<roleset id="reshuffle.01" name="to arrange or organize anew" source="verb-reshuffle.01">
+<roles>
+
+<role descr="shuffler, agent" n="0"></role>
+
+<role descr="entity reshuffled" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the last Politburo reshuffle on Sept. 30
+</text>
+<arg n="1">Politburo</arg>
+<rel>reshuffle</rel>
+<arg f="TMP" n="M">on Sept. 30</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

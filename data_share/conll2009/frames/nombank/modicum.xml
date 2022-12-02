@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="modicum">
+<roleset id="modicum.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+only a modicum of common sense on the part of the investors
+</text>
+<rel>modicum</rel>
+<arg n="1">of common sense</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a modicum of political normalcy
+</text>
+<rel>modicum</rel>
+<arg n="1">of political normalcy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

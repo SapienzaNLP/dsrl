@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="kilometer">
+<roleset id="kilometer.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the nation 's 71,895 square kilometers of private land
+</text>
+<rel>kilometers</rel>
+<arg n="1">of private land</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

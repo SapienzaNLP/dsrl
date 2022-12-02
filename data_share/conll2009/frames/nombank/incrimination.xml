@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="incrimination">
+<roleset id="incrimination.01" name="cause to look like a criminal" source="verb-incriminate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient/criminal" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen6">
+<text>
+self-incrimination
+</text>
+<arg n="0">self-incrimination</arg>
+<rel>self-incrimination</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

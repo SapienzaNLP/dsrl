@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sitcom">
+<roleset id="sitcom.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 1972 CBS sitcom
+</text>
+<arg f="TMP" n="M">1972</arg>
+<arg n="0">CBS</arg>
+<rel>sitcom</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a new ABC sitcom
+</text>
+<arg f="TMP" n="M">new</arg>
+<arg n="0">ABC</arg>
+<rel>sitcom</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

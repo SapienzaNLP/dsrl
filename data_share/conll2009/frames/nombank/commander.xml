@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commander">
+<roleset id="commander.01" name="actrel" source="verb-command.02">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Experienced resistance commanders
+</text>
+<arg n="2">resistance</arg>
+<arg n="0">commanders</arg>
+<rel>commanders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his commanders
+</text>
+<arg n="2">his</arg>
+<arg n="0">commanders</arg>
+<rel>commanders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

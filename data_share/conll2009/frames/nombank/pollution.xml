@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pollution">
+<roleset id="pollution.01" name="to contaminate" source="verb-pollute.01" vncls="9.8">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="entity polluted" n="1">
+<vnrole vncls="9.8" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+air pollution is caused by trees
+</text>
+<arg n="1">air</arg>
+<rel>pollution</rel>
+<arg n="Support">caused</arg>
+<arg n="0">by trees</arg>
+</example>
+
+<example name="autogen2">
+<text>
+automobile pollution
+</text>
+<arg n="0">automobile</arg>
+<rel>pollution</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

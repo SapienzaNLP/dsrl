@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="kit">
+<roleset id="kit.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a test-practice kit called Learning Materials , sold to schools
+across the country by Macmillan/McGraw-Hill School Publishing Co.
+,
+</text>
+<arg n="1">test-practice</arg>
+<rel>kit</rel>
+<arg n="Support">sold</arg>
+<arg n="0">Macmillan/McGraw-Hill School Publishing Co.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Charles Beseler Co. , a leading maker of photographic enlargers ,
+introduced last month a complete darkroom starter kit targeted at
+teen-agers who want to process their own black-and-white
+photographs .
+</text>
+<arg n="0">Charles Beseler Co. , a leading maker of photographic enlargers ,</arg>
+<arg n="Support">introduced</arg>
+<arg n="1">darkroom</arg>
+<rel>kit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

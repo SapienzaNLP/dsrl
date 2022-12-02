@@ -1,0 +1,93 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="party">
+<roleset id="party.01" name="have a party" source="verb-celebrate.02">
+<roles>
+
+<role descr="celebrator(s" n="0"></role>
+
+<role descr="party, occasion" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its marble fountains and toga parties for high rollers
+</text>
+<arg n="0">its</arg>
+<arg n="1">toga</arg>
+<rel>parties</rel>
+<arg n="2">for high rollers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a pajama party
+</text>
+<arg n="1">pajama</arg>
+<rel>party</rel>
+</example>
+
+</roleset>
+<roleset id="party.02" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The nation 's main white opposition party
+</text>
+<arg n="2">The nation 's</arg>
+<arg n="3">white</arg>
+<arg n="1">opposition</arg>
+<rel>party</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Papandreou 's party
+</text>
+<arg n="2">Mr. Papandreou 's</arg>
+<rel>party</rel>
+</example>
+
+</roleset>
+<roleset id="party.03" name="take part in/crisscross" source="verb-participate.01">
+<roles>
+
+<role descr="agent, entity participating" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+parties to the settlement
+</text>
+<arg n="0">parties</arg>
+<rel>parties</rel>
+<arg n="1">to the settlement</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a party to a civil cause
+</text>
+<arg n="0">party</arg>
+<rel>party</rel>
+<arg n="1">to a civil cause</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

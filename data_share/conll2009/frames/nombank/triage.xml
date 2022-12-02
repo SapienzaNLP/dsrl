@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="triage">
+<roleset id="triage.01" name="make organized" source="verb-organize.01" vncls="26.4">
+<roles>
+
+<role descr="organizer" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="thing organized" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they were doing triage out in the parking lot from the sound and
+lights of it
+</text>
+<arg n="0">they</arg>
+<arg n="Support">doing</arg>
+<rel>triage</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

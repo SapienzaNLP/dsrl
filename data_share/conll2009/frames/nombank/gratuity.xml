@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gratuity">
+<roleset id="gratuity.01" name="give an award" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="award" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a former Par official who pleaded guilty to providing an FDA
+employee an illegal gratuity of $ 3,000
+</text>
+<arg n="0">a former Par official ---> who ---> *T*-2 ---> *-3</arg>
+<arg n="Support">providing</arg>
+<arg n="2">an FDA employee</arg>
+<arg f="MNR" n="M">illegal</arg>
+<rel>gratuity</rel>
+<arg n="1">of $ 3,000</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Peter E. Voss , an ex-member of the Postal Service board of
+governors , to accept $ 23,000 in bribes , kickbacks and
+gratuities
+</text>
+<arg n="2">
+Peter E. Voss , an ex-member of the Postal Service board of
+governors ,</arg>
+<arg n="Support">accept $ in</arg>
+<arg n="1">$ 23,000</arg>
+<rel>gratuities</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

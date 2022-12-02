@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inspector">
+<roleset id="inspector.01" name="actrel/nom" source="verb-inspect.01" vncls="30.2">
+<roles>
+
+<role descr="examiner" n="0">
+<vnrole vncls="30.2" vntheta="Agent"/></role>
+
+<role descr="entity inspected" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+<role descr="reason" n="4" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+San Francisco 's chief building inspector
+</text>
+<arg n="2">San Francisco 's</arg>
+<arg n="3">chief</arg>
+<arg n="1">building</arg>
+<arg n="0">inspector</arg>
+<rel>inspector</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the U.S. inspector general
+</text>
+<arg n="2">U.S.</arg>
+<arg n="0">inspector</arg>
+<rel>inspector</rel>
+<arg n="3">general</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

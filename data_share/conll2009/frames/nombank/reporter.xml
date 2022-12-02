@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reporter">
+<roleset id="reporter.01" name="actrel/nom" source="verb-report.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the judge 's court reporter
+</text>
+<arg n="2">the judge 's</arg>
+<arg n="1">court</arg>
+<arg n="0">reporter</arg>
+<rel>reporter</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Hungarian -LCB- radio -RCB- reporters
+</text>
+<arg n="2">radio</arg>
+<arg n="0">reporters</arg>
+<rel>reporters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gimmick">
+<roleset id="gimmick.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the budgetary gimmick
+</text>
+<arg n="1">budgetary</arg>
+<rel>gimmick</rel>
+</example>
+
+<example name="autogen2">
+<text>
+budget gimmicks
+</text>
+<arg n="1">budget</arg>
+<rel>gimmicks</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

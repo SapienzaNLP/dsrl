@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="culprit">
+<roleset id="culprit.01" name="do, act, commit" source="verb-perpetrate.01">
+<roles>
+
+<role descr="perp" n="0"></role>
+
+<role descr="crime" n="1"></role>
+
+<role descr="victim" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a prime culprit for their injuries
+</text>
+<arg n="0">culprit</arg>
+<rel>culprit</rel>
+<arg n="1">for their injuries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the unrecognized inflationary culprit
+</text>
+<arg n="1">inflationary</arg>
+<arg n="0">culprit</arg>
+<rel>culprit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

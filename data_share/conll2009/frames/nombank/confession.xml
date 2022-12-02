@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="confession">
+<roleset id="confession.01" name="mode of speaking" source="verb-confess.01" vncls="37.3">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="37.3" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.3" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+confessions of witnesses
+</text>
+<rel>confessions</rel>
+<arg n="0">of witnesses</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his confessions on Monday
+</text>
+<arg n="0">his</arg>
+<rel>confessions</rel>
+<arg f="TMP" n="M">on Monday</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

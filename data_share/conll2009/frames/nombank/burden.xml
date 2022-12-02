@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="burden">
+<roleset id="burden.01" name="put a load on someone/thing" source="verb-burden.01" vncls="13.4.2">
+<roles>
+
+<role descr="loader" n="0">
+<vnrole vncls="13.4.2" vntheta="Agent"/></role>
+
+<role descr="carrier" n="1">
+<vnrole vncls="13.4.2" vntheta="Recipient"/></role>
+
+<role descr="load" n="2">
+<vnrole vncls="13.4.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+This puts upon enforcers the burden of proving outright fraud or
+misrepresentation
+</text>
+<arg n="0">This</arg>
+<arg n="Support">puts</arg>
+<arg n="1">upon enforcers</arg>
+<rel>burden</rel>
+<arg n="2">of proving outright fraud or misrepresentation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their tax burden
+</text>
+<arg n="1">their</arg>
+<arg n="2">tax</arg>
+<rel>burden</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

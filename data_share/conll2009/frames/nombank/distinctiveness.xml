@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="distinctiveness">
+<roleset id="distinctiveness.01" name="nomadj-distinctive/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its distinctiveness
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">distinctiveness</arg>
+<rel>distinctiveness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

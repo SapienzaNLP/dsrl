@@ -1,0 +1,89 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cause">
+<roleset id="cause.01" name="impelled action" source="verb-cause.01" vncls="27">
+<roles>
+
+<role descr="forcer, causer" n="0">
+<vnrole vncls="27" vntheta="Theme1"/></role>
+
+<role descr="impelled action" n="1">
+<vnrole vncls="27" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the cause of Friday 's slide
+</text>
+<arg n="0">cause</arg>
+<rel>cause</rel>
+<arg n="1">of Friday 's slide</arg>
+</example>
+
+<example name="autogen2">
+<text>
+sources and causes of waste and inefficiency
+</text>
+<arg n="0">causes</arg>
+<rel>causes</rel>
+<arg n="1">of waste and inefficiency</arg>
+</example>
+
+</roleset>
+<roleset id="cause.02" name="to support a cause" source="verb-champion.01">
+<roles>
+
+<role descr="champion" n="0"></role>
+
+<role descr="the cause itself" n="1"></role>
+
+<role descr="entity for whom the cause is championed" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+several political figures to take up my cause
+</text>
+<arg n="0">several political figures</arg>
+<arg n="Support">take</arg>
+<arg n="2">my</arg>
+<arg n="1">cause</arg>
+<rel>cause</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a passionate champion of either cause
+</text>
+<arg n="0">a passionate champion</arg>
+<arg n="1">cause</arg>
+<rel>cause</rel>
+</example>
+
+</roleset>
+<roleset id="cause.03" name="call to court" source="verb-sue.01">
+<roles>
+
+<role descr="litigant" n="0"></role>
+
+<role descr="defender" n="1"></role>
+
+<role descr="crime" n="2"></role>
+
+<role descr="intended prize" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a party to a civil cause
+</text>
+<arg n="0">a party</arg>
+<rel>cause</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

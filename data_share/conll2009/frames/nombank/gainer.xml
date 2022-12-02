@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gainer">
+<roleset id="gainer.01" name="increase, rise" source="verb-gain.01" vncls="45.6">
+<roles>
+
+<role descr="logical subject, patient, thing rising" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext, amount risen" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+big gainers
+</text>
+<arg f="EXT" n="M">big</arg>
+<arg n="1">gainers</arg>
+<rel>gainers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the major gainers
+</text>
+<arg f="MNR" n="M">major</arg>
+<arg n="1">gainers</arg>
+<rel>gainers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

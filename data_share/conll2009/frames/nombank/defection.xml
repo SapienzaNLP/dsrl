@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="defection">
+<roleset id="defection.01" name="to abandon a position or association" source="verb-defect.01">
+<roles>
+
+<role descr="double agent, defector" n="0"></role>
+
+<role descr="entity defected from" n="1"></role>
+
+<role descr="entity defected to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The defection of Deloitte 's affiliates in Britain and the
+Netherlands to Coopers &amp; Lybrand
+</text>
+<rel>defection</rel>
+<arg n="0">of Deloitte 's affiliates in Britain and the Netherlands</arg>
+<arg n="2">to Coopers &amp; Lybrand</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their defections
+</text>
+<arg n="0">their</arg>
+<rel>defections</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

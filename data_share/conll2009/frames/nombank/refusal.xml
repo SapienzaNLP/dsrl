@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="refusal">
+<roleset id="refusal.01" name="refuse" source="verb-refuse.01">
+<roles>
+
+<role descr="entity refusing" n="0"></role>
+
+<role descr="refused action or object" n="1"></role>
+
+<role descr="anti-beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Maine regulators ' refusal to approve the contract
+</text>
+<arg n="0">Maine regulators '</arg>
+<rel>refusal</rel>
+<arg f="PRD" n="1">to approve the contract</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its right of first refusal
+</text>
+<arg n="0">its</arg>
+<arg n="Support">right of</arg>
+<rel>refusal</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

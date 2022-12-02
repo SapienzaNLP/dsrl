@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="standstill">
+<roleset id="standstill.01" name="stop" source="verb-halt.01" vncls="55.1">
+<roles>
+
+<role descr="causer of stopping" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme (action or object being stopped" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument, if separate from arg0" n="2">
+<vnrole vncls="45.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+output at a standstill
+</text>
+<arg n="1">output</arg>
+<rel>standstill</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its standstill agreement
+</text>
+<arg n="1">its</arg>
+<rel>standstill</rel>
+<arg n="Support">agreement</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thief">
+<roleset id="thief.01" name="to commit theft" source="verb-steal.01" vncls="10.5">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="thing stolen" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+<role descr="stolen from" n="2">
+<vnrole vncls="10.5" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Thieves stole a 12th century fresco from an abandoned church in
+Camerino , Italy , by removing the entire wall on which the work
+had been painted
+</text>
+<arg n="0">Thieves</arg>
+<rel>Thieves</rel>
+<arg n="Support">stole</arg>
+<arg n="1">a 12th century fresco</arg>
+<arg n="2">from an abandoned church in Camerino , Italy ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+professional art thieves
+</text>
+<arg n="1">art</arg>
+<arg n="0">thieves</arg>
+<rel>thieves</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

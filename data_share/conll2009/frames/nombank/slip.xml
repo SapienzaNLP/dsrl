@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="slip">
+<roleset id="slip.01" name="fall" source="verb-slip.01">
+<roles>
+
+<role descr="logical subject, patient, thing falling" n="1"></role>
+
+<role descr="ext, amount fallen" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point, end state of arg1" n="4"></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a less dramatic slip in dollar-yen
+</text>
+<arg f="MNR" n="M">less dramatic</arg>
+<rel>slip</rel>
+<arg n="1">in dollar-yen</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Durable goods orders for September , due out tomorrow , are
+expected to show a slip of 1 % , compared with August 's 3.9 %
+increase .
+</text>
+<arg n="1">Durable goods orders for September , due out tomorrow , ---> *-1</arg>
+<arg n="Support">show</arg>
+<rel>slip</rel>
+<arg n="2">of 1 %</arg>
+</example>
+
+</roleset>
+<roleset id="slip.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a slip of paper
+</text>
+<rel>slip</rel>
+<arg n="1">of paper</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

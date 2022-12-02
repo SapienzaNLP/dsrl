@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="supervision">
+<roleset id="supervision.01" name="supervise" source="verb-supervise.01">
+<roles>
+
+<role descr="supervisor" n="0"></role>
+
+<role descr="thing supervised" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+About 45,000 children in Los Angeles County are under court
+supervision
+</text>
+<arg n="1">About 45,000 children in Los Angeles County</arg>
+<arg n="0">court</arg>
+<rel>supervision</rel>
+</example>
+
+<example name="autogen2">
+<text>
+RU-486 is being administered in France only under strict
+supervision in the presence of a doctor .
+</text>
+<arg n="1">
+RU-486 is being administered in France in the presence of a
+doctor</arg>
+<arg f="MNR" n="M">strict</arg>
+<rel>supervision</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

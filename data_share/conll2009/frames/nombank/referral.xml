@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="referral">
+<roleset id="referral.01" name="recommend, send" source="verb-refer.02" vncls="13.2">
+<roles>
+
+<role descr="recommender, sender" n="0">
+<vnrole vncls="13.2" vntheta="Agent"/></role>
+
+<role descr="thing recommended, sent" n="1">
+<vnrole vncls="13.2" vntheta="Theme"/></role>
+
+<role descr="recommended/sent to" n="2">
+<vnrole vncls="13.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+abortion counseling and referrals
+</text>
+<arg n="1">abortion</arg>
+<rel>referrals</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Some employers initiate referrals , especially if work problems
+threaten a top manager 's job .
+</text>
+<arg n="0">Some employers</arg>
+<arg n="Support">initiate</arg>
+<rel>referrals</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

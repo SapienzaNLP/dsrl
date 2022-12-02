@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stampede">
+<roleset id="stampede.01" name="nomlike" source="verb-hurry.01" vncls="53.2">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="53.2" vntheta="Agent"/></role>
+
+<role descr="entity in motion" n="1">
+<vnrole vncls="53.2" vntheta="Theme"/></role>
+
+<role descr="purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+their stampede to dump takeover stocks
+</text>
+<arg n="1">their</arg>
+<rel>stampede</rel>
+<arg f="PRD" n="2">to dump takeover stocks</arg>
+</example>
+
+<example name="autogen3">
+<text>
+a selling stampede
+</text>
+<arg n="2">selling</arg>
+<rel>stampede</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

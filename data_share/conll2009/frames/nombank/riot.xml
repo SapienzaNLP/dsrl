@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="riot">
+<roleset id="riot.01" name="bother" source="verb-disturb.01" vncls="31.1">
+<roles>
+
+<role descr="disturber" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="disturbed" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+His policies went beyond his control and resulted ... in riots
+and disturbances
+</text>
+<arg n="2">His policies</arg>
+<arg n="Support">resulted in</arg>
+<rel>riots</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Azem Vlasi and 14 others are accused of inciting riots and
+strikes and opposing constitutional limits to Kosovo 's autonomy
+.
+</text>
+<arg n="0">Azem Vlasi and 14 others ---> *-1 ---> *-2</arg>
+<arg n="Support">inciting</arg>
+<rel>riots</rel>
+</example>
+
+</roleset>
+<roleset id="riot.02" name="combine, mix" source="verb-combine.01" vncls="22.1-1">
+<roles>
+
+<role descr="agent, mixer" n="0">
+<vnrole vncls="22.1-1" vntheta="Agent"/></role>
+
+<role descr="ingredient one" n="1">
+<vnrole vncls="22.1-1" vntheta="Patient1"/></role>
+
+<role descr="ingredient two" n="2">
+<vnrole vncls="22.1-1" vntheta="Patient2"/></role>
+
+<role descr="end product" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a riot of jousting knights , circus clowns , gold-leaf centurions
+and creatures of the wild
+</text>
+<rel>riot</rel>
+<arg n="1">
+of jousting knights , circus clowns , gold-leaf centurions and
+creatures of the wild</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

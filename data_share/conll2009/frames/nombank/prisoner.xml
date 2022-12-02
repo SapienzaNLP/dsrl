@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prisoner">
+<roleset id="prisoner.01" name="throw in jail" source="verb-imprison.01" vncls="9.10">
+<roles>
+
+<role descr="court, judge, jury" n="0">
+<vnrole vncls="9.10" vntheta="Agent"/></role>
+
+<role descr="criminal" n="1">
+<vnrole vncls="9.10" vntheta="Theme"/></role>
+
+<role descr="term" n="2"></role>
+
+<role descr="cause, misdeed" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its prisoner
+</text>
+<arg n="0">its</arg>
+<arg n="1">prisoner</arg>
+<rel>prisoner</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Release all political prisoners unconditionally
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">Release</arg>
+<arg n="1">prisoners</arg>
+<rel>prisoners</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

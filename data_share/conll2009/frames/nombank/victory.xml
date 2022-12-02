@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="victory">
+<roleset id="victory.01" name="win" source="verb-win.01" vncls="13.5.1">
+<roles>
+
+<role descr="winner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing won (contest or prize" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="loser, giver of prize" n="3"></role>
+
+<role descr="in-exchange-for" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his decisive primary victory over Mayor Edward I. Koch in
+September
+</text>
+<arg n="0">his</arg>
+<arg f="MNR" n="M">decisive</arg>
+<arg n="1">primary</arg>
+<rel>victory</rel>
+<arg n="3">over Mayor Edward I. Koch</arg>
+<arg f="TMP" n="M">in September</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Taylor 's overwhelming victory against Republican Tom
+Anderson
+</text>
+<arg n="0">Mr. Taylor 's</arg>
+<arg f="MNR" n="M">overwhelming</arg>
+<rel>victory</rel>
+<arg n="3">against Republican Tom Anderson</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

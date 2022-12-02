@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tolerance">
+<roleset id="tolerance.01" name="tolerate, put up with" source="verb-tolerate.01" vncls="31.2">
+<roles>
+
+<role descr="tolerater" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="thing tolerated" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Past Colombian government tolerance of the `` narcotraficantes ''
+</text>
+<arg f="TMP" n="M">Past</arg>
+<arg n="0">Colombian</arg>
+<rel>tolerance</rel>
+<arg n="1">of the `` narcotraficantes ''</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Pretoria 's recent tolerance of dissent
+</text>
+<arg n="0">Pretoria 's</arg>
+<arg f="TMP" n="M">recent</arg>
+<rel>tolerance</rel>
+<arg n="1">of dissent</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

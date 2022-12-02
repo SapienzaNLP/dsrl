@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lawmaker">
+<roleset id="lawmaker.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Southern agriculture lawmakers
+</text>
+<arg n="2">Southern</arg>
+<arg n="1">agriculture</arg>
+<arg n="0">lawmakers</arg>
+<rel>lawmakers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Lebanese Christian lawmakers
+</text>
+<arg n="2">Lebanese</arg>
+<arg n="0">lawmakers</arg>
+<rel>lawmakers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

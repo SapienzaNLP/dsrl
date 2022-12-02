@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scrape">
+<roleset id="scrape.01" name="to meet unexpectedly" source="verb-encounter.01">
+<roles>
+
+<role descr="entity encountering something" n="0"></role>
+
+<role descr="entity encountered" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's scrape with disaster
+</text>
+<arg n="0">the company 's</arg>
+<rel>scrape</rel>
+<arg n="1">with disaster</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

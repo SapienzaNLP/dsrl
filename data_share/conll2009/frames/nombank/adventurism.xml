@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="adventurism">
+<roleset id="adventurism.01" name="nomadjlike-reckless">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Soviet adventurism
+</text>
+<arg n="0">Soviet</arg>
+<rel>adventurism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

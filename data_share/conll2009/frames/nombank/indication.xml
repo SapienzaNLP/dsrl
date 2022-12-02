@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="indication">
+<roleset id="indication.01" name="show" source="verb-indicate.01">
+<roles>
+
+<role descr="indicator" n="0"></role>
+
+<role descr="thing indicated" n="1"></role>
+
+<role descr="indicated to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they also detected tritium and indications of nuclear radiation
+</text>
+<arg n="2">they</arg>
+<arg n="Support">detected</arg>
+<arg f="REF" n="0">indications</arg>
+<rel>indications</rel>
+<arg n="1">of nuclear radiation</arg>
+</example>
+
+<example name="autogen3">
+<text>
+an indication of his support for the Constitution
+</text>
+<arg f="REF" n="0">indication</arg>
+<rel>indication</rel>
+<arg n="1">of his support for the Constitution</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

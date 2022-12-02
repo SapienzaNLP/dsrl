@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bargain">
+<roleset id="bargain.01" name="nom/nomadjlike-cheap" source="verb-bargain.01" vncls="36.1">
+<roles>
+
+<role descr="negotiator, agent" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="thing bargained for" n="1">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+<role descr="co-negotiator, bargained with" n="2">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In recent years , the airlines had waited until the last moment
+to court Christmas season vacationers with bargain fares .
+</text>
+<arg n="0">the airlines ---> *-1</arg>
+<arg n="Support">court with fares</arg>
+<arg n="2">Christmas season vacationers</arg>
+<rel>bargain</rel>
+<arg n="1">fares</arg>
+</example>
+
+<example name="autogen2">
+<text>
+those bargain hunters
+</text>
+<arg f="REF" n="1">bargain</arg>
+<rel>bargain</rel>
+<arg n="0">hunters</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

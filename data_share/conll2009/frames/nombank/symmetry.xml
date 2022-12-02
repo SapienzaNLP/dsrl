@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="symmetry">
+<roleset id="symmetry.01" name="recip/nomadj-symmetrical">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="theme2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the symmetry of geometrical figures
+</text>
+<rel>symmetry</rel>
+<arg n="1">of geometrical figures</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a false symmetry between Soviet military aid to the Sandinista
+dictatorship and that provided by Washington to freely elected
+governments
+</text>
+<rel>symmetry</rel>
+<arg n="1">
+between Soviet military aid to the Sandinista dictatorship and
+that provided by Washington to freely elected governments</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

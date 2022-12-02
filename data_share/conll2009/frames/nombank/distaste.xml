@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="distaste">
+<roleset id="distaste.01" name="anti-affection" source="verb-dislike.01" vncls="31.2">
+<roles>
+
+<role descr="disliker" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="object of disaffection" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its continuing distate for the leftist Nicaraguan government
+</text>
+<arg n="0">its</arg>
+<arg f="TMP" n="M">continuing</arg>
+<rel>distate</rel>
+<arg n="1">for the leftist Nicaraguan government</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a general distaste for leverage
+</text>
+<arg f="ADV" n="M">general</arg>
+<rel>distaste</rel>
+<arg n="1">for leverage</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

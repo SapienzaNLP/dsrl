@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="novelist">
+<roleset id="novelist.01" name="set pen to paper" source="verb-write.01" vncls="26.7-2">
+<roles>
+
+<role descr="writer" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="thing written" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the great mystery novelist
+</text>
+<arg n="1">mystery</arg>
+<arg n="0">novelist</arg>
+<rel>novelist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

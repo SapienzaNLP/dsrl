@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nuisance">
+<roleset id="nuisance.01" name="annoy" source="verb-annoy.01" vncls="31.1">
+<roles>
+
+<role descr="annoyer" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="annoyed" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+other assemblages that do not disturb the peace or cause a public
+nuisance or interfere with the rights of others
+</text>
+<arg n="0">other assemblages ---> that ---> *T*-265</arg>
+<arg n="Support">cause</arg>
+<arg n="1">public</arg>
+<rel>nuisance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="warden">
+<roleset id="warden.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+12,000 air wardens
+</text>
+<arg n="1">air</arg>
+<arg n="0">wardens</arg>
+<rel>wardens</rel>
+</example>
+
+<example name="autogen2">
+<text>
+traffic wardens
+</text>
+<arg n="1">traffic</arg>
+<arg n="0">wardens</arg>
+<rel>wardens</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

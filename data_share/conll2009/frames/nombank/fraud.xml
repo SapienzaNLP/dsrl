@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fraud">
+<roleset id="fraud.01" name="engage in deceitful practices" source="verb-cheat.02">
+<roles>
+
+<role descr="cheater" n="0"></role>
+
+<role descr="victim (usually prepositional" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the mail fraud and conspiracy conviction of John Lavery , a
+former vice president of Beech-Nut Nutrition Corp. , a unit of
+Nestle S.A
+</text>
+<arg n="1">mail</arg>
+<rel>fraud</rel>
+<arg n="Support">conviction</arg>
+<arg n="0">
+of John Lavery , a former vice president of Beech-Nut Nutrition
+Corp. , a unit of Nestle S.A</arg>
+</example>
+
+<example name="autogen2">
+<text>
+consumer fraud
+</text>
+<arg n="1">consumer</arg>
+<rel>fraud</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

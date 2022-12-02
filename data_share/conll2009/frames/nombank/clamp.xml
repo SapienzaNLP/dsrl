@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clamp">
+<roleset id="clamp.01" name="attach firmly" source="verb-clamp.01" vncls="22.4">
+<roles>
+
+<role descr="attacher, agent causing attachment" n="0">
+<vnrole vncls="22.4" vntheta="Agent"/></role>
+
+<role descr="thing(s) being clamped" n="1">
+<vnrole vncls="22.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its clamp on credit
+</text>
+<arg n="0">its</arg>
+<rel>clamp</rel>
+<arg n="1">on credit</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

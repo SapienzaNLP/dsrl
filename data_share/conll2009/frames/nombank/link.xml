@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="link">
+<roleset id="link.01" name="nom" source="verb-link.01" vncls="22.1-2">
+<roles>
+
+<role descr="agent, entity doing the tying" n="0">
+<vnrole vncls="22.1-2" vntheta="Agent"/></role>
+
+<role descr="patient, thing(s) being tied" n="1">
+<vnrole vncls="22.1-2" vntheta="Patient1"/></role>
+
+<role descr="patient2" n="2">
+<vnrole vncls="22.1-2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Like Mr. Geffen 's arrangement , the venture gives Mr. Azoff a
+link to the world 's largest and most successful record
+distributor
+</text>
+<arg n="0">the venture</arg>
+<arg n="Support">gives</arg>
+<arg n="1">Mr. Azoff</arg>
+<rel>link</rel>
+<arg n="2">to the world 's largest and most successful record distributor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its main link to the south
+</text>
+<arg n="1">its</arg>
+<rel>link</rel>
+<arg n="2">to the south</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

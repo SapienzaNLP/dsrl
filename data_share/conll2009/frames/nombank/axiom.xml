@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="axiom">
+<roleset id="axiom.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attributive" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a contemporary axiom : the more a scandal has to do with a
+congressman 's duties as a congressman , the less likely it is to
+catch the fancy of a network
+</text>
+<arg f="TMP" n="M">contemporary</arg>
+<rel>axiom</rel>
+<arg n="1">
+the more a scandal has to do with a congressman 's duties as a
+congressman , the less likely it is to catch the fancy of a
+network</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the axioms ` Haste makes waste ' and ` Do n't cut corners , '
+ideas that seem to run counter to the concept of managing speed
+</text>
+<rel>axioms</rel>
+<arg n="1">` Haste makes waste ' and ` Do n't cut corners</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

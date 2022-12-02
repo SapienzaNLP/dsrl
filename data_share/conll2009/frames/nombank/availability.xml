@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="availability">
+<roleset id="availability.01" name="nomadj-available/nomlike" source="verb-obtain.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2" source="0"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the availability of quality legal service to the poor
+</text>
+<rel>availability</rel>
+<arg n="1">of quality legal service</arg>
+<arg n="2">to the poor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the availability of variable-rate mortgages
+</text>
+<rel>availability</rel>
+<arg n="1">of variable-rate mortgages</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

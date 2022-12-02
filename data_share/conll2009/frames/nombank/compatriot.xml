@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="compatriot">
+<roleset id="compatriot.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her Czech compatriot
+</text>
+<arg n="1">her</arg>
+<arg f="LOC" n="M">Czech</arg>
+<arg n="0">compatriot</arg>
+<rel>compatriot</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his compatriots
+</text>
+<arg n="1">his</arg>
+<arg n="0">compatriots</arg>
+<rel>compatriots</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disadvantage">
+<roleset id="disadvantage.01" name="fight" source="verb-fight.01" vncls="36.3">
+<roles>
+
+<role descr="first fighter" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="second fighter, if separate" n="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+<role descr="spoils" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+financial buyers such as leveraged buy-out firms will be at a
+disadvantage in obtaining financing
+</text>
+<arg n="1">financial buyers such as leveraged buy-out firms</arg>
+<rel>disadvantage</rel>
+<arg n="2">in obtaining financing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Drexel , meanwhile , already competes at a disadvantage to its
+big Wall Street rivals because it has a slightly lower commercial
+paper rating .
+</text>
+<arg n="0">Drexel</arg>
+<arg n="Support">competes at</arg>
+<rel>disadvantage</rel>
+<arg n="1">to its big Wall Street rivals</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

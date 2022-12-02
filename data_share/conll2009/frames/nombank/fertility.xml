@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fertility">
+<roleset id="fertility.01" name="nomadj-fertile">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a woman 's health or fertility
+</text>
+<arg n="1">a woman 's</arg>
+<rel>fertility</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

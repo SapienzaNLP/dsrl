@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="importance">
+<roleset id="importance.01" name="nomadj-important/nomlike/attribute" source="verb-prize.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2" source="5"></role>
+
+<role descr="purpose/context" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he monitors the money-supply figures , but does n't give them
+paramount importance , as some private and government economists
+have suggested
+</text>
+<arg n="0">he</arg>
+<arg n="Support">give</arg>
+<arg n="1">them</arg>
+<arg n="2">paramount</arg>
+<rel>importance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the importance of the case as a litmus test of whether Greece
+will be counted in or out for international efforts to combat
+terrorism
+</text>
+<rel>importance</rel>
+<arg n="1">of the case</arg>
+<arg n="3">
+as a litmus test of whether Greece will be counted in or out for
+international efforts to combat terrorism</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

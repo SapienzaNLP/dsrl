@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aide">
+<roleset id="aide.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a legislative aide to Sen. Wallop
+</text>
+<arg n="1">legislative</arg>
+<arg n="0">aide</arg>
+<rel>aide</rel>
+<arg n="2">to Sen. Wallop</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a senior aide to the House Ways and Means Committee , where tax
+legislation originates ,
+</text>
+<arg n="0">aide</arg>
+<rel>aide</rel>
+<arg n="2">
+to the House Ways and Means Committee , where tax legislation
+originates ,</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

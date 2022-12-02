@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="son">
+<roleset id="son.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the son of the painting 's former owner , Mrs. Rush Kress ,
+</text>
+<arg n="0">son</arg>
+<rel>son</rel>
+<arg n="1">of the painting 's former owner , Mrs. Rush Kress ,</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the illegitimate son of his father 's maid
+</text>
+<arg n="0">son</arg>
+<rel>son</rel>
+<arg n="1">of his father 's maid</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

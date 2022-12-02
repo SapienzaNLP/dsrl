@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="restoration">
+<roleset id="restoration.01" name="give back" source="verb-restore.01">
+<roles>
+
+<role descr="giver, restorer" n="0"></role>
+
+<role descr="gift, thing restored" n="1"></role>
+
+<role descr="beneficiary, restored-to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the restoration of the Shi'ite Sultan Ali Keshtmand to the Afghan
+prime ministry
+</text>
+<rel>restoration</rel>
+<arg n="1">of the Shi'ite Sultan Ali Keshtmand</arg>
+<arg n="2">to the Afghan prime ministry</arg>
+</example>
+
+<example name="autogen2">
+<text>
+It also provides for benefit adjustments , including a partial
+restoration of vacations and holidays , as well as work-rule
+changes to increase productivity .
+</text>
+<arg n="0">It</arg>
+<arg n="Support">provides for adjustments including</arg>
+<arg f="MNR" n="M">partial</arg>
+<rel>restoration</rel>
+<arg n="1">of vacations and holidays</arg>
+</example>
+
+</roleset>
+<roleset id="restoration.02" name="like new" source="verb-restore.02">
+<roles>
+
+<role descr="restorer" n="0"></role>
+
+<role descr="thing restored, renewed" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+restoration of buildings
+</text>
+<rel>restoration</rel>
+<arg n="1">of buildings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

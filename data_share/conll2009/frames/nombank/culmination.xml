@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="culmination">
+<roleset id="culmination.01" name="to reach the highest point, to end" source="verb-culminate.01">
+<roles>
+
+<role descr="entity ending" n="1"></role>
+
+<role descr="culmination point" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the culmination of weeks of rumors concerning CDL that have
+depressed the company 's share price and to a lesser extent the
+shares of all companies owned by CDL 's controlling Quek family
+</text>
+<arg n="2">culmination</arg>
+<rel>culmination</rel>
+<arg n="1">
+of weeks of rumors concerning CDL that have depressed the company
+'s share price and to a lesser extent the shares of all companies
+owned by CDL 's controlling Quek family</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the culmination of a life 's work
+</text>
+<arg n="2">culmination</arg>
+<rel>culmination</rel>
+<arg n="1">of a life 's work</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

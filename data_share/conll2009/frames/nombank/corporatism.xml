@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="corporatism">
+<roleset id="corporatism.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Russian corporatism
+</text>
+<arg n="1">Russian</arg>
+<rel>corporatism</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Soviet-style corporatism
+</text>
+<arg n="1">Soviet-style</arg>
+<rel>corporatism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

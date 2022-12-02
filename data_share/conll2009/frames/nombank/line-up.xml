@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="line-up">
+<roleset id="line-up.01" name="nomlike" source="verb-select.01" vncls="13.5.2">
+<roles>
+
+<role descr="selector" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="entity selected" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="selected from" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="attribute, selected for/as" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its line-up of fast-growing prescription drugs , including its
+anti-cholesterol drug , Mevacor ; a high blood pressure medicine
+, Vasotec ; Primaxin , an antibiotic , and Pepcid , an anti-ulcer
+medication
+</text>
+<arg n="0">its</arg>
+<rel>line-up</rel>
+<arg n="1">
+of fast-growing prescription drugs , including its
+anti-cholesterol drug , Mevacor ; a high blood pressure medicine
+, Vasotec ; Primaxin , an antibiotic , and Pepcid , an anti-ulcer
+medication</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its prime-time Wednesday and Thursday lineups
+</text>
+<arg n="0">its</arg>
+<arg n="3">prime-time</arg>
+<arg f="TMP" n="M">Wednesday and Thursday</arg>
+<rel>lineups</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

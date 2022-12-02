@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="progress">
+<roleset id="progress.01" name="move forwards" source="verb-progress.01">
+<roles>
+
+<role descr="thing moving" n="1"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Central America 's progress toward democracy in the region
+</text>
+<arg n="1">Central America 's</arg>
+<rel>progress</rel>
+<arg n="4">toward democracy</arg>
+<arg f="LOC" n="M">in the region</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it also is making progress in negotiating the buy-out of its
+design division by management
+</text>
+<arg n="1">it</arg>
+<arg n="Support">making</arg>
+<rel>progress</rel>
+<arg n="4">in negotiating the buy-out of its design division by management</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

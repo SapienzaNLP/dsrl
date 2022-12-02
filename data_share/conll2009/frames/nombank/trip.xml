@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trip">
+<roleset id="trip.01" name="travel" source="verb-travel.01" vncls="51.3.2">
+<roles>
+
+<role descr="traveller" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="destination or path" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+When offered a free trip from the Bronx , Wedtech 's home , to
+Washington , D.C. , by one of Wedtech 's principals , he tells
+the reader , `` mindful of accepting anything of value from those
+I was writing about , I declined . ''
+</text>
+<arg n="0">*-4 ---> *-3 ---> he</arg>
+<arg n="Support">offered</arg>
+<rel>trip</rel>
+<arg n="2">from the Bronx , Wedtech 's home ,</arg>
+<arg n="1">to Washington , D.C. ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its trip to Jupiter
+</text>
+<arg n="0">its</arg>
+<rel>trip</rel>
+<arg n="1">to Jupiter</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

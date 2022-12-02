@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gesture">
+<roleset id="gesture.01" name="body language" source="verb-gesture.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="hearer" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+whack , whack , whack his hand made vigorous spanking gestures on
+his left palm
+</text>
+<arg n="0">his hand</arg>
+<arg n="Support">made</arg>
+<arg f="MNR" n="M">vigorous</arg>
+<arg n="1">spanking</arg>
+<rel>gestures</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Barbara Bush 's gestures
+</text>
+<arg n="0">Barbara Bush 's</arg>
+<rel>gestures</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

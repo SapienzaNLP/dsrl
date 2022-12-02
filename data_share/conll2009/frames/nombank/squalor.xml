@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="squalor">
+<roleset id="squalor.01" name="attribute/nomadj-squalid">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Cairo 's spirited squalor
+</text>
+<arg n="1">Cairo 's</arg>
+<arg f="REF" n="2">squalor</arg>
+<rel>squalor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

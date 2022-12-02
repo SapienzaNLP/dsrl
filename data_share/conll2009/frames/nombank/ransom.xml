@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ransom">
+<roleset id="ransom.01" name="attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a king 's ransom
+</text>
+<arg n="1">a king 's</arg>
+<arg f="REF" n="2">ransom</arg>
+<rel>ransom</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="patriotism">
+<roleset id="patriotism.01" name="attribute/nomadj-patriotic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Daniel von Bargen is ramrod-stiff but totally assured as Major
+Battle , mixing just the right brand of self-righteousness and
+patriotism
+</text>
+<arg n="1">Daniel von Bargen ---> *-2</arg>
+<arg n="Support">mixing brand of</arg>
+<arg f="REF" n="2">patriotism</arg>
+<rel>patriotism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

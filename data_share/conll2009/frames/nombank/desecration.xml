@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="desecration">
+<roleset id="desecration.01" name="nom-desecrate/nomlike" source="verb-wreck.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+desecration of the U.S. flag
+</text>
+<rel>desecration</rel>
+<arg n="1">of the U.S. flag</arg>
+</example>
+
+<example name="autogen2">
+<text>
+flag desecration
+</text>
+<arg n="1">flag</arg>
+<rel>desecration</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

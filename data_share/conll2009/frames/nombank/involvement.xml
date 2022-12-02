@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="involvement">
+<roleset id="involvement.01" name="include" source="verb-involve.01">
+<roles>
+
+<role descr="causer of inclusion" n="0"></role>
+
+<role descr="theme, thing being included into a group" n="1"></role>
+
+<role descr="group" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+NBC 's involvement in the Qintex deal
+</text>
+<arg n="1">NBC 's</arg>
+<rel>involvement</rel>
+<arg n="2">in the Qintex deal</arg>
+</example>
+
+<example name="autogen2">
+<text>
+U.S. involvement in foreign coups that might result in the death
+of a country 's leader
+</text>
+<arg n="1">U.S.</arg>
+<rel>involvement</rel>
+<arg n="2">
+in foreign coups that might result in the death of a country 's
+leader</arg>
+</example>
+
+</roleset>
+<roleset id="involvement.02" name="attribute/nomadj-involved">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the British theater chain 's total involvement `` would n't
+exceed $ 100 million ''
+</text>
+<arg n="1">the British theater chain 's</arg>
+<rel>involvement</rel>
+<arg n="Support">exceed</arg>
+<arg n="2">$ 100 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sheet">
+<roleset id="sheet.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Enormous ice sheets
+</text>
+<arg n="1">ice</arg>
+<rel>sheets</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a thick sheet of ice
+</text>
+<rel>sheet</rel>
+<arg n="1">of ice</arg>
+</example>
+
+</roleset>
+<roleset id="sheet.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A company with a strong balance sheet
+</text>
+<arg n="0">A company</arg>
+<arg n="1">balance</arg>
+<rel>sheet</rel>
+</example>
+
+<example name="autogen3">
+<text>
+fact sheets
+</text>
+<arg n="1">fact</arg>
+<rel>sheets</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

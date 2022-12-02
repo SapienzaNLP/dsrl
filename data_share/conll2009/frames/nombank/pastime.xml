@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pastime">
+<roleset id="pastime.01" name="ability-with-agent" vncls="51.6">
+<roles>
+
+<role descr="agent (person having interest" n="0">
+<vnrole vncls="51.6" vntheta="Agent"/></role>
+
+<role descr="action (hobby or activity" n="1">
+<vnrole vncls="51.6" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its favorite pastimes
+</text>
+<arg n="0">its</arg>
+<arg f="REF" n="1">pastimes</arg>
+<rel>pastimes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

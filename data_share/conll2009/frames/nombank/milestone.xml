@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="milestone">
+<roleset id="milestone.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen13">
+<text>
+another milestone in the ongoing program to promote vehicle
+occupant safety in light trucks and minivans through its
+extension of passenger car standards
+</text>
+<arg n="0">milestone</arg>
+<rel>milestone</rel>
+<arg n="1">
+in the ongoing program to promote vehicle occupant safety in
+light trucks and minivans through its extension of passenger car
+standards</arg>
+</example>
+
+<example name="autogen14">
+<text>
+milestones of American business history
+</text>
+<arg n="0">milestones</arg>
+<rel>milestones</rel>
+<arg n="1">of American business history</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

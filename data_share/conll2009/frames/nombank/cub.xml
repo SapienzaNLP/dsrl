@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cub">
+<roleset id="cub.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` An orphan bear cub .
+</text>
+<arg n="1">bear</arg>
+<arg n="0">cub</arg>
+<rel>cub</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

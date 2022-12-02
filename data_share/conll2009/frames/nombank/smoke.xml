@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="smoke">
+<roleset id="smoke.01" name="emit smoke" source="verb-smoke.01" vncls="47.2">
+<roles>
+
+<role descr="causer of smoke emission" n="0"></role>
+
+<role descr="substance smoking" n="1">
+<vnrole vncls="47.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+tobacco smoke
+</text>
+<arg n="1">tobacco</arg>
+<rel>smoke</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a 60-foot mountain spewing smoke and flame every five minutes
+</text>
+<arg n="1">a 60-foot mountain</arg>
+<arg n="Support">spewing</arg>
+<rel>smoke</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

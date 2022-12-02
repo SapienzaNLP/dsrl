@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="standard">
+<roleset id="standard.01" name="quantify" source="verb-measure.01" vncls="54.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="54.1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="54.1" vntheta="Theme"/></role>
+
+<role descr="yardstick" n="2"></role>
+
+<role descr="attribute" n="3">
+<vnrole vncls="54.1" vntheta="Attribute"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the industry 's gold standard for storability
+</text>
+<arg n="0">the industry 's</arg>
+<arg n="2">gold</arg>
+<rel>standard</rel>
+<arg n="3">for storability</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to develop software standards for Intel 's i860 microprocessor
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">develop</arg>
+<arg n="3">software</arg>
+<arg f="REF" n="2">standards</arg>
+<rel>standards</rel>
+<arg n="1">for Intel 's i860 microprocessor</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

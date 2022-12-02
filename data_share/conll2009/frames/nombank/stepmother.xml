@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stepmother">
+<roleset id="stepmother.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his mother and stepmother
+</text>
+<arg n="1">his</arg>
+<arg n="0">stepmother</arg>
+<rel>stepmother</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

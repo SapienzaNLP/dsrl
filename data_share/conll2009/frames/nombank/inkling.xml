@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inkling">
+<roleset id="inkling.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they had no inkling of anything amiss in Ebensburg
+</text>
+<arg n="0">they</arg>
+<arg n="Support">had</arg>
+<arg f="NEG" n="M">no</arg>
+<rel>inkling</rel>
+<arg n="1">of anything amiss in Ebensburg</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he will watch the numbers to get an inkling of whether consumers
+' general buying habits may slack off as much as their
+auto-buying apparently has
+</text>
+<arg n="0">he ---> *-1</arg>
+<arg n="Support">get</arg>
+<rel>inkling</rel>
+<arg n="1">
+of whether consumers ' general buying habits may slack off as
+much as their auto-buying apparently has</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sophistication">
+<roleset id="sophistication.01" name="attribute/nomadj-sophisticated">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+public relations of the highest sophistication , that recognizes
+that credibility is enhanced by honesty -- up to a point
+</text>
+<arg n="1">public relations</arg>
+<arg n="2">highest</arg>
+<rel>sophistication</rel>
+</example>
+
+<example name="autogen2">
+<text>
+related computer technology gains in sophistication and quality
+</text>
+<arg n="1">related computer technology</arg>
+<arg n="Support">gains in</arg>
+<arg f="REF" n="2">sophistication</arg>
+<rel>sophistication</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

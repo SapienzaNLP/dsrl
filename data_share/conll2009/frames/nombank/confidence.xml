@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="confidence">
+<roleset id="confidence.01" name="calm someone's nerves" source="verb-assure.01">
+<roles>
+
+<role descr="causer of assurance" n="0"></role>
+
+<role descr="experiencer" n="1"></role>
+
+<role descr="utterance/recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the move would further shake creditor confidence in Qintex
+Australia and force it to sell assets
+</text>
+<arg n="0">the move</arg>
+<arg n="Support">shake</arg>
+<arg n="1">creditor</arg>
+<rel>confidence</rel>
+<arg n="2">in Qintex Australia</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their confidence in corporate buyers
+</text>
+<arg n="1">their</arg>
+<rel>confidence</rel>
+<arg n="2">in corporate buyers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

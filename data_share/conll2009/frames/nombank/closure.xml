@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="closure">
+<roleset id="closure.01" name="shut" source="verb-close.01" vncls="40.3.2">
+<roles>
+
+<role descr="person doing the closing" n="0">
+<vnrole vncls="40.3.2" vntheta="Agent"/></role>
+
+<role descr="thing closing" n="1">
+<vnrole vncls="40.3.2" vntheta="Patient"/></role>
+
+<role descr="anti-beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they were awarded a $ 55 million contract by the U.S. Army Corps
+of Engineers for the closure of the Helen Kramer Landfill
+Superfund site in Mantua Township , N.J
+</text>
+<arg n="0">they ---> *-1</arg>
+<arg n="Support">awarded for</arg>
+<rel>closure</rel>
+<arg n="1">
+of the Helen Kramer Landfill Superfund site in Mantua Township ,
+N.J</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the market 's four-day closure after the 1987 crash
+</text>
+<arg n="1">the market 's</arg>
+<rel>closure</rel>
+<arg f="TMP" n="M">after the 1987 crash</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

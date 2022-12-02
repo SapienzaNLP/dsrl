@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="possibility">
+<roleset id="possibility.01" name="attribute/nomadj-possible">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Yet the possibility of another lash-up government is all too real
+.
+</text>
+<rel>possibility</rel>
+<arg n="1">of another lash-up government</arg>
+<arg n="2">all too real</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a fairly strong possibility of a recession
+</text>
+<arg n="2">fairly strong</arg>
+<rel>possibility</rel>
+<arg n="1">of a recession</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="killing">
+<roleset id="killing.01" name="cause to die" source="verb-kill.01" vncls="42.1-1">
+<roles>
+
+<role descr="killer" n="0">
+<vnrole vncls="42.1-1" vntheta="Agent"/></role>
+
+<role descr="corpse" n="1">
+<vnrole vncls="42.1-1" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="42.1-1" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the killing of Messrs. Spadafora and Torrijos
+</text>
+<rel>killing</rel>
+<arg n="1">of Messrs. Spadafora and Torrijos</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Beijing killings
+</text>
+<arg f="LOC" n="M">Beijing</arg>
+<rel>killings</rel>
+</example>
+
+</roleset>
+<roleset id="killing.02" name="win, accomplish some task" source="verb-succeed.01">
+<roles>
+
+<role descr="entity succeeding" n="0"></role>
+
+<role descr="task" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+ABC , for example , made a killing in broadcasting its popular
+crime/comedy `` Moonlighting ''
+</text>
+<arg n="0">ABC</arg>
+<arg n="Support">made</arg>
+<rel>killing</rel>
+<arg n="1">in broadcasting its popular crime/comedy `` Moonlighting ''</arg>
+</example>
+
+<example name="autogen2">
+<text>
+We 're not making a killing
+</text>
+<arg n="0">We</arg>
+<arg n="Support">making</arg>
+<rel>killing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

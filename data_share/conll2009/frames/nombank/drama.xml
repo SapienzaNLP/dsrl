@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drama">
+<roleset id="drama.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 19th-century Robert Louis Stevenson pre-Freudian drama of
+schizoid horror
+</text>
+<arg n="0">Robert Louis Stevenson</arg>
+<arg f="TMP" n="M">pre-Freudian</arg>
+<rel>drama</rel>
+<arg n="1">of schizoid horror</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the military drama
+</text>
+<arg n="1">military</arg>
+<rel>drama</rel>
+</example>
+
+</roleset>
+<roleset id="drama.02" name="attribute/nomadj-dramatic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+The family dinner was filled with drama
+</text>
+<arg n="1">The family dinner</arg>
+<arg n="Support">filled with</arg>
+<rel>drama</rel>
+<arg f="REF" n="2">drama</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="autobiography">
+<roleset id="autobiography.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Sir Alan 's autobiography
+</text>
+<arg n="0">Sir Alan 's</arg>
+<arg n="1">Sir Alan 's</arg>
+<rel>autobiography</rel>
+</example>
+
+<example name="autogen2">
+<text>
+T. Boone Pickens 's autobiography
+</text>
+<arg n="0">T. Boone Pickens 's</arg>
+<arg n="1">T. Boone Pickens 's</arg>
+<rel>autobiography</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

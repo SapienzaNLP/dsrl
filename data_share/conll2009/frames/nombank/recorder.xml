@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recorder">
+<roleset id="recorder.01" name="make a permanent record" source="verb-record.01" vncls="25.4">
+<roles>
+
+<role descr="recorder" n="0">
+<vnrole vncls="25.4" vntheta="Agent"/></role>
+
+<role descr="record" n="1">
+<vnrole vncls="25.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a hidden tape recorder
+</text>
+<arg n="1">tape</arg>
+<arg n="0">recorder</arg>
+<rel>recorder</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Dictaphone 's picocassette recorder
+</text>
+<arg n="1">picocassette</arg>
+<arg n="0">recorder</arg>
+<rel>recorder</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

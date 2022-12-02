@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="subcommittee">
+<roleset id="subcommittee.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the House appropriations subcommittee for foreign operations
+</text>
+<arg n="2">House</arg>
+<arg n="3">appropriations</arg>
+<rel>subcommittee</rel>
+<arg n="1">for foreign operations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his subcommittee 's
+</text>
+<arg n="2">his</arg>
+<rel>subcommittee</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

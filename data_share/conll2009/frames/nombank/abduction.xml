@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="abduction">
+<roleset id="abduction.01" name="to carry someone off by force" source="verb-abduct.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="person kidnapped" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her alleged abduction
+</text>
+<arg n="1">her</arg>
+<arg f="ADV" n="M">alleged</arg>
+<rel>abduction</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

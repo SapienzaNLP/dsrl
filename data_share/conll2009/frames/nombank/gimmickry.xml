@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gimmickry">
+<roleset id="gimmickry.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+budget gimmickry
+</text>
+<arg n="1">budget</arg>
+<rel>gimmickry</rel>
+</example>
+
+<example name="autogen2">
+<text>
+entertainment gimmickry
+</text>
+<arg n="1">entertainment</arg>
+<rel>gimmickry</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

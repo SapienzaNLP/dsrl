@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="purchasing">
+<roleset id="purchasing.01" name="buy" source="verb-purchase.01" vncls="13.5.2-1">
+<roles>
+
+<role descr="purchaser" n="0">
+<vnrole vncls="13.5.2-1" vntheta="Agent"/></role>
+
+<role descr="thing purchased" n="1">
+<vnrole vncls="13.5.2-1" vntheta="Theme"/></role>
+
+<role descr="seller" n="2">
+<vnrole vncls="13.5.2-1" vntheta="Source"/></role>
+
+<role descr="price paid" n="3">
+<vnrole vncls="13.5.2-1" vntheta="Asset"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the current Soviet purchasing spree
+</text>
+<arg n="0">Soviet</arg>
+<rel>purchasing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+engineering , scheduling and purchasing personnel
+</text>
+<rel>purchasing</rel>
+<arg n="0">personnel</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

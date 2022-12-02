@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="maze">
+<roleset id="maze.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a maze of halls that connects film rooms , elaborate spas and
+weight-training centers that testify to a richer , more
+free-spending era
+</text>
+<rel>maze</rel>
+<arg n="1">of halls</arg>
+</example>
+
+<example name="autogen2">
+<text>
+such a maze of federal , state and local codes that `` building
+inspectors are backing away from interpreting them
+</text>
+<rel>maze</rel>
+<arg n="1">of federal , state and local codes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

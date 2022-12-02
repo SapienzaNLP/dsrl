@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="peace">
+<roleset id="peace.01" name="nomadj-peaceful">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="actor2" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a regional peace accord
+</text>
+<arg n="1">regional</arg>
+<rel>peace</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an Arab-sponsored peace accord
+</text>
+<arg n="0">Arab-sponsored</arg>
+<arg n="Support">Arab-sponsored</arg>
+<rel>peace</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

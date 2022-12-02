@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="abortion">
+<roleset id="abortion.01" name="to terminate" source="verb-abort.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="entity aborted" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+abortions for other women
+</text>
+<rel>abortions</rel>
+<arg n="0">for other women</arg>
+</example>
+
+<example name="autogen2">
+<text>
+teen-age abortions
+</text>
+<arg n="0">teen-age</arg>
+<rel>abortions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

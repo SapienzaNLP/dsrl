@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="statue">
+<roleset id="statue.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A 34-foot-tall , $ 7.7 million statue of Buddha
+</text>
+<rel>statue</rel>
+<arg n="1">of Buddha</arg>
+</example>
+
+<example name="autogen2">
+<text>
+some statue of Marshall
+</text>
+<rel>statue</rel>
+<arg n="1">of Marshall</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

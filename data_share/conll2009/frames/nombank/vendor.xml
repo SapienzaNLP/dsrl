@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vendor">
+<roleset id="vendor.01" name="sell" source="verb-vend.01">
+<roles>
+
+<role descr="seller, vendor" n="0"></role>
+
+<role descr="commodity" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a software vendor
+</text>
+<arg n="1">software</arg>
+<arg n="0">vendor</arg>
+<rel>vendor</rel>
+</example>
+
+<example name="autogen2">
+<text>
+No employee or vendor
+</text>
+<arg f="NEG" n="M">No</arg>
+<arg n="0">vendor</arg>
+<rel>vendor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

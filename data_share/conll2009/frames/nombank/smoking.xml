@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="smoking">
+<roleset id="smoking.01" name="smoke cigarettes" source="verb-smoke.02">
+<roles>
+
+<role descr="smoker" n="0"></role>
+
+<role descr="cigarettes (etc" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 50-year-old , chain-smoking dynamo
+</text>
+<rel>chain-smoking</rel>
+<arg n="0">dynamo</arg>
+</example>
+
+<example name="autogen3">
+<text>
+cigarette smoking
+</text>
+<arg n="1">cigarette</arg>
+<rel>smoking</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

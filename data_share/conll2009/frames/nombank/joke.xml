@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="joke">
+<roleset id="joke.01" name="to tell jokes" source="verb-joke.01" vncls="36.1">
+<roles>
+
+<role descr="joker" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="joke" n="1" source="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+<role descr="actor2" n="2" source="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the joke T. Boone Pickens tells about the guy who was run over by
+the parade
+</text>
+<rel>joke</rel>
+<arg n="0">T. Boone Pickens</arg>
+<arg n="Support">tells</arg>
+<arg n="1">about the guy who was run over by the parade</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Polish jokes
+</text>
+<arg n="1">Polish</arg>
+<rel>jokes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disgrace">
+<roleset id="disgrace.01" name="nom-disgrace/nomlike" source="verb-embarrass.01" vncls="31.1">
+<roles>
+
+<role descr="cause" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="experiencer" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A minor bureaucrat dies suddenly , dooming his family to poverty
+and eventual disgrace .
+</text>
+<arg n="0">A minor bureaucrat ---> *-1</arg>
+<arg n="Support">dooming to</arg>
+<arg n="1">his family</arg>
+<arg f="TMP" n="M">eventual</arg>
+<rel>disgrace</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="horizon">
+<roleset id="horizon.01" name="watch" source="verb-view.01" vncls="30.2">
+<roles>
+
+<role descr="viewer" n="0">
+<vnrole vncls="30.2" vntheta="Experiencer"/></role>
+
+<role descr="thing viewed" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` I do n't see anything on the horizon that could lead to a
+precipitous rise in the price . ''
+</text>
+<arg n="0">I</arg>
+<arg n="Support">see anything on</arg>
+<arg n="1">anything</arg>
+<rel>horizon</rel>
+</example>
+
+<example name="autogen2">
+<text>
+there are still a few concerns on the horizon
+</text>
+<arg n="1">a few concerns</arg>
+<rel>horizon</rel>
+</example>
+
+</roleset>
+<roleset id="horizon.02" name="aim, plan" source="verb-aim.01">
+<roles>
+
+<role descr="aimer" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+investors with short-term horizons
+</text>
+<arg n="0">investors</arg>
+<arg f="TMP" n="M">short-term</arg>
+<rel>horizons</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a one-year horizon
+</text>
+<arg f="TMP" n="M">one-year</arg>
+<rel>horizon</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

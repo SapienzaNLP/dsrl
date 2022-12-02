@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="politics">
+<roleset id="politics.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The politics of the 1990 congressional authorization
+</text>
+<arg f="REF" n="2">politics</arg>
+<rel>politics</rel>
+<arg n="1">of the 1990 congressional authorization</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the new politics of abortion
+</text>
+<arg f="REF" n="2">politics</arg>
+<rel>politics</rel>
+<arg n="1">of abortion</arg>
+</example>
+
+</roleset>
+<roleset id="politics.02" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+international politics
+</text>
+<arg n="1">international</arg>
+<rel>politics</rel>
+</example>
+
+<example name="autogen3">
+<text>
+Indian politics
+</text>
+<arg n="1">Indian</arg>
+<rel>politics</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

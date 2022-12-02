@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="humility">
+<roleset id="humility.01" name="nomadj-humble">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+His humility
+</text>
+<arg n="0">His</arg>
+<rel>humility</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

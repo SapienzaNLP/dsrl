@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="diet">
+<roleset id="diet.01" name="consume" source="verb-eat.01" vncls="39.1">
+<roles>
+
+<role descr="consumer, eater" n="0">
+<vnrole vncls="39.1" vntheta="Agent"/></role>
+
+<role descr="meal" n="1">
+<vnrole vncls="39.1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Perhaps primed by the daily diet of radio and TV reporters
+thrusting microphones into people 's faces and asking how they ``
+feel '' about one calamity or another , fellow reporters and
+civilians who spied my press credential were eager to chat .
+</text>
+<arg n="0">
+*-2 ---> fellow reporters and civilians who spied my press
+credential</arg>
+<arg f="TMP" n="M">daily</arg>
+<rel>diet</rel>
+<arg n="1">
+of radio and TV reporters thrusting microphones into people 's
+faces and asking how they `` feel '' about one calamity or
+another</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they are n't fed a steady diet of electricity
+</text>
+<arg n="0">they</arg>
+<arg n="Support">fed</arg>
+<arg f="MNR" n="M">steady</arg>
+<rel>diet</rel>
+<arg n="1">of electricity</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

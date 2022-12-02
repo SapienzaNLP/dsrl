@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="radiation">
+<roleset id="radiation.01" name="emit, let forth" source="verb-emit.01">
+<roles>
+
+<role descr="emitting entity" n="0"></role>
+
+<role descr="thing emitted" n="1"></role>
+
+<role descr="recipient of radiation" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+continuing high levels of radiation from Chernobyl
+</text>
+<rel>radiation</rel>
+<arg n="0">from Chernobyl</arg>
+</example>
+
+<example name="autogen2">
+<text>
+nuclear radiation
+</text>
+<arg n="1">nuclear</arg>
+<rel>radiation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

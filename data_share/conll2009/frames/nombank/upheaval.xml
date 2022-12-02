@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="upheaval">
+<roleset id="upheaval.01" name="nomadjlike-turbulent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The market upheaval
+</text>
+<arg n="1">market</arg>
+<rel>upheaval</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the market upheaval
+</text>
+<arg n="1">market</arg>
+<rel>upheaval</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

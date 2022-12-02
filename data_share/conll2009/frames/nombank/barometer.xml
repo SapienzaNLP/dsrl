@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="barometer">
+<roleset id="barometer.01" name="quantify" source="verb-measure.01" vncls="54.1">
+<roles>
+
+<role descr="measurer" n="0">
+<vnrole vncls="54.1" vntheta="Agent"/></role>
+
+<role descr="thing measured" n="1">
+<vnrole vncls="54.1" vntheta="Theme"/></role>
+
+<role descr="yardstick, standard of measurement" n="2"></role>
+
+<role descr="secondary-theme" n="3" source="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a bad-expectations barometer for many stocks
+</text>
+<arg n="1">bad-expectations</arg>
+<arg n="0">barometer</arg>
+<rel>barometer</rel>
+<arg n="3">for many stocks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a barometer of the national economy
+</text>
+<arg n="0">barometer</arg>
+<rel>barometer</rel>
+<arg n="1">of the national economy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

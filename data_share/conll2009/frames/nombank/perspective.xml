@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="perspective">
+<roleset id="perspective.01" name="express an opinion" source="verb-opine.01">
+<roles>
+
+<role descr="speaker" n="0"></role>
+
+<role descr="opinion" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+From the perspective of East Germany 's old guard , reforms that
+smack of capitalism and Western-style democracy could eliminate
+their country 's reason for being .
+</text>
+<rel>perspective</rel>
+<arg n="0">of East Germany 's old guard</arg>
+<arg n="1">
+reforms that smack of capitalism and Western-style democracy
+could eliminate their country 's reason for being</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the employees ' perspective
+</text>
+<arg n="0">the employees '</arg>
+<rel>perspective</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

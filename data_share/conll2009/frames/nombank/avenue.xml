@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="avenue">
+<roleset id="avenue.01" name="ability-without-agent">
+<roles>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+all avenues of appeal
+</text>
+<rel>avenues</rel>
+<arg n="1">of appeal</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an avenue of entrance to a certain sector of society
+</text>
+<rel>avenue</rel>
+<arg n="1">of entrance to a certain sector of society</arg>
+</example>
+
+</roleset>
+<roleset id="avenue.02" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+at a pause in Newark 's Columbus Day parade recently , he was
+dancing with his wife in the middle of the avenue in the city 's
+old Italian-American ward
+</text>
+<arg n="Support">in middle of</arg>
+<rel>avenue</rel>
+<arg n="1">in the city 's old Italian-American ward</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

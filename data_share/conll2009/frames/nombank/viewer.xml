@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="viewer">
+<roleset id="viewer.01" name="watch" source="verb-view.01" vncls="30.2">
+<roles>
+
+<role descr="viewer" n="0">
+<vnrole vncls="30.2" vntheta="Experiencer"/></role>
+
+<role descr="thing viewed" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+CNN 's viewer habits
+</text>
+<arg n="1">CNN 's</arg>
+<arg n="0">viewer</arg>
+<rel>viewer</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its viewers '
+</text>
+<arg n="1">its</arg>
+<arg n="0">viewers</arg>
+<rel>viewers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

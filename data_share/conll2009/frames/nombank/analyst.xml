@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="analyst">
+<roleset id="analyst.01" name="actrel" source="verb-analyze.01" vncls="34">
+<roles>
+
+<role descr="student" n="0">
+<vnrole vncls="34" vntheta="Agent"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="34" vntheta="Theme"/></role>
+
+<role descr="analysis firm" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+senior industry analyst for DataQuest , a high-technology market
+research firm
+</text>
+<arg n="1">industry</arg>
+<arg n="0">analyst</arg>
+<rel>analyst</rel>
+<arg n="2">for DataQuest , a high-technology market research firm</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an analyst with Goldman , Sachs &amp; Co
+</text>
+<arg n="0">analyst</arg>
+<rel>analyst</rel>
+<arg n="2">with Goldman , Sachs &amp; Co</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

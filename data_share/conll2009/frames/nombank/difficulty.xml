@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="difficulty">
+<roleset id="difficulty.01" name="attribute/nomadj-difficult">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The growing financial difficulties of recent high-leverage
+restructurings or takeovers , such as Resorts International ,
+Integrated Resources , and Campeau 's retailing empire ,
+</text>
+<arg n="2">growing</arg>
+<arg n="1">financial</arg>
+<rel>difficulties</rel>
+<arg n="0">
+of recent high-leverage restructurings or takeovers , such as
+Resorts International , Integrated Resources , and Campeau 's
+retailing empire ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+no difficulties in obtaining parts in the immediate future
+</text>
+<arg n="2">no</arg>
+<rel>difficulties</rel>
+<arg n="1">in obtaining parts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

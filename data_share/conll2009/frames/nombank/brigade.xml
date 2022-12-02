@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brigade">
+<roleset id="brigade.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+those seven new Army divisions and three Marine brigades
+</text>
+<arg n="2">Marine</arg>
+<rel>brigades</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Soviet brigade
+</text>
+<arg n="2">Soviet</arg>
+<rel>brigade</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

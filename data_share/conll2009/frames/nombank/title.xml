@@ -1,0 +1,120 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="title">
+<roleset id="title.01" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his title as head of state
+</text>
+<arg n="0">his</arg>
+<rel>title</rel>
+<arg n="1">as head of state</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the honorary title of non-executive chairman
+</text>
+<rel>title</rel>
+<arg n="1">of non-executive chairman</arg>
+</example>
+
+</roleset>
+<roleset id="title.02" name="give an award" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="award" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+<role descr="reason" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Twelve different clubs have won titles in the 14 seasons since
+its advent
+</text>
+<arg n="2">Twelve different clubs</arg>
+<arg n="Support">won</arg>
+<arg f="REF" n="1">titles</arg>
+<rel>titles</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its title
+</text>
+<arg n="2">its</arg>
+<rel>title</rel>
+</example>
+
+</roleset>
+<roleset id="title.03" name="attribute/title-of-a-work-of-art">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a quaint and rather deceptive title for a merger of the
+pro-Soviet Communist Party of Greece and its Euro-Communist
+cousin , the Hellenic Left
+</text>
+<arg f="REF" n="2">title</arg>
+<rel>title</rel>
+<arg n="1">
+for a merger of the pro-Soviet Communist Party of Greece and its
+Euro-Communist cousin , the Hellenic Left</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its title
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">title</arg>
+<rel>title</rel>
+</example>
+
+</roleset>
+<roleset id="title.04" name="nomadjlike-leading">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the title role -LRB- s -RRB-
+</text>
+<rel>title</rel>
+<arg n="1">role</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

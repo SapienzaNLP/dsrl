@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thousands">
+<roleset id="thousands.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+thousands of non-profit institutions
+</text>
+<rel>thousands</rel>
+<arg n="1">of non-profit institutions</arg>
+</example>
+
+<example name="autogen2">
+<text>
+thousands of OTC issues
+</text>
+<rel>thousands</rel>
+<arg n="1">of OTC issues</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

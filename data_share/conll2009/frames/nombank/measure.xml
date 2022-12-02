@@ -1,0 +1,92 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="measure">
+<roleset id="measure.01" name="quantify" source="verb-measure.01" vncls="54.1">
+<roles>
+
+<role descr="measurer" n="0">
+<vnrole vncls="54.1" vntheta="Agent"/></role>
+
+<role descr="thing measured" n="1">
+<vnrole vncls="54.1" vntheta="Theme"/></role>
+
+<role descr="measurement" n="2" source="3">
+<vnrole vncls="54.1" vntheta="Attribute"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a key measure of underlying sentiment among technical analysts
+</text>
+<arg f="REF" n="2">measure</arg>
+<rel>measure</rel>
+<arg n="1">of underlying sentiment</arg>
+<arg n="0">among technical analysts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+By some measures , metropolitan Denver 's economy has actually
+improved in the past four years .
+</text>
+<rel>measures</rel>
+<arg n="1">metropolitan Denver 's economy</arg>
+</example>
+
+</roleset>
+<roleset id="measure.02" name="attempt/law" source="verb-attempt.01">
+<roles>
+
+<role descr="agent/legislative-body" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+successful cost-cutting measures at Newsweek
+</text>
+<arg n="1">cost-cutting</arg>
+<rel>measures</rel>
+<arg n="0">at Newsweek</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the austerity measures
+</text>
+<arg n="1">austerity</arg>
+<rel>measures</rel>
+</example>
+
+</roleset>
+<roleset id="measure.03" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a measure of volatility
+</text>
+<rel>measure</rel>
+<arg n="1">of volatility</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the full measure of housing affordability
+</text>
+<rel>measure</rel>
+<arg n="1">of housing affordability</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

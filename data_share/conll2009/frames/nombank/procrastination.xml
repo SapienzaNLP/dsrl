@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="procrastination">
+<roleset id="procrastination.01" name="nomlike" source="verb-fool.02">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Dinkins 's procrastination
+</text>
+<arg n="0">Mr. Dinkins 's</arg>
+<rel>procrastination</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

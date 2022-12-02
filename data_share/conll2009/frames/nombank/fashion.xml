@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fashion">
+<roleset id="fashion.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the total women 's fashion jewelry business
+</text>
+<arg n="1">women 's</arg>
+<rel>fashion</rel>
+<arg n="2">jewelry</arg>
+<arg n="Support">business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+women 's fashion
+</text>
+<arg n="1">women 's</arg>
+<arg f="REF" n="2">fashion</arg>
+<rel>fashion</rel>
+</example>
+
+</roleset>
+<roleset id="fashion.02" name="to conduct (oneself) in a specified way" source="verb-behave.01">
+<roles>
+
+<role descr="agent, entity behaving" n="0"></role>
+
+<role descr="manner" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+To answer the brokerage question , Kidder , in typical fashion ,
+completed a task-force study .
+</text>
+<arg n="0">Kidder</arg>
+<arg n="1">typical</arg>
+<rel>fashion</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Narrowing the penalty in this fashion
+</text>
+<arg n="0">*</arg>
+<arg n="1">this</arg>
+<rel>fashion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

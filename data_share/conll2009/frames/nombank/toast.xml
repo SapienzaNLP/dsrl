@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="toast">
+<roleset id="toast.01" name="to propose a toast to" source="verb-toast.01">
+<roles>
+
+<role descr="toaster, agent" n="0"></role>
+
+<role descr="entity honored" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his return toast to Mr. Nixon
+</text>
+<arg n="0">his</arg>
+<rel>toast</rel>
+<arg n="1">to Mr. Nixon</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the back-on-terra-firma toast
+</text>
+<arg n="1">back-on-terra-firma</arg>
+<rel>toast</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

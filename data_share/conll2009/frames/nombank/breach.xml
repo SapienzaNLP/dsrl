@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="breach">
+<roleset id="breach.01" name="break" source="verb-breach.01">
+<roles>
+
+<role descr="breaker" n="0"></role>
+
+<role descr="thing broken" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+MGM/UA has sued Qintex Australia for breach of contract and fraud
+over the collapsed acquisition agreement
+</text>
+<arg n="Support">sued for</arg>
+<arg n="0">Qintex Australia</arg>
+<rel>breach</rel>
+<arg n="1">of contract</arg>
+</example>
+
+<example name="autogen2">
+<text>
+all fiduciary breaches
+</text>
+<arg n="1">fiduciary</arg>
+<rel>breaches</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

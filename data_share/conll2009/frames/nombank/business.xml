@@ -1,0 +1,95 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="business">
+<roleset id="business.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+BellSouth 's cellular business
+</text>
+<arg n="0">BellSouth 's</arg>
+<arg n="1">cellular</arg>
+<rel>business</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the television business
+</text>
+<arg n="1">television</arg>
+<rel>business</rel>
+</example>
+
+</roleset>
+<roleset id="business.02" name="give money to" source="verb-patronize.01">
+<roles>
+
+<role descr="patron, agent" n="0"></role>
+
+<role descr="entity patronized" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the U.S. securities business
+</text>
+<arg n="0">U.S.</arg>
+<arg n="1">securities</arg>
+<rel>business</rel>
+</example>
+
+<example name="autogen2">
+<text>
+She took her business to First Atlanta .
+</text>
+<arg n="0">her</arg>
+<rel>business</rel>
+<arg n="1">to First Atlanta</arg>
+</example>
+
+</roleset>
+<roleset id="business.03" name="work with" source="verb-cooperate.01" vncls="36.1">
+<roles>
+
+<role descr="one cooperator" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="other cooperator(s" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="shared task" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its U.S. automotive business
+</text>
+<arg n="0">its</arg>
+<arg n="1">U.S.</arg>
+<arg n="2">automotive</arg>
+<rel>business</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their core North American automotive businesses
+</text>
+<arg n="0">their</arg>
+<arg n="1">North American</arg>
+<arg n="2">automotive</arg>
+<rel>businesses</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

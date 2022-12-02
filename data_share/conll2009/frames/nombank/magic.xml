@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="magic">
+<roleset id="magic.01" name="attribute/nomadj-magic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the magic '' of the company 's creative drive
+</text>
+<arg f="REF" n="2">magic</arg>
+<rel>magic</rel>
+<arg n="1">of the company 's creative drive</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Chandler 's special magic
+</text>
+<arg n="1">Chandler 's</arg>
+<arg f="REF" n="2">magic</arg>
+<rel>magic</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

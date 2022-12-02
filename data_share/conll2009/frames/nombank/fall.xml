@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fall">
+<roleset id="fall.01" name="move downward" source="verb-fall.01" vncls="51.1-2">
+<roles>
+
+<role descr="logical subject, patient, thing falling" n="1">
+<vnrole vncls="51.1-2" vntheta="Theme"/></role>
+
+<role descr="ext, amount fallen" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point, end state of arg1" n="4">
+<vnrole vncls="51.1-2" vntheta="Location"/></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the stock market lurched into a 190-point free fall on Oct. 13
+</text>
+<arg n="1">the stock market</arg>
+<arg n="Support">lurched into</arg>
+<arg n="2">190-point</arg>
+<arg f="MNR" n="M">free</arg>
+<rel>fall</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the estimated 2 % fall in imports
+</text>
+<arg n="2">2 %</arg>
+<rel>fall</rel>
+<arg n="1">in imports</arg>
+</example>
+
+</roleset>
+<roleset id="fall.02" name="meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fall of next year
+</text>
+<rel>fall</rel>
+<arg n="1">of next year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+fall 1987
+</text>
+<rel>fall</rel>
+<arg n="1">1987</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

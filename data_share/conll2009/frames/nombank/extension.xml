@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="extension">
+<roleset id="extension.01" name="make longer" source="verb-extend.01">
+<roles>
+
+<role descr="agent, entity making something be longer" n="0"></role>
+
+<role descr="patient, thing getting longer" n="1"></role>
+
+<role descr="ext or tmp, by how much or until when" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ingalls Shipbuilding Inc. , a division of Litton Industries Inc.
+, was given a $ 15.5 million extension on a contract for shipyard
+services .
+</text>
+<arg n="0">
+Ingalls Shipbuilding Inc. , a division of Litton Industries Inc.
+, ---> *-1</arg>
+<arg n="Support">given</arg>
+<arg n="2">$ 15.5 million</arg>
+<rel>extension</rel>
+<arg n="1">on a contract for shipyard services</arg>
+</example>
+
+<example name="autogen2">
+<text>
+six-month filing extensions
+</text>
+<arg n="2">six-month</arg>
+<arg n="1">filing</arg>
+<rel>extensions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

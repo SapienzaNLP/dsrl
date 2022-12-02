@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="menace">
+<roleset id="menace.01" name="threaten" source="verb-threaten.01" vncls="31.1">
+<roles>
+
+<role descr="agent, entity making a threat" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="threat" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="beneficiary', entity threatened" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the menace drugs posed to the moral structure of their country
+</text>
+<rel>menace</rel>
+<arg n="1">drugs</arg>
+<arg n="Support">posed</arg>
+<arg n="2">to the moral structure of their country</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

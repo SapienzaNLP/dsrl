@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bickering">
+<roleset id="bickering.01" name="to argue" source="verb-bicker.01" vncls="36.1">
+<roles>
+
+<role descr="agent(s) bickering" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="topic" n="1">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+partisan bickering over the debt ceiling , which has become
+entangled in the fight over cutting capital-gains taxes
+</text>
+<arg n="0">partisan</arg>
+<rel>bickering</rel>
+<arg n="1">
+over the debt ceiling , which has become entangled in the fight
+over cutting capital-gains taxes</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the ongoing bickering over the dollar between the Federal Reserve
+and the Mulford Treasury
+</text>
+<arg f="TMP" n="M">ongoing</arg>
+<rel>bickering</rel>
+<arg n="1">over the dollar</arg>
+<arg n="0">between the Federal Reserve and the Mulford Treasury</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

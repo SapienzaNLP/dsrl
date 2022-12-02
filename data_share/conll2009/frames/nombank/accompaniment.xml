@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accompaniment">
+<roleset id="accompaniment.01" name="go along with" source="verb-accompany.01" vncls="51.7">
+<roles>
+
+<role descr="subject accompanier" n="0">
+<vnrole vncls="51.7" vntheta="Agent"/></role>
+
+<role descr="object accompanied" n="1">
+<vnrole vncls="51.7" vntheta="Theme"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+solo violin with orchestral accompaniment
+</text>
+<arg n="1">solo violin</arg>
+<arg n="0">orchestral</arg>
+<rel>accompaniment</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the accompaniment to the Dalai Lama 's first public address in
+the U.S.
+</text>
+<arg f="REF" n="0">accompaniment</arg>
+<rel>accompaniment</rel>
+<arg n="1">to the Dalai Lama 's first public address in the U.S.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

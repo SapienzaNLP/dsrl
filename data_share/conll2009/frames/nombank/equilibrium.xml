@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="equilibrium">
+<roleset id="equilibrium.01" name="attribute/nomadjlike-stable">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the markets ' equilibrium
+</text>
+<arg n="1">the markets '</arg>
+<arg f="REF" n="2">equilibrium</arg>
+<rel>equilibrium</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a `` military equilibrium ''
+</text>
+<arg n="1">military</arg>
+<arg f="REF" n="2">equilibrium</arg>
+<rel>equilibrium</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

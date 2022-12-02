@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prodding">
+<roleset id="prodding.01" name="to urge on" source="verb-prod.01">
+<roles>
+
+<role descr="causer" n="0"></role>
+
+<role descr="action" n="1" source="2"></role>
+
+<role descr="entity urged" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+This year Congress , with prodding from President Bush , has been
+busy trying to put many of these same tax preferences back into
+the code .
+</text>
+<arg n="2">Congress</arg>
+<rel>prodding</rel>
+<arg n="0">from President Bush</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wrangling">
+<roleset id="wrangling.01" name="to argue" source="verb-wrangle.01">
+<roles>
+
+<role descr="speaker" n="0"></role>
+
+<role descr="topic" n="1" source="2"></role>
+
+<role descr="actor2" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+legal wrangling
+</text>
+<arg f="MNR" n="M">legal</arg>
+<rel>wrangling</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

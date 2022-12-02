@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tinkering">
+<roleset id="tinkering.01" name="to mess around" source="verb-tinker.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+After four year of tinkering and $ 2.4 million in seed money ,
+the board set up the new marketplace , titled it the Chicago
+Board Options Exchange , and named Sullivan its first president .
+</text>
+<arg f="TMP" n="M">four year</arg>
+<arg n="Support">year of</arg>
+<rel>tinkering</rel>
+<arg n="0">the board</arg>
+</example>
+
+<example name="autogen2">
+<text>
+any tinkering with CNN 's format
+</text>
+<rel>tinkering</rel>
+<arg n="1">with CNN 's format</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

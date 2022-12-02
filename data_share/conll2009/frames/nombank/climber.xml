@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="climber">
+<roleset id="climber.01" name="intentional climber" source="verb-climb.01" vncls="51.3.2">
+<roles>
+
+<role descr="climber" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="thing climbed (clomb" n="1">
+<vnrole vncls="51.3.2" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+stair climbers
+</text>
+<arg n="1">stair</arg>
+<arg n="0">climbers</arg>
+<rel>climbers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

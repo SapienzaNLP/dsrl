@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="donor">
+<roleset id="donor.01" name="give" source="verb-donate.01" vncls="13.2">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.2" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.2" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In fact , the donors sometimes might be better off giving the
+money to the panhandler
+</text>
+<arg n="0">donors</arg>
+<rel>donors</rel>
+<arg n="Support">giving</arg>
+<arg n="1">the money</arg>
+<arg n="2">to the panhandler</arg>
+</example>
+
+<example name="autogen2">
+<text>
+used stamps , which they collect from children and other donors ,
+</text>
+<arg n="1">used stamps ---> which ---> *T*-1</arg>
+<arg n="2">they</arg>
+<arg n="Support">collect from</arg>
+<arg n="0">donors</arg>
+<rel>donors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="genius">
+<roleset id="genius.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a genius at making computers do his bidding
+</text>
+<arg n="0">genius</arg>
+<rel>genius</rel>
+<arg n="1">at making computers do his bidding</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the organizing genius
+</text>
+<arg n="1">organizing</arg>
+<arg n="0">genius</arg>
+<rel>genius</rel>
+</example>
+
+</roleset>
+<roleset id="genius.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their particular blend of style , genius and energy
+</text>
+<arg n="1">their</arg>
+<arg n="Support">blend of</arg>
+<arg f="REF" n="2">genius</arg>
+<rel>genius</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dialogue">
+<roleset id="dialogue.01" name="talk about" source="verb-discuss.01">
+<roles>
+
+<role descr="agent/discussant" n="0"></role>
+
+<role descr="theme/topic" n="1"></role>
+
+<role descr="second actor" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to maintain the dialogue with the PLO
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">maintain</arg>
+<rel>dialogue</rel>
+<arg n="2">with the PLO</arg>
+</example>
+
+<example name="autogen2">
+<text>
+dialogue between managers and workers
+</text>
+<rel>dialogue</rel>
+<arg n="0">between managers and workers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

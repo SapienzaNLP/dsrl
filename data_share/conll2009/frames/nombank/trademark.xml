@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trademark">
+<roleset id="trademark.01" name="to obtain a patent for" source="verb-patent.01">
+<roles>
+
+<role descr="inventor, agent" n="0"></role>
+
+<role descr="invention" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his trademark white goatee
+</text>
+<arg n="0">his</arg>
+<rel>trademark</rel>
+<arg n="1">white goatee</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his trademark black velvet suit
+</text>
+<arg n="0">his</arg>
+<rel>trademark</rel>
+<arg n="1">black velvet suit</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

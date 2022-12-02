@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pill">
+<roleset id="pill.01" name="shield from danger" source="verb-protect.01">
+<roles>
+
+<role descr="protector" n="0"></role>
+
+<role descr="protected" n="1"></role>
+
+<role descr="danger" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mindy Hymowitz 's mother did n't use their pill
+</text>
+<arg n="1">Mindy Hymowitz 's mother</arg>
+<arg n="Support">use</arg>
+<arg n="0">their</arg>
+<arg n="3">pill</arg>
+<rel>pill</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its Marvelon pill
+</text>
+<arg n="0">its</arg>
+<arg n="3">pill</arg>
+<rel>pill</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

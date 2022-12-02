@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="malignancy">
+<roleset id="malignancy.01" name="nomadj-malignant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+If both copies of a second gene were then deleted , the polyps
+would progress to malignancy .
+</text>
+<arg n="1">the polyps</arg>
+<arg n="Support">progress to</arg>
+<rel>malignancy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+, if damaged , flipped a colon cell into full-blown malignancy
+</text>
+<arg n="Support">flipped into</arg>
+<arg n="1">a colon cell</arg>
+<rel>malignancy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

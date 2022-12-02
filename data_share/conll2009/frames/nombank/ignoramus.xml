@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ignoramus">
+<roleset id="ignoramus.01" name="nomadj-ignorant">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+another confessed garden ignoramus
+</text>
+<arg n="1">garden</arg>
+<arg n="0">ignoramus</arg>
+<rel>ignoramus</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

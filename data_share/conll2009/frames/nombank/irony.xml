@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="irony">
+<roleset id="irony.01" name="nomadj-ironic/work-of-art/attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="context" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The irony in this novel is that neither man represents a `` safe
+'' middle-class haven
+</text>
+<arg f="REF" n="2">irony</arg>
+<rel>irony</rel>
+<arg n="3">in this novel</arg>
+<arg n="1">that neither man represents a `` safe '' middle-class haven</arg>
+</example>
+
+<example name="autogen2">
+<text>
+With considerable irony , the case also shows how completely
+Japan has turned the tables on U.S. business .
+</text>
+<arg n="2">considerable</arg>
+<rel>irony</rel>
+<arg n="1">
+the case also shows how completely Japan has turned the tables on
+U.S. business</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

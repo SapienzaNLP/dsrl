@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lot">
+<roleset id="lot.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+lots of clout
+</text>
+<rel>lots</rel>
+<arg n="1">of clout</arg>
+</example>
+
+<example name="autogen3">
+<text>
+A lot of pent-up demand
+</text>
+<rel>lot</rel>
+<arg n="1">of pent-up demand</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

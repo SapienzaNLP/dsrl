@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="interdiction">
+<roleset id="interdiction.01" name="to get involved or interfere" source="verb-intervene.01">
+<roles>
+
+<role descr="nosy individual" n="0"></role>
+
+<role descr="intervene in" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Customs Service 's air-interdiction program
+</text>
+<arg n="0">the Customs Service 's</arg>
+<arg n="1">air-interdiction</arg>
+<rel>air-interdiction</rel>
+</example>
+
+<example name="autogen2">
+<text>
+federal law-enforcement and drug-interdiction agencies
+</text>
+<arg n="1">drug-interdiction</arg>
+<rel>drug-interdiction</rel>
+<arg n="0">agencies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

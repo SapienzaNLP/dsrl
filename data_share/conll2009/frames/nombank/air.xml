@@ -1,0 +1,114 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="air">
+<roleset id="air.01" name="cause to be widely visible" source="verb-air.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="broadcasted item" n="1"></role>
+
+<role descr="audience" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its commercial air time
+</text>
+<arg n="0">its</arg>
+<arg n="1">commercial</arg>
+<rel>air</rel>
+<arg n="Support">time</arg>
+</example>
+
+<example name="autogen2">
+<text>
+More European air time is filled with low-budget game shows ,
+variety hours , movies and talk shows , many of which are
+authorized knock-offs of their American counterparts .
+</text>
+<arg n="2">European</arg>
+<rel>air</rel>
+<arg n="Support">filled time</arg>
+<arg n="1">
+with low-budget game shows , variety hours , movies and talk
+shows , many of which are authorized knock-offs of their American
+counterparts</arg>
+</example>
+
+</roleset>
+<roleset id="air.02" name="pretend" source="verb-pretend.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="premise" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The occasional Englishman tries to put on airs
+</text>
+<arg n="0">The occasional Englishman ---> *-1</arg>
+<arg n="Support">put</arg>
+<rel>airs</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The rich image of Newport Beach also helps lend the con artists '
+operation an air of respectability .
+</text>
+<arg n="Support">lend</arg>
+<arg n="0">the con artists ' operation</arg>
+<rel>air</rel>
+<arg n="1">of respectability</arg>
+</example>
+
+</roleset>
+<roleset id="air.03" name="environment for thing">
+<roles>
+
+<role descr="thing existing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Air traffic
+</text>
+<rel>Air</rel>
+<arg n="1">traffic</arg>
+</example>
+
+<example name="autogen3">
+<text>
+clean air
+</text>
+<arg n="1">clean</arg>
+<rel>air</rel>
+</example>
+
+</roleset>
+<roleset id="air.04" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Bach 's `` Air ''
+</text>
+<arg n="0">Bach 's</arg>
+<rel>Air</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

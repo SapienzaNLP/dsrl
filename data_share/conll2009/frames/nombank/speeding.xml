@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="speeding">
+<roleset id="speeding.01" name="cause to) go fast" source="verb-speed.01" vncls="51.3.2">
+<roles>
+
+<role descr="causer of fast motion" n="0"></role>
+
+<role descr="entity in motion" n="1">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+speeding on a certain road
+</text>
+<rel>speeding</rel>
+<arg f="LOC" n="M">on a certain road</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

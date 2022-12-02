@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ambiguity">
+<roleset id="ambiguity.01" name="attribute/nomadj-ambiguous">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Its ambiguity and uneasy mixture
+</text>
+<arg n="1">Its</arg>
+<arg f="REF" n="2">ambiguity</arg>
+<rel>ambiguity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="effort">
+<roleset id="effort.01" name="attempt" source="verb-try.01">
+<roles>
+
+<role descr="agent/entity trying" n="0"></role>
+
+<role descr="thing tried" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its marketing efforts for telephone and non-telephone
+subsidiaries
+</text>
+<arg n="0">its</arg>
+<arg n="1">marketing</arg>
+<rel>efforts</rel>
+<arg n="2">for telephone and non-telephone subsidiaries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+efforts to get rid of some nearly worthless Japanese bonds
+</text>
+<rel>efforts</rel>
+<arg f="PRD" n="1">to get rid of some nearly worthless Japanese bonds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="airing">
+<roleset id="airing.01" name="cause to be widely visible" source="verb-air.01" vncls="45.4">
+<roles>
+
+<role descr="airer, agent" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing aired" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="audience" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And the new syndicated `` reality '' show `` Hard Copy '' records
+viewers ' opinions for possible airing on the next day 's show .
+</text>
+<arg n="0">the new syndicated `` reality '' show `` Hard Copy ''</arg>
+<arg n="Support">records for</arg>
+<arg n="1">viewers ' opinions</arg>
+<arg f="ADV" n="M">possible</arg>
+<rel>airing</rel>
+<arg n="2">on the next day 's show</arg>
+</example>
+
+<example name="autogen2">
+<text>
+-LRB- In other words , after some highly visible dithering and
+public airing of differences , the administration has come down
+on the side of those who believe that what we are witnessing from
+Berlin to Siberia is a good thing to be welcomed , rather than a
+new thing to be feared or viewed with suspicion . -RRB-
+</text>
+<arg f="MNR" n="M">public</arg>
+<rel>airing</rel>
+<arg n="1">of differences</arg>
+<arg n="0">the administration</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

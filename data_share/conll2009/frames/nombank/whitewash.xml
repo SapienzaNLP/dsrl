@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="whitewash">
+<roleset id="whitewash.01" name="discretely ignore" source="verb-gloss.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an attempted `` whitewash '' by deputies of chief federal
+regulator Danny Wall
+</text>
+<rel>whitewash</rel>
+<arg n="0">by deputies of chief federal regulator Danny Wall</arg>
+</example>
+
+<example name="autogen2">
+<text>
+anyone who did n't agree with them is part of a coverup , a
+whitewash , or the subject of excessive influence
+</text>
+<arg n="0">anyone who did n't agree with them</arg>
+<arg n="Support">part of</arg>
+<rel>whitewash</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

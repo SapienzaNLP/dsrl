@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grandfather">
+<roleset id="grandfather.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Schwarz 's great-grandfather
+</text>
+<arg n="1">Mr. Schwarz 's</arg>
+<arg n="0">great-grandfather</arg>
+<arg n="3">great-grandfather</arg>
+<rel>great-grandfather</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her grandfather
+</text>
+<arg n="1">her</arg>
+<arg n="0">grandfather</arg>
+<rel>grandfather</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

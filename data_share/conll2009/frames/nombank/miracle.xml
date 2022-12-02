@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="miracle">
+<roleset id="miracle.01" name="nomadj-miraculous/nomlike" source="verb-benefit.01">
+<roles>
+
+<role descr="theme" n="1" source="0"></role>
+
+<role descr="beneficiary" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+miracle elixir
+</text>
+<rel>miracle</rel>
+<arg n="1">elixir</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a second economic miracle in West Germany
+</text>
+<rel>miracle</rel>
+<arg n="2">in West Germany</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

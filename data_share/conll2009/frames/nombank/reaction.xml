@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reaction">
+<roleset id="reaction.01" name="nom/attribute/discourse-connective-in-reaction-to" source="verb-react.01" vncls="31.3">
+<roles>
+
+<role descr="experiencer" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="cause/theme" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+<role descr="reaction/value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Analysts and consultants had mixed reactions to yesterday 's
+announcements , praising Mr. Rifenburgh 's efforts but
+questioning whether the company can survive in a highly
+competitive marketplace .
+</text>
+<arg n="0">Analysts and consultants</arg>
+<arg n="Support">had</arg>
+<arg n="2">mixed</arg>
+<rel>reactions</rel>
+<arg n="1">to yesterday 's announcements</arg>
+</example>
+
+<example name="autogen2">
+<text>
+negative reaction against PASOK
+</text>
+<arg n="2">negative</arg>
+<rel>reaction</rel>
+<arg n="1">against PASOK</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

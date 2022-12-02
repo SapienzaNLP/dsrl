@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="faith">
+<roleset id="faith.01" name="believe" source="verb-believe.01" vncls="29.4">
+<roles>
+
+<role descr="believer" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="belief" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the market 's faith in them
+</text>
+<arg n="0">the market 's</arg>
+<rel>faith</rel>
+<arg n="1">in them</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Islamic faith of the majority of the Turkish people
+</text>
+<arg n="1">Islamic</arg>
+<rel>faith</rel>
+<arg n="0">of the majority of the Turkish people</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

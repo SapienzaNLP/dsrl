@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="council">
+<roleset id="council.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Addison 's town council
+</text>
+<arg n="2">Addison 's</arg>
+<arg n="1">town</arg>
+<rel>council</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Addison council
+</text>
+<arg n="2">Addison</arg>
+<rel>council</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

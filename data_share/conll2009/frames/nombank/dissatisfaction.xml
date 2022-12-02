@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dissatisfaction">
+<roleset id="dissatisfaction.01" name="make unhappy" source="verb-dissatisfy.01" vncls="31.1">
+<roles>
+
+<role descr="causer of dissatisfaction" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="dissatisfied party" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+dissatisfaction with bowling itself
+</text>
+<rel>dissatisfaction</rel>
+<arg n="0">with bowling itself</arg>
+</example>
+
+<example name="autogen2">
+<text>
+some longstanding dissatisfaction among companies listed on the
+exchange
+</text>
+<arg f="TMP" n="M">longstanding</arg>
+<rel>dissatisfaction</rel>
+<arg n="1">among companies listed on the exchange</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

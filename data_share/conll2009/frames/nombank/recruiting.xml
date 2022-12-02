@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recruiting">
+<roleset id="recruiting.01" name="convince to join" source="verb-recruit.01">
+<roles>
+
+<role descr="recruiter" n="0"></role>
+
+<role descr="recruit" n="1"></role>
+
+<role descr="group, job (sometimes predicate on arg1" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+MINORITY RECRUITING
+</text>
+<arg n="1">MINORITY</arg>
+<rel>RECRUITING</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a recruiting officer
+</text>
+<rel>recruiting</rel>
+<arg n="0">officer</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

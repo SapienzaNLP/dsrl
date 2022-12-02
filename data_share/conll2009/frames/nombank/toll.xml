@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="toll">
+<roleset id="toll.01" name="government charging money" source="verb-tax.01" vncls="54.5">
+<roles>
+
+<role descr="taxer" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="amount of tax" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="taxpayer" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its toll on foreign-exchange reserves
+</text>
+<arg n="0">its</arg>
+<rel>toll</rel>
+<arg n="3">on foreign-exchange reserves</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to have taken their toll on September new-home sales , which are
+believed to have fallen sharply from August 's 755,000 units
+</text>
+<arg n="0">their</arg>
+<rel>toll</rel>
+<arg n="2">
+on September new-home sales , which are believed to have fallen
+sharply from August 's 755,000 units</arg>
+</example>
+
+</roleset>
+<roleset id="toll.02" name="count, enumerate, come to a total" source="verb-tally.01">
+<roles>
+
+<role descr="counter, agent" n="0"></role>
+
+<role descr="thing counted, summed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+This human toll
+</text>
+<arg n="1">human</arg>
+<rel>toll</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the death toll
+</text>
+<arg n="1">death</arg>
+<rel>toll</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

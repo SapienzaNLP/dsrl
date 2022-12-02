@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scruff">
+<roleset id="scruff.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the scruff of its neck
+</text>
+<rel>scruff</rel>
+<arg n="1">of its neck</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

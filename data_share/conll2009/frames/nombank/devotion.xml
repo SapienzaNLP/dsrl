@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="devotion">
+<roleset id="devotion.01" name="make a strong connection with" source="verb-devote.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its former devotion to socialist unity
+</text>
+<arg n="0">its</arg>
+<arg f="TMP" n="M">former</arg>
+<rel>devotion</rel>
+<arg n="2">to socialist unity</arg>
+</example>
+
+<example name="autogen2">
+<text>
+filial devotion
+</text>
+<arg n="2">filial</arg>
+<rel>devotion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

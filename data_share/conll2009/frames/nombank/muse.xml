@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="muse">
+<roleset id="muse.01" name="to affect, guide" source="verb-inspire.01" vncls="31.1">
+<roles>
+
+<role descr="causer of inspiration" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="experiencer" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="inspired action" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Cockburn 's satirical muse
+</text>
+<arg n="1">Mr. Cockburn 's</arg>
+<arg n="0">muse</arg>
+<rel>muse</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his muse
+</text>
+<arg n="1">his</arg>
+<arg n="0">muse</arg>
+<rel>muse</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

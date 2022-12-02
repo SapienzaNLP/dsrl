@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fact">
+<roleset id="fact.01" name="nom/discourse-adverbial-in-fact" source="verb-happen.01">
+<roles>
+
+<role descr="event" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fact that he used insulting language
+</text>
+<rel>fact</rel>
+<arg n="1">that he used insulting language</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Just the fact we 're on 24 hours
+</text>
+<rel>fact</rel>
+<arg n="1">we 're on 24 hours</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

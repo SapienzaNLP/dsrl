@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="group">
+<roleset id="group.01" name="group/partitive-quant/partitive-part">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Freddie Mac 's 17-member securities selling group
+</text>
+<arg n="2">Freddie Mac 's</arg>
+<arg n="3">17-member</arg>
+<arg n="1">securities selling</arg>
+<rel>group</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his group
+</text>
+<arg n="2">his</arg>
+<rel>group</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

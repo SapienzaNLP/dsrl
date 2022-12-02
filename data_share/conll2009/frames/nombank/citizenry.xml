@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="citizenry">
+<roleset id="citizenry.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our citizenry
+</text>
+<arg n="1">our</arg>
+<arg n="0">citizenry</arg>
+<rel>citizenry</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

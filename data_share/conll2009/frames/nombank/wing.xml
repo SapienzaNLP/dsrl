@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wing">
+<roleset id="wing.01" name="meronym/partitive-part/body-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her wings
+</text>
+<arg n="1">her</arg>
+<rel>wings</rel>
+</example>
+
+<example name="autogen2">
+<text>
+airplane wings
+</text>
+<arg n="1">airplane</arg>
+<rel>wings</rel>
+</example>
+
+</roleset>
+<roleset id="wing.02" name="group/partitive-quant/partitive-part">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the group 's armed wing
+</text>
+<arg n="2">the group 's</arg>
+<arg n="1">armed</arg>
+<rel>wing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the internal and external wings of the ANC
+</text>
+<arg n="1">internal and external</arg>
+<rel>wings</rel>
+<arg n="2">of the ANC</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

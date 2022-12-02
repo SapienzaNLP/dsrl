@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="denizen">
+<roleset id="denizen.01" name="nomlike" source="verb-inhabit.01">
+<roles>
+
+<role descr="resident" n="0"></role>
+
+<role descr="place of residence" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Denizens of London 's financial district
+</text>
+<arg n="0">Denizens</arg>
+<rel>Denizens</rel>
+<arg n="1">of London 's financial district</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

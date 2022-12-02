@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="researcher">
+<roleset id="researcher.01" name="study very hard" source="verb-research.01">
+<roles>
+
+<role descr="student" n="0"></role>
+
+<role descr="subject" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+market researcher Gartner Group
+</text>
+<arg n="1">market</arg>
+<arg n="0">researcher</arg>
+<rel>researcher</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Columbia researchers
+</text>
+<arg f="LOC" n="M">Columbia</arg>
+<arg n="0">researchers</arg>
+<rel>researchers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

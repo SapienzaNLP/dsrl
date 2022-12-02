@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vacationer">
+<roleset id="vacationer.01" name="go on holiday" source="verb-vacation.01">
+<roles>
+
+<role descr="vacationer(s" n="0"></role>
+
+<role descr="location of vacation" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+ordinary vacationers
+</text>
+<arg f="MNR" n="M">ordinary</arg>
+<arg n="0">vacationers</arg>
+<rel>vacationers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Christmas season vacationers
+</text>
+<arg f="TMP" n="M">Christmas season</arg>
+<arg n="0">vacationers</arg>
+<rel>vacationers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

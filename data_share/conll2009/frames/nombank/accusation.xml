@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accusation">
+<roleset id="accusation.01" name="accuse of a crime" source="verb-accuse.01">
+<roles>
+
+<role descr="accuser" n="0"></role>
+
+<role descr="accused" n="1"></role>
+
+<role descr="crime" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The two sides in the legal battle have hurled accusations of
+duplicity at each other for weeks
+</text>
+<arg n="0">The two sides in the legal battle</arg>
+<arg n="Support">hurled</arg>
+<rel>accusations</rel>
+<arg n="2">of duplicity</arg>
+<arg n="1">at each other</arg>
+</example>
+
+<example name="autogen2">
+<text>
+accusations that he 's as much a company man as La Quina was a
+crook
+</text>
+<rel>accusations</rel>
+<arg n="2">that he 's as much a company man as La Quina was a crook</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

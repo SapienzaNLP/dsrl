@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="defeat">
+<roleset id="defeat.01" name="to win over" source="verb-defeat.01">
+<roles>
+
+<role descr="entity victorious" n="0"></role>
+
+<role descr="topic of conflict" n="1"></role>
+
+<role descr="entity defeated" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an unusual parliamentary defeat for the ruling party
+</text>
+<arg f="ADV" n="M">unusual</arg>
+<arg n="1">parliamentary</arg>
+<rel>defeat</rel>
+<arg n="2">for the ruling party</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Potential candidates may be discouraged from running less by the
+congressional salary than by the prospect of defeat at the hands
+of a Democratic opponent .
+</text>
+<arg n="2">Potential candidates ---> *-1</arg>
+<arg n="Support">by prospect of</arg>
+<rel>defeat</rel>
+<arg n="0">at the hands of a Democratic opponent</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

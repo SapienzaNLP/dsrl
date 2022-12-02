@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="limit">
+<roleset id="limit.01" name="ensure something stays below a certain level" source="verb-limit.01">
+<roles>
+
+<role descr="agent, limiter" n="0"></role>
+
+<role descr="theme/thing limited" n="1"></role>
+
+<role descr="limit" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its 30-point trading limit
+</text>
+<arg n="0">its</arg>
+<arg n="2">30-point</arg>
+<arg n="1">trading</arg>
+<rel>limit</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its 30-point limit
+</text>
+<arg n="1">its</arg>
+<arg n="2">30-point</arg>
+<rel>limit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

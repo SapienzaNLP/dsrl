@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="makeup">
+<roleset id="makeup.01" name="comprise" source="verb-make.07">
+<roles>
+
+<role descr="components" n="0"></role>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the makeup of the task force
+</text>
+<rel>makeup</rel>
+<arg n="1">of the task force</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the sturdy emotional makeup
+</text>
+<arg f="MNR" n="M">sturdy</arg>
+<arg n="1">emotional</arg>
+<rel>makeup</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

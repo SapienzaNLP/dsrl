@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="age">
+<roleset id="age.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an average age of 42 for readers -- at the height of their
+consuming years
+</text>
+<rel>age</rel>
+<arg n="2">of 42</arg>
+<arg n="1">for readers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the 35-44 age bracket
+</text>
+<arg n="2">35-44</arg>
+<rel>age</rel>
+</example>
+
+</roleset>
+<roleset id="age.02" name="environment for thing">
+<roles>
+
+<role descr="thing existing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+this age of computerized trading
+</text>
+<rel>age</rel>
+<arg n="1">of computerized trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the last ice age
+</text>
+<arg n="1">ice</arg>
+<rel>age</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

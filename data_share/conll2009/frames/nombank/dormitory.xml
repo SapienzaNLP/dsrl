@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dormitory">
+<roleset id="dormitory.01" name="nomlike/house" source="verb-house.01" vncls="9.10">
+<roles>
+
+<role descr="provider of housing" n="0">
+<vnrole vncls="9.10" vntheta="Agent"/></role>
+
+<role descr="entity housed" n="1">
+<vnrole vncls="9.10" vntheta="Theme"/></role>
+
+<role descr="location" n="2">
+<vnrole vncls="9.10" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the austere company dormitory
+</text>
+<arg n="0">company</arg>
+<arg n="2">dormitory</arg>
+<rel>dormitory</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the first coed company dormitory for single employees
+</text>
+<arg n="0">company</arg>
+<arg n="2">dormitory</arg>
+<rel>dormitory</rel>
+<arg n="1">for single employees</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

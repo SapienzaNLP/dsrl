@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hybrid">
+<roleset id="hybrid.01" name="combine, mix" source="verb-combine.01" vncls="22.1-1">
+<roles>
+
+<role descr="agent, mixer" n="0">
+<vnrole vncls="22.1-1" vntheta="Agent"/></role>
+
+<role descr="ingredient one" n="1">
+<vnrole vncls="22.1-1" vntheta="Patient1"/></role>
+
+<role descr="ingredient two" n="2">
+<vnrole vncls="22.1-1" vntheta="Patient2"/></role>
+
+<role descr="end product" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+male-sterile plants that can be cross-pollinated to produce
+hybrid seed
+</text>
+<arg n="1">male-sterile plants ---> *T*-2 ---> *-22 ---> *</arg>
+<arg n="Support">produce seed</arg>
+<rel>hybrid</rel>
+<arg n="3">seed</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a smaller tobacco and financial-services hybrid
+</text>
+<arg n="1">tobacco and financial-services</arg>
+<arg f="REF" n="3">hybrid</arg>
+<rel>hybrid</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

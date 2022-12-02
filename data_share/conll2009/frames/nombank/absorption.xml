@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="absorption">
+<roleset id="absorption.01" name="suck up" source="verb-absorb.01">
+<roles>
+
+<role descr="absorber" n="0"></role>
+
+<role descr="absorbed, us. liquid" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The issue 's smooth absorption
+</text>
+<arg n="1">The issue 's</arg>
+<arg f="MNR" n="M">smooth</arg>
+<rel>absorption</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

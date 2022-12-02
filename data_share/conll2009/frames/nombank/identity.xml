@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="identity">
+<roleset id="identity.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more programs with an individual identity
+</text>
+<arg n="1">more programs</arg>
+<rel>identity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the German identity
+</text>
+<arg n="2">German</arg>
+<rel>identity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

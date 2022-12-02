@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="routine">
+<roleset id="routine.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the precision routine of yanking the balloon to the ground ,
+punching all the air out of it , rolling it up and cramming it
+and the basket into the trailer
+</text>
+<rel>routine</rel>
+<arg n="1">
+of yanking the balloon to the ground , punching all the air out
+of it , rolling it up and cramming it and the basket into the
+trailer</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his routine
+</text>
+<arg n="0">his</arg>
+<rel>routine</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

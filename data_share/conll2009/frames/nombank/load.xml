@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="load">
+<roleset id="load.01" name="partitive-quant/nomlike" source="verb-burden.01" vncls="13.4.2">
+<roles>
+
+<role descr="quantified/theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1">
+<vnrole vncls="13.4.2" vntheta="Recipient"/></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the ones with heavy debt loads
+</text>
+<arg n="2">the ones</arg>
+<arg n="1">debt</arg>
+<rel>loads</rel>
+</example>
+
+<example name="autogen3">
+<text>
+companies with big debt loads on their balance sheets
+</text>
+<arg n="2">companies</arg>
+<arg n="1">debt</arg>
+<rel>loads</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

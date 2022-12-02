@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="polish">
+<roleset id="polish.01" name="attribute/nomadj-polished">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the polish of `` Sesame Street
+</text>
+<arg f="REF" n="2">polish</arg>
+<rel>polish</rel>
+<arg n="1">of `` Sesame Street</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

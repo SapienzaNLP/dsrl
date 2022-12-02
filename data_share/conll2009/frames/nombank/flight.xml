@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flight">
+<roleset id="flight.01" name="fly through the air, travel via air" source="verb-fly.01" vncls="47.6">
+<roles>
+
+<role descr="causal agent (pilot" n="0">
+<vnrole vncls="47.6" vntheta="Agent"/></role>
+
+<role descr="thing actually doing the flying (plane" n="1">
+<vnrole vncls="47.6" vntheta="Theme"/></role>
+
+<role descr="beneficiary (passenger" n="2" source="1"></role>
+
+<role descr="start position" n="3"></role>
+
+<role descr="end position" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+all Aeroflot international flights out of Moscow
+</text>
+<arg n="0">Aeroflot</arg>
+<arg n="4">international</arg>
+<arg f="REF" n="1">flights</arg>
+<rel>flights</rel>
+<arg n="3">out of Moscow</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Breene , fresh from a Concorde flight from Paris where
+executives had worked through most of the night ,
+</text>
+<arg n="2">Mr. Breene</arg>
+<arg n="Support">fresh from</arg>
+<arg n="1">Concorde</arg>
+<rel>flight</rel>
+<arg n="3">from Paris where executives had worked through most of the night</arg>
+</example>
+
+</roleset>
+<roleset id="flight.02" name="run away (from" source="verb-flee.01">
+<roles>
+
+<role descr="fleer, runner" n="0"></role>
+
+<role descr="fled--person or place" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their flight to Taiwan
+</text>
+<arg n="0">their</arg>
+<rel>flight</rel>
+<arg n="1">to Taiwan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The `` flight to quality ''
+</text>
+<rel>flight</rel>
+<arg n="1">to quality</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

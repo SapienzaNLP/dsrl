@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="imagination">
+<roleset id="imagination.01" name="imagine" source="verb-imagine.01" vncls="29.2">
+<roles>
+
+<role descr="thinker" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="object, thing under consideration" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="attribute" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a real sports hero had captured the imagination of a kid who
+never fully grew up and is all the richer for it
+</text>
+<arg n="1">a real sports hero</arg>
+<arg n="Support">captured</arg>
+<rel>imagination</rel>
+<arg n="0">of a kid who never fully grew up and is all the richer for it</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the imagination of their progenitors
+</text>
+<rel>imagination</rel>
+<arg n="0">of their progenitors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

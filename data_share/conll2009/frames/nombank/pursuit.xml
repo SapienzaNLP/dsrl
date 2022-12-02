@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pursuit">
+<roleset id="pursuit.01" name="follow, chase" source="verb-pursue.01" vncls="51.6">
+<roles>
+
+<role descr="thing following" n="0">
+<vnrole vncls="51.6" vntheta="Agent"/></role>
+
+<role descr="thing followed" n="1">
+<vnrole vncls="51.6" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+They have even sent helicopters in pursuit of bikers after hikers
+and equestrians complained they were being driven from trails .
+</text>
+<arg n="0">helicopters</arg>
+<rel>pursuit</rel>
+<arg n="1">of bikers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the pursuit of private interest
+</text>
+<rel>pursuit</rel>
+<arg n="1">of private interest</arg>
+</example>
+
+</roleset>
+<roleset id="pursuit.02" name="nom-pursue/pastime" source="endeavor.01" vncls="51.6">
+<roles>
+
+<role descr="person having interest" n="0">
+<vnrole vncls="51.6" vntheta="Agent"/></role>
+
+<role descr="hobby or activity" n="1">
+<vnrole vncls="51.6" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the pursuit of a handful of hardened veterans
+</text>
+<arg f="REF" n="1">pursuit</arg>
+<rel>pursuit</rel>
+<arg n="0">of a handful of hardened veterans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+entertainment pursuits
+</text>
+<arg n="1">entertainment</arg>
+<rel>pursuits</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

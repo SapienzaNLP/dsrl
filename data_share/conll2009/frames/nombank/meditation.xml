@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="meditation">
+<roleset id="meditation.01" name="nomlike" source="verb-think.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a meditation on the morality of art , and on the struggle for
+integrity in an unfair world
+</text>
+<rel>meditation</rel>
+<arg n="1">
+on the morality of art , and on the struggle for integrity in an
+unfair world</arg>
+</example>
+
+<example name="autogen2">
+<text>
+From time to time he returns to the monastery for prayer ,
+meditation and pro bono legal work .
+</text>
+<arg n="0">he</arg>
+<arg n="Support">returns for</arg>
+<rel>meditation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

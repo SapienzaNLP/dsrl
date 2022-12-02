@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="attendant">
+<roleset id="attendant.01" name="belong with or at" source="verb-attend.01">
+<roles>
+
+<role descr="thing attending" n="0"></role>
+
+<role descr="thing attended" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more than 130 Aeroflot pilots and flight attendants
+</text>
+<arg n="1">flight</arg>
+<arg n="0">attendants</arg>
+<rel>attendants</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the flight attendants '
+</text>
+<arg n="1">flight</arg>
+<arg n="0">attendants</arg>
+<rel>attendants</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

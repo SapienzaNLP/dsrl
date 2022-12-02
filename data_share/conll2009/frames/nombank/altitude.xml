@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="altitude">
+<roleset id="altitude.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a higher altitude
+</text>
+<arg n="2">higher</arg>
+<rel>altitude</rel>
+</example>
+
+<example name="autogen2">
+<text>
+low-altitude navigation and targeting equipment
+</text>
+<arg n="2">low-altitude</arg>
+<rel>low-altitude</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

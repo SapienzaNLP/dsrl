@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gift">
+<roleset id="gift.01" name="transfer" source="verb-give.01" vncls="13.1-1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+$ 1 million in political gifts by Arizona businessman Charles
+Keating to five U.S. senators who interceded with thrift-industry
+regulators for him
+</text>
+<arg n="1">$ 1 million</arg>
+<rel>gifts</rel>
+<arg n="0">by Arizona businessman Charles Keating</arg>
+<arg n="2">
+to five U.S. senators who interceded with thrift-industry
+regulators for him</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he made charitable gifts of $ 26,350 out of reported two-year
+income of $ 46,892
+</text>
+<arg n="0">he</arg>
+<arg n="Support">made</arg>
+<arg n="2">charitable</arg>
+<rel>gifts</rel>
+<arg n="1">of $ 26,350</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

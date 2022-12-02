@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cast">
+<roleset id="cast.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a cast of thousands
+</text>
+<rel>cast</rel>
+<arg n="1">of thousands</arg>
+</example>
+
+</roleset>
+<roleset id="cast.02" name="name, assign a role" source="verb-cast.02" vncls="29.2">
+<roles>
+
+<role descr="namer, assigner of a role" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="entity playing the role" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="role" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Moliere 's cast of characters
+</text>
+<arg n="0">Moliere 's</arg>
+<arg f="REF" n="1">cast</arg>
+<rel>cast</rel>
+<arg n="2">of characters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Creator Hugh Wilson , for example , included the lead character
+'s Greek family in the cast
+</text>
+<arg n="0">Creator Hugh Wilson</arg>
+<arg n="Support">included in</arg>
+<arg n="1">the lead character 's Greek family</arg>
+<rel>cast</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

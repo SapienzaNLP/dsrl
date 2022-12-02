@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="detector">
+<roleset id="detector.01" name="find, notice" source="verb-detect.01" vncls="30.1">
+<roles>
+
+<role descr="detector" n="0">
+<vnrole vncls="30.1" vntheta="Experiencer"/></role>
+
+<role descr="detected" n="1">
+<vnrole vncls="30.1" vntheta="Stimulus"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+mine detectors
+</text>
+<arg n="1">mine</arg>
+<arg n="0">detectors</arg>
+<rel>detectors</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the first high-performance radar detector
+</text>
+<arg n="1">radar</arg>
+<arg n="0">detector</arg>
+<rel>detector</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

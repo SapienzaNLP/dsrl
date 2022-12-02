@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="overrun">
+<roleset id="overrun.01" name="swarm over destructively" source="verb-overrun.01">
+<roles>
+
+<role descr="destructive hordes" n="0"></role>
+
+<role descr="unlucky victim" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cost overruns in Ashland 's Riley Consolidated subsidiary
+</text>
+<arg n="1">cost</arg>
+<rel>overruns</rel>
+<arg n="0">in Ashland 's Riley Consolidated subsidiary</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the cost overruns
+</text>
+<arg n="1">cost</arg>
+<rel>overruns</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

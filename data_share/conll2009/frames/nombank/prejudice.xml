@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prejudice">
+<roleset id="prejudice.01" name="cause to have a preformed opinion" source="verb-prejudice.01">
+<roles>
+
+<role descr="causer" n="0"></role>
+
+<role descr="prejudiced entity" n="1"></role>
+
+<role descr="prejudiced against" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Texans ' state pride and prejudices
+</text>
+<arg n="1">Texans '</arg>
+<rel>prejudices</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his personal prejudices
+</text>
+<arg n="1">his</arg>
+<arg f="MNR" n="M">personal</arg>
+<rel>prejudices</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

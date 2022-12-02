@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="depth">
+<roleset id="depth.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The well flowed at a rate of 2.016 million cubic feet of gas a
+day through a 16 64-inch opening at depths between 5,782 and
+5,824 feet .
+</text>
+<arg n="1">The well flowed</arg>
+<rel>depths</rel>
+<arg n="2">between 5,782 and 5,824 feet</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the depth of some of the changes in Eastern Europe
+</text>
+<arg f="REF" n="2">depth</arg>
+<rel>depth</rel>
+<arg n="1">of some of the changes in Eastern Europe</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

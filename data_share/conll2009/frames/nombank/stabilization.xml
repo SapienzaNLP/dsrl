@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stabilization">
+<roleset id="stabilization.01" name="to make stable" source="verb-stabilize.01">
+<roles>
+
+<role descr="cause of stability, agent" n="0"></role>
+
+<role descr="thing stabilized" n="1"></role>
+
+<role descr="stabilized at" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his firm is working with regulators to balance margin
+requirements to `` enhance stabilization
+</text>
+<arg n="0">his firm ---> *-1 ---> *-2</arg>
+<arg n="Support">enhance</arg>
+<rel>stabilization</rel>
+</example>
+
+<example name="autogen2">
+<text>
+stabilization of exchange rates at internationally managed levels
+</text>
+<rel>stabilization</rel>
+<arg n="1">of exchange rates</arg>
+<arg f="LOC" n="M">at internationally managed levels</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

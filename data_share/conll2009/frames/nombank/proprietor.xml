@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proprietor">
+<roleset id="proprietor.01" name="possess" source="verb-own.01">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="possession" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The proprietor of Sante West , an aerobics studio in San
+Francisco 's Marina district , which was hit hard by the
+earthquake ,
+</text>
+<arg n="0">proprietor</arg>
+<rel>proprietor</rel>
+<arg n="1">
+of Sante West , an aerobics studio in San Francisco 's Marina
+district , which was hit hard by the earthquake ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+proprietor of Stag 's Leap Wine Cellars in Napa Valley
+</text>
+<arg n="0">proprietor</arg>
+<rel>proprietor</rel>
+<arg n="1">of Stag 's Leap Wine Cellars in Napa Valley</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

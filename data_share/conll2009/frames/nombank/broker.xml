@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="broker">
+<roleset id="broker.01" name="to arrange or manage as a broker" source="verb-broker.01">
+<roles>
+
+<role descr="arranger, agent" n="0"></role>
+
+<role descr="entity brokered" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an energy futures broker with Stotler &amp; Co
+</text>
+<arg n="1">energy futures</arg>
+<arg n="0">broker</arg>
+<rel>broker</rel>
+<arg n="2">with Stotler &amp; Co</arg>
+</example>
+
+<example name="autogen2">
+<text>
+One Merc broker
+</text>
+<arg n="2">Merc</arg>
+<arg n="0">broker</arg>
+<rel>broker</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lobbyist">
+<roleset id="lobbyist.01" name="ask a favor, ask a request, ask for" source="verb-lobby.01">
+<roles>
+
+<role descr="asker" n="0"></role>
+
+<role descr="favor" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+lobbyist for the National Federation of Independent Business
+</text>
+<arg n="0">lobbyist</arg>
+<rel>lobbyist</rel>
+<arg n="1">for the National Federation of Independent Business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+conservative lobbyists
+</text>
+<arg n="1">conservative</arg>
+<arg n="0">lobbyists</arg>
+<rel>lobbyists</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

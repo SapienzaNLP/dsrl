@@ -1,0 +1,187 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="touch">
+<roleset id="touch.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a touch of the old Tashi
+</text>
+<rel>touch</rel>
+<arg n="1">of the old Tashi</arg>
+</example>
+
+<example name="autogen2">
+<text>
+flat to a touch higher
+</text>
+<rel>touch</rel>
+<arg n="1">higher</arg>
+</example>
+
+</roleset>
+<roleset id="touch.02" name="nom" source="verb-touch.01" vncls="31.1">
+<roles>
+
+<role descr="causal agent" n="0">
+<vnrole vncls="31.1" vntheta="Agent"/></role>
+
+<role descr="thing touched" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="touched with, if separate from agent" n="2">
+<vnrole vncls="20" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+With the touch of a button , drivers can choose from lavender ,
+jasmine , mint or perfume scents , all blown in through the car
+'s air-conditioning system .
+</text>
+<rel>touch</rel>
+<arg n="1">of a button</arg>
+<arg n="0">drivers</arg>
+</example>
+
+</roleset>
+<roleset id="touch.03" name="touch up: repair" source="verb-touch.03">
+<roles>
+
+<role descr="agent/repairer" n="0"></role>
+
+<role descr="theme/thing repaired" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And lawmakers are putting the finishing touches on a compromise
+that would give the Air Force nearly all of the $ 2.4 billion it
+wants for production of Northrop Corp. 's radar-eluding B-2
+bombers , which cost $ 530 million apiece .
+</text>
+<arg n="0">lawmakers</arg>
+<arg n="Support">putting</arg>
+<rel>touches</rel>
+<arg n="1">
+on a compromise that would give the Air Force nearly all of the $
+2.4 billion it wants for production of Northrop Corp. 's
+radar-eluding B-2 bombers , which cost $ 530 million apiece</arg>
+</example>
+
+<example name="autogen2">
+<text>
+conferees are still putting the finishing touches on the package
+</text>
+<arg n="0">conferees</arg>
+<arg n="Support">putting</arg>
+<rel>touches</rel>
+<arg n="1">on the package</arg>
+</example>
+
+</roleset>
+<roleset id="touch.04" name="nomlike/in-touch-with" source="verb-contact.01">
+<roles>
+
+<role descr="contactor, agent" n="0"></role>
+
+<role descr="entity contacted" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But they did n't lose touch with the U.S. issuers .
+</text>
+<arg n="0">they</arg>
+<arg n="Support">lose</arg>
+<rel>touch</rel>
+<arg n="1">with the U.S. issuers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Although officials of the savings and loan , a unit of Great
+Western Financial Corp. , used some of their new plans and
+equipment during this week 's quake , they still lost touch for
+more than 24 hours with 15 branches in the affected areas , not
+knowing if employees were injured or vaults were broken open .
+</text>
+<arg n="0">they</arg>
+<arg n="Support">lost</arg>
+<rel>touch</rel>
+<arg n="1">with 15 branches in the affected areas</arg>
+</example>
+
+</roleset>
+<roleset id="touch.05" name="nomadjlike-aware">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Obviously they 're not in touch with what 's going on
+</text>
+<arg n="0">they</arg>
+<rel>touch</rel>
+<arg n="1">with what 's going on</arg>
+</example>
+
+<example name="autogen2">
+<text>
+After your first three weeks of sleep deprivation , you 're
+scarcely in touch with reality any more
+</text>
+<arg n="0">you</arg>
+<arg f="MNR" n="M">scarcely</arg>
+<rel>touch</rel>
+<arg n="1">with reality</arg>
+</example>
+
+</roleset>
+<roleset id="touch.06" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her firm touch
+</text>
+<arg n="1">her</arg>
+<arg n="2">firm</arg>
+<rel>touch</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the U.S. auto maker with the golden touch
+</text>
+<arg n="1">the U.S. auto maker</arg>
+<arg n="2">golden</arg>
+<rel>touch</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

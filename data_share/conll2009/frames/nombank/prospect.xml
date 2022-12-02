@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prospect">
+<roleset id="prospect.01" name="ability-with-agent/attribute/nomadjlike-possible">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` small to medium-size niche companies with exciting earnings
+prospects ''
+</text>
+<arg n="0">small to medium-size niche companies</arg>
+<arg n="2">exciting</arg>
+<arg n="1">earnings</arg>
+<rel>prospects</rel>
+</example>
+
+<example name="autogen2">
+<text>
+little prospect the Contras can be a significant fighting force
+without U.S. arms
+</text>
+<arg n="2">little</arg>
+<rel>prospect</rel>
+<arg n="1">the Contras can be a significant fighting force without U.S. arms</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

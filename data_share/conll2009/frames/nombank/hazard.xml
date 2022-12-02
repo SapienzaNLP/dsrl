@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hazard">
+<roleset id="hazard.01" name="nomlike" source="verb-harm.01">
+<roles>
+
+<role descr="agent, causer" n="0"></role>
+
+<role descr="entity damaged" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the artery-clogging hazards of tropical oils in many cookies
+</text>
+<arg n="1">artery-clogging</arg>
+<rel>hazards</rel>
+<arg n="0">of tropical oils in many cookies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+earthquake hazards
+</text>
+<arg n="0">earthquake</arg>
+<rel>hazards</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dissection">
+<roleset id="dissection.01" name="to examine or analyze" source="verb-dissect.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an appalling and hilarious dissection of a family 's rage ,
+bitterness , fear and isolation
+</text>
+<arg f="MNR" n="M">appalling and hilarious</arg>
+<rel>dissection</rel>
+<arg n="1">of a family 's rage , bitterness , fear and isolation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

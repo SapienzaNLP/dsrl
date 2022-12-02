@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="assignment">
+<roleset id="assignment.01" name="give, associate with" source="verb-assign.01" vncls="13.3">
+<roles>
+
+<role descr="agent, assigner" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="thing assigned" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="assigned to" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+RJR Nabisco Inc. awarded its national broadcast media-buying
+assignment to FCB/Leber Katz Partners , the New York outpost of
+Chicago-based Foote , Cone &amp; Belding .
+</text>
+<arg n="0">RJR Nabisco Inc.</arg>
+<arg n="Support">awarded</arg>
+<arg n="1">national broadcast media-buying</arg>
+<rel>assignment</rel>
+<arg n="2">
+to FCB/Leber Katz Partners , the New York outpost of
+Chicago-based Foote , Cone &amp; Belding</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Boyd 's first directorial assignment as the theater 's new
+artistic director
+</text>
+<arg n="2">Mr. Boyd 's</arg>
+<rel>assignment</rel>
+<arg n="1">as the theater 's new artistic director</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

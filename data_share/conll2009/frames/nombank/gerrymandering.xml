@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gerrymandering">
+<roleset id="gerrymandering.01" name="nomlike" source="verb-divide.02" vncls="23.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="23.1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+racial gerrymandering
+</text>
+<arg f="CAU" n="M">racial</arg>
+<rel>gerrymandering</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Racial gerrymandering
+</text>
+<arg f="CAU" n="M">Racial</arg>
+<rel>gerrymandering</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

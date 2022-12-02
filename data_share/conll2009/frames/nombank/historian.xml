@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="historian">
+<roleset id="historian.01" name="set pen to paper" source="verb-write.01" vncls="26.7-2">
+<roles>
+
+<role descr="writer" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="thing written" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+naval historian
+</text>
+<arg n="1">naval</arg>
+<arg n="0">historian</arg>
+<rel>historian</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

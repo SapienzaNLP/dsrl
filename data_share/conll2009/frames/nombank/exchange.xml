@@ -1,0 +1,77 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="exchange">
+<roleset id="exchange.01" name="exchange, trade" source="verb-exchange.01" vncls="13.6">
+<roles>
+
+<role descr="agent, entity trading" n="0">
+<vnrole vncls="13.6" vntheta="Agent"/></role>
+
+<role descr="thing being traded (away" n="1">
+<vnrole vncls="13.6" vntheta="Theme1"/></role>
+
+<role descr="other exchanger" n="2"></role>
+
+<role descr="other item in exchange, price, or premium, traded for or at" n="3">
+<vnrole vncls="13.6" vntheta="Theme2"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Isabella yield up her virtue to him in exchange for her brother
+'s life
+</text>
+<arg n="0">Isabella</arg>
+<arg n="1">her virtue</arg>
+<arg n="2">to him</arg>
+<rel>exchange</rel>
+<arg n="3">for her brother 's life</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 75 million stock-for-debt exchange
+</text>
+<arg n="1">stock-for-debt</arg>
+<arg n="3">stock-for-debt</arg>
+<rel>exchange</rel>
+</example>
+
+</roleset>
+<roleset id="exchange.02" name="marketplace" source="verb-sell.01" vncls="13.1-1">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing sold" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's stock-exchange division
+</text>
+<arg n="0">the company 's</arg>
+<arg n="1">stock-exchange</arg>
+<rel>stock-exchange</rel>
+</example>
+
+<example name="autogen2">
+<text>
+various stock exchanges and futures markets
+</text>
+<arg n="1">stock</arg>
+<rel>exchanges</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

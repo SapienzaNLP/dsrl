@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conscience">
+<roleset id="conscience.01" name="to conduct (oneself) in a specified way" source="verb-behave.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="manner" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Congress has a guilty conscience and changes its mind
+</text>
+<arg n="0">Congress</arg>
+<arg n="Support">has</arg>
+<arg n="1">guilty</arg>
+<rel>conscience</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Sen. Specter and others to vote against Mr. Bork out of ``
+conscience
+</text>
+<arg n="0">Sen. Specter and others</arg>
+<rel>conscience</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

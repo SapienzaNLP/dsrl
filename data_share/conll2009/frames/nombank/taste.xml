@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="taste">
+<roleset id="taste.01" name="attribute/try-flavor" source="verb-taste.02">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their taste for fancy wheels and vintage wine
+</text>
+<arg n="0">their</arg>
+<arg f="REF" n="2">taste</arg>
+<rel>taste</rel>
+<arg n="1">for fancy wheels and vintage wine</arg>
+</example>
+
+<example name="autogen2">
+<text>
+To give Leche Fresca the creamier taste Goya says Hispanics
+prefer
+</text>
+<arg n="Support">give</arg>
+<arg n="1">Leche Fresca</arg>
+<arg n="2">creamier</arg>
+<rel>taste</rel>
+</example>
+
+</roleset>
+<roleset id="taste.02" name="attribute/nomadjlike-fashionable">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it puts a heavy burden on the director to show an uncommon degree
+of imagination and taste
+</text>
+<arg n="1">the director ---> *</arg>
+<arg n="Support">show degree of</arg>
+<arg f="REF" n="2">taste</arg>
+<rel>taste</rel>
+</example>
+
+<example name="autogen2">
+<text>
+splendid beings endowed with reason , self-awareness and taste
+</text>
+<arg n="1">splendid beings ---> *</arg>
+<arg n="Support">endowed</arg>
+<arg f="REF" n="2">taste</arg>
+<rel>taste</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

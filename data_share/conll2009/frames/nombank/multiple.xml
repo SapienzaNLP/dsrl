@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="multiple">
+<roleset id="multiple.01" name="put into some group" source="verb-group.01" vncls="47.5.2">
+<roles>
+
+<role descr="agent, entity causing some grouping" n="0">
+<vnrole vncls="47.5.2" vntheta="Agent"/></role>
+
+<role descr="theme, thing being included in some group" n="1">
+<vnrole vncls="47.5.2" vntheta="Theme"/></role>
+
+<role descr="group" n="2">
+<vnrole vncls="22.3-2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a price/earnings multiple about twice that of the Standard &amp; Poor
+'s 500
+</text>
+<arg n="1">price/earnings</arg>
+<rel>multiple</rel>
+<arg n="2">about twice that of the Standard &amp; Poor 's 500</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a higher price earnings multiple
+</text>
+<arg n="2">higher</arg>
+<arg n="1">earnings</arg>
+<rel>multiple</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

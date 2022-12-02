@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="variable">
+<roleset id="variable.01" name="experience changes in scale" source="verb-vary.01">
+<roles>
+
+<role descr="causer of motion" n="0"></role>
+
+<role descr="thing moving" n="1"></role>
+
+<role descr="ext or mnr" n="2"></role>
+
+<role descr="low point" n="3"></role>
+
+<role descr="high point" n="4"></role>
+
+<role descr="medium" n="5"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cost and price variables
+</text>
+<arg n="1">cost and price</arg>
+<rel>variables</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

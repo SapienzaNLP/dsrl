@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="overture">
+<roleset id="overture.01" name="move towards" source="verb-invite.01">
+<roles>
+
+<role descr="inviter" n="0"></role>
+
+<role descr="action/event" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It has n't made merger overtures to the board .
+</text>
+<arg n="0">It</arg>
+<arg n="Support">made</arg>
+<arg n="1">merger</arg>
+<rel>overtures</rel>
+<arg n="2">to the board</arg>
+</example>
+
+<example name="autogen2">
+<text>
+With the golden share as protection , Jaguar officials have
+rebuffed Ford 's overtures , and moved instead to forge an
+alliance with GM .
+</text>
+<arg n="2">Jaguar officials</arg>
+<arg n="Support">rebuffed</arg>
+<arg n="0">Ford 's</arg>
+<rel>overtures</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

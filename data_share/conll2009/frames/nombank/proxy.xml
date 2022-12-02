@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proxy">
+<roleset id="proxy.01" name="stand for, correspond" source="verb-represent.01" vncls="29.2">
+<roles>
+
+<role descr="item / entity taking place of other" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="item / entity being substituted by the other" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Transportation secretary to block corporate raiders from
+waging proxy fights to oust boards that oppose a leveraged
+buy-out
+</text>
+<arg n="1">corporate raiders ---> *-3</arg>
+<arg n="Support">waging fights</arg>
+<arg n="0">proxy</arg>
+<rel>proxy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+In 1986 , Baker , Nye waged a proxy fight for control of Leaseway
+Transportation Inc. that ultimately led to Leaseway 's being sold
+.
+</text>
+<arg n="1">Baker , Nye</arg>
+<arg n="Support">waged fight</arg>
+<arg n="0">proxy</arg>
+<rel>proxy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

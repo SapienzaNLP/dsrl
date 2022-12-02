@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="influence">
+<roleset id="influence.01" name="have sway over, induce an action" source="verb-influence.01">
+<roles>
+
+<role descr="influencer" n="0"></role>
+
+<role descr="induced action" n="1" source="2"></role>
+
+<role descr="influenced" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the vast body of premium down at the bottom end which acts as a
+steadying influence '' against catastrophic losses
+</text>
+<arg n="0">the bottom end ---> which ---> *T*-1</arg>
+<arg n="Support">acts as</arg>
+<arg n="1">steadying</arg>
+<rel>influence</rel>
+<arg n="2">against catastrophic losses</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to use its influence to prevent any Senate amendments adding
+further new appropriations
+</text>
+<arg n="0">its</arg>
+<rel>influence</rel>
+<arg f="PRD" n="1">
+to prevent any Senate amendments adding further new
+appropriations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="detoxification">
+<roleset id="detoxification.01" name="nom-detoxify/nomlike" source="verb-purify.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="source" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+She urges client couples to begin a `` detoxification '' period ,
+purging social and other nonproductive activities and setting
+time apart for themselves .
+</text>
+<arg n="1">client couples ---> *-1</arg>
+<arg n="Support">begin period</arg>
+<rel>detoxification</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

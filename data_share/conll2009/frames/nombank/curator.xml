@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="curator">
+<roleset id="curator.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an associate curator at the Princeton Art Museum
+</text>
+<arg n="3">associate</arg>
+<arg n="0">curator</arg>
+<rel>curator</rel>
+<arg n="2">at the Princeton Art Museum</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Europe 's cultural curators
+</text>
+<arg n="1">cultural</arg>
+<arg n="0">curators</arg>
+<rel>curators</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

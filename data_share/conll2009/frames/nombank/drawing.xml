@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drawing">
+<roleset id="drawing.01" name="work-of-art" source="verb-draw.01" vncls="26.7-2">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="25.2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+photographs and drawings of the star
+</text>
+<rel>drawings</rel>
+<arg n="1">of the star</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a drawing of Pinocchio
+</text>
+<rel>drawing</rel>
+<arg n="1">of Pinocchio</arg>
+</example>
+
+</roleset>
+<roleset id="drawing.02" name="pull" source="verb-draw.02" vncls="23.2">
+<roles>
+
+<role descr="puller" n="0">
+<vnrole vncls="23.2" vntheta="Agent"/></role>
+
+<role descr="thing pulled" n="1">
+<vnrole vncls="23.2" vntheta="Theme"/></role>
+
+<role descr="source" n="2">
+<vnrole vncls="23.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+U.S. holdings of IMF special drawing rights
+</text>
+<arg n="0">U.S.</arg>
+<arg n="Support">holdings of rights</arg>
+<arg n="2">IMF</arg>
+<rel>drawing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his taking of the Fifth may permit the drawing of an adverse
+inference against him in the civil matter
+</text>
+<arg n="2">his taking of the Fifth</arg>
+<arg n="Support">permit</arg>
+<rel>drawing</rel>
+<arg n="1">of an adverse inference against him</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="glitch">
+<roleset id="glitch.01" name="cause to) be defective" source="verb-flaw.01">
+<roles>
+
+<role descr="causer of flaw, agent (rare" n="0"></role>
+
+<role descr="entity flawed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the `` glitch '' in the statute
+</text>
+<arg n="0">glitch</arg>
+<rel>glitch</rel>
+<arg n="1">in the statute</arg>
+</example>
+
+<example name="autogen2">
+<text>
+product glitches
+</text>
+<arg n="1">product</arg>
+<arg n="0">glitches</arg>
+<rel>glitches</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

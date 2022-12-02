@@ -1,0 +1,85 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="strip">
+<roleset id="strip.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+glued strips of California incense cedar filled with ceramic lead
+</text>
+<rel>strips</rel>
+<arg n="1">of California incense cedar</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Las Vegas 's flashy strip of casinos
+</text>
+<rel>strip</rel>
+<arg n="1">of casinos</arg>
+</example>
+
+</roleset>
+<roleset id="strip.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+29 Dick Tracy strips by Chester Gould
+</text>
+<arg n="1">Dick Tracy</arg>
+<rel>strips</rel>
+<arg n="0">by Chester Gould</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Charles Schulz 's comic strip
+</text>
+<arg n="0">Charles Schulz 's</arg>
+<rel>strip</rel>
+</example>
+
+</roleset>
+<roleset id="strip.03" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a strip of Sixth Avenue populated by jugglers , magicians and
+other good-natured hustlers
+</text>
+<rel>strip</rel>
+<arg n="1">of Sixth Avenue</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the Cobb Parkway strip
+</text>
+<arg n="1">Cobb Parkway</arg>
+<rel>strip</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

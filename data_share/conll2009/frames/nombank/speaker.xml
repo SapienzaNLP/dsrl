@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="speaker">
+<roleset id="speaker.01" name="speak" source="verb-speak.01" vncls="37.5">
+<roles>
+
+<role descr="talker" n="0">
+<vnrole vncls="37.5" vntheta="Actor1"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="37.5" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.5" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+conference speakers
+</text>
+<arg n="2">conference</arg>
+<arg n="0">speakers</arg>
+<rel>speakers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the speaker 's precise words
+</text>
+<arg n="0">speaker</arg>
+<rel>speaker</rel>
+<arg n="1">precise words</arg>
+</example>
+
+</roleset>
+<roleset id="speaker.02" name="stand for, correspond" source="verb-represent.01" vncls="29.2">
+<roles>
+
+<role descr="item / entity taking place of other" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="item / entity being substituted by the other" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+speaker of California 's Assembly
+</text>
+<arg n="0">speaker</arg>
+<rel>speaker</rel>
+<arg n="1">of California 's Assembly</arg>
+</example>
+
+<example name="autogen2">
+<text>
+speaker of the House
+</text>
+<arg n="0">speaker</arg>
+<rel>speaker</rel>
+<arg n="1">of the House</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="undoing">
+<roleset id="undoing.01" name="nomlike" source="verb-ruin.01">
+<roles>
+
+<role descr="destroyer" n="0"></role>
+
+<role descr="thing destroyed" n="1"></role>
+
+<role descr="instrument of destruction" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the undoing of many resorts
+</text>
+<arg n="0">undoing</arg>
+<rel>undoing</rel>
+<arg n="1">of many resorts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

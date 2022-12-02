@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="generalization">
+<roleset id="generalization.01" name="to reduce to a general form" source="verb-generalize.01">
+<roles>
+
+<role descr="entity making a generalization" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+sweeping generalizations as to `` cause '' or `` effect
+</text>
+<arg f="MNR" n="M">sweeping</arg>
+<rel>generalizations</rel>
+<arg n="1">as to `` cause '' or `` effect</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Generalizations about value
+</text>
+<rel>Generalizations</rel>
+<arg n="1">about value</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

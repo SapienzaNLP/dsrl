@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mortality">
+<roleset id="mortality.01" name="nomlike" source="verb-kill.01" vncls="42.1-1">
+<roles>
+
+<role descr="killer" n="0">
+<vnrole vncls="42.1-1" vntheta="Agent"/></role>
+
+<role descr="corpse" n="1">
+<vnrole vncls="42.1-1" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="42.1-1" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+lung-cancer mortality rates for people under 45 years of age
+</text>
+<arg n="0">lung-cancer</arg>
+<rel>mortality</rel>
+<arg n="Support">rates</arg>
+<arg n="1">for people under 45 years of age</arg>
+</example>
+
+<example name="autogen2">
+<text>
+declining lung-cancer mortality ``
+</text>
+<arg n="0">lung-cancer</arg>
+<rel>mortality</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

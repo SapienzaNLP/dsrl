@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nomination">
+<roleset id="nomination.01" name="suggest someone take a role" source="verb-nominate.01" vncls="29.1">
+<roles>
+
+<role descr="nominator" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="candidate" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="role of arg1" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Bush administration 's nomination of Clarence Thomas to a
+seat on the federal appeals court here
+</text>
+<arg n="0">The Bush administration 's</arg>
+<rel>nomination</rel>
+<arg n="1">of Clarence Thomas</arg>
+<arg n="2">to a seat on the federal appeals court here</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Breeden 's nomination to the SEC post
+</text>
+<arg n="1">Breeden 's</arg>
+<rel>nomination</rel>
+<arg n="2">to the SEC post</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

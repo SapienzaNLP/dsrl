@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="management">
+<roleset id="management.01" name="nom/actrel" source="verb-manage.01">
+<roles>
+
+<role descr="job holder/manager" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its core corporate finance , fund management and banking
+activities
+</text>
+<arg n="2">its</arg>
+<arg n="1">fund</arg>
+<arg n="0">management</arg>
+<rel>management</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Investcorp 's management committee
+</text>
+<arg n="2">Investcorp 's</arg>
+<arg n="0">management</arg>
+<rel>management</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

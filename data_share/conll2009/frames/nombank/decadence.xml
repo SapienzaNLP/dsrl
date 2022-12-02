@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="decadence">
+<roleset id="decadence.01" name="nomadj-decadent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+present-day punk rock decadence
+</text>
+<arg f="TMP" n="M">present-day</arg>
+<arg n="1">punk rock</arg>
+<rel>decadence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inactivation">
+<roleset id="inactivation.01" name="to render inactive" source="verb-deactivate.01">
+<roles>
+
+<role descr="deactivator, agent" n="0"></role>
+
+<role descr="entity deactivated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the inactivation of tumor-suppressor genes , alone or in
+combination ,
+</text>
+<rel>inactivation</rel>
+<arg n="1">of tumor-suppressor genes</arg>
+<arg f="MNR" n="M">alone or in combination</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="syndication">
+<roleset id="syndication.01" name="distribute by proxy" source="verb-syndicate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the rerun syndication
+</text>
+<arg n="1">rerun</arg>
+<rel>syndication</rel>
+</example>
+
+<example name="autogen2">
+<text>
+many more in syndication
+</text>
+<arg n="1">many more</arg>
+<rel>syndication</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

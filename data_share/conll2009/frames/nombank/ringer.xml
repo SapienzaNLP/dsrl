@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ringer">
+<roleset id="ringer.01" name="to (cause) to make a sound of a bell" source="verb-ring.01" vncls="43.2">
+<roles>
+
+<role descr="causer of ringing" n="0">
+<vnrole vncls="43.2" vntheta="Agent"/></role>
+
+<role descr="bell" n="1">
+<vnrole vncls="43.2" vntheta="Theme"/></role>
+
+<role descr="ring for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+both a vicar and an active bell-ringer
+</text>
+<arg f="MNR" n="M">active</arg>
+<arg n="0">bell-ringer</arg>
+<arg n="1">bell-ringer</arg>
+<rel>bell-ringer</rel>
+</example>
+
+<example name="autogen2">
+<text>
+only one local ringer
+</text>
+<arg f="LOC" n="M">local</arg>
+<arg n="0">ringer</arg>
+<rel>ringer</rel>
+</example>
+
+</roleset>
+<roleset id="ringer.02" name="seem like" source="verb-resemble.01">
+<roles>
+
+<role descr="copy" n="1"></role>
+
+<role descr="original" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a dead ringer for actor Nicolas Cage
+</text>
+<arg f="MNR" n="M">dead</arg>
+<arg n="1">ringer</arg>
+<rel>ringer</rel>
+<arg n="2">for actor Nicolas Cage</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

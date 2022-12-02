@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="expertise">
+<roleset id="expertise.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its expertise in data storage
+</text>
+<arg n="0">its</arg>
+<rel>expertise</rel>
+<arg n="1">in data storage</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its expertise
+</text>
+<arg n="0">its</arg>
+<rel>expertise</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

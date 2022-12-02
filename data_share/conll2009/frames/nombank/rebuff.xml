@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rebuff">
+<roleset id="rebuff.01" name="reject, spurn" source="verb-rebuff.01">
+<roles>
+
+<role descr="rejecter" n="0"></role>
+
+<role descr="thing rejected" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a rebuff to several leading members of her own Conservative Party
+who have called for a more clear-cut British commitment to the
+EMS
+</text>
+<rel>rebuff</rel>
+<arg n="1">
+to several leading members of her own Conservative Party who have
+called for a more clear-cut British commitment to the EMS</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a rebuff from Congress on the question of how much the federal
+government is willing to spend to aid in California 's earthquake
+relief efforts
+</text>
+<rel>rebuff</rel>
+<arg n="0">from Congress</arg>
+<arg n="1">
+on the question of how much the federal government is willing to
+spend to aid in California 's earthquake relief efforts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="doubling">
+<roleset id="doubling.01" name="rise twofold" source="verb-double.01" vncls="45.4">
+<roles>
+
+<role descr="causer of increase" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing increasing, rising" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="ext, always unmentioned because it's 2x" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a doubling of its daily regular ridership to 300,000
+</text>
+<rel>doubling</rel>
+<arg n="1">of its daily regular ridership</arg>
+<arg n="4">to 300,000</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a doubling of its $ 90 billion capital
+</text>
+<rel>doubling</rel>
+<arg n="1">of its $ 90 billion capital</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

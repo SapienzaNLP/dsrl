@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ride">
+<roleset id="ride.01" name="as a horse" source="verb-ride.01" vncls="51.4.2">
+<roles>
+
+<role descr="rider" n="0">
+<vnrole vncls="51.4.2" vntheta="Agent"/></role>
+
+<role descr="steed" n="1">
+<vnrole vncls="51.4.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the stock market 's roller-coaster ride
+</text>
+<arg n="0">the stock market 's</arg>
+<arg n="1">roller-coaster</arg>
+<rel>ride</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its bumpy ride
+</text>
+<arg n="0">its</arg>
+<arg f="MNR" n="M">bumpy</arg>
+<rel>ride</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="exile">
+<roleset id="exile.01" name="banish, send away" source="verb-exile.01">
+<roles>
+
+<role descr="sender away, agent" n="0"></role>
+
+<role descr="exile" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+<role descr="exiled from, homeland etc" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+part in exile
+</text>
+<arg n="1">part</arg>
+<rel>exile</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a hard-line Polish communist in exile
+</text>
+<arg n="1">a hard-line Polish communist</arg>
+<rel>exile</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

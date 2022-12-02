@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="package">
+<roleset id="package.01" name="nomlike-contain/partitive-quant" source="verb-contain.01">
+<roles>
+
+<role descr="container" n="0"></role>
+
+<role descr="contents/theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mexico 's debt-reduction package
+</text>
+<arg n="2">Mexico 's</arg>
+<arg n="1">debt-reduction</arg>
+<arg n="0">package</arg>
+<rel>package</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the California package
+</text>
+<arg n="2">California</arg>
+<arg n="0">package</arg>
+<rel>package</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

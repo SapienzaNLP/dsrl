@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deductibility">
+<roleset id="deductibility.01" name="subtract, take away" source="verb-deduct.01">
+<roles>
+
+<role descr="subtracter" n="0"></role>
+
+<role descr="thing being subtracted" n="1"></role>
+
+<role descr="thing being subtracted from" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the tax deductibility of debt used in most LBOs
+</text>
+<arg n="2">tax</arg>
+<rel>deductibility</rel>
+<arg n="1">of debt used in most LBOs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the deductibility of certain junk bonds that are used in most
+LBOs
+</text>
+<rel>deductibility</rel>
+<arg n="1">of certain junk bonds that are used in most LBOs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

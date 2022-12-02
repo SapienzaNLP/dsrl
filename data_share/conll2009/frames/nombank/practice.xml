@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="practice">
+<roleset id="practice.01" name="practice" source="verb-practice.01">
+<roles>
+
+<role descr="practicer" n="0"></role>
+
+<role descr="skill" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the mass-media practice of the San Francisco-based firm 's
+communications group
+</text>
+<arg n="0">mass-media</arg>
+<rel>practice</rel>
+<arg n="1">of the San Francisco-based firm 's communications group</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the entire principle and practice of companies issuing voting
+preferred shares to management-controlled trusts to dilute voting
+power of common stockholders
+</text>
+<rel>practice</rel>
+<arg f="PRD" n="1">
+of companies issuing voting preferred shares to
+management-controlled trusts to dilute voting power of common
+stockholders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

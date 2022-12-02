@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bible">
+<roleset id="bible.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the gardener 's bible
+</text>
+<arg n="1">the gardener 's</arg>
+<rel>bible</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

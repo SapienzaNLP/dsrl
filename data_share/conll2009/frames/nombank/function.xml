@@ -1,0 +1,80 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="function">
+<roleset id="function.01" name="act" source="verb-function.01">
+<roles>
+
+<role descr="worker" n="0"></role>
+
+<role descr="job, project" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the stock market 's basic function of raising capital
+</text>
+<arg n="0">the stock market 's</arg>
+<arg f="MNR" n="M">basic</arg>
+<rel>function</rel>
+<arg f="PRD" n="1">of raising capital</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their assigned functions
+</text>
+<arg n="0">their</arg>
+<rel>functions</rel>
+</example>
+
+</roleset>
+<roleset id="function.02" name="social gathering" source="verb-celebrate.02">
+<roles>
+
+<role descr="celebrator(s" n="0"></role>
+
+<role descr="party, occasion" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a government function
+</text>
+<arg n="0">government</arg>
+<arg f="REF" n="1">function</arg>
+<rel>function</rel>
+</example>
+
+</roleset>
+<roleset id="function.03" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your vital business functions
+</text>
+<arg n="0">your</arg>
+<arg f="MNR" n="M">vital</arg>
+<arg n="1">business</arg>
+<rel>functions</rel>
+</example>
+
+<example name="autogen2">
+<text>
+numerous staff functions
+</text>
+<arg n="0">staff</arg>
+<rel>functions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="awarding">
+<roleset id="awarding.01" name="give an award" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="award" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the awarding of a Ph. D.
+</text>
+<rel>awarding</rel>
+<arg n="1">of a Ph. D.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

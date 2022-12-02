@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="quip">
+<roleset id="quip.01" name="tell a little joke" source="verb-quip.01">
+<roles>
+
+<role descr="speaker" n="0"></role>
+
+<role descr="joke" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the star detectives ' witty quips and puns
+</text>
+<arg n="0">the star detectives '</arg>
+<arg f="MNR" n="M">witty</arg>
+<arg f="REF" n="1">quips</arg>
+<rel>quips</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

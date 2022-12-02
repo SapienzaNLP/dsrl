@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="denomination">
+<roleset id="denomination.01" name="attribute" source="verb-denominate.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+those with denominations over $ 90,000
+</text>
+<arg n="1">those</arg>
+<rel>denominations</rel>
+<arg n="2">over $ 90,000</arg>
+</example>
+
+<example name="autogen2">
+<text>
+small and large-denomination CDs
+</text>
+<arg n="2">small and large-denomination</arg>
+<rel>large-denomination</rel>
+<arg n="1">CDs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cease-fire">
+<roleset id="cease-fire.01" name="agree" source="verb-agree.01">
+<roles>
+
+<role descr="agreer" n="0"></role>
+
+<role descr="proposition" n="1"></role>
+
+<role descr="other entity agreeing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to end a 19-month cease-fire with the rebels seeking to topple
+him
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">end</arg>
+<arg f="TMP" n="M">19-month</arg>
+<arg n="1">cease-fire</arg>
+<rel>cease-fire</rel>
+<arg n="2">with the rebels seeking to topple him</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the liberals ' cease-fire
+</text>
+<arg n="0">the liberals '</arg>
+<arg n="1">cease-fire</arg>
+<rel>cease-fire</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="equality">
+<roleset id="equality.01" name="nomadj-equal/nom" source="verb-equal.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="domain" n="2" source="3"></role>
+
+<role descr="secondary-theme" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+equality for blacks in South Africa
+</text>
+<rel>equality</rel>
+<arg n="1">for blacks in South Africa</arg>
+</example>
+
+<example name="autogen2">
+<text>
+equality of civil rights
+</text>
+<rel>equality</rel>
+<arg n="2">of civil rights</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

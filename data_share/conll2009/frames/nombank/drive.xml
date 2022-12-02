@@ -1,0 +1,112 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drive">
+<roleset id="drive.01" name="nomlike" source="verb-advertise.01" vncls="35.2">
+<roles>
+
+<role descr="advertiser" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="thing being pitched, advertised" n="1">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+two petition drives for next year 's election
+</text>
+<arg f="MNR" n="M">petition</arg>
+<rel>drives</rel>
+<arg n="1">for next year 's election</arg>
+</example>
+
+</roleset>
+<roleset id="drive.02" name="drive a vehicle" source="verb-drive.01" vncls="11.5-1">
+<roles>
+
+<role descr="driver" n="0">
+<vnrole vncls="11.5-1" vntheta="Agent"/></role>
+
+<role descr="vehicle or path" n="1">
+<vnrole vncls="11.5-1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mitchell 's drive to left
+</text>
+<arg n="0">Mitchell 's</arg>
+<rel>drive</rel>
+<arg n="1">to left</arg>
+</example>
+
+<example name="autogen2">
+<text>
+my four-mile drive to farm headquarters
+</text>
+<arg n="0">my</arg>
+<arg f="EXT" n="M">four-mile</arg>
+<rel>drive</rel>
+<arg n="1">to farm headquarters</arg>
+</example>
+
+</roleset>
+<roleset id="drive.03" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the nation 's export drive
+</text>
+<arg n="0">the nation 's</arg>
+<arg n="1">export</arg>
+<rel>drive</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the drive to dominate certain niche markets
+</text>
+<rel>drive</rel>
+<arg f="PRD" n="1">to dominate certain niche markets</arg>
+</example>
+
+</roleset>
+<roleset id="drive.04" name="nomlike" source="verb-automate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any Apple Monitor and disk drive
+</text>
+<arg n="1">disk</arg>
+<arg n="0">drive</arg>
+<rel>drive</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Lisa 's disk drive
+</text>
+<arg n="1">disk</arg>
+<arg n="0">drive</arg>
+<rel>drive</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spirit">
+<roleset id="spirit.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an unusual spirit of cooperation among resorts and ski equipment
+makers
+</text>
+<rel>spirit</rel>
+<arg n="2">of cooperation</arg>
+<arg n="1">among resorts and ski equipment makers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the spirit of giving
+</text>
+<rel>spirit</rel>
+<arg n="2">of giving</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

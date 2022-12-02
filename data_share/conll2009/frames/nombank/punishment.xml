@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="punishment">
+<roleset id="punishment.01" name="to subject to a penalty for an offense" source="verb-punish.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="reason" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+While supporting the Commonwealth `` in utterly condemning
+apartheid , '' her statement urged it to `` encourage change ''
+rather than inflict further punishment on the country 's black
+population .
+</text>
+<arg n="0">it ---> *-2</arg>
+<arg n="Support">inflict</arg>
+<rel>punishment</rel>
+<arg n="1">on the country 's black population</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its punishment
+</text>
+<arg n="1">its</arg>
+<rel>punishment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pickup">
+<roleset id="pickup.01" name="pick up: acquire" source="verb-pick.04">
+<roles>
+
+<role descr="agent, entity acquiring something" n="0"></role>
+
+<role descr="thing acquired" n="1"></role>
+
+<role descr="seller" n="2"></role>
+
+<role descr="price paid" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its pickup and delivery of packages
+</text>
+<arg n="0">its</arg>
+<rel>pickup</rel>
+<arg n="1">of packages</arg>
+</example>
+
+</roleset>
+<roleset id="pickup.02" name="pick up: increase" source="verb-pick.05">
+<roles>
+
+<role descr="thing increasing" n="1"></role>
+
+<role descr="amount increased by, ext or mnr" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a very small pickup in yield
+</text>
+<arg n="2">very small</arg>
+<rel>pickup</rel>
+<arg n="1">in yield</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a pickup in Canadian auto demand
+</text>
+<rel>pickup</rel>
+<arg n="1">in Canadian auto demand</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

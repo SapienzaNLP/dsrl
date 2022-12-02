@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="repurchase">
+<roleset id="repurchase.01" name="nom-repurchase/nomlike" source="verb-purchase.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+IBM 's stock repurchases
+</text>
+<arg n="0">IBM 's</arg>
+<arg n="1">stock</arg>
+<rel>repurchases</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The share repurchase
+</text>
+<arg n="1">share</arg>
+<rel>repurchase</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

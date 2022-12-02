@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nose">
+<roleset id="nose.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bunny 's good nose
+</text>
+<arg n="1">the bunny 's</arg>
+<rel>nose</rel>
+</example>
+
+<example name="autogen3">
+<text>
+their nose
+</text>
+<arg n="1">their</arg>
+<rel>nose</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

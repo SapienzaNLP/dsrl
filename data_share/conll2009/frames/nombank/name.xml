@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="name">
+<roleset id="name.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Ariel brand name
+</text>
+<arg n="2">Ariel</arg>
+<arg n="1">brand</arg>
+<rel>name</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the Manpower name
+</text>
+<arg n="2">Manpower</arg>
+<rel>name</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

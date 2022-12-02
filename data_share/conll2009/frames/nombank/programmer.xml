@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="programmer">
+<roleset id="programmer.01" name="to design a program" source="verb-program.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="entity  programmed" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+TV programmers
+</text>
+<arg n="1">TV</arg>
+<arg n="0">programmers</arg>
+<rel>programmers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+television programmers
+</text>
+<arg n="1">television</arg>
+<arg n="0">programmers</arg>
+<rel>programmers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

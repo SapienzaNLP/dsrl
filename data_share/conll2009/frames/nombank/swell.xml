@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="swell">
+<roleset id="swell.01" name="cause to) grow larger" source="verb-swell.01" vncls="45.5">
+<roles>
+
+<role descr="causal agent" n="0"></role>
+
+<role descr="thing swelling" n="1">
+<vnrole vncls="45.5" vntheta="Patient"/></role>
+
+<role descr="ext" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the current swell of disappointing earnings announcements
+</text>
+<arg f="TMP" n="M">current</arg>
+<rel>swell</rel>
+<arg n="1">of disappointing earnings announcements</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

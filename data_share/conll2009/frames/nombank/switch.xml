@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="switch">
+<roleset id="switch.01" name="change, exchange" source="verb-switch.01">
+<roles>
+
+<role descr="causer of transformation" n="0"></role>
+
+<role descr="thing changing" n="1"></role>
+
+<role descr="end state, attribute of arg1" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an area-code switch Nov. 11 -- to 708 from the familiar 312 --
+</text>
+<arg n="1">area-code</arg>
+<rel>switch</rel>
+<arg f="TMP" n="M">Nov. 11</arg>
+<arg n="2">to 708</arg>
+<arg n="3">from the familiar 312</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his switch
+</text>
+<arg n="0">his</arg>
+<rel>switch</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

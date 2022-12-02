@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="successor">
+<roleset id="successor.01" name="take over for" source="verb-succeed.02">
+<roles>
+
+<role descr="successor" n="0"></role>
+
+<role descr="entity being replaced" n="1"></role>
+
+<role descr="attributive, role, function" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+successor to the Bank Board
+</text>
+<arg n="0">successor</arg>
+<rel>successor</rel>
+<arg n="1">to the Bank Board</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the successor company to Vagabonds Hotels
+</text>
+<arg n="0">successor</arg>
+<rel>successor</rel>
+<arg n="1">to Vagabonds Hotels</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

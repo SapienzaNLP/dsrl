@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="audition">
+<roleset id="audition.01" name="try to get a role" source="verb-audition.01">
+<roles>
+
+<role descr="auditionee" n="0"></role>
+
+<role descr="role" n="1"></role>
+
+<role descr="casting agency" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Jennifer Tilly 's audition to be the Baker Boys ' girl singer
+</text>
+<arg n="0">Jennifer Tilly 's</arg>
+<rel>audition</rel>
+<arg f="PRD" n="1">to be the Baker Boys ' girl singer</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

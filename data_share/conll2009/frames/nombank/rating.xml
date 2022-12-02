@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rating">
+<roleset id="rating.01" name="attribute/nom" source="verb-rate.01" vncls="29.1">
+<roles>
+
+<role descr="entity establishing value" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="commodity or entity being evaluated" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="value, worth, grade" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it confirmed American Continental 's preferred stock rating at C
+</text>
+<arg n="0">it</arg>
+<arg n="Support">confirmed</arg>
+<arg n="3">American Continental 's</arg>
+<arg n="1">preferred stock</arg>
+<rel>rating</rel>
+<arg n="2">at C</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's Prime-1 rating for commercial paper
+</text>
+<arg n="3">the company 's</arg>
+<arg n="2">Prime-1</arg>
+<rel>rating</rel>
+<arg n="1">for commercial paper</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

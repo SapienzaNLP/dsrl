@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="birth">
+<roleset id="birth.01" name="survive, exist" source="verb-bear.04">
+<roles>
+
+<role descr="entity existing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the left-right coalition 's birth
+</text>
+<arg n="1">the left-right coalition 's</arg>
+<rel>birth</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its birth
+</text>
+<arg n="1">its</arg>
+<rel>birth</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

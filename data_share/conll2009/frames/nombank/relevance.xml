@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="relevance">
+<roleset id="relevance.01" name="attribute/nomadj-relevant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="value" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+little relevance
+</text>
+<arg n="3">little</arg>
+<arg f="REF" n="1">relevance</arg>
+<rel>relevance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+In an excursus of little relevance to his central point about
+private enforcement suits by environmental groups , Michael S.
+Greve informs your readers , `` ... the Clean Water Act is
+written upon the presumption -- the pretense , rather -- that
+nothing but zero risk will do ; it establishes a legal standard
+of zero discharge '' -LRB- `` Congress's Environmental Buccaneers
+, '' Sept. 18 -RRB- .
+</text>
+<arg n="Support">In excursus of</arg>
+<arg n="3">little</arg>
+<rel>relevance</rel>
+<arg n="2">
+to his central point about private enforcement suits by
+environmental groups</arg>
+<arg n="1">
+Michael S. Greve informs your readers , `` ... the Clean Water
+Act is written upon the presumption -- the pretense , rather --
+that nothing but zero risk will do ; it establishes a legal
+standard of zero discharge '' -LRB- `` Congress's Environmental
+Buccaneers , '' Sept. 18 -RRB-</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

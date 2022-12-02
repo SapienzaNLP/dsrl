@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="success">
+<roleset id="success.01" name="nom/nomadj-successful" source="verb-succeed.01">
+<roles>
+
+<role descr="entity succeeding" n="0"></role>
+
+<role descr="task" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the success of Senate Democrats in stalling the capital gains tax
+cut
+</text>
+<rel>success</rel>
+<arg n="0">of Senate Democrats</arg>
+<arg n="1">in stalling the capital gains tax cut</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the expected success of the Lisa computer , introduced in 1983
+</text>
+<rel>success</rel>
+<arg n="0">of the Lisa computer , introduced in 1983</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,359 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="line">
+<roleset id="line.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Long lines of people
+</text>
+<rel>lines</rel>
+<arg n="1">of people</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a line of Supreme Court decisions
+</text>
+<rel>line</rel>
+<arg n="1">of Supreme Court decisions</arg>
+</example>
+
+</roleset>
+<roleset id="line.02" name="type">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+that line of business
+</text>
+<rel>line</rel>
+<arg n="1">of business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this line of play
+</text>
+<rel>line</rel>
+<arg n="1">of play</arg>
+</example>
+
+</roleset>
+<roleset id="line.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+NCNB 's bottom line
+</text>
+<arg n="1">NCNB 's</arg>
+<arg f="REF" n="2">line</arg>
+<rel>line</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The bottom line is , it seems to me that the economic environment
+has become very , very competitve for a lot of businesses
+</text>
+<rel>line</rel>
+<arg n="2">
+it seems to me that the economic environment has become very ,
+very competitve for a lot of businesses</arg>
+</example>
+
+</roleset>
+<roleset id="line.04" name="similar/compatible/amenable-to" source="verb-compare.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="standard" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Firm prices were generally in line with the tentative prices
+announced earlier this fall .
+</text>
+<arg n="1">Firm prices</arg>
+<rel>line</rel>
+<arg n="2">with the tentative prices announced earlier this fall</arg>
+</example>
+
+<example name="autogen2">
+<text>
+line with what analysts were expecting
+</text>
+<rel>line</rel>
+<arg n="2">with what analysts were expecting</arg>
+</example>
+
+</roleset>
+<roleset id="line.05" name="idiom-take a hard line with/idiom take a tough line with/nomadjlike-strict">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+<role descr="degree" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The oboist Heinz Holliger has taken a hard line about the problem
+</text>
+<arg n="0">The oboist Heinz Holliger</arg>
+<arg n="Support">taken</arg>
+<arg n="3">hard</arg>
+<rel>line</rel>
+<arg n="1">about the problem</arg>
+</example>
+
+<example name="autogen2">
+<text>
+states that are taking a hard line
+</text>
+<arg n="0">states ---> that ---> *T*-1</arg>
+<arg n="Support">taking</arg>
+<arg n="3">hard</arg>
+<rel>line</rel>
+</example>
+
+</roleset>
+<roleset id="line.06" name="version">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Justin 's `` My Own '' product line
+</text>
+<arg n="0">Justin 's</arg>
+<arg n="3">`` My Own ''</arg>
+<arg n="1">product</arg>
+<rel>line</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the famous Walkman line of portable audio equipment
+</text>
+<arg n="3">Walkman</arg>
+<rel>line</rel>
+<arg n="1">of portable audio equipment</arg>
+</example>
+
+</roleset>
+<roleset id="line.07" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some lines in the speech that could be misinterpreted and seized
+by the press
+</text>
+<rel>lines</rel>
+<arg n="1">in the speech</arg>
+</example>
+
+</roleset>
+<roleset id="line.08" name="nomadjlike-active">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it 'll be on line by 2000
+</text>
+<arg n="1">it</arg>
+<rel>line</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Edison plant coming on line next summer
+</text>
+<arg n="1">the Edison plant</arg>
+<arg n="Support">coming on</arg>
+<rel>line</rel>
+</example>
+
+</roleset>
+<roleset id="line.09" name="nomadjlike-vulnerable">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+assets on the line
+</text>
+<arg n="1">assets</arg>
+<rel>line</rel>
+</example>
+
+<example name="autogen2">
+<text>
+people out on the line who 've read all this and know what can
+happen if they fail
+</text>
+<arg n="1">people</arg>
+<rel>line</rel>
+</example>
+
+</roleset>
+<roleset id="line.10" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some line about `` caring for other people '' that would sound
+shmaltzy on the lips of Miss America
+</text>
+<rel>line</rel>
+<arg n="1">about `` caring for other people ''</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the standard line from executives
+</text>
+<rel>line</rel>
+<arg n="0">from executives</arg>
+</example>
+
+</roleset>
+<roleset id="line.11" name="work-of-art/point-of-view">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He comes from the same political line as Wright Patman , a
+bank-baiting Texas populist who chaired the Banking Committee
+until 1974 .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">comes from</arg>
+<arg n="1">political</arg>
+<rel>line</rel>
+</example>
+
+<example name="autogen2">
+<text>
+my line
+</text>
+<arg n="0">my</arg>
+<arg f="REF" n="1">line</arg>
+<rel>line</rel>
+</example>
+
+</roleset>
+<roleset id="line.12" name="issue">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Republican-governor/Democratic-legislature lines
+</text>
+<arg n="1">Republican-governor/Democratic-legislature</arg>
+<rel>lines</rel>
+</example>
+
+</roleset>
+<roleset id="line.13" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+PASOK 's line
+</text>
+<arg n="0">PASOK 's</arg>
+<rel>line</rel>
+</example>
+
+</roleset>
+<roleset id="line.14" name="separate" source="verb-divide.02">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the line between interpretation and redefinition of the criminal
+law
+</text>
+<rel>line</rel>
+<arg n="1">between interpretation and redefinition of the criminal law</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="counterpart">
+<roleset id="counterpart.01" name="be parallel/equivalent to" source="verb-correspond.02" vncls="47.2">
+<roles>
+
+<role descr="topic, theme" n="1">
+<vnrole vncls="47.2" vntheta="Theme"/></role>
+
+<role descr="compared with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their younger counterparts
+</text>
+<arg n="2">their</arg>
+<arg n="1">counterparts</arg>
+<rel>counterparts</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Its counterpart
+</text>
+<arg n="2">Its</arg>
+<arg n="1">counterpart</arg>
+<rel>counterpart</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

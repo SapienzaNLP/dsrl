@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="expectation">
+<roleset id="expectation.01" name="look forward to, anticipate" source="verb-expect.01">
+<roles>
+
+<role descr="expecter" n="0"></role>
+
+<role descr="thing expected" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+securities analysts ' revised expectations of around $ 1.6 a
+share
+</text>
+<arg n="0">securities analysts '</arg>
+<rel>expectations</rel>
+<arg n="1">of around $ 1.6 a share</arg>
+</example>
+
+<example name="autogen2">
+<text>
+expectations that the Soviet Union will place substantial buying
+orders over the next few months
+</text>
+<rel>expectations</rel>
+<arg n="1">
+that the Soviet Union will place substantial buying orders over
+the next few months</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

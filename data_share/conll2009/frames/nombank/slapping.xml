@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="slapping">
+<roleset id="slapping.01" name="hit with a flat object" source="verb-slap.01">
+<roles>
+
+<role descr="agent, hitter - animate only" n="0"></role>
+
+<role descr="thing hit" n="1"></role>
+
+<role descr="instrument, thing hit by or with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+punching and slapping by coaches
+</text>
+<rel>slapping</rel>
+<arg n="0">by coaches</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

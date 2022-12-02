@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suspension">
+<roleset id="suspension.01" name="put a stop to, temporarily" source="verb-suspend.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme (action or object being stopped" n="1"></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+<role descr="crime" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Comex 's nine-month suspension of Mr. Semel
+</text>
+<arg n="0">the Comex 's</arg>
+<rel>suspension</rel>
+<arg n="1">of Mr. Semel</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Biscayne Securities Corp. , of Lauderhill , Fla. , and a
+principal of the firm , Alvin Rosenblum of Plantation , Fla. ,
+were jointly fined $ 20,000 and given 10-day suspensions for
+allegedly selling securities at unfair prices .
+</text>
+<arg n="1">
+Biscayne Securities Corp. , of Lauderhill , Fla. , and a
+principal of the firm , Alvin Rosenblum of Plantation , Fla. ,
+---> *-1</arg>
+<arg n="Support">given</arg>
+<rel>suspensions</rel>
+<arg n="3">for allegedly selling securities at unfair prices</arg>
+</example>
+
+</roleset>
+<roleset id="suspension.02" name="hang" source="verb-suspend.02" vncls="9.2-1">
+<roles>
+
+<role descr="agent, entity causing something to be suspended" n="0">
+<vnrole vncls="9.2-1" vntheta="Agent"/></role>
+
+<role descr="thing suspended" n="1">
+<vnrole vncls="9.2-1" vntheta="Theme"/></role>
+
+<role descr="suspended from" n="2">
+<vnrole vncls="9.2-1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+vehicle-suspension systems
+</text>
+<arg n="1">vehicle-suspension</arg>
+<rel>vehicle-suspension</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its `` hydraulic active suspension ''
+</text>
+<arg n="0">its</arg>
+<arg f="MNR" n="M">active</arg>
+<rel>suspension</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

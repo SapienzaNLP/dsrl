@@ -1,0 +1,265 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shot">
+<roleset id="shot.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+black-and-white shots of Hollywood stars , artists and other
+well-known personalities modeling the retailer 's jeans and
+T-shirts
+</text>
+<rel>shots</rel>
+<arg n="1">
+of Hollywood stars , artists and other well-known personalities
+modeling the retailer 's jeans and T-shirts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+shots of the Alamo , cowboys , fajitas and a statue of Sam
+Houston
+</text>
+<rel>shots</rel>
+<arg n="1">of the Alamo , cowboys , fajitas and a statue of Sam Houston</arg>
+</example>
+
+</roleset>
+<roleset id="shot.02" name="calling-the-shots" source="verb-decide.01">
+<roles>
+
+<role descr="decider" n="0"></role>
+
+<role descr="decision" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the executives `` who are really calling the shots
+</text>
+<arg n="0">the executives ---> who ---> *T*-1</arg>
+<arg n="Support">calling</arg>
+<rel>shots</rel>
+</example>
+
+<example name="autogen2">
+<text>
+These firms , which often have acquired a local brokerage firm ,
+are calling the shots when it comes to deciding in which market
+to transact a trade .
+</text>
+<arg n="0">These firms , which often have acquired a local brokerage firm ,</arg>
+<arg n="Support">calling</arg>
+<rel>shots</rel>
+</example>
+
+</roleset>
+<roleset id="shot.03" name="put x into y" source="verb-inject.01" vncls="9.7-1">
+<roles>
+
+<role descr="injector" n="0">
+<vnrole vncls="9.7-1" vntheta="Agent"/></role>
+
+<role descr="stuff being put in" n="1">
+<vnrole vncls="9.7-1" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="9.7-1" vntheta="Destination"/></role>
+
+<role descr="reason" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a flu shot for horses
+</text>
+<arg n="3">flu</arg>
+<rel>shot</rel>
+<arg n="2">for horses</arg>
+</example>
+
+<example name="autogen2">
+<text>
+many women require analgesic shots to ease them through
+</text>
+<arg n="2">many women</arg>
+<arg n="Support">require</arg>
+<arg n="3">analgesic</arg>
+<rel>shots</rel>
+</example>
+
+</roleset>
+<roleset id="shot.04" name="big-shot/nomadjlike-famous">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="domain" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Wall Street hot shot
+</text>
+<arg n="1">Wall Street</arg>
+<arg n="0">shot</arg>
+<rel>shot</rel>
+</example>
+
+</roleset>
+<roleset id="shot.05" name="come to be visible" source="verb-appear.01">
+<roles>
+
+<role descr="thing appearing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Connie Chung for that matter -LRB- who is paid $ 1.6 million a
+year and who recently did a guest shot of her own on the sitcom
+`` Murphy Brown '' -RRB-
+</text>
+<arg n="1">Connie Chung ---> who ---> *T*-3</arg>
+<arg n="Support">did</arg>
+<rel>shot</rel>
+<arg f="LOC" n="M">on the sitcom `` Murphy Brown ''</arg>
+</example>
+
+</roleset>
+<roleset id="shot.06" name="try" source="verb-attempt.01">
+<roles>
+
+<role descr="agent/entity trying" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his one shot at college
+</text>
+<arg n="0">his</arg>
+<rel>shot</rel>
+<arg n="1">at college</arg>
+</example>
+
+<example name="autogen2">
+<text>
+we have to take a shot at getting as much done as we can through
+the court , through Justice and through state and federal
+regulatory agencies
+</text>
+<arg n="0">we ---> *-1</arg>
+<arg n="Support">take</arg>
+<rel>shot</rel>
+<arg n="1">
+at getting as much done as we can through the court , through
+Justice and through state and federal regulatory agencies</arg>
+</example>
+
+</roleset>
+<roleset id="shot.07" name="ability-with-agent/nom/attribute" source="verb-chance.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a proposal with a serious shot at congressional passage this fall
+</text>
+<arg n="0">a proposal</arg>
+<arg n="2">serious</arg>
+<rel>shot</rel>
+<arg n="1">at congressional passage this fall</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the emergence of a featherless biped was a one-in-a-million shot
+</text>
+<arg n="1">the emergence of a featherless biped</arg>
+<arg n="2">one-in-a-million</arg>
+<rel>shot</rel>
+</example>
+
+</roleset>
+<roleset id="shot.08" name="strike" source="verb-hit.01" vncls="18.1">
+<roles>
+
+<role descr="agent, hitter - animate only" n="0">
+<vnrole vncls="18.1" vntheta="Agent"/></role>
+
+<role descr="thing hit" n="1">
+<vnrole vncls="18.4" vntheta="Theme"/></role>
+
+<role descr="instrument, thing hit by or with" n="2">
+<vnrole vncls="18.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the plaintiffs could take a shot at Mr. Alexander
+</text>
+<arg n="0">the plaintiffs</arg>
+<arg n="Support">take</arg>
+<rel>shot</rel>
+<arg n="1">at Mr. Alexander</arg>
+</example>
+
+</roleset>
+<roleset id="shot.09" name="criticize, blame" source="verb-criticize.01" vncls="33">
+<roles>
+
+<role descr="critic" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="entity being criticized" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="on what grounds" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The measure drew criticism from the Bush administration and a
+parting shot from financier Donald Trump , who yesterday withdrew
+his takeover bid for AMR Corp. , the parent of American Airlines
+.
+</text>
+<arg n="1">The measure</arg>
+<arg n="Support">drew</arg>
+<arg f="TMP" n="M">parting</arg>
+<rel>shot</rel>
+<arg n="0">
+from financier Donald Trump , who yesterday withdrew his takeover
+bid for AMR Corp. , the parent of American Airlines</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

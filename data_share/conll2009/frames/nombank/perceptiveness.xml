@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="perceptiveness">
+<roleset id="perceptiveness.01" name="to become aware of, understand" source="verb-perceive.01" vncls="30.2">
+<roles>
+
+<role descr="perceiver" n="0">
+<vnrole vncls="30.2" vntheta="Experiencer"/></role>
+
+<role descr="entity perceived" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+<role descr="secondary predication, perceived as" n="2"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+A consumer's perceptiveness about quality
+</text>
+<arg n="0">A consumer's</arg>
+<rel>perceptiveness</rel>
+<arg n="1">about quality</arg>
+</example>
+
+</roleset>
+<roleset id="perceptiveness.02" name="nomadj-perceptive/attribute">
+<roles>
+
+<role descr="theme/experiencer" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the perceptiveness of your Sept. 12 story `` Rural Enterprise :
+Tough Row To Hoe
+</text>
+<arg f="REF" n="2">perceptiveness</arg>
+<rel>perceptiveness</rel>
+<arg n="1">of your Sept. 12 story `` Rural Enterprise : Tough Row To Hoe</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

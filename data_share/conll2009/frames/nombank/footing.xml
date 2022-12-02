@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="footing">
+<roleset id="footing.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his professional footing as a lawyer
+</text>
+<arg n="1">his</arg>
+<arg f="REF" n="2">footing</arg>
+<rel>footing</rel>
+<arg n="3">as a lawyer</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they 're on firmer footing
+</text>
+<arg n="1">they</arg>
+<arg n="2">firmer</arg>
+<rel>footing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="behest">
+<roleset id="behest.01" name="ask a favor, ask a request, ask for" source="verb-request.01">
+<roles>
+
+<role descr="asker" n="0"></role>
+
+<role descr="favor" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Each of them contributed a section at the behest of Verdi , who
+was nearly driven to his own early grave by the troublesome
+arrangements .
+</text>
+<arg n="2">Each of them</arg>
+<arg n="1">contributed a section</arg>
+<rel>behest</rel>
+<arg n="0">
+of Verdi , who was nearly driven to his own early grave by the
+troublesome arrangements</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Keating gave $ 850,000 in corporate funds to three tax-exempt
+voter registration organizations in 1987 and 1988 at the behest
+of Sen. Cranston , who conceded that soliciting the money was ``
+a pretty stupid thing to do politically
+</text>
+<arg n="2">Mr. Keating</arg>
+<arg n="1">
+gave $ 850,000 in corporate funds to three tax-exempt voter
+registration organizations in 1987 and 1988</arg>
+<rel>behest</rel>
+<arg n="0">
+of Sen. Cranston , who conceded that soliciting the money was ``
+a pretty stupid thing to do politically</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

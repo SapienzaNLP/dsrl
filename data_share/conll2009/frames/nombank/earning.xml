@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="earning">
+<roleset id="earning.01" name="wages" source="verb-earn.01" vncls="13.5.1">
+<roles>
+
+<role descr="earner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="wages" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Aldus to report earnings of 21 cents a share on revenues of $
+19.5 million for its third quarter , compared with earnings of 30
+cents a share on revenue of 20.4 million in the year-earlier
+period
+</text>
+<arg n="0">Aldus</arg>
+<arg n="Support">report</arg>
+<rel>earnings</rel>
+<arg n="1">of 21 cents a share</arg>
+<arg n="3">on revenues of $ 19.5 million</arg>
+<arg f="TMP" n="M">for its third quarter</arg>
+</example>
+
+<example name="autogen2">
+<text>
+nonoperating earnings of $ 14.6 million
+</text>
+<arg n="3">nonoperating</arg>
+<rel>earnings</rel>
+<arg n="1">of $ 14.6 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

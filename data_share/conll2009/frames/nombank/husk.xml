@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="husk">
+<roleset id="husk.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The transluscent husk of the seed
+</text>
+<rel>husk</rel>
+<arg n="1">of the seed</arg>
+</example>
+
+<example name="autogen2">
+<text>
+psyllium husk
+</text>
+<arg n="1">psyllium</arg>
+<rel>husk</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

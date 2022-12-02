@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="turn">
+<roleset id="turn.01" name="rotation" source="verb-turn.01" vncls="40.3.2">
+<roles>
+
+<role descr="turner" n="0">
+<vnrole vncls="40.3.2" vntheta="Agent"/></role>
+
+<role descr="thing turning" n="1">
+<vnrole vncls="40.3.2" vntheta="Theme"/></role>
+
+<role descr="direction, location" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Bakes previously had a turn at running Continental .
+</text>
+<arg n="0">Mr. Bakes</arg>
+<arg n="Support">had</arg>
+<rel>turn</rel>
+<arg n="1">at running Continental</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they took an upward turn
+</text>
+<arg n="1">they</arg>
+<arg n="Support">took</arg>
+<arg f="DIR" n="M">upward</arg>
+<rel>turn</rel>
+</example>
+
+</roleset>
+<roleset id="turn.02" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their turn to speak to the underwriters
+</text>
+<arg n="0">their</arg>
+<rel>turn</rel>
+<arg f="PRD" n="1">to speak to the underwriters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the World Bank 's Turn to Adjust
+</text>
+<arg n="0">the World Bank 's</arg>
+<rel>Turn</rel>
+<arg f="PRD" n="1">to Adjust</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

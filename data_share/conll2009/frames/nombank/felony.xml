@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="felony">
+<roleset id="felony.01" name="threaten" source="verb-threaten.01" vncls="31.1">
+<roles>
+
+<role descr="agent, entity making a threat" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="threat" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="beneficiary', entity threatened" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its guilty plea to six felonies last month
+</text>
+<arg n="0">its</arg>
+<arg n="Support">plea to</arg>
+<arg f="EXT" n="M">six</arg>
+<arg f="REF" n="1">felonies</arg>
+<rel>felonies</rel>
+</example>
+
+<example name="autogen2">
+<text>
+someone is convicted of a felony
+</text>
+<arg n="0">someone ---> *-1</arg>
+<arg n="Support">convicted of</arg>
+<arg f="REF" n="1">felony</arg>
+<rel>felony</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

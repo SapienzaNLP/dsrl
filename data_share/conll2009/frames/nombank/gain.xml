@@ -1,0 +1,82 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gain">
+<roleset id="gain.01" name="increase, rise" source="verb-gain.01" vncls="45.6">
+<roles>
+
+<role descr="logical subject, patient, thing rising" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext, amount risen" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 15 % gain in consolidated revenue to 10.16 billion francs from
+8.85 billion a year earlier
+</text>
+<arg n="2">15 %</arg>
+<rel>gain</rel>
+<arg n="1">in consolidated revenue</arg>
+<arg n="4">to 10.16 billion francs</arg>
+<arg n="3">from 8.85 billion a year earlier</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a 6.9 % gain from $ 425.4 million
+</text>
+<arg n="2">6.9 %</arg>
+<rel>gain</rel>
+<arg n="3">from $ 425.4 million</arg>
+</example>
+
+</roleset>
+<roleset id="gain.02" name="acquire" source="verb-gain.02" vncls="13.5.1">
+<roles>
+
+<role descr="agent, entity acquiring something" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing acquired" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="source, gained from" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="beneficiary, gained for" n="3">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Profits of Shell , a subsidiary of the Royal Dutch/Shell Group ,
+tumbled $ 24 million , or 6.6 % , to $ 340 million , despite a
+gain of $ 30 million from an insurance settlement .
+</text>
+<arg n="0">Profits of Shell , a subsidiary of the Royal Dutch/Shell Group ,</arg>
+<rel>gain</rel>
+<arg n="1">of $ 30 million</arg>
+<arg n="2">from an insurance settlement</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a gain of $ 49 million on the sale of a subsidiary 's common
+stock
+</text>
+<rel>gain</rel>
+<arg n="1">of $ 49 million</arg>
+<arg n="2">on the sale of a subsidiary 's common stock</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

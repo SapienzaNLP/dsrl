@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recourse">
+<roleset id="recourse.01" name="ability/nomlike" source="verb-access.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="source" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+citizens have full recourse to the ballot box to effect change
+</text>
+<arg n="0">citizens</arg>
+<arg n="Support">have</arg>
+<arg f="MNR" n="M">full</arg>
+<rel>recourse</rel>
+<arg n="2">to the ballot box</arg>
+<arg f="PRD" n="1">to effect change</arg>
+</example>
+
+<example name="autogen2">
+<text>
+legal recourse
+</text>
+<arg n="2">legal</arg>
+<rel>recourse</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

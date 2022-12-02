@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sequence">
+<roleset id="sequence.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an idealized sequence of discrete events
+</text>
+<rel>sequence</rel>
+<arg n="1">of discrete events</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a well-known sequence of moves
+</text>
+<rel>sequence</rel>
+<arg n="1">of moves</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

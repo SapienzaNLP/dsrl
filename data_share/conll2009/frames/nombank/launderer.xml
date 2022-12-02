@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="launderer">
+<roleset id="launderer.01" name="wash" source="verb-launder.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+money launderers
+</text>
+<arg n="1">money</arg>
+<arg n="0">launderers</arg>
+<rel>launderers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

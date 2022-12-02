@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="burst">
+<roleset id="burst.01" name="part-quant/nom" source="verb-burst.01" vncls="48.1.1">
+<roles>
+
+<role descr="quantified/theme" n="1">
+<vnrole vncls="48.1.1" vntheta="Theme"/></role>
+
+<role descr="further description" n="2">
+<vnrole vncls="48.1.1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a burst of energy
+</text>
+<rel>burst</rel>
+<arg n="1">of energy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a burst of automobile buying
+</text>
+<rel>burst</rel>
+<arg n="1">of automobile buying</arg>
+</example>
+
+</roleset>
+<roleset id="burst.02" name="minor explosion/eruption" source="verb-burst.02" vncls="45.4">
+<roles>
+
+<role descr="causer of explosion" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a burst of neutrons from an early cold fusion experiment last
+April
+</text>
+<rel>burst</rel>
+<arg n="1">of neutrons</arg>
+<arg n="0">from an early cold fusion experiment last April</arg>
+</example>
+
+<example name="autogen2">
+<text>
+neutron bursts
+</text>
+<arg n="1">neutron</arg>
+<rel>bursts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

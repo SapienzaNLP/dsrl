@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="counselor">
+<roleset id="counselor.01" name="actrel" source="verb-counsel.01" vncls="37.9-1">
+<roles>
+
+<role descr="job holder" n="0">
+<vnrole vncls="37.9-1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1" source="2">
+<vnrole vncls="37.9-1" vntheta="Topic"/></role>
+
+<role descr="beneficiary" n="2" source="1">
+<vnrole vncls="37.9-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+investment counselors
+</text>
+<arg n="1">investment</arg>
+<arg n="0">counselors</arg>
+<rel>counselors</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an on-site investment counselor
+</text>
+<arg n="1">investment</arg>
+<arg n="0">counselor</arg>
+<rel>counselor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

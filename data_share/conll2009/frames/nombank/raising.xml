@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="raising">
+<roleset id="raising.01" name="fundraising" source="verb-raise.02">
+<roles>
+
+<role descr="getter of money" n="0"></role>
+
+<role descr="money" n="1"></role>
+
+<role descr="giver of money" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its fund raising
+</text>
+<arg n="0">its</arg>
+<arg n="1">fund</arg>
+<rel>raising</rel>
+</example>
+
+<example name="autogen2">
+<text>
+your fund-raising or design
+</text>
+<arg n="1">fund-raising</arg>
+<rel>fund-raising</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

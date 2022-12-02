@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vote">
+<roleset id="vote.01" name="cast a ballot" source="verb-vote.01">
+<roles>
+
+<role descr="voter" n="0"></role>
+
+<role descr="candidate or ballot issue" n="1"></role>
+
+<role descr="numerical count of vote, margin" n="2"></role>
+
+<role descr="proxy voter" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The union vote to reject the proposed pact was 230-215 .
+</text>
+<arg n="0">union</arg>
+<rel>vote</rel>
+<arg n="1">to reject the proposed pact</arg>
+<arg n="2">was 230-215</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he had enough votes to block the maneuver on procedural grounds ,
+perhaps as soon as today
+</text>
+<arg n="2">enough</arg>
+<rel>votes</rel>
+<arg f="PRD" n="1">
+to block the maneuver on procedural grounds , perhaps as soon as
+today</arg>
+</example>
+
+</roleset>
+<roleset id="vote.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="setting" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Each has an equal vote at the monthly meetings .
+</text>
+<arg n="1">Each</arg>
+<arg n="Support">has</arg>
+<arg n="2">equal</arg>
+<rel>vote</rel>
+<arg n="3">at the monthly meetings</arg>
+</example>
+
+<example name="autogen2">
+<text>
+about 50 % of the equity and 81 % of the votes of ABM
+</text>
+<arg n="2">81 %</arg>
+<rel>votes</rel>
+<arg n="1">*RNR*-1 ---> of ABM</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

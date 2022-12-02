@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="adequacy">
+<roleset id="adequacy.01" name="attribute/nomadj-adequate">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its profitability and capital adequacy measurements
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">adequacy</arg>
+<rel>adequacy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the financial adequacy and viability of broker-dealers
+</text>
+<arg f="REF" n="2">adequacy</arg>
+<rel>adequacy</rel>
+<arg n="1">of broker-dealers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

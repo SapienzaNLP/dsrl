@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="durability">
+<roleset id="durability.01" name="nomadj-durable/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its durability
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">durability</arg>
+<rel>durability</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

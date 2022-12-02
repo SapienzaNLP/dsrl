@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="authenticity">
+<roleset id="authenticity.01" name="attribute/nomadj-authentic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the authenticity of the Rubens
+</text>
+<arg f="REF" n="2">authenticity</arg>
+<rel>authenticity</rel>
+<arg n="1">of the Rubens</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` glasnost 's '' authenticity
+</text>
+<arg n="1">glasnost 's</arg>
+<arg f="REF" n="2">authenticity</arg>
+<rel>authenticity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

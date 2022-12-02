@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="victor">
+<roleset id="victor.01" name="win/nomadj-victorious" source="verb-win.01" vncls="13.5.1">
+<roles>
+
+<role descr="winner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing won (contest or prize" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="loser, giver of prize" n="3"></role>
+
+<role descr="in-exchange-for" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A victor in the fight for Jaguar
+</text>
+<arg n="0">victor</arg>
+<rel>victor</rel>
+<arg n="1">in the fight for Jaguar</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the victor of the review
+</text>
+<arg n="0">victor</arg>
+<rel>victor</rel>
+<arg n="1">of the review</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

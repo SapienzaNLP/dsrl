@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="weapon">
+<roleset id="weapon.01" name="defend" source="verb-defend.01">
+<roles>
+
+<role descr="defender" n="0"></role>
+
+<role descr="defended against" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his chief weapon against inflation , which was ignited by tax
+cuts and loose credit policies in 1986 and 1987
+</text>
+<arg n="0">his</arg>
+<arg f="MNR" n="M">chief</arg>
+<arg n="2">weapon</arg>
+<rel>weapon</rel>
+<arg n="1">
+against inflation , which was ignited by tax cuts and loose
+credit policies in 1986 and 1987</arg>
+</example>
+
+<example name="autogen2">
+<text>
+other anti-aircraft weapons
+</text>
+<arg n="1">anti-aircraft</arg>
+<arg n="2">weapons</arg>
+<rel>weapons</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

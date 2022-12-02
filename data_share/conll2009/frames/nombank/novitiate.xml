@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="novitiate">
+<roleset id="novitiate.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a novitiate in a convent
+</text>
+<arg n="0">novitiate</arg>
+<rel>novitiate</rel>
+<arg n="2">in a convent</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

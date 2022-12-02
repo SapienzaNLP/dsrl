@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="envy">
+<roleset id="envy.01" name="nom/nomadj-envious" source="verb-envy.01">
+<roles>
+
+<role descr="envier" n="0"></role>
+
+<role descr="envied" n="1"></role>
+
+<role descr="cause" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Circus Circus 's flagship casino has become the envy of
+competitors for its ability to vacuum cash from the pockets of
+vacationing families .
+</text>
+<arg f="REF" n="1">envy</arg>
+<rel>envy</rel>
+<arg n="0">of competitors</arg>
+<arg n="2">
+for its ability to vacuum cash from the pockets of vacationing
+families</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the envy of other would-be futures centers
+</text>
+<arg f="REF" n="1">envy</arg>
+<rel>envy</rel>
+<arg n="0">of other would-be futures centers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

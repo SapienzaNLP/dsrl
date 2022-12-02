@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="feel">
+<roleset id="feel.01" name="believe" source="verb-feel.02" vncls="29.5">
+<roles>
+
+<role descr="believer" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="belief" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="attributive" n="2">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+My gut feel is that we 'll live with those swings for a while
+</text>
+<arg n="0">My</arg>
+<rel>feel</rel>
+<arg n="1">that we 'll live with those swings for a while</arg>
+</example>
+
+</roleset>
+<roleset id="feel.02" name="understand" source="verb-understand.01">
+<roles>
+
+<role descr="understander" n="0"></role>
+
+<role descr="thing understood" n="1"></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+lawyers in small communities have always had a feel for public
+sentiment -- and used that to advantage
+</text>
+<arg n="0">lawyers in small communities</arg>
+<arg n="Support">had</arg>
+<rel>feel</rel>
+<arg n="1">for public sentiment</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

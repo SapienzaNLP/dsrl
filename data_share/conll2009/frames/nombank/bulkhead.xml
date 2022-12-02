@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bulkhead">
+<roleset id="bulkhead.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+each jetliner 's two major bulkheads
+</text>
+<arg n="1">each jetliner 's</arg>
+<rel>bulkheads</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

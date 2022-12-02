@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="detergent">
+<roleset id="detergent.01" name="to free from dirt" source="verb-clean.01" vncls="26.3-2">
+<roles>
+
+<role descr="cleaner, agent" n="0">
+<vnrole vncls="26.3-2" vntheta="Agent"/></role>
+
+<role descr="thing cleaned" n="1">
+<vnrole vncls="26.3-2" vntheta="Patient"/></role>
+
+<role descr="beneficiary, clean for" n="2">
+<vnrole vncls="26.3-2" vntheta="Beneficiary"/></role>
+
+<role descr="medium" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+all major dishwasher detergents
+</text>
+<arg n="3">dishwasher</arg>
+<arg n="0">detergents</arg>
+<rel>detergents</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Cascade dishwasher detergent
+</text>
+<arg n="3">dishwasher</arg>
+<arg n="0">detergent</arg>
+<rel>detergent</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

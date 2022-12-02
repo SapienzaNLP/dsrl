@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="debacle">
+<roleset id="debacle.01" name="nomadjlike-problematic">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the debacle in the equity markets
+</text>
+<rel>debacle</rel>
+<arg n="0">in the equity markets</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a stock-market debacle
+</text>
+<arg n="1">stock-market</arg>
+<rel>debacle</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

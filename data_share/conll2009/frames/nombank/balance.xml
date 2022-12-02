@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="balance">
+<roleset id="balance.01" name="establish a balance" source="verb-balance.01">
+<roles>
+
+<role descr="balancer, agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="standard" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` But we hope to keep a balance between the office and the
+family . ''
+</text>
+<arg n="0">we ---> *-1</arg>
+<arg n="Support">keep</arg>
+<rel>balance</rel>
+<arg n="1">between the office and the family</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` balance '' between the House and Senate
+</text>
+<rel>balance</rel>
+<arg n="1">between the House and Senate</arg>
+</example>
+
+</roleset>
+<roleset id="balance.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+France 's balance of payments
+</text>
+<arg n="3">France 's</arg>
+<arg f="REF" n="2">balance</arg>
+<rel>balance</rel>
+<arg n="1">of payments</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the balance of about $ 509 million
+</text>
+<rel>balance</rel>
+<arg n="2">of about $ 509 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

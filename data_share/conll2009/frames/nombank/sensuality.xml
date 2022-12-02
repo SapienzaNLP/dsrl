@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sensuality">
+<roleset id="sensuality.01" name="attribute/nomadj-sensual">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the picture 's sensuality
+</text>
+<arg n="1">the picture 's</arg>
+<arg f="REF" n="2">sensuality</arg>
+<rel>sensuality</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

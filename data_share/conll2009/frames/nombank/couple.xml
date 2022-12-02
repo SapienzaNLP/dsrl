@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="couple">
+<roleset id="couple.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+a tough couple of years
+</text>
+<rel>couple</rel>
+<arg n="1">of years</arg>
+</example>
+
+<example name="autogen4">
+<text>
+the next couple of quarters
+</text>
+<rel>couple</rel>
+<arg n="1">of quarters</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

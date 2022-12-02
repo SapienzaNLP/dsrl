@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="behavior">
+<roleset id="behavior.01" name="to conduct (oneself) in a specified way" source="verb-behave.01">
+<roles>
+
+<role descr="agent, entity behaving" n="0"></role>
+
+<role descr="manner" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the voting behavior of his fellow New Yorkers
+</text>
+<arg n="1">voting</arg>
+<rel>behavior</rel>
+<arg n="0">of his fellow New Yorkers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+self-destructive behaviors
+</text>
+<arg n="1">self-destructive</arg>
+<rel>behaviors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

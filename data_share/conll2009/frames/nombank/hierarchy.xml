@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hierarchy">
+<roleset id="hierarchy.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the hierarchy of their church
+</text>
+<rel>hierarchy</rel>
+<arg n="1">of their church</arg>
+</example>
+
+<example name="autogen2">
+<text>
+His campaign hierarchy
+</text>
+<arg n="2">His</arg>
+<arg n="1">campaign</arg>
+<rel>hierarchy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

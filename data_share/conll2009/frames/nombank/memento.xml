@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="memento">
+<roleset id="memento.01" name="to cause to remember" source="verb-remind.01">
+<roles>
+
+<role descr="cause, agent" n="0"></role>
+
+<role descr="thing reminded" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+few mementos of his days as White House deputy chief of staff and
+confidant of Ronald and Nancy Reagan
+</text>
+<arg n="0">mementos</arg>
+<rel>mementos</rel>
+<arg n="1">
+of his days as White House deputy chief of staff and confidant of
+Ronald and Nancy Reagan</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

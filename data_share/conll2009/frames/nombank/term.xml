@@ -1,0 +1,228 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="term">
+<roleset id="term.01" name="time-period-for-office-or-loan" source="verb-last.01" vncls="54.2">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="54.2" vntheta="Theme"/></role>
+
+<role descr="period of time" n="2">
+<vnrole vncls="54.2" vntheta="Attribute"/></role>
+
+<role descr="until" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his first 10-year term as judge
+</text>
+<arg n="0">his</arg>
+<arg n="2">10-year</arg>
+<rel>term</rel>
+<arg n="1">as judge</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The offering is backed by Freddie Mac 's 10 % issue with a
+weighted average term to maturity of 29.583 months .
+</text>
+<arg n="1">Freddie Mac 's 10 % issue</arg>
+<rel>term</rel>
+<arg n="3">to maturity</arg>
+<arg n="2">of 29.583 months</arg>
+</example>
+
+</roleset>
+<roleset id="term.02" name="agree" source="verb-agree.01">
+<roles>
+
+<role descr="agreer" n="0"></role>
+
+<role descr="proposition" n="1"></role>
+
+<role descr="other entity agreeing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+better investment terms for the British carrier
+</text>
+<arg n="1">investment</arg>
+<rel>terms</rel>
+<arg n="0">for the British carrier</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the best purchase price or lease terms
+</text>
+<arg n="1">lease</arg>
+<rel>terms</rel>
+</example>
+
+</roleset>
+<roleset id="term.03" name="come-to-terms-with" source="verb-understand.01">
+<roles>
+
+<role descr="understander" n="0"></role>
+
+<role descr="thing understood" n="1"></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Tokyo comes to terms with its new status as the region 's
+economic behemoth
+</text>
+<arg n="0">Tokyo</arg>
+<arg n="Support">comes to</arg>
+<rel>terms</rel>
+<arg n="1">with its new status as the region 's economic behemoth</arg>
+</example>
+
+<example name="autogen2">
+<text>
+class-conscious Britain is n't ready to come to terms with the
+wealth created by the Thatcherian free-enterprise regime
+</text>
+<arg n="0">class-conscious Britain ---> *</arg>
+<arg n="Support">come to</arg>
+<rel>terms</rel>
+<arg n="2">with the wealth created by the Thatcherian free-enterprise regime</arg>
+</example>
+
+</roleset>
+<roleset id="term.04" name="on-good-terms/nomlike" source="verb-judge.01" vncls="29.4">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="actor2" n="1">
+<vnrole vncls="29.4" vntheta="Actor2"/></role>
+
+<role descr="value" n="2">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+China were still on good terms with foreign lenders
+</text>
+<arg n="0">China</arg>
+<arg n="2">good</arg>
+<rel>terms</rel>
+<arg n="1">with foreign lenders</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Steinberg is thought to be on friendly terms with UAL 's Mr.
+Wolf .
+</text>
+<arg n="0">Mr. Steinberg ---> *-1</arg>
+<arg n="2">friendly</arg>
+<rel>terms</rel>
+<arg n="1">with UAL 's Mr. Wolf</arg>
+</example>
+
+</roleset>
+<roleset id="term.05" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its 1982 level in real dollar terms
+</text>
+<arg n="2">its 1982 level</arg>
+<arg n="1">dollar</arg>
+<rel>terms</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Dow 's decline was second in point terms only to the
+508-point Black Monday crash that occurred Oct. 19 , 1987 .
+</text>
+<arg n="2">second</arg>
+<arg n="1">point</arg>
+<rel>terms</rel>
+</example>
+
+</roleset>
+<roleset id="term.06" name="signify" source="verb-signify.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+General Motors , for example , uses metric terms for its
+automobile bodies and power trains .
+</text>
+<arg n="0">metric</arg>
+<rel>terms</rel>
+<arg n="1">for its automobile bodies and power trains</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Japanese term for the largest of the global trading houses
+</text>
+<arg n="0">Japanese</arg>
+<rel>term</rel>
+<arg n="1">for the largest of the global trading houses</arg>
+</example>
+
+</roleset>
+<roleset id="term.07" name="complex-preps-in-terms-of/in-x-terms">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+terms of money
+</text>
+<rel>terms</rel>
+<arg n="1">of money</arg>
+</example>
+
+<example name="autogen2">
+<text>
+terms of sheetrock by the square foot , carpeting by the square
+yard , wallpaper by the roll , molding by the linear foot
+</text>
+<rel>terms</rel>
+<arg n="1">
+of sheetrock by the square foot , carpeting by the square yard ,
+wallpaper by the roll , molding by the linear foot</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="novel">
+<roleset id="novel.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Carlos Fuentes novel of the Mexican Revolution
+</text>
+<arg n="0">Carlos Fuentes</arg>
+<rel>novel</rel>
+<arg n="1">of the Mexican Revolution</arg>
+</example>
+
+<example name="autogen2">
+<text>
+mystery novels
+</text>
+<arg n="1">mystery</arg>
+<rel>novels</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

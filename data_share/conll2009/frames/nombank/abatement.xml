@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="abatement">
+<roleset id="abatement.01" name="to decrease,  become less strong" source="verb-abate.01" vncls="45.4">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="entity decreased" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+pollution abatement and control accounts
+</text>
+<arg n="1">pollution</arg>
+<rel>abatement</rel>
+</example>
+
+<example name="autogen2">
+<text>
+interest abatement
+</text>
+<arg n="1">interest</arg>
+<rel>abatement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

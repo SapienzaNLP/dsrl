@@ -1,0 +1,83 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tab">
+<roleset id="tab.01" name="look at" source="verb-watch.01" vncls="30.2">
+<roles>
+
+<role descr="observer" n="0">
+<vnrole vncls="30.2" vntheta="Experiencer"/></role>
+
+<role descr="thing looked at" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the market kept careful tabs on Wall Street 's gyrations
+</text>
+<arg n="0">the market</arg>
+<arg n="Support">kept</arg>
+<arg f="MNR" n="M">careful</arg>
+<rel>tabs</rel>
+<arg n="1">on Wall Street 's gyrations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+only about 200 staffers assigned to keep tabs on investment
+advisers -- about the same as in 1980 --
+</text>
+<arg n="0">only about 200 staffers ---> *</arg>
+<arg n="Support">keep</arg>
+<rel>tabs</rel>
+<arg n="1">on investment advisers</arg>
+</example>
+
+</roleset>
+<roleset id="tab.02" name="charge a fee" source="verb-bill.01" vncls="54.5">
+<roles>
+
+<role descr="seller, biller" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="asking price, amount of bill" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="buyer, billed" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+property owners ought to pay a higher portion of the state 's
+earthquake relief tab
+</text>
+<arg n="2">property owners ---> *-1</arg>
+<arg n="Support">pay portion of</arg>
+<arg n="4">the state 's</arg>
+<arg n="3">earthquake relief</arg>
+<rel>tab</rel>
+</example>
+
+<example name="autogen2">
+<text>
+A week ago , his gallery racked up a $ 23 million tab at a
+Sotheby 's auction in New York buying seven works , including a
+Picasso .
+</text>
+<arg n="2">his gallery</arg>
+<arg n="Support">racked</arg>
+<arg n="1">$ 23 million</arg>
+<rel>tab</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

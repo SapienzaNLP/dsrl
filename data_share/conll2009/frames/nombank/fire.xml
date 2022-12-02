@@ -1,0 +1,88 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fire">
+<roleset id="fire.01" name="event/nomlike" source="verb-burn.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+forest fires
+</text>
+<arg n="1">forest</arg>
+<rel>fires</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the nearby woods are on fire
+</text>
+<arg n="1">the nearby woods</arg>
+<rel>fire</rel>
+</example>
+
+</roleset>
+<roleset id="fire.02" name="fire a gun" source="verb-fire.01" vncls="17.1">
+<roles>
+
+<role descr="shooter" n="0">
+<vnrole vncls="17.1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He is under intense fire from other Palestinian groups
+</text>
+<arg n="2">He</arg>
+<arg f="MNR" n="M">intense</arg>
+<rel>fire</rel>
+<arg n="0">from other Palestinian groups</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Corry learned presence under fire when , as vice president of
+corporate planning , he handled what Mr. Johnston calls ``
+don't-con-me '' negotiations that led to USX 's shedding of a
+wide array of assets ranging from chemicals to construction .
+</text>
+<arg n="2">Mr. Corry</arg>
+<rel>fire</rel>
+</example>
+
+</roleset>
+<roleset id="fire.03" name="nomlike" source="verb-happen.01" vncls="48.3">
+<roles>
+
+<role descr="event" n="1">
+<vnrole vncls="48.3" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fires of discontent
+</text>
+<rel>fires</rel>
+<arg n="1">of discontent</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the anti-takeover fires
+</text>
+<arg n="1">anti-takeover</arg>
+<rel>fires</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

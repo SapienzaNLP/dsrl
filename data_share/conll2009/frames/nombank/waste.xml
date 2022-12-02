@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="waste">
+<roleset id="waste.01" name="destroy, use up needlessly" source="verb-waste.01">
+<roles>
+
+<role descr="destroyer" n="0"></role>
+
+<role descr="thing destroyed" n="1"></role>
+
+<role descr="instrument of destruction" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the inefficiency , waste and lack of coordination among the
+branches of the vast federal agency
+</text>
+<rel>waste</rel>
+<arg n="1">of coordination</arg>
+<arg n="0">among the branches of the vast federal agency</arg>
+</example>
+
+<example name="autogen2">
+<text>
+cogeneration and waste heat recovery plants
+</text>
+<rel>waste</rel>
+<arg n="1">heat</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

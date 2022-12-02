@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="citation">
+<roleset id="citation.01" name="refer to" source="verb-cite.01" vncls="29.2">
+<roles>
+
+<role descr="citer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing cited" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="secondary attribute, cited-as" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+His citation from Shakespeare
+</text>
+<arg n="0">His</arg>
+<rel>citation</rel>
+<arg f="REF" n="1">citation</arg>
+<arg n="3">from Shakespeare</arg>
+</example>
+
+</roleset>
+<roleset id="citation.02" name="give legal summons, ticket" source="verb-cite.02">
+<roles>
+
+<role descr="giver of ticket" n="0"></role>
+
+<role descr="crime" n="1"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it has issued five citations to banks over the past three years
+for discriminatory practices
+</text>
+<arg n="0">it</arg>
+<arg n="Support">issued</arg>
+<rel>citations</rel>
+<arg n="2">to banks</arg>
+<arg n="1">for discriminatory practices</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A second citation covering the company 's Clairton , Pa. , coke
+works involved more than 200 alleged violations of
+electrical-safety and other requirements , for which OSHA
+proposed $ 1.2 million in fines .
+</text>
+<arg f="TMP" n="M">second</arg>
+<rel>citation</rel>
+<arg n="Support">covering</arg>
+<arg n="2">the company 's Clairton , Pa. , coke works</arg>
+<arg n="Support">involved</arg>
+<arg n="1">
+more than 200 alleged violations of electrical-safety and other
+requirements , for which OSHA proposed $ 1.2 million in fines</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

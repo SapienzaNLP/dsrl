@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="agenda">
+<roleset id="agenda.01" name="look for" source="verb-desire.01">
+<roles>
+
+<role descr="seeker" n="0"></role>
+
+<role descr="thing sought" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an item high on the U.S. agenda
+</text>
+<arg n="1">an item</arg>
+<arg n="0">U.S.</arg>
+<rel>agenda</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the reformers ' agenda
+</text>
+<arg n="0">the reformers '</arg>
+<rel>agenda</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

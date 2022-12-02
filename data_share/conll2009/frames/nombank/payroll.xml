@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="payroll">
+<roleset id="payroll.01" name="cf buy and sell/attribute" source="verb-pay.01" vncls="13.1-1">
+<roles>
+
+<role descr="employer" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="money" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="recipients/value" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="job/job-sector" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its current world-wide payroll of 22,300 employees
+</text>
+<arg n="0">its</arg>
+<arg f="TMP" n="M">current</arg>
+<arg n="3">world-wide</arg>
+<rel>payroll</rel>
+<arg n="2">of 22,300 employees</arg>
+</example>
+
+<example name="autogen2">
+<text>
+manufacturing payrolls
+</text>
+<arg n="3">manufacturing</arg>
+<arg f="REF" n="2">payrolls</arg>
+<rel>payrolls</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

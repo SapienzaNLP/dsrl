@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="arm">
+<roleset id="arm.01" name="partitive-part/division">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="theme" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an investment arm of Xerox Financial Services
+</text>
+<arg n="2">investment</arg>
+<rel>arm</rel>
+<arg n="1">of Xerox Financial Services</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its utilities arm
+</text>
+<arg n="1">its</arg>
+<arg n="2">utilities</arg>
+<rel>arm</rel>
+</example>
+
+</roleset>
+<roleset id="arm.02" name="partitive-part/part-of-body-furniture-etc">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his arm
+</text>
+<arg n="1">his</arg>
+<rel>arm</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her arms
+</text>
+<arg n="1">her</arg>
+<rel>arms</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

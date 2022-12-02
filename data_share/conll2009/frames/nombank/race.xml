@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="race">
+<roleset id="race.01" name="compete in a race" source="verb-race.02" vncls="36.1">
+<roles>
+
+<role descr="participant" n="1">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="goal" n="2"></role>
+
+<role descr="means" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It is becoming more of a horse race every day between the U.S.
+and Japan
+</text>
+<arg n="3">horse</arg>
+<rel>race</rel>
+<arg n="1">*ICH*-2 ---> between the U.S. and Japan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it has won the race in Europe to introduce computers based on a
+powerful new microprocessor chip
+</text>
+<arg n="1">it</arg>
+<arg n="Support">won</arg>
+<rel>race</rel>
+<arg n="2">
+*ICH*-2 ---> to introduce computers based on a powerful new
+microprocessor chip</arg>
+<arg f="LOC" n="M">in Europe</arg>
+</example>
+
+</roleset>
+<roleset id="race.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+only the English race
+</text>
+<arg n="2">English</arg>
+<arg f="REF" n="1">race</arg>
+<rel>race</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the human race
+</text>
+<arg n="2">human</arg>
+<rel>race</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

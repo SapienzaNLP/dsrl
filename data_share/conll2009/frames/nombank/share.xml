@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="share">
+<roleset id="share.01" name="nom/share/partitive-quant" source="verb-share.01">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+<role descr="shared-with" n="4" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Montedison currently owns about 72 % of Erbamont 's common shares
+outstanding .
+</text>
+<arg n="0">Montedison</arg>
+<arg n="Support">owns % of</arg>
+<arg n="2">about 72 %</arg>
+<arg n="1">Erbamont 's</arg>
+<arg n="3">common</arg>
+<rel>shares</rel>
+</example>
+
+<example name="autogen2">
+<text>
+8.685 % of CACI 's common shares
+</text>
+<arg n="2">8.685 %</arg>
+<arg n="1">CACI 's</arg>
+<arg n="3">common</arg>
+<rel>shares</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

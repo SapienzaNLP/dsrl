@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="autonomy">
+<roleset id="autonomy.01" name="nomadj-autonomousnomlike-depend" source="verb-depend.01" vncls="47.1-1">
+<roles>
+
+<role descr="depender" n="1" source="0">
+<vnrole vncls="47.1-1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their autonomy
+</text>
+<arg n="1">their</arg>
+<rel>autonomy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Kosovo 's autonomy
+</text>
+<arg n="1">Kosovo 's</arg>
+<rel>autonomy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

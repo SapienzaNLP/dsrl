@@ -1,0 +1,181 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="play">
+<roleset id="play.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Bill Cohen morality play
+</text>
+<arg n="0">Bill Cohen</arg>
+<arg n="1">morality</arg>
+<rel>play</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the play and movie versions of `` Abie 's Irish Rose ''
+</text>
+<rel>play</rel>
+<arg n="Support">versions</arg>
+<arg n="1">of `` Abie 's Irish Rose ''</arg>
+</example>
+
+</roleset>
+<roleset id="play.02" name="moves/strategies in game,stock market, etc" source="verb-play.01" vncls="26.7-1">
+<roles>
+
+<role descr="player" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a diving fielding play
+</text>
+<arg n="2">diving fielding</arg>
+<rel>play</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a morality play
+</text>
+<arg n="2">morality</arg>
+<rel>play</rel>
+</example>
+
+</roleset>
+<roleset id="play.03" name="play-on-words">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a play on words
+</text>
+<rel>play</rel>
+<arg n="1">on words</arg>
+</example>
+
+</roleset>
+<roleset id="play.04" name="attribute/fair play">
+<roles>
+
+<role descr="agent/participant" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more `` fair play '' in services trade , including predictable
+and clear rules and equality in the treatment of foreign and
+domestic service companies
+</text>
+<arg n="2">fair</arg>
+<rel>play</rel>
+<arg n="1">
+in services trade , including predictable and clear rules and
+equality in the treatment of foreign and domestic service
+companies</arg>
+</example>
+
+</roleset>
+<roleset id="play.05" name="on the market">
+<roles>
+
+<role descr="theme/item-for-sale" n="1"></role>
+
+<role descr="domain/market" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+just `` a stock play
+</text>
+<arg n="1">stock</arg>
+<rel>play</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Even if B.A.T receives approval for the restructuring , the
+company will remain in play , say shareholders and analysts ,
+though the situation may unfold over the next 12 months , rather
+than six .
+</text>
+<arg n="1">the company</arg>
+<rel>play</rel>
+</example>
+
+</roleset>
+<roleset id="play.06" name="nomlike" source="verb-cover.03">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It achieved a good media play , and enabled Sen. Specter and
+others to vote against Mr. Bork out of `` conscience . ''
+</text>
+<arg n="1">It</arg>
+<arg n="Support">achieved</arg>
+<arg n="2">media</arg>
+<rel>play</rel>
+</example>
+
+</roleset>
+<roleset id="play.07" name="nomlike-factor" source="verb-factor.01">
+<roles>
+
+<role descr="factorer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="domain" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+economic forces that have come into play since the Tiananmen
+Square killings June 4
+</text>
+<arg n="1">economic forces ---> that ---> *T*-1</arg>
+<arg n="Support">come into</arg>
+<rel>play</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

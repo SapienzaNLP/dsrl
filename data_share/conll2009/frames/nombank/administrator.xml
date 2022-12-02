@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="administrator">
+<roleset id="administrator.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Connecticut 's chief court administrator
+</text>
+<arg n="2">Connecticut 's</arg>
+<arg n="3">chief</arg>
+<arg n="1">court</arg>
+<arg n="0">administrator</arg>
+<rel>administrator</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the South African administrator general
+</text>
+<arg n="2">South African</arg>
+<arg n="0">administrator</arg>
+<rel>administrator</rel>
+<arg n="3">general</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

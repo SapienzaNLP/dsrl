@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spice">
+<roleset id="spice.01" name="enhance" source="verb-enhance.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+On Friday , Datuk Daim added spice to an otherwise unremarkable
+address on Malaysia 's proposed budget for 1990 by ordering the
+Kuala Lumpur Stock Exchange `` to take appropriate action
+immediately '' to cut its links with the Stock Exchange of
+Singapore .
+</text>
+<arg n="0">Datuk Daim</arg>
+<arg n="Support">added</arg>
+<rel>spice</rel>
+<arg n="1">
+to an otherwise unremarkable address on Malaysia 's proposed
+budget for 1990</arg>
+<arg n="2">
+by ordering the Kuala Lumpur Stock Exchange `` to take
+appropriate action immediately '' to cut its links with the Stock
+Exchange of Singapore</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

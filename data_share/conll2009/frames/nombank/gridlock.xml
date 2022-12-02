@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gridlock">
+<roleset id="gridlock.01" name="disagree" source="verb-disagree.01" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the rival Soviet-backed regime of Mengistu Haile Mariam held a
+total gridlock over neighboring Ethiopia
+</text>
+<arg n="0">the rival Soviet-backed regime of Mengistu Haile Mariam</arg>
+<arg n="Support">held</arg>
+<arg f="MNR" n="M">total</arg>
+<rel>gridlock</rel>
+<arg n="1">over neighboring Ethiopia</arg>
+</example>
+
+<example name="autogen2">
+<text>
+organizational gridlock
+</text>
+<arg n="2">organizational</arg>
+<rel>gridlock</rel>
+</example>
+
+</roleset>
+<roleset id="gridlock.02" name="to pack to excess, cram" source="verb-jam.01" vncls="9.7-2">
+<roles>
+
+<role descr="packer, agent" n="0">
+<vnrole vncls="9.7-2" vntheta="Agent"/></role>
+
+<role descr="entity jammed" n="1">
+<vnrole vncls="9.7-2" vntheta="Theme"/></role>
+
+<role descr="location" n="2">
+<vnrole vncls="9.7-2" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+widespread gridlock on the first day that normal business
+operations were resumed following last Tuesday 's earthquake
+</text>
+<arg f="MNR" n="M">widespread</arg>
+<rel>gridlock</rel>
+<arg f="TMP" n="M">
+on the first day that normal business operations were resumed
+following last Tuesday 's earthquake</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the massive gridlock
+</text>
+<arg f="MNR" n="M">massive</arg>
+<rel>gridlock</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

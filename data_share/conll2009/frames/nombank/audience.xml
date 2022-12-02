@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="audience">
+<roleset id="audience.01" name="nomlike/observe" source="verb-observe.01" vncls="30.2">
+<roles>
+
+<role descr="observer" n="0">
+<vnrole vncls="30.2" vntheta="Agent"/></role>
+
+<role descr="thing looked at" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their white and gentile audiences
+</text>
+<arg n="1">their</arg>
+<arg n="0">audiences</arg>
+<rel>audiences</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the late-night audience
+</text>
+<arg f="TMP" n="M">late-night</arg>
+<arg n="0">audience</arg>
+<rel>audience</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

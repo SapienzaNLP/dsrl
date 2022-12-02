@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="distance">
+<roleset id="distance.01" name="nomadj-distant/attribute">
+<roles>
+
+<role descr="source" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="goal" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+spitting distance of the ballpark
+</text>
+<arg n="2">spitting</arg>
+<rel>distance</rel>
+<arg n="1">of the ballpark</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the long-distance carrier
+</text>
+<arg n="2">long-distance</arg>
+<rel>long-distance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

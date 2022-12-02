@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nature">
+<roleset id="nature.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the highly volatile nature of options , which often rise or fall
+in value several times the amount of the price change in the
+individual stock or index of stocks on which they are based
+</text>
+<arg n="2">highly volatile</arg>
+<rel>nature</rel>
+<arg n="1">
+of options , which often rise or fall in value several times the
+amount of the price change in the individual stock or index of
+stocks on which they are based</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Human nature
+</text>
+<arg n="2">Human</arg>
+<rel>nature</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

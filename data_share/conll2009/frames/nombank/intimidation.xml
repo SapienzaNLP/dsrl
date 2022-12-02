@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="intimidation">
+<roleset id="intimidation.01" name="to make timid, fill with fear" source="verb-intimidate.01">
+<roles>
+
+<role descr="intimidating entity" n="0"></role>
+
+<role descr="entity intimidated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they will step up the campaign of arrests and intimidation
+against those who participated in the demonstrations
+</text>
+<arg n="0">they</arg>
+<arg n="Support">step campaign of</arg>
+<rel>intimidation</rel>
+<arg n="1">against those who participated in the demonstrations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+intimidation of local correspondents -LRB- who filed reports to
+the network by phone , secret messengers or letters -RRB-
+</text>
+<rel>intimidation</rel>
+<arg n="1">
+of local correspondents -LRB- who filed reports to the network by
+phone , secret messengers or letters -RRB-</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="monitoring">
+<roleset id="monitoring.01" name="look closely at" source="verb-monitor.01">
+<roles>
+
+<role descr="observer" n="0"></role>
+
+<role descr="thing looked at" n="1"></role>
+
+<role descr="looking for what" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+election monitoring
+</text>
+<arg n="1">election</arg>
+<rel>monitoring</rel>
+</example>
+
+<example name="autogen2">
+<text>
+any employee monitoring
+</text>
+<arg n="1">employee</arg>
+<rel>monitoring</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

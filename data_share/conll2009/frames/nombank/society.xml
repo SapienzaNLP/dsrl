@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="society">
+<roleset id="society.01" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+East German society
+</text>
+<arg n="1">East German</arg>
+<rel>society</rel>
+</example>
+
+<example name="autogen2">
+<text>
+South African society and politics
+</text>
+<arg n="1">South African</arg>
+<rel>society</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

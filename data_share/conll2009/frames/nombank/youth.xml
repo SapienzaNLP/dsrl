@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="youth">
+<roleset id="youth.01" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+his youth
+</text>
+<arg n="1">his</arg>
+<rel>youth</rel>
+</example>
+
+<example name="autogen3">
+<text>
+my youth
+</text>
+<arg n="1">my</arg>
+<rel>youth</rel>
+</example>
+
+</roleset>
+<roleset id="youth.02" name="attribute/nomadj-young">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my youth
+</text>
+<arg n="1">my</arg>
+<arg f="REF" n="2">youth</arg>
+<rel>youth</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his relative youth
+</text>
+<arg n="1">his</arg>
+<arg f="REF" n="2">youth</arg>
+<rel>youth</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

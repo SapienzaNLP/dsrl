@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prowl">
+<roleset id="prowl.01" name="nomlike" source="verb-search.01" vncls="35.2">
+<roles>
+
+<role descr="searcher" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="searched for" n="1">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+With a conservative debt-to-equity ratio of 1-to-1 -- and $ 329
+million in cash -- Manville is indeed actively on the prowl .
+</text>
+<arg n="0">Manville</arg>
+<rel>prowl</rel>
+</example>
+
+<example name="autogen2">
+<text>
+In France , Suez and Axa-Midi Assurances S.A. both have been on
+the prowl for giant acquisitions
+</text>
+<arg n="0">Suez and Axa-Midi Assurances S.A. both</arg>
+<rel>prowl</rel>
+<arg n="1">for giant acquisitions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

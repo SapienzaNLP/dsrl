@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="obfuscation">
+<roleset id="obfuscation.01" name="make confusing" source="verb-obfuscate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+experts at obfuscation
+</text>
+<arg n="0">experts</arg>
+<arg n="Support">experts at</arg>
+<rel>obfuscation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the obfuscation , the circumlocution and the debasement of
+language he sees on all sides
+</text>
+<rel>obfuscation</rel>
+<arg n="1">of language</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

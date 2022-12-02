@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="profession">
+<roleset id="profession.01" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his profession of theoretical mathematician
+</text>
+<arg n="0">his</arg>
+<rel>profession</rel>
+<arg n="1">of theoretical mathematician</arg>
+</example>
+
+<example name="autogen2">
+<text>
+our profession
+</text>
+<arg n="0">our</arg>
+<arg f="REF" n="1">profession</arg>
+<rel>profession</rel>
+</example>
+
+</roleset>
+<roleset id="profession.02" name="announce" source="verb-profess.01" vncls="29.4">
+<roles>
+
+<role descr="professor" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="attributive" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the administration 's `` professions of continued commitment to
+development and deployment of the SDI program
+</text>
+<arg n="0">the administration 's</arg>
+<rel>professions</rel>
+<arg n="1">
+of continued commitment to development and deployment of the SDI
+program</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pardon">
+<roleset id="pardon.01" name="relieve of guilt" source="verb-pardon.01" vncls="10.6">
+<roles>
+
+<role descr="pardoner" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2" source="1">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Besides reciting the pardon for program trading contained in the
+Brady Commission report , they said stock-index arbitrage was
+actually needed Monday to restore the markets ' equilibrium .
+</text>
+<arg n="0">*-1 ---> they</arg>
+<arg n="Support">reciting</arg>
+<rel>pardon</rel>
+<arg n="1">for program trading</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

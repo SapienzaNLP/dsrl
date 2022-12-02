@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resident">
+<roleset id="resident.01" name="to live for an extended period" source="verb-reside.01" vncls="47.1-1">
+<roles>
+
+<role descr="entity residing" n="0">
+<vnrole vncls="47.1-1" vntheta="Theme"/></role>
+
+<role descr="location" n="1">
+<vnrole vncls="47.1-1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Only Canadian residents
+</text>
+<arg n="1">Canadian</arg>
+<arg n="0">residents</arg>
+<rel>residents</rel>
+</example>
+
+<example name="autogen2">
+<text>
+residents in Northern California
+</text>
+<arg n="0">residents</arg>
+<rel>residents</rel>
+<arg f="LOC" n="M">in Northern California</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

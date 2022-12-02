@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="documentary">
+<roleset id="documentary.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a documentary on apartheid
+</text>
+<rel>documentary</rel>
+<arg n="1">on apartheid</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this intriguing documentary about the science of sleep
+</text>
+<rel>documentary</rel>
+<arg n="1">about the science of sleep</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

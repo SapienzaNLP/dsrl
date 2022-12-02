@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="impression">
+<roleset id="impression.01" name="believe" source="verb-feel.02" vncls="29.5">
+<roles>
+
+<role descr="believer" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="belief" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="attributive" n="2">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+My impression was that you would be a scary old lady
+</text>
+<arg n="0">My</arg>
+<rel>impression</rel>
+<arg n="1">that you would be a scary old lady</arg>
+</example>
+
+<example name="autogen2">
+<text>
+My impression is that there is n't anything which arouses our
+interest at first glance
+</text>
+<arg n="0">My</arg>
+<rel>impression</rel>
+<arg n="1">
+that there is n't anything which arouses our interest at first
+glance</arg>
+</example>
+
+</roleset>
+<roleset id="impression.02" name="convince of importance" source="verb-impress.02">
+<roles>
+
+<role descr="agent of convincing" n="0"></role>
+
+<role descr="entity convinced" n="1"></role>
+
+<role descr="proposition" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to bolster the impression that NBC Sports is always there for
+people
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">bolster</arg>
+<rel>impression</rel>
+<arg n="2">that NBC Sports is always there for people</arg>
+</example>
+
+<example name="autogen2">
+<text>
+I do n't want to give the impression that everybody can relax now
+</text>
+<arg n="0">I ---> *-1</arg>
+<arg n="Support">give</arg>
+<rel>impression</rel>
+<arg n="2">that everybody can relax now</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

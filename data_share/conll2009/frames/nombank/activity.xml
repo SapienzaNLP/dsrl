@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="activity">
+<roleset id="activity.01" name="nomadj-active activity in a domain">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="domain" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their market activity
+</text>
+<arg n="0">their</arg>
+<arg n="1">market</arg>
+<rel>activity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+leasing activity
+</text>
+<arg n="1">leasing</arg>
+<rel>activity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

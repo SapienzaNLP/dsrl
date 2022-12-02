@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="derision">
+<roleset id="derision.01" name="to treat or speak of with contempt" source="verb-deride.01" vncls="33">
+<roles>
+
+<role descr="treater, speaker, agent" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="entity derided" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="attribute of arg1" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+My questions on this subject at a recent meeting at the World
+Resources Institute with representatives of the National Resource
+Development Commission , the Environmental Protection Agency ,
+Friends of the Earth , etc. were greeted with derision and some
+mumbled comments about that report being discredited .
+</text>
+<arg n="1">My questions on this subject ---> *-1</arg>
+<arg n="Support">greeted with</arg>
+<rel>derision</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Such evaluations met with derision , and kept the machine from
+resigning as soon as humans would have -- prompting more derision
+.
+</text>
+<arg n="1">Such evaluations</arg>
+<arg n="Support">met with</arg>
+<rel>derision</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

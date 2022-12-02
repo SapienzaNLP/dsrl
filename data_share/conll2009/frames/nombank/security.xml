@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="security">
+<roleset id="security.01" name="enter into a contract" source="verb-contract.02">
+<roles>
+
+<role descr="purchaser/owner" n="0"></role>
+
+<role descr="purpose/collateral" n="1"></role>
+
+<role descr="borrower/issuer" n="2"></role>
+
+<role descr="yield/price" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+$ 500 million of Remic mortgage securities
+</text>
+<arg n="3">$ 500 million</arg>
+<arg n="2">Remic</arg>
+<arg n="1">mortgage</arg>
+<rel>securities</rel>
+</example>
+
+<example name="autogen2">
+<text>
+More big Japanese investors are buying U.S. mortgage-backed
+securities , reversing a recent trend .
+</text>
+<arg n="0">More big Japanese investors</arg>
+<arg n="Support">buying</arg>
+<arg n="2">U.S.</arg>
+<arg n="1">mortgage-backed</arg>
+<rel>securities</rel>
+</example>
+
+</roleset>
+<roleset id="security.02" name="make secure" source="verb-secure.02">
+<roles>
+
+<role descr="maker" n="0"></role>
+
+<role descr="thing secured" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its security apparatus
+</text>
+<arg n="1">its</arg>
+<rel>security</rel>
+<arg n="0">apparatus</arg>
+</example>
+
+<example name="autogen2">
+<text>
+America 's national security
+</text>
+<arg n="3">America 's</arg>
+<arg n="1">national</arg>
+<rel>security</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

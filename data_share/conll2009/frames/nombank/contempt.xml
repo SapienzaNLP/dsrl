@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="contempt">
+<roleset id="contempt.01" name="despise" source="verb-scorn.01" vncls="33">
+<roles>
+
+<role descr="scorner" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="thing scorned" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my father 's contempt for a rich medical colleague who would go
+to watch the Tigers on summer afternoons
+</text>
+<arg n="0">my father 's</arg>
+<rel>contempt</rel>
+<arg n="1">
+for a rich medical colleague who would go to watch the Tigers on
+summer afternoons</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the contempt Congress shows toward the notion of a legally
+binding commitment
+</text>
+<rel>contempt</rel>
+<arg n="0">Congress</arg>
+<arg n="Support">shows</arg>
+<arg n="1">toward the notion of a legally binding commitment</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discount">
+<roleset id="discount.01" name="reduce in price" source="verb-discount.01">
+<roles>
+
+<role descr="discounter" n="0"></role>
+
+<role descr="commodity" n="1"></role>
+
+<role descr="ext, amount of reduction" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The stock 's narrow discount to asset valuation
+</text>
+<arg n="1">The stock 's</arg>
+<arg f="MNR" n="M">narrow</arg>
+<arg f="REF" n="2">discount</arg>
+<rel>discount</rel>
+<arg n="4">to asset valuation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they could offer discounts on whatever that equipment produces
+</text>
+<arg n="0">they</arg>
+<arg n="Support">offer</arg>
+<arg f="REF" n="2">discounts</arg>
+<rel>discounts</rel>
+<arg n="1">on whatever that equipment produces</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

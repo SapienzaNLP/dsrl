@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="type">
+<roleset id="type.01" name="type/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+warehouse-type stores
+</text>
+<arg n="2">warehouse-type</arg>
+<rel>warehouse-type</rel>
+<arg n="1">stores</arg>
+</example>
+
+<example name="autogen2">
+<text>
+P.R. types
+</text>
+<arg n="2">P.R.</arg>
+<rel>types</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="centennial">
+<roleset id="centennial.01" name="honor with memorial, be a memorial" source="verb-commemorate.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+its centennial
+</text>
+<arg n="1">its</arg>
+<rel>centennial</rel>
+</example>
+
+<example name="autogen11">
+<text>
+its centennial year
+</text>
+<arg n="1">its</arg>
+<rel>centennial</rel>
+<arg n="Support">year</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

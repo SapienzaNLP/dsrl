@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="compromise">
+<roleset id="compromise.01" name="reach an agreement" source="verb-compromise.01">
+<roles>
+
+<role descr="agreer" n="0"></role>
+
+<role descr="proposition" n="1"></role>
+
+<role descr="other entity agreeing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The leadership hopes to move the compromise measure promptly to
+the White House
+</text>
+<arg n="0">The leadership ---> *-1</arg>
+<arg n="Support">move measure</arg>
+<rel>compromise</rel>
+<arg n="1">measure</arg>
+<arg n="2">to the White House</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A compromise between bulls and bears puts remaining assets and
+cash -- including its 44 % stake in its publicly traded pipeline
+-- at $ 2 billion .
+</text>
+<rel>compromise</rel>
+<arg n="0">between bulls and bears</arg>
+<arg n="1">
+puts remaining assets and cash -- including its 44 % stake in its
+publicly traded pipeline -- at $ 2 billion</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

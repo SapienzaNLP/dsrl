@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="artistry">
+<roleset id="artistry.01" name="nomadj-artistic">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his formidable artistry
+</text>
+<arg n="0">his</arg>
+<rel>artistry</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

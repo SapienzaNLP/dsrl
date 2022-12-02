@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="memo">
+<roleset id="memo.01" name="nom/work-of-art" source="verb-communicate.01" vncls="36.1">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Although ARCO 's head office , more than 300 miles from the
+epicenter , was n't affected by this week 's tremors , Ms.
+Masaki-Schatz used the occasion to distribute a three-page memo
+of `` Earthquake Tips '' to 1,200 ARCO employees .
+</text>
+<arg n="0">Ms. Masaki-Schatz ---> *-2</arg>
+<arg n="Support">distribute</arg>
+<rel>memo</rel>
+<arg n="1">of `` Earthquake Tips ''</arg>
+<arg n="2">to 1,200 ARCO employees</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a detailed prosecution memo
+</text>
+<arg n="1">prosecution</arg>
+<rel>memo</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

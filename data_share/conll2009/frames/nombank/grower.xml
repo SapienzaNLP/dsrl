@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grower">
+<roleset id="grower.01" name="agriculture" source="verb-grow.03" vncls="26.1">
+<roles>
+
+<role descr="grower" n="0">
+<vnrole vncls="26.1" vntheta="Agent"/></role>
+
+<role descr="crop" n="1">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+<role descr="source" n="2">
+<vnrole vncls="26.1" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+pineapple growers
+</text>
+<arg n="1">pineapple</arg>
+<arg n="0">growers</arg>
+<rel>growers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+most U.S. growers
+</text>
+<arg f="LOC" n="M">U.S.</arg>
+<arg n="0">growers</arg>
+<rel>growers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commercial">
+<roleset id="commercial.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the agency 's tear-jerking commercial for First Gibraltar Bank
+F.S.B. -- complete with the state 's anthem --
+</text>
+<arg n="0">the agency 's</arg>
+<rel>commercial</rel>
+<arg n="1">for First Gibraltar Bank F.S.B.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a commercial for Lone Star Beer , the pride of Texas , a product
+of G. Heileman Brewing Co. , a La Crosse , Wis. , unit of Bond
+Corp
+</text>
+<rel>commercial</rel>
+<arg n="1">
+for Lone Star Beer , the pride of Texas , a product of G.
+Heileman Brewing Co. , a La Crosse , Wis. , unit of Bond Corp</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

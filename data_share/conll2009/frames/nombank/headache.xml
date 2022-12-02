@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="headache">
+<roleset id="headache.01" name="attribute/physical-ailment-or-general-problem">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+thus saving Americans the headaches of pounds , shillings and
+pence
+</text>
+<arg n="Support">saving</arg>
+<arg n="0">Americans</arg>
+<rel>headaches</rel>
+<arg n="1">of pounds , shillings and pence</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its headaches
+</text>
+<arg n="1">its</arg>
+<rel>headaches</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

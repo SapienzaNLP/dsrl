@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conclusion">
+<roleset id="conclusion.01" name="decide" source="verb-conclude.01">
+<roles>
+
+<role descr="decider" n="0"></role>
+
+<role descr="decision" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it has reached the same conclusions about some attempts to buy
+closely held concerns , but eventually allowed those acquisitions
+to proceed
+</text>
+<arg n="0">it</arg>
+<arg n="Support">reached</arg>
+<rel>conclusions</rel>
+<arg n="1">about some attempts to buy closely held concerns</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their conclusions
+</text>
+<arg n="0">their</arg>
+<rel>conclusions</rel>
+</example>
+
+</roleset>
+<roleset id="conclusion.02" name="bring to an end" source="verb-conclude.02">
+<roles>
+
+<role descr="intentional agent" n="0"></role>
+
+<role descr="thing ending" n="1"></role>
+
+<role descr="explicit instrument, thing ended with" n="2"></role>
+
+<role descr="point at which something ends" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the conclusion of the Goodson relationship
+</text>
+<rel>conclusion</rel>
+<arg n="1">of the Goodson relationship</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

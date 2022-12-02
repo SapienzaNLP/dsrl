@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="uncertainty">
+<roleset id="uncertainty.01" name="attribute/nomadj-uncertain">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more turmoil and uncertainty in this racially divided country
+</text>
+<arg n="2">more</arg>
+<rel>uncertainty</rel>
+<arg n="0">in this racially divided country</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The procedure causes `` great uncertainty '' because an investor
+ca n't be sure of his or her individual liability
+</text>
+<arg n="1">The procedure</arg>
+<arg n="Support">causes</arg>
+<arg n="2">great</arg>
+<rel>uncertainty</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="complacency">
+<roleset id="complacency.01" name="nomadj-complacent/attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The eerie complacency of the Reagan-Bush era
+</text>
+<rel>complacency</rel>
+<arg f="TMP" n="M">of the Reagan-Bush era</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

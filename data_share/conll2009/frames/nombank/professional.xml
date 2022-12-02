@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="professional">
+<roleset id="professional.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+most investment professionals
+</text>
+<arg n="1">investment</arg>
+<arg n="0">professionals</arg>
+<rel>professionals</rel>
+</example>
+
+<example name="autogen2">
+<text>
+many market professionals
+</text>
+<arg n="1">market</arg>
+<arg n="0">professionals</arg>
+<rel>professionals</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

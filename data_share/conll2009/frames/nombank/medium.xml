@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="medium">
+<roleset id="medium.01" name="attribute/environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen4">
+<text>
+the news media
+</text>
+<arg n="1">news</arg>
+<rel>media</rel>
+</example>
+
+<example name="autogen5">
+<text>
+East Germany 's heavily censored and notoriously boring news
+media
+</text>
+<arg n="1">news</arg>
+<rel>media</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

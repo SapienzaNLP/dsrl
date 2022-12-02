@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="exit">
+<roleset id="exit.01" name="leave" source="verb-exit.01" vncls="51.1-1">
+<roles>
+
+<role descr="departed entity" n="0">
+<vnrole vncls="51.1-1" vntheta="Theme"/></role>
+
+<role descr="place exited" n="1">
+<vnrole vncls="51.1-1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+many planners had to make an unplanned exit from the business
+</text>
+<arg n="0">many planners ---> *-2</arg>
+<arg n="Support">make</arg>
+<rel>exit</rel>
+<arg n="1">from the business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the quickest series of exits for commuters from the Bay Bridge
+heading into the Financial District
+</text>
+<rel>exits</rel>
+<arg n="0">
+for commuters from the Bay Bridge heading into the Financial
+District</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

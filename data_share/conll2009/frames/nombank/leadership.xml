@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="leadership">
+<roleset id="leadership.01" name="nom" source="verb-lead.02" vncls="51.7">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="51.7" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="51.7" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the House leadership
+</text>
+<arg n="1">House</arg>
+<arg n="0">leadership</arg>
+<rel>leadership</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the bipartisan leadership
+</text>
+<arg n="0">bipartisan</arg>
+<rel>leadership</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

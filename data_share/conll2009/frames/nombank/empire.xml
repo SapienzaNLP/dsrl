@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="empire">
+<roleset id="empire.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Campeau 's retailing empire
+</text>
+<arg n="2">Campeau 's</arg>
+<arg n="1">retailing</arg>
+<rel>empire</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his empire
+</text>
+<arg n="2">his</arg>
+<rel>empire</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

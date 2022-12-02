@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tilt">
+<roleset id="tilt.01" name="cause to) be not level, motion according" source="verb-tilt.01" vncls="47.6">
+<roles>
+
+<role descr="cause, agent" n="0">
+<vnrole vncls="47.6" vntheta="Agent"/></role>
+
+<role descr="thing not level" n="1">
+<vnrole vncls="47.6" vntheta="Theme"/></role>
+
+<role descr="description of non-level-ness, path or destination" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+We will go back and forth with a tilt toward slightly lower
+yields
+</text>
+<arg n="1">We</arg>
+<rel>tilt</rel>
+<arg n="2">toward slightly lower yields</arg>
+</example>
+
+<example name="autogen2">
+<text>
+my interest-rate outlook has a downward tilt
+</text>
+<arg n="1">my interest-rate outlook</arg>
+<arg n="Support">has</arg>
+<arg n="2">downward</arg>
+<rel>tilt</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

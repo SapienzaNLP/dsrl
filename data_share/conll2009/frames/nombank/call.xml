@@ -1,0 +1,100 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="call">
+<roleset id="call.01" name="summon" source="verb-call.02" vncls="13.5.1">
+<roles>
+
+<role descr="caller" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing being summoned" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+those young men who chose to disobey their country 's call to
+arms during the Vietnam war and fled to Canada or some other
+sanctuary to avoid combat
+</text>
+<arg n="1">those young men ---> who ---> *T*-269 ---> *-1</arg>
+<arg n="Support">disobey</arg>
+<arg n="0">their country 's</arg>
+<rel>call</rel>
+<arg n="2">to arms</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a telephone call to his office
+</text>
+<rel>call</rel>
+<arg n="1">to his office</arg>
+</example>
+
+</roleset>
+<roleset id="call.02" name="demand" source="verb-call.03">
+<roles>
+
+<role descr="demander" n="0"></role>
+
+<role descr="thing being demanded" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 49-nation group 's call for Pretoria to ease apartheid
+</text>
+<arg n="0">the 49-nation group 's</arg>
+<rel>call</rel>
+<arg n="1">for Pretoria to ease apartheid</arg>
+</example>
+
+<example name="autogen2">
+<text>
+calls to remake the markets
+</text>
+<rel>calls</rel>
+<arg n="1">to remake the markets</arg>
+</example>
+
+</roleset>
+<roleset id="call.03" name="visit, telephone" source="verb-call.05">
+<roles>
+
+<role descr="caller" n="0"></role>
+
+<role descr="thing being visited, telephoned" n="1"></role>
+
+<role descr="purpose, attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+We got calls from big block houses asking us if we want to make
+bids on anything
+</text>
+<arg n="1">We</arg>
+<arg n="Support">got</arg>
+<rel>calls</rel>
+<arg n="0">from big block houses</arg>
+<arg f="PRD" n="2">asking us if we want to make bids on anything</arg>
+</example>
+
+<example name="autogen2">
+<text>
+some phone calls to market makers in over-the-counter stocks
+</text>
+<rel>calls</rel>
+<arg n="1">to market makers in over-the-counter stocks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

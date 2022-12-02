@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unifier">
+<roleset id="unifier.01" name="join together" source="verb-unify.01" vncls="22.2">
+<roles>
+
+<role descr="joiner, agent" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="first) thing(s) being unified" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="other things, if separate from arg1" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+<role descr="unified whole" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a unifier for a city recently touched by racial violence
+</text>
+<arg n="0">unifier</arg>
+<rel>unifier</rel>
+<arg n="1">for a city recently touched by racial violence</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

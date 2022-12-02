@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proliferation">
+<roleset id="proliferation.01" name="prosper, become abundant" source="verb-proliferate.01" vncls="45.4">
+<roles>
+
+<role descr="thing becoming abundant" n="0">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the proliferation of these all-terrain bicycles
+</text>
+<rel>proliferation</rel>
+<arg n="0">of these all-terrain bicycles</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the proliferation of choice
+</text>
+<rel>proliferation</rel>
+<arg n="0">of choice</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

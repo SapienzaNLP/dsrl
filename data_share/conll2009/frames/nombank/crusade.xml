@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crusade">
+<roleset id="crusade.01" name="want, crave" source="verb-desire.01" vncls="32.1">
+<roles>
+
+<role descr="wanter" n="0">
+<vnrole vncls="32.1" vntheta="Experiencer"/></role>
+
+<role descr="wanted" n="1">
+<vnrole vncls="32.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Thus , Europe has begun the recent crusade to produce more worthy
+shows of its own , programs with broader appeal .
+</text>
+<arg n="0">Europe</arg>
+<arg n="Support">begun</arg>
+<arg f="TMP" n="M">recent</arg>
+<rel>crusade</rel>
+<arg f="PRD" n="1">
+to produce more worthy shows of its own , programs with broader
+appeal</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the crusade to aid Nicaragua 's Contra rebels
+</text>
+<rel>crusade</rel>
+<arg f="PRD" n="1">to aid Nicaragua 's Contra rebels</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

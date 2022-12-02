@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reassessment">
+<roleset id="reassessment.01" name="think about again" source="verb-reassess.01">
+<roles>
+
+<role descr="thinker" n="0"></role>
+
+<role descr="subject of thought" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a reassessment of the damages
+</text>
+<rel>reassessment</rel>
+<arg n="1">of the damages</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a reassessment of the environmentally unsound Central Utah
+Project
+</text>
+<rel>reassessment</rel>
+<arg n="1">of the environmentally unsound Central Utah Project</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

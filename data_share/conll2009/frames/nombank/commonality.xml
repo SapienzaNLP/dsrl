@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commonality">
+<roleset id="commonality.01" name="disagree, argue" source="verb-differ.01" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a commonality of interests among black , white , Hispanic and
+other minority voters
+</text>
+<rel>commonality</rel>
+<arg n="2">of interests</arg>
+<arg n="0">among black , white , Hispanic and other minority voters</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

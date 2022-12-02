@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="guilt">
+<roleset id="guilt.01" name="nomadj-guilty">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+guilt about wearing the uniform
+</text>
+<rel>guilt</rel>
+<arg n="1">about wearing the uniform</arg>
+</example>
+
+<example name="autogen2">
+<text>
+twothirds feel some guilt about being affluent
+</text>
+<arg n="0">twothirds</arg>
+<arg n="Support">feel</arg>
+<rel>guilt</rel>
+<arg n="1">about being affluent</arg>
+</example>
+
+</roleset>
+<roleset id="guilt.02" name="assign culpability" source="verb-fault.01" vncls="33">
+<roles>
+
+<role descr="blamer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="entity blamed" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="blamed for what" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his certain guilt
+</text>
+<arg n="1">his</arg>
+<arg f="ADV" n="M">certain</arg>
+<rel>guilt</rel>
+</example>
+
+<example name="autogen2">
+<text>
+any admission or denial of guilt by Mr. Holmes
+</text>
+<arg n="Support">denial admission of</arg>
+<rel>guilt</rel>
+<arg n="1">by Mr. Holmes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resolve">
+<roleset id="resolve.01" name="attribute" source="verb-resolve.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Solidarity-led government 's resolve to proceed with a harsh
+economic-restructuring program
+</text>
+<arg n="0">the Solidarity-led government 's</arg>
+<rel>resolve</rel>
+<arg f="PRD" n="1">to proceed with a harsh economic-restructuring program</arg>
+</example>
+
+<example name="autogen2">
+<text>
+our resolve to continue to make our restructuring even more
+effective
+</text>
+<arg n="0">our</arg>
+<rel>resolve</rel>
+<arg f="PRD" n="1">to continue to make our restructuring even more effective</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

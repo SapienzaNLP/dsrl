@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tumult">
+<roleset id="tumult.01" name="disagree" source="verb-disagree.01" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the tumult over program trading
+</text>
+<rel>tumult</rel>
+<arg n="2">over program trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Blue Arrow tumult
+</text>
+<arg n="0">Blue Arrow</arg>
+<rel>tumult</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

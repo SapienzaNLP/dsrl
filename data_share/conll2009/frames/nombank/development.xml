@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="development">
+<roleset id="development.01" name="come about" source="verb-develop.01" vncls="48.1.1">
+<roles>
+
+<role descr="non-intentional theme" n="1">
+<vnrole vncls="48.1.1" vntheta="Theme"/></role>
+
+<role descr="thing developed" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the development of cancer and other problems in the daughters of
+women who took the drug
+</text>
+<rel>development</rel>
+<arg n="1">of cancer and other problems</arg>
+<arg n="2">in the daughters of women who took the drug</arg>
+</example>
+
+<example name="autogen2">
+<text>
+bearish developments
+</text>
+<arg n="1">bearish</arg>
+<rel>developments</rel>
+</example>
+
+</roleset>
+<roleset id="development.02" name="create" source="verb-develop.02" vncls="26.1">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.1" vntheta="Agent"/></role>
+
+<role descr="thing created" n="1">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+<role descr="source" n="2">
+<vnrole vncls="26.1" vntheta="Material"/></role>
+
+<role descr="beneficiary" n="3">
+<vnrole vncls="26.1" vntheta="Beneficiary"/></role>
+
+<role descr="attribute, secondary predication" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they have 50 projects in development for Warner
+</text>
+<arg n="0">they</arg>
+<arg n="Support">have</arg>
+<arg n="1">50 projects</arg>
+<rel>development</rel>
+<arg n="3">for Warner</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its product development cycle
+</text>
+<arg n="0">its</arg>
+<arg n="1">product</arg>
+<rel>development</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="concentrate">
+<roleset id="concentrate.01" name="cause a reduction in volume (as of a liquid" source="verb-concentrate.02">
+<roles>
+
+<role descr="causer" n="0"></role>
+
+<role descr="liquid" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+copper concentrate
+</text>
+<arg n="1">copper</arg>
+<rel>concentrate</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its juice concentrate
+</text>
+<arg n="1">juice</arg>
+<rel>concentrate</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

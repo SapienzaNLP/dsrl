@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="site">
+<roleset id="site.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the California earthquake site
+</text>
+<arg n="3">California</arg>
+<arg n="1">earthquake</arg>
+<rel>site</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the landing site at Edwards Air Force Base , Calif
+</text>
+<arg n="1">landing</arg>
+<rel>site</rel>
+<arg n="2">at Edwards Air Force Base , Calif</arg>
+</example>
+
+</roleset>
+<roleset id="site.02" name="environment for thing">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+once-desirable store sites
+</text>
+<arg n="1">store</arg>
+<rel>sites</rel>
+</example>
+
+<example name="autogen2">
+<text>
+vacant land sites
+</text>
+<arg n="1">land</arg>
+<rel>sites</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

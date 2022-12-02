@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fan">
+<roleset id="fan.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its fans
+</text>
+<arg n="1">its</arg>
+<arg n="0">fans</arg>
+<rel>fans</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the home fans
+</text>
+<arg f="LOC" n="M">home</arg>
+<arg n="0">fans</arg>
+<rel>fans</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

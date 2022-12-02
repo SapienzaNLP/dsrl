@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="primary">
+<roleset id="primary.01" name="compete, vie" source="verb-compete.01" vncls="36.1">
+<roles>
+
+<role descr="competitor" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="opponent" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="prize" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his decisive primary victory over Mayor Edward I. Koch in
+September
+</text>
+<arg n="0">his</arg>
+<rel>primary</rel>
+<arg n="Support">victory</arg>
+<arg n="1">over Mayor Edward I. Koch</arg>
+</example>
+
+<example name="autogen2">
+<text>
+He defeated the contentious Mr. Koch in the Democratic primary
+partly because he seemed to offer hope he could heal the city 's
+racial and ethnic wounds .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">defeated in</arg>
+<arg n="1">the contentious Mr. Koch</arg>
+<rel>primary</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

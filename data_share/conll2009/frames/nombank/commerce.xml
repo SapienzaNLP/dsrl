@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commerce">
+<roleset id="commerce.01" name="exchange" source="verb-trade.01" vncls="13.1">
+<roles>
+
+<role descr="agent, entity trading" n="0">
+<vnrole vncls="13.1" vntheta="Agent"/></role>
+
+<role descr="thing being traded (away" n="1">
+<vnrole vncls="13.1" vntheta="Theme"/></role>
+
+<role descr="other exchanger" n="2"></role>
+
+<role descr="other item in exchange, price, or premium, traded for or at" n="3">
+<vnrole vncls="13.6" vntheta="Theme2"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="13.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A lifelong revolutionary with little education who fought both
+the French and the U.S.-backed Saigon regime , she switched
+effortlessly to commerce after the war .
+</text>
+<arg n="0">she</arg>
+<arg n="Support">switched to</arg>
+<rel>commerce</rel>
+</example>
+
+<example name="autogen2">
+<text>
+And the Poles are engaged in commerce . ''
+</text>
+<arg n="0">the Poles</arg>
+<arg n="Support">engaged in</arg>
+<rel>commerce</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

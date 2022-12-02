@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tree">
+<roleset id="tree.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an ever-growing family tree
+</text>
+<arg n="1">family</arg>
+<arg f="REF" n="2">tree</arg>
+<rel>tree</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

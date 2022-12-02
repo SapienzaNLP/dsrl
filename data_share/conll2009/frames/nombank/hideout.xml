@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hideout">
+<roleset id="hideout.01" name="conceal" source="verb-hide.01" vncls="16">
+<roles>
+
+<role descr="hider" n="0">
+<vnrole vncls="16" vntheta="Agent"/></role>
+
+<role descr="thing hidden" n="1">
+<vnrole vncls="16" vntheta="Patient"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="location" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+terrorist hideouts in the Bekaa Valley
+</text>
+<arg n="0">terrorist</arg>
+<arg n="3">hideouts</arg>
+<rel>hideouts</rel>
+<arg f="LOC" n="M">in the Bekaa Valley</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

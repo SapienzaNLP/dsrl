@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="outcome">
+<roleset id="outcome.01" name="come about, become" source="verb-result.01" vncls="48.1.1">
+<roles>
+
+<role descr="theme, prior condition" n="1">
+<vnrole vncls="48.1.1" vntheta="Theme"/></role>
+
+<role descr="goal, end condition" n="2">
+<vnrole vncls="48.1.1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the outcome of the annual examination of City Federal currently
+in progress with respect to the appropriate level of loan loss
+reserves
+</text>
+<arg f="REF" n="2">outcome</arg>
+<rel>outcome</rel>
+<arg n="1">of the annual examination of City Federal currently in progress</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a favorable outcome
+</text>
+<arg n="2">favorable</arg>
+<rel>outcome</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

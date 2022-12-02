@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trafficking">
+<roleset id="trafficking.01" name="nomlike" source="verb-deal.01">
+<roles>
+
+<role descr="dealer" n="0"></role>
+
+<role descr="thing dealt with or in" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Drug Trafficking
+</text>
+<arg n="1">Drug</arg>
+<rel>Trafficking</rel>
+</example>
+
+<example name="autogen2">
+<text>
+drug trafficking
+</text>
+<arg n="1">drug</arg>
+<rel>trafficking</rel>
+</example>
+
+</roleset>
+<roleset id="trafficking.02" name="play cards" source="verb-deal.02">
+<roles>
+
+<role descr="dealer" n="0"></role>
+
+<role descr="cards" n="1"></role>
+
+<role descr="other player(s" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+drug trafficking
+</text>
+<arg n="1">drug</arg>
+<rel>trafficking</rel>
+</example>
+
+<example name="autogen2">
+<text>
+to publicly finger Mr. Noriega on drug trafficking charges
+</text>
+<arg n="Support">finger on charges</arg>
+<arg n="0">Mr. Noriega</arg>
+<arg n="1">drug</arg>
+<rel>trafficking</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

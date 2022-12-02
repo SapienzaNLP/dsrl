@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="average">
+<roleset id="average.01" name="nom/nomadj-average/attribute" source="verb-average.01">
+<roles>
+
+<role descr="agent, person computing the average" n="0"></role>
+
+<role descr="entity averaged out" n="1"></role>
+
+<role descr="amount" n="2"></role>
+
+<role descr="scale/yardstick" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Yesterday 's share turnover was well below the year 's daily
+average of 133.8 million .
+</text>
+<arg n="1">Yesterday 's share turnover</arg>
+<arg n="3">the year 's</arg>
+<arg f="TMP" n="M">daily</arg>
+<rel>average</rel>
+<arg n="2">of 133.8 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+No one has worked out the players ' average age
+</text>
+<arg n="0">No one</arg>
+<arg n="Support">worked age</arg>
+<arg n="3">the players '</arg>
+<arg f="REF" n="2">average</arg>
+<rel>average</rel>
+<arg n="1">age</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

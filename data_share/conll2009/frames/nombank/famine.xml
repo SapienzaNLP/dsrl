@@ -1,0 +1,20 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="famine">
+<roleset id="famine.01" name="event">
+<roles>
+
+</roles>
+
+<example name="autogen1">
+<text>
+unprecedented famine by 1980
+</text>
+<arg f="ADV" n="M">unprecedented</arg>
+<rel>famine</rel>
+<arg f="TMP" n="M">by 1980</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

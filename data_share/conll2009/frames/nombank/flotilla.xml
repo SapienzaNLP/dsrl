@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flotilla">
+<roleset id="flotilla.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a flotilla of navy landing vessels and other boats to expand
+ferry service across the bay
+</text>
+<rel>flotilla</rel>
+<arg n="1">of navy landing vessels and other boats</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

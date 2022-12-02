@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="emigration">
+<roleset id="emigration.01" name="move population" source="verb-emigrate.01">
+<roles>
+
+<role descr="population" n="0"></role>
+
+<role descr="destination" n="1" source="2"></role>
+
+<role descr="source" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its Bulgarian emigration controversy
+</text>
+<arg n="1">its</arg>
+<arg n="0">Bulgarian</arg>
+<arg n="2">Bulgarian</arg>
+<rel>emigration</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its Bulgarian emigration crisis
+</text>
+<arg n="1">its</arg>
+<arg n="0">Bulgarian</arg>
+<arg n="2">Bulgarian</arg>
+<rel>emigration</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

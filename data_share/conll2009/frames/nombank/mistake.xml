@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mistake">
+<roleset id="mistake.01" name="nomlike/nomadj-mistaken" source="verb-err.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme/action" n="1"></role>
+
+<role descr="project" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his only mistake was taking on Sony in the marketplace
+</text>
+<arg n="0">his</arg>
+<rel>mistake</rel>
+<arg n="1">taking on Sony in the marketplace</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a timing mistake
+</text>
+<arg n="1">timing</arg>
+<rel>mistake</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stake">
+<roleset id="stake.01" name="share">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its 67 % stake in Ideal
+</text>
+<arg n="0">its</arg>
+<arg n="2">67 %</arg>
+<rel>stake</rel>
+<arg n="1">in Ideal</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a passive , small stake in a company that profits from the rerun
+syndication networks ca n't enjoy
+</text>
+<arg n="2">small</arg>
+<rel>stake</rel>
+<arg n="1">
+in a company that profits from the rerun syndication networks ca
+n't enjoy</arg>
+</example>
+
+</roleset>
+<roleset id="stake.02" name="nomlike/attribute" source="verb-risk.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Nevertheless , the stakes are still high for the players directly
+involved in the GAF case .
+</text>
+<rel>stakes</rel>
+<arg n="2">high</arg>
+<arg n="0">for the players directly involved in the GAF case</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The stakes in the controversy are large .
+</text>
+<rel>stakes</rel>
+<arg n="1">in the controversy</arg>
+<arg n="2">large</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="breakdown">
+<roleset id="breakdown.01" name="nomlike" source="verb-collapse.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a computer breakdown
+</text>
+<arg n="1">computer</arg>
+<rel>breakdown</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a breakdown in infrastructure investment
+</text>
+<rel>breakdown</rel>
+<arg n="1">in infrastructure investment</arg>
+</example>
+
+</roleset>
+<roleset id="breakdown.02" name="nomlike" source="verb-dissect.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Without detailing specific product breakdowns , Nintendo credited
+its bullish upsurge in sales -- including advanced computer games
+and television entertainment systems -- to surging ``
+leisure-oriented '' sales in foreign markets .
+</text>
+<arg n="0">*-1 ---> Nintendo</arg>
+<arg n="Support">detailing</arg>
+<arg n="1">product</arg>
+<rel>breakdowns</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a breakdown of major market activity
+</text>
+<rel>breakdown</rel>
+<arg n="1">of major market activity</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

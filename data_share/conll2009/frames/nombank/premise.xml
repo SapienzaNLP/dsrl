@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="premise">
+<roleset id="premise.01" name="nomlike" source="verb-assume.02" vncls="29.4">
+<roles>
+
+<role descr="thinker" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="thought" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="attributive" n="2">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the `` Americans With Disabilities Act of 1989 '' was `` crafted
+primarily by Democratic Senators Kennedy and Harkin '' with a
+premise `` based on the presumption that most Americans are
+hostile to the disabled
+</text>
+<arg n="0">the `` Americans With Disabilities Act of 1989</arg>
+<rel>premise</rel>
+<arg n="Support">based</arg>
+<arg n="1">
+on the presumption that most Americans are hostile to the
+disabled</arg>
+</example>
+
+<example name="autogen2">
+<text>
+you can swallow the premise that the rewards for such ineptitude
+are six-figure salaries
+</text>
+<arg n="0">you</arg>
+<arg n="Support">swallow</arg>
+<rel>premise</rel>
+<arg n="1">that the rewards for such ineptitude are six-figure salaries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

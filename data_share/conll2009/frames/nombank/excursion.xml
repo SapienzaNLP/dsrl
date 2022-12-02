@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="excursion">
+<roleset id="excursion.01" name="travel" source="verb-travel.01" vncls="51.3.2">
+<roles>
+
+<role descr="traveller" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="destination or path" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Some town-watching excursions
+</text>
+<arg f="PNC" n="M">town-watching</arg>
+<rel>excursions</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their winter excursions
+</text>
+<arg n="1">their</arg>
+<arg f="TMP" n="M">winter</arg>
+<rel>excursions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

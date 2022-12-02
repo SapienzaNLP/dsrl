@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mystery">
+<roleset id="mystery.01" name="understand" source="verb-know.01" vncls="29.5">
+<roles>
+
+<role descr="knower" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing known or thought" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="attribute of arg1" n="2">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+When last we left him , FBI Agent Nick Mancuso had solved a
+murder mystery , unraveled a Washington political scandal , and
+racked up some pretty good ratings numbers in the miniseries ``
+Favorite Son . ''
+</text>
+<arg n="0">FBI Agent Nick Mancuso</arg>
+<arg n="Support">solved</arg>
+<arg n="1">murder</arg>
+<rel>mystery</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the mysteries of the Babylonian Bronx
+</text>
+<rel>mysteries</rel>
+<arg n="1">of the Babylonian Bronx</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

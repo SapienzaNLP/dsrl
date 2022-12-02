@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="outlet">
+<roleset id="outlet.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its customers ' retail outlets
+</text>
+<arg n="0">its customers '</arg>
+<arg n="1">retail</arg>
+<rel>outlets</rel>
+</example>
+
+<example name="autogen2">
+<text>
+gasoline retailing outlets
+</text>
+<arg n="1">gasoline</arg>
+<rel>outlets</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

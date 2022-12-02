@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mound">
+<roleset id="mound.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the mounds of paper
+</text>
+<rel>mounds</rel>
+<arg n="1">of paper</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the mound of forms and regulations
+</text>
+<rel>mound</rel>
+<arg n="1">of forms and regulations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

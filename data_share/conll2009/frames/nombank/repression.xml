@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="repression">
+<roleset id="repression.01" name="bother" source="verb-conquer.01">
+<roles>
+
+<role descr="conquering hero, agent" n="0"></role>
+
+<role descr="entity conquered" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a repression and frustration of the latent talents and the
+wonderful , if as yet undefined , potentialities inherent in the
+souls of all our children
+</text>
+<rel>repression</rel>
+<arg n="1">
+of the latent talents and the wonderful , if as yet undefined ,
+potentialities inherent in the souls of all our children</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Soviet repression
+</text>
+<arg n="0">Soviet</arg>
+<rel>repression</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="upgrade">
+<roleset id="upgrade.01" name="replace" source="verb-upgrade.01">
+<roles>
+
+<role descr="replacer, agent" n="0"></role>
+
+<role descr="old thing" n="1"></role>
+
+<role descr="new thing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Upgrades to bigger models
+</text>
+<rel>Upgrades</rel>
+<arg n="2">to bigger models</arg>
+</example>
+
+<example name="autogen2">
+<text>
+upgrades to Release 3 by previous customers
+</text>
+<rel>upgrades</rel>
+<arg n="2">to Release 3</arg>
+<arg n="0">by previous customers</arg>
+</example>
+
+</roleset>
+<roleset id="upgrade.02" name="improve" source="verb-upgrade.02">
+<roles>
+
+<role descr="cause of improvement, agent" n="0"></role>
+
+<role descr="thing improving" n="1"></role>
+
+<role descr="amount, ext" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an upgrade in seating class on some Trans World Airlines flights
+</text>
+<rel>upgrade</rel>
+<arg n="1">in seating class</arg>
+<arg f="LOC" n="M">on some Trans World Airlines flights</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

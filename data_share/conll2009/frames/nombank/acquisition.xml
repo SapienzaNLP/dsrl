@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="acquisition">
+<roleset id="acquisition.01" name="get, acquire" source="verb-acquire.01" vncls="14">
+<roles>
+
+<role descr="agent, entity acquiring something" n="0">
+<vnrole vncls="14" vntheta="Agent"/></role>
+
+<role descr="thing acquired" n="1">
+<vnrole vncls="14" vntheta="Topic"/></role>
+
+<role descr="seller" n="2">
+<vnrole vncls="14" vntheta="Source"/></role>
+
+<role descr="price paid" n="3">
+<vnrole vncls="13.5.2-1" vntheta="Asset"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it completed the acquisition of Sacramento Savings &amp; Loan
+Association from the H.N. &amp; Frances C. Berger Foundation for $
+150 million
+</text>
+<arg n="0">it</arg>
+<arg n="Support">completed</arg>
+<rel>acquisition</rel>
+<arg n="1">of Sacramento Savings &amp; Loan Association</arg>
+<arg n="2">from the H.N. &amp; Frances C. Berger Foundation</arg>
+<arg n="3">for $ 150 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its proposed $ 4.5 billion acquisition of Farmers Group Inc.
+</text>
+<arg n="0">its</arg>
+<arg n="3">$ 4.5 billion</arg>
+<rel>acquisition</rel>
+<arg n="1">of Farmers Group Inc.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

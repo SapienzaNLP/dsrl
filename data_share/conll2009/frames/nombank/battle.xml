@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="battle">
+<roleset id="battle.01" name="fight (with" source="verb-battle.01" vncls="36.3">
+<roles>
+
+<role descr="combatant" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="fight or other combatant, if separate" n="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+<role descr="spoils" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its battle with General Motors Corp. over Jaguar PLC
+</text>
+<arg n="0">its</arg>
+<rel>battle</rel>
+<arg n="1">with General Motors Corp.</arg>
+<arg n="2">over Jaguar PLC</arg>
+</example>
+
+<example name="autogen2">
+<text>
+another takeover battle
+</text>
+<arg n="2">takeover</arg>
+<rel>battle</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spate">
+<roleset id="spate.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the current spate of issues
+</text>
+<rel>spate</rel>
+<arg n="1">of issues</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a spate of new products
+</text>
+<rel>spate</rel>
+<arg n="1">of new products</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rapidity">
+<roleset id="rapidity.01" name="attribute/nomadj-rapid">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In particular , a common law of white-collar crime has developed
+with surprising rapidity over the past decade .
+</text>
+<arg n="1">a common law of white-collar crime</arg>
+<arg n="Support">developed</arg>
+<arg f="ADV" n="M">surprising</arg>
+<arg f="REF" n="2">rapidity</arg>
+<rel>rapidity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

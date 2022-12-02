@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="investing">
+<roleset id="investing.01" name="provide" source="verb-invest.01" vncls="13.4.2">
+<roles>
+
+<role descr="investor" n="0">
+<vnrole vncls="13.4.2" vntheta="Agent"/></role>
+
+<role descr="thing invested" n="1">
+<vnrole vncls="13.4.2" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Moreover , unlike Mr. Buffett , who often holds big stakes in
+companies for years , Mr. Steinhardt has n't in the past done
+much long-term investing .
+</text>
+<arg n="0">Mr. Steinhardt</arg>
+<arg n="Support">done</arg>
+<arg f="TMP" n="M">long-term</arg>
+<rel>investing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+foreign investors , who are showing signs of more discriminate
+investing ,
+</text>
+<arg n="0">foreign investors ---> who ---> *T*-1</arg>
+<arg n="Support">showing signs of</arg>
+<rel>investing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

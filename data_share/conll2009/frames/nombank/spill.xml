@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spill">
+<roleset id="spill.01" name="to cause or allow to flow" source="verb-spill.01" vncls="43.4">
+<roles>
+
+<role descr="entity splilling" n="0">
+<vnrole vncls="43.4" vntheta="Agent"/></role>
+
+<role descr="entity spilled" n="1">
+<vnrole vncls="43.4" vntheta="Theme"/></role>
+
+<role descr="location/direction" n="2">
+<vnrole vncls="43.4" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Exxon Valdez oil spill along the Alaskan coast
+</text>
+<arg n="0">Exxon Valdez</arg>
+<arg n="1">oil</arg>
+<rel>spill</rel>
+<arg n="2">along the Alaskan coast</arg>
+</example>
+
+<example name="autogen2">
+<text>
+oil spills
+</text>
+<arg n="1">oil</arg>
+<rel>spills</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

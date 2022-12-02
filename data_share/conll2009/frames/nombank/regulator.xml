@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="regulator">
+<roleset id="regulator.01" name="supervise, watch over" source="verb-regulate.01">
+<roles>
+
+<role descr="regulator" n="0"></role>
+
+<role descr="thing regulated" n="1"></role>
+
+<role descr="beneficiary/employer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+British antitrust regulators
+</text>
+<arg n="2">British</arg>
+<arg n="1">antitrust</arg>
+<arg n="0">regulators</arg>
+<rel>regulators</rel>
+</example>
+
+<example name="autogen2">
+<text>
+federal regulators
+</text>
+<arg n="2">federal</arg>
+<arg n="0">regulators</arg>
+<rel>regulators</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

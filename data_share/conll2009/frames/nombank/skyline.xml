@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="skyline">
+<roleset id="skyline.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Houston 's `` see-through skyline ''
+</text>
+<arg n="1">Houston 's</arg>
+<arg f="REF" n="2">skyline</arg>
+<rel>skyline</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

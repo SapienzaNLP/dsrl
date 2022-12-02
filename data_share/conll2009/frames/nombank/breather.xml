@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="breather">
+<roleset id="breather.01" name="nomlike" source="verb-pause.01">
+<roles>
+
+<role descr="thing pausing, agent or action" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to give the markets a breather in cases of sharp price movements
+</text>
+<arg n="Support">give</arg>
+<arg n="0">the markets</arg>
+<rel>breather</rel>
+</example>
+
+<example name="autogen2">
+<text>
+That early-morning breather
+</text>
+<arg f="TMP" n="M">early-morning</arg>
+<rel>breather</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

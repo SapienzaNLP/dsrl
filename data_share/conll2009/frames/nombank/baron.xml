@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="baron">
+<roleset id="baron.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the key drug barons
+</text>
+<arg n="1">drug</arg>
+<arg n="0">barons</arg>
+<rel>barons</rel>
+</example>
+
+<example name="autogen2">
+<text>
+such new business barons
+</text>
+<arg n="1">business</arg>
+<arg n="0">barons</arg>
+<rel>barons</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

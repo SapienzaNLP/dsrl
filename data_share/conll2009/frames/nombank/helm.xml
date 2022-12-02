@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="helm">
+<roleset id="helm.01" name="act as project leader" source="verb-lead.02" vncls="51.7">
+<roles>
+
+<role descr="leader" n="0">
+<vnrole vncls="51.7" vntheta="Agent"/></role>
+
+<role descr="project or group" n="1">
+<vnrole vncls="51.7" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+prestigious posts at the helm of the NIH and the Centers for
+Disease Control
+</text>
+<arg n="0">prestigious posts</arg>
+<rel>helm</rel>
+<arg n="1">of the NIH and the Centers for Disease Control</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Luzon took the helm last November
+</text>
+<arg n="0">Mr. Luzon</arg>
+<arg n="Support">took</arg>
+<rel>helm</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chaser">
+<roleset id="chaser.01" name="follow, pursue" source="verb-chase.01" vncls="51.6">
+<roles>
+
+<role descr="follower" n="0">
+<vnrole vncls="51.6" vntheta="Agent"/></role>
+
+<role descr="thing followed" n="1">
+<vnrole vncls="51.6" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+ambulance chasers
+</text>
+<arg n="1">ambulance</arg>
+<arg n="0">chasers</arg>
+<rel>chasers</rel>
+</example>
+
+<example name="autogen3">
+<text>
+Amateur spy-chaser Clifford Stoll
+</text>
+<arg n="0">spy-chaser</arg>
+<arg n="1">spy-chaser</arg>
+<rel>spy-chaser</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

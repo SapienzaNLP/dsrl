@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="renunciation">
+<roleset id="renunciation.01" name="repudiate, deny" source="verb-renounce.01">
+<roles>
+
+<role descr="denier" n="0"></role>
+
+<role descr="thing denied" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his recent moderation and renunciation of terrorism
+</text>
+<arg n="0">his</arg>
+<rel>renunciation</rel>
+<arg n="1">of terrorism</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="allocator">
+<roleset id="allocator.01" name="give to, donate" source="verb-allocate.01" vncls="13.3">
+<roles>
+
+<role descr="granter" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="thing granted" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary, granted-to" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an asset allocator
+</text>
+<arg n="1">asset</arg>
+<arg n="0">allocator</arg>
+<rel>allocator</rel>
+</example>
+
+<example name="autogen2">
+<text>
+asset allocator First Quadrant
+</text>
+<arg n="1">asset</arg>
+<arg n="0">allocator</arg>
+<rel>allocator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

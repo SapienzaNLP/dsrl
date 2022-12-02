@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="allure">
+<roleset id="allure.01" name="attribute/nomadj-alluring">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the allure of Hollywood and Broadway
+</text>
+<arg f="REF" n="2">allure</arg>
+<rel>allure</rel>
+<arg n="1">of Hollywood and Broadway</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their allure
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">allure</arg>
+<rel>allure</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

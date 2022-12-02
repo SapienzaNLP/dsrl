@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="champ">
+<roleset id="champ.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="domain" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+last season 's champs
+</text>
+<arg f="TMP" n="M">last season 's</arg>
+<arg n="0">champs</arg>
+<rel>champs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="linkage">
+<roleset id="linkage.01" name="attach" source="verb-link.01" vncls="22.1-2">
+<roles>
+
+<role descr="agent, entity doing the tying" n="0">
+<vnrole vncls="22.1-2" vntheta="Agent"/></role>
+
+<role descr="patient, thing(s) being tied" n="1">
+<vnrole vncls="22.1-2" vntheta="Patient1"/></role>
+
+<role descr="patient2" n="2">
+<vnrole vncls="22.1-2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Che Guevara 's famous linkages of art , idealism and revolution
+</text>
+<arg n="0">Che Guevara 's</arg>
+<rel>linkages</rel>
+<arg n="1">of art , idealism and revolution</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The de-linkage between the stock and futures markets Friday
+</text>
+<rel>de-linkage</rel>
+<arg n="1">between the stock and futures markets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

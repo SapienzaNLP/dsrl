@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="run-up">
+<roleset id="run-up.01" name="run up: accumulate" source="verb-run.06">
+<roles>
+
+<role descr="entity accumulating something" n="0"></role>
+
+<role descr="thing/stuff accumulated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a steep run-up in world oil prices
+</text>
+<arg f="MNR" n="M">steep</arg>
+<rel>run-up</rel>
+<arg n="1">in world oil prices</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A run-up in world oil prices last winter
+</text>
+<rel>run-up</rel>
+<arg n="1">in world oil prices</arg>
+<arg f="TMP" n="M">last winter</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="calculation">
+<roleset id="calculation.01" name="calculate, reckon, think  source" source="verb-calculate.01">
+<roles>
+
+<role descr="thinker" n="0"></role>
+
+<role descr="thought" n="1"></role>
+
+<role descr="attributive" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their calculations of half of private financial and service
+industries
+</text>
+<arg n="0">their</arg>
+<rel>calculations</rel>
+<arg n="1">of half of private financial and service industries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its tax calculations
+</text>
+<arg n="0">its</arg>
+<arg n="1">tax</arg>
+<arg f="REF" n="2">calculations</arg>
+<rel>calculations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

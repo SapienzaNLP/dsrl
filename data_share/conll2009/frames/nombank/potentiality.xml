@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="potentiality">
+<roleset id="potentiality.01" name="attribute/nomadj-potential">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the wonderful , if as yet undefined , potentialities inherent in
+the souls of all our children
+</text>
+<arg f="REF" n="2">potentialities</arg>
+<rel>potentialities</rel>
+<arg n="Support">inherent</arg>
+<arg n="1">in the souls of all our children</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

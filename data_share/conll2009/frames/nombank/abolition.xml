@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="abolition">
+<roleset id="abolition.01" name="get rid of, make illegal" source="verb-abolish.01">
+<roles>
+
+<role descr="entity getting rid of, outlawing something" n="0"></role>
+
+<role descr="thing abolished" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its abolition
+</text>
+<arg n="1">its</arg>
+<rel>abolition</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the abolition of apartheid
+</text>
+<rel>abolition</rel>
+<arg n="1">of apartheid</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

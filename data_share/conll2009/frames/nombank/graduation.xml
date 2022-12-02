@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="graduation">
+<roleset id="graduation.01" name="move from one level to the next" source="verb-graduate.01">
+<roles>
+
+<role descr="graduate" n="0"></role>
+
+<role descr="old level" n="1"></role>
+
+<role descr="new level" n="2"></role>
+
+<role descr="causal agent" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Dozen joined Daiwa upon his graduation from Kyoto University
+in 1959 .
+</text>
+<arg n="0">his</arg>
+<rel>graduation</rel>
+<arg n="1">from Kyoto University</arg>
+<arg f="TMP" n="M">in 1959</arg>
+</example>
+
+<example name="autogen2">
+<text>
+high-school graduation
+</text>
+<arg n="1">high-school</arg>
+<rel>graduation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

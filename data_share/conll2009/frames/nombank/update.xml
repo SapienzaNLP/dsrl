@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="update">
+<roleset id="update.01" name="cause to know" source="verb-inform.01">
+<roles>
+
+<role descr="informer" n="0"></role>
+
+<role descr="informed" n="1"></role>
+
+<role descr="information" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He phoned them with updates on the investment , such as `` funny
+things that happened at the well that week
+</text>
+<arg n="0">He</arg>
+<arg n="Support">phoned with</arg>
+<arg n="1">them</arg>
+<rel>updates</rel>
+<arg n="2">on the investment</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he could watch updates on prices and pending stock orders
+</text>
+<arg n="1">he</arg>
+<arg n="Support">watch</arg>
+<rel>updates</rel>
+<arg n="2">on prices and pending stock orders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

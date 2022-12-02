@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cheater">
+<roleset id="cheater.01" name="engage in deceitful practices" source="verb-cheat.02">
+<roles>
+
+<role descr="cheater" n="0"></role>
+
+<role descr="victim (usually prepositional" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the quota cheaters
+</text>
+<arg n="1">quota</arg>
+<arg n="0">cheaters</arg>
+<rel>cheaters</rel>
+</example>
+
+<example name="autogen2">
+<text>
+quota-cheaters
+</text>
+<arg n="0">quota-cheaters</arg>
+<arg n="1">quota-cheaters</arg>
+<rel>quota-cheaters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

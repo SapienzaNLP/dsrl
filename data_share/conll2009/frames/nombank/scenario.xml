@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scenario">
+<roleset id="scenario.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Soviet anthrax scenario
+</text>
+<arg n="0">Soviet</arg>
+<arg n="1">anthrax</arg>
+<rel>scenario</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The worst-case scenario
+</text>
+<arg n="1">worst-case</arg>
+<rel>scenario</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

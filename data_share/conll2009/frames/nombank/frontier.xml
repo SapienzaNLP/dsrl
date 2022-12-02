@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="frontier">
+<roleset id="frontier.01" name="partitive-part">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="theme2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the frontier of personal-computer technology
+</text>
+<rel>frontier</rel>
+<arg n="1">of personal-computer technology</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Soviet-Finnish frontier
+</text>
+<arg n="1">Soviet-Finnish</arg>
+<rel>frontier</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rigidity">
+<roleset id="rigidity.01" name="nomadj-rigid">
+<roles>
+
+<role descr="experincer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+corporate rigidity
+</text>
+<arg n="1">corporate</arg>
+<rel>rigidity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its former corporate rigidity
+</text>
+<arg n="0">its</arg>
+<arg f="TMP" n="M">former</arg>
+<arg n="1">corporate</arg>
+<rel>rigidity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

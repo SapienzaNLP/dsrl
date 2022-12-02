@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thirst">
+<roleset id="thirst.01" name="want, crave" source="verb-desire.01" vncls="32.1">
+<roles>
+
+<role descr="wanter" n="0">
+<vnrole vncls="32.1" vntheta="Experiencer"/></role>
+
+<role descr="wanted" n="1">
+<vnrole vncls="32.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Soviets ' thirst for dollars this year to buy grain and other
+Western commodities and goods
+</text>
+<arg n="0">the Soviets '</arg>
+<rel>thirst</rel>
+<arg n="1">for dollars</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

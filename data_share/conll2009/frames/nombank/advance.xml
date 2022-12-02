@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="advance">
+<roleset id="advance.01" name="move forward or upward" source="verb-advance.01" vncls="45.4">
+<roles>
+
+<role descr="agent, causing advance" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing advancing" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="ext, amount advanced by" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an advance of 0.16 cent a pound to 14.27 cents
+</text>
+<rel>advance</rel>
+<arg n="2">of 0.16 cent a pound</arg>
+<arg n="4">to 14.27 cents</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the other 's advance in one arena
+</text>
+<arg n="0">the other 's</arg>
+<rel>advance</rel>
+<arg n="1">in one arena</arg>
+</example>
+
+</roleset>
+<roleset id="advance.02" name="lend money" source="verb-advance.02">
+<roles>
+
+<role descr="lender" n="0"></role>
+
+<role descr="money advanced" n="1"></role>
+
+<role descr="borrower" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it wo n't make additional advances under the $ 150 million credit
+line
+</text>
+<arg n="0">it</arg>
+<arg n="Support">make</arg>
+<rel>advances</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

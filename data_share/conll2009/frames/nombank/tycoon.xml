@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tycoon">
+<roleset id="tycoon.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="expert" n="0"></role>
+
+<role descr="domain" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Australian-American press tycoon Rupert Murdoch
+</text>
+<arg n="1">press</arg>
+<arg n="0">tycoon</arg>
+<rel>tycoon</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the oil tycoon 's
+</text>
+<arg n="1">oil</arg>
+<arg n="0">tycoon</arg>
+<rel>tycoon</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

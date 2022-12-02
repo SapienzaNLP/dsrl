@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pomologist">
+<roleset id="pomologist.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a University of Massachusetts pomologist , or apple scholar
+</text>
+<arg n="2">University of Massachusetts</arg>
+<arg n="0">pomologist</arg>
+<rel>pomologist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

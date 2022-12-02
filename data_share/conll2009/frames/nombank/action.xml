@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="action">
+<roleset id="action.01" name="do something" source="verb-act.02">
+<roles>
+
+<role descr="actor" n="0"></role>
+
+<role descr="grounds for action" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+House action on federal catastrophic-illness insurance
+</text>
+<arg n="0">House</arg>
+<rel>action</rel>
+<arg n="1">on federal catastrophic-illness insurance</arg>
+</example>
+
+<example name="autogen2">
+<text>
+action on capital gains
+</text>
+<rel>action</rel>
+<arg n="1">on capital gains</arg>
+</example>
+
+</roleset>
+<roleset id="action.02" name="legal/military action">
+<roles>
+
+<role descr="claimant/agressor" n="0"></role>
+
+<role descr="reason" n="1"></role>
+
+<role descr="adjudicator or listener" n="2"></role>
+
+<role descr="defendant/defender" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a recent action by the heirs of singer Bobby Darin against
+McDonald 's Corp. over its `` Mac Tonight '' TV commercials , a
+rough parody of Mr. Darin 's `` Mack the Knife '' trademark
+</text>
+<arg f="TMP" n="M">recent</arg>
+<rel>action</rel>
+<arg n="0">by the heirs of singer Bobby Darin</arg>
+<arg n="2">against McDonald 's Corp.</arg>
+<arg n="1">
+over its `` Mac Tonight '' TV commercials , a rough parody of Mr.
+Darin 's `` Mack the Knife '' trademark</arg>
+</example>
+
+<example name="autogen2">
+<text>
+disciplinary actions against the firm
+</text>
+<arg n="1">disciplinary</arg>
+<rel>actions</rel>
+<arg n="2">against the firm</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

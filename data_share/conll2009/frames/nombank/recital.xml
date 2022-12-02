@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recital">
+<roleset id="recital.01" name="utter memorized passage" source="verb-recite.01" vncls="26.7-1">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his rote recital of economic-efficiency arguments
+</text>
+<arg n="0">his</arg>
+<arg f="MNR" n="M">rote</arg>
+<rel>recital</rel>
+<arg n="1">of economic-efficiency arguments</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a recital by Itzhak Perlman the same night
+</text>
+<rel>recital</rel>
+<arg n="0">by Itzhak Perlman</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

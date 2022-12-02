@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grant">
+<roleset id="grant.01" name="request" source="verb-grant.01" vncls="29.5">
+<roles>
+
+<role descr="granter" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing granted" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="beneficiary, granted-to" n="2">
+<vnrole vncls="29.5" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Bush has asked Congress to provide more than $ 400 million in
+economic aid and food grants for Poland 's new government , but
+has been chided by Democrats for failing to do more .
+</text>
+<arg n="0">Congress ---> *-3</arg>
+<arg n="Support">provide $ in</arg>
+<arg n="1">food</arg>
+<rel>grants</rel>
+<arg n="2">for Poland 's new government</arg>
+</example>
+
+<example name="autogen2">
+<text>
+cash grants to needy students
+</text>
+<arg n="1">cash</arg>
+<rel>grants</rel>
+<arg n="2">to needy students</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

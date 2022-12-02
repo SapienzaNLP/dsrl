@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="map">
+<roleset id="map.01" name="work-of-art" source="verb-map.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our political map
+</text>
+<arg n="0">our</arg>
+<arg n="1">political</arg>
+<rel>map</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the electoral map in the borough of Brooklyn
+</text>
+<arg n="1">electoral</arg>
+<rel>map</rel>
+<arg n="3">in the borough of Brooklyn</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

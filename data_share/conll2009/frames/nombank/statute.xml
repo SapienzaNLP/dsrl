@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="statute">
+<roleset id="statute.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its first anti-prostitution statutes
+</text>
+<arg n="0">its</arg>
+<arg n="1">anti-prostitution</arg>
+<rel>statutes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the statute of limitations
+</text>
+<rel>statute</rel>
+<arg n="1">of limitations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

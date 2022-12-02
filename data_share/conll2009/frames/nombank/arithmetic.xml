@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="arithmetic">
+<roleset id="arithmetic.01" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the arithmetic of deals
+</text>
+<rel>arithmetic</rel>
+<arg n="1">of deals</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

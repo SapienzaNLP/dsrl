@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="customer">
+<roleset id="customer.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my customers have fresh cold cuts every day
+</text>
+<arg n="2">my</arg>
+<arg n="0">customers</arg>
+<rel>customers</rel>
+<arg n="Support">have</arg>
+<arg n="1">fresh cold cuts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Justin 's customers
+</text>
+<arg n="2">Justin 's</arg>
+<arg n="0">customers</arg>
+<rel>customers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

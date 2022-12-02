@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="probability">
+<roleset id="probability.01" name="attribute/nomadj-probable">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a greater than 50 % probability of a grave problem in the offing
+</text>
+<arg n="2">greater than 50 %</arg>
+<rel>probability</rel>
+<arg n="1">of a grave problem in the offing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a 95 % probability any year 's result will fall in the range
+</text>
+<arg n="2">95 %</arg>
+<rel>probability</rel>
+<arg n="1">any year 's result will fall in the range</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="devotee">
+<roleset id="devotee.01" name="make a strong connection with" source="verb-devote.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the national-service devotees
+</text>
+<arg n="2">national-service</arg>
+<arg n="0">devotees</arg>
+<rel>devotees</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Devotees of the market
+</text>
+<arg n="0">Devotees</arg>
+<rel>Devotees</rel>
+<arg n="2">of the market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

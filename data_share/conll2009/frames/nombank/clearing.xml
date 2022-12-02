@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clearing">
+<roleset id="clearing.01" name="nomlike" source="verb-clear.02" vncls="45.4">
+<roles>
+
+<role descr="agent, approver" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing approved" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the trade clearing , or processing and guaranteeing , business
+</text>
+<arg n="1">trade</arg>
+<rel>clearing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+another small options clearing firm
+</text>
+<arg n="1">options</arg>
+<rel>clearing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

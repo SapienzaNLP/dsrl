@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="goal">
+<roleset id="goal.01" name="attempt" source="verb-try.01">
+<roles>
+
+<role descr="agent/entity trying" n="0"></role>
+
+<role descr="thing tried" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Her goal : to top 300 ad pages in 1990 , up from about 274 this
+year .
+</text>
+<arg n="0">Her</arg>
+<rel>goal</rel>
+<arg f="PRD" n="1">to top 300 ad pages in 1990 , up from about 274 this year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the second , revised goal of 5.8 %
+</text>
+<rel>goal</rel>
+<arg n="1">of 5.8 %</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

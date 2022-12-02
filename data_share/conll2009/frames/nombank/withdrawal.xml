@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="withdrawal">
+<roleset id="withdrawal.01" name="withdraw, remove oneself" source="verb-withdraw.01" vncls="10.5">
+<roles>
+
+<role descr="entity removing" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="thing being withdrawn (often understood as 'self" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+<role descr="removed from" n="2">
+<vnrole vncls="10.5" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Syrian troop withdrawal from Beirut
+</text>
+<arg n="0">Syrian</arg>
+<arg n="1">troop</arg>
+<rel>withdrawal</rel>
+<arg n="2">from Beirut</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the withdrawal of Syria 's forces from Lebanon
+</text>
+<rel>withdrawal</rel>
+<arg n="1">of Syria 's forces</arg>
+<arg n="2">from Lebanon</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

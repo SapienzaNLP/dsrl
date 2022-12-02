@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sticker">
+<roleset id="sticker.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a free Camel cigarette sticker
+</text>
+<arg n="1">Camel cigarette</arg>
+<rel>sticker</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a bumper sticker
+</text>
+<arg n="2">bumper</arg>
+<rel>sticker</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

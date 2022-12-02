@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="oath">
+<roleset id="oath.01" name="promise" source="verb-promise.01" vncls="13.3">
+<roles>
+
+<role descr="promiser" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="promised action" n="1" source="2">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="person promised to" n="2" source="1">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+opposition members testify under oath in parliament
+</text>
+<arg n="0">opposition members</arg>
+<arg n="Support">testify under</arg>
+<rel>oath</rel>
+</example>
+
+<example name="autogen2">
+<text>
+He is also accused of lying under oath and of leaking information
+obtained from a wiretap he supervised .
+</text>
+<arg n="0">He ---> *-2</arg>
+<arg n="Support">lying under</arg>
+<rel>oath</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="replacement">
+<roleset id="replacement.01" name="substitute" source="verb-replace.01">
+<roles>
+
+<role descr="replacer" n="0"></role>
+
+<role descr="old thing" n="1"></role>
+
+<role descr="new thing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its replacement by a Western-style Socialist Party
+</text>
+<arg n="1">its</arg>
+<rel>replacement</rel>
+<arg n="2">by a Western-style Socialist Party</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Pittston continues to hire replacement workers
+</text>
+<arg n="0">Pittston ---> *-1</arg>
+<arg n="Support">hire workers</arg>
+<rel>replacement</rel>
+<arg n="2">workers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consultant">
+<roleset id="consultant.01" name="actrel" source="verb-consult.01" vncls="36.3">
+<roles>
+
+<role descr="consulter" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="in regards to" n="1" source="2"></role>
+
+<role descr="consulted with" n="2" source="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a consultant on strategy to Fannie Mae
+</text>
+<arg n="0">consultant</arg>
+<rel>consultant</rel>
+<arg n="1">on strategy</arg>
+<arg n="2">to Fannie Mae</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a consultant to the subsidiary 's rocket-propulsion operations
+</text>
+<arg n="0">consultant</arg>
+<rel>consultant</rel>
+<arg n="2">to the subsidiary 's rocket-propulsion operations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

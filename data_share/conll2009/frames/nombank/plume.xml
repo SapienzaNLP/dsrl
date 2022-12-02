@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="plume">
+<roleset id="plume.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the big black plume of smoke we saw on the northern horizon
+</text>
+<rel>plume</rel>
+<arg n="1">of smoke</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="post">
+<roleset id="post.01" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his No. 2 executive post with Turner Broadcasting System Inc.
+</text>
+<arg n="0">his</arg>
+<arg n="1">No. 2 executive</arg>
+<rel>post</rel>
+<arg n="2">with Turner Broadcasting System Inc.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Hungary 's Parliament voted to hold a national referendum on an
+election to fill the new post of president .
+</text>
+<arg n="2">Hungary 's Parliament ---> *-1 ---> *</arg>
+<arg n="Support">fill</arg>
+<arg f="TMP" n="M">new</arg>
+<rel>post</rel>
+<arg n="1">of president</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

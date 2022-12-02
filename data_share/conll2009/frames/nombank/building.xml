@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="building">
+<roleset id="building.01" name="construct" source="verb-build.01" vncls="26.1-1">
+<roles>
+
+<role descr="builder" n="0">
+<vnrole vncls="26.1-1" vntheta="Agent"/></role>
+
+<role descr="construction" n="1">
+<vnrole vncls="26.1-1" vntheta="Product"/></role>
+
+<role descr="material, start state" n="2">
+<vnrole vncls="26.1-1" vntheta="Material"/></role>
+
+<role descr="end state" n="4">
+<vnrole vncls="26.1-1" vntheta="Product"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the chemical building block of polyethylene
+</text>
+<rel>building</rel>
+<arg n="2">block</arg>
+<arg n="1">of polyethylene</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a home building company
+</text>
+<arg n="1">home</arg>
+<rel>building</rel>
+<arg n="0">company</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

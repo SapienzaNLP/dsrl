@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="classification">
+<roleset id="classification.01" name="assign a label or attribute" source="verb-classify.01" vncls="29.2">
+<roles>
+
+<role descr="describer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing defined" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="secondary attribute, described-as, definition" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Tiger 's job classifications
+</text>
+<arg n="0">Tiger 's</arg>
+<arg n="1">job</arg>
+<rel>classifications</rel>
+</example>
+
+<example name="autogen2">
+<text>
+58 different U.S. tariff classifications
+</text>
+<arg n="0">U.S.</arg>
+<arg n="1">tariff</arg>
+<rel>classifications</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

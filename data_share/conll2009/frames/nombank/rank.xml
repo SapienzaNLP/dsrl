@@ -1,0 +1,102 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rank">
+<roleset id="rank.01" name="group/partitive-quant/partitive-part" source="verb-rank.01">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="rank" n="3" source="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the top ranks of the Communist party
+</text>
+<arg n="3">top</arg>
+<arg f="REF" n="1">ranks</arg>
+<rel>ranks</rel>
+<arg n="2">of the Communist party</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the lower ranks of Japan 's underworld
+</text>
+<arg n="3">lower</arg>
+<arg f="REF" n="1">ranks</arg>
+<rel>ranks</rel>
+<arg n="2">of Japan 's underworld</arg>
+</example>
+
+</roleset>
+<roleset id="rank.02" name="nomadj-rank.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+rank opportunists
+</text>
+<rel>rank</rel>
+<arg n="1">opportunists</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Even rank amateurs
+</text>
+<rel>rank</rel>
+<arg n="1">amateurs</arg>
+</example>
+
+</roleset>
+<roleset id="rank.03" name="nomlike-idiom" source="verb-agree.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="actor2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the tame old Peasants ' Party , desperate to live through the
+crisis , broke ranks with the Communists and joined with
+Solidarity in the East Bloc 's first liberated government
+</text>
+<arg n="0">
+the tame old Peasants ' Party , desperate to live through the
+crisis ,</arg>
+<arg n="Support">broke</arg>
+<rel>ranks</rel>
+<arg n="2">with the Communists</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Instead of closing ranks to protect the firm 's reputation , the
+executive 's internal rivals , led by a loutish American , demand
+his resignation .
+</text>
+<arg n="0">
+* ---> the executive 's internal rivals , led by a loutish
+American ,</arg>
+<arg n="Support">closing</arg>
+<rel>ranks</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

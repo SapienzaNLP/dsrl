@@ -1,0 +1,88 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="element">
+<roleset id="element.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the most surprising element of companies ' earnings this year
+</text>
+<rel>element</rel>
+<arg n="1">of companies ' earnings this year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+other major elements of its proposed regulation for introducing
+more competition into natural-gas transportation
+</text>
+<rel>elements</rel>
+<arg n="1">
+of its proposed regulation for introducing more competition into
+natural-gas transportation</arg>
+</example>
+
+</roleset>
+<roleset id="element.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an extra element of uncertainty
+</text>
+<rel>element</rel>
+<arg n="1">of uncertainty</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a longed-for element of excitement
+</text>
+<rel>element</rel>
+<arg n="1">of excitement</arg>
+</example>
+
+</roleset>
+<roleset id="element.03" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the city 's legitimate business element
+</text>
+<arg n="2">the city 's</arg>
+<arg n="1">business</arg>
+<rel>element</rel>
+</example>
+
+<example name="autogen2">
+<text>
+to purge the party of `` hostile and anti-party elements '' and
+wealthy private businessmen , whom they called exploiters
+</text>
+<arg n="Support">purge of</arg>
+<arg n="2">the party</arg>
+<arg n="1">hostile and anti-party</arg>
+<rel>elements</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sentence">
+<roleset id="sentence.01" name="assign criminal punishment" source="verb-sentence.01">
+<roles>
+
+<role descr="judge/jury" n="0"></role>
+
+<role descr="criminal" n="1"></role>
+
+<role descr="punishment" n="2"></role>
+
+<role descr="crime" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his prison sentence for income-tax evasion
+</text>
+<arg n="1">his</arg>
+<arg n="2">prison</arg>
+<rel>sentence</rel>
+<arg n="3">for income-tax evasion</arg>
+</example>
+
+<example name="autogen2">
+<text>
+many people would receive federal death sentences , let alone be
+executed
+</text>
+<arg n="1">many people</arg>
+<arg n="Support">receive</arg>
+<arg n="0">federal</arg>
+<arg n="2">death</arg>
+<rel>sentences</rel>
+</example>
+
+</roleset>
+<roleset id="sentence.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In the same sentence he contradicts himself when he reports that
+the government still retains 40 % of the total equity of the
+airline .
+</text>
+<rel>sentence</rel>
+<arg n="0">he</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the first to use silences and sentence fragments and menacing
+stares , almost to the exclusion of what we previously understood
+to be theatrical dialogue
+</text>
+<arg n="0">the first ---> 0 ---> *T*-1</arg>
+<arg n="Support">use fragments</arg>
+<rel>sentence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

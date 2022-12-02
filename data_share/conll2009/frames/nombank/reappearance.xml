@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reappearance">
+<roleset id="reappearance.01" name="come to be visible, again" source="verb-reappear.01">
+<roles>
+
+<role descr="thing becoming visible" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the sudden reappearance of stock-market turbulence
+</text>
+<rel>reappearance</rel>
+<arg n="1">of stock-market turbulence</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the reappearance of an old flame , David , a film critic and
+actor who always seems to be just on the brink of stardom
+</text>
+<rel>reappearance</rel>
+<arg n="1">
+of an old flame , David , a film critic and actor who always
+seems to be just on the brink of stardom</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brewing">
+<roleset id="brewing.01" name="create (beer" source="verb-brew.01" vncls="26.3-1">
+<roles>
+
+<role descr="creator, brewer" n="0">
+<vnrole vncls="26.3-1" vntheta="Agent"/></role>
+
+<role descr="creation, beer" n="1">
+<vnrole vncls="26.3-1" vntheta="Product"/></role>
+
+<role descr="source, thing changed" n="2"></role>
+
+<role descr="beneficiary" n="3">
+<vnrole vncls="26.3-1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's cigarette , food and brewing businesses
+</text>
+<rel>brewing</rel>
+<arg n="0">businesses</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the cash-strapped Australian media , brewing , resources and
+property concern
+</text>
+<rel>brewing</rel>
+<arg n="0">concern</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

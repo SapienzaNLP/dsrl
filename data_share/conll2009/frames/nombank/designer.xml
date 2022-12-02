@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="designer">
+<roleset id="designer.01" name="design" source="verb-design.01" vncls="26.4-1">
+<roles>
+
+<role descr="designer" n="0">
+<vnrole vncls="26.4-1" vntheta="Agent"/></role>
+
+<role descr="thing designed" n="1">
+<vnrole vncls="26.4-1" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.4-1" vntheta="Beneficiary"/></role>
+
+<role descr="purpose" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the designer and operator of cogeneration and waste heat recovery
+plants
+</text>
+<arg n="0">designer</arg>
+<rel>designer</rel>
+<arg n="1">of cogeneration and waste heat recovery plants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+designers and engineers at Dictaphone , a Pitney Bowes subsidiary
+,
+</text>
+<arg n="0">designers</arg>
+<rel>designers</rel>
+<arg n="2">at Dictaphone , a Pitney Bowes subsidiary ,</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

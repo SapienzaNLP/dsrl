@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="worth">
+<roleset id="worth.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+State Farm 's $ 16.7 billion total net worth
+</text>
+<arg n="1">State Farm 's</arg>
+<arg n="2">$ 16.7 billion</arg>
+<rel>worth</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The bank has a negative net worth
+</text>
+<arg n="1">The bank</arg>
+<arg n="Support">has</arg>
+<arg n="2">negative</arg>
+<rel>worth</rel>
+</example>
+
+</roleset>
+<roleset id="worth.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+$ 150 worth of quarters
+</text>
+<rel>worth</rel>
+<arg n="1">of quarters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a dollar 's worth of a firm 's capital stock
+</text>
+<rel>worth</rel>
+<arg n="1">of a firm 's capital stock</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

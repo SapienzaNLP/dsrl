@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unease">
+<roleset id="unease.01" name="nomadj-uneasy">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+growing unease about the economic outlook
+</text>
+<rel>unease</rel>
+<arg n="1">about the economic outlook</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Unease is widespread among exchange members .
+</text>
+<rel>Unease</rel>
+<arg n="Support">widespread</arg>
+<arg n="0">among exchange members</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

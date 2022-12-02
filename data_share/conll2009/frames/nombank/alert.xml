@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="alert">
+<roleset id="alert.01" name="alert, warn" source="verb-alert.01" vncls="37.9">
+<roles>
+
+<role descr="entity giving warning" n="0">
+<vnrole vncls="37.9" vntheta="Agent"/></role>
+
+<role descr="warning" n="1" source="2">
+<vnrole vncls="37.9" vntheta="Topic"/></role>
+
+<role descr="entity getting warning" n="2" source="1">
+<vnrole vncls="37.9" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Lebanon 's Gen. Aoun placed Christian military forces on alert in
+case of renewed fighting with Syrian-backed Moslems after Lebanon
+'s two main Shiite militias rejected an Arab-sponsored peace
+accord .
+</text>
+<arg n="0">Lebanon 's Gen. Aoun</arg>
+<arg n="Support">placed on</arg>
+<arg n="2">Christian military forces</arg>
+<rel>alert</rel>
+<arg n="1">in case of renewed fighting with Syrian-backed Moslems</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they want to be on the alert for similar buying opportunities now
+</text>
+<arg n="2">they ---> *-2</arg>
+<rel>alert</rel>
+<arg n="1">for similar buying opportunities</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

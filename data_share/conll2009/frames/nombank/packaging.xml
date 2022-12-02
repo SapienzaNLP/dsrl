@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="packaging">
+<roleset id="packaging.01" name="to place into a package" source="verb-package.01" vncls="22.3-2">
+<roles>
+
+<role descr="packager, agent" n="0">
+<vnrole vncls="22.3-2" vntheta="Agent"/></role>
+
+<role descr="entity packaged" n="1">
+<vnrole vncls="22.3-2" vntheta="Patient1"/></role>
+
+<role descr="entity packaged into" n="2">
+<vnrole vncls="22.3-2" vntheta="Patient2"/></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a beer packaging plant worker
+</text>
+<arg n="1">beer</arg>
+<rel>packaging</rel>
+<arg n="0">worker</arg>
+</example>
+
+<example name="autogen2">
+<text>
+flexible packaging films
+</text>
+<rel>packaging</rel>
+<arg n="2">films</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

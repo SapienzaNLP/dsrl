@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="protectionism">
+<roleset id="protectionism.01" name="shield from danger" source="verb-protect.01">
+<roles>
+
+<role descr="protector" n="0"></role>
+
+<role descr="protected" n="1"></role>
+
+<role descr="danger" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+protectionism from the U.S. , where some politicians oppose what
+they consider Japanese efforts to use maquiladoras to crack the
+U.S. market through the back door
+</text>
+<rel>protectionism</rel>
+<arg n="0">
+from the U.S. , where some politicians oppose what they consider
+Japanese efforts to use maquiladoras to crack the U.S. market
+through the back door</arg>
+</example>
+
+<example name="autogen2">
+<text>
+them to withdraw subsidies and protectionism from their own steel
+industries
+</text>
+<arg n="0">them</arg>
+<arg n="Support">withdraw</arg>
+<rel>protectionism</rel>
+<arg n="1">from their own steel industries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

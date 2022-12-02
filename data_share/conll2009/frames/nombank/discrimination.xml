@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discrimination">
+<roleset id="discrimination.01" name="illegal preferences" source="verb-discriminate.02">
+<roles>
+
+<role descr="bigot, agent" n="0"></role>
+
+<role descr="victim" n="1"></role>
+
+<role descr="topic, on basis of" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The U.S. Equal Employment Opportunity Commission sued New York
+state for age discrimination against appointed state judges .
+</text>
+<arg n="Support">sued for</arg>
+<arg n="0">New York state</arg>
+<arg n="2">age</arg>
+<rel>discrimination</rel>
+<arg n="1">against appointed state judges</arg>
+</example>
+
+<example name="autogen2">
+<text>
+discrimination against employees on account of their sex
+</text>
+<rel>discrimination</rel>
+<arg n="1">against employees</arg>
+<arg n="2">on account of their sex</arg>
+</example>
+
+</roleset>
+<roleset id="discrimination.02" name="tell the difference among" source="verb-discriminate.01">
+<roles>
+
+<role descr="agent, person with keen taste" n="0"></role>
+
+<role descr="choices" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its lack of discrimination
+</text>
+<arg n="0">its</arg>
+<arg n="Support">lack of</arg>
+<arg f="NEG" n="M">lack of</arg>
+<rel>discrimination</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

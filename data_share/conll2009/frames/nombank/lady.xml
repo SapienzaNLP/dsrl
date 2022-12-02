@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lady">
+<roleset id="lady.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The former first lady of the Philippines
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg n="3">first</arg>
+<arg n="0">lady</arg>
+<rel>lady</rel>
+<arg n="1">of the Philippines</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

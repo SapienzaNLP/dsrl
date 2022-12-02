@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="premier">
+<roleset id="premier.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Poland 's premier
+</text>
+<arg n="2">Poland 's</arg>
+<arg n="0">premier</arg>
+<rel>premier</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Czechoslovakia 's premier
+</text>
+<arg n="2">Czechoslovakia 's</arg>
+<arg n="0">premier</arg>
+<rel>premier</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

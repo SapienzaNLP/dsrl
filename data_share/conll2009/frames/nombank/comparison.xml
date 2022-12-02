@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="comparison">
+<roleset id="comparison.01" name="compare" source="verb-compare.01" vncls="22.2">
+<roles>
+
+<role descr="entity making comparison" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="first item in comparison" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="second item in comparison, usually prepositional" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his comparisons of effectiveness concerning research and
+development
+</text>
+<arg n="0">his</arg>
+<rel>comparisons</rel>
+<arg n="1">of effectiveness</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The quarter-to-quarter comparison
+</text>
+<arg n="1">quarter-to-quarter</arg>
+<arg n="2">quarter-to-quarter</arg>
+<rel>comparison</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

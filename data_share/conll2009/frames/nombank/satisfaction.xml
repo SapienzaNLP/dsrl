@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="satisfaction">
+<roleset id="satisfaction.01" name="make happy" source="verb-satisfy.01" vncls="31.1">
+<roles>
+
+<role descr="agent, pleaser" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="patient, entity pleased" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrumental" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Your Satisfaction in Living
+</text>
+<arg n="1">Your</arg>
+<rel>Satisfaction</rel>
+<arg n="2">in Living</arg>
+</example>
+
+<example name="autogen2">
+<text>
+But by the third quarter of 1988 , Scorpios had a high
+satisfaction rating in internal Ford studies
+</text>
+<arg n="0">Scorpios</arg>
+<arg n="Support">had rating</arg>
+<rel>satisfaction</rel>
+<arg n="2">in internal Ford studies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

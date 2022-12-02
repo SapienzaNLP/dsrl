@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="affliction">
+<roleset id="affliction.01" name="suffer" source="verb-afflict.01" vncls="31.1">
+<roles>
+
+<role descr="cause" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="entity suffering" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a common affliction
+</text>
+<arg f="TMP" n="M">common</arg>
+<arg f="REF" n="0">affliction</arg>
+<rel>affliction</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

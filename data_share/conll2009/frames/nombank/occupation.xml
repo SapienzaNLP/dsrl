@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="occupation">
+<roleset id="occupation.01" name="be in a certain place" source="verb-occupy.01">
+<roles>
+
+<role descr="occupier" n="0"></role>
+
+<role descr="occupied" n="1"></role>
+
+<role descr="secondary predication on arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their 19-day occupation of a metal shop at a Peugeot S.A. factory
+in eastern France
+</text>
+<arg n="0">their</arg>
+<arg f="TMP" n="M">19-day</arg>
+<rel>occupation</rel>
+<arg n="1">of a metal shop at a Peugeot S.A. factory in eastern France</arg>
+</example>
+
+<example name="autogen2">
+<text>
+occupation by a foreign power
+</text>
+<rel>occupation</rel>
+<arg n="0">by a foreign power</arg>
+</example>
+
+</roleset>
+<roleset id="occupation.02" name="job">
+<roles>
+
+<role descr="job title" n="0"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the obvious and available occupation - as translator for a
+Russian who spoke fluent English
+</text>
+<rel>occupation</rel>
+<arg n="0">- as translator</arg>
+<arg n="2">for a Russian who spoke fluent English</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Vietnamese occupation in 1978
+</text>
+<arg n="0">Vietnamese</arg>
+<rel>occupation</rel>
+<arg f="TMP" n="M">in 1978</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

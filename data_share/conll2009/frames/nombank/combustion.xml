@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="combustion">
+<roleset id="combustion.01" name="go boom" source="verb-explode.01" vncls="43.2">
+<roles>
+
+<role descr="bomber, agent" n="0">
+<vnrole vncls="43.2" vntheta="Agent"/></role>
+
+<role descr="bomb" n="1">
+<vnrole vncls="43.2" vntheta="Theme"/></role>
+
+<role descr="attribute, end state" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+increased combustion of fossil fuels
+</text>
+<rel>combustion</rel>
+<arg n="1">of fossil fuels</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

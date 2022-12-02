@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clarity">
+<roleset id="clarity.01" name="nomadj-clear">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+program clarity
+</text>
+<arg n="1">program</arg>
+<rel>clarity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

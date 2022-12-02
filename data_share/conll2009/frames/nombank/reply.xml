@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reply">
+<roleset id="reply.01" name="say in response" source="verb-reply.01">
+<roles>
+
+<role descr="replier" n="0"></role>
+
+<role descr="in response to" n="1"></role>
+
+<role descr="answer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The reply of the Metzenbaums and Cohens is that we ca n't abolish
+these oversight committees because we 've seen too many abuses of
+executive power .
+</text>
+<rel>reply</rel>
+<arg n="0">of the Metzenbaums and Cohens</arg>
+<arg n="2">
+that we ca n't abolish these oversight committees because we 've
+seen too many abuses of executive power</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The worker 's tart reply : `` It 's more than just travel .
+</text>
+<arg n="0">The worker 's</arg>
+<arg f="MNR" n="M">tart</arg>
+<rel>reply</rel>
+<arg n="2">It 's more than just travel</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

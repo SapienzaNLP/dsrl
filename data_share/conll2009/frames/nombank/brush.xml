@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brush">
+<roleset id="brush.01" name="to rub, clean, or remove with or as if with a brush" source="verb-brush.01" vncls="10.4.2">
+<roles>
+
+<role descr="entity with brush, agent" n="0">
+<vnrole vncls="10.4.2" vntheta="Agent"/></role>
+
+<role descr="entity brushed" n="1">
+<vnrole vncls="10.4.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Men are still combing the beach with shovels and hand brushes ,
+searching for that unusual glint .
+</text>
+<arg n="0">Men</arg>
+<arg n="Support">combing with</arg>
+<arg n="1">the beach</arg>
+<rel>brushes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the men wielding shovels and brushes -- the ignominiously named
+`` bedrock sweepers '' who toil in the wake of the excavators
+</text>
+<arg n="0">the men</arg>
+<arg n="Support">wielding</arg>
+<rel>brushes</rel>
+</example>
+
+</roleset>
+<roleset id="brush.02" name="negative encounter" source="verb-encounter.01">
+<roles>
+
+<role descr="entity encountering something" n="0"></role>
+
+<role descr="entity encountered" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He 's had other brushes with the law .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">had</arg>
+<rel>brushes</rel>
+<arg n="1">with the law</arg>
+</example>
+
+<example name="autogen2">
+<text>
+my only previous brush with natural disaster
+</text>
+<arg n="0">my</arg>
+<arg f="TMP" n="M">previous</arg>
+<rel>brush</rel>
+<arg n="1">with natural disaster</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

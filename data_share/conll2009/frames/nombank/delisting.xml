@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="delisting">
+<roleset id="delisting.01" name="nomlike" source="verb-remove.01" vncls="10.2">
+<roles>
+
+<role descr="entity removing" n="0">
+<vnrole vncls="10.2" vntheta="Agent"/></role>
+
+<role descr="thing being removed" n="1">
+<vnrole vncls="10.2" vntheta="Theme"/></role>
+
+<role descr="removed from" n="2">
+<vnrole vncls="10.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The company also faces delisting by the National Association of
+Securities Dealers .
+</text>
+<arg n="1">The company</arg>
+<arg n="Support">faces</arg>
+<rel>delisting</rel>
+<arg n="0">by the National Association of Securities Dealers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The delisting of Malaysian-based companies from the Singapore
+exchange
+</text>
+<rel>delisting</rel>
+<arg n="1">of Malaysian-based companies</arg>
+<arg n="2">from the Singapore exchange</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

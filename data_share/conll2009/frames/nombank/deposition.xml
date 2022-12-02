@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deposition">
+<roleset id="deposition.01" name="nomlike" source="verb-interrogate.01">
+<roles>
+
+<role descr="asker" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="answerer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Witnesses often must travel long distances to give face-to-face
+depositions before lawyers and court reporters .
+</text>
+<arg n="2">Witnesses ---> *-1</arg>
+<arg n="Support">give</arg>
+<arg f="MNR" n="M">face-to-face</arg>
+<rel>depositions</rel>
+<arg n="0">before lawyers and court reporters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+An attorney will be able to use the network for an hourly fee of
+between $ 200 and $ 400 , depending on the quality of the picture
+, to take depositions from witnesses in any of the connected
+cities .
+</text>
+<arg n="0">An attorney ---> *-1 ---> *-2</arg>
+<arg n="Support">take</arg>
+<rel>depositions</rel>
+<arg n="2">from witnesses in any of the connected cities</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

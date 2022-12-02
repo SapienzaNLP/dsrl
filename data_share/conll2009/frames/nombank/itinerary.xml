@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="itinerary">
+<roleset id="itinerary.01" name="plan a time" source="verb-schedule.01">
+<roles>
+
+<role descr="planner" n="0"></role>
+
+<role descr="event" n="1"></role>
+
+<role descr="scheduled for or because of" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our itinerary
+</text>
+<arg n="0">our</arg>
+<rel>itinerary</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

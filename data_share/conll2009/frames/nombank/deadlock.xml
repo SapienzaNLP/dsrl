@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deadlock">
+<roleset id="deadlock.01" name="cause to) cease forward motion completely" source="verb-stall.02">
+<roles>
+
+<role descr="thing stalled" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The deadlock in negotiations
+</text>
+<rel>deadlock</rel>
+<arg n="1">in negotiations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

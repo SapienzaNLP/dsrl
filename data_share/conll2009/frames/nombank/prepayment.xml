@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prepayment">
+<roleset id="prepayment.01" name="pay in advance" source="verb-prepay.01">
+<roles>
+
+<role descr="payer or buyer" n="0"></role>
+
+<role descr="thing paid for (often debt" n="1"></role>
+
+<role descr="seller or person being paid" n="2"></role>
+
+<role descr="price paid" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a prepayment of 160 % of the PSA model
+</text>
+<rel>prepayment</rel>
+<arg n="1">of 160 % of the PSA model</arg>
+</example>
+
+<example name="autogen2">
+<text>
+$ 121 million in prepayments , funded by $ 82.8 million from
+operating cash flow , zero-coupon subordinated debt and assets
+sales
+</text>
+<arg n="1">$ 121 million</arg>
+<rel>prepayments</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

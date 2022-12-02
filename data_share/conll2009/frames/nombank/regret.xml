@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="regret">
+<roleset id="regret.01" name="regret, feel bad about" source="verb-regret.01" vncls="31.2">
+<roles>
+
+<role descr="regreter" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="thing regretted" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Greenberg got out just before the 1987 crash and , to his
+regret , never went back even as the market soared .
+</text>
+<arg n="0">his</arg>
+<rel>regret</rel>
+<arg n="1">never went back even as the market soared</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Sony hosted for a year while he was on a Luce Fellowship in Tokyo
+-- to the regret of both parties
+</text>
+<arg n="1">Sony hosted for a year while he was on a Luce Fellowship in Tokyo</arg>
+<rel>regret</rel>
+<arg n="0">of both parties</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

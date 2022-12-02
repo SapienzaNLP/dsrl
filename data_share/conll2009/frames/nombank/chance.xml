@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chance">
+<roleset id="chance.01" name="attribute/ability">
+<roles>
+
+<role descr="experiencer/agent" n="0"></role>
+
+<role descr="theme/action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his first big chance at a lucrative commission
+</text>
+<arg n="0">his</arg>
+<arg n="2">big</arg>
+<rel>chance</rel>
+<arg n="1">at a lucrative commission</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Little chance that Shane Longman is going to recoup today
+</text>
+<arg n="2">Little</arg>
+<rel>chance</rel>
+<arg n="1">that Shane Longman is going to recoup today</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

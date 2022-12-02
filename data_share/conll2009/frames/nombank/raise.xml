@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="raise">
+<roleset id="raise.01" name="augment salary" source="verb-advance.02">
+<roles>
+
+<role descr="lender" n="0"></role>
+
+<role descr="money advanced" n="1"></role>
+
+<role descr="borrower" n="2"></role>
+
+<role descr="ext, amount advanced by" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+CNN recently gave most employees raises of as much as 15 %
+</text>
+<arg n="0">CNN</arg>
+<arg n="Support">gave</arg>
+<arg n="2">most employees</arg>
+<rel>raises</rel>
+<arg n="3">of as much as 15 %</arg>
+</example>
+
+<example name="autogen3">
+<text>
+a 10 % pay raise
+</text>
+<arg n="3">10 %</arg>
+<arg n="1">pay</arg>
+<rel>raise</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,82 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="field">
+<roleset id="field.01" name="field">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the notebook field
+</text>
+<arg n="1">notebook</arg>
+<rel>field</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The crowded field for notebook-sized computers
+</text>
+<rel>field</rel>
+<arg n="1">for notebook-sized computers</arg>
+</example>
+
+</roleset>
+<roleset id="field.02" name="partitive-quant/nomlike-produce" source="verb-produce.01">
+<roles>
+
+<role descr="quantified/theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a new oil field
+</text>
+<arg n="1">oil</arg>
+<rel>field</rel>
+</example>
+
+<example name="autogen2">
+<text>
+oil field equipment issues
+</text>
+<arg n="1">oil</arg>
+<rel>field</rel>
+</example>
+
+</roleset>
+<roleset id="field.03" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the planet 's gravitational field
+</text>
+<arg n="3">the planet 's</arg>
+<arg n="1">gravitational</arg>
+<rel>field</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a magnetic field
+</text>
+<arg n="2">magnetic</arg>
+<rel>field</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

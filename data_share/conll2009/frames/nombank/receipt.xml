@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="receipt">
+<roleset id="receipt.01" name="get" source="verb-receive.01" vncls="13.5.2">
+<roles>
+
+<role descr="receiver" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing gotten" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="received from" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="price, in exchange for" n="3"></role>
+
+<role descr="attribute of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Bidermann 's receipt of financing
+</text>
+<arg n="0">Bidermann 's</arg>
+<rel>receipt</rel>
+<arg n="1">of financing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the receipt of bribes and gratuities
+</text>
+<rel>receipt</rel>
+<arg n="1">of bribes and gratuities</arg>
+</example>
+
+</roleset>
+<roleset id="receipt.02" name="proof of purchase" source="verb-prove.01" vncls="29.4">
+<roles>
+
+<role descr="prover" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="proposition" n="1">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+<role descr="beneficiary/item purchased" n="2">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the existing machines , which deliver little paper receipts
+</text>
+<arg n="0">the existing machines ---> which ---> *T*-1</arg>
+<arg n="Support">deliver</arg>
+<arg n="1">receipts</arg>
+<rel>receipts</rel>
+</example>
+
+<example name="autogen2">
+<text>
+receipts from the sale of state-owned industries
+</text>
+<arg n="1">receipts</arg>
+<rel>receipts</rel>
+<arg n="2">from the sale of state-owned industries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

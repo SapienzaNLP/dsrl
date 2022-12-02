@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pollination">
+<roleset id="pollination.01" name="to fertilize by transfering pollen" source="verb-pollinate.01">
+<roles>
+
+<role descr="fertilizer, agent" n="0"></role>
+
+<role descr="plant  pollinated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cross-pollination between brokers and investment bankers
+</text>
+<rel>cross-pollination</rel>
+<arg n="1">between brokers and investment bankers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+pollination , while easy in corn because the carrier is wind ,
+</text>
+<rel>pollination</rel>
+<arg n="Support">easy</arg>
+<arg n="1">in corn</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

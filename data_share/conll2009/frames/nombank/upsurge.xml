@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="upsurge">
+<roleset id="upsurge.01" name="rise" source="verb-surge.01" vncls="48.1.1">
+<roles>
+
+<role descr="logical subject, patient, thing rising" n="1">
+<vnrole vncls="48.1.1" vntheta="Theme"/></role>
+
+<role descr="ext, amount risen" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an upsurge in political activity by abortion-rights forces
+</text>
+<rel>upsurge</rel>
+<arg n="1">in political activity by abortion-rights forces</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its bullish upsurge in sales -- including advanced computer games
+and television entertainment systems --
+</text>
+<rel>upsurge</rel>
+<arg n="1">
+in sales -- including advanced computer games and television
+entertainment systems --</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

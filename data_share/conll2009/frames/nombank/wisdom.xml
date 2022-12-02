@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wisdom">
+<roleset id="wisdom.01" name="nomadj-wise" vncls="30.2">
+<roles>
+
+<role descr="experiencer" n="0">
+<vnrole vncls="30.2" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The received Darwinian wisdom of the day said that animals living
+so long ago must be simple in design , limited in scope and
+ancestral to contemporary species .
+</text>
+<arg n="0">Darwinian</arg>
+<rel>wisdom</rel>
+<arg f="TMP" n="M">of the day</arg>
+<arg n="Support">said</arg>
+<arg n="1">
+that animals living so long ago must be simple in design ,
+limited in scope and ancestral to contemporary species</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the wisdom of letting the free markets operate
+</text>
+<rel>wisdom</rel>
+<arg n="1">of letting the free markets operate</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

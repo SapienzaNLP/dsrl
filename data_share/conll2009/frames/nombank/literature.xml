@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="literature">
+<roleset id="literature.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the somewhat scant English-language medical literature on RU-486
+</text>
+<arg n="3">medical</arg>
+<rel>literature</rel>
+<arg n="1">on RU-486</arg>
+</example>
+
+<example name="autogen2">
+<text>
+investment literature
+</text>
+<arg n="1">investment</arg>
+<rel>literature</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

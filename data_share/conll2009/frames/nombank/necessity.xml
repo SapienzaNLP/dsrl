@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="necessity">
+<roleset id="necessity.01" name="nomadj-necessary/nom" source="verb-need.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Now , only God exists as a matter of absolute necessity
+</text>
+<arg n="1">only God exists</arg>
+<arg n="Support">matter of</arg>
+<arg n="2">absolute</arg>
+<rel>necessity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+other necessities of life
+</text>
+<arg f="REF" n="2">necessities</arg>
+<rel>necessities</rel>
+<arg n="0">of life</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

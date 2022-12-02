@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deference">
+<roleset id="deference.01" name="acknowledge as superior" source="verb-defer.02">
+<roles>
+
+<role descr="inferior thing" n="0"></role>
+
+<role descr="superior thing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they dispensed with traditional champagne showers in deference to
+the quake victims
+</text>
+<arg n="0">they</arg>
+<rel>deference</rel>
+<arg n="1">to the quake victims</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

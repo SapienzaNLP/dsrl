@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disparity">
+<roleset id="disparity.01" name="be different" source="verb-differ.02" vncls="45.6">
+<roles>
+
+<role descr="things that are different" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext or mnr, how different" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="seperated arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any statistical racial disparities
+</text>
+<arg f="MNR" n="M">statistical</arg>
+<arg n="1">racial</arg>
+<rel>disparities</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="majority">
+<roleset id="majority.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a majority of the Addison council
+</text>
+<rel>majority</rel>
+<arg n="1">of the Addison council</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the high court 's majority
+</text>
+<arg n="1">the high court 's</arg>
+<rel>majority</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

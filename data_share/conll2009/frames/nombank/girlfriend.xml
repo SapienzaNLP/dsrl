@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="girlfriend">
+<roleset id="girlfriend.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the mobster 's girlfriend
+</text>
+<arg n="1">the mobster 's</arg>
+<arg n="0">girlfriend</arg>
+<rel>girlfriend</rel>
+</example>
+
+<example name="autogen4">
+<text>
+his girlfriend
+</text>
+<arg n="1">his</arg>
+<arg n="0">girlfriend</arg>
+<rel>girlfriend</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

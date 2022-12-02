@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grip">
+<roleset id="grip.01" name="hold tight" source="verb-grip.01" vncls="15.1">
+<roles>
+
+<role descr="holder" n="0">
+<vnrole vncls="15.1" vntheta="Agent"/></role>
+
+<role descr="thing held" n="1">
+<vnrole vncls="15.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="secondary attribute of thing held" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+its grip on its one large business outside chemicals , propane
+marketing
+</text>
+<arg n="0">its</arg>
+<rel>grip</rel>
+<arg n="1">on its one large business outside chemicals , propane marketing</arg>
+</example>
+
+<example name="autogen4">
+<text>
+their credit grip
+</text>
+<arg n="0">their</arg>
+<arg n="1">credit</arg>
+<rel>grip</rel>
+</example>
+
+</roleset>
+<roleset id="grip.02" name="come to grips with" source="verb-accept.01" vncls="29.2">
+<roles>
+
+<role descr="acceptor" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing accepted" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="accepted-from" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="attribute" n="3">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+them both come to grips with the move
+</text>
+<arg n="0">them</arg>
+<arg n="Support">come to</arg>
+<rel>grips</rel>
+<arg n="1">with the move</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to come to grips with them
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">come to</arg>
+<rel>grips</rel>
+<arg n="1">with them</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

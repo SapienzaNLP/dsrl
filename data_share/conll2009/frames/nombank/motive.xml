@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="motive">
+<roleset id="motive.01" name="want, crave" source="verb-desire.01" vncls="32.1">
+<roles>
+
+<role descr="wanter" n="0">
+<vnrole vncls="32.1" vntheta="Experiencer"/></role>
+
+<role descr="wanted" n="1">
+<vnrole vncls="32.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The profit motive of the major shareholders
+</text>
+<arg n="1">profit</arg>
+<rel>motive</rel>
+<arg n="0">of the major shareholders</arg>
+</example>
+
+<example name="autogen3">
+<text>
+a profit motive
+</text>
+<arg n="1">profit</arg>
+<rel>motive</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

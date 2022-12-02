@@ -1,0 +1,7 @@
+_target_: src.conll2009_evaluation.Conll2009Evaluation
+frames_path: data_share/conll2009/frames/conll2009_frames.json
+argm_definitions_path: data_share/conll2009/frames/conll2009_argm_definitions.json
+conll_path: data_share/conll2009/original/CoNLL2009_test.txt
+output_path: CoNLL2009_test.pred.txt
+scorer_path: scripts/scorers/eval09.pl
+language_model_name: princeton-nlp/sup-simcse-roberta-base

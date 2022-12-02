@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="confrontation">
+<roleset id="confrontation.01" name="argue with" source="verb-argue.02" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 67-31 roll call in the Senate , which sets the stage for a veto
+confrontation with Mr. Bush over the issue of publicly financed
+abortions for poor women
+</text>
+<arg n="0">the Senate ---> which ---> *T*-32</arg>
+<arg n="Support">sets stage for</arg>
+<rel>confrontation</rel>
+<arg n="1">with Mr. Bush</arg>
+<arg n="2">over the issue of publicly financed abortions for poor women</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` I went out to Todd -LCB- Burns , the A 's reliever -RCB- and
+told him that we were n't gon na let this guy beat us , '' said
+Oakland catcher Terry Steinbach of the decisive confrontation
+with Mitchell , the National League 's reigning home-run king .
+</text>
+<arg n="0">Oakland catcher Terry Steinbach</arg>
+<rel>confrontation</rel>
+<arg n="1">with Mitchell , the National League 's reigning home-run king</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

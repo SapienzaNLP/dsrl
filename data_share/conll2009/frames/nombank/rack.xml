@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rack">
+<roleset id="rack.01" name="grasp, bear" source="verb-hold.01" vncls="15.1">
+<roles>
+
+<role descr="holder" n="0">
+<vnrole vncls="15.1" vntheta="Agent"/></role>
+
+<role descr="thing held" n="1">
+<vnrole vncls="15.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="secondary attribute of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+magazine racks
+</text>
+<arg n="1">magazine</arg>
+<arg n="0">racks</arg>
+<rel>racks</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Metal racks on the plant floor
+</text>
+<arg n="3">Metal</arg>
+<arg n="0">racks</arg>
+<rel>racks</rel>
+<arg f="LOC" n="M">on the plant floor</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

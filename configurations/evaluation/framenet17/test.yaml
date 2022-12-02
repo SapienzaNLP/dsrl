@@ -1,0 +1,15 @@
+_target_: src.multi_dataset_evaluation.MultiDatasetEvaluation
+evaluations:
+  framenet17:
+    _target_: src.multi_dataset_evaluation.DatasetSpecificEvaluation
+    dataset_id: framenet17
+    evaluation:
+      _target_: src.framenet_evaluation.FramenetEvaluation
+      frames_path: data_share/framenet17/frames/framenet_frames.json
+      fr_frames_path: data_share/framenet17/frames/framenet_frames.xml
+      fr_relations_path: data_share/framenet17/frames/frRelation.xml
+      gold_input_path: data_share/framenet17/original/fn1.7.test.syntaxnet.conll
+      gold_output_path: FrameNet17_test.gold.txt
+      pred_output_path: FrameNet17_test.pred.txt
+      scorer_path: scripts/scorers/fnSemScore_modified.pl
+      language_model_name: princeton-nlp/sup-simcse-roberta-base

@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="finance">
+<roleset id="finance.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+high-yield finance
+</text>
+<arg n="2">high-yield</arg>
+<rel>finance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its finances
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">finances</arg>
+<rel>finances</rel>
+</example>
+
+</roleset>
+<roleset id="finance.02" name="provide money for, get money for" source="verb-finance.01">
+<roles>
+
+<role descr="financ(i)er" n="0"></role>
+
+<role descr="thing financed" n="1"></role>
+
+<role descr="money" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+higher corporate-finance and other fees
+</text>
+<arg n="1">corporate-finance</arg>
+<arg n="2">corporate-finance</arg>
+<rel>corporate-finance</rel>
+</example>
+
+<example name="autogen3">
+<text>
+Corporate finance and trading results
+</text>
+<arg n="1">Corporate</arg>
+<rel>finance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

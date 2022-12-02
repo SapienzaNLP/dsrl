@@ -1,0 +1,80 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ticket">
+<roleset id="ticket.01" name="allow to enter" source="verb-admit.02">
+<roles>
+
+<role descr="allower (ticket" n="0"></role>
+
+<role descr="enterer" n="1"></role>
+
+<role descr="place entered" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A few years ago , the company offered two round-trip tickets on
+Trans World Airlines to buyers of its Riviera luxury car .
+</text>
+<arg n="0">the company</arg>
+<arg n="Support">offered</arg>
+<arg n="2">round-trip</arg>
+<rel>tickets</rel>
+<arg f="LOC" n="M">on Trans World Airlines</arg>
+<arg n="1">to buyers of its Riviera luxury car</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his season football tickets
+</text>
+<arg n="1">his</arg>
+<arg n="2">season football</arg>
+<rel>tickets</rel>
+</example>
+
+</roleset>
+<roleset id="ticket.02" name="break some rule" source="verb-violate.01">
+<roles>
+
+<role descr="violator" n="0"></role>
+
+<role descr="thing violated, usually a rule" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a parking ticket
+</text>
+<arg n="1">parking</arg>
+<rel>ticket</rel>
+</example>
+
+</roleset>
+<roleset id="ticket.03" name="cf cost" source="verb-price.01" vncls="54.4">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="54.4" vntheta="Agent"/></role>
+
+<role descr="commodity" n="1">
+<vnrole vncls="54.4" vntheta="Theme"/></role>
+
+<role descr="price" n="2">
+<vnrole vncls="54.4" vntheta="Attribute"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+other big ticket durable goods
+</text>
+<rel>ticket</rel>
+<arg n="1">durable goods</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

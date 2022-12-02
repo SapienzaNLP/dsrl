@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sketch">
+<roleset id="sketch.01" name="nom/work-of-art" source="verb-sketch.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+prim sketches of a suit or a coat
+</text>
+<rel>sketches</rel>
+<arg n="1">of a suit or a coat</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a sketch artist
+</text>
+<rel>sketch</rel>
+<arg n="0">artist</arg>
+</example>
+
+</roleset>
+<roleset id="sketch.02" name="describe roughly" source="verb-sketch.02">
+<roles>
+
+<role descr="describer" n="0"></role>
+
+<role descr="thing described" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its unsentimental sketches of Cairo life
+</text>
+<arg n="0">its</arg>
+<arg f="MNR" n="M">unsentimental</arg>
+<rel>sketches</rel>
+<arg n="1">of Cairo life</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

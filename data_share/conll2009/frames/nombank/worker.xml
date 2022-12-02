@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="worker">
+<roleset id="worker.01" name="work" source="verb-work.01">
+<roles>
+
+<role descr="worker" n="0"></role>
+
+<role descr="job, project" n="1"></role>
+
+<role descr="employer" n="2"></role>
+
+<role descr="coworker" n="3"></role>
+
+<role descr="instrumental" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Peugeot metalworkers
+</text>
+<arg n="2">Peugeot</arg>
+<arg n="0">metalworkers</arg>
+<rel>metalworkers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Striking auto workers
+</text>
+<arg n="1">auto</arg>
+<arg n="0">workers</arg>
+<rel>workers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

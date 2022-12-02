@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sender">
+<roleset id="sender.01" name="give" source="verb-send.01" vncls="11.1-1">
+<roles>
+
+<role descr="sender" n="0">
+<vnrole vncls="11.1-1" vntheta="Agent"/></role>
+
+<role descr="sent" n="1">
+<vnrole vncls="11.1-1" vntheta="Theme"/></role>
+
+<role descr="sent-to" n="2">
+<vnrole vncls="11.1-1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it comes from certain designated senders or requires action in
+the next couple of days
+</text>
+<arg n="1">it</arg>
+<arg n="Support">comes from</arg>
+<arg n="0">senders</arg>
+<rel>senders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+mail senders
+</text>
+<arg n="1">mail</arg>
+<arg n="0">senders</arg>
+<rel>senders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

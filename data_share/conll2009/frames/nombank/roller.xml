@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="roller">
+<roleset id="roller.01" name="to take a risk" source="verb-gamble.01">
+<roles>
+
+<role descr="gambler" n="0"></role>
+
+<role descr="entity gambled with/on" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a high roller
+</text>
+<arg f="MNR" n="M">high</arg>
+<arg n="0">roller</arg>
+<rel>roller</rel>
+</example>
+
+<example name="autogen2">
+<text>
+These high rollers
+</text>
+<arg f="MNR" n="M">high</arg>
+<arg n="0">rollers</arg>
+<rel>rollers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

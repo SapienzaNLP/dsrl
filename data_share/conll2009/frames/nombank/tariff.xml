@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tariff">
+<roleset id="tariff.01" name="government charging money" source="verb-tax.01" vncls="54.5">
+<roles>
+
+<role descr="taxer" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="amount of tax" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="taxpayer" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+countries could temporarily raise tariffs on certain products if
+they experience an unusually heavy volume of imports
+</text>
+<arg n="0">countries</arg>
+<arg n="Support">raise</arg>
+<rel>tariffs</rel>
+<arg n="3">on certain products</arg>
+</example>
+
+<example name="autogen2">
+<text>
+all our tariff barriers
+</text>
+<arg n="0">our</arg>
+<rel>tariff</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

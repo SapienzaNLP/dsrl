@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="restructuring">
+<roleset id="restructuring.01" name="reorganize" source="verb-restructure.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="thing reorganized" n="1"></role>
+
+<role descr="start state" n="2"></role>
+
+<role descr="end state" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Brazil divestiture and drug restructuring
+</text>
+<arg n="0">Brazil</arg>
+<arg n="1">drug</arg>
+<rel>restructuring</rel>
+</example>
+
+<example name="autogen4">
+<text>
+The company 's restructuring
+</text>
+<arg n="1">The company 's</arg>
+<rel>restructuring</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

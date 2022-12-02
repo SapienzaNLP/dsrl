@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dependency">
+<roleset id="dependency.01" name="rely" source="verb-depend.01">
+<roles>
+
+<role descr="result/experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Care-Unit chemical dependency and psychiatric programs
+</text>
+<arg n="1">chemical</arg>
+<rel>dependency</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

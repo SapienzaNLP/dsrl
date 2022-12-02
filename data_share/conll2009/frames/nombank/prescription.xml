@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prescription">
+<roleset id="prescription.01" name="to establish rules" source="verb-prescribe.01">
+<roles>
+
+<role descr="establisher of rules, agent" n="0"></role>
+
+<role descr="rule" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Simple policy prescriptions in this case would be to improve debt
+collection -LRB- taking the gloves off contracted collection
+agencies -RRB- and to deny new credit to defaulters .
+</text>
+<arg n="1">policy</arg>
+<rel>prescriptions</rel>
+<arg f="LOC" n="M">in this case</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the prescriptions of certain tranquilizing medicines
+</text>
+<rel>prescriptions</rel>
+<arg n="1">of certain tranquilizing medicines</arg>
+</example>
+
+</roleset>
+<roleset id="prescription.02" name="to order a medicine or other treatment" source="verb-prescribe.02">
+<roles>
+
+<role descr="doctor" n="0"></role>
+
+<role descr="medicine" n="1"></role>
+
+<role descr="prescribed for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its economic prescription
+</text>
+<arg n="0">its</arg>
+<arg n="2">economic</arg>
+<rel>prescription</rel>
+</example>
+
+<example name="autogen2">
+<text>
+fast-growing prescription drugs
+</text>
+<rel>prescription</rel>
+<arg n="1">drugs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

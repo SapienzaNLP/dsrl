@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="morning">
+<roleset id="morning.01" name="attribute/environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their morning routine
+</text>
+<arg n="3">their</arg>
+<rel>morning</rel>
+<arg n="1">routine</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this morning 's rout
+</text>
+<rel>morning</rel>
+<arg n="1">rout</arg>
+</example>
+
+</roleset>
+<roleset id="morning.02" name="meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+Sunday morning
+</text>
+<arg n="1">Sunday</arg>
+<rel>morning</rel>
+</example>
+
+<example name="autogen10">
+<text>
+Tuesday morning
+</text>
+<arg n="1">Tuesday</arg>
+<rel>morning</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="syndicator">
+<roleset id="syndicator.01" name="distribute by proxy" source="verb-syndicate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the syndicator and licensing agent for Charles Schulz 's comic
+strip
+</text>
+<arg n="0">syndicator</arg>
+<rel>syndicator</rel>
+<arg n="1">for Charles Schulz 's comic strip</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a financially troubled real-estate syndicator
+</text>
+<arg n="1">real-estate</arg>
+<arg n="0">syndicator</arg>
+<rel>syndicator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

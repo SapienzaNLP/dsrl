@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="precursor">
+<roleset id="precursor.01" name="go before" source="verb-precede.01" vncls="47.8">
+<roles>
+
+<role descr="thing preceding" n="0">
+<vnrole vncls="47.8" vntheta="Theme1"/></role>
+
+<role descr="thing preceded" n="1">
+<vnrole vncls="47.8" vntheta="Theme2"/></role>
+
+<role descr="causal agent" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a precursor of future plant and equipment spending
+</text>
+<arg n="0">precursor</arg>
+<rel>precursor</rel>
+<arg n="1">of future plant and equipment spending</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

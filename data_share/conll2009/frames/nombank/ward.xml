@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ward">
+<roleset id="ward.01" name="partitive-part/division">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="theme" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the city 's old Italian-American ward
+</text>
+<arg n="1">the city 's</arg>
+<rel>ward</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

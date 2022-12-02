@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="homeland">
+<roleset id="homeland.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a white homeland
+</text>
+<arg n="1">white</arg>
+<arg n="0">homeland</arg>
+<rel>homeland</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an Afrikaner homeland
+</text>
+<arg n="1">Afrikaner</arg>
+<arg n="0">homeland</arg>
+<rel>homeland</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="production">
+<roleset id="production.01" name="create" source="verb-produce.01" vncls="26.7-2">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its ethylene production
+</text>
+<arg n="0">its</arg>
+<arg n="1">ethylene</arg>
+<rel>production</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Production of full-sized vans
+</text>
+<rel>Production</rel>
+<arg n="1">of full-sized vans</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

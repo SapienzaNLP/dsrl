@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="theory">
+<roleset id="theory.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Sony uses mostly red and blue , with traces of yellow -- and so
+does Justin , on the theory that kids prefer these colors .
+</text>
+<arg n="0">Justin</arg>
+<rel>theory</rel>
+<arg n="1">that kids prefer these colors</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the whole greenhouse theory
+</text>
+<arg n="1">greenhouse</arg>
+<rel>theory</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

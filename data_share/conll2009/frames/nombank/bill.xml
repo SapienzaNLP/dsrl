@@ -1,0 +1,169 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bill">
+<roleset id="bill.01" name="charge a fee" source="verb-bill.01" vncls="54.5">
+<roles>
+
+<role descr="seller, biller" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="asking price, amount of bill" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="buyer, billed" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the FSLIC 's massive legal bills , which topped $ 73 million last
+year
+</text>
+<arg n="2">the FSLIC 's</arg>
+<arg n="3">legal</arg>
+<rel>bills</rel>
+<arg n="Support">topped</arg>
+<arg n="1">$ 73 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a caller 's regular phone bill
+</text>
+<arg n="2">a caller 's</arg>
+<arg n="3">phone</arg>
+<rel>bill</rel>
+</example>
+
+</roleset>
+<roleset id="bill.02" name="bond" source="verb-pay.01" vncls="13.1-1">
+<roles>
+
+<role descr="agent/issuer" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="interest/yield" n="1" source="1"></role>
+
+<role descr="money" n="3" source="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Treasury sold $ 7.81 billion of three-month bills with an
+average discount rate of 7.52 % , the highest since the average
+of 7.63 % at the auction on Oct. 10 .
+</text>
+<arg n="0">The Treasury</arg>
+<arg n="Support">sold $ of</arg>
+<arg n="3">$ 7.81 billion</arg>
+<arg f="TMP" n="M">three-month</arg>
+<rel>bills</rel>
+<arg n="1">
+with an average discount rate of 7.52 % , the highest since the
+average of 7.63 % at the auction on Oct. 10</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Treasury bill rates
+</text>
+<arg n="0">Treasury</arg>
+<rel>bill</rel>
+<arg n="1">rates</arg>
+</example>
+
+</roleset>
+<roleset id="bill.03" name="proposed-law" source="verb-apply.01">
+<roles>
+
+<role descr="agent/champion-of-bill" n="0"></role>
+
+<role descr="theme/purpose" n="1"></role>
+
+<role descr="beneficiary/governemental-body" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Congress sent to President Bush a fiscal 1990 bill providing an
+estimated $ 156.7 billion for the Departments of Labor ,
+Education , Health and Human Services
+</text>
+<arg n="0">Congress</arg>
+<arg n="Support">sent</arg>
+<arg n="2">to President Bush</arg>
+<arg f="TMP" n="M">1990</arg>
+<rel>bill</rel>
+<arg n="1">
+providing an estimated $ 156.7 billion for the Departments of
+Labor , Education , Health and Human Services</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Senate bill would force the CFTC to suspend dual trading if
+an exchange ca n't show that its oversight system can detect
+dual-trading abuses .
+</text>
+<arg n="0">Senate</arg>
+<rel>bill</rel>
+<arg n="1">
+would force the CFTC to suspend dual trading if an exchange ca
+n't show that its oversight system can detect dual-trading abuses</arg>
+</example>
+
+</roleset>
+<roleset id="bill.04" name="nom" source="verb-denominate.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+small bills
+</text>
+<arg n="2">small</arg>
+<arg f="REF" n="1">bills</arg>
+<rel>bills</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 100 bill
+</text>
+<arg n="2">$ 100</arg>
+<arg f="REF" n="1">bill</arg>
+<rel>bill</rel>
+</example>
+
+</roleset>
+<roleset id="bill.05" name="nomadj-appropriate">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a career that fits the bill -- financial planning
+</text>
+<arg n="1">a career ---> that ---> *T*-1</arg>
+<arg n="Support">fits</arg>
+<rel>bill</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

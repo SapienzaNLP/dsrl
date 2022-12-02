@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="configuration">
+<roleset id="configuration.01" name="nom-configure/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The company will modify one UH-60A Blackhawk transport helicopter
+to the prototype MH-60K configuration for use by military special
+forces .
+</text>
+<arg n="0">The company</arg>
+<arg n="Support">modify to</arg>
+<arg n="1">one UH-60A Blackhawk transport helicopter</arg>
+<arg n="2">prototype MH-60K</arg>
+<rel>configuration</rel>
+<arg n="3">for use by military special forces</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the machine , which can come in various configurations ,
+</text>
+<arg n="1">the machine ---> which ---> *T*-1</arg>
+<arg n="Support">come in</arg>
+<arg f="MNR" n="M">various</arg>
+<rel>configurations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

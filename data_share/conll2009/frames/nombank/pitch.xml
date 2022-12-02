@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pitch">
+<roleset id="pitch.01" name="throw" source="verb-pitch.01" vncls="17.1">
+<roles>
+
+<role descr="thrower" n="0">
+<vnrole vncls="17.1" vntheta="Agent"/></role>
+
+<role descr="thing thrown" n="1">
+<vnrole vncls="17.1" vntheta="Patient"/></role>
+
+<role descr="thrown at, to, over, etc" n="2">
+<vnrole vncls="17.1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He hit a 2-0 pitch from Rick Reuschel into the left-field stands
+in inning four to stretch his team 's lead from 2-1 to a decisive
+5-1 , where it stayed .
+</text>
+<arg n="2">He</arg>
+<arg n="Support">hit</arg>
+<arg f="REF" n="1">pitch</arg>
+<rel>pitch</rel>
+<arg n="0">from Rick Reuschel</arg>
+</example>
+
+<example name="autogen2">
+<text>
+your pitch
+</text>
+<arg n="2">your</arg>
+<arg f="REF" n="1">pitch</arg>
+<rel>pitch</rel>
+</example>
+
+</roleset>
+<roleset id="pitch.02" name="advertise in strongly positive terms" source="verb-pitch.04">
+<roles>
+
+<role descr="advertiser, agent" n="0"></role>
+
+<role descr="thing touted" n="1"></role>
+
+<role descr="recipient" n="2" source="3"></role>
+
+<role descr="attribute of arg1" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he and his wife , Lily , warmed to the investment pitches of a
+penny-stock peddler from Stuart-James Co. in Atlanta after the
+broker told them he , too , had once worked with Lockheed
+</text>
+<arg n="2">he and his wife , Lily ,</arg>
+<arg n="Support">warmed to</arg>
+<arg n="1">investment</arg>
+<rel>pitches</rel>
+<arg n="0">of a penny-stock peddler from Stuart-James Co. in Atlanta</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its pitch for creditor approval
+</text>
+<arg n="0">its</arg>
+<rel>pitch</rel>
+<arg n="1">for creditor approval</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

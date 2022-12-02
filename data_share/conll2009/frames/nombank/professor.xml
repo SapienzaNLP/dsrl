@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="professor">
+<roleset id="professor.01" name="consultant/actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+<role descr="employer" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an associate professor of psychology at Harvard
+</text>
+<arg n="3">associate</arg>
+<arg n="0">professor</arg>
+<rel>professor</rel>
+<arg n="1">of psychology</arg>
+<arg n="2">at Harvard</arg>
+</example>
+
+<example name="autogen3">
+<text>
+associate professor at the Massachusetts Institute of Technology
+'s Sloan School of Management
+</text>
+<arg n="3">associate</arg>
+<arg n="0">professor</arg>
+<rel>professor</rel>
+<arg n="2">
+at the Massachusetts Institute of Technology 's Sloan School of
+Management</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

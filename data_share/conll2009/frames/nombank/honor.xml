@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="honor">
+<roleset id="honor.01" name="give honor to" source="verb-honor.01" vncls="29.2">
+<roles>
+
+<role descr="honorer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="person honored" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="for what, purpose, role" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Meritor Savings again had the dubious honor of being the OTC
+stock with the biggest short interest position on Nasdaq .
+</text>
+<arg n="1">Meritor Savings</arg>
+<arg n="Support">had</arg>
+<arg f="MNR" n="M">dubious</arg>
+<rel>honor</rel>
+<arg n="2">
+of being the OTC stock with the biggest short interest position
+on Nasdaq</arg>
+</example>
+
+<example name="autogen2">
+<text>
+honor of Kobe Steel Ltd. , USX 's partner in a steel mill in
+Lorain , Ohio
+</text>
+<rel>honor</rel>
+<arg n="1">
+of Kobe Steel Ltd. , USX 's partner in a steel mill in Lorain ,
+Ohio</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

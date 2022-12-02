@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="machinery">
+<roleset id="machinery.01" name="create1" source="verb-make.01" vncls="26.1-1">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.1-1" vntheta="Agent"/></role>
+
+<role descr="creation/purpose" n="1">
+<vnrole vncls="26.1-1" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.1-1" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2">
+<vnrole vncls="26.1-1" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+food-processing machinery
+</text>
+<arg n="1">food-processing</arg>
+<arg n="0">machinery</arg>
+<rel>machinery</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Even the carefully calibrated machinery in its giant Fremont
+plant , to the north of the Valley ,
+</text>
+<arg n="0">machinery</arg>
+<rel>machinery</rel>
+<arg f="LOC" n="M">in its giant Fremont plant , to the north of the Valley ,</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

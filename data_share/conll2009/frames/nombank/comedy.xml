@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="comedy">
+<roleset id="comedy.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Jonathan Demme 's delightful Mafia comedy
+</text>
+<arg n="0">Jonathan Demme 's</arg>
+<arg n="1">Mafia</arg>
+<rel>comedy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+this 17th-century comedy
+</text>
+<arg n="1">17th-century</arg>
+<rel>comedy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

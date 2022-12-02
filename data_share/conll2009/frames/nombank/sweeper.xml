@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sweeper">
+<roleset id="sweeper.01" name="wipe, clean by sweeping" source="verb-sweep.01" vncls="9.3">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="9.3" vntheta="Agent"/></role>
+
+<role descr="thing being cleaned (ie dirt" n="1">
+<vnrole vncls="9.3" vntheta="Theme"/></role>
+
+<role descr="source (ie floor) or destination" n="2">
+<vnrole vncls="9.3" vntheta="Source"/></role>
+
+<role descr="instrument (ie, broom" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the ignominiously named `` bedrock sweepers ''
+</text>
+<arg n="1">bedrock</arg>
+<arg n="0">sweepers</arg>
+<rel>sweepers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+mine sweepers
+</text>
+<arg n="1">mine</arg>
+<arg n="0">sweepers</arg>
+<rel>sweepers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

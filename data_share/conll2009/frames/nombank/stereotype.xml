@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stereotype">
+<roleset id="stereotype.01" name="assign a label or attribute" source="verb-classify.01" vncls="29.2">
+<roles>
+
+<role descr="describer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing defined" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="secondary attribute, described-as, definition" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its floppy-tie business stereotype
+</text>
+<arg n="0">its</arg>
+<arg n="1">business</arg>
+<rel>stereotype</rel>
+</example>
+
+<example name="autogen2">
+<text>
+ethnic stereotypes
+</text>
+<arg n="1">ethnic</arg>
+<rel>stereotypes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="momentum">
+<roleset id="momentum.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+companies with earnings `` momentum ''
+</text>
+<arg n="1">companies</arg>
+<arg n="3">earnings</arg>
+<arg f="REF" n="2">momentum</arg>
+<rel>momentum</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's earnings momentum
+</text>
+<arg n="1">the company 's</arg>
+<arg n="3">earnings</arg>
+<arg f="REF" n="2">momentum</arg>
+<rel>momentum</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

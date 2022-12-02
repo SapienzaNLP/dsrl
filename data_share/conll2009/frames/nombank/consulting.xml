@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consulting">
+<roleset id="consulting.01" name="get together with" source="verb-consult.01" vncls="36.3">
+<roles>
+
+<role descr="consulter" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="in regards to" n="1" source="2"></role>
+
+<role descr="consulted with" n="2" source="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its environmental consulting and services business
+</text>
+<arg n="0">its</arg>
+<arg n="1">environmental</arg>
+<rel>consulting</rel>
+</example>
+
+<example name="autogen2">
+<text>
+this personnel consulting concern
+</text>
+<arg n="1">personnel</arg>
+<rel>consulting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

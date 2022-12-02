@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="incest">
+<roleset id="incest.01" name="to assault sexually" source="verb-rape.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+vicitims of rape and incest
+</text>
+<arg n="1">vicitims</arg>
+<arg n="Support">vicitims of</arg>
+<rel>incest</rel>
+</example>
+
+<example name="autogen4">
+<text>
+victims of rape or incest
+</text>
+<arg n="1">victims</arg>
+<arg n="Support">victims of</arg>
+<rel>incest</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

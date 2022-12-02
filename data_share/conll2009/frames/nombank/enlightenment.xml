@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="enlightenment">
+<roleset id="enlightenment.01" name="cause to have knowledge" source="verb-enlighten.01" vncls="31.1">
+<roles>
+
+<role descr="causer of knowledge" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="enlightened entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="knowledge itself, topic" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+we owe it to the American people to establish credibility
+regarding UFOs and to produce the greatest possible enlightenment
+on the subject
+</text>
+<arg n="0">we ---> *-2</arg>
+<arg n="Support">produce</arg>
+<arg f="MNR" n="M">greatest possible</arg>
+<rel>enlightenment</rel>
+<arg n="2">on the subject</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

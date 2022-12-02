@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="total">
+<roleset id="total.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Armstrong 's $ 2.68 billion total revenue
+</text>
+<arg n="3">Armstrong 's</arg>
+<arg n="2">$ 2.68 billion</arg>
+<rel>total</rel>
+<arg n="1">revenue</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a total of $ 1.2 billion of debt securities
+</text>
+<rel>total</rel>
+<arg n="2">of $ 1.2 billion of debt securities</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

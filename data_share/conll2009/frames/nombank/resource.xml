@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resource">
+<roleset id="resource.01" name="provide" source="verb-supply.01" vncls="13.4.1">
+<roles>
+
+<role descr="provider" n="0">
+<vnrole vncls="13.4.1" vntheta="Agent"/></role>
+
+<role descr="thing provided" n="1">
+<vnrole vncls="13.4.1" vntheta="Theme"/></role>
+
+<role descr="entity provided for (beneficiary" n="2">
+<vnrole vncls="13.4.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an important financial resource for IMF-guided programs in
+developing countries
+</text>
+<arg n="1">financial</arg>
+<rel>resource</rel>
+<arg n="2">for IMF-guided programs in developing countries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this energy and natural-resources concern
+</text>
+<arg n="1">natural-resources</arg>
+<rel>natural-resources</rel>
+<arg n="0">concern</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

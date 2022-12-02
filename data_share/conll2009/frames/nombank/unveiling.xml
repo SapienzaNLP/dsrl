@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unveiling">
+<roleset id="unveiling.01" name="display, show, reveal" source="verb-unveil.01">
+<roles>
+
+<role descr="agent, entity revealing" n="0"></role>
+
+<role descr="thing shown" n="1"></role>
+
+<role descr="viewer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mancuso attends the unveiling of the memorial to his dead partner
+David
+</text>
+<arg n="2">Mancuso</arg>
+<arg n="Support">attends</arg>
+<rel>unveiling</rel>
+<arg n="1">of the memorial to his dead partner David</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

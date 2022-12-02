@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cpu">
+<roleset id="cpu.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Macintosh SE/30 cpu
+</text>
+<arg n="1">Macintosh SE/30</arg>
+<rel>cpu</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the cpu of each system
+</text>
+<rel>cpu</rel>
+<arg n="1">of each system</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

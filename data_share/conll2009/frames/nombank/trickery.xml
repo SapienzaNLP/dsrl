@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trickery">
+<roleset id="trickery.01" name="to deceive" source="verb-trick.01">
+<roles>
+
+<role descr="deceiver, agent" n="0"></role>
+
+<role descr="entity tricked" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Congress started to decide issues one-by-one on their individual
+merits without trickery
+</text>
+<arg n="0">Congress ---> *-1</arg>
+<arg n="Support">decide without</arg>
+<rel>trickery</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

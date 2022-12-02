@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="staple">
+<roleset id="staple.01" name="need" source="verb-need.01" vncls="32.1">
+<roles>
+
+<role descr="needer" n="0">
+<vnrole vncls="32.1" vntheta="Experiencer"/></role>
+
+<role descr="thing needed" n="1">
+<vnrole vncls="32.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a staple food
+</text>
+<rel>staple</rel>
+<arg n="1">food</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Their other staple
+</text>
+<arg n="0">Their</arg>
+<arg f="REF" n="1">staple</arg>
+<rel>staple</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

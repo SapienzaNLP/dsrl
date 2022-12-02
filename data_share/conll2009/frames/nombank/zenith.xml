@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="zenith">
+<roleset id="zenith.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their zenith
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">zenith</arg>
+<rel>zenith</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crackdown">
+<roleset id="crackdown.01" name="nomlike" source="verb-restrain.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme (action or object being prevented" n="1"></role>
+
+<role descr="secondary predication or action" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+China 's crackdown on its pro-democracy movement
+</text>
+<arg n="0">China 's</arg>
+<rel>crackdown</rel>
+<arg n="1">on its pro-democracy movement</arg>
+</example>
+
+<example name="autogen2">
+<text>
+China 's crackdown against pro-democracy protesters in June
+</text>
+<arg n="0">China 's</arg>
+<rel>crackdown</rel>
+<arg n="1">against pro-democracy protesters</arg>
+<arg f="TMP" n="M">in June</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

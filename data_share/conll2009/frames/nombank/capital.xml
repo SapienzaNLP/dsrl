@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="capital">
+<roleset id="capital.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Hungarian capital
+</text>
+<arg n="1">Hungarian</arg>
+<arg n="0">capital</arg>
+<rel>capital</rel>
+</example>
+
+<example name="autogen2">
+<text>
+capital of the Chiriqui Province
+</text>
+<arg n="0">capital</arg>
+<rel>capital</rel>
+<arg n="1">of the Chiriqui Province</arg>
+</example>
+
+</roleset>
+<roleset id="capital.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the nation 's capital of high technology
+</text>
+<arg n="2">the nation 's</arg>
+<arg n="0">capital</arg>
+<rel>capital</rel>
+<arg n="1">of high technology</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the fraud capital of the U.S.
+</text>
+<arg n="1">fraud</arg>
+<arg n="0">capital</arg>
+<rel>capital</rel>
+<arg n="2">of the U.S.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

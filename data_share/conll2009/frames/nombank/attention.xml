@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="attention">
+<roleset id="attention.01" name="belong with or at" source="verb-attend.01">
+<roles>
+
+<role descr="thing attending" n="0"></role>
+
+<role descr="thing attended" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+President Bush called his attention to the matter during the
+Italian leader 's visit here last week .
+</text>
+<arg n="0">his</arg>
+<rel>attention</rel>
+<arg n="1">to the matter</arg>
+</example>
+
+<example name="autogen2">
+<text>
+could detract attention from equities transactions
+</text>
+<rel>attention</rel>
+<arg n="1">from equities transactions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

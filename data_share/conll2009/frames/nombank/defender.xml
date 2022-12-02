@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="defender">
+<roleset id="defender.01" name="defend" source="verb-defend.01">
+<roles>
+
+<role descr="defender" n="0"></role>
+
+<role descr="defended" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+RICO defenders
+</text>
+<arg n="1">RICO</arg>
+<arg n="0">defenders</arg>
+<rel>defenders</rel>
+</example>
+
+<example name="autogen3">
+<text>
+President Reagan 's defenders
+</text>
+<arg n="1">President Reagan 's</arg>
+<arg n="0">defenders</arg>
+<rel>defenders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

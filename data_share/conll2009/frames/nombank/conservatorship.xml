@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conservatorship">
+<roleset id="conservatorship.01" name="nomlike" source="verb-lead.02" vncls="51.7">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="51.7" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="51.7" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+thrifts under government conservatorship
+</text>
+<arg n="1">thrifts</arg>
+<arg n="0">government</arg>
+<rel>conservatorship</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Vision Banc was placed in government conservatorship in March
+</text>
+<arg n="1">Vision Banc ---> *-1</arg>
+<arg n="Support">placed in</arg>
+<arg n="0">government</arg>
+<rel>conservatorship</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unraveling">
+<roleset id="unraveling.01" name="cause to) fall apart" source="verb-unravel.01">
+<roles>
+
+<role descr="unraveller" n="0"></role>
+
+<role descr="thing unravelling" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the unraveling of UAL takeover plans
+</text>
+<rel>unraveling</rel>
+<arg n="1">of UAL takeover plans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the unraveling of the on-again , off-again UAL buy-out
+</text>
+<rel>unraveling</rel>
+<arg n="1">of the on-again , off-again UAL buy-out</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

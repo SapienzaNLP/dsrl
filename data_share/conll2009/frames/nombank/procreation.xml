@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="procreation">
+<roleset id="procreation.01" name="nomlike/nom-procreate" source="verb-breed.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+parents , producing new members by procreation rather than
+conversion
+</text>
+<arg n="0">parents</arg>
+<rel>procreation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fondness">
+<roleset id="fondness.01" name="nomadj-fond" source="verb-love.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Phillips confesses to a fondness for , among other things ,
+fast cars and planes
+</text>
+<arg n="0">Mr. Phillips</arg>
+<arg n="Support">confesses to</arg>
+<rel>fondness</rel>
+<arg n="1">for , among other things , fast cars and planes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

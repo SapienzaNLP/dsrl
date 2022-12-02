@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="attitude">
+<roleset id="attitude.01" name="emote" source="verb-feel.01" vncls="30.4">
+<roles>
+
+<role descr="feeler, person experiencing emotion" n="0">
+<vnrole vncls="30.4" vntheta="Experiencer"/></role>
+
+<role descr="emotion or sensation" n="1">
+<vnrole vncls="30.4" vntheta="Stimulus"/></role>
+
+<role descr="entity to or for whom the emotion is directed" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Dr. Baltimore 's confrontational attitude toward the Dingell
+committee , which held hearings on a dispute over the lab
+notebooks of a researcher who had co-authored a scientific paper
+with Dr. Baltimore
+</text>
+<arg n="0">Dr. Baltimore 's</arg>
+<arg n="1">confrontational</arg>
+<rel>attitude</rel>
+<arg n="2">
+toward the Dingell committee , which held hearings on a dispute
+over the lab notebooks of a researcher who had co-authored a
+scientific paper with Dr. Baltimore</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The attitude was `` wait-and-see '' in crude oil futures
+yesterday in trading on the New York Mercantile Exchange
+</text>
+<rel>attitude</rel>
+<arg n="1">wait-and-see</arg>
+<arg n="2">in crude oil futures</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

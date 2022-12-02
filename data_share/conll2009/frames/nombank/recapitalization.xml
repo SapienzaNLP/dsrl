@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recapitalization">
+<roleset id="recapitalization.01" name="nom-recapitalize/nomlike" source="verb-capitalize.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="amount" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's $ 728 million recapitalization
+</text>
+<arg n="1">the company 's</arg>
+<arg n="2">$ 728 million</arg>
+<rel>recapitalization</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the board might consider a recapitalization
+</text>
+<arg n="0">the board</arg>
+<arg n="Support">consider</arg>
+<rel>recapitalization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

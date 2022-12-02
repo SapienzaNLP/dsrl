@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bribery">
+<roleset id="bribery.01" name="to make illegal payments in exchange for favors" source="verb-bribe.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="person  bribed" n="1"></role>
+
+<role descr="favor" n="2"></role>
+
+<role descr="ammount exchanged" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A former Sperry Corp. marketing executive , admitting his role in
+the Pentagon procurement scandal , pleaded guilty to bribery and
+conspiracy charges for helping funnel $ 400,000 to a midlevel
+Navy acquisition official during the early 1980s .
+</text>
+<arg n="1">A former Sperry Corp. marketing executive</arg>
+<arg n="Support">pleaded to charges</arg>
+<rel>bribery</rel>
+<arg n="2">
+for helping funnel $ 400,000 to a midlevel Navy acquisition
+official during the early 1980s</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Rep. Garcia , on trial for bribery and extortion , puts
+statements in the Congressional Record attributing missed votes
+to `` scheduling conflicts . '' ...
+</text>
+<arg n="0">Rep. Garcia</arg>
+<arg n="Support">trial for</arg>
+<rel>bribery</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

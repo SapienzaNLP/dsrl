@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="driving">
+<roleset id="driving.01" name="drive a vehicle" source="verb-drive.01" vncls="11.5-1">
+<roles>
+
+<role descr="driver" n="0">
+<vnrole vncls="11.5-1" vntheta="Agent"/></role>
+
+<role descr="vehicle or path" n="1">
+<vnrole vncls="11.5-1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 20-year-old resident of Columbia , Mo. , who was charged with
+drunk driving ,
+</text>
+<arg n="0">a 20-year-old resident ---> who ---> *T*-4 ---> *-1</arg>
+<arg n="Support">charged with</arg>
+<arg f="MNR" n="M">drunk</arg>
+<rel>driving</rel>
+</example>
+
+<example name="autogen2">
+<text>
+drunk driving
+</text>
+<arg f="MNR" n="M">drunk</arg>
+<rel>driving</rel>
+</example>
+
+</roleset>
+<roleset id="driving.02" name="cause to move or become" source="verb-drive.02" vncls="11.5-1">
+<roles>
+
+<role descr="driver" n="0">
+<vnrole vncls="11.5-1" vntheta="Agent"/></role>
+
+<role descr="thing in motion" n="1">
+<vnrole vncls="11.5-1" vntheta="Theme"/></role>
+
+<role descr="secondary predication on arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the stock market has lost some powerful driving forces , namely
+earnings growth and the `` LBO sweepstakes '' -- buy-out fever
+that induced investors to bid up whole groups of stocks , such as
+media and airlines
+</text>
+<arg n="1">the stock market</arg>
+<arg n="Support">lost forces</arg>
+<rel>driving</rel>
+<arg n="0">forces</arg>
+</example>
+
+<example name="autogen2">
+<text>
+today 's tougher drunk driving laws
+</text>
+<arg f="MNR" n="M">drunk</arg>
+<rel>driving</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

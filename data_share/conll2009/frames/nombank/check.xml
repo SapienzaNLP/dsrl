@@ -1,0 +1,107 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="check">
+<roleset id="check.01" name="transfer" source="verb-give.01" vncls="13.1-1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the couple sent it a check for $ 613 , along with a letter saying
+that was the charity 's `` share
+</text>
+<arg n="0">the couple</arg>
+<arg n="Support">sent</arg>
+<arg n="2">it</arg>
+<rel>check</rel>
+<arg n="1">for $ 613</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Uncle Sam 's check
+</text>
+<arg n="0">Uncle Sam 's</arg>
+<arg f="REF" n="1">check</arg>
+<rel>check</rel>
+</example>
+
+</roleset>
+<roleset id="check.02" name="examine" source="verb-check.01" vncls="35.2">
+<roles>
+
+<role descr="checker" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="thing checked" n="1">
+<vnrole vncls="35.2" vntheta="Location"/></role>
+
+<role descr="checked for" n="2">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+United Airlines , a unit of UAL Corp. , should have been able to
+detect the cracks through maintenance checks
+</text>
+<arg n="0">United Airlines , a unit of UAL Corp. , ---> *-3</arg>
+<arg n="Support">detect through</arg>
+<arg n="2">the cracks</arg>
+<rel>checks</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a spot check of computer makers
+</text>
+<rel>check</rel>
+<arg n="1">of computer makers</arg>
+</example>
+
+</roleset>
+<roleset id="check.03" name="have power over" source="verb-control.01">
+<roles>
+
+<role descr="controller" n="0"></role>
+
+<role descr="controlled" n="1"></role>
+
+<role descr="instrumental, controlled with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to keep the dollar in check
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">keep in</arg>
+<arg n="1">the dollar</arg>
+<rel>check</rel>
+</example>
+
+<example name="autogen2">
+<text>
+to keep inflation in check
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">keep in</arg>
+<arg n="1">inflation</arg>
+<rel>check</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

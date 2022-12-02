@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discipline">
+<roleset id="discipline.01" name="teach a skill" source="verb-train.01">
+<roles>
+
+<role descr="trainer" n="0"></role>
+
+<role descr="skill" n="1"></role>
+
+<role descr="trainee" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Cathcart , who will return to the Quaker Oats Co. board of
+directors , in addition to his personal ventures , is credited
+with bringing some basic budgeting and planning discipline to
+traditionally free-wheeling Kidder .
+</text>
+<arg n="0">
+Mr. Cathcart , who will return to the Quaker Oats Co. board of
+directors ---> *-1 ---> *-3</arg>
+<arg n="Support">bringing</arg>
+<arg n="1">budgeting and planning</arg>
+<rel>discipline</rel>
+<arg n="2">to traditionally free-wheeling Kidder</arg>
+</example>
+
+<example name="autogen2">
+<text>
+some government cost discipline
+</text>
+<arg n="2">government</arg>
+<arg n="1">cost</arg>
+<rel>discipline</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="oasis">
+<roleset id="oasis.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a lonely corporate oasis of 9,000 residents
+</text>
+<rel>oasis</rel>
+<arg n="1">of 9,000 residents</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

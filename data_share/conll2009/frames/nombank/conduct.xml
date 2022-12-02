@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conduct">
+<roleset id="conduct.01" name="behavior" source="verb-conduct.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="manner" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his conduct had been `` entirely proper
+</text>
+<arg n="0">his</arg>
+<rel>conduct</rel>
+<arg n="1">entirely proper</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an actor 's conduct
+</text>
+<arg n="0">an actor 's</arg>
+<rel>conduct</rel>
+</example>
+
+</roleset>
+<roleset id="conduct.02" name="directed motion" source="verb-conduct.01">
+<roles>
+
+<role descr="conductor" n="0"></role>
+
+<role descr="thing led" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the conduct of a policy that has a long-term rationale
+</text>
+<rel>conduct</rel>
+<arg n="1">of a policy that has a long-term rationale</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

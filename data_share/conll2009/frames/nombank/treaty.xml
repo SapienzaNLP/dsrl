@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="treaty">
+<roleset id="treaty.01" name="agree" source="verb-agree.01">
+<roles>
+
+<role descr="agreer" n="0"></role>
+
+<role descr="proposition" n="1"></role>
+
+<role descr="other entity agreeing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Gonzalez also has split with the left in reaffirming Spain 's
+NATO commitment and in renewing a defense treaty with the U.S. .
+</text>
+<arg n="0">Mr. Gonzalez ---> *-1</arg>
+<arg n="Support">renewing</arg>
+<arg n="1">defense</arg>
+<rel>treaty</rel>
+<arg n="2">with the U.S.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the superpower Anti-Ballistic Missile treaty
+</text>
+<arg n="0">superpower</arg>
+<arg n="1">Anti-Ballistic Missile</arg>
+<rel>treaty</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

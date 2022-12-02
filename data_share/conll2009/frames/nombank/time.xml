@@ -1,0 +1,229 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="time">
+<roleset id="time.01" name="environment/partitive-quant">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the state 's recent hard economic times
+</text>
+<arg n="0">the state 's</arg>
+<arg f="TMP" n="M">recent</arg>
+<arg n="2">hard</arg>
+<arg n="1">economic</arg>
+<rel>times</rel>
+</example>
+
+<example name="autogen2">
+<text>
+PBS air dates and times
+</text>
+<arg n="3">PBS</arg>
+<arg n="1">air</arg>
+<rel>times</rel>
+</example>
+
+</roleset>
+<roleset id="time.02" name="meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+certain times of the year
+</text>
+<rel>times</rel>
+<arg n="1">of the year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the experiments ' quiescent times
+</text>
+<arg n="1">the experiments '</arg>
+<rel>times</rel>
+</example>
+
+</roleset>
+<roleset id="time.03" name="multiply" source="verb-multiply.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="amount" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+For example , a recent $ 375 million offering of Petrolane Gas
+Services L.P. bonds sold by First Boston was three times
+oversubscribed .
+</text>
+<arg n="2">three</arg>
+<rel>times</rel>
+<arg n="1">oversubscribed</arg>
+</example>
+
+<example name="autogen2">
+<text>
+also were several times larger than those suffered by many stock
+traders in New York
+</text>
+<arg n="2">several</arg>
+<rel>times</rel>
+<arg n="1">larger</arg>
+</example>
+
+</roleset>
+<roleset id="time.04" name="attribute/music">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+4/4 time
+</text>
+<arg n="2">4/4</arg>
+<rel>time</rel>
+</example>
+
+</roleset>
+<roleset id="time.05" name="attribute/scale">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+big time chaos
+</text>
+<arg n="2">big</arg>
+<rel>time</rel>
+<arg n="1">chaos</arg>
+</example>
+
+<example name="autogen2">
+<text>
+They 're small time in the small time-hotels -LRB- not the best
+ones -RRB- and restaurants in Seattle .
+</text>
+<arg n="1">They</arg>
+<arg n="2">small</arg>
+<rel>time</rel>
+</example>
+
+</roleset>
+<roleset id="time.06" name="complex-prep-in-time-to/in-time-for-before">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it would be passed in time to affect the American and United Air
+Lines bids
+</text>
+<rel>time</rel>
+<arg f="PRD" n="1">to affect the American and United Air Lines bids</arg>
+</example>
+
+<example name="autogen2">
+<text>
+time for Halloween
+</text>
+<rel>time</rel>
+<arg n="1">for Halloween</arg>
+</example>
+
+</roleset>
+<roleset id="time.07" name="mark-time" source="verb-wait.02">
+<roles>
+
+<role descr="waiter" n="1"></role>
+
+<role descr="event" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a pampered jock marking time until he can land a seven-figure pro
+contract -- he 's part of a tiny minority
+</text>
+<arg n="1">a pampered jock</arg>
+<arg n="Support">marking</arg>
+<rel>time</rel>
+<arg n="2">until he can land a seven-figure pro contract</arg>
+</example>
+
+<example name="autogen2">
+<text>
+many European companies to mark time before bidding for American
+companies , in the hope that share prices will come down
+</text>
+<arg n="1">many European companies</arg>
+<arg n="Support">mark</arg>
+<rel>time</rel>
+<arg n="2">before bidding for American companies</arg>
+</example>
+
+</roleset>
+<roleset id="time.08" name="take-time-off-from" source="verb-take.18">
+<roles>
+
+<role descr="worker" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he took time off from work for somebody he did n't even know
+</text>
+<arg n="0">he</arg>
+<arg n="Support">took</arg>
+<rel>time</rel>
+<arg n="1">*ICH*-1 ---> from work</arg>
+<arg f="MNR" n="M">*ICH*-2 ---> for somebody he did n't even know</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to take time off for a massage
+</text>
+<arg n="0">*</arg>
+<arg n="Support">take</arg>
+<rel>time</rel>
+<arg f="PNC" n="M">for a massage</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

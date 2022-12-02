@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="topic">
+<roleset id="topic.01" name="work-of-art/crisscross">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="topic" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their topics of investigation
+</text>
+<arg n="0">their</arg>
+<rel>topics</rel>
+<arg n="1">of investigation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+other health-coverage topics
+</text>
+<arg n="2">health-coverage</arg>
+<rel>topics</rel>
+</example>
+
+</roleset>
+<roleset id="topic.02" name="nomadjlike-significant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the topic figure of '80s capitalism
+</text>
+<rel>topic</rel>
+<arg n="1">figure of '80s capitalism</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

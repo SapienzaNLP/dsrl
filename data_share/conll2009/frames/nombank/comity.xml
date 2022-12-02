@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="comity">
+<roleset id="comity.01" name="nomadjlike-calm">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+political comity
+</text>
+<arg n="1">political</arg>
+<rel>comity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

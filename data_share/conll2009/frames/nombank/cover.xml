@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cover">
+<roleset id="cover.01" name="smear, put over" source="verb-cover.02" vncls="9.8">
+<roles>
+
+<role descr="causer of covering" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="9.8" vntheta="Destination"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="9.8" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The front cover of the prospectus for the Citibank credit-card
+receivables offering
+</text>
+<arg n="2">cover</arg>
+<rel>cover</rel>
+<arg n="1">
+of the prospectus for the Citibank credit-card receivables
+offering</arg>
+</example>
+
+<example name="autogen2">
+<text>
+diaper covers
+</text>
+<arg n="1">diaper</arg>
+<arg n="2">covers</arg>
+<rel>covers</rel>
+</example>
+
+</roleset>
+<roleset id="cover.02" name="obscure" source="verb-cover.04">
+<roles>
+
+<role descr="coverer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Congress , with a measure of White House complicity , has been
+manipulating the spending accounts for years under the cover of
+omnibus appropriations bills .
+</text>
+<arg n="1">
+Congress , with a measure of White House complicity , has been
+manipulating the spending accounts for years</arg>
+<rel>cover</rel>
+<arg n="0">of omnibus appropriations bills</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a cover for the draft
+</text>
+<arg f="REF" n="0">cover</arg>
+<rel>cover</rel>
+<arg n="1">for the draft</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

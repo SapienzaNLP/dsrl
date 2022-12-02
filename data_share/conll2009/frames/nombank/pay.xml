@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pay">
+<roleset id="pay.01" name="cf buy and sell" source="verb-pay.01" vncls="13.1-1">
+<roles>
+
+<role descr="payer or buyer" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="money or attention" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="person being paid, destination of attention" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="commodity, paid for what" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+in August it paid $ 666,666 in back pay and a bonus to a former
+corporate-bond trading chief , Harold Bachman
+</text>
+<arg n="0">it</arg>
+<arg n="Support">paid $ in</arg>
+<arg n="1">$ 666,666</arg>
+<rel>pay</rel>
+<arg n="2">to a former corporate-bond trading chief , Harold Bachman</arg>
+</example>
+
+<example name="autogen2">
+<text>
+average pay for machinists
+</text>
+<arg f="REF" n="1">pay</arg>
+<rel>pay</rel>
+<arg n="2">for machinists</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

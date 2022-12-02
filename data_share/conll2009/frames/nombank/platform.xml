@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="platform">
+<roleset id="platform.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Headed by a former Waffen SS sergeant and working from a
+nationalistic platform of anti-foreigner rhetoric , the fledgling
+Republicans party has scored surprising gains in earlier
+elections in the states of West Berlin , Hesse and North-Rhine
+Westphalia .
+</text>
+<arg n="0">*-1 ---> the fledgling Republicans party</arg>
+<arg n="Support">working from</arg>
+<arg n="3">nationalistic</arg>
+<rel>platform</rel>
+<arg n="1">of anti-foreigner rhetoric</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an international platform that he most certainly wo n't be loath
+to use
+</text>
+<arg n="1">international</arg>
+<rel>platform</rel>
+<arg n="0">he</arg>
+<arg n="Support">use</arg>
+</example>
+
+</roleset>
+<roleset id="platform.02" name="environment">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It also gives the outspoken Mr. Della Femina -- who often
+generates as much publicity for himself as for his clients -- an
+international platform that he most certainly wo n't be loath to
+use .
+</text>
+<arg n="Support">gives</arg>
+<arg n="0">
+the outspoken Mr. Della Femina -- who often generates as much
+publicity for himself as for his clients --</arg>
+<arg n="1">international</arg>
+<rel>platform</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a platform to launch a hostile bid for the company
+</text>
+<rel>platform</rel>
+<arg n="1">to launch a hostile bid for the company</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

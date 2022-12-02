@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disturbance">
+<roleset id="disturbance.01" name="bother" source="verb-disturb.01" vncls="31.1">
+<roles>
+
+<role descr="disturber" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="disturbed" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+His policies went beyond his control and resulted ... in riots
+and disturbances
+</text>
+<arg n="2">His policies</arg>
+<arg n="Support">resulted in</arg>
+<rel>disturbances</rel>
+</example>
+
+<example name="autogen2">
+<text>
+stock market disturbances
+</text>
+<arg n="1">stock market</arg>
+<rel>disturbances</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="assassination">
+<roleset id="assassination.01" name="to murder" source="verb-assassinate.01" vncls="42.1">
+<roles>
+
+<role descr="assassin, agent" n="0">
+<vnrole vncls="42.1" vntheta="Agent"/></role>
+
+<role descr="person assassinated" n="1">
+<vnrole vncls="42.1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the assassination of his mother , Indira Gandhi ,
+</text>
+<rel>assassination</rel>
+<arg n="1">of his mother , Indira Gandhi ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his assassination
+</text>
+<arg n="1">his</arg>
+<rel>assassination</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

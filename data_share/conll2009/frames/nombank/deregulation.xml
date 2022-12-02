@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deregulation">
+<roleset id="deregulation.01" name="supervise, watch over" source="verb-deregulate.01">
+<roles>
+
+<role descr="de)regulator" n="0"></role>
+
+<role descr="thing deregulated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Sikes is serious about the deregulation of long distance
+</text>
+<arg n="0">Sikes</arg>
+<arg n="Support">serious about</arg>
+<rel>deregulation</rel>
+<arg n="1">of long distance</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The deregulation of railroads and trucking companies that began
+in 1980
+</text>
+<rel>deregulation</rel>
+<arg n="1">of railroads and trucking companies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

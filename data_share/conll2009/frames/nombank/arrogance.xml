@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="arrogance">
+<roleset id="arrogance.01" name="nomadj-arrogant">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The arrogance of a judge
+</text>
+<rel>arrogance</rel>
+<arg n="0">of a judge</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

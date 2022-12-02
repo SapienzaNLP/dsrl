@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="variation">
+<roleset id="variation.01" name="experience changes in scale" source="verb-vary.01">
+<roles>
+
+<role descr="causer of motion" n="0"></role>
+
+<role descr="thing moving" n="1"></role>
+
+<role descr="ext or mnr" n="2"></role>
+
+<role descr="low point" n="3"></role>
+
+<role descr="high point" n="4"></role>
+
+<role descr="medium" n="5"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+new , more sophisticated variations of the seemingly simple
+electrolysis-of-water experiments described last March by Messrs.
+Fleischmann and Pons
+</text>
+<arg n="2">more sophisticated</arg>
+<rel>variations</rel>
+<arg n="1">
+of the seemingly simple electrolysis-of-water experiments
+described last March by Messrs. Fleischmann and Pons</arg>
+</example>
+
+<example name="autogen2">
+<text>
+both composers develop variations from themes
+</text>
+<arg n="0">both composers</arg>
+<arg n="Support">develop</arg>
+<rel>variations</rel>
+<arg n="3">from themes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

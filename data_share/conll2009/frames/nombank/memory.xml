@@ -1,0 +1,96 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="memory">
+<roleset id="memory.01" name="work-of-art" source="verb-remember.01" vncls="29.2">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="secondary attribute" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Asian nations ' harsh memories of their military domination by
+Japan in the early part of this century
+</text>
+<arg n="0">Asian nations '</arg>
+<rel>memories</rel>
+<arg n="1">
+of their military domination by Japan in the early part of this
+century</arg>
+</example>
+
+<example name="autogen2">
+<text>
+memories of two years ago , when many small investors held on to
+their shares after the October crash but the West German market
+continued to decline steeply for the next three months
+</text>
+<rel>memories</rel>
+<arg n="1">
+of two years ago , when many small investors held on to their
+shares after the October crash but the West German market
+continued to decline steeply for the next three months</arg>
+</example>
+
+</roleset>
+<roleset id="memory.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+four-megabit dynamic random-access memory chips
+</text>
+<arg n="2">four-megabit</arg>
+<rel>memory</rel>
+<arg n="1">chips</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a limited memory
+</text>
+<arg n="2">limited</arg>
+<rel>memory</rel>
+</example>
+
+</roleset>
+<roleset id="memory.03" name="nomlike" source="verb-commemorate.01">
+<roles>
+
+<role descr="agent, honorer" n="0"></role>
+
+<role descr="thing remembered" n="1"></role>
+
+<role descr="memorial" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a candlelight vigil around the KGB 's Lubyanka headquarters in
+memory of those persecuted under Stalin
+</text>
+<arg n="2">a candlelight vigil around the KGB 's Lubyanka headquarters</arg>
+<rel>memory</rel>
+<arg n="1">of those persecuted under Stalin</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

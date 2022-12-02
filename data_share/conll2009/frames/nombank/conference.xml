@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conference">
+<roleset id="conference.01" name="meet with" source="verb-confer.01" vncls="33">
+<roles>
+
+<role descr="one party" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="other party" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="about" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her news conference for Japanese reporters
+</text>
+<arg n="0">her</arg>
+<arg n="2">news</arg>
+<rel>conference</rel>
+<arg n="1">for Japanese reporters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a Hoover Institution conference on national service , in which
+Mr. Szanton also participated
+</text>
+<rel>conference</rel>
+<arg n="2">on national service</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

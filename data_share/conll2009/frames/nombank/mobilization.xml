@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mobilization">
+<roleset id="mobilization.01" name="cause to be in motion, summon to arms" source="verb-mobilize.01">
+<roles>
+
+<role descr="mobilizer" n="0"></role>
+
+<role descr="thing mobilized" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+both sides are undertaking new mobilization efforts , plunging
+into gubernatorial races in Virginia and New Jersey , and girding
+for next autumn 's state elections
+</text>
+<arg n="0">both sides</arg>
+<arg n="Support">undertaking efforts</arg>
+<rel>mobilization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

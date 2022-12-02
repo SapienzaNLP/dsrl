@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prediction">
+<roleset id="prediction.01" name="tell the future" source="verb-predict.01">
+<roles>
+
+<role descr="fortune teller" n="0"></role>
+
+<role descr="prediction" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+analysts ' predictions of about $ 1.4 a share for the quarter
+</text>
+<arg n="0">analysts '</arg>
+<rel>predictions</rel>
+<arg n="1">of about $ 1.4 a share</arg>
+<arg f="TMP" n="M">for the quarter</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The predictions of doom
+</text>
+<rel>predictions</rel>
+<arg n="1">of doom</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

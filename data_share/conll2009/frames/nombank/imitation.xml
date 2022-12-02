@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="imitation">
+<roleset id="imitation.01" name="to use or follow as a model" source="verb-imitate.01">
+<roles>
+
+<role descr="imitator" n="0"></role>
+
+<role descr="entity imitated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A U.S.-made imitation
+</text>
+<arg n="0">U.S.-made</arg>
+<rel>imitation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a pale imitation of the Federal Republic
+</text>
+<rel>imitation</rel>
+<arg n="1">of the Federal Republic</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

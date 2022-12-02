@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dial">
+<roleset id="dial.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the crowded TV dial
+</text>
+<arg n="1">TV</arg>
+<rel>dial</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the European television dial
+</text>
+<arg n="1">television</arg>
+<rel>dial</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

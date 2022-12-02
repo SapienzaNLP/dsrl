@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="relaxation">
+<roleset id="relaxation.01" name="cause to) become less tight" source="verb-relax.01" vncls="31.1">
+<roles>
+
+<role descr="thing causing relaxation" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="thing relaxing" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Eventually , the money funds ' success forced relaxation of curbs
+on bank interest rates to allow banks to offer competing yields .
+</text>
+<arg n="0">the money funds ' success</arg>
+<arg n="Support">forced</arg>
+<rel>relaxation</rel>
+<arg n="1">of curbs on bank interest rates</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a relaxation of rules governing exports of machine tools ,
+computers and other high-technology products
+</text>
+<rel>relaxation</rel>
+<arg n="1">
+of rules governing exports of machine tools , computers and other
+high-technology products</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

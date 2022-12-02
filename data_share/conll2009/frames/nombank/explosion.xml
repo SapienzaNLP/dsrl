@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="explosion">
+<roleset id="explosion.01" name="go boom" source="verb-explode.01" vncls="43.2">
+<roles>
+
+<role descr="bomber, agent" n="0">
+<vnrole vncls="43.2" vntheta="Agent"/></role>
+
+<role descr="bomb" n="1">
+<vnrole vncls="43.2" vntheta="Theme"/></role>
+
+<role descr="attribute, end state" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a series of explosions at a major Phillips Petroleum Co. chemical
+facility on the Houston Ship Channel
+</text>
+<rel>explosions</rel>
+<arg f="LOC" n="M">
+at a major Phillips Petroleum Co. chemical facility on the
+Houston Ship Channel</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the afternoon explosions
+</text>
+<arg f="TMP" n="M">afternoon</arg>
+<rel>explosions</rel>
+</example>
+
+</roleset>
+<roleset id="explosion.02" name="get bigger very quickly" source="verb-explode.02" vncls="45.4">
+<roles>
+
+<role descr="causer of rapid growth, agent (rare" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing getting bigger" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="amount increased by, ext or mnr" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the resulting explosion of real-estate activity
+</text>
+<rel>explosion</rel>
+<arg n="1">of real-estate activity</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a media explosion
+</text>
+<arg n="1">media</arg>
+<rel>explosion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

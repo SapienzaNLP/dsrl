@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trading">
+<roleset id="trading.01" name="exchange" source="verb-trade.01" vncls="13.1">
+<roles>
+
+<role descr="agent, entity trading" n="0">
+<vnrole vncls="13.1" vntheta="Agent"/></role>
+
+<role descr="thing being traded (away" n="1">
+<vnrole vncls="13.1" vntheta="Theme"/></role>
+
+<role descr="other exchanger" n="2"></role>
+
+<role descr="other item in exchange, price, or premium, traded for or at" n="3">
+<vnrole vncls="13.6" vntheta="Theme2"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="13.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an options trading firm
+</text>
+<arg n="1">options</arg>
+<rel>trading</rel>
+<arg n="0">firm</arg>
+</example>
+
+<example name="autogen2">
+<text>
+current trading prices of other casino-company stocks
+</text>
+<rel>trading</rel>
+<arg n="3">prices</arg>
+<arg n="1">of other casino-company stocks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

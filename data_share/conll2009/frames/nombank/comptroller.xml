@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="comptroller">
+<roleset id="comptroller.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the U.S. comptroller of the currency
+</text>
+<arg n="2">U.S.</arg>
+<arg n="0">comptroller</arg>
+<rel>comptroller</rel>
+<arg n="1">of the currency</arg>
+</example>
+
+<example name="autogen3">
+<text>
+Florida 's comptroller
+</text>
+<arg n="2">Florida 's</arg>
+<arg n="0">comptroller</arg>
+<rel>comptroller</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

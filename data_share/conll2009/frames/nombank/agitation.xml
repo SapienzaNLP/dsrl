@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="agitation">
+<roleset id="agitation.01" name="to upset, disturb" source="verb-agitate.01" vncls="31.1">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="experiencer" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their agitation and threats to take matters into their own hands
+</text>
+<arg n="1">their</arg>
+<rel>agitation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

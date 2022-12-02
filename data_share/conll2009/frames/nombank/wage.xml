@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wage">
+<roleset id="wage.01" name="wages" source="verb-earn.01" vncls="13.5.1">
+<roles>
+
+<role descr="earner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="wages" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+With a tax-free $ 10,000 voucher payment at the end of each year
+, the volunteers would be making a wage comparable to $ 17,500 a
+year .
+</text>
+<arg n="0">the volunteers</arg>
+<arg n="Support">making</arg>
+<rel>wage</rel>
+<arg n="1">comparable to $ 17,500 a year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+wages for most workers
+</text>
+<arg f="REF" n="1">wages</arg>
+<rel>wages</rel>
+<arg n="0">for most workers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

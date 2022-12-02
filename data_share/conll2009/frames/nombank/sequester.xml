@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sequester">
+<roleset id="sequester.01" name="to isolate" source="verb-sequester.01" vncls="16">
+<roles>
+
+<role descr="cause of isolation" n="0">
+<vnrole vncls="16" vntheta="Agent"/></role>
+
+<role descr="entity sequestered" n="1">
+<vnrole vncls="16" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the current sequester of $ 16 billion
+</text>
+<arg f="TMP" n="M">current</arg>
+<rel>sequester</rel>
+<arg n="1">of $ 16 billion</arg>
+</example>
+
+<example name="autogen2">
+<text>
+even yesterday 's widely publicized sequester
+</text>
+<arg f="TMP" n="M">yesterday 's</arg>
+<rel>sequester</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

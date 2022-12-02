@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="atmosphere">
+<roleset id="atmosphere.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they 'd like to be back where they were a few years ago , in a
+more collegial atmosphere , with less tension
+</text>
+<arg n="1">they ---> *-2</arg>
+<arg n="2">collegial</arg>
+<rel>atmosphere</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the type of nervous atmosphere in which a report can be put out ,
+such as the one saying exports will be suspended , and no one can
+confirm it
+</text>
+<arg n="Support">type of</arg>
+<arg n="2">nervous</arg>
+<rel>atmosphere</rel>
+<arg n="1">
+a report can be put out , such as the one saying exports will be
+suspended , and no one can confirm it</arg>
+</example>
+
+</roleset>
+<roleset id="atmosphere.02" name="environment for thing">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our planet 's atmosphere
+</text>
+<arg n="1">our planet 's</arg>
+<rel>atmosphere</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the dense Jovian atmosphere
+</text>
+<arg n="1">Jovian</arg>
+<rel>atmosphere</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

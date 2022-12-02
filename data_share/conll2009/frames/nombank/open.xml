@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="open">
+<roleset id="open.01" name="open" source="verb-open.01" vncls="47.6">
+<roles>
+
+<role descr="opener" n="0">
+<vnrole vncls="47.6" vntheta="Agent"/></role>
+
+<role descr="thing opening" n="1">
+<vnrole vncls="47.6" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="40.3.2" vntheta="Recipient"/></role>
+
+<role descr="instrument" n="3" source="2">
+<vnrole vncls="45.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+yesterday 's market open
+</text>
+<arg f="TMP" n="M">yesterday 's</arg>
+<arg n="1">market</arg>
+<rel>open</rel>
+</example>
+
+</roleset>
+<roleset id="open.02" name="nomadv-openly">
+<roles>
+
+<role descr="action/theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+conducting official business in the open
+</text>
+<arg n="1">conducting official business</arg>
+<rel>open</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

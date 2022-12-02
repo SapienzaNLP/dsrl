@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="indignity">
+<roleset id="indignity.01" name="call names" source="verb-insult.01" vncls="31.1">
+<roles>
+
+<role descr="insulter" n="0">
+<vnrole vncls="31.1" vntheta="Agent"/></role>
+
+<role descr="insulted" n="1">
+<vnrole vncls="31.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Dozen even related the indignity suffered when he and two
+colleagues went on an overnight fishing expedition off the New
+Jersey shore and caught nothing .
+</text>
+<arg n="1">Mr. Dozen ---> *</arg>
+<rel>indignity</rel>
+<arg n="Support">suffered</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

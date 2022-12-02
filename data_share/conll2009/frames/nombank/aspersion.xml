@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aspersion">
+<roleset id="aspersion.01" name="nom" source="verb-disparage.01" vncls="33">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+what she did cast unfair aspersions on all of us
+</text>
+<arg n="0">what she did</arg>
+<arg n="Support">cast</arg>
+<arg f="MNR" n="M">unfair</arg>
+<rel>aspersions</rel>
+<arg n="1">on all of us</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an aspersion on the advocates of national service
+</text>
+<rel>aspersion</rel>
+<arg n="1">on the advocates of national service</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

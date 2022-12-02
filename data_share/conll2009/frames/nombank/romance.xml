@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="romance">
+<roleset id="romance.01" name="object of affection" source="verb-love.01" vncls="31.2">
+<roles>
+
+<role descr="lover" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="loved" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the GM-Jaguar romance
+</text>
+<arg n="0">GM-Jaguar</arg>
+<arg n="1">GM-Jaguar</arg>
+<rel>romance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a highly improbable romance for the Artist , with a young woman
+who owns her own children 's shop and who lives in an expensive
+high-rise apartment building
+</text>
+<arg f="ADV" n="M">highly improbable</arg>
+<rel>romance</rel>
+<arg n="0">for the Artist</arg>
+<arg n="1">
+with a young woman who owns her own children 's shop and who
+lives in an expensive high-rise apartment building</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

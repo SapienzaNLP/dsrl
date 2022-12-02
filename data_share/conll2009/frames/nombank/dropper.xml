@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dropper">
+<roleset id="dropper.01" name="drop names" source="verb-drop.06">
+<roles>
+
+<role descr="sycophant" n="0"></role>
+
+<role descr="names" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+name-droppers
+</text>
+<arg n="0">name-droppers</arg>
+<arg n="1">name-droppers</arg>
+<rel>name-droppers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+most name-droppers
+</text>
+<arg n="0">name-droppers</arg>
+<arg n="1">name-droppers</arg>
+<rel>name-droppers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

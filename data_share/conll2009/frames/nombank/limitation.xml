@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="limitation">
+<roleset id="limitation.01" name="ensure something stays below a certain level" source="verb-limit.01">
+<roles>
+
+<role descr="agent, limiter" n="0"></role>
+
+<role descr="thing limited" n="1"></role>
+
+<role descr="limit" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the effluent limitations
+</text>
+<arg n="1">effluent</arg>
+<arg f="REF" n="2">limitations</arg>
+<rel>limitations</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its limitations
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">limitations</arg>
+<rel>limitations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

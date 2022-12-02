@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="death">
+<roleset id="death.01" name="sterben" source="verb-die.01" vncls="48.2">
+<roles>
+
+<role descr="the deceased" n="1">
+<vnrole vncls="48.2" vntheta="Theme"/></role>
+
+<role descr="cognate object" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+death notices for two full-sized van assembly plants
+</text>
+<rel>death</rel>
+<arg n="1">for two full-sized van assembly plants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the death of a country 's leader
+</text>
+<rel>death</rel>
+<arg n="1">of a country 's leader</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

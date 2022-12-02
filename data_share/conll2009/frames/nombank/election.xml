@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="election">
+<roleset id="election.01" name="elect" source="verb-elect.01" vncls="29.1">
+<roles>
+
+<role descr="voters" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="candidate" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="office or position" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Johnson 's election as a director
+</text>
+<arg n="1">Mr. Johnson 's</arg>
+<rel>election</rel>
+<arg n="2">as a director</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Despite many doubts about his candidacy , white New Yorkers --
+who gave Mr. Dinkins 30 % of their votes in the primary -- are
+n't expected to desert in sufficient numbers to turn the election
+to Mr. Giuliani .
+</text>
+<arg n="0">
+white New Yorkers -- who gave Mr. Dinkins 30 % of their votes in
+the primary -- ---> *</arg>
+<arg n="Support">turn</arg>
+<rel>election</rel>
+<arg n="1">to Mr. Giuliani</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

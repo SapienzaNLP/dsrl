@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="curriculum">
+<roleset id="curriculum.01" name="work-of-art/nomlike" source="verb-teach.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+high-school curriculum
+</text>
+<arg n="2">high-school</arg>
+<rel>curriculum</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the total fifth-grade curriculum
+</text>
+<arg n="2">fifth-grade</arg>
+<rel>curriculum</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

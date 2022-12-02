@@ -1,0 +1,96 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="force">
+<roleset id="force.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its 221-person work force
+</text>
+<arg n="2">its</arg>
+<arg n="1">221-person</arg>
+<arg n="3">work</arg>
+<rel>force</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Syria 's forces
+</text>
+<arg n="2">Syria 's</arg>
+<rel>forces</rel>
+</example>
+
+</roleset>
+<roleset id="force.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he makes it , with a great deal of force
+</text>
+<arg n="1">he</arg>
+<rel>force</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a force of 1.5 times the unloaded weight of the vehicle
+</text>
+<rel>force</rel>
+<arg n="2">of 1.5 times the unloaded weight of the vehicle</arg>
+</example>
+
+</roleset>
+<roleset id="force.03" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the West retains a residual force of nuclear weapons in Europe
+</text>
+<arg n="0">the West</arg>
+<arg n="Support">retains</arg>
+<rel>force</rel>
+<arg n="1">of nuclear weapons</arg>
+<arg n="2">in Europe</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the driving force in this expansion
+</text>
+<arg n="1">driving</arg>
+<arg f="REF" n="0">force</arg>
+<rel>force</rel>
+<arg n="2">in this expansion</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

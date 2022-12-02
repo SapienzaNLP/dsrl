@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="skirmish">
+<roleset id="skirmish.01" name="fight sporadically" source="verb-feud.01" vncls="36.1">
+<roles>
+
+<role descr="first fighter" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second fighter, if separate" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="spoils or point of contention" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his skirmishes with a competing sketch artist
+</text>
+<arg n="0">his</arg>
+<rel>skirmishes</rel>
+<arg n="1">with a competing sketch artist</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a skirmish over the timing of a New Zealand government bond issue
+</text>
+<rel>skirmish</rel>
+<arg n="2">over the timing of a New Zealand government bond issue</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

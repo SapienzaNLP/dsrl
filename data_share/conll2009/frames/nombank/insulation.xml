@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="insulation">
+<roleset id="insulation.01" name="protect from heat, cold, etc" source="verb-insulate.01">
+<roles>
+
+<role descr="agentive protector" n="0"></role>
+
+<role descr="protected" n="1"></role>
+
+<role descr="protected from" n="2"></role>
+
+<role descr="instrument, insulation itself" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+electrical wire insulation
+</text>
+<arg n="1">electrical wire</arg>
+<rel>insulation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

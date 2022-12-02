@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="policy">
+<roleset id="policy.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+U.S. policy toward Managua , including the possibility of
+renewing military aid to the rebels
+</text>
+<arg n="0">U.S.</arg>
+<rel>policy</rel>
+<arg n="2">toward Managua</arg>
+<arg n="1">including the possibility of renewing military aid to the rebels</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A comprehensive development policy for governors over 30
+</text>
+<arg n="1">development</arg>
+<rel>policy</rel>
+<arg n="2">for governors over 30</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

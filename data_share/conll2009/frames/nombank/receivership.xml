@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="receivership">
+<roleset id="receivership.01" name="get money by giving up your possessions" source="verb-mortgage.01">
+<roles>
+
+<role descr="mortgager" n="0"></role>
+
+<role descr="possession(s" n="1"></role>
+
+<role descr="provider of money" n="2"></role>
+
+<role descr="money" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to place Lincoln into receivership two years before it failed
+</text>
+<arg n="2">NIL</arg>
+<arg n="Support">place into</arg>
+<arg n="1">Lincoln</arg>
+<rel>receivership</rel>
+</example>
+
+<example name="autogen2">
+<text>
+American Continental 's thrift unit , Los Angeles-based Lincoln
+Savings &amp; Loan Association , is in receivership
+</text>
+<arg n="1">
+American Continental 's thrift unit , Los Angeles-based Lincoln
+Savings &amp; Loan Association ,</arg>
+<rel>receivership</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

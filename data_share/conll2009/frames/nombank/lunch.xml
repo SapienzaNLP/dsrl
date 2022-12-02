@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lunch">
+<roleset id="lunch.01" name="event">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his lunch
+</text>
+<arg n="0">his</arg>
+<rel>lunch</rel>
+</example>
+
+<example name="autogen2">
+<text>
+ordering lunch over the phone
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">ordering</arg>
+<rel>lunch</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

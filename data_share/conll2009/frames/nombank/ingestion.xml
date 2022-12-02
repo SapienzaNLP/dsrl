@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ingestion">
+<roleset id="ingestion.01" name="to eat" source="verb-ingest.01" vncls="39.4">
+<roles>
+
+<role descr="eater" n="0">
+<vnrole vncls="39.4" vntheta="Agent"/></role>
+
+<role descr="entity ingested" n="1">
+<vnrole vncls="39.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 1986 death from cocaine ingestion of Bias , a University of
+Maryland basketball star ticketed for sure pro stardom
+</text>
+<arg n="1">cocaine</arg>
+<rel>ingestion</rel>
+<arg n="0">
+of Bias , a University of Maryland basketball star ticketed for
+sure pro stardom</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

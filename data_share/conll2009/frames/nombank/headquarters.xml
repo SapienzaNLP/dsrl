@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="headquarters">
+<roleset id="headquarters.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its international-operations headquarters
+</text>
+<arg n="2">its</arg>
+<arg n="1">international-operations</arg>
+<arg n="0">headquarters</arg>
+<rel>headquarters</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the ANC headquarters
+</text>
+<arg n="2">ANC</arg>
+<arg n="0">headquarters</arg>
+<rel>headquarters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

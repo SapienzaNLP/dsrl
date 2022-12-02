@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="exposure">
+<roleset id="exposure.01" name="cause to be visible" source="verb-expose.01">
+<roles>
+
+<role descr="exposer" n="0"></role>
+
+<role descr="thing seen/shown" n="1"></role>
+
+<role descr="seer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In the private sector , practically every major company is
+setting explicit goals to increase employees ' exposure to
+computers .
+</text>
+<arg n="0">practically every major company ---> *</arg>
+<arg n="Support">increase</arg>
+<arg n="1">employees '</arg>
+<rel>exposure</rel>
+<arg n="2">to computers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's exposure to the earthquake
+</text>
+<arg n="1">the company 's</arg>
+<rel>exposure</rel>
+<arg n="2">to the earthquake</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

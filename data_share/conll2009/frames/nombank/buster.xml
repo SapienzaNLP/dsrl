@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="buster">
+<roleset id="buster.01" name="catch a criminal" source="verb-bust.02">
+<roles>
+
+<role descr="cop(s" n="0"></role>
+
+<role descr="criminal(s" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the former crime buster
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg n="0">buster</arg>
+<rel>buster</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stamp">
+<roleset id="stamp.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+World Series commemorative stamps and dated postmarks
+</text>
+<arg n="1">World Series</arg>
+<rel>stamps</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

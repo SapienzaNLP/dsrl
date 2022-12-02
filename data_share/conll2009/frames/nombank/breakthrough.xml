@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="breakthrough">
+<roleset id="breakthrough.01" name="achieve" source="verb-achieve.01">
+<roles>
+
+<role descr="achiever" n="0"></role>
+
+<role descr="thing achieved, gotten, accomplished" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Peugeot breakthrough
+</text>
+<arg n="0">Peugeot</arg>
+<arg f="REF" n="1">breakthrough</arg>
+<rel>breakthrough</rel>
+</example>
+
+<example name="autogen2">
+<text>
+any breakthroughs in fetal-tissue research
+</text>
+<rel>breakthroughs</rel>
+<arg n="1">in fetal-tissue research</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

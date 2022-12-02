@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="file">
+<roleset id="file.01" name="paperwork" source="verb-file.01" vncls="9.10">
+<roles>
+
+<role descr="filer" n="0">
+<vnrole vncls="9.10" vntheta="Agent"/></role>
+
+<role descr="file" n="1">
+<vnrole vncls="9.10" vntheta="Theme"/></role>
+
+<role descr="filed-with" n="2"></role>
+
+<role descr="filed against" n="3"></role>
+
+<role descr="purpose of filing" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+SEC files
+</text>
+<arg n="0">SEC</arg>
+<arg f="REF" n="1">files</arg>
+<rel>files</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the orders on file
+</text>
+<arg n="1">the orders</arg>
+<rel>file</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

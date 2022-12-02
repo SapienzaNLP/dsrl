@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="song">
+<roleset id="song.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Nissan 's decades-old corporate song
+</text>
+<arg n="0">Nissan 's</arg>
+<arg f="TMP" n="M">decades-old</arg>
+<arg n="1">corporate</arg>
+<rel>song</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a love song
+</text>
+<arg n="1">love</arg>
+<rel>song</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

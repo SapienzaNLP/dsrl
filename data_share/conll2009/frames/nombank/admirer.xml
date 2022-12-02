@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="admirer">
+<roleset id="admirer.01" name="admire" source="verb-admire.01" vncls="31.2">
+<roles>
+
+<role descr="admirer" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="admired" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an admirer of CBS
+</text>
+<arg n="0">admirer</arg>
+<rel>admirer</rel>
+<arg n="1">of CBS</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Admirers of Mr. Glass
+</text>
+<arg n="0">Admirers</arg>
+<rel>Admirers</rel>
+<arg n="1">of Mr. Glass</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

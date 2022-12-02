@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="referendum">
+<roleset id="referendum.01" name="work-of-art" source="verb-poll.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Hungary 's Parliament voted to hold a national referendum on an
+election to fill the new post of president .
+</text>
+<arg n="0">Hungary 's Parliament ---> *-1</arg>
+<arg n="Support">hold</arg>
+<arg n="2">national</arg>
+<rel>referendum</rel>
+<arg n="1">on an election to fill the new post of president</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a statewide referendum
+</text>
+<arg n="2">statewide</arg>
+<rel>referendum</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

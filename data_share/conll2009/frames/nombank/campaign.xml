@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="campaign">
+<roleset id="campaign.01" name="work towards a goal" source="verb-campaign.01">
+<roles>
+
+<role descr="campaigner" n="0"></role>
+
+<role descr="cause, goal" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the senator 's re-election campaign
+</text>
+<arg n="0">the senator 's</arg>
+<arg n="1">re-election</arg>
+<rel>campaign</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the U.N.-monitored election campaign
+</text>
+<arg n="1">election</arg>
+<rel>campaign</rel>
+</example>
+
+</roleset>
+<roleset id="campaign.02" name="make a commercial pitch" source="verb-advertise.01" vncls="35.2">
+<roles>
+
+<role descr="advertiser" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="thing being pitched, advertised" n="1">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the iced-tea radio campaign for Thomas J. Lipton Co. , an
+Englewood Cliffs , N.J. , unit of Anglo-Dutch Unilever Group ,
+</text>
+<arg n="1">iced-tea</arg>
+<rel>campaign</rel>
+<arg n="0">
+for Thomas J. Lipton Co. , an Englewood Cliffs , N.J. , unit of
+Anglo-Dutch Unilever Group ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its most high-visibility campaigns
+</text>
+<arg n="0">its</arg>
+<rel>campaigns</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

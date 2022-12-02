@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fatality">
+<roleset id="fatality.01" name="nomlike" source="verb-die.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+three worker fatalities at the two plants in the past two years
+</text>
+<arg n="1">worker</arg>
+<rel>fatalities</rel>
+<arg f="LOC" n="M">at the two plants</arg>
+<arg f="TMP" n="M">in the past two years</arg>
+</example>
+
+<example name="autogen2">
+<text>
+fatalities on non-interstate roads
+</text>
+<rel>fatalities</rel>
+<arg f="LOC" n="M">on non-interstate roads</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

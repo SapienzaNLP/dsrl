@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="buddy">
+<roleset id="buddy.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your Ivy League buddies
+</text>
+<arg n="2">your</arg>
+<arg n="1">Ivy League</arg>
+<arg n="0">buddies</arg>
+<rel>buddies</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a hunting and fishing buddy of William L. Hutchison , chairman of
+Texas Oil &amp; Gas
+</text>
+<arg n="1">hunting and fishing</arg>
+<arg n="0">buddy</arg>
+<rel>buddy</rel>
+<arg n="2">of William L. Hutchison , chairman of Texas Oil &amp; Gas</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

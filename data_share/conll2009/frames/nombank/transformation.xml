@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="transformation">
+<roleset id="transformation.01" name="change" source="verb-transform.01" vncls="26.6">
+<roles>
+
+<role descr="causer of transformation" n="0">
+<vnrole vncls="26.6" vntheta="Agent"/></role>
+
+<role descr="thing changing" n="1">
+<vnrole vncls="26.6" vntheta="Patient"/></role>
+
+<role descr="end state" n="2">
+<vnrole vncls="26.6" vntheta="Product"/></role>
+
+<role descr="start state" n="3">
+<vnrole vncls="26.6" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he effects a Hyde-to-Jekyll transformation
+</text>
+<arg n="0">he</arg>
+<arg n="Support">effects</arg>
+<arg n="2">Hyde-to-Jekyll</arg>
+<arg n="3">Hyde-to-Jekyll</arg>
+<rel>transformation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the foreign competition and transformation of their industry over
+the past 10 years
+</text>
+<rel>transformation</rel>
+<arg n="1">of their industry</arg>
+<arg f="TMP" n="M">over the past 10 years</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

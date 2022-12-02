@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="permit">
+<roleset id="permit.01" name="permit, let, allow" source="verb-permit.01">
+<roles>
+
+<role descr="allower" n="0"></role>
+
+<role descr="action allowed" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+Building permits
+</text>
+<arg n="1">Building</arg>
+<arg n="0">permits</arg>
+<rel>permits</rel>
+</example>
+
+<example name="autogen3">
+<text>
+permits for multifamily units
+</text>
+<arg n="0">permits</arg>
+<rel>permits</rel>
+<arg n="1">for multifamily units</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

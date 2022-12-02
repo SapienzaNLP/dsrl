@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wrongdoing">
+<roleset id="wrongdoing.01" name="act" source="verb-do.02">
+<roles>
+
+<role descr="agent, doer" n="0"></role>
+
+<role descr="thing done" n="1"></role>
+
+<role descr="beneficiary, done for or about" n="2"></role>
+
+<role descr="instrumental" n="3"></role>
+
+<role descr="comitative, companion while doing" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+wrongdoing by Mr. Keating `` and others
+</text>
+<rel>wrongdoing</rel>
+<arg n="0">by Mr. Keating `` and others</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Both deny wrongdoing .
+</text>
+<arg n="0">Both</arg>
+<arg n="Support">deny</arg>
+<rel>wrongdoing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

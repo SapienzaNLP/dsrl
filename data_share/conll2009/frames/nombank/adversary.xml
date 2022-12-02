@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="adversary">
+<roleset id="adversary.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+his adversary
+</text>
+<arg n="2">his</arg>
+<arg n="0">adversary</arg>
+<rel>adversary</rel>
+</example>
+
+<example name="autogen3">
+<text>
+their longtime adversaries
+</text>
+<arg n="2">their</arg>
+<arg f="TMP" n="M">longtime</arg>
+<arg n="0">adversaries</arg>
+<rel>adversaries</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

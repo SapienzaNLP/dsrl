@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="walkout">
+<roleset id="walkout.01" name="refrain from working" source="verb-strike.02">
+<roles>
+
+<role descr="workers" n="0"></role>
+
+<role descr="employer" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the walkout by 55,000 Machinists rank and file
+</text>
+<rel>walkout</rel>
+<arg n="0">by 55,000 Machinists rank and file</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a prolonged walkout
+</text>
+<arg f="TMP" n="M">prolonged</arg>
+<rel>walkout</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

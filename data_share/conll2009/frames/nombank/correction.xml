@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="correction">
+<roleset id="correction.01" name="make right" source="verb-correct.01">
+<roles>
+
+<role descr="corrector" n="0"></role>
+
+<role descr="thing that was wrong" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Nicholas McInnes 's Sept. 18 letter offering corrections to your
+`` World-Wide Tax Revolution '' table -LRB- editorial page , Aug.
+29 -RRB-
+</text>
+<arg n="0">Nicholas McInnes 's Sept. 18 letter</arg>
+<arg n="Support">offering</arg>
+<rel>corrections</rel>
+<arg n="1">to your `` World-Wide Tax Revolution '' table</arg>
+</example>
+
+<example name="autogen2">
+<text>
+course-correction advisories
+</text>
+<arg n="1">course-correction</arg>
+<rel>course-correction</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

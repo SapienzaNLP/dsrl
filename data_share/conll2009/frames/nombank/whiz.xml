@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="whiz">
+<roleset id="whiz.01" name="actrel/nomadj-expert">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a creative whiz
+</text>
+<arg n="1">creative</arg>
+<arg n="0">whiz</arg>
+<rel>whiz</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mailing">
+<roleset id="mailing.01" name="send" source="verb-mail.01" vncls="11.1-1">
+<roles>
+
+<role descr="mailer" n="0">
+<vnrole vncls="11.1-1" vntheta="Agent"/></role>
+
+<role descr="letter" n="1">
+<vnrole vncls="11.1-1" vntheta="Theme"/></role>
+
+<role descr="mailed-to" n="2">
+<vnrole vncls="11.1-1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a four-page mailing from the United Cancer Council that offers a
+chance to win $ 5,000 in gold bullion to those giving as little
+as $ 5 to cancer education
+</text>
+<arg f="REF" n="1">mailing</arg>
+<rel>mailing</rel>
+<arg n="0">from the United Cancer Council</arg>
+</example>
+
+<example name="autogen2">
+<text>
+According to the Illinois attorney general 's suit , Watson &amp;
+Hughey sent mailings indicating that recipients were guaranteed
+cash prizes , and could win up to an additional $ 1,000 on top of
+them , if they contributed as little as $ 7 .
+</text>
+<arg n="0">Watson &amp; Hughey</arg>
+<arg n="Support">sent</arg>
+<arg f="REF" n="1">mailings</arg>
+<rel>mailings</rel>
+<arg f="PNC" n="M">
+indicating that recipients were guaranteed cash prizes , and
+could win up to an additional $ 1,000 on top of them , if they
+contributed as little as $ 7</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="impeachment">
+<roleset id="impeachment.01" name="try an elected official for   a crime, remove same" source="verb-impeach.01" vncls="33">
+<roles>
+
+<role descr="impeacher" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="impeached" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="crime" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his impeachment trial on charges of perjury and bribery
+conspiracy
+</text>
+<arg n="1">his</arg>
+<rel>impeachment</rel>
+<arg n="Support">trial</arg>
+<arg n="2">on charges of perjury and bribery conspiracy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the impeachment proceedings against him
+</text>
+<rel>impeachment</rel>
+<arg n="Support">proceedings</arg>
+<arg n="1">against him</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

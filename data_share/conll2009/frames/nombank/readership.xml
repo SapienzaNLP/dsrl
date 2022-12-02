@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="readership">
+<roleset id="readership.01" name="read" source="verb-read.01" vncls="37.1-1">
+<roles>
+
+<role descr="reader" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="book" n="1">
+<vnrole vncls="37.1-1" vntheta="Theme"/></role>
+
+<role descr="beneficiary or direction" n="2">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+<role descr="text, content" n="3">
+<vnrole vncls="14" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its readership
+</text>
+<arg n="1">its</arg>
+<arg n="0">readership</arg>
+<rel>readership</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its old-time Hearst readership
+</text>
+<arg n="1">its</arg>
+<arg n="0">readership</arg>
+<rel>readership</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

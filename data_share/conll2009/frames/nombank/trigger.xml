@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trigger">
+<roleset id="trigger.01" name="begin" source="verb-trigger.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme(-creation" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="secondary predication" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any specific price/earnings sell trigger
+</text>
+<arg f="ADV" n="M">specific</arg>
+<arg n="1">price/earnings sell</arg>
+<arg n="0">trigger</arg>
+<rel>trigger</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

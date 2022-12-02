@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="partner">
+<roleset id="partner.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+managing partner of a real-estate advisory firm based in Beverly
+Hills , Calif
+</text>
+<arg n="1">managing</arg>
+<arg n="0">partner</arg>
+<rel>partner</rel>
+<arg n="2">of a real-estate advisory firm based in Beverly Hills , Calif</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a partner and merger specialist with Lazard Freres &amp; Co
+</text>
+<arg n="0">partner</arg>
+<rel>partner</rel>
+<arg n="2">with Lazard Freres &amp; Co</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

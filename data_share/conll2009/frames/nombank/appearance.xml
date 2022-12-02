@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="appearance">
+<roleset id="appearance.01" name="come to be visible" source="verb-appear.01">
+<roles>
+
+<role descr="thing appearing" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+his appearance
+</text>
+<arg n="1">his</arg>
+<rel>appearance</rel>
+</example>
+
+<example name="autogen3">
+<text>
+his television appearance
+</text>
+<arg n="1">his</arg>
+<arg f="LOC" n="M">television</arg>
+<rel>appearance</rel>
+</example>
+
+</roleset>
+<roleset id="appearance.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his uncombed appearance among these buttoned-up chaps
+</text>
+<arg n="1">his</arg>
+<arg n="2">uncombed</arg>
+<rel>appearance</rel>
+<arg f="MNR" n="M">among these buttoned-up chaps</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Shrubs and flowers give it a pleasing and non-fortress-like
+appearance .
+</text>
+<arg n="Support">give</arg>
+<arg n="1">it</arg>
+<arg n="2">pleasing and non-fortress-like</arg>
+<rel>appearance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dignitary">
+<roleset id="dignitary.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+300 local and state dignitaries
+</text>
+<arg n="1">local and state</arg>
+<arg n="0">dignitaries</arg>
+<rel>dignitaries</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

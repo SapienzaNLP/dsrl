@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="performance">
+<roleset id="performance.01" name="perform" source="verb-perform.01" vncls="26.7-1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Robert Loggia 's riveting performance as the unlovable -- even
+crotchety -- veteran agent
+</text>
+<arg n="0">Robert Loggia 's</arg>
+<rel>performance</rel>
+<arg n="1">as the unlovable -- even crotchety -- veteran agent</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his usual straight-from-the-shoulder performance
+</text>
+<arg n="0">his</arg>
+<rel>performance</rel>
+</example>
+
+</roleset>
+<roleset id="performance.02" name="nom-perform/nomlike" source="verb-behave.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="manner" n="1"></role>
+
+<role descr="domain" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Merck , Rahway , N.J. , continued to lead the industry with a
+strong sales performance in the human and animal health-products
+segment .
+</text>
+<arg n="0">Merck , Rahway , N.J. ,</arg>
+<arg n="Support">continued lead with</arg>
+<arg n="1">strong</arg>
+<arg n="2">sales</arg>
+<rel>performance</rel>
+<arg f="LOC" n="M">in the human and animal health-products segment</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the expected weak performance of Aldus Corp. , maker of a widely
+used computer publishing program
+</text>
+<arg n="1">weak</arg>
+<rel>performance</rel>
+<arg n="0">
+of Aldus Corp. , maker of a widely used computer publishing
+program</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

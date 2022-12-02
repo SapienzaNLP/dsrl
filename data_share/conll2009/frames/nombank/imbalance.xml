@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="imbalance">
+<roleset id="imbalance.01" name="establish a balance" source="verb-balance.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="standard" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+order imbalances in individual stocks
+</text>
+<arg n="1">order</arg>
+<rel>imbalances</rel>
+<arg n="3">in individual stocks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the trade imbalance was mainly due to macroeconomic factors and
+should n't be tackled by setting quantitative targets
+</text>
+<arg n="1">trade</arg>
+<rel>imbalance</rel>
+<arg n="0">mainly due to macroeconomic factors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="petition">
+<roleset id="petition.01" name="to address a petition to, to make a request" source="verb-petition.01">
+<roles>
+
+<role descr="asker, agent" n="0"></role>
+
+<role descr="request" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+DPC Acquisition Partners , a hostile suitor for Dataproducts
+Corp. , filed a petition in federal district court in Los Angeles
+seeking to have its standstill agreement with the computer
+printer maker declared void
+</text>
+<arg n="0">
+DPC Acquisition Partners , a hostile suitor for Dataproducts
+Corp. ,</arg>
+<arg n="Support">filed</arg>
+<rel>petition</rel>
+<arg n="2">in federal district court in Los Angeles</arg>
+<arg f="PRD" n="1">
+to have its standstill agreement with the computer printer maker
+declared void</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the carrier 's Chapter 11 petition
+</text>
+<arg n="0">the carrier 's</arg>
+<arg n="1">Chapter 11</arg>
+<rel>petition</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

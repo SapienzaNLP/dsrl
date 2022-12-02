@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="litigator">
+<roleset id="litigator.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a former civil litigator
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg n="1">civil</arg>
+<arg n="0">litigator</arg>
+<rel>litigator</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the in-house litigators
+</text>
+<arg n="2">in-house</arg>
+<arg n="0">litigators</arg>
+<rel>litigators</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

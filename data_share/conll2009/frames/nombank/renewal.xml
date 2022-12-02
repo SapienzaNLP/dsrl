@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="renewal">
+<roleset id="renewal.01" name="make like new" source="verb-renew.01">
+<roles>
+
+<role descr="agent, causer of renewal" n="0"></role>
+
+<role descr="thing becoming newish" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an 85 % average subscription renewal rate
+</text>
+<arg n="1">subscription</arg>
+<rel>renewal</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the ` renewal of socialism
+</text>
+<rel>renewal</rel>
+<arg n="1">of socialism</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

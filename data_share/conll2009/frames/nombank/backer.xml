@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="backer">
+<roleset id="backer.01" name="support" source="verb-back.01">
+<roles>
+
+<role descr="supporter" n="0"></role>
+
+<role descr="thing being supported" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+many national-service backers
+</text>
+<arg n="1">national-service</arg>
+<arg n="0">backers</arg>
+<rel>backers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The bill , whose backers include Chairman Dan Rostenkowski -LRB-
+D. , Ill. -RRB- ,
+</text>
+<arg n="1">whose</arg>
+<arg n="0">backers</arg>
+<rel>backers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

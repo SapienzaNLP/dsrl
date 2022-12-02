@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="visionary">
+<roleset id="visionary.01" name="nomlike" source="verb-predict.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Some fruit visionaries
+</text>
+<arg n="1">fruit</arg>
+<arg n="0">visionaries</arg>
+<rel>visionaries</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

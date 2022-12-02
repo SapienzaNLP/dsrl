@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="instruction">
+<roleset id="instruction.01" name="impel action" source="verb-instruct.01" vncls="37.9-1">
+<roles>
+
+<role descr="instructor" n="0">
+<vnrole vncls="37.9-1" vntheta="Agent"/></role>
+
+<role descr="impelled action" n="1" source="2">
+<vnrole vncls="37.9-1" vntheta="Topic"/></role>
+
+<role descr="impelled agent" n="2" source="1">
+<vnrole vncls="37.9-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to give buy and sell instructions to a broker
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">give</arg>
+<arg n="1">buy and sell</arg>
+<rel>instructions</rel>
+<arg n="2">to a broker</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its instructions , in English and Spanish , for filling in the
+scorecard
+</text>
+<arg n="0">its</arg>
+<rel>instructions</rel>
+<arg f="PRD" n="1">for filling in the scorecard</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

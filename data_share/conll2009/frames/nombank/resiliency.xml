@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resiliency">
+<roleset id="resiliency.01" name="attribute/nomadj-resilient">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more resiliency in the economy at large than we commonly suppose
+</text>
+<arg n="2">more</arg>
+<rel>resiliency</rel>
+<arg n="1">in the economy at large</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the economic and social resiliency of the San Francisco Bay area
+</text>
+<arg n="3">economic and social</arg>
+<arg f="REF" n="2">resiliency</arg>
+<rel>resiliency</rel>
+<arg n="1">of the San Francisco Bay area</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

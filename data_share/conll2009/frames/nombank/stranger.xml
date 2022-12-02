@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stranger">
+<roleset id="stranger.01" name="nomadjlike-unfamiliar">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+no stranger to lavish spending
+</text>
+<arg f="NEG" n="M">no</arg>
+<arg n="0">stranger</arg>
+<rel>stranger</rel>
+<arg n="1">to lavish spending</arg>
+</example>
+
+<example name="autogen2">
+<text>
+no stranger to cans of worms
+</text>
+<arg f="NEG" n="M">no</arg>
+<arg n="0">stranger</arg>
+<rel>stranger</rel>
+<arg n="1">to cans of worms</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="infection">
+<roleset id="infection.01" name="cause something to have an infection" source="verb-infect.01" vncls="9.8">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a cafeteria worker may have exposed hundreds of other GTE
+employees to the viral infection
+</text>
+<arg n="1">a cafeteria worker</arg>
+<arg n="Support">exposed to</arg>
+<arg n="0">viral</arg>
+<rel>infection</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Catherine Bobar spent several weeks at the Medical Center of
+Vermont recently with a bone infection in her toe
+</text>
+<arg n="3">Catherine Bobar</arg>
+<arg n="Support">spent with</arg>
+<arg n="1">bone</arg>
+<rel>infection</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

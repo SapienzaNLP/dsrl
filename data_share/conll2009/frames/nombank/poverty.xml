@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="poverty">
+<roleset id="poverty.01" name="attribute/nomadjlike-poor">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the poverty of local residents
+</text>
+<arg f="REF" n="2">poverty</arg>
+<rel>poverty</rel>
+<arg n="1">of local residents</arg>
+</example>
+
+<example name="autogen2">
+<text>
+poverty along the lower Mississippi
+</text>
+<arg f="REF" n="2">poverty</arg>
+<rel>poverty</rel>
+<arg n="1">along the lower Mississippi</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="calmness">
+<roleset id="calmness.01" name="nomadj-calm/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the calmness of that beauty
+</text>
+<arg f="REF" n="2">calmness</arg>
+<rel>calmness</rel>
+<arg n="1">of that beauty</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

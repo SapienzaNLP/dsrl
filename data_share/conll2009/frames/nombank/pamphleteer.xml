@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pamphleteer">
+<roleset id="pamphleteer.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Orange Workers ' chief scribe and pamphleteer
+</text>
+<arg n="2">the Orange Workers '</arg>
+<arg n="3">chief</arg>
+<arg n="0">pamphleteer</arg>
+<rel>pamphleteer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

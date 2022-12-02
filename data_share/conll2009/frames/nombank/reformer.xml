@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reformer">
+<roleset id="reformer.01" name="make changes, improve" source="verb-reform.01">
+<roles>
+
+<role descr="reformer" n="0"></role>
+
+<role descr="thing changed" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Communist reformers
+</text>
+<arg n="1">Communist</arg>
+<arg n="0">reformers</arg>
+<rel>reformers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Czech reformers
+</text>
+<arg f="LOC" n="M">Czech</arg>
+<arg n="0">reformers</arg>
+<rel>reformers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

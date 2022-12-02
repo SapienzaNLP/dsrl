@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="memorandum">
+<roleset id="memorandum.01" name="nom/work-of-art" source="verb-communicate.01" vncls="36.1">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an official explanation in the form of a memorandum from Chief of
+Staff George C. Marshall to President Roosevelt : `` 1,430 pounds
+of ammunition , '' he wrote his commander in chief , were
+expended on `` unidentified aircraft , '' flying at speeds as
+slow as 200 mph and elevations between 9,000 and 18,000 feet
+</text>
+<arg n="1">an official explanation</arg>
+<arg n="Support">form of</arg>
+<rel>memorandum</rel>
+<arg n="0">from Chief of Staff George C. Marshall</arg>
+<arg n="2">to President Roosevelt</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the subject of memorandums from the chief executive
+</text>
+<arg n="1">the subject</arg>
+<arg n="Support">subject of</arg>
+<rel>memorandums</rel>
+<arg n="0">from the chief executive</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

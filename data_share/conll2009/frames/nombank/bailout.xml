@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bailout">
+<roleset id="bailout.01" name="free on bail, extricate from a difficult situation" source="verb-bail.02" vncls="10.4.1">
+<roles>
+
+<role descr="agent, causer" n="0">
+<vnrole vncls="10.4.1" vntheta="Agent"/></role>
+
+<role descr="entity released" n="1">
+<vnrole vncls="10.4.1" vntheta="Theme"/></role>
+
+<role descr="situation" n="2">
+<vnrole vncls="10.4.1" vntheta="Source"/></role>
+
+<role descr="instrument" n="3">
+<vnrole vncls="10.4.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the government 's massive thrift bailout
+</text>
+<arg n="0">the government 's</arg>
+<arg n="1">thrift</arg>
+<rel>bailout</rel>
+</example>
+
+<example name="autogen2">
+<text>
+one small firm that required an emergency $ 50 million bailout
+</text>
+<arg n="1">one small firm ---> that ---> *T*-3</arg>
+<arg n="Support">required</arg>
+<arg f="PNC" n="M">emergency</arg>
+<arg n="3">$ 50 million</arg>
+<rel>bailout</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

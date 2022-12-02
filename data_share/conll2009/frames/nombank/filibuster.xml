@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="filibuster">
+<roleset id="filibuster.01" name="cause to occur later in time than planned" source="verb-delay.01" vncls="53.1">
+<roles>
+
+<role descr="agent, causer of delay" n="0">
+<vnrole vncls="53.1" vntheta="Agent"/></role>
+
+<role descr="event delayed" n="1">
+<vnrole vncls="53.1" vntheta="Theme"/></role>
+
+<role descr="delay itself, ext, time period" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Democrats are holding up a vote on the amendment by threatening a
+filibuster , or extended debate .
+</text>
+<arg n="0">Democrats ---> *-1</arg>
+<arg n="Support">threatening</arg>
+<rel>filibuster</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

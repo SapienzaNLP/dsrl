@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="king">
+<roleset id="king.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its king
+</text>
+<arg n="1">its</arg>
+<arg n="0">king</arg>
+<rel>king</rel>
+</example>
+
+<example name="autogen2">
+<text>
+D.T. 's king
+</text>
+<arg n="1">D.T. 's</arg>
+<arg n="0">king</arg>
+<rel>king</rel>
+</example>
+
+</roleset>
+<roleset id="king.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the National League 's reigning home-run king
+</text>
+<arg n="2">the National League 's</arg>
+<arg n="1">home-run</arg>
+<arg n="0">king</arg>
+<rel>king</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the undisputed kings of highest-quality steel used for autos and
+refrigerators
+</text>
+<arg n="0">kings</arg>
+<rel>kings</rel>
+<arg n="1">of highest-quality steel used for autos and refrigerators</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

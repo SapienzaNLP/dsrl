@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bid">
+<roleset id="bid.01" name="auction" source="verb-bid.01">
+<roles>
+
+<role descr="bidder" n="0"></role>
+
+<role descr="the target, goods" n="1"></role>
+
+<role descr="how much you're bidding, buying price" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its previously reported $ 27.50-a-share bid to buy the company
+</text>
+<arg n="0">its</arg>
+<arg n="2">$ 27.50-a-share</arg>
+<rel>bid</rel>
+<arg f="PRD" n="1">to buy the company</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the $ 3.4 billion bid for Columbia
+</text>
+<arg n="2">$ 3.4 billion</arg>
+<rel>bid</rel>
+<arg n="1">for Columbia</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="obligation">
+<roleset id="obligation.01" name="to force to do something" source="verb-oblige.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="obligated" n="1"></role>
+
+<role descr="obligation" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+judges have an obligation under the First Amendment to safeguard
+freedom of the press
+</text>
+<arg n="1">judges</arg>
+<arg n="Support">have</arg>
+<rel>obligation</rel>
+<arg n="0">under the First Amendment</arg>
+<arg f="PRD" n="2">to safeguard freedom of the press</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an obligation of government service for all young people
+</text>
+<rel>obligation</rel>
+<arg n="2">of government service</arg>
+<arg n="1">for all young people</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

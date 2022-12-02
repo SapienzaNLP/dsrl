@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cooperation">
+<roleset id="cooperation.01" name="work with" source="verb-cooperate.01" vncls="36.1">
+<roles>
+
+<role descr="one cooperator" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="other cooperators" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="shared task" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Roberts withheld from the market certain orders in
+cooperation with another trader , David Stein
+</text>
+<arg n="0">Mr. Roberts</arg>
+<arg n="2">withheld from the market certain orders</arg>
+<rel>cooperation</rel>
+<arg n="1">with another trader , David Stein</arg>
+</example>
+
+<example name="autogen2">
+<text>
+economic cooperation
+</text>
+<arg n="2">economic</arg>
+<rel>cooperation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dollar">
+<roleset id="dollar.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+dollars of interstate wholesale energy transactions
+</text>
+<rel>dollars</rel>
+<arg n="1">of interstate wholesale energy transactions</arg>
+</example>
+
+<example name="autogen4">
+<text>
+a billion dollars of stocks
+</text>
+<rel>dollars</rel>
+<arg n="1">of stocks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

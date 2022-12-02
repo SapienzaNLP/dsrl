@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tooth">
+<roleset id="tooth.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+their teeth
+</text>
+<arg n="1">their</arg>
+<rel>teeth</rel>
+</example>
+
+<example name="autogen3">
+<text>
+our teeth
+</text>
+<arg n="1">our</arg>
+<rel>teeth</rel>
+</example>
+
+</roleset>
+<roleset id="tooth.02" name="attribute/nomadj-powerful">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to give teeth to his takeover threat , which was widely
+interpreted as an effort to flush out an acquirer for USAir , or
+for his own stake
+</text>
+<arg n="Support">give</arg>
+<arg f="REF" n="2">teeth</arg>
+<rel>teeth</rel>
+<arg n="1">
+to his takeover threat , which was widely interpreted as an
+effort to flush out an acquirer for USAir , or for his own stake</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tenth">
+<roleset id="tenth.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+tenths of a watt
+</text>
+<rel>tenths</rel>
+<arg n="1">of a watt</arg>
+</example>
+
+<example name="autogen2">
+<text>
+nine-tenths of its fruit , vegetables and potatoes
+</text>
+<rel>nine-tenths</rel>
+<arg n="1">of its fruit , vegetables and potatoes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="confusion">
+<roleset id="confusion.01" name="cause to) be confused" source="verb-confuse.01" vncls="31.1">
+<roles>
+
+<role descr="agentive cause of confusion" n="0">
+<vnrole vncls="31.1" vntheta="Agent"/></role>
+
+<role descr="entity experiencing confusion" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="confused about or over what" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Nippon Kangyo 's moves puzzled traders and created confusion
+among potential investors , many of whom decided to stay out of
+the market .
+</text>
+<arg n="0">Nippon Kangyo 's moves</arg>
+<arg n="Support">created</arg>
+<rel>confusion</rel>
+<arg n="1">
+among potential investors , many of whom decided to stay out of
+the market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Confusion about the two banks ' hurried efforts to round up
+financing for a new bid that the UAL board has n't even seen yet
+</text>
+<rel>Confusion</rel>
+<arg n="2">
+about the two banks ' hurried efforts to round up financing for a
+new bid that the UAL board has n't even seen yet</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

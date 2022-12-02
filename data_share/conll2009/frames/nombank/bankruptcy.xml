@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bankruptcy">
+<roleset id="bankruptcy.01" name="nomadj-bankrupt/nomlike" source="verb-die.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+bankruptcy candidates
+</text>
+<rel>bankruptcy</rel>
+<arg n="1">candidates</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the bankruptcy of factories
+</text>
+<rel>bankruptcy</rel>
+<arg n="1">of factories</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

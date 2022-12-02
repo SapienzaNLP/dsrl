@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="criticism">
+<roleset id="criticism.01" name="criticize, blame" source="verb-criticize.01" vncls="33">
+<roles>
+
+<role descr="critic" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="entity being criticized" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="on what grounds" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the firms singled out for criticism two years ago by the
+conservative legal group for displaying a liberal bias in its pro
+bono work
+</text>
+<arg n="1">the firms ---> *</arg>
+<arg n="Support">singled for</arg>
+<rel>criticism</rel>
+<arg f="TMP" n="M">two years ago</arg>
+<arg n="0">by the conservative legal group</arg>
+<arg n="2">for displaying a liberal bias in its pro bono work</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his criticism of administration mishandling of the attempted coup
+</text>
+<arg n="0">his</arg>
+<rel>criticism</rel>
+<arg n="1">of administration mishandling of the attempted coup</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

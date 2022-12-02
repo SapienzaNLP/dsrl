@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="snag">
+<roleset id="snag.01" name="get, capture" source="verb-snag.01">
+<roles>
+
+<role descr="capturer" n="0"></role>
+
+<role descr="captured" n="1"></role>
+
+<role descr="instrument, hook" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A last-minute snag in negotiations with AMR , over an unrelated
+lawsuit between American and another Texas Air unit ,
+</text>
+<arg f="TMP" n="M">last-minute</arg>
+<arg n="0">snag</arg>
+<rel>snag</rel>
+<arg n="1">in negotiations with AMR</arg>
+<arg n="2">
+over an unrelated lawsuit between American and another Texas Air
+unit</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a snag in the takeover financing of United Airlines
+</text>
+<arg n="0">snag</arg>
+<rel>snag</rel>
+<arg n="1">in the takeover financing of United Airlines</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

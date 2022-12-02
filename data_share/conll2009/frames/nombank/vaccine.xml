@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vaccine">
+<roleset id="vaccine.01" name="shield from danger" source="verb-protect.01">
+<roles>
+
+<role descr="protector" n="0"></role>
+
+<role descr="protected" n="1"></role>
+
+<role descr="danger" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an AIDS vaccine made by MicroGeneSys Inc. of West Haven , Conn.
+</text>
+<arg n="2">AIDS</arg>
+<arg n="3">vaccine</arg>
+<rel>vaccine</rel>
+<arg n="Support">made</arg>
+<arg n="0">by MicroGeneSys Inc. of West Haven , Conn.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+AIDS vaccine researchers
+</text>
+<arg n="2">AIDS</arg>
+<arg n="3">vaccine</arg>
+<rel>vaccine</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

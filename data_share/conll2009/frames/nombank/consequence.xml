@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consequence">
+<roleset id="consequence.01" name="impelled action/discourse-connective" source="verb-cause.01" vncls="27">
+<roles>
+
+<role descr="forcer, causer" n="0">
+<vnrole vncls="27" vntheta="Theme1"/></role>
+
+<role descr="impelled action" n="1">
+<vnrole vncls="27" vntheta="Theme2"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+If the Supreme Court holds in Medtronic 's favor , the decision
+will have billion-dollar consequences for the manufacturers of
+medical devices , color and food additives and all other non-drug
+products that required Food &amp; Drug Administration approval .
+</text>
+<arg n="0">the decision</arg>
+<arg n="Support">have</arg>
+<arg n="1">billion-dollar</arg>
+<rel>consequences</rel>
+<arg n="2">
+for the manufacturers of medical devices , color and food
+additives and all other non-drug products that required Food &amp;
+Drug Administration approval</arg>
+</example>
+
+<example name="autogen2">
+<text>
+No Money shall be drawn from the Treasury , but in Consequence of
+Appropriations made by Law
+</text>
+<arg n="1">No Money shall be drawn from the Treasury</arg>
+<rel>Consequence</rel>
+<arg n="0">of Appropriations made by Law</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

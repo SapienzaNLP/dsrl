@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="contemporary">
+<roleset id="contemporary.01" name="defrel/nomadj-contemporary">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his better known contemporaries
+</text>
+<arg n="1">his</arg>
+<arg n="0">contemporaries</arg>
+<rel>contemporaries</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

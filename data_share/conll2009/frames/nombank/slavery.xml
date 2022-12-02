@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="slavery">
+<roleset id="slavery.01" name="have power over" source="verb-control.01">
+<roles>
+
+<role descr="controller" n="0"></role>
+
+<role descr="controlled" n="1"></role>
+
+<role descr="instrumental, controlled with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+men and women living in economic slavery
+</text>
+<arg n="1">men and women</arg>
+<arg n="Support">living in</arg>
+<rel>slavery</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

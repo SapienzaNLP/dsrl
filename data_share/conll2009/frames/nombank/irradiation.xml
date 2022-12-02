@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="irradiation">
+<roleset id="irradiation.01" name="expose to radiation" source="verb-irradiate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Topaz , a translucent mineral that is often whitish when taken
+from the ground , can be turned blue by irradiation , which
+transforms it into a gemstone that looks like an aquamarine .
+</text>
+<arg n="1">
+Topaz , a translucent mineral that is often whitish when taken
+from the ground ,</arg>
+<arg n="Support">turned by</arg>
+<rel>irradiation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

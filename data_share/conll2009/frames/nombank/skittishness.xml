@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="skittishness">
+<roleset id="skittishness.01" name="nomadj-skittish" source="verb-worry.02">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the U.S. public 's skittishness about Japanese investment
+</text>
+<arg n="0">the U.S. public 's</arg>
+<rel>skittishness</rel>
+<arg n="1">about Japanese investment</arg>
+</example>
+
+<example name="autogen2">
+<text>
+skittishness among bankers or bond buyers
+</text>
+<rel>skittishness</rel>
+<arg n="0">among bankers or bond buyers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

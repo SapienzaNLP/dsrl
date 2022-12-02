@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="epidemic">
+<roleset id="epidemic.01" name="extend" source="verb-spread.02" vncls="47.2">
+<roles>
+
+<role descr="substance" n="1">
+<vnrole vncls="47.2" vntheta="Theme"/></role>
+
+<role descr="path/extent" n="2" source="M"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+the AIDS epidemic
+</text>
+<arg n="1">AIDS</arg>
+<rel>epidemic</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

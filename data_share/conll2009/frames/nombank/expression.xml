@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="expression">
+<roleset id="expression.01" name="say" source="verb-express.01" vncls="48.1.2">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="48.1.2" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="48.1.2" vntheta="Theme"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="48.1.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it had `` expressions of interest of a transaction from both the
+borrowers and the banks , '' but did n't have an agreement
+</text>
+<arg n="2">it</arg>
+<arg n="Support">had</arg>
+<rel>expressions</rel>
+<arg n="1">of interest of a transaction</arg>
+<arg n="0">from both the borrowers and the banks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a `` self-expression ''
+</text>
+<arg n="0">self-expression</arg>
+<rel>self-expression</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

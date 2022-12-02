@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flap">
+<roleset id="flap.01" name="argue with" source="verb-argue.02" vncls="36.1">
+<roles>
+
+<role descr="actor/first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="theme/topic" n="1" source="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+<role descr="actor2/second arguer" n="2" source="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the former EPA chief who resigned under fire in 1983 during a
+flap with Congress
+</text>
+<arg n="0">the former EPA chief ---> who ---> *T*-2</arg>
+<rel>flap</rel>
+<arg n="2">with Congress</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the pool flap
+</text>
+<arg n="1">pool</arg>
+<rel>flap</rel>
+</example>
+
+</roleset>
+<roleset id="flap.02" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the plane 's wing flaps and slats
+</text>
+<arg n="3">the plane 's</arg>
+<arg n="1">wing</arg>
+<rel>flaps</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="avoidance">
+<roleset id="avoidance.01" name="stay away from" source="verb-avoid.01" vncls="52">
+<roles>
+
+<role descr="avoider" n="0">
+<vnrole vncls="52" vntheta="Agent"/></role>
+
+<role descr="thing avoided" n="1">
+<vnrole vncls="52" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+significant corporate tax avoidance
+</text>
+<arg n="0">corporate</arg>
+<arg n="1">tax</arg>
+<rel>avoidance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+avoidance of overgeneralization
+</text>
+<rel>avoidance</rel>
+<arg n="1">of overgeneralization</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

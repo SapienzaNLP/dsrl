@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="combat">
+<roleset id="combat.01" name="fight" source="verb-combat.01" vncls="36.1">
+<roles>
+
+<role descr="first fighter" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second fighter, if separate" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="spoils" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Many are pouring money into developing high-quality products to
+target affluent consumers and , to some extent , to avoid direct
+combat with cheaper cars from South Korea and Taiwan .
+</text>
+<arg n="0">Many ---> *-1</arg>
+<arg n="Support">avoid</arg>
+<arg f="MNR" n="M">direct</arg>
+<rel>combat</rel>
+<arg n="1">with cheaper cars from South Korea and Taiwan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+combat commanders
+</text>
+<rel>combat</rel>
+<arg n="0">commanders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

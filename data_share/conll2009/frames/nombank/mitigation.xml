@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mitigation">
+<roleset id="mitigation.01" name="reduce the impact of" source="verb-mitigate.01">
+<roles>
+
+<role descr="reducer" n="0"></role>
+
+<role descr="thing reduced" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+traffic mitigation
+</text>
+<arg n="1">traffic</arg>
+<rel>mitigation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

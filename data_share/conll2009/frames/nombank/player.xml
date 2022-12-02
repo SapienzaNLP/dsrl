@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="player">
+<roleset id="player.01" name="play a game" source="verb-play.01" vncls="26.7-1">
+<roles>
+
+<role descr="player" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="game/music" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+market players
+</text>
+<arg n="1">market</arg>
+<arg n="0">players</arg>
+<rel>players</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the piano player
+</text>
+<arg n="2">piano</arg>
+<arg n="0">player</arg>
+<rel>player</rel>
+</example>
+
+</roleset>
+<roleset id="player.02" name="play a role" source="verb-play.02">
+<roles>
+
+<role descr="actor" n="0"></role>
+
+<role descr="role" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a bit player on the stage
+</text>
+<arg n="0">player</arg>
+<rel>player</rel>
+<arg f="LOC" n="M">on the stage</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

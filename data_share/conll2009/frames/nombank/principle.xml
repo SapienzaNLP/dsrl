@@ -1,0 +1,91 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="principle">
+<roleset id="principle.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the capitalistic principle of private property
+</text>
+<arg n="0">capitalistic</arg>
+<rel>principle</rel>
+<arg n="1">of private property</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the principle that no one can be held liable for an `` act of God
+</text>
+<rel>principle</rel>
+<arg n="1">that no one can be held liable for an `` act of God</arg>
+</example>
+
+</roleset>
+<roleset id="principle.02" name="nomadv-theoretically/in-principle">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an agreement in principle to acquire a majority stake in Arnold
+Advertising , a small Boston shop
+</text>
+<arg n="1">
+an agreement to acquire a majority stake in Arnold Advertising ,
+a small Boston shop</arg>
+<rel>principle</rel>
+</example>
+
+<example name="autogen2">
+<text>
+it agreed in principle to acquire the credit-card business of
+Houston-based First City Bancorp. of Texas for between $ 130
+million and $ 134 million
+</text>
+<arg n="1">
+it agreed to acquire the credit-card business of Houston-based
+First City Bancorp. of Texas for between $ 130 million and $ 134
+million</arg>
+<rel>principle</rel>
+</example>
+
+</roleset>
+<roleset id="principle.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the principle on existing loans
+</text>
+<rel>principle</rel>
+<arg n="1">on existing loans</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

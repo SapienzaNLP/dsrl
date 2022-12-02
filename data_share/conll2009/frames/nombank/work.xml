@@ -1,0 +1,129 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="work">
+<roleset id="work.01" name="work" source="verb-work.01">
+<roles>
+
+<role descr="worker" n="0"></role>
+
+<role descr="job, project" n="1"></role>
+
+<role descr="employer" n="2"></role>
+
+<role descr="coworker" n="3"></role>
+
+<role descr="instrumental" n="4"></role>
+
+<role descr="secondary-theme" n="5"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its subcontract work with prime contractor McDonnell Douglas Corp
+</text>
+<arg n="0">its</arg>
+<arg n="1">subcontract</arg>
+<rel>work</rel>
+<arg n="3">with prime contractor McDonnell Douglas Corp</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Computer Sciences will perform data processing work for the
+Postal Service under the three-year contract , which also
+includes two additional option years for which compensation has
+n't yet been fixed .
+</text>
+<arg n="0">Computer Sciences</arg>
+<arg n="Support">perform</arg>
+<arg n="1">data processing</arg>
+<rel>work</rel>
+<arg n="2">for the Postal Service</arg>
+</example>
+
+</roleset>
+<roleset id="work.02" name="noun only" source="verb-work.04">
+<roles>
+
+<role descr="thing getting underway" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+, at long last , changes may be in the works
+</text>
+<arg n="1">changes</arg>
+<rel>works</rel>
+</example>
+
+<example name="autogen2">
+<text>
+there are n't any major deals in the works currently on the scale
+of Sony Corp. 's recent $ 3.4 billion agreement to buy Columbia
+Pictures Entertainment Inc.
+</text>
+<arg n="1">any major deals</arg>
+<rel>works</rel>
+</example>
+
+</roleset>
+<roleset id="work.03" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he modeled his work on Western classics
+</text>
+<arg n="0">his</arg>
+<rel>work</rel>
+<arg n="1">on Western classics</arg>
+</example>
+
+<example name="autogen2">
+<text>
+her gridded two-dimensional works
+</text>
+<arg n="0">her</arg>
+<rel>works</rel>
+</example>
+
+</roleset>
+<roleset id="work.04" name="at-work" source="verb-exist.01" vncls="39.6">
+<roles>
+
+<role descr="thing existing" n="1">
+<vnrole vncls="39.6" vntheta="Theme"/></role>
+
+<role descr="secondary attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The forces at work
+</text>
+<arg n="1">The forces</arg>
+<rel>work</rel>
+</example>
+
+<example name="autogen2">
+<text>
+There 's a certain cruel logic at work here
+</text>
+<arg n="1">a certain cruel logic</arg>
+<rel>work</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

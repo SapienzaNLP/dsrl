@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="well">
+<roleset id="well.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the well of the chamber
+</text>
+<rel>well</rel>
+<arg n="1">of the chamber</arg>
+</example>
+
+</roleset>
+<roleset id="well.02" name="create" source="verb-produce.01" vncls="26.7-2">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+completed oil wells
+</text>
+<arg n="1">oil</arg>
+<arg n="0">wells</arg>
+<rel>wells</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an oil well
+</text>
+<arg n="1">oil</arg>
+<arg n="0">well</arg>
+<rel>well</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="illness">
+<roleset id="illness.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+catastrophic-illness insurance
+</text>
+<arg n="2">catastrophic-illness</arg>
+<rel>catastrophic-illness</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their illness
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">illness</arg>
+<rel>illness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

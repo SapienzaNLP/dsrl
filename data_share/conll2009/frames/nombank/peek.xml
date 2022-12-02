@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="peek">
+<roleset id="peek.01" name="look at, sneakily" source="verb-peek.01" vncls="30.3">
+<roles>
+
+<role descr="looker" n="0">
+<vnrole vncls="30.3" vntheta="Experiencer"/></role>
+
+<role descr="looked at" n="1">
+<vnrole vncls="30.3" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a peek into the inner workings of this Hollywood dogfight
+</text>
+<rel>peek</rel>
+<arg n="1">into the inner workings of this Hollywood dogfight</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

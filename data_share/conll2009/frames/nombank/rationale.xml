@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rationale">
+<roleset id="rationale.01" name="explain" source="verb-explain.01" vncls="37.1">
+<roles>
+
+<role descr="explainer" n="0">
+<vnrole vncls="37.1" vntheta="Agent"/></role>
+
+<role descr="thing explained" n="1">
+<vnrole vncls="37.1" vntheta="Topic"/></role>
+
+<role descr="explained to" n="2">
+<vnrole vncls="37.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Roderick 's original rationale for diversifying into oil and
+gas
+</text>
+<arg n="0">Mr. Roderick 's</arg>
+<arg f="TMP" n="M">original</arg>
+<rel>rationale</rel>
+<arg n="1">for diversifying into oil and gas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a rationale for such bills
+</text>
+<rel>rationale</rel>
+<arg n="1">for such bills</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

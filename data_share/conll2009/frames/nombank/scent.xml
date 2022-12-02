@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scent">
+<roleset id="scent.01" name="emit an odor" source="verb-smell.02" vncls="43.3">
+<roles>
+
+<role descr="stinky thing" n="1">
+<vnrole vncls="43.3" vntheta="Location"/></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+lavender , jasmine , mint or perfume scents
+</text>
+<arg n="2">lavender , jasmine , mint or perfume</arg>
+<rel>scents</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

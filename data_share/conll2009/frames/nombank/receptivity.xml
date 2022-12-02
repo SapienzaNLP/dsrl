@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="receptivity">
+<roleset id="receptivity.01" name="nomadj-receptive">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a growing receptivity to time-limited poison pills on the part of
+institutional investors
+</text>
+<rel>receptivity</rel>
+<arg n="1">to time-limited poison pills</arg>
+<arg n="0">on the part of institutional investors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

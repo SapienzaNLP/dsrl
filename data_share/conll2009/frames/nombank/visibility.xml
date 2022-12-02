@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="visibility">
+<roleset id="visibility.01" name="attribute/nomadj-visible">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any high-visibility campaign to drum up support
+</text>
+<arg n="2">high-visibility</arg>
+<rel>high-visibility</rel>
+<arg n="1">campaign</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the extraordinarily high visibility of non-violent civil
+disobedience in these days of intensive media coverage
+</text>
+<arg n="2">extraordinarily high</arg>
+<rel>visibility</rel>
+<arg n="1">of non-violent civil disobedience</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

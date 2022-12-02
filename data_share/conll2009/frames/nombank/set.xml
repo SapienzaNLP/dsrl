@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="set">
+<roleset id="set.01" name="group/partitive-quant/partitive-part">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+reduced instruction set computing , or RISC , computers
+</text>
+<arg n="1">instruction</arg>
+<rel>set</rel>
+</example>
+
+<example name="autogen2">
+<text>
+that last set of numbers , as much as anything else ,
+</text>
+<rel>set</rel>
+<arg n="1">of numbers</arg>
+</example>
+
+</roleset>
+<roleset id="set.02" name="ability-with-agent" vncls="13.4.2">
+<roles>
+
+<role descr="provider" n="0">
+<vnrole vncls="13.4.2" vntheta="Agent"/></role>
+
+<role descr="action/purpose/type" n="1"></role>
+
+<role descr="beneficiary" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+the TV set
+</text>
+<arg n="1">TV</arg>
+<rel>set</rel>
+</example>
+
+<example name="autogen3">
+<text>
+battery-operated radios and television sets
+</text>
+<arg n="1">television</arg>
+<rel>sets</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

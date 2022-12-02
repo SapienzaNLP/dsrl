@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="infertility">
+<roleset id="infertility.01" name="nomadj-infertile">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+one in six couples experiences infertility
+</text>
+<arg n="1">one in six couples</arg>
+<arg n="Support">experiences</arg>
+<rel>infertility</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="structure">
+<roleset id="structure.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The new board 's seven-member structure
+</text>
+<arg n="3">The new board 's</arg>
+<arg n="1">seven-member</arg>
+<arg n="2">seven-member</arg>
+<rel>structure</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's capital structure
+</text>
+<arg n="3">the company 's</arg>
+<arg n="1">capital</arg>
+<arg f="REF" n="2">structure</arg>
+<rel>structure</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

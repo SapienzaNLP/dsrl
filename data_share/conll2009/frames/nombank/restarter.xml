@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="restarter">
+<roleset id="restarter.01" name="to start again or anew" source="verb-restart.01">
+<roles>
+
+<role descr="starter, agent" n="0"></role>
+
+<role descr="entity restarted" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+restarters for stopped hearts
+</text>
+<arg n="0">restarters</arg>
+<rel>restarters</rel>
+<arg n="1">for stopped hearts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

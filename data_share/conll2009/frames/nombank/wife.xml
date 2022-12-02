@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wife">
+<roleset id="wife.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+the wife of his deputy
+</text>
+<arg n="0">wife</arg>
+<rel>wife</rel>
+<arg n="1">of his deputy</arg>
+</example>
+
+<example name="autogen4">
+<text>
+the vice president 's wife
+</text>
+<arg n="1">the vice president 's</arg>
+<arg n="0">wife</arg>
+<rel>wife</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="strainer">
+<roleset id="strainer.01" name="separate solids from liquid" source="verb-strain.02" vncls="10.4.1">
+<roles>
+
+<role descr="separator, filter, agent" n="0">
+<vnrole vncls="10.4.1" vntheta="Agent"/></role>
+
+<role descr="solids, thing removed" n="1">
+<vnrole vncls="10.4.1" vntheta="Theme"/></role>
+
+<role descr="liquid, source, removed-from" n="2">
+<vnrole vncls="10.4.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+oil strainers
+</text>
+<arg n="2">oil</arg>
+<arg n="0">strainers</arg>
+<rel>strainers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

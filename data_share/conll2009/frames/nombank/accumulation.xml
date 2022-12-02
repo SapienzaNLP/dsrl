@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accumulation">
+<roleset id="accumulation.01" name="amass" source="verb-accumulate.01" vncls="13.5.2">
+<roles>
+
+<role descr="entity accumulating something" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing/stuff accumulated" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="price" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Soviet leader 's readiness to embark on foreign visits and
+steady accumulation of personal power , particularly since the
+last Politburo reshuffle on Sept. 30 ,
+</text>
+<arg n="0">the Soviet leader 's</arg>
+<arg f="MNR" n="M">steady</arg>
+<rel>accumulation</rel>
+<arg n="1">of personal power</arg>
+<arg f="TMP" n="M">particularly since the last Politburo reshuffle on Sept. 30</arg>
+</example>
+
+<example name="autogen2">
+<text>
+significant accumulation of debt
+</text>
+<rel>accumulation</rel>
+<arg n="1">of debt</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

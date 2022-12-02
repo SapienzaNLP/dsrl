@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="color">
+<roleset id="color.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the colors and emblems of both teams
+</text>
+<rel>colors</rel>
+<arg n="1">of both teams</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Color of Money
+</text>
+<rel>Color</rel>
+<arg n="1">of Money</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

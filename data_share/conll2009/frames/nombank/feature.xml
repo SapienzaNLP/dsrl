@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="feature">
+<roleset id="feature.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its cars ' safety features
+</text>
+<arg n="1">its cars '</arg>
+<arg n="2">safety</arg>
+<rel>features</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the city 's great natural water features
+</text>
+<arg n="1">the city 's</arg>
+<arg n="2">water</arg>
+<rel>features</rel>
+</example>
+
+</roleset>
+<roleset id="feature.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Journal 's deputy editorial features editor
+</text>
+<arg n="1">editorial</arg>
+<rel>features</rel>
+</example>
+
+<example name="autogen2">
+<text>
+two-minute informational features
+</text>
+<arg f="TMP" n="M">two-minute</arg>
+<arg n="1">informational</arg>
+<rel>features</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

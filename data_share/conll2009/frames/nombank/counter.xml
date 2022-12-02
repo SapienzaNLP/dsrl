@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="counter">
+<roleset id="counter.01" name="enumerate" source="verb-count.01">
+<roles>
+
+<role descr="counter" n="0"></role>
+
+<role descr="thing counted" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+bean counters
+</text>
+<arg n="1">bean</arg>
+<arg n="0">counters</arg>
+<rel>counters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

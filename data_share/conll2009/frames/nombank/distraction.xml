@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="distraction">
+<roleset id="distraction.01" name="to draw attention away from something" source="verb-distract.01" vncls="31.1">
+<roles>
+
+<role descr="agent or causer" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="entity distracted" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="entity distracted from" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+tourist distractions
+</text>
+<arg n="1">tourist</arg>
+<rel>distractions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

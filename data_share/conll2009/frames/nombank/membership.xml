@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="membership">
+<roleset id="membership.01" name="register membership in" source="verb-enroll.01" vncls="29.2">
+<roles>
+
+<role descr="causer of enrollment, agent" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="entity enrolled" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="enrolled in what" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Taiwan 's membership in the General Agreement on Tariffs and
+Trade
+</text>
+<arg n="1">Taiwan 's</arg>
+<rel>membership</rel>
+<arg n="2">in the General Agreement on Tariffs and Trade</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a full membership on the exchange
+</text>
+<rel>membership</rel>
+<arg n="2">on the exchange</arg>
+</example>
+
+</roleset>
+<roleset id="membership.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+membership in the International Association of Financial Planners
+-LRB- IAFP -RRB- , the industry 's biggest trade group ,
+</text>
+<arg f="REF" n="2">membership</arg>
+<rel>membership</rel>
+<arg n="1">
+in the International Association of Financial Planners -LRB- IAFP
+-RRB- , the industry 's biggest trade group ,</arg>
+</example>
+
+<example name="autogen5">
+<text>
+its membership
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">membership</arg>
+<rel>membership</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

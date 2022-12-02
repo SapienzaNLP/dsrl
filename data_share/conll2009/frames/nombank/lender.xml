@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lender">
+<roleset id="lender.01" name="give temporarily" source="verb-lend.01" vncls="13.1-1">
+<roles>
+
+<role descr="lender" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing lent" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="lent-to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a lender to lend you money in an overbuilt market
+</text>
+<arg n="0">lender</arg>
+<rel>lender</rel>
+<arg n="Support">lend</arg>
+<arg n="2">you</arg>
+<arg n="1">money</arg>
+</example>
+
+<example name="autogen2">
+<text>
+senior lenders to its refrigeration and air-conditioning group
+</text>
+<arg n="0">lenders</arg>
+<rel>lenders</rel>
+<arg n="2">to its refrigeration and air-conditioning group</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

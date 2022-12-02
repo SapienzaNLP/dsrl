@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="preparer">
+<roleset id="preparer.01" name="prepare, make, create" source="verb-prepare.01" vncls="26.3-1">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.3-1" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.3-1" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.3-1" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the tax preparer
+</text>
+<arg n="1">tax</arg>
+<arg n="0">preparer</arg>
+<rel>preparer</rel>
+</example>
+
+<example name="autogen2">
+<text>
+other food preparers
+</text>
+<arg n="1">food</arg>
+<arg n="0">preparers</arg>
+<rel>preparers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

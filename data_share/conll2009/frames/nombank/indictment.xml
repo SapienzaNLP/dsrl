@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="indictment">
+<roleset id="indictment.01" name="accuse of a crime" source="verb-indict.01">
+<roles>
+
+<role descr="accuser" n="0"></role>
+
+<role descr="accused" n="1"></role>
+
+<role descr="crime" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In an eight-count indictment , the government charged GAF , a
+Wayne , N.J. , chemical maker , and Mr. Sherwin with illegally
+attempting to manipulate the common stock of Union Carbide Corp.
+in advance of GAF 's planned sale of a large block of the stock
+in 1986 .
+</text>
+<arg n="Support">charged In</arg>
+<rel>indictment</rel>
+<arg n="0">the government</arg>
+<arg n="1">GAF , a Wayne , N.J. , chemical maker , and Mr. Sherwin</arg>
+<arg n="2">
+with illegally attempting to manipulate the common stock of Union
+Carbide Corp. in advance of GAF 's planned sale of a large block
+of the stock in 1986</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Their original indictment against Mr. Wittgreen , the friend of
+Mr. Noriega , and the other four
+</text>
+<arg n="0">Their</arg>
+<rel>indictment</rel>
+<arg n="1">
+against Mr. Wittgreen , the friend of Mr. Noriega , and the other
+four</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

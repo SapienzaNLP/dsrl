@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="plotter">
+<roleset id="plotter.01" name="to take part in a plot, make a plan, draw" source="verb-plot.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="plotted action, plan" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his fellow coup plotters
+</text>
+<arg n="1">coup</arg>
+<arg n="0">plotters</arg>
+<rel>plotters</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the coup plotters
+</text>
+<arg n="1">coup</arg>
+<arg n="0">plotters</arg>
+<rel>plotters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

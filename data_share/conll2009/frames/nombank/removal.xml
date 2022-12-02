@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="removal">
+<roleset id="removal.01" name="remove" source="verb-remove.01" vncls="10.2">
+<roles>
+
+<role descr="entity removing" n="0">
+<vnrole vncls="10.2" vntheta="Agent"/></role>
+
+<role descr="thing being removed" n="1">
+<vnrole vncls="10.2" vntheta="Theme"/></role>
+
+<role descr="removed from" n="2">
+<vnrole vncls="10.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+speeding the removal of harmful chemicals from the food supply
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">speeding</arg>
+<rel>removal</rel>
+<arg n="1">of harmful chemicals</arg>
+<arg n="2">from the food supply</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the removal of harmful chemicals from the nation 's food supply
+</text>
+<rel>removal</rel>
+<arg n="1">of harmful chemicals</arg>
+<arg n="2">from the nation 's food supply</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

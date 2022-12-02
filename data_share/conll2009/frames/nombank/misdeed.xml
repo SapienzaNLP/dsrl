@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="misdeed">
+<roleset id="misdeed.01" name="act" source="verb-do.02">
+<roles>
+
+<role descr="agent, doer" n="0"></role>
+
+<role descr="thing done" n="1"></role>
+
+<role descr="beneficiary, done for or about" n="2"></role>
+
+<role descr="instrumental" n="3"></role>
+
+<role descr="comitative, companion while doing" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+employee misdeeds
+</text>
+<arg n="0">employee</arg>
+<arg n="1">misdeeds</arg>
+<rel>misdeeds</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his past misdeeds
+</text>
+<arg n="0">his</arg>
+<arg f="TMP" n="M">past</arg>
+<arg n="1">misdeeds</arg>
+<rel>misdeeds</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

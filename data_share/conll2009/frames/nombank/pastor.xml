@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pastor">
+<roleset id="pastor.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Protestant pastor in East Berlin
+</text>
+<arg n="1">Protestant</arg>
+<arg n="0">pastor</arg>
+<rel>pastor</rel>
+<arg f="LOC" n="M">in East Berlin</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their pastors
+</text>
+<arg n="2">their</arg>
+<arg n="0">pastors</arg>
+<rel>pastors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

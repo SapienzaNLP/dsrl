@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accounting">
+<roleset id="accounting.01" name="deal with, explain" source="verb-account.01">
+<roles>
+
+<role descr="accounter" n="0"></role>
+
+<role descr="thing accounted for, dealt with, explained" n="1"></role>
+
+<role descr="instrumental, accounted for with or by" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its accounting of a settlement with the Federal Trade Commission
+</text>
+<arg n="0">its</arg>
+<rel>accounting</rel>
+<arg n="1">of a settlement with the Federal Trade Commission</arg>
+</example>
+
+<example name="autogen3">
+<text>
+their accounting for spare parts
+</text>
+<arg n="0">their</arg>
+<rel>accounting</rel>
+<arg n="1">for spare parts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

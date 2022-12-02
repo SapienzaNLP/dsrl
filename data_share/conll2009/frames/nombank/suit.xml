@@ -1,0 +1,91 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suit">
+<roleset id="suit.01" name="call to court" source="verb-sue.01">
+<roles>
+
+<role descr="plaintiff" n="0"></role>
+
+<role descr="defendant" n="1"></role>
+
+<role descr="reason" n="2"></role>
+
+<role descr="goal" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+federal regulators press a $ 1.1 billion fraud suit against Mr.
+Keating and others
+</text>
+<arg n="0">federal regulators</arg>
+<arg n="Support">press</arg>
+<arg n="3">$ 1.1 billion</arg>
+<arg n="2">fraud</arg>
+<rel>suit</rel>
+<arg n="1">against Mr. Keating and others</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the government 's sweeping racketeering suit against the
+Teamsters
+</text>
+<arg n="0">the government 's</arg>
+<arg n="2">racketeering</arg>
+<rel>suit</rel>
+<arg n="1">against the Teamsters</arg>
+</example>
+
+</roleset>
+<roleset id="suit.02" name="make a copy, don't mention copy" source="verb-copy.02">
+<roles>
+
+<role descr="copyist, agent" n="0"></role>
+
+<role descr="original" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to follow suit
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">follow</arg>
+<rel>suit</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Now that the New York decision has been left intact , other
+states may follow suit .
+</text>
+<arg n="1">other states</arg>
+<arg n="Support">follow</arg>
+<rel>suit</rel>
+</example>
+
+</roleset>
+<roleset id="suit.03" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Our long suit
+</text>
+<arg n="0">Our</arg>
+<arg f="REF" n="1">suit</arg>
+<rel>suit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

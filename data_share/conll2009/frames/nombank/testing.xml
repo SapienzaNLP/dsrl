@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="testing">
+<roleset id="testing.01" name="check (for), examine" source="verb-test.01">
+<roles>
+
+<role descr="examiner" n="0"></role>
+
+<role descr="examined" n="1"></role>
+
+<role descr="in search of, for what" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the U.S. does SDI testing or deployment that the Soviets think
+violates the existing anti-ballistic-missile treaty
+</text>
+<arg n="0">the U.S.</arg>
+<arg n="Support">does</arg>
+<arg n="1">SDI</arg>
+<rel>testing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a product-testing facility
+</text>
+<arg n="1">product-testing</arg>
+<rel>product-testing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

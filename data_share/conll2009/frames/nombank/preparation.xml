@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="preparation">
+<roleset id="preparation.01" name="prepare, make, create" source="verb-prepare.01" vncls="26.3-1">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.3-1" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.3-1" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.3-1" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the tax-preparation business
+</text>
+<arg n="1">tax-preparation</arg>
+<rel>tax-preparation</rel>
+<arg n="0">business</arg>
+<arg n="Support">business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the mass-market tax-preparation business
+</text>
+<arg n="1">tax-preparation</arg>
+<rel>tax-preparation</rel>
+<arg n="0">business</arg>
+<arg n="Support">business</arg>
+</example>
+
+</roleset>
+<roleset id="preparation.02" name="make ready" source="verb-prepare.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In preparation for the withdrawal , Moscow , Kabul and New Delhi
+signed two agreements for several hundred newly civilian Indian
+experts to replace some of the more visible Soviet military
+personnel .
+</text>
+<rel>preparation</rel>
+<arg n="2">for the withdrawal</arg>
+<arg n="0">Moscow , Kabul and New Delhi</arg>
+</example>
+
+<example name="autogen2">
+<text>
+achievement-test preparation booklets
+</text>
+<arg n="2">achievement-test</arg>
+<rel>preparation</rel>
+<arg n="0">booklets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

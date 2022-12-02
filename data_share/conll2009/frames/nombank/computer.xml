@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="computer">
+<roleset id="computer.01" name="to calculate" source="verb-compute.01" vncls="26.4">
+<roles>
+
+<role descr="calculator, agent" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="entity calculated" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+<role descr="value" n="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+graphics computers
+</text>
+<arg n="1">graphics</arg>
+<arg n="0">computers</arg>
+<rel>computers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its most powerful computer
+</text>
+<arg f="MNR" n="M">powerful</arg>
+<arg n="0">computer</arg>
+<rel>computer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rent">
+<roleset id="rent.01" name="be a renter" source="verb-rent.01" vncls="13.5.1">
+<roles>
+
+<role descr="renter" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing rented (eg, apartment" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="landlord" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="rent" n="3">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+<role descr="term" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Healthcare actually owes HealthVest $ 4.2 million in rent and
+mortgage payments each month
+</text>
+<arg n="0">Healthcare</arg>
+<arg n="Support">owes $ in payments</arg>
+<arg n="2">HealthVest</arg>
+<arg n="3">$ 4.2 million</arg>
+<rel>rent</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his $ 3,000 a month rent
+</text>
+<arg n="0">his</arg>
+<arg n="3">$ 3,000 a month</arg>
+<rel>rent</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

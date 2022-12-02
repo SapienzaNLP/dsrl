@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disaster">
+<roleset id="disaster.01" name="nomlike" source="verb-harm.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the San Francisco earthquake disaster
+</text>
+<arg n="1">San Francisco</arg>
+<arg n="0">earthquake</arg>
+<rel>disaster</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the earthquake disaster
+</text>
+<arg n="0">earthquake</arg>
+<rel>disaster</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

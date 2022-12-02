@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="equivalent">
+<roleset id="equivalent.01" name="nomadj-equivalent/nomlike" source="verb-equal.01">
+<roles>
+
+<role descr="theme1" n="1"></role>
+
+<role descr="theme2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cash equivalents
+</text>
+<arg n="2">cash</arg>
+<arg n="1">equivalents</arg>
+<rel>equivalents</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the equivalent of $ 330 million in stock
+</text>
+<arg n="1">equivalent</arg>
+<rel>equivalent</rel>
+<arg n="2">of $ 330 million in stock</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prelude">
+<roleset id="prelude.01" name="go before" source="verb-precede.01" vncls="47.8">
+<roles>
+
+<role descr="thing preceding" n="0">
+<vnrole vncls="47.8" vntheta="Theme1"/></role>
+
+<role descr="thing preceded" n="1">
+<vnrole vncls="47.8" vntheta="Theme2"/></role>
+
+<role descr="causal agent" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a prelude to reincorporating the world 's biggest
+employment-services group in the U.S.
+</text>
+<arg n="0">prelude</arg>
+<rel>prelude</rel>
+<arg n="1">
+to reincorporating the world 's biggest employment-services group
+in the U.S.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a prelude to a state plan to retrofit that critical section of
+the freeway with the steel casings
+</text>
+<arg n="0">prelude</arg>
+<rel>prelude</rel>
+<arg n="1">
+to a state plan to retrofit that critical section of the freeway
+with the steel casings</arg>
+</example>
+
+</roleset>
+<roleset id="prelude.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="web example">
+<text>
+his prelude to the piece on the Tiergarten park
+</text>
+<arg n="0">his</arg>
+<rel>prelude</rel>
+<arg n="1">to the piece on the Tiergarten park</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

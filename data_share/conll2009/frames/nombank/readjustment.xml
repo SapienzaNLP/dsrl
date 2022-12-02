@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="readjustment">
+<roleset id="readjustment.01" name="to" source="verb-adjust.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+<role descr="purpose, reason for adjustment" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the wrenching readjustment of asset values to a future when
+speculative-grade debt will be hard to obtain rather than easy
+</text>
+<rel>readjustment</rel>
+<arg n="1">of asset values</arg>
+<arg n="2">
+to a future when speculative-grade debt will be hard to obtain
+rather than easy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

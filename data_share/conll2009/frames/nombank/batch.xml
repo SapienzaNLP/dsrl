@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="batch">
+<roleset id="batch.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+certain batches of EPO material
+</text>
+<rel>batches</rel>
+<arg n="1">of EPO material</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the next batch of economic numbers
+</text>
+<rel>batch</rel>
+<arg n="1">of economic numbers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

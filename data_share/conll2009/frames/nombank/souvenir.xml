@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="souvenir">
+<roleset id="souvenir.01" name="to cause to remember" source="verb-remind.01">
+<roles>
+
+<role descr="cause, agent" n="0"></role>
+
+<role descr="thing reminded" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the official souvenir book
+</text>
+<rel>souvenir</rel>
+<arg n="1">book</arg>
+</example>
+
+<example name="autogen2">
+<text>
+souvenir computer-chip key rings
+</text>
+<rel>souvenir</rel>
+<arg n="1">computer-chip key rings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="acting">
+<roleset id="acting.01" name="play a role" source="verb-act.01" vncls="29.6">
+<roles>
+
+<role descr="player" n="0">
+<vnrole vncls="29.6" vntheta="Agent"/></role>
+
+<role descr="role" n="1">
+<vnrole vncls="29.6" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Robert Loggia 's acting
+</text>
+<arg n="0">Robert Loggia 's</arg>
+<rel>acting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

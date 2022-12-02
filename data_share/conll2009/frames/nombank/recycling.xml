@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recycling">
+<roleset id="recycling.01" name="use again" source="verb-recycle.01">
+<roles>
+
+<role descr="recycler" n="0"></role>
+
+<role descr="garbage" n="1"></role>
+
+<role descr="shiny new product" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the first U.S. polystyrene recycling plant
+</text>
+<arg n="1">polystyrene</arg>
+<rel>recycling</rel>
+<arg n="0">plant</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an oil-recycling plant
+</text>
+<arg n="1">oil-recycling</arg>
+<rel>oil-recycling</rel>
+<arg n="0">plant</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

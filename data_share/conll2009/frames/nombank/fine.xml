@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fine">
+<roleset id="fine.01" name="extract money because of misdeed" source="verb-fine.01" vncls="54.5">
+<roles>
+
+<role descr="finer, receiver of money" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="fine, money" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="fined, giver of money" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="cause, misdeed" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to halt the Commodity Exchange from imposing a record $ 550,000
+fine on his firm
+</text>
+<arg n="0">the Commodity Exchange ---> *-2</arg>
+<arg n="Support">imposing</arg>
+<arg n="1">$ 550,000</arg>
+<rel>fine</rel>
+<arg n="2">on his firm</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Donohoo faces as much as three years in prison and a $
+250,000 fine for the Superfund conviction and as much as one year
+in prison and a $ 100,000 fine for the violation of the Clean Air
+Act .
+</text>
+<arg n="1">$ 100,000</arg>
+<rel>fine</rel>
+<arg n="3">for the violation of the Clean Air Act</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

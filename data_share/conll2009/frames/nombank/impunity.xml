@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="impunity">
+<roleset id="impunity.01" name="to free from an obligation" source="verb-exempt.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="beneficiary" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+advertisers and advertising agencies can not with impunity
+imitate the voices of well-known performers
+</text>
+<arg n="2">advertisers and advertising agencies</arg>
+<rel>impunity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

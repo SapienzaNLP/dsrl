@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="invasion">
+<roleset id="invasion.01" name="enter violently" source="verb-invade.01">
+<roles>
+
+<role descr="invader" n="0"></role>
+
+<role descr="place invaded" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the invasion of Grenada
+</text>
+<rel>invasion</rel>
+<arg n="1">of Grenada</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the foreign invasion
+</text>
+<arg n="0">foreign</arg>
+<rel>invasion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

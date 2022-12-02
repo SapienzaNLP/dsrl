@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="restitution">
+<roleset id="restitution.01" name="give back" source="verb-restore.01">
+<roles>
+
+<role descr="giver, restorer" n="0"></role>
+
+<role descr="gift, thing restored" n="1"></role>
+
+<role descr="beneficiary, restored-to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Also , he and Mr. Stein were ordered to make restitution of $
+35,000 to a customer .
+</text>
+<arg n="0">he and Mr. Stein ---> *-1</arg>
+<arg n="Support">make</arg>
+<rel>restitution</rel>
+<arg n="1">of $ 35,000</arg>
+<arg n="2">to a customer</arg>
+</example>
+
+<example name="autogen2">
+<text>
+He was sentenced to 500 hours of community service and
+restitution to the museum of $ 45,000 .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">sentenced to</arg>
+<rel>restitution</rel>
+<arg n="2">to the museum</arg>
+<arg n="1">of $ 45,000</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

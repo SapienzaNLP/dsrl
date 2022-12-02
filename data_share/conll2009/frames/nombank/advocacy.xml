@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="advocacy">
+<roleset id="advocacy.01" name="suggest" source="verb-advocate.01">
+<roles>
+
+<role descr="advocate, suggest" n="0"></role>
+
+<role descr="suggestion" n="1"></role>
+
+<role descr="recipient of advice" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The institute 's advocacy efforts
+</text>
+<arg n="0">The institute 's</arg>
+<rel>advocacy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+just a patient-advocacy organization
+</text>
+<arg n="2">patient-advocacy</arg>
+<rel>patient-advocacy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

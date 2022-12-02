@@ -1,0 +1,398 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="way">
+<roleset id="way.01" name="ability-with-agent/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its outmoded ways of doing business
+</text>
+<arg n="0">its</arg>
+<arg n="2">outmoded</arg>
+<rel>ways</rel>
+<arg n="1">of doing business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the most forceful way I can
+</text>
+<arg n="2">most forceful</arg>
+<rel>way</rel>
+<arg n="1">I can</arg>
+</example>
+
+</roleset>
+<roleset id="way.02" name="path">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="goal" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+<role descr="direction" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The curator , 27-year-old Sherman Krisher of Greenwich , Conn. ,
+had worked his way up from janitor in seven years at the museum .
+</text>
+<arg n="0">his</arg>
+<rel>way</rel>
+<arg n="3">up</arg>
+<arg n="2">from janitor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+copies of vital computer software and company records are out of
+harm 's way
+</text>
+<arg n="0">copies of vital computer software and company records</arg>
+<arg n="3">out of</arg>
+<arg n="1">harm 's</arg>
+<rel>way</rel>
+</example>
+
+</roleset>
+<roleset id="way.03" name="issue">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the way of commissions for the brokerage firms
+</text>
+<rel>way</rel>
+<arg n="1">of commissions for the brokerage firms</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the way of price breaks soon at the supermarket
+</text>
+<rel>way</rel>
+<arg n="1">of price breaks soon at the supermarket</arg>
+</example>
+
+</roleset>
+<roleset id="way.04" name="nomlike" source="verb-control.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+since the company 's founding 16 years ago , has had its way with
+its work force -- an unusual feat in the contentious
+transportation industry
+</text>
+<arg n="0">its</arg>
+<rel>way</rel>
+<arg n="1">with its work force</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its way
+</text>
+<arg n="0">its</arg>
+<rel>way</rel>
+</example>
+
+</roleset>
+<roleset id="way.05" name="nomadj-distant/attribute">
+<roles>
+
+<role descr="source" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="goal" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Agreement on these points is a long way from a specific program
+</text>
+<arg n="1">Agreement on these points</arg>
+<arg n="2">long</arg>
+<rel>way</rel>
+<arg n="3">from a specific program</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the rewards seemed a long way out
+</text>
+<arg n="1">the rewards</arg>
+<arg n="2">long</arg>
+<rel>way</rel>
+</example>
+
+</roleset>
+<roleset id="way.06" name="nomlike" source="verb-yield.02" vncls="13.3">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In Robert Whiting 's `` You Gotta Have Wa '' -LRB- Macmillan ,
+339 pages , $ 17.95 -RRB- , the Beatles give way to baseball , in
+the Nipponese version we would be hard put to call a `` game . ''
+</text>
+<arg n="0">the Beatles</arg>
+<arg n="Support">give</arg>
+<rel>way</rel>
+<arg n="2">
+to baseball , in the Nipponese version we would be hard put to
+call a `` game</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Invariably , those strong periods in the economy give way to
+recessionary environments
+</text>
+<arg n="0">those strong periods in the economy</arg>
+<arg n="Support">give</arg>
+<rel>way</rel>
+<arg n="2">to recessionary environments</arg>
+</example>
+
+</roleset>
+<roleset id="way.07" name="ability">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+liberal Judge Pat Wald went out of her way to deny that this was
+a `` frivolous '' case
+</text>
+<arg n="0">her</arg>
+<rel>way</rel>
+<arg f="PRD" n="1">to deny that this was a `` frivolous '' case</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Government officials here and in other countries laid plans
+through the weekend to head off a Monday market meltdown -- but
+went out of their way to keep their moves quiet .
+</text>
+<arg n="Support">went out of</arg>
+<arg n="0">their</arg>
+<rel>way</rel>
+<arg f="PRD" n="1">to keep their moves quiet</arg>
+</example>
+
+</roleset>
+<roleset id="way.08" name="nomlike" source="verb-admit.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their own way
+</text>
+<arg n="1">their</arg>
+<rel>way</rel>
+</example>
+
+<example name="autogen2">
+<text>
+fallen politicians and officials earning their way as lobbyists
+and consultants here
+</text>
+<arg n="1">fallen politicians and officials</arg>
+<arg n="Support">earning</arg>
+<rel>way</rel>
+</example>
+
+</roleset>
+<roleset id="way.09" name="nomlike" source="verb-block.01" vncls="16">
+<roles>
+
+<role descr="blocker, agent" n="0">
+<vnrole vncls="16" vntheta="Agent"/></role>
+
+<role descr="theme (action or object being stopped" n="1">
+<vnrole vncls="16" vntheta="Theme"/></role>
+
+<role descr="secondary predication" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+one obstacle in the way of an overall settlement to the case
+</text>
+<arg n="0">one obstacle</arg>
+<rel>way</rel>
+<arg n="1">of an overall settlement to the case</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to make way for the ayatollah
+</text>
+<arg n="0">*</arg>
+<arg n="Support">make</arg>
+<rel>way</rel>
+<arg n="1">for the ayatollah</arg>
+</example>
+
+</roleset>
+<roleset id="way.10" name="nomlike" source="verb-result.01" vncls="48.1.1">
+<roles>
+
+<role descr="theme, prior condition" n="1">
+<vnrole vncls="48.1.1" vntheta="Theme"/></role>
+
+<role descr="goal, end condition" n="2">
+<vnrole vncls="48.1.1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a line-item veto would go a long way in restoring discipline to
+the budget process
+</text>
+<arg n="1">a line-item veto</arg>
+<arg n="Support">go</arg>
+<arg f="MNR" n="M">long</arg>
+<rel>way</rel>
+<arg n="2">in restoring discipline to the budget process</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The dismissal of the pending suits could go a long way toward
+clearing court dockets in Texas and reducing the FSLIC 's massive
+legal bills , which topped $ 73 million last year .
+</text>
+<arg n="1">The dismissal of the pending suits</arg>
+<arg n="Support">go</arg>
+<arg f="MNR" n="M">long</arg>
+<rel>way</rel>
+<arg n="2">
+toward clearing court dockets in Texas and reducing the FSLIC 's
+massive legal bills , which topped $ 73 million last year</arg>
+</example>
+
+</roleset>
+<roleset id="way.11" name="nomadv-underway">
+<roles>
+
+<role descr="project" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+negotiations are under way for the sale of another company ,
+RobertsCorp
+</text>
+<arg n="1">negotiations</arg>
+<rel>way</rel>
+</example>
+
+<example name="autogen2">
+<text>
+promotions under way
+</text>
+<arg n="1">promotions</arg>
+<rel>way</rel>
+</example>
+
+</roleset>
+<roleset id="way.12" name="nomadvlike-far">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the weekly went way beyond standard literary themes to cover
+Vietnamese society and its ills
+</text>
+<rel>way</rel>
+<arg n="1">beyond standard literary themes</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Here , too , Mr. Roberts is way off the mark .
+</text>
+<rel>way</rel>
+<arg n="1">off the mark</arg>
+</example>
+
+</roleset>
+<roleset id="way.13" name="idiom/nomadvlike-backward">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+With some other charities , however , it s the other way around .
+</text>
+<arg n="1">it</arg>
+<rel>way</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

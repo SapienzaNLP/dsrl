@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="approval">
+<roleset id="approval.01" name="assent to" source="verb-approve.01" vncls="31.3">
+<roles>
+
+<role descr="approver" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="thing approved" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+<role descr="secondary attribute" n="2"></role>
+
+<role descr="seeker of approval" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Internal Revenue Service approval of the move as a tax-free
+transaction
+</text>
+<arg n="0">Internal Revenue Service</arg>
+<rel>approval</rel>
+<arg n="1">of the move</arg>
+<arg n="2">as a tax-free transaction</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its Georgia branch had taken on loan commitments topping $ 3
+billion without the Rome-based management 's approval
+</text>
+<arg n="3">its Georgia branch</arg>
+<arg n="1">taken on loan commitments topping $ 3 billion</arg>
+<arg n="0">the Rome-based management 's</arg>
+<rel>approval</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

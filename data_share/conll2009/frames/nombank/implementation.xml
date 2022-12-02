@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="implementation">
+<roleset id="implementation.01" name="bring about" source="verb-implement.01">
+<roles>
+
+<role descr="implementer" n="0"></role>
+
+<role descr="thing implemented" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the plan 's implementation
+</text>
+<arg n="1">the plan 's</arg>
+<rel>implementation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Does this team have a viable strategy for improving shareholder
+values , and does this strategy require implementation over an
+extended period ?
+</text>
+<arg n="1">this strategy</arg>
+<arg n="Support">require</arg>
+<rel>implementation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

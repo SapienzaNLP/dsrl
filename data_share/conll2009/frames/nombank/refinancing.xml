@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="refinancing">
+<roleset id="refinancing.01" name="provide money for, get money for" source="verb-refinance.01">
+<roles>
+
+<role descr="financ(i)er" n="0"></role>
+
+<role descr="thing financed" n="1"></role>
+
+<role descr="money" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its just-completed $ 1.6 billion refinancing of its long-term
+debt and some preferred stock in one of its subsidiaries
+</text>
+<arg n="0">its</arg>
+<arg n="2">$ 1.6 billion</arg>
+<rel>refinancing</rel>
+<arg n="1">
+of its long-term debt and some preferred stock in one of its
+subsidiaries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the 235 mortgage refinancing plan
+</text>
+<arg n="1">mortgage</arg>
+<rel>refinancing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="plight">
+<roleset id="plight.01" name="to happen" source="verb-befall.01">
+<roles>
+
+<role descr="event" n="0"></role>
+
+<role descr="experiencer" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Justin 's plight
+</text>
+<arg n="1">Justin 's</arg>
+<arg n="0">plight</arg>
+<rel>plight</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the plight of health-food eaters
+</text>
+<arg n="0">plight</arg>
+<rel>plight</rel>
+<arg n="1">of health-food eaters</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

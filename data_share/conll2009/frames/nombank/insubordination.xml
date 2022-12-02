@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="insubordination">
+<roleset id="insubordination.01" name="nomadj-insubordinate/nom" source="verb-respect.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a letter from his manager putting him on probation for
+insubordination
+</text>
+<arg n="Support">putting for</arg>
+<arg n="0">him</arg>
+<rel>insubordination</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="synergy">
+<roleset id="synergy.01" name="work with" source="verb-cooperate.01" vncls="36.1">
+<roles>
+
+<role descr="one cooperator" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="other cooperator(s" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="shared task" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the synergy between GE Capital and Kidder Peabody
+</text>
+<rel>synergy</rel>
+<arg n="0">between GE Capital and Kidder Peabody</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

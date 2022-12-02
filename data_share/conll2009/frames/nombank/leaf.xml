@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="leaf">
+<roleset id="leaf.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some sycamore leaves
+</text>
+<arg n="1">sycamore</arg>
+<rel>leaves</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

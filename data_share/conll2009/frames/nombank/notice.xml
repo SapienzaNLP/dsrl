@@ -1,0 +1,126 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="notice">
+<roleset id="notice.01" name="become aware of" source="verb-notice.01" vncls="30.1">
+<roles>
+
+<role descr="noticer" n="0">
+<vnrole vncls="30.1" vntheta="Experiencer"/></role>
+
+<role descr="noticed" n="1">
+<vnrole vncls="30.1" vntheta="Stimulus"/></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Like many others , Mr. Kaye took notice in 1987 when Sony , in a
+classic example of market segmentation , changed the plastic skin
+and buttons on the famous Walkman line of portable audio
+equipment and created the My First Sony line for children .
+</text>
+<arg n="0">Mr. Kaye</arg>
+<arg n="Support">took</arg>
+<rel>notice</rel>
+<arg n="1">
+when Sony , in a classic example of market segmentation , changed
+the plastic skin and buttons on the famous Walkman line of
+portable audio equipment and created the My First Sony line for
+children</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this could have escaped the notice of Nebraska coaches
+</text>
+<arg n="1">this</arg>
+<arg n="Support">escaped</arg>
+<rel>notice</rel>
+<arg n="0">of Nebraska coaches</arg>
+</example>
+
+</roleset>
+<roleset id="notice.02" name="put on notice" source="verb-warn.01" vncls="37.9-1">
+<roles>
+
+<role descr="entity giving warning" n="0">
+<vnrole vncls="37.9-1" vntheta="Agent"/></role>
+
+<role descr="warning, impelled action" n="1">
+<vnrole vncls="37.9-1" vntheta="Topic"/></role>
+
+<role descr="entity getting warning, impelled agent" n="2">
+<vnrole vncls="37.9-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In addition , Gulf must give the government 20 days ' advance
+written notice of any loans exceeding $ 50 million that are made
+to the Bermuda-based holding company .
+</text>
+<arg n="0">Gulf</arg>
+<arg n="Support">give</arg>
+<arg n="2">the government</arg>
+<arg f="TMP" n="M">20 days ' advance</arg>
+<rel>notice</rel>
+<arg n="1">
+of any loans exceeding $ 50 million that are made to the
+Bermuda-based holding company</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Arguably , both were on notice that their behavior was at least
+risky .
+</text>
+<arg n="2">both</arg>
+<rel>notice</rel>
+<arg n="1">that their behavior was at least risky</arg>
+</example>
+
+</roleset>
+<roleset id="notice.03" name="set pen to paper" source="verb-write.01" vncls="26.7-2">
+<roles>
+
+<role descr="writer" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="thing written" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In announcements to workers late last week , GM effectively
+signed death notices for two full-sized van assembly plants , and
+cast serious doubt on the futures of three U.S. car factories .
+</text>
+<arg n="0">GM</arg>
+<arg n="Support">signed</arg>
+<arg n="1">death</arg>
+<rel>notices</rel>
+<arg n="3">for two full-sized van assembly plants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its notice of action
+</text>
+<arg n="0">its</arg>
+<rel>notice</rel>
+<arg n="1">of action</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

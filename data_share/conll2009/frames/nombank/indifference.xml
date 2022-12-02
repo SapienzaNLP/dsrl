@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="indifference">
+<roleset id="indifference.01" name="prepositional usage" source="verb-worry.02" vncls="31.3">
+<roles>
+
+<role descr="worrier" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="topic of worry" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+corporate indifference to worker safety and health
+</text>
+<arg n="0">corporate</arg>
+<rel>indifference</rel>
+<arg n="1">to worker safety and health</arg>
+</example>
+
+<example name="autogen2">
+<text>
+bureaucratic indifference
+</text>
+<arg n="0">bureaucratic</arg>
+<rel>indifference</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

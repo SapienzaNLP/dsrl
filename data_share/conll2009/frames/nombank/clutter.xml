@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clutter">
+<roleset id="clutter.01" name="partitive-quant/nomadj-overabundance">
+<roles>
+
+<role descr="quantified/theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a clutter of brands
+</text>
+<rel>clutter</rel>
+<arg n="1">of brands</arg>
+</example>
+
+<example name="autogen2">
+<text>
+ad clutter
+</text>
+<arg n="1">ad</arg>
+<rel>clutter</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

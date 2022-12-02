@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="assistance">
+<roleset id="assistance.01" name="help, assist" source="verb-assist.01">
+<roles>
+
+<role descr="assistant" n="0"></role>
+
+<role descr="assisted" n="1"></role>
+
+<role descr="project" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his `` emergency assistance program '' for the capital
+</text>
+<arg n="0">his</arg>
+<arg n="2">emergency</arg>
+<rel>assistance</rel>
+<arg n="1">for the capital</arg>
+</example>
+
+<example name="autogen2">
+<text>
+emergency assistance to earthquake-ravaged California
+</text>
+<arg n="2">emergency</arg>
+<rel>assistance</rel>
+<arg n="1">to earthquake-ravaged California</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

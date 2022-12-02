@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="word">
+<roleset id="word.01" name="nomlike" source="verb-communicate.01" vncls="36.1">
+<roles>
+
+<role descr="first (or all) communicator" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+<role descr="other communicator(s" n="2">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+As I watched him on C-Span , I heard him speak those lovely words
+about the Bill of Rights , which he quotes from the transcript of
+the hearings .
+</text>
+<arg n="2">I</arg>
+<arg n="Support">heard speak</arg>
+<arg n="0">him</arg>
+<arg f="MNR" n="M">lovely</arg>
+<rel>words</rel>
+<arg n="1">about the Bill of Rights</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's share price has held up so well when , in Mr.
+Smith 's words , `` most companies would have unraveled '' by now
+</text>
+<arg n="0">Mr. Smith 's</arg>
+<rel>words</rel>
+<arg n="1">most companies would have unraveled '' by now</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

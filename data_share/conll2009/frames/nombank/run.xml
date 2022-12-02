@@ -1,0 +1,141 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="run">
+<roleset id="run.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a decade-long run of unprecedented disasters
+</text>
+<rel>run</rel>
+<arg n="1">of unprecedented disasters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an initial press run of 100,000 copies
+</text>
+<rel>run</rel>
+<arg n="1">of 100,000 copies</arg>
+</example>
+
+</roleset>
+<roleset id="run.02" name="operate, procede" source="verb-run.01">
+<roles>
+
+<role descr="operator" n="0"></role>
+
+<role descr="machine, operation, procedure" n="1"></role>
+
+<role descr="employer" n="2"></role>
+
+<role descr="coworker" n="3"></role>
+
+<role descr="instrumental" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+prevent Martin Ackerman from making a run at the
+computer-services concern
+</text>
+<arg n="0">Martin Ackerman ---> *-1</arg>
+<arg n="Support">making</arg>
+<rel>run</rel>
+<arg n="1">at the computer-services concern</arg>
+</example>
+
+<example name="autogen2">
+<text>
+you 're going to make a run of it
+</text>
+<arg n="0">you ---> *-1</arg>
+<arg n="Support">make</arg>
+<rel>run</rel>
+<arg n="1">of it</arg>
+</example>
+
+</roleset>
+<roleset id="run.03" name="nomlike/earn points (on exam/competition" source="verb-score.01">
+<roles>
+
+<role descr="athlete, scorer" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its runs
+</text>
+<arg n="0">its</arg>
+<rel>runs</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Bobby Thomson 's home run
+</text>
+<arg n="0">Bobby Thomson 's</arg>
+<rel>run</rel>
+</example>
+
+</roleset>
+<roleset id="run.04" name="partitive-part/defect/hole">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a run in the sheets
+</text>
+<rel>run</rel>
+<arg n="1">in the sheets</arg>
+</example>
+
+</roleset>
+<roleset id="run.05" name="nomlike-run-away" source="verb-escape.01" vncls="51.1-1">
+<roles>
+
+<role descr="entity escaping" n="0">
+<vnrole vncls="51.1-1" vntheta="Theme"/></role>
+
+<role descr="place or thing escaped" n="1">
+<vnrole vncls="51.1-1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+After six months on the run , Mr. Chan learned the order for his
+arrest had been canceled .
+</text>
+<arg f="TMP" n="M">six months</arg>
+<arg n="Support">months on</arg>
+<rel>run</rel>
+<arg n="0">Mr. Chan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Steinbach had struck just seven home runs in 130 regular-season
+games , and batted in the seventh position of the A 's lineup
+</text>
+<arg n="1">Steinbach</arg>
+<arg n="Support">struck</arg>
+<rel>runs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

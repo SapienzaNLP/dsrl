@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="glare">
+<roleset id="glare.01" name="to look at" source="verb-glare.01" vncls="40.2">
+<roles>
+
+<role descr="glarer, agent" n="0">
+<vnrole vncls="40.2" vntheta="Agent"/></role>
+
+<role descr="entity glared at" n="1">
+<vnrole vncls="40.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Now that the Supreme Court opened the door on the subject of
+abortion , politicians are squinting under the glare of
+democratic choice .
+</text>
+<arg n="1">politicians</arg>
+<rel>glare</rel>
+<arg n="0">of democratic choice</arg>
+</example>
+
+<example name="autogen2">
+<text>
+-- Mayor Art Agnos stands in the glare of television lights
+trying to explain for the 20th time why the city is severely
+restricting access to badly damaged structures .
+</text>
+<arg n="1">Mayor Art Agnos</arg>
+<rel>glare</rel>
+<arg n="0">of television lights</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

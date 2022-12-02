@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="worry">
+<roleset id="worry.01" name="prepositional usage" source="verb-worry.02" vncls="31.3">
+<roles>
+
+<role descr="worrier" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="topic of worry" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+British Defense Ministry worries about concentration in the
+country 's defense industry
+</text>
+<arg n="0">British Defense Ministry</arg>
+<rel>worries</rel>
+<arg n="1">about concentration in the country 's defense industry</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Worries about China
+</text>
+<rel>Worries</rel>
+<arg n="1">about China</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

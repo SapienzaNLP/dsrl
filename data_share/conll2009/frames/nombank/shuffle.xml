@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shuffle">
+<roleset id="shuffle.01" name="randomize a deck of cards" source="verb-shuffle.05" vncls="22.3-2">
+<roles>
+
+<role descr="dealer" n="0">
+<vnrole vncls="22.3-2" vntheta="Agent"/></role>
+
+<role descr="cards" n="1">
+<vnrole vncls="22.3-2" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mrs. Thatcher 's cabinet shuffle
+</text>
+<arg n="0">Mrs. Thatcher 's</arg>
+<arg n="1">cabinet</arg>
+<rel>shuffle</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Crucial as these elections are for Greece , pressing issues of
+state are getting lost in the shuffle .
+</text>
+<arg n="1">pressing issues of state</arg>
+<arg n="Support">getting lost in</arg>
+<rel>shuffle</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="slinger">
+<roleset id="slinger.01" name="nomlike/nom-sling" source="verb-throw.01" vncls="17.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="17.1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="17.1" vntheta="Patient"/></role>
+
+<role descr="goal" n="2">
+<vnrole vncls="17.1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the most proficient bull slingers
+</text>
+<arg f="MNR" n="M">most proficient</arg>
+<arg n="1">bull</arg>
+<arg n="0">slingers</arg>
+<rel>slingers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

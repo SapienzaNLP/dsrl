@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disservice">
+<roleset id="disservice.01" name="cause hurt" source="verb-injure.01" vncls="40.8.3-2">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="40.8.3-2" vntheta="Experiencer"/></role>
+
+<role descr="patient" n="1">
+<vnrole vncls="40.8.3-2" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a disservice to your readers
+</text>
+<rel>disservice</rel>
+<arg n="1">to your readers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Thus , you do the public a great disservice when Mr. Greve
+suggests , even facetiously , that the Clean Water Act prohibits
+the preparation of a scotch and water
+</text>
+<arg n="0">you</arg>
+<arg n="Support">do</arg>
+<arg n="1">the public</arg>
+<arg f="EXT" n="M">great</arg>
+<rel>disservice</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

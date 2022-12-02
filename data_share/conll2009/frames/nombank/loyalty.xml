@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="loyalty">
+<roleset id="loyalty.01" name="nomadj-loyal/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an owner 's loyalty to a dealership or a car is virtually
+nonexistent
+</text>
+<arg n="0">an owner 's</arg>
+<rel>loyalty</rel>
+<arg n="1">to a dealership or a car</arg>
+<arg n="2">virtually nonexistent</arg>
+</example>
+
+<example name="autogen2">
+<text>
+more fervent brand loyalty
+</text>
+<arg n="2">more fervent</arg>
+<arg n="1">brand</arg>
+<rel>loyalty</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

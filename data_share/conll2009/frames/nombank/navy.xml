@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="navy">
+<roleset id="navy.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the German navy
+</text>
+<arg n="2">German</arg>
+<arg n="0">navy</arg>
+<rel>navy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the French navy
+</text>
+<arg n="2">French</arg>
+<arg n="0">navy</arg>
+<rel>navy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

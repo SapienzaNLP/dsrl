@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="beauty">
+<roleset id="beauty.01" name="attribute/nomadj-beautiful">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its own beauty
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">beauty</arg>
+<rel>beauty</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the beauty of our land
+</text>
+<arg f="REF" n="2">beauty</arg>
+<rel>beauty</rel>
+<arg n="1">of our land</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

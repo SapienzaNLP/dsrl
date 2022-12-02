@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stature">
+<roleset id="stature.01" name="attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his stature among Soviet politicians and academics , whose
+support he needs
+</text>
+<arg n="1">his</arg>
+<arg f="REF" n="2">stature</arg>
+<rel>stature</rel>
+<arg n="0">among Soviet politicians and academics , whose support he needs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an Argentine official of such stature
+</text>
+<arg n="1">an Argentine official</arg>
+<arg f="REF" n="2">stature</arg>
+<rel>stature</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="narrator">
+<roleset id="narrator.01" name="nomlike" source="verb-tell.01" vncls="37.1-1">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the show 's narrator
+</text>
+<arg n="1">the show 's</arg>
+<arg n="0">narrator</arg>
+<rel>narrator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

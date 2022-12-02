@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="impetus">
+<roleset id="impetus.01" name="impelled action" source="verb-motivate.01">
+<roles>
+
+<role descr="motivation" n="0"></role>
+
+<role descr="impelled action" n="1" source="2"></role>
+
+<role descr="impelled agent" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an impetus to the fixed-income markets to lower their rates
+</text>
+<rel>impetus</rel>
+<arg n="1">*ICH*-2 ---> to lower their rates</arg>
+<arg n="2">to the fixed-income markets</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Impetus for the direct-seller project came from a congressional
+hearing some years back .
+</text>
+<rel>Impetus</rel>
+<arg n="1">for the direct-seller project</arg>
+<arg n="Support">came</arg>
+<arg n="0">from a congressional hearing some years back</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

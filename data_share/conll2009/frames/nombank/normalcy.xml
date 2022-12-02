@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="normalcy">
+<roleset id="normalcy.01" name="nomadj-normal">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+political normalcy
+</text>
+<arg n="1">political</arg>
+<rel>normalcy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The markets are returning to normalcy . ''
+</text>
+<arg n="1">The markets</arg>
+<arg n="Support">returning to</arg>
+<rel>normalcy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

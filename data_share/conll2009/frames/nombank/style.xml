@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="style">
+<roleset id="style.01" name="attribute/work-of-art">
+<roles>
+
+<role descr="agent/experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my traditional investment style
+</text>
+<arg n="0">my</arg>
+<arg n="2">traditional</arg>
+<arg n="1">investment</arg>
+<rel>style</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an opulent life style
+</text>
+<arg n="2">opulent</arg>
+<arg n="1">life</arg>
+<rel>style</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="beta">
+<roleset id="beta.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a stock with a beta of 0.5
+</text>
+<arg n="1">a stock</arg>
+<rel>beta</rel>
+<arg n="2">of 0.5</arg>
+</example>
+
+<example name="autogen2">
+<text>
+stocks that have low betas
+</text>
+<arg n="1">stocks ---> that ---> *T*-1</arg>
+<arg n="Support">have</arg>
+<arg n="2">low</arg>
+<rel>betas</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

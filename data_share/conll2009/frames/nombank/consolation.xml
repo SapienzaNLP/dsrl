@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consolation">
+<roleset id="consolation.01" name="make feel better" source="verb-console.01" vncls="31.1">
+<roles>
+
+<role descr="consoler" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+<role descr="instrument" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a consolation to draw from the failure of General Aoun
+</text>
+<rel>consolation</rel>
+<arg n="Support">draw</arg>
+<arg n="0">from the failure of General Aoun</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

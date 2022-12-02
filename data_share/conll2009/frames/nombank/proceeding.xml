@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proceeding">
+<roleset id="proceeding.01" name="call to court" source="verb-sue.01">
+<roles>
+
+<role descr="litigant" n="0"></role>
+
+<role descr="defender" n="1"></role>
+
+<role descr="crime" n="2"></role>
+
+<role descr="intended prize" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the impeachment proceedings against him
+</text>
+<arg n="2">impeachment</arg>
+<rel>proceedings</rel>
+<arg n="1">against him</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the first major bankruptcy-law proceeding for KKR
+</text>
+<arg n="2">bankruptcy-law</arg>
+<rel>proceeding</rel>
+<arg n="0">for KKR</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

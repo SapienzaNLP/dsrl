@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="audacity">
+<roleset id="audacity.01" name="nomadj-audacious/ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the paper 's audacity
+</text>
+<arg n="0">the paper 's</arg>
+<rel>audacity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

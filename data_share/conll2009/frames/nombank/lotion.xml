@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lotion">
+<roleset id="lotion.01" name="shield from danger" source="verb-protect.01">
+<roles>
+
+<role descr="protector" n="0"></role>
+
+<role descr="protected" n="1"></role>
+
+<role descr="danger" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Cincinnati hand-lotion maker
+</text>
+<arg n="1">hand-lotion</arg>
+<rel>hand-lotion</rel>
+<arg n="0">maker</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Lubriderm skin lotion
+</text>
+<arg n="1">skin</arg>
+<arg n="3">lotion</arg>
+<rel>lotion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

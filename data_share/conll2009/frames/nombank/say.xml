@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="say">
+<roleset id="say.01" name="choose, pick" source="verb-choose.01" vncls="29.2">
+<roles>
+
+<role descr="picker" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing picked" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Often , Mr. Dinkins 's procrastination prevented him from having
+a say in the way things turned out
+</text>
+<arg n="0">him ---> *</arg>
+<arg n="Support">having</arg>
+<rel>say</rel>
+<arg n="1">in the way things turned out</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The new breed of team owner , Mr. Jones included , has been
+fighting the NFL bureaucracy for a greater say in league affairs
+</text>
+<arg n="0">The new breed of team owner , Mr. Jones included ,</arg>
+<arg n="Support">fighting for</arg>
+<arg f="EXT" n="M">greater</arg>
+<rel>say</rel>
+<arg n="1">in league affairs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

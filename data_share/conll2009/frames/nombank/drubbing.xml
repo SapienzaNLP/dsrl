@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drubbing">
+<roleset id="drubbing.01" name="to win over" source="verb-defeat.01">
+<roles>
+
+<role descr="entity victorious" n="0"></role>
+
+<role descr="topic of conflict" n="1"></role>
+
+<role descr="entity defeated" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Though almost everybody at the playing site had been looking for
+the 26-year-old Soviet to beat the Pennsylvania-based computer ,
+he gave the machine a far worse drubbing than many expected .
+</text>
+<arg n="0">he</arg>
+<arg n="Support">gave</arg>
+<arg n="2">the machine</arg>
+<arg f="MNR" n="M">far worse</arg>
+<rel>drubbing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

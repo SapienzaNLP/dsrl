@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dissonance">
+<roleset id="dissonance.01" name="point out differences" source="verb-contrast.01" vncls="22.2">
+<roles>
+
+<role descr="first item in comparison" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="second item in comparison" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the troubling dissonance between Mr. Shevardnadze 's speech of
+confession this week and the hang-tough defense of everyone
+concerned with the Iran-Contra affair
+</text>
+<arg f="MNR" n="M">troubling</arg>
+<rel>dissonance</rel>
+<arg n="1">
+between Mr. Shevardnadze 's speech of confession this week and
+the hang-tough defense of everyone concerned with the Iran-Contra
+affair</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

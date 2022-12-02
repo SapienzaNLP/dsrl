@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spread">
+<roleset id="spread.01" name="attribute" source="verb-differ.02">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a spread of 230 basis points over 20-year Treasurys
+</text>
+<rel>spread</rel>
+<arg n="2">of 230 basis points</arg>
+<arg n="1">over 20-year Treasurys</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a spread of 50 basis points above the Treasury 's 10-year note
+</text>
+<rel>spread</rel>
+<arg n="2">of 50 basis points above the Treasury 's 10-year note</arg>
+</example>
+
+</roleset>
+<roleset id="spread.02" name="extend" source="verb-spread.02" vncls="47.2">
+<roles>
+
+<role descr="substance" n="1">
+<vnrole vncls="47.2" vntheta="Theme"/></role>
+
+<role descr="path/extent" n="2" source="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the spread of acquired immune deficiency syndrome
+</text>
+<rel>spread</rel>
+<arg n="1">of acquired immune deficiency syndrome</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the spread of AIDS
+</text>
+<rel>spread</rel>
+<arg n="1">of AIDS</arg>
+</example>
+
+</roleset>
+<roleset id="spread.03" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the color spreads of competitors
+</text>
+<rel>spreads</rel>
+<arg n="0">of competitors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

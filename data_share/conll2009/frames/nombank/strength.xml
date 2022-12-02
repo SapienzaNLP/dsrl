@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="strength">
+<roleset id="strength.01" name="attribute/nomadj-strong">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Economists are divided as to how much manufacturing strength they
+expect to see in September reports on industrial production and
+capacity utilization , also due tomorrow .
+</text>
+<arg n="2">how much</arg>
+<arg n="1">manufacturing</arg>
+<rel>strength</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his strengths in innovation and quality control
+</text>
+<arg n="1">his</arg>
+<arg f="REF" n="2">strengths</arg>
+<rel>strengths</rel>
+<arg n="3">in innovation and quality control</arg>
+</example>
+
+</roleset>
+<roleset id="strength.02" name="justified by" source="verb-base.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="decision" n="1"></role>
+
+<role descr="justification" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the world 's largest advertising agency on the strength of its
+dominance in the Japanese market
+</text>
+<arg n="1">the world 's largest advertising agency</arg>
+<rel>strength</rel>
+<arg n="2">of its dominance in the Japanese market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+third-quarter net income rose 26 % on the strength of its
+chemical business
+</text>
+<arg n="1">third-quarter net income rose 26 %</arg>
+<rel>strength</rel>
+<arg n="2">of its chemical business</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

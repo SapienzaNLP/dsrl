@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ultimatum">
+<roleset id="ultimatum.01" name="ask a favor, ask a request, ask for" source="verb-demand.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+, many of them say , the show 's distributor , Viacom Inc. , is
+giving an ultimatum : Either sign new long-term commitments to
+buy future episodes or risk losing `` Cosby '' to a competitor
+</text>
+<arg n="0">the show 's distributor , Viacom Inc. ,</arg>
+<arg n="Support">giving</arg>
+<rel>ultimatum</rel>
+<arg n="1">
+Either sign new long-term commitments to buy future episodes or
+risk losing `` Cosby '' to a competitor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+your ultimatum
+</text>
+<arg n="0">your</arg>
+<rel>ultimatum</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

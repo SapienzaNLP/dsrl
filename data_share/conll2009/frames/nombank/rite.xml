@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rite">
+<roleset id="rite.01" name="honor, show respect to" source="verb-celebrate.01" vncls="33">
+<roles>
+
+<role descr="honorer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="honored" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="for what reason" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a rite of political passage
+</text>
+<rel>rite</rel>
+<arg n="2">of political passage</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the White House Rose Garden rites
+</text>
+<arg f="LOC" n="M">White House Rose Garden</arg>
+<rel>rites</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

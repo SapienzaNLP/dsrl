@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="farmer">
+<roleset id="farmer.01" name="to cultivate or produce a crop on" source="verb-farm.01">
+<roles>
+
+<role descr="farmer" n="0"></role>
+
+<role descr="land/crop" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+banana farmers
+</text>
+<arg n="1">banana</arg>
+<arg n="0">farmers</arg>
+<rel>farmers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a farmer and farm-supply store operator in Ogallala , Neb.
+</text>
+<arg n="0">farmer</arg>
+<rel>farmer</rel>
+<arg f="LOC" n="M">in Ogallala , Neb.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

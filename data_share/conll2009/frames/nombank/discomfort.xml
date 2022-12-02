@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discomfort">
+<roleset id="discomfort.01" name="cause discomfort" source="verb-discomfit.01" vncls="31.1">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="discomforted entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Their discomfort
+</text>
+<arg n="1">Their</arg>
+<rel>discomfort</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

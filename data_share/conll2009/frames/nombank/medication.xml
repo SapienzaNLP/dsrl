@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="medication">
+<roleset id="medication.01" name="medical treatment" source="verb-treat.03">
+<roles>
+
+<role descr="doctor (etc" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="illness or injury" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an anti-ulcer medication
+</text>
+<arg n="2">anti-ulcer</arg>
+<rel>medication</rel>
+</example>
+
+<example name="autogen2">
+<text>
+patients who were doing well on a specific medication from a
+specific manufacturer
+</text>
+<arg n="1">patients ---> who ---> *T*-1</arg>
+<rel>medication</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

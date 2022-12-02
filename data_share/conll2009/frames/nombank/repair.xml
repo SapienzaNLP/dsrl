@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="repair">
+<roleset id="repair.01" name="to restore after damage or injury" source="verb-repair.01">
+<roles>
+
+<role descr="repairer, agent" n="0"></role>
+
+<role descr="entity repaired" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+repair shops
+</text>
+<rel>repair</rel>
+<arg n="0">shops</arg>
+</example>
+
+<example name="autogen3">
+<text>
+highway repair
+</text>
+<arg n="1">highway</arg>
+<rel>repair</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

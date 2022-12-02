@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="signature">
+<roleset id="signature.01" name="affix a signature" source="verb-sign.01" vncls="25.1">
+<roles>
+
+<role descr="signer" n="0">
+<vnrole vncls="25.1" vntheta="Agent"/></role>
+
+<role descr="document" n="1">
+<vnrole vncls="25.1" vntheta="Destination"/></role>
+
+<role descr="signature" n="2">
+<vnrole vncls="25.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the signature of his adversary , Panamanian leader Manuel Antonio
+Noriega
+</text>
+<rel>signature</rel>
+<arg n="0">of his adversary , Panamanian leader Manuel Antonio Noriega</arg>
+</example>
+
+<example name="autogen3">
+<text>
+his signature
+</text>
+<arg n="0">his</arg>
+<rel>signature</rel>
+</example>
+
+</roleset>
+<roleset id="signature.02" name="nomlike" source="verb-originate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ms. Collins 's signature tune
+</text>
+<arg n="0">Ms. Collins 's</arg>
+<rel>signature</rel>
+<arg n="1">tune</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Brooks Brothers ' signature three-button `` sack suit , '' with a
+center-vented jacket and boxy fit
+</text>
+<arg n="0">Brooks Brothers '</arg>
+<rel>signature</rel>
+<arg n="1">
+three-button `` sack suit , '' with a center-vented jacket and
+boxy fit</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

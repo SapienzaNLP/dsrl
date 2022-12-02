@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="past">
+<roleset id="past.01" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+other big declines in the past
+</text>
+<arg n="1">other big declines</arg>
+<rel>past</rel>
+</example>
+
+<example name="autogen2">
+<text>
+generally solid performers in the past
+</text>
+<arg n="1">generally solid performers</arg>
+<rel>past</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

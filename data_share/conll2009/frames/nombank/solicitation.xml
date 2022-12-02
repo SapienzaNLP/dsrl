@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="solicitation">
+<roleset id="solicitation.01" name="request" source="verb-solicit.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a shareholder solicitation to oust Dataproducts ' board
+</text>
+<arg n="2">shareholder</arg>
+<rel>solicitation</rel>
+<arg f="PRD" n="1">to oust Dataproducts ' board</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the catalyst would seek to oust the board in a solicitation of
+shareholder consents
+</text>
+<arg n="0">the catalyst</arg>
+<rel>solicitation</rel>
+<arg n="1">of shareholder consents</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

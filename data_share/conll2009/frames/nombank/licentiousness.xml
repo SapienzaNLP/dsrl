@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="licentiousness">
+<roleset id="licentiousness.01" name="nomadj-licentious">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the licentiousness of his subjects
+</text>
+<rel>licentiousness</rel>
+<arg n="0">of his subjects</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

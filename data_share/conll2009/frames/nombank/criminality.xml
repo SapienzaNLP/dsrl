@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="criminality">
+<roleset id="criminality.01" name="attribute/nomadj-criminal">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any incompetency -LRB- and , yes , maybe criminality -RRB- within
+HUD
+</text>
+<arg f="REF" n="2">criminality</arg>
+<rel>criminality</rel>
+<arg n="1">within HUD</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Gen. Noriega 's criminality
+</text>
+<arg n="1">Gen. Noriega 's</arg>
+<arg f="REF" n="2">criminality</arg>
+<rel>criminality</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

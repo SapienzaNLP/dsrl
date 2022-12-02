@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="menu">
+<roleset id="menu.01" name="partitive-quant/work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="quantified/theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the restaurant 's ever-changing menu of five-course dinners
+</text>
+<arg n="0">the restaurant 's</arg>
+<rel>menu</rel>
+<arg n="1">of five-course dinners</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Chez Panisse dessert-menu planners
+</text>
+<arg n="0">Chez Panisse</arg>
+<arg n="1">dessert-menu</arg>
+<rel>dessert-menu</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

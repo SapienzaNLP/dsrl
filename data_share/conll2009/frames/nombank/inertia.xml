@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inertia">
+<roleset id="inertia.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+corporate inertia
+</text>
+<arg n="0">corporate</arg>
+<rel>inertia</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

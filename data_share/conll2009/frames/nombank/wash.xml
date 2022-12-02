@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wash">
+<roleset id="wash.01" name="make) become clean" source="verb-wash.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+<role descr="end state" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an industry `` wash ''
+</text>
+<arg n="1">industry</arg>
+<rel>wash</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

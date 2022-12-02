@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="antecedent">
+<roleset id="antecedent.01" name="nomlike" source="verb-precede.01" vncls="47.8">
+<roles>
+
+<role descr="thing preceding" n="0">
+<vnrole vncls="47.8" vntheta="Theme1"/></role>
+
+<role descr="thing preceded" n="1">
+<vnrole vncls="47.8" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+three U.S. comedy series -- `` Three 's Company , '' `` Too Close
+for Comfort '' and `` Check It Out '' -- that had British
+antecedents
+</text>
+<arg n="1">three U.S. comedy series ---> that ---> *T*-1</arg>
+<arg n="Support">had</arg>
+<arg n="0">antecedents</arg>
+<rel>antecedents</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

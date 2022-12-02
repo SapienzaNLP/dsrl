@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="guardian">
+<roleset id="guardian.01" name="stand watch over" source="verb-guard.01" vncls="29.8">
+<roles>
+
+<role descr="guard" n="0">
+<vnrole vncls="29.8" vntheta="Agent"/></role>
+
+<role descr="guarded" n="1">
+<vnrole vncls="29.8" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+guardian of the stability of the price level
+</text>
+<arg n="0">guardian</arg>
+<rel>guardian</rel>
+<arg n="1">of the stability of the price level</arg>
+</example>
+
+<example name="autogen2">
+<text>
+guardian of the currency , which means as guardian of the
+stability of the price level ,
+</text>
+<arg n="0">guardian</arg>
+<rel>guardian</rel>
+<arg n="1">of the currency</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

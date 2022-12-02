@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sharpness">
+<roleset id="sharpness.01" name="attribute/nomadj-sharp">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its sharpness
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">sharpness</arg>
+<rel>sharpness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

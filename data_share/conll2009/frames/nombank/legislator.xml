@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="legislator">
+<roleset id="legislator.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+state legislators
+</text>
+<arg n="2">state</arg>
+<arg n="0">legislators</arg>
+<rel>legislators</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their legislators
+</text>
+<arg n="2">their</arg>
+<arg n="0">legislators</arg>
+<rel>legislators</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

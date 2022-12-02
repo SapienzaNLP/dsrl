@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disability">
+<roleset id="disability.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+children with disabilities
+</text>
+<arg n="0">children</arg>
+<rel>disabilities</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the 43 million people with disabilities
+</text>
+<arg n="0">the 43 million people</arg>
+<rel>disabilities</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

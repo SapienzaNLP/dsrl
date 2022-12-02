@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="allotment">
+<roleset id="allotment.01" name="share">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the steel allotment for the European Community
+</text>
+<arg n="1">steel</arg>
+<arg f="REF" n="2">allotment</arg>
+<rel>allotment</rel>
+<arg n="0">for the European Community</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a heavier-than-usual allotment to bonds -- preferably government
+bonds
+</text>
+<arg n="2">heavier-than-usual</arg>
+<rel>allotment</rel>
+<arg n="0">to bonds -- preferably government bonds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

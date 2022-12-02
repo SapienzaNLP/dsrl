@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="getter">
+<roleset id="getter.01" name="transfer of goods, acquire" source="verb-get.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+<role descr="price" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the two biggest vote-getters
+</text>
+<arg n="0">vote-getters</arg>
+<arg n="1">vote-getters</arg>
+<rel>vote-getters</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a guaranteed ratings-getter
+</text>
+<arg n="0">ratings-getter</arg>
+<arg n="1">ratings-getter</arg>
+<rel>ratings-getter</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

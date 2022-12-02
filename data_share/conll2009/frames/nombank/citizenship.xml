@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="citizenship">
+<roleset id="citizenship.01" name="attach" source="verb-enroll.01" vncls="29.2">
+<roles>
+
+<role descr="causer of enrollment, agent" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="entity enrolled" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="enrolled in what" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Korean citizenship and ties
+</text>
+<arg n="2">Korean</arg>
+<rel>citizenship</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their citizenship
+</text>
+<arg n="1">their</arg>
+<rel>citizenship</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

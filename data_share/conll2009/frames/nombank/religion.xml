@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="religion">
+<roleset id="religion.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` Investors , '' he adds , `` are getting religion . ''
+</text>
+<arg n="1">Investors</arg>
+<arg n="Support">getting</arg>
+<arg f="REF" n="2">religion</arg>
+<rel>religion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

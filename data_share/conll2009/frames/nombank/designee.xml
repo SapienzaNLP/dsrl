@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="designee">
+<roleset id="designee.01" name="assign to a role" source="verb-designate.01" vncls="29.1">
+<roles>
+
+<role descr="designator" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="designated" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="role of arg1" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+five other IMA designees
+</text>
+<arg n="0">IMA</arg>
+<arg n="1">designees</arg>
+<rel>designees</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

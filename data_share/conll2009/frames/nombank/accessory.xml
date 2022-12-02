@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accessory">
+<roleset id="accessory.01" name="nomlike" source="verb-add.02" vncls="22.1-2">
+<roles>
+
+<role descr="adder" n="0">
+<vnrole vncls="22.1-2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+computer accessories
+</text>
+<arg n="2">computer</arg>
+<arg n="1">accessories</arg>
+<rel>accessories</rel>
+</example>
+
+<example name="autogen2">
+<text>
+computer supplies and accessories
+</text>
+<arg n="2">computer</arg>
+<arg n="1">accessories</arg>
+<rel>accessories</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

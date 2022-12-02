@@ -1,0 +1,111 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="break">
+<roleset id="break.01" name="break, cause to not be whole" source="verb-break.01" vncls="23.2">
+<roles>
+
+<role descr="breaker" n="0">
+<vnrole vncls="23.2" vntheta="Agent"/></role>
+
+<role descr="thing broken" n="1">
+<vnrole vncls="23.2" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="45.1" vntheta="Instrument"/></role>
+
+<role descr="pieces" n="3">
+<vnrole vncls="23.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his apparent break with his old mentor , Mr. Honecker
+</text>
+<arg n="0">his</arg>
+<arg f="ADV" n="M">apparent</arg>
+<rel>break</rel>
+<arg n="1">with his old mentor , Mr. Honecker</arg>
+</example>
+
+<example name="autogen2">
+<text>
+By making a break from tradition , Brooks Brothers is seeking a
+delicate balance .
+</text>
+<arg n="0">*-1 ---> Brooks Brothers</arg>
+<arg n="Support">making</arg>
+<rel>break</rel>
+<arg n="1">from tradition</arg>
+</example>
+
+</roleset>
+<roleset id="break.02" name="to suspend an action, to hesitate" source="verb-pause.01">
+<roles>
+
+<role descr="thing pausing, agent or action" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a break in the dollar 's long-term upward trend , a trend that
+began in January 1988
+</text>
+<rel>break</rel>
+<arg n="0">
+in the dollar 's long-term upward trend , a trend that began in
+January 1988</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a midweek break from their recent wild gyrations
+</text>
+<arg f="TMP" n="M">midweek</arg>
+<rel>break</rel>
+<arg n="0">from their recent wild gyrations</arg>
+</example>
+
+</roleset>
+<roleset id="break.03" name="go down incrementally" source="verb-decrease.01" vncls="45.4">
+<roles>
+
+<role descr="causer of decline, agent" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing decreasing" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="amount decreased by, ext or mnr" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Treasury 's look at plans for giving new tax breaks on
+dividends and raising taxes on short-term trades by pension funds
+</text>
+<arg n="0">the Treasury 's ---> *</arg>
+<arg n="Support">giving</arg>
+<arg f="TMP" n="M">new</arg>
+<arg n="1">tax</arg>
+<rel>breaks</rel>
+</example>
+
+<example name="autogen2">
+<text>
+tax breaks
+</text>
+<arg n="1">tax</arg>
+<rel>breaks</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="illusion">
+<roleset id="illusion.01" name="nomlike" source="verb-appear.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an illusion of activity
+</text>
+<rel>illusion</rel>
+<arg n="1">of activity</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this flattering illusion
+</text>
+<arg f="MNR" n="M">flattering</arg>
+<rel>illusion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wind">
+<roleset id="wind.01" name="find out" source="verb-discover.01">
+<roles>
+
+<role descr="finder" n="0"></role>
+
+<role descr="thing found, discovery" n="1"></role>
+
+<role descr="beneficiary, found for" n="2"></role>
+
+<role descr="attribute on arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the U.S. `` gets wind '' of somebody else 's coup plans that seem
+likely to endanger a dictator 's life
+</text>
+<arg n="0">the U.S.</arg>
+<arg n="Support">gets</arg>
+<rel>wind</rel>
+<arg n="1">
+of somebody else 's coup plans that seem likely to endanger a
+dictator 's life</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it got wind of an impending coup that might result in his
+assassination
+</text>
+<arg n="0">it</arg>
+<arg n="Support">got</arg>
+<rel>wind</rel>
+<arg n="1">of an impending coup that might result in his assassination</arg>
+</example>
+
+</roleset>
+<roleset id="wind.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the storm headed north in the Gulf of Mexico with 80 mph winds
+</text>
+<arg n="1">the storm</arg>
+<arg n="2">80 mph</arg>
+<rel>winds</rel>
+</example>
+
+<example name="autogen2">
+<text>
+high winds forecast at the landing site at Edwards Air Force Base
+, Calif
+</text>
+<arg n="2">high</arg>
+<rel>winds</rel>
+<arg n="Support">forecast</arg>
+<arg n="1">at the landing site at Edwards Air Force Base , Calif</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

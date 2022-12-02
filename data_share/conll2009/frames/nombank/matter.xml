@@ -1,0 +1,138 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="matter">
+<roleset id="matter.01" name="crisscross">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Another matter of concern
+</text>
+<rel>matter</rel>
+<arg n="1">of concern</arg>
+</example>
+
+<example name="autogen2">
+<text>
+matters of debate
+</text>
+<rel>matters</rel>
+<arg n="1">of debate</arg>
+</example>
+
+</roleset>
+<roleset id="matter.02" name="issue">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen4">
+<text>
+a civil matter
+</text>
+<arg n="1">civil</arg>
+<rel>matter</rel>
+</example>
+
+<example name="autogen5">
+<text>
+the civil matter
+</text>
+<arg n="1">civil</arg>
+<rel>matter</rel>
+</example>
+
+</roleset>
+<roleset id="matter.03" name="be of importance" source="verb-matter.01" vncls="31.4">
+<roles>
+
+<role descr="thing that matters" n="1"></role>
+
+<role descr="matters to whom" n="2">
+<vnrole vncls="31.4" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` It was only a matter of time . ''
+</text>
+<arg n="2">It</arg>
+<rel>matter</rel>
+<arg n="1">of time</arg>
+</example>
+
+<example name="autogen2">
+<text>
+It 's just a matter of time before the tide turns
+</text>
+<rel>matter</rel>
+<arg n="1">of time</arg>
+<arg n="2">before the tide turns</arg>
+</example>
+
+</roleset>
+<roleset id="matter.04" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+a matter of weeks
+</text>
+<rel>matter</rel>
+<arg n="1">of weeks</arg>
+</example>
+
+<example name="autogen3">
+<text>
+a matter of eons
+</text>
+<rel>matter</rel>
+<arg n="1">of eons</arg>
+</example>
+
+</roleset>
+<roleset id="matter.05" name="discourse-connective-regardless">
+<roles>
+
+<role descr="theme/condition" n="1"></role>
+
+<role descr="happening" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But massage , no matter how chaste , is still associated in many
+minds with seedy fronts for prostitution
+</text>
+<arg n="2">
+massage is still associated in many minds with seedy fronts for
+prostitution</arg>
+<rel>matter</rel>
+<arg n="1">how chaste</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Or , for that matter , the core .
+</text>
+<rel>matter</rel>
+<arg n="2">the core</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

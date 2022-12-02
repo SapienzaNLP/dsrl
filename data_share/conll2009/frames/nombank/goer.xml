@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="goer">
+<roleset id="goer.01" name="self-directed motion" source="verb-go.02" vncls="51.1-2">
+<roles>
+
+<role descr="goer" n="0">
+<vnrole vncls="51.1-2" vntheta="Theme"/></role>
+
+<role descr="journey" n="1"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4">
+<vnrole vncls="51.1-2" vntheta="Location"/></role>
+
+<role descr="direction (usually up or down" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the church-goers
+</text>
+<arg n="0">church-goers</arg>
+<arg n="1">church-goers</arg>
+<rel>church-goers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+convention-goers
+</text>
+<arg n="0">convention-goers</arg>
+<arg n="1">convention-goers</arg>
+<rel>convention-goers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

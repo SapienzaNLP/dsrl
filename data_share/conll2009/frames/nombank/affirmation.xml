@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="affirmation">
+<roleset id="affirmation.01" name="attest the truth or   validity of some proposition" source="verb-affirm.01" vncls="29.2">
+<roles>
+
+<role descr="confirmer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing confirmed, statement or proposition" n="1">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+<role descr="beneficiary, hearer" n="2">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The suggestion that Mrs. Marcos was brought to this country
+against her will is unsupported by affidavit or affirmation
+</text>
+<arg n="1">
+The suggestion that Mrs. Marcos was brought to this country
+against her will</arg>
+<arg n="Support">unsupported by</arg>
+<rel>affirmation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an affirmation of statements by top executives that they intend
+to increase rewards to shareholders
+</text>
+<rel>affirmation</rel>
+<arg n="1">
+of statements by top executives that they intend to increase
+rewards to shareholders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

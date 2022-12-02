@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="glory">
+<roleset id="glory.01" name="nomadj-glorious">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its full glory
+</text>
+<arg n="1">its</arg>
+<rel>glory</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its glory
+</text>
+<arg n="1">its</arg>
+<rel>glory</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

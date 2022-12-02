@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fever">
+<roleset id="fever.01" name="monomania" source="verb-obsess.01" vncls="31.3">
+<roles>
+
+<role descr="obsessed entity" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="obsession" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Europe 's takeover fever
+</text>
+<arg n="0">Europe 's</arg>
+<arg n="1">takeover</arg>
+<rel>fever</rel>
+</example>
+
+<example name="autogen2">
+<text>
+speculation fever
+</text>
+<arg n="1">speculation</arg>
+<rel>fever</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

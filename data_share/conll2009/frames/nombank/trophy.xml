@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trophy">
+<roleset id="trophy.01" name="give an award" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="award" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+<role descr="reason" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his individual trophy
+</text>
+<arg n="2">his</arg>
+<arg f="REF" n="1">trophy</arg>
+<rel>trophy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the San Diego Yacht Club should be allowed to keep the
+international trophy for sailing a catamaran against the New
+Zealand challengers ' 90-foot monohull
+</text>
+<arg n="2">the San Diego Yacht Club ---> *-1</arg>
+<arg n="Support">keep</arg>
+<arg f="REF" n="1">trophy</arg>
+<rel>trophy</rel>
+<arg n="3">
+for sailing a catamaran against the New Zealand challengers '
+90-foot monohull</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

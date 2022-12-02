@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conception">
+<roleset id="conception.01" name="think of" source="verb-conceive.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+existing consumer and even provider conceptions of what is `
+necessary
+</text>
+<arg n="0">consumer and even provider</arg>
+<rel>conceptions</rel>
+<arg n="1">of what is ` necessary</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The IRA 's conception
+</text>
+<arg n="0">The IRA 's</arg>
+<rel>conception</rel>
+</example>
+
+</roleset>
+<roleset id="conception.02" name="make babies" source="verb-conceive.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="0"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+A baby's conception
+</text>
+<arg n="1">NIL</arg>
+<rel>conception</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

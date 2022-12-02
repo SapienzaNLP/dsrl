@@ -1,0 +1,77 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="top">
+<roleset id="top.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+top of mind
+</text>
+<rel>top</rel>
+<arg n="1">of mind</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the top of the pile
+</text>
+<rel>top</rel>
+<arg n="1">of the pile</arg>
+</example>
+
+</roleset>
+<roleset id="top.02" name="on-top-of-complex-prep">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+top of two big 1987 additions to foreign-loan reserves
+</text>
+<rel>top</rel>
+<arg n="1">of two big 1987 additions to foreign-loan reserves</arg>
+</example>
+
+<example name="autogen2">
+<text>
+top of a 0.7 % gain in August
+</text>
+<rel>top</rel>
+<arg n="1">of a 0.7 % gain in August</arg>
+</example>
+
+</roleset>
+<roleset id="top.03" name="superlative/nomadjlike-best">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+formerly Eastern Airlines ' top lawyer
+</text>
+<rel>top</rel>
+<arg n="1">lawyer</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the current top rate
+</text>
+<rel>top</rel>
+<arg n="1">rate</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

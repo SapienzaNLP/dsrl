@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="situation">
+<roleset id="situation.01" name="environment">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="setting" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Panama 's dire economic situation
+</text>
+<arg n="0">Panama 's</arg>
+<arg n="2">dire</arg>
+<arg n="1">economic</arg>
+<rel>situation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the industry 's labor situation
+</text>
+<arg n="3">the industry 's</arg>
+<arg n="2">labor</arg>
+<rel>situation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

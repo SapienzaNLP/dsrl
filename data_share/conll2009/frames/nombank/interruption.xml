@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="interruption">
+<roleset id="interruption.01" name="to break up" source="verb-interrupt.01">
+<roles>
+
+<role descr="interrupter" n="0"></role>
+
+<role descr="thing interrupted" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an interruption of trading
+</text>
+<rel>interruption</rel>
+<arg n="1">of trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+business interruption insurance
+</text>
+<arg n="1">business</arg>
+<rel>interruption</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

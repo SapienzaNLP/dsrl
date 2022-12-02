@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="delay">
+<roleset id="delay.01" name="cause to occur later in time than planned" source="verb-delay.01" vncls="53.1">
+<roles>
+
+<role descr="agent, causer of delay" n="0">
+<vnrole vncls="53.1" vntheta="Agent"/></role>
+
+<role descr="event delayed" n="1">
+<vnrole vncls="53.1" vntheta="Theme"/></role>
+
+<role descr="delay itself, ext, time period" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+financing problems caused a nine-month delay in getting the
+product to market
+</text>
+<arg n="0">financing problems</arg>
+<arg n="Support">caused</arg>
+<arg n="2">nine-month</arg>
+<rel>delay</rel>
+<arg n="1">in getting the product to market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+All prime-time fare will be on tape-delay because of time
+differences with Norway
+</text>
+<arg n="1">tape-delay</arg>
+<rel>tape-delay</rel>
+<arg n="0">because of time differences with Norway</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

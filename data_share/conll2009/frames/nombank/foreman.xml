@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="foreman">
+<roleset id="foreman.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+one Santa Fe drilling foreman
+</text>
+<arg f="LOC" n="M">Santa Fe</arg>
+<arg n="1">drilling</arg>
+<arg n="0">foreman</arg>
+<rel>foreman</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

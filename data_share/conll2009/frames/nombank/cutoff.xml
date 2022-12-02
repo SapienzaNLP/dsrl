@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cutoff">
+<roleset id="cutoff.01" name="cut off: slice off" source="verb-cut.04" vncls="21.1">
+<roles>
+
+<role descr="cutter" n="0">
+<vnrole vncls="21.1" vntheta="Agent"/></role>
+
+<role descr="thing cut" n="1">
+<vnrole vncls="21.1" vntheta="Patient"/></role>
+
+<role descr="medium, source" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A cutoff of U.S. military aid
+</text>
+<rel>cutoff</rel>
+<arg n="1">of U.S. military aid</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

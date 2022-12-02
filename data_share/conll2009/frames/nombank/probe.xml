@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="probe">
+<roleset id="probe.01" name="examine internally, closely" source="verb-probe.01" vncls="35.2">
+<roles>
+
+<role descr="prober" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="thing probed" n="1">
+<vnrole vncls="35.2" vntheta="Location"/></role>
+
+<role descr="in search of" n="2">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+If all goes well , it will parachute a probe into the dense
+Jovian atmosphere in July 1995 to pick up detailed data about
+gases that may be similar to the material from which the solar
+system was formed 4.6 billion years ago .
+</text>
+<arg n="0">it</arg>
+<arg n="Support">parachute</arg>
+<rel>probe</rel>
+<arg n="1">into the dense Jovian atmosphere</arg>
+<arg f="TMP" n="M">in July 1995</arg>
+<arg f="PRD" n="2">
+to pick up detailed data about gases that may be similar to the
+material from which the solar system was formed 4.6 billion years
+ago</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its plutonium-powered Galileo probe to Jupiter
+</text>
+<arg n="0">its</arg>
+<rel>probe</rel>
+<arg n="2">to Jupiter</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="assessment">
+<roleset id="assessment.01" name="to evaluate, appraise" source="verb-assess.01" vncls="34">
+<roles>
+
+<role descr="assessor, agent" n="0">
+<vnrole vncls="34" vntheta="Agent"/></role>
+
+<role descr="entity assessed" n="1">
+<vnrole vncls="34" vntheta="Theme"/></role>
+
+<role descr="value or attribute" n="2">
+<vnrole vncls="34" vntheta="Attribute"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Despite the dire assessments of knowledgeable garden
+professionals , Ms. Bartlett 's South Gardens design somehow
+continues on , seemingly impervious to reason , stalled only by
+bureaucratic lethargy and logistical complications .
+</text>
+<arg n="2">dire</arg>
+<rel>assessments</rel>
+<arg n="0">of knowledgeable garden professionals</arg>
+<arg n="1">Ms. Bartlett 's South Gardens design</arg>
+</example>
+
+<example name="autogen2">
+<text>
+damage assessment
+</text>
+<arg n="1">damage</arg>
+<rel>assessment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

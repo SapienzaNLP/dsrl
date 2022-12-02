@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grandee">
+<roleset id="grandee.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the old `` our crowd '' Jewish Wall Street banking grandees
+</text>
+<arg n="2">Wall Street</arg>
+<arg n="1">banking</arg>
+<arg n="0">grandees</arg>
+<rel>grandees</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

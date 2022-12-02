@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="negligence">
+<roleset id="negligence.01" name="ignore" source="verb-neglect.01">
+<roles>
+
+<role descr="ignorer" n="0"></role>
+
+<role descr="thing ignored" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+alleged mismanagement and negligence
+</text>
+<arg f="ADV" n="M">alleged</arg>
+<rel>negligence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

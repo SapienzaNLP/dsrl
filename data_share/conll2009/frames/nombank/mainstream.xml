@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mainstream">
+<roleset id="mainstream.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the mainstream '' of legal thought
+</text>
+<arg n="0">mainstream</arg>
+<rel>mainstream</rel>
+<arg n="1">of legal thought</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the mainstream of American business
+</text>
+<arg n="0">mainstream</arg>
+<rel>mainstream</rel>
+<arg n="1">of American business</arg>
+</example>
+
+</roleset>
+<roleset id="mainstream.02" name="nomadjlike-fashionable">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+mainstream America
+</text>
+<rel>mainstream</rel>
+<arg n="1">America</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an overwhelming mainstream majority
+</text>
+<rel>mainstream</rel>
+<arg n="1">majority</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

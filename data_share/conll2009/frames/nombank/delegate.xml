@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="delegate">
+<roleset id="delegate.01" name="stand for, correspond" source="verb-represent.01" vncls="29.2">
+<roles>
+
+<role descr="item / entity taking place of other" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="item / entity being substituted by the other" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a consultant and former Algerian OPEC delegate
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg n="1">Algerian</arg>
+<arg n="2">OPEC</arg>
+<arg n="0">delegate</arg>
+<rel>delegate</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Communist Party no longer has automatic delegates in the
+U.S.S.R. 's Congress of Peoples Deputies
+</text>
+<arg n="1">the Communist Party</arg>
+<arg n="Support">has</arg>
+<arg n="0">delegates</arg>
+<rel>delegates</rel>
+<arg n="2">in the U.S.S.R. 's Congress of Peoples Deputies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

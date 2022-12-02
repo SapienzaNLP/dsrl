@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tourist">
+<roleset id="tourist.01" name="visit, view" source="verb-tour.01">
+<roles>
+
+<role descr="tourist" n="0"></role>
+
+<role descr="destination" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+tourists here
+</text>
+<arg n="0">tourists</arg>
+<rel>tourists</rel>
+<arg n="1">here</arg>
+</example>
+
+<example name="autogen2">
+<text>
+San Francisco 's tourists and business travelers
+</text>
+<arg n="1">San Francisco 's</arg>
+<arg n="0">tourists</arg>
+<rel>tourists</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

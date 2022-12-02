@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="country">
+<roleset id="country.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+assorted European countries
+</text>
+<arg n="1">European</arg>
+<rel>countries</rel>
+</example>
+
+<example name="autogen2">
+<text>
+southern countries
+</text>
+<arg n="1">southern</arg>
+<rel>countries</rel>
+</example>
+
+</roleset>
+<roleset id="country.02" name="environment for thing">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Marlboro country
+</text>
+<arg n="1">Marlboro</arg>
+<rel>country</rel>
+</example>
+
+<example name="autogen2">
+<text>
+football country
+</text>
+<arg n="1">football</arg>
+<rel>country</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

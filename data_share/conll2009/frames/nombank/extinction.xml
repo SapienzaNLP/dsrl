@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="extinction">
+<roleset id="extinction.01" name="nomadj-extinct/nomlike" source="verb-die.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the extinction of the elephant
+</text>
+<rel>extinction</rel>
+<arg n="1">of the elephant</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to rescue the endangered elephant from extinction
+</text>
+<arg n="Support">rescue from</arg>
+<arg n="1">the endangered elephant</arg>
+<rel>extinction</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

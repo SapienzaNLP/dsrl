@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="contractor">
+<roleset id="contractor.01" name="enter into a contract" source="verb-contract.02">
+<roles>
+
+<role descr="causer of contract" n="0"></role>
+
+<role descr="reason, purpose" n="1"></role>
+
+<role descr="contracted with" n="2"></role>
+
+<role descr="payment ammount" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the prime Pentagon contractor on the Trident II ballistic missile
+</text>
+<arg n="2">Pentagon</arg>
+<arg n="0">contractor</arg>
+<rel>contractor</rel>
+<arg n="1">on the Trident II ballistic missile</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Defense contractors
+</text>
+<arg n="2">Defense</arg>
+<arg n="0">contractors</arg>
+<rel>contractors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

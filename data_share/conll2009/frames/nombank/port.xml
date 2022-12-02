@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="port">
+<roleset id="port.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Hong Kong 's port , airport , banks and support industries , such
+as printing companies ,
+</text>
+<arg n="1">Hong Kong 's</arg>
+<rel>port</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Latvian port
+</text>
+<arg n="1">Latvian</arg>
+<rel>port</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

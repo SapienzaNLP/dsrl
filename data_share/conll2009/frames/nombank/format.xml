@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="format">
+<roleset id="format.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its editorial format
+</text>
+<arg n="1">its</arg>
+<arg n="2">editorial</arg>
+<rel>format</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the network 's punchy but repetitive news format
+</text>
+<arg n="2">punchy but repetitive</arg>
+<arg n="1">news</arg>
+<rel>format</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

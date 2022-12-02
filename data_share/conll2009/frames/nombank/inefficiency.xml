@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inefficiency">
+<roleset id="inefficiency.01" name="nomadj-inefficient/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+thin inefficiencies between two markets for the same widget
+</text>
+<arg n="2">thin</arg>
+<rel>inefficiencies</rel>
+<arg n="1">between two markets for the same widget</arg>
+</example>
+
+<example name="autogen2">
+<text>
+inefficiency of an industrial economy
+</text>
+<arg f="REF" n="2">inefficiency</arg>
+<rel>inefficiency</rel>
+<arg n="1">of an industrial economy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

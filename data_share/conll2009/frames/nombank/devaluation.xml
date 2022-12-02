@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="devaluation">
+<roleset id="devaluation.01" name="contemplate an action" source="verb-evaluate.01" vncls="34">
+<roles>
+
+<role descr="thinker" n="0">
+<vnrole vncls="34" vntheta="Agent"/></role>
+
+<role descr="action" n="1">
+<vnrole vncls="34" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+-LRB- a -RRB- Marxist devaluation of environmental resources ,
+which are not produced by labor
+</text>
+<arg n="0">Marxist</arg>
+<rel>devaluation</rel>
+<arg n="1">of environmental resources , which are not produced by labor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a devaluation from the norm of public life today
+</text>
+<rel>devaluation</rel>
+<arg n="1">from the norm of public life today</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

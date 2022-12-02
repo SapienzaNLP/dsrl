@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="summary">
+<roleset id="summary.01" name="to make a summary" source="verb-summarize.01">
+<roles>
+
+<role descr="editor, summarizer, agent" n="0"></role>
+
+<role descr="thing summarized" n="1"></role>
+
+<role descr="summary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a summary of the Federal Reserve Board 's report on industrial
+production in September
+</text>
+<rel>summary</rel>
+<arg n="1">
+of the Federal Reserve Board 's report on industrial production
+in September</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The four-page news summary
+</text>
+<arg n="1">news</arg>
+<rel>summary</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resistance">
+<roleset id="resistance.01" name="resist" source="verb-resist.01">
+<roles>
+
+<role descr="resister" n="0"></role>
+
+<role descr="thing resisted" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the government 's resistance to fundamental change
+</text>
+<arg n="0">the government 's</arg>
+<rel>resistance</rel>
+<arg n="1">to fundamental change</arg>
+</example>
+
+<example name="autogen2">
+<text>
+resistance to the language
+</text>
+<rel>resistance</rel>
+<arg n="1">to the language</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

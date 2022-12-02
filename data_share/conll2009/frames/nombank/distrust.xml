@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="distrust">
+<roleset id="distrust.01" name="nomlike" source="verb-trust.02" vncls="31.2">
+<roles>
+
+<role descr="truster" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+People often cite frugality and distrust of banks to justify cash
+caches to the IRS .
+</text>
+<arg n="0">People</arg>
+<arg n="Support">cite</arg>
+<rel>distrust</rel>
+<arg n="1">of banks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

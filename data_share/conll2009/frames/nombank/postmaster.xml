@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="postmaster">
+<roleset id="postmaster.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+former postmaster general of the U.S.
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg n="0">postmaster</arg>
+<rel>postmaster</rel>
+<arg n="3">general</arg>
+<arg n="2">of the U.S.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Philadelphia postmaster Charles James
+</text>
+<arg n="2">Philadelphia</arg>
+<arg n="0">postmaster</arg>
+<rel>postmaster</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

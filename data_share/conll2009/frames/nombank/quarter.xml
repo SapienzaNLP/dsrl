@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="quarter">
+<roleset id="quarter.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+A quarter of a century
+</text>
+<rel>quarter</rel>
+<arg n="1">of a century</arg>
+</example>
+
+<example name="autogen8">
+<text>
+the third quarter of 1987
+</text>
+<rel>quarter</rel>
+<arg n="1">of 1987</arg>
+</example>
+
+</roleset>
+<roleset id="quarter.02" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+two consecutive quarters of declining gross national product
+</text>
+<rel>quarters</rel>
+<arg n="1">of declining gross national product</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the fifth consecutive quarter of flat-to-lower earnings for the
+big electronics retailer
+</text>
+<rel>quarter</rel>
+<arg n="1">of flat-to-lower earnings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

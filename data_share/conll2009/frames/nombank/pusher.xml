@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pusher">
+<roleset id="pusher.01" name="try to) cause motion" source="verb-push.01" vncls="23.2">
+<roles>
+
+<role descr="pusher" n="0">
+<vnrole vncls="23.2" vntheta="Agent"/></role>
+
+<role descr="thing pushed" n="1">
+<vnrole vncls="23.2" vntheta="Theme"/></role>
+
+<role descr="direction" n="2">
+<vnrole vncls="9.3" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the drug pushers
+</text>
+<arg n="1">drug</arg>
+<arg n="0">pushers</arg>
+<rel>pushers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Pencil pushers
+</text>
+<arg n="1">Pencil</arg>
+<arg n="0">pushers</arg>
+<rel>pushers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

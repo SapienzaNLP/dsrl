@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tribute">
+<roleset id="tribute.01" name="go well with, fill out" source="verb-complement.01">
+<roles>
+
+<role descr="thing complementing" n="1"></role>
+
+<role descr="thing complemented" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a `` family tribute '' to Mr. North given by two dozen
+conservative members of Congress
+</text>
+<rel>tribute</rel>
+<arg n="2">to Mr. North</arg>
+<arg n="Support">given</arg>
+<arg n="1">by two dozen conservative members of Congress</arg>
+</example>
+
+<example name="autogen2">
+<text>
+tribute to his ability to simultaneously milk the antagonistic
+intelligence services of Cuba and the United States
+</text>
+<rel>tribute</rel>
+<arg n="2">
+to his ability to simultaneously milk the antagonistic
+intelligence services of Cuba and the United States</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,82 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="back-up">
+<roleset id="back-up.01" name="back up: support" source="verb-back.04">
+<roles>
+
+<role descr="supporter" n="0"></role>
+
+<role descr="thing being supported" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+no backup jets
+</text>
+<arg f="NEG" n="M">no</arg>
+<rel>backup</rel>
+<arg n="0">jets</arg>
+</example>
+
+</roleset>
+<roleset id="back-up.02" name="back up: preserve data" source="verb-back.09">
+<roles>
+
+<role descr="preserver, agent" n="0"></role>
+
+<role descr="data" n="1"></role>
+
+<role descr="permanent storage device" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+computer backup systems
+</text>
+<arg n="1">computer</arg>
+<rel>backup</rel>
+<arg n="2">systems</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Quotron switched to a backup system until the problems were
+corrected
+</text>
+<arg n="0">Quotron</arg>
+<arg n="Support">switched to system</arg>
+<rel>backup</rel>
+<arg n="2">system</arg>
+</example>
+
+</roleset>
+<roleset id="back-up.03" name="back up: traffic" source="verb-back.10">
+<roles>
+
+<role descr="traffic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+back-ups of 20 to 30 minutes or more
+</text>
+<arg n="1">back-ups</arg>
+<rel>back-ups</rel>
+<arg f="TMP" n="M">of 20 to 30 minutes or more</arg>
+</example>
+
+<example name="autogen2">
+<text>
+back-ups on the freeway
+</text>
+<arg n="1">back-ups</arg>
+<rel>back-ups</rel>
+<arg f="TMP" n="M">on the freeway</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

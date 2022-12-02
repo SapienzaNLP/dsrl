@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="injustice">
+<roleset id="injustice.01" name="attribute/nomadj-unjust">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="recipient" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the injustice of it all
+</text>
+<arg f="REF" n="2">injustice</arg>
+<rel>injustice</rel>
+<arg n="1">of it all</arg>
+</example>
+
+<example name="autogen2">
+<text>
+injustices in its name
+</text>
+<rel>injustices</rel>
+<arg f="CAU" n="M">in its name</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

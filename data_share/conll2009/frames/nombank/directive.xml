@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="directive">
+<roleset id="directive.01" name="provide direction" source="verb-direct.01" vncls="26.7-1">
+<roles>
+
+<role descr="director" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="thing directed" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="direction, towards what" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+similar directives from GM 's auto operations to suppliers
+</text>
+<rel>directives</rel>
+<arg n="0">from GM 's auto operations</arg>
+<arg n="1">to suppliers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an Interior Department directive to log all communications with
+Members or their staffs
+</text>
+<arg n="0">Interior Department</arg>
+<rel>directive</rel>
+<arg f="PRD" n="2">to log all communications with Members or their staffs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

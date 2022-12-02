@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disgust">
+<roleset id="disgust.01" name="to sicken or repel" source="verb-disgust.01" vncls="31.1">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="experiencer" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Unable to unload a large block of a French blue-chip company 's
+shares in Paris for two days last week , a frustrated Scottish
+Amicable fund manager finally tossed down her phone in disgust
+and called James Capel &amp; Co. , a London brokerage firm .
+</text>
+<arg n="1">a frustrated Scottish Amicable fund manager</arg>
+<rel>disgust</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the workers ' disgust with being forced to work many hours
+overtime
+</text>
+<arg n="1">the workers '</arg>
+<rel>disgust</rel>
+<arg n="0">with being forced to work many hours overtime</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

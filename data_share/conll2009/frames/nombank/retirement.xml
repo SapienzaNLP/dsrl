@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="retirement">
+<roleset id="retirement.01" name="stop working" source="verb-retire.01">
+<roles>
+
+<role descr="retiree" n="0"></role>
+
+<role descr="former job" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his retirement from the board
+</text>
+<arg n="0">his</arg>
+<rel>retirement</rel>
+<arg n="1">from the board</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Cunin 's retirement
+</text>
+<arg n="0">Mr. Cunin 's</arg>
+<rel>retirement</rel>
+</example>
+
+</roleset>
+<roleset id="retirement.02" name="cease, end, as of debt" source="verb-retire.02">
+<roles>
+
+<role descr="thing (eg debt) being retired" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the retirement of debt
+</text>
+<rel>retirement</rel>
+<arg n="1">of debt</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the retirement of gilts for cash
+</text>
+<rel>retirement</rel>
+<arg n="1">of gilts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

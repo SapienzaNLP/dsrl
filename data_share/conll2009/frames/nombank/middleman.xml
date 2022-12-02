@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="middleman">
+<roleset id="middleman.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Fed serves as a middleman for banks , taking checks from one
+bank and sending them to another , an operation that it handled
+smoothly Tuesday night after the quake .
+</text>
+<arg n="0">middleman</arg>
+<rel>middleman</rel>
+<arg n="2">for banks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+housing middlemen
+</text>
+<arg n="1">housing</arg>
+<arg n="0">middlemen</arg>
+<rel>middlemen</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

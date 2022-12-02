@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="arsenal">
+<roleset id="arsenal.01" name="partitive-quant/have, own" source="verb-possess.01">
+<roles>
+
+<role descr="possessor" n="0"></role>
+
+<role descr="theme/quantified/possession" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Other nations are n't sure how many weapons they have in their
+own arsenals .
+</text>
+<arg n="1">how many weapons ---> *T*-1</arg>
+<arg n="Support">have in</arg>
+<arg n="0">their</arg>
+<rel>arsenals</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a Sandinista arsenal
+</text>
+<arg n="0">Sandinista</arg>
+<rel>arsenal</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

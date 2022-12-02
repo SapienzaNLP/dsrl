@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="baseline">
+<roleset id="baseline.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+so personal an issue can become a baseline of sorts in judging a
+candidate
+</text>
+<arg n="2">so personal an issue</arg>
+<arg n="Support">become</arg>
+<rel>baseline</rel>
+<arg n="1">in judging a candidate</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

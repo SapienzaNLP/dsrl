@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="snapshot">
+<roleset id="snapshot.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a snapshot of Jim Beam
+</text>
+<rel>snapshot</rel>
+<arg n="1">of Jim Beam</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Still , most consumers are n't plunking black-and-white film into
+their cameras to take family snapshots .
+</text>
+<arg n="0">most consumers ---> *-1</arg>
+<arg n="Support">take</arg>
+<arg n="1">family</arg>
+<rel>snapshots</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

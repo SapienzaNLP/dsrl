@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inventory">
+<roleset id="inventory.01" name="attribute-with-owner">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+London Metal Exchange copper inventories last week declined
+13,575 tons , to 89,300 tons .
+</text>
+<arg n="0">London Metal Exchange</arg>
+<arg n="1">copper</arg>
+<rel>inventories</rel>
+<arg n="Support">declined</arg>
+<arg n="2">to 89,300 tons</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the stocks in their inventories
+</text>
+<arg n="1">the stocks</arg>
+<arg n="0">their</arg>
+<rel>inventories</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

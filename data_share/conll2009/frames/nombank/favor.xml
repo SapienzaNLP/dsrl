@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="favor">
+<roleset id="favor.01" name="affection" source="verb-favor.01" vncls="31.2">
+<roles>
+
+<role descr="liker" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Yet he is n't in favor of new legislation .
+</text>
+<arg n="0">he</arg>
+<rel>favor</rel>
+<arg n="1">of new legislation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+favor of an asbestos manufacturer
+</text>
+<rel>favor</rel>
+<arg n="1">of an asbestos manufacturer</arg>
+</example>
+
+</roleset>
+<roleset id="favor.02" name="transfer" source="verb-give.01" vncls="13.1-1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Panamanian dictator Torrijos , he was told , had granted the shah
+of Iran asylum in Panama as a favor to Washington .
+</text>
+<arg n="0">Panamanian dictator Torrijos</arg>
+<arg n="Support">granted as</arg>
+<arg n="1">the shah of Iran asylum in Panama</arg>
+<rel>favor</rel>
+<arg n="2">to Washington</arg>
+</example>
+
+<example name="autogen2">
+<text>
+President Bush would do himself and the country a favor by
+rescinding the order as an ambiguous intrusion on his ability to
+defend America 's national security .
+</text>
+<arg n="0">President Bush</arg>
+<arg n="Support">do</arg>
+<arg n="2">himself and the country</arg>
+<arg f="REF" n="1">favor</arg>
+<rel>favor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

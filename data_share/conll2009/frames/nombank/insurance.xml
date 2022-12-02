@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="insurance">
+<roleset id="insurance.01" name="act like an insurance agency" source="verb-insure.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+<role descr="danger" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a $ 38 million syndicate that supplies business interruption
+insurance to the city on the Bay Bridge , which must pay
+employees during the three weeks or more it is expected to be out
+of service and deprived of toll income
+</text>
+<arg n="0">a $ 38 million syndicate ---> that ---> *T*-3</arg>
+<arg n="Support">supplies</arg>
+<arg n="4">business interruption</arg>
+<rel>insurance</rel>
+<arg n="3">to the city</arg>
+<arg n="1">on the Bay Bridge</arg>
+</example>
+
+<example name="autogen2">
+<text>
+property casualty insurance companies
+</text>
+<arg n="1">property</arg>
+<arg n="4">casualty</arg>
+<rel>insurance</rel>
+<arg n="0">companies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

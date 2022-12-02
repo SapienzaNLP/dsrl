@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inflow">
+<roleset id="inflow.01" name="move like water" source="verb-flow.01" vncls="47.2">
+<roles>
+
+<role descr="substance (ie, water" n="1">
+<vnrole vncls="47.2" vntheta="Theme"/></role>
+
+<role descr="endpoint" n="2">
+<vnrole vncls="11.1" vntheta="Recipient"/></role>
+
+<role descr="startpoint" n="3">
+<vnrole vncls="11.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+net inflows of money from investors
+</text>
+<rel>inflows</rel>
+<arg n="1">of money</arg>
+<arg n="3">from investors</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a more than $ 50 million net inflow into its stock funds
+</text>
+<arg n="1">more than $ 50 million</arg>
+<rel>inflow</rel>
+<arg n="2">into its stock funds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

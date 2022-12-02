@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="visa">
+<roleset id="visa.01" name="permit, let, allow" source="verb-permit.01">
+<roles>
+
+<role descr="allower" n="0"></role>
+
+<role descr="action allowed" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Before granting Ms. Volokh 's parents a visa , the government
+required her mother to obtain permission from her first husband ,
+whom she had divorced 38 years earlier .
+</text>
+<arg n="0">*-1 ---> the government</arg>
+<arg n="Support">granting</arg>
+<arg n="2">Ms. Volokh 's parents</arg>
+<rel>visa</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Their visa
+</text>
+<arg n="2">Their</arg>
+<rel>visa</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

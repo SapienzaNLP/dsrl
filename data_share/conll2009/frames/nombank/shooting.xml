@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shooting">
+<roleset id="shooting.01" name="kill with gun" source="verb-shoot.02" vncls="42.2">
+<roles>
+
+<role descr="shooter" n="0">
+<vnrole vncls="42.2" vntheta="Agent"/></role>
+
+<role descr="corpse" n="1">
+<vnrole vncls="42.2" vntheta="Patient"/></role>
+
+<role descr="gun" n="2">
+<vnrole vncls="42.2" vntheta="Instrument"/></role>
+
+<role descr="specific location of wound" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the shootings in Beijing on June 4
+</text>
+<rel>shootings</rel>
+<arg f="LOC" n="M">in Beijing</arg>
+<arg f="TMP" n="M">on June 4</arg>
+</example>
+
+</roleset>
+<roleset id="shooting.02" name="record on film" source="verb-shoot.03">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+that film , which is to start shooting in a few months
+</text>
+<arg n="1">that film ---> which ---> *T*-1 ---> *-2</arg>
+<arg n="Support">start</arg>
+<rel>shooting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

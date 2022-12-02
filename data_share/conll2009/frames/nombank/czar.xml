@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="czar">
+<roleset id="czar.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mutual-fund czar John M. Templeton
+</text>
+<arg n="1">Mutual-fund</arg>
+<arg n="0">czar</arg>
+<rel>czar</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The drug czar
+</text>
+<arg n="1">drug</arg>
+<arg n="0">czar</arg>
+<rel>czar</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

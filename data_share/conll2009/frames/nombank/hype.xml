@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hype">
+<roleset id="hype.01" name="make seem bigger" source="verb-exaggerate.01">
+<roles>
+
+<role descr="liar liar, agent" n="0"></role>
+
+<role descr="thing exaggerated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+unprecedented hype by its producer , Thames Television
+</text>
+<rel>hype</rel>
+<arg n="0">by its producer , Thames Television</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

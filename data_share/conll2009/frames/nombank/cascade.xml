@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cascade">
+<roleset id="cascade.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a cascade of genetic damage
+</text>
+<rel>cascade</rel>
+<arg n="1">of genetic damage</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the anticipated cascade of discoveries
+</text>
+<rel>cascade</rel>
+<arg n="1">of discoveries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

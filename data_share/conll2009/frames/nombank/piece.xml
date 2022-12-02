@@ -1,0 +1,105 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="piece">
+<roleset id="piece.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a piece of rerun sales
+</text>
+<rel>piece</rel>
+<arg n="1">of rerun sales</arg>
+</example>
+
+<example name="autogen2">
+<text>
+any pieces of Farmers
+</text>
+<rel>pieces</rel>
+<arg n="1">of Farmers</arg>
+</example>
+
+</roleset>
+<roleset id="piece.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a piece of tape
+</text>
+<rel>piece</rel>
+<arg n="1">of tape</arg>
+</example>
+
+<example name="autogen2">
+<text>
+major pieces of legislation
+</text>
+<rel>pieces</rel>
+<arg n="1">of legislation</arg>
+</example>
+
+</roleset>
+<roleset id="piece.03" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your overly optimistic , outdated piece on how long unemployment
+lasts -LRB- People Patterns , Sept. 20 -RRB-
+</text>
+<arg n="0">your</arg>
+<rel>piece</rel>
+<arg n="1">on how long unemployment lasts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+how-to pieces on topics like backyard composting
+</text>
+<arg n="3">how-to</arg>
+<rel>pieces</rel>
+<arg n="1">on topics like backyard composting</arg>
+</example>
+
+</roleset>
+<roleset id="piece.04" name="share">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+coal 's piece of the action
+</text>
+<arg n="0">coal 's</arg>
+<rel>piece</rel>
+<arg n="1">of the action</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

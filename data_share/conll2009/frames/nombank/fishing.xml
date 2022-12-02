@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fishing">
+<roleset id="fishing.01" name="to catch or try to catch fish" source="verb-fish.01" vncls="13.7">
+<roles>
+
+<role descr="fisherman, agent" n="0">
+<vnrole vncls="13.7" vntheta="Agent"/></role>
+
+<role descr="fish" n="1">
+<vnrole vncls="35.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the game fishing
+</text>
+<arg n="1">game</arg>
+<rel>fishing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+`` If there 's any way you can do it , you ought to go to Idaho
+and go fishing for a while . ''
+</text>
+<arg n="0">you ---> *-1</arg>
+<arg n="Support">go</arg>
+<rel>fishing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

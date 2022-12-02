@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cartel">
+<roleset id="cartel.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Castro-Medellin cartel nexus
+</text>
+<arg n="2">Castro-Medellin</arg>
+<rel>cartel</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a cartel for licensed teachers
+</text>
+<rel>cartel</rel>
+<arg n="1">for licensed teachers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

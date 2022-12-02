@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commando">
+<roleset id="commando.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+six British commandos
+</text>
+<arg n="1">British</arg>
+<arg n="0">commandos</arg>
+<rel>commandos</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

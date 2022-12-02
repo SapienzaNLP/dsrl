@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reinterpretation">
+<roleset id="reinterpretation.01" name="nom-reinterpret/nomlike" source="verb-interpret.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Cambridge Prof. Harry Whittington and two sharp graduate students
+began to publish a reinterpretation of the Burgess Shale
+</text>
+<arg n="0">
+Cambridge Prof. Harry Whittington and two sharp graduate students
+---> *-2</arg>
+<arg n="Support">publish</arg>
+<rel>reinterpretation</rel>
+<arg n="1">of the Burgess Shale</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

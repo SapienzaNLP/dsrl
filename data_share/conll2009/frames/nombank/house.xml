@@ -1,0 +1,106 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="house">
+<roleset id="house.01" name="to reside or be present in" source="verb-inhabit.01">
+<roles>
+
+<role descr="resident" n="0"></role>
+
+<role descr="place of residence" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Sisulu 's modest house
+</text>
+<arg n="0">Mr. Sisulu 's</arg>
+<arg n="1">house</arg>
+<rel>house</rel>
+</example>
+
+<example name="autogen4">
+<text>
+People in Glass houses
+</text>
+<arg n="0">People</arg>
+<arg n="1">houses</arg>
+<rel>houses</rel>
+</example>
+
+</roleset>
+<roleset id="house.02" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+an internal clearing house
+</text>
+<arg n="1">clearing</arg>
+<rel>house</rel>
+</example>
+
+<example name="autogen3">
+<text>
+Many brokerage house officials
+</text>
+<arg n="1">brokerage</arg>
+<rel>house</rel>
+</example>
+
+</roleset>
+<roleset id="house.03" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Parliament 's upper house
+</text>
+<arg n="1">the Parliament 's</arg>
+<rel>house</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the lower house of Parliament
+</text>
+<rel>house</rel>
+<arg n="1">of Parliament</arg>
+</example>
+
+</roleset>
+<roleset id="house.04" name="open house" source="verb-celebrate.01" vncls="33">
+<roles>
+
+<role descr="honorer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="honored" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="for what reason" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Employees held an open house to celebrate and even hung out a
+sign : `` Szabad Europa Radio '' -- Radio Free Europe .
+</text>
+<arg n="0">Employees</arg>
+<arg n="Support">held</arg>
+<rel>house</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

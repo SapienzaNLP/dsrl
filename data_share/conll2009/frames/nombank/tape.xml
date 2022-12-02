@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tape">
+<roleset id="tape.01" name="to record on magnetic tape" source="verb-tape.02" vncls="25.4">
+<roles>
+
+<role descr="recorder, agent" n="0">
+<vnrole vncls="25.4" vntheta="Agent"/></role>
+
+<role descr="entity taped" n="1">
+<vnrole vncls="25.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the exchange 's trading tape
+</text>
+<arg n="0">the exchange 's</arg>
+<arg n="1">trading</arg>
+<rel>tape</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a jazz-piano tape
+</text>
+<arg n="1">jazz-piano</arg>
+<rel>tape</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="photograph">
+<roleset id="photograph.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Then , as an additional precaution , the car dealership took the
+judge 's photograph as he stood next to his new car with sales
+papers in hand -- proof that he had received the loan documents .
+</text>
+<arg n="0">the car dealership</arg>
+<arg n="Support">took</arg>
+<arg n="1">the judge 's</arg>
+<rel>photograph</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their own black-and-white photographs
+</text>
+<arg n="0">their</arg>
+<rel>photographs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

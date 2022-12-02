@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="steering">
+<roleset id="steering.01" name="provide direction" source="verb-steer.01" vncls="26.7-1">
+<roles>
+
+<role descr="steerer" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="thing steered" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="direction, steered towards" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+His steering committee
+</text>
+<rel>steering</rel>
+<arg n="0">committee</arg>
+</example>
+
+</roleset>
+<roleset id="steering.02" name="partitive-part/metonym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the spacecraft 's steering
+</text>
+<arg n="1">the spacecraft 's</arg>
+<rel>steering</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

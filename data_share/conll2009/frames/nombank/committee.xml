@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="committee">
+<roleset id="committee.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Investcorp 's management committee
+</text>
+<arg n="2">Investcorp 's</arg>
+<arg n="1">management</arg>
+<rel>committee</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his `` committee
+</text>
+<arg n="2">his</arg>
+<rel>committee</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

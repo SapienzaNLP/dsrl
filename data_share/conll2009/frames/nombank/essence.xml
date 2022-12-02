@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="essence">
+<roleset id="essence.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the essence of everything these guys are saying
+</text>
+<arg n="0">essence</arg>
+<rel>essence</rel>
+<arg n="1">of everything these guys are saying</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The essence of being a trial lawyer
+</text>
+<arg n="0">essence</arg>
+<rel>essence</rel>
+<arg n="1">of being a trial lawyer</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

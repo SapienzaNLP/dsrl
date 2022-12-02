@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="market">
+<roleset id="market.01" name="commerce: seller" source="verb-sell.01" vncls="13.1-1">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing sold" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="price paid" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Spain 's traditional export markets in Latin America and other
+developing areas
+</text>
+<arg n="0">Spain 's</arg>
+<arg n="1">export</arg>
+<rel>markets</rel>
+<arg n="2">in Latin America and other developing areas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The artist 's melancholy subjects bring high prices on the world
+market
+</text>
+<arg n="1">The artist 's melancholy subjects</arg>
+<arg n="Support">bring on</arg>
+<arg n="3">high prices</arg>
+<arg n="2">world</arg>
+<rel>market</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

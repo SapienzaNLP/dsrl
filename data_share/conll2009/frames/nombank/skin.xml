@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="skin">
+<roleset id="skin.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+eel skin
+</text>
+<arg n="1">eel</arg>
+<rel>skin</rel>
+</example>
+
+<example name="autogen2">
+<text>
+our skin
+</text>
+<arg n="1">our</arg>
+<rel>skin</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

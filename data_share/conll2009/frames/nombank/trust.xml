@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trust">
+<roleset id="trust.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ryder 's A-1 collateral trust debentures
+</text>
+<arg n="2">Ryder 's</arg>
+<arg n="1">collateral</arg>
+<rel>trust</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her family trust
+</text>
+<arg n="2">her</arg>
+<arg n="1">family</arg>
+<rel>trust</rel>
+</example>
+
+</roleset>
+<roleset id="trust.02" name="put faith in" source="verb-trust.02" vncls="31.2">
+<roles>
+
+<role descr="truster" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="thing trusted" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+international trust in Japan
+</text>
+<arg n="0">international</arg>
+<rel>trust</rel>
+<arg n="1">in Japan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their positions of trust
+</text>
+<arg n="1">their</arg>
+<arg n="Support">positions of</arg>
+<rel>trust</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

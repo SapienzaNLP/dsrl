@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hint">
+<roleset id="hint.01" name="say" source="verb-hint.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they saw ominous hints of a further delay in volume shipments of
+Version 1.1 , a harbinger of continued losses in the fourth
+quarter
+</text>
+<arg n="2">they</arg>
+<arg n="Support">saw</arg>
+<arg f="ADV" n="M">ominous</arg>
+<rel>hints</rel>
+<arg n="1">
+of a further delay in volume shipments of Version 1.1 , a
+harbinger of continued losses in the fourth quarter</arg>
+</example>
+
+<example name="autogen2">
+<text>
+any `` hint of weakening '' of the U.S. defense commitment to
+Seoul
+</text>
+<rel>hint</rel>
+<arg n="1">of weakening '' of the U.S. defense commitment to Seoul</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

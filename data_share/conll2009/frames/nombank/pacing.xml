@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pacing">
+<roleset id="pacing.01" name="move at same speed" source="verb-pace.01">
+<roles>
+
+<role descr="subject-level mover" n="0"></role>
+
+<role descr="object-level mover" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the self-conscious rat-a-tat-tat pacing of `` Laugh In
+</text>
+<arg f="MNR" n="M">self-conscious</arg>
+<arg f="MNR" n="M">rat-a-tat-tat</arg>
+<rel>pacing</rel>
+<arg n="0">of `` Laugh In</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

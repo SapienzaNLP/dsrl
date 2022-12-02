@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recall">
+<roleset id="recall.01" name="manufactured defect" source="verb-recall.01" vncls="10.2">
+<roles>
+
+<role descr="entity recalling, manufacturer" n="0">
+<vnrole vncls="10.2" vntheta="Agent"/></role>
+
+<role descr="thing being recalled, defective thing" n="1">
+<vnrole vncls="10.2" vntheta="Theme"/></role>
+
+<role descr="source" n="2">
+<vnrole vncls="10.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Bolar , of Copiague , N.Y. , earlier began a voluntary recall of
+both its 100 milligram and 50 milligram versions of the drug .
+</text>
+<arg n="0">Bolar , of Copiague , N.Y. ,</arg>
+<arg n="Support">began</arg>
+<arg f="MNR" n="M">voluntary</arg>
+<rel>recall</rel>
+<arg n="1">of both its 100 milligram and 50 milligram versions of the drug</arg>
+</example>
+
+<example name="autogen2">
+<text>
+recall of steering gear
+</text>
+<rel>recall</rel>
+<arg n="1">of steering gear</arg>
+</example>
+
+</roleset>
+<roleset id="recall.02" name="remember" source="verb-recall.02" vncls="29.2">
+<roles>
+
+<role descr="rememberer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="memory" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="secondary attribute" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+<role descr="hearer" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ms. Cunningham , a novelist and playwright , has a vivid and
+dramatically outsized sense of recall .
+</text>
+<arg n="0">Ms. Cunningham , a novelist and playwright ,</arg>
+<arg n="Support">has sense of</arg>
+<rel>recall</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

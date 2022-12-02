@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="watcher">
+<roleset id="watcher.01" name="look at" source="verb-watch.01" vncls="30.2">
+<roles>
+
+<role descr="observer" n="0">
+<vnrole vncls="30.2" vntheta="Experiencer"/></role>
+
+<role descr="thing looked at" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Its watchers
+</text>
+<arg n="1">Its</arg>
+<arg n="0">watchers</arg>
+<rel>watchers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+court watchers
+</text>
+<arg n="1">court</arg>
+<arg n="0">watchers</arg>
+<rel>watchers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

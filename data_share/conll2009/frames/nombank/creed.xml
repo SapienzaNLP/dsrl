@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="creed">
+<roleset id="creed.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a card shark and dope dealer who has a simple creed : `` I live
+in this world , assuming that there is no morality , God or
+police
+</text>
+<arg n="0">a card shark and dope dealer ---> who ---> *T*-1</arg>
+<arg n="Support">has</arg>
+<arg f="REF" n="1">creed</arg>
+<rel>creed</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

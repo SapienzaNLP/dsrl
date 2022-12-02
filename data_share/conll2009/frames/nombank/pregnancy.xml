@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pregnancy">
+<roleset id="pregnancy.01" name="nomadj-pregnant">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+teen pregnancy
+</text>
+<arg n="0">teen</arg>
+<rel>pregnancy</rel>
+</example>
+
+<example name="autogen3">
+<text>
+her sixth month of pregnancy
+</text>
+<arg n="0">her</arg>
+<arg n="Support">month of</arg>
+<rel>pregnancy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

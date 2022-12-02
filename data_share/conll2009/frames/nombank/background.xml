@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="background">
+<roleset id="background.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his consulting-firm background
+</text>
+<arg n="1">his</arg>
+<arg n="2">consulting-firm</arg>
+<rel>background</rel>
+</example>
+
+<example name="autogen2">
+<text>
+candidates with both patent and scientific backgrounds
+</text>
+<arg n="1">candidates</arg>
+<arg n="2">both patent and scientific</arg>
+<rel>backgrounds</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

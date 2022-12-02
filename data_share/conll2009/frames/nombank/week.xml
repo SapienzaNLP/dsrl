@@ -1,0 +1,86 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="week">
+<roleset id="week.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your first three weeks of sleep deprivation
+</text>
+<arg n="3">your</arg>
+<rel>weeks</rel>
+<arg n="1">of sleep deprivation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a week of a deteriorating junk-bond market
+</text>
+<rel>week</rel>
+<arg n="1">of a deteriorating junk-bond market</arg>
+</example>
+
+</roleset>
+<roleset id="week.02" name="meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the third week of November
+</text>
+<rel>week</rel>
+<arg n="1">of November</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the first week of July
+</text>
+<rel>week</rel>
+<arg n="1">of July</arg>
+</example>
+
+</roleset>
+<roleset id="week.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+busy six-day weeks
+</text>
+<arg n="1">six-day</arg>
+<rel>weeks</rel>
+</example>
+
+<example name="autogen2">
+<text>
+six-day weeks
+</text>
+<arg n="1">six-day</arg>
+<rel>weeks</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

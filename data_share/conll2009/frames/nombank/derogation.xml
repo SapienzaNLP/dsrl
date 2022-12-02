@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="derogation">
+<roleset id="derogation.01" name="nomlike" source="verb-disparage.01" vncls="33">
+<roles>
+
+<role descr="talker, agent" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="victim" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In addition , he says , publishing the names of lawyers who are
+facing charges unnecessarily subjects them to public derogation .
+</text>
+<arg n="Support">subjects to</arg>
+<arg n="1">them</arg>
+<arg n="0">public</arg>
+<rel>derogation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

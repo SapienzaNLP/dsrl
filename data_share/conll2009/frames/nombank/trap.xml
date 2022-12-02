@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trap">
+<roleset id="trap.01" name="to catch in or as if in  a trap" source="verb-trap.01" vncls="9.10">
+<roles>
+
+<role descr="trapper, agent" n="0">
+<vnrole vncls="9.10" vntheta="Agent"/></role>
+
+<role descr="entity trapped" n="1">
+<vnrole vncls="9.10" vntheta="Theme"/></role>
+
+<role descr="location" n="2">
+<vnrole vncls="9.10" vntheta="Location"/></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a lobster trap
+</text>
+<arg n="1">lobster</arg>
+<arg n="3">trap</arg>
+<rel>trap</rel>
+</example>
+
+<example name="autogen2">
+<text>
+wildlife traps
+</text>
+<arg n="1">wildlife</arg>
+<arg n="3">traps</arg>
+<rel>traps</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

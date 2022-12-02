@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clause">
+<roleset id="clause.01" name="partitive-part/work-of-art">
+<roles>
+
+<role descr="agent/author/champion" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="whole/document" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the recommendation clause in Article II of the Constitution
+</text>
+<arg n="1">recommendation</arg>
+<rel>clause</rel>
+<arg n="2">in Article II of the Constitution</arg>
+</example>
+
+<example name="autogen2">
+<text>
+ARTICLE I , SECTION 7 , CLAUSE 3 :
+</text>
+<arg n="2">SECTION 7</arg>
+<rel>CLAUSE</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

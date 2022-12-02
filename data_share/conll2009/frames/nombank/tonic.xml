@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tonic">
+<roleset id="tonic.01" name="shield from danger" source="verb-protect.01">
+<roles>
+
+<role descr="protector" n="0"></role>
+
+<role descr="protected" n="1"></role>
+
+<role descr="danger" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a badly needed tonic for the market
+</text>
+<arg f="MNR" n="M">badly needed</arg>
+<arg n="3">tonic</arg>
+<rel>tonic</rel>
+<arg n="1">for the market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

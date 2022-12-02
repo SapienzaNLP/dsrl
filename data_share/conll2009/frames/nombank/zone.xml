@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="zone">
+<roleset id="zone.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+West Coast earthquake zones
+</text>
+<arg n="3">West Coast</arg>
+<arg n="1">earthquake</arg>
+<rel>zones</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the presumed target zones
+</text>
+<arg n="1">target</arg>
+<rel>zones</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="finish">
+<roleset id="finish.01" name="terminate" source="verb-finish.02">
+<roles>
+
+<role descr="thing closing" n="1"></role>
+
+<role descr="up, down, or unchanged, or degree of change" n="M"></role>
+
+<role descr="end point" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an exhausting ideological fight to the finish between the
+allrightniks and the reformers
+</text>
+<arg n="1">an exhausting ideological fight</arg>
+<rel>finish</rel>
+</example>
+
+</roleset>
+<roleset id="finish.02" name="apply a finish, as to wood" source="verb-finish.03">
+<roles>
+
+<role descr="painter, agent" n="0"></role>
+
+<role descr="surface" n="1"></role>
+
+<role descr="finish itself, stain or varnish" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+auto finishes
+</text>
+<arg n="1">auto</arg>
+<rel>finishes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+wood finishes and stains
+</text>
+<arg n="1">wood</arg>
+<rel>finishes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

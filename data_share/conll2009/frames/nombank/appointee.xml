@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="appointee">
+<roleset id="appointee.01" name="name to a position, hire" source="verb-appoint.01" vncls="29.1">
+<roles>
+
+<role descr="appointer, employer" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="appointee, employee" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="job, position" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+five presidential appointees
+</text>
+<arg n="2">presidential</arg>
+<arg n="1">appointees</arg>
+<rel>appointees</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Democratic appointee
+</text>
+<arg n="0">Democratic</arg>
+<arg n="1">appointee</arg>
+<rel>appointee</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

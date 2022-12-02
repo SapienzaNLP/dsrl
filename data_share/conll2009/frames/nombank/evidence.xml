@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="evidence">
+<roleset id="evidence.01" name="provide proof for" source="verb-evidence.01">
+<roles>
+
+<role descr="proof" n="0"></role>
+
+<role descr="thing proved" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The IRS offered no evidence of hidden sources of taxable income
+</text>
+<arg n="0">The IRS</arg>
+<arg n="Support">offered</arg>
+<arg f="NEG" n="M">no</arg>
+<arg n="2">evidence</arg>
+<rel>evidence</rel>
+<arg n="1">of hidden sources of taxable income</arg>
+</example>
+
+<example name="autogen2">
+<text>
+evidence that the market is spooked by Friday the 13th
+</text>
+<arg n="2">evidence</arg>
+<rel>evidence</rel>
+<arg f="PRD" n="1">that the market is spooked by Friday the 13th</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

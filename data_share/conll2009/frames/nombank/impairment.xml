@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="impairment">
+<roleset id="impairment.01" name="to cause to diminish" source="verb-impair.01">
+<roles>
+
+<role descr="causer" n="0"></role>
+
+<role descr="entity impaired" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+environmental impairment insurance
+</text>
+<arg n="1">environmental</arg>
+<rel>impairment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

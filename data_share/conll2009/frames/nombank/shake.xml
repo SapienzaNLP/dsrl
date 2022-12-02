@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shake">
+<roleset id="shake.01" name="tremble" source="verb-shake.01" vncls="47.3">
+<roles>
+
+<role descr="causer of trembling motion" n="0">
+<vnrole vncls="47.3" vntheta="Agent"/></role>
+
+<role descr="thing trembling" n="1">
+<vnrole vncls="47.3" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` I will sit down and talk some of the problems out , but take
+on the political system ? Uh-uh , '' he says with a shake of the
+head .
+</text>
+<arg n="0">he</arg>
+<rel>shake</rel>
+<arg n="1">of the head</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the shake of an earthquake
+</text>
+<rel>shake</rel>
+<arg n="0">of an earthquake</arg>
+</example>
+
+</roleset>
+<roleset id="shake.02" name="a good deal" source="verb-agree.01">
+<roles>
+
+<role descr="buyer" n="0"></role>
+
+<role descr="proposition/thing deal gotten on" n="1"></role>
+
+<role descr="seller" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to assure workers a fair shake
+</text>
+<arg n="Support">assure</arg>
+<arg n="2">workers</arg>
+<arg f="MNR" n="M">fair</arg>
+<rel>shake</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

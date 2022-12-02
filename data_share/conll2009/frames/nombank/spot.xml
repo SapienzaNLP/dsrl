@@ -1,0 +1,125 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spot">
+<roleset id="spot.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a bright spot for U.S. productivity
+</text>
+<arg n="2">bright</arg>
+<rel>spot</rel>
+<arg n="1">for U.S. productivity</arg>
+</example>
+
+<example name="autogen2">
+<text>
+such `` hot spots '' of pedestrian density
+</text>
+<arg n="2">hot</arg>
+<rel>spots</rel>
+<arg n="1">of pedestrian density</arg>
+</example>
+
+</roleset>
+<roleset id="spot.02" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Recognition 's top spots
+</text>
+<arg n="2">Recognition 's</arg>
+<arg n="1">top</arg>
+<rel>spots</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Ogilvy 's top spot
+</text>
+<arg n="2">Ogilvy 's</arg>
+<arg n="1">top</arg>
+<rel>spot</rel>
+</example>
+
+</roleset>
+<roleset id="spot.03" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="medium" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ketchum Advertising USA , which created similar radio spots for
+Pittsburgh National Bank
+</text>
+<arg n="0">Ketchum Advertising USA ---> which ---> *T*-1</arg>
+<arg n="Support">created</arg>
+<arg n="3">radio</arg>
+<rel>spots</rel>
+<arg n="2">for Pittsburgh National Bank</arg>
+</example>
+
+<example name="autogen2">
+<text>
+television spots by both candidates intended to portray each
+other as a liar
+</text>
+<arg n="3">television</arg>
+<rel>spots</rel>
+<arg n="0">by both candidates</arg>
+</example>
+
+</roleset>
+<roleset id="spot.04" name="nomadjlike-current">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+a spot check
+</text>
+<rel>spot</rel>
+<arg n="1">check</arg>
+</example>
+
+<example name="autogen3">
+<text>
+spot prices
+</text>
+<rel>spot</rel>
+<arg n="1">prices</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="niche">
+<roleset id="niche.01" name="share/partitive-part">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="whole" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its market niche
+</text>
+<arg n="0">its</arg>
+<arg n="1">market</arg>
+<rel>niche</rel>
+</example>
+
+<example name="autogen2">
+<text>
+once-lucrative specialty niches in the massive military market
+</text>
+<arg n="3">specialty</arg>
+<rel>niches</rel>
+<arg n="1">in the massive military market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

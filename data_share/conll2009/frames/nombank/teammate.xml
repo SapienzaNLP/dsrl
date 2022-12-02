@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="teammate">
+<roleset id="teammate.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="employer" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my teammates '
+</text>
+<arg n="1">my</arg>
+<arg n="0">teammates</arg>
+<rel>teammates</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a teammate on the 1964 University of Arkansas squad
+</text>
+<arg n="0">teammate</arg>
+<rel>teammate</rel>
+<arg n="2">on the 1964 University of Arkansas squad</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

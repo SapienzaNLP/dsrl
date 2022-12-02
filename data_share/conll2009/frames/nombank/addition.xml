@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="addition">
+<roleset id="addition.01" name="discourse-connective/in-addition-to">
+<roles>
+
+<role descr="supplement" n="1"></role>
+
+<role descr="original" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+That was in addition to $ 34,000 in direct campaign donations
+arranged by Mr. Keating to the Ohio senator .
+</text>
+<arg n="1">That</arg>
+<rel>addition</rel>
+<arg n="2">
+to $ 34,000 in direct campaign donations arranged by Mr. Keating
+to the Ohio senator</arg>
+</example>
+
+<example name="autogen2">
+<text>
+This is in addition to IBM 's existing shelf registration under
+which $ 200 million in debt securities are available for issuance
+.
+</text>
+<arg n="1">This</arg>
+<rel>addition</rel>
+<arg n="2">
+to IBM 's existing shelf registration under which $ 200 million
+in debt securities are available for issuance</arg>
+</example>
+
+</roleset>
+<roleset id="addition.02" name="additional" source="verb-add.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="supplement" n="1"></role>
+
+<role descr="original" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Bankers Trust New York Corp. became the latest major U.S. bank to
+increase reserves for its loans to less-developed countries ,
+making a $ 1.6 billion third-quarter addition to its provision .
+</text>
+<arg n="0">Bankers Trust New York Corp. ---></arg>
+<arg n="Support">making</arg>
+<arg n="1">$ 1.6 billion</arg>
+<arg f="TMP" n="M">third-quarter</arg>
+<rel>addition</rel>
+<arg n="2">to its provision</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 42.7 million addition to loan-loss reserves
+</text>
+<arg n="1">$ 42.7 million</arg>
+<rel>addition</rel>
+<arg n="2">to loan-loss reserves</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

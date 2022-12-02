@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="undertone">
+<roleset id="undertone.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a strong racist undertone to the Giuliani effort
+</text>
+<arg n="2">racist</arg>
+<rel>undertone</rel>
+<arg n="1">to the Giuliani effort</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a brief rescue attempt , with political undertones , including $
+1.77 billion in Federal Reserve loans
+</text>
+<arg n="1">a brief rescue attempt</arg>
+<arg n="2">political</arg>
+<rel>undertones</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

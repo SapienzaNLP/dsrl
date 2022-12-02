@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="masterpiece">
+<roleset id="masterpiece.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Alexander Cockburn 's comic masterpiece
+</text>
+<arg n="0">Alexander Cockburn 's</arg>
+<rel>masterpiece</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his masterpieces
+</text>
+<arg n="0">his</arg>
+<rel>masterpieces</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="attempt">
+<roleset id="attempt.01" name="try" source="verb-attempt.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a management buy-out attempt
+</text>
+<arg n="0">management</arg>
+<arg n="1">buy-out</arg>
+<rel>attempt</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an attempt to speed deficit-reduction through Congress
+</text>
+<rel>attempt</rel>
+<arg f="PRD" n="1">to speed deficit-reduction through Congress</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

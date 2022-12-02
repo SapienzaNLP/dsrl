@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="computing">
+<roleset id="computing.01" name="to calculate" source="verb-compute.01" vncls="26.4">
+<roles>
+
+<role descr="calculator, agent" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="entity calculated" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+<role descr="value" n="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+motion-picture computing
+</text>
+<arg n="1">motion-picture</arg>
+<rel>computing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+`` visual '' computing
+</text>
+<arg n="1">`` visual ''</arg>
+<rel>computing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

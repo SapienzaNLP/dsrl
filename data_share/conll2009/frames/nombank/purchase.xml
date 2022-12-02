@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="purchase">
+<roleset id="purchase.01" name="buy" source="verb-purchase.01" vncls="13.5.2-1">
+<roles>
+
+<role descr="purchaser" n="0">
+<vnrole vncls="13.5.2-1" vntheta="Agent"/></role>
+
+<role descr="thing purchased" n="1">
+<vnrole vncls="13.5.2-1" vntheta="Theme"/></role>
+
+<role descr="seller" n="2">
+<vnrole vncls="13.5.2-1" vntheta="Source"/></role>
+
+<role descr="price paid" n="3">
+<vnrole vncls="13.5.2-1" vntheta="Asset"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+General Electric Co. 's rail-car leasing unit completed the $
+178.5 million purchase of similar businesses from Leucadia
+National Corp. and Brae Corp. , 74%-owned by Leucadia
+</text>
+<arg n="0">General Electric Co. 's rail-car leasing unit</arg>
+<arg n="Support">completed</arg>
+<arg n="3">$ 178.5 million</arg>
+<rel>purchase</rel>
+<arg n="1">of similar businesses</arg>
+<arg n="2">
+from Leucadia National Corp. and Brae Corp. , 74%-owned by
+Leucadia</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its $ 750 million purchase of a 15 % stake in UAL
+</text>
+<arg n="0">its</arg>
+<arg n="3">$ 750 million</arg>
+<rel>purchase</rel>
+<arg n="1">of a 15 % stake in UAL</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="finding">
+<roleset id="finding.01" name="discovery" source="verb-find.01" vncls="29.4">
+<roles>
+
+<role descr="finder" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="thing found" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="beneficiary, found for" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+State engineers have made a preliminary finding that it was
+failure of the concrete columns , wrenched and separated from the
+double-decker roadbed , that was responsible for the collapse .
+</text>
+<arg n="0">State engineers</arg>
+<arg n="Support">made</arg>
+<arg f="TMP" n="M">preliminary</arg>
+<rel>finding</rel>
+<arg n="1">
+that it was failure of the concrete columns , wrenched and
+separated from the double-decker roadbed , that was responsible
+for the collapse</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Her findings ?
+</text>
+<arg n="0">Her</arg>
+<arg f="REF" n="1">findings</arg>
+<rel>findings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

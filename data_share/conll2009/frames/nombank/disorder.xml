@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disorder">
+<roleset id="disorder.01" name="attribute/disease">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+They suffered from malnutrition , chest diseases , cardiovascular
+disorders , skin problems , infectious diseases and the
+aftereffects of assaults and rape .
+</text>
+<arg n="0">They</arg>
+<arg n="Support">suffered from</arg>
+<arg n="1">cardiovascular</arg>
+<arg f="REF" n="2">disorders</arg>
+<rel>disorders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an inherited human disorder
+</text>
+<arg n="0">human</arg>
+<arg f="REF" n="2">disorder</arg>
+<rel>disorder</rel>
+</example>
+
+</roleset>
+<roleset id="disorder.02" name="attribute/nomadj-disorderly">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the `` great disorder '' that reigned at the agency
+</text>
+<arg n="2">great</arg>
+<rel>disorder</rel>
+<arg n="Support">reigned</arg>
+<arg n="1">at the agency</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the market disorder
+</text>
+<arg n="1">market</arg>
+<arg f="REF" n="2">disorder</arg>
+<rel>disorder</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

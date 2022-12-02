@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hesitation">
+<roleset id="hesitation.01" name="hesitate" source="verb-hesitate.01" vncls="53.1">
+<roles>
+
+<role descr="hesitator" n="0">
+<vnrole vncls="53.1" vntheta="Agent"/></role>
+
+<role descr="secondary action" n="1">
+<vnrole vncls="53.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+I 'd take baseball 's Flying Scot without hesitation
+</text>
+<arg n="0">I</arg>
+<arg n="1">'d take baseball 's Flying Scot</arg>
+<arg f="NEG" n="M">without</arg>
+<rel>hesitation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+After years of hesitation , economic and political reform was
+embraced at the end of 1986 , but ringing declarations have yet
+to be translated into much action .
+</text>
+<rel>hesitation</rel>
+<arg n="1">economic and political reform was embraced at the end of 1986</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

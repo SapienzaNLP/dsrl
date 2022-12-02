@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="terrorism">
+<roleset id="terrorism.01" name="nomlike" source="verb-attack.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+terrorism and acts of war against civilians
+</text>
+<rel>terrorism</rel>
+<arg n="1">against civilians</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Palestinian terrorism
+</text>
+<arg n="0">Palestinian</arg>
+<rel>terrorism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

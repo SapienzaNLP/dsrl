@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="malnourishment">
+<roleset id="malnourishment.01" name="nomlike" source="verb-abuse.01" vncls="33">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="entity abused" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+thousands of conscript laborers to die of malaria and
+malnourishment while building Cambodia 's equivalent of the
+Berlin Wall near the Thai border
+</text>
+<arg n="1">thousands of conscript laborers</arg>
+<arg n="Support">die of</arg>
+<rel>malnourishment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

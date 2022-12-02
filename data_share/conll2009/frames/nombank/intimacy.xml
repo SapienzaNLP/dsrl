@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="intimacy">
+<roleset id="intimacy.01" name="nomadj-intimate">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="actor2" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` Carl has a much higher degree of intimacy with his clients
+than is ordinary for an agency his size .
+</text>
+<arg n="0">Carl</arg>
+<arg n="Support">has degree of</arg>
+<rel>intimacy</rel>
+<arg n="1">with his clients</arg>
+</example>
+
+</roleset>
+<roleset id="intimacy.02" name="attribute/nomadj-intimate">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the crowded wild intimacy of Yankee Stadium
+</text>
+<arg n="2">crowded</arg>
+<rel>intimacy</rel>
+<arg n="1">of Yankee Stadium</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

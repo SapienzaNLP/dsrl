@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="screening">
+<roleset id="screening.01" name="to test, examine, sort" source="verb-screen.01">
+<roles>
+
+<role descr="tester, examiner" n="0"></role>
+
+<role descr="entity screened" n="1"></role>
+
+<role descr="screened for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+medical screening
+</text>
+<arg f="PNC" n="M">medical</arg>
+<rel>screening</rel>
+</example>
+
+<example name="autogen2">
+<text>
+no proper monitoring and screening of the use of these funds
+</text>
+<rel>screening</rel>
+<arg n="1">of the use of these funds</arg>
+</example>
+
+</roleset>
+<roleset id="screening.02" name="show a movie" source="verb-screen.03">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="movie" n="1"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+Tuesday's screening of a documentary about carrots
+</text>
+<arg f="TMP" n="M">Tuesday's</arg>
+<rel>screening</rel>
+<arg n="1">of a documentary about carrots</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

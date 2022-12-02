@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="functionary">
+<roleset id="functionary.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+government functionaries
+</text>
+<arg n="1">government</arg>
+<arg n="0">functionaries</arg>
+<rel>functionaries</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his fellow party functionaries
+</text>
+<arg n="1">party</arg>
+<arg n="0">functionaries</arg>
+<rel>functionaries</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

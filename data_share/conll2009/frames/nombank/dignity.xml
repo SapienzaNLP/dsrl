@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dignity">
+<roleset id="dignity.01" name="attribute/nomadj-dignified">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to ask oneself -- what dignity is there in that
+</text>
+<arg n="2">what</arg>
+<rel>dignity</rel>
+<arg n="1">in that</arg>
+</example>
+
+<example name="autogen2">
+<text>
+my dignity
+</text>
+<arg n="1">my</arg>
+<arg f="REF" n="2">dignity</arg>
+<rel>dignity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

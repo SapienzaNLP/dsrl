@@ -1,0 +1,98 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="movement">
+<roleset id="movement.01" name="change location" source="verb-move.01" vncls="11.2">
+<roles>
+
+<role descr="mover" n="0">
+<vnrole vncls="11.2" vntheta="Agent"/></role>
+
+<role descr="moved" n="1">
+<vnrole vncls="11.2" vntheta="Theme"/></role>
+
+<role descr="destination" n="2">
+<vnrole vncls="11.2" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the movement of young cattle onto feedlots in the month of
+September in seven big ranch states
+</text>
+<rel>movement</rel>
+<arg n="1">of young cattle</arg>
+<arg n="2">onto feedlots</arg>
+<arg f="TMP" n="M">in the month of September</arg>
+<arg f="LOC" n="M">in seven big ranch states</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a series of sell lists hit the Street and capped upward price
+movement in the sector
+</text>
+<arg n="0">a series of sell lists</arg>
+<arg n="Support">capped</arg>
+<arg n="1">price</arg>
+<rel>movement</rel>
+<arg f="LOC" n="M">in the sector</arg>
+</example>
+
+</roleset>
+<roleset id="movement.02" name="take measures" source="verb-move.02">
+<roles>
+
+<role descr="mover" n="0"></role>
+
+<role descr="measures" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+diplomatic movement
+</text>
+<arg n="1">diplomatic</arg>
+<rel>movement</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his movements
+</text>
+<arg n="0">his</arg>
+<rel>movements</rel>
+</example>
+
+</roleset>
+<roleset id="movement.03" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the liberation movement
+</text>
+<arg n="1">liberation</arg>
+<rel>movement</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their own movement
+</text>
+<arg n="2">their</arg>
+<rel>movement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

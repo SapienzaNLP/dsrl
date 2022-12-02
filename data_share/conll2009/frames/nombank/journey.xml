@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="journey">
+<roleset id="journey.01" name="travel" source="verb-travel.01" vncls="51.3.2">
+<roles>
+
+<role descr="traveller" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="destination or path" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+I drove the 13 miles to my law office and endured the routine
+heavy traffic during that twice-daily journey
+</text>
+<arg n="0">I</arg>
+<arg f="TMP" n="M">twice-daily</arg>
+<rel>journey</rel>
+</example>
+
+<example name="autogen2">
+<text>
+those with federal court ambitions must travel a safe
+constitutional journey , with no paper trail and no bite to their
+tongue or pen
+</text>
+<arg n="0">those with federal court ambitions</arg>
+<arg n="Support">travel</arg>
+<rel>journey</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

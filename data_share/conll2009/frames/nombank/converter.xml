@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="converter">
+<roleset id="converter.01" name="transform" source="verb-convert.01" vncls="26.6">
+<roles>
+
+<role descr="causer of transformation" n="0">
+<vnrole vncls="26.6" vntheta="Agent"/></role>
+
+<role descr="thing changing" n="1">
+<vnrole vncls="26.6" vntheta="Patient"/></role>
+
+<role descr="end state" n="2">
+<vnrole vncls="26.6" vntheta="Product"/></role>
+
+<role descr="start state" n="3">
+<vnrole vncls="26.6" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a converter that can transform conventional motion-picture film
+into high-definition video
+</text>
+<arg n="0">converter</arg>
+<rel>converter</rel>
+<arg n="Support">transform</arg>
+<arg n="1">conventional motion-picture film</arg>
+<arg n="2">into high-definition video</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the prototype converter
+</text>
+<arg n="1">prototype</arg>
+<arg n="0">converter</arg>
+<rel>converter</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

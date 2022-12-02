@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="road">
+<roleset id="road.01" name="travel" source="verb-travel.01" vncls="51.3.2">
+<roles>
+
+<role descr="traveller" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="destination or path" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+the road to being a grand-prize winner
+</text>
+<rel>road</rel>
+<arg n="1">to being a grand-prize winner</arg>
+</example>
+
+<example name="autogen3">
+<text>
+non-interstate roads
+</text>
+<arg n="1">non-interstate</arg>
+<rel>roads</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tail">
+<roleset id="tail.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their own tail
+</text>
+<arg n="1">their</arg>
+<rel>tail</rel>
+</example>
+
+<example name="autogen2">
+<text>
+horses ' tails
+</text>
+<arg n="1">horses '</arg>
+<rel>tails</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

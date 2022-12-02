@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mouth">
+<roleset id="mouth.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the mouth of the Gulf
+</text>
+<rel>mouth</rel>
+<arg n="1">of the Gulf</arg>
+</example>
+
+<example name="autogen2">
+<text>
+her mouth
+</text>
+<arg n="1">her</arg>
+<rel>mouth</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

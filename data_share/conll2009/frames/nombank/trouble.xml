@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trouble">
+<roleset id="trouble.01" name="upset slightly" source="verb-trouble.01" vncls="31.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="patient" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument or manner" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Anheuser 's entry into the fray means near-term earnings trouble
+for all the industry players
+</text>
+<arg n="0">Anheuser 's entry into the fray</arg>
+<arg n="Support">means</arg>
+<arg f="TMP" n="M">near-term</arg>
+<arg n="2">earnings</arg>
+<rel>trouble</rel>
+<arg n="1">for all the industry players</arg>
+</example>
+
+<example name="autogen2">
+<text>
+UAL 's troubles in financing its buy-out
+</text>
+<arg n="1">UAL 's</arg>
+<arg f="REF" n="2">troubles</arg>
+<rel>troubles</rel>
+<arg n="0">in financing its buy-out</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

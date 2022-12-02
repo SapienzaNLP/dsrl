@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consensus">
+<roleset id="consensus.01" name="agree" source="verb-agree.01">
+<roles>
+
+<role descr="agreer" n="0"></role>
+
+<role descr="proposition" n="1"></role>
+
+<role descr="other entity agreeing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an international consensus on freeing up the international steel
+trade , which has been notoriously managed , subsidized and
+protected by governments
+</text>
+<arg n="0">international</arg>
+<rel>consensus</rel>
+<arg n="1">
+on freeing up the international steel trade , which has been
+notoriously managed , subsidized and protected by governments</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the market consensus
+</text>
+<arg n="1">market</arg>
+<rel>consensus</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="changeover">
+<roleset id="changeover.01" name="transform" source="verb-change.01" vncls="26.6">
+<roles>
+
+<role descr="causer of transformation" n="0">
+<vnrole vncls="26.6" vntheta="Agent"/></role>
+
+<role descr="thing changing" n="1">
+<vnrole vncls="26.6" vntheta="Patient"/></role>
+
+<role descr="end state" n="2">
+<vnrole vncls="26.6" vntheta="Product"/></role>
+
+<role descr="start state" n="3">
+<vnrole vncls="26.6" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a changeover to a fiscal year ending March 31 , replacing the
+12-month term formerly finishing Sept. 30
+</text>
+<rel>changeover</rel>
+<arg n="2">to a fiscal year ending March 31</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sister">
+<roleset id="sister.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its sister station
+</text>
+<arg n="1">its</arg>
+<arg n="0">sister</arg>
+<rel>sister</rel>
+</example>
+
+<example name="autogen2">
+<text>
+CNN 's sister network
+</text>
+<arg n="1">CNN 's</arg>
+<arg n="0">sister</arg>
+<rel>sister</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

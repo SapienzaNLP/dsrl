@@ -1,0 +1,176 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="face">
+<roleset id="face.01" name="attribute/looks/appearance">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The lucky ones gaze out at life with serene eyes and smile with a
+face of innocence at their perfumed happiness .
+</text>
+<arg n="1">The lucky ones</arg>
+<rel>face</rel>
+<arg n="2">of innocence</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A DLJ banker , putting a best possible face on it ,
+</text>
+<arg n="Support">putting</arg>
+<arg n="2">best possible</arg>
+<rel>face</rel>
+<arg n="1">on it</arg>
+</example>
+
+</roleset>
+<roleset id="face.02" name="partitive-part/meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Huntz Hall 's face
+</text>
+<arg n="1">Huntz Hall 's</arg>
+<rel>face</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their face
+</text>
+<arg n="1">their</arg>
+<rel>face</rel>
+</example>
+
+</roleset>
+<roleset id="face.03" name="in the face of" source="verb-experience.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the union is too passive in the face of GM layoffs
+</text>
+<arg n="0">the union</arg>
+<rel>face</rel>
+<arg n="1">of GM layoffs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the face of high interest rates
+</text>
+<rel>face</rel>
+<arg n="1">of high interest rates</arg>
+</example>
+
+</roleset>
+<roleset id="face.04" name="nomadj-surface">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen8">
+<text>
+$ 850 face amount
+</text>
+<rel>face</rel>
+<arg n="1">amount</arg>
+</example>
+
+<example name="autogen10">
+<text>
+$ 9 face amount
+</text>
+<rel>face</rel>
+<arg n="1">amount</arg>
+</example>
+
+</roleset>
+<roleset id="face.05" name="about-face" source="verb-rethink.01">
+<roles>
+
+<role descr="rethinker/experiencer" n="0"></role>
+
+<role descr="opinion/theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the creditors to do an about-face on exploring alternatives to
+Eastern 's new reorganization plan
+</text>
+<arg n="0">the creditors</arg>
+<arg n="Support">do</arg>
+<rel>about-face</rel>
+<arg n="1">on exploring alternatives to Eastern 's new reorganization plan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Kidder made an abrupt about-face on program trading yesterday ,
+after a special meeting between the firm 's president and chief
+executive officer , Michael Carpenter , and its senior managers .
+</text>
+<arg n="0">Kidder</arg>
+<arg n="Support">made</arg>
+<arg f="MNR" n="M">abrupt</arg>
+<rel>about-face</rel>
+<arg n="1">on program trading</arg>
+</example>
+
+</roleset>
+<roleset id="face.06" name="fly-in-the-face" source="verb-contradict.01">
+<roles>
+
+<role descr="contradictor" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+earnings advanced `` in the face of a drop in business , brought
+on by the general economic slowdown
+</text>
+<arg n="0">earnings advanced</arg>
+<rel>face</rel>
+<arg n="1">
+of a drop in business , brought on by the general economic
+slowdown</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the recent decline in copper stocks was misleading in the face of
+a slowdown in manufacturing
+</text>
+<arg n="0">the recent decline in copper stocks</arg>
+<rel>face</rel>
+<arg n="1">of a slowdown in manufacturing</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

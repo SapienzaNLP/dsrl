@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lyric">
+<roleset id="lyric.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Beatles lyrics
+</text>
+<arg n="0">Beatles</arg>
+<rel>lyrics</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Lyrics from `` Ghostbusters '' by Ray S. Parker Jr. 1984 by
+Golden Torch Music Corp. -LRB- ASCAP -RRB- and Raydiola Music
+-LRB- ASCAP -RRB- .
+</text>
+<rel>Lyrics</rel>
+<arg n="1">from `` Ghostbusters ''</arg>
+<arg n="0">by Ray S. Parker Jr.</arg>
+<arg f="TMP" n="M">1984</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

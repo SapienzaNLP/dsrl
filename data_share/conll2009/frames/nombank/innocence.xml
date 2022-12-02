@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="innocence">
+<roleset id="innocence.01" name="nomadj-innocent/ability">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's attempt to purchase innocence by association
+</text>
+<arg n="0">the company 's ---> *</arg>
+<arg n="Support">purchase</arg>
+<rel>innocence</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a face of innocence
+</text>
+<arg n="0">a face</arg>
+<rel>innocence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

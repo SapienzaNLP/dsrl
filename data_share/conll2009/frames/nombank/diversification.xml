@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="diversification">
+<roleset id="diversification.01" name="become diverse" source="verb-diversify.01">
+<roles>
+
+<role descr="thing becoming diverse" n="0"></role>
+
+<role descr="destination" n="1"></role>
+
+<role descr="source, start point" n="2"></role>
+
+<role descr="causal agent" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its diversifications
+</text>
+<arg n="0">its</arg>
+<arg f="REF" n="1">diversifications</arg>
+<rel>diversifications</rel>
+</example>
+
+<example name="autogen2">
+<text>
+They 're thrashing around for diversification
+</text>
+<arg n="0">They</arg>
+<rel>diversification</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

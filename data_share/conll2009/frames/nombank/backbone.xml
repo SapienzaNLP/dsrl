@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="backbone">
+<roleset id="backbone.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+America 's backbone
+</text>
+<arg n="1">America 's</arg>
+<arg n="0">backbone</arg>
+<rel>backbone</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the backbone of the fund business
+</text>
+<arg n="0">backbone</arg>
+<rel>backbone</rel>
+<arg n="1">of the fund business</arg>
+</example>
+
+</roleset>
+<roleset id="backbone.02" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a little worm with a backbone called Pikaia
+</text>
+<arg n="1">a little worm</arg>
+<rel>backbone</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aftereffect">
+<roleset id="aftereffect.01" name="have an effect on" source="verb-affect.01" vncls="31.1">
+<roles>
+
+<role descr="thing affecting--animate only" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="thing affected" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+THE NORTHEAST office market is feeling serious aftereffects of
+the giddy overbuilding of the 1980s .
+</text>
+<arg n="1">THE NORTHEAST office market</arg>
+<arg n="Support">feeling</arg>
+<rel>aftereffects</rel>
+<arg n="0">of the giddy overbuilding of the 1980s</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Aftereffects of the 1987 stock market crash
+</text>
+<rel>Aftereffects</rel>
+<arg n="0">of the 1987 stock market crash</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

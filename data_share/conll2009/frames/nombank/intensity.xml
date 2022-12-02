@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="intensity">
+<roleset id="intensity.01" name="attribute/nomadj-intense">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her intensity
+</text>
+<arg n="1">her</arg>
+<arg f="REF" n="2">intensity</arg>
+<rel>intensity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a trademark `` I'm-coming-down-your-throat '' intensity
+</text>
+<arg n="2">I'm-coming-down-your-throat</arg>
+<rel>intensity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

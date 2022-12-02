@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="critique">
+<roleset id="critique.01" name="work-of-art/nom" source="verb-criticize.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a dramatic critique of them
+</text>
+<rel>critique</rel>
+<arg n="1">of them</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a critique of middle-class mores
+</text>
+<rel>critique</rel>
+<arg n="1">of middle-class mores</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

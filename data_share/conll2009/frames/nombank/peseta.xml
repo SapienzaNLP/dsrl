@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="peseta">
+<roleset id="peseta.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+10 billion pesetas of 11.6 % bonds due Nov. 30 , 1994 , priced at
+101 5/8 to yield 11.6 % less full fees , via Citibank -LRB-
+Madrid -RRB- and Banco Espanol de Credito , Spain
+</text>
+<rel>pesetas</rel>
+<arg n="1">of 11.6 % bonds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

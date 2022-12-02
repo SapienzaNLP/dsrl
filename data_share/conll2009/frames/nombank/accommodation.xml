@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accommodation">
+<roleset id="accommodation.01" name="allow, be helpful" source="verb-accommodate.01">
+<roles>
+
+<role descr="accommodater" n="0"></role>
+
+<role descr="thing accommodated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Bush administration was seeking an accommodation with the
+Soviets in Central America
+</text>
+<arg n="0">the Bush administration</arg>
+<arg n="Support">seeking</arg>
+<rel>accommodation</rel>
+<arg n="1">with the Soviets</arg>
+<arg f="LOC" n="M">in Central America</arg>
+</example>
+
+<example name="autogen2">
+<text>
+other accommodations to gardening reality
+</text>
+<rel>accommodations</rel>
+<arg n="1">to gardening reality</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

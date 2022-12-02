@@ -1,0 +1,107 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="heat">
+<roleset id="heat.01" name="attribute/nomadj-hot">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+the excess heat
+</text>
+<arg n="2">excess</arg>
+<rel>heat</rel>
+</example>
+
+<example name="autogen3">
+<text>
+1.0 to 1.5 watts more heat
+</text>
+<arg n="2">1.0 to 1.5 watts</arg>
+<rel>heat</rel>
+</example>
+
+</roleset>
+<roleset id="heat.02" name="assign culpability" source="verb-blame.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But he has been getting heat from all sides over program trading
+.
+</text>
+<arg n="2">he</arg>
+<arg n="Support">getting</arg>
+<rel>heat</rel>
+<arg n="0">from all sides</arg>
+<arg n="1">over program trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he will take some heat
+</text>
+<arg n="2">he</arg>
+<arg n="Support">take</arg>
+<rel>heat</rel>
+</example>
+
+</roleset>
+<roleset id="heat.03" name="nomlike" source="verb-pressure.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+just those kinds of ultimatums that last week succeeded in
+turning up the heat in the debate
+</text>
+<arg n="0">just those kinds ---> that ---> *T*-1 ---> *-2</arg>
+<arg n="Support">turning</arg>
+<rel>heat</rel>
+<arg n="1">in the debate</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Compaq Computer Corp. 's long-awaited entry today into the
+notebook field is expected to put immediate heat on others in the
+market , especially Zenith Electronics Corp. , the current market
+leader , and on a swarm of promising start-ups .
+</text>
+<arg n="0">
+Compaq Computer Corp. 's long-awaited entry today into the
+notebook field ---> *-1</arg>
+<arg n="Support">put</arg>
+<arg f="TMP" n="M">immediate</arg>
+<rel>heat</rel>
+<arg n="2">
+on others in the market , especially Zenith Electronics Corp. ,
+the current market leader , and on a swarm of promising start-ups</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

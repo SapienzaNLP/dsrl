@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="column">
+<roleset id="column.01" name="version">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary/periodical" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his November column for the Journal of the Air and Waste
+Management Association
+</text>
+<arg n="0">his</arg>
+<arg f="TMP" n="M">November</arg>
+<rel>column</rel>
+<arg n="2">for the Journal of the Air and Waste Management Association</arg>
+</example>
+
+<example name="autogen2">
+<text>
+George Melloan 's Business World column
+</text>
+<arg n="0">George Melloan 's</arg>
+<arg n="1">Business World</arg>
+<rel>column</rel>
+</example>
+
+</roleset>
+<roleset id="column.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+columns of heavy black smoke
+</text>
+<rel>columns</rel>
+<arg n="1">of heavy black smoke</arg>
+</example>
+
+</roleset>
+<roleset id="column.03" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the columns of a 1.5-mile stretch of the Nimitz Freeway
+</text>
+<rel>columns</rel>
+<arg n="1">of a 1.5-mile stretch of the Nimitz Freeway</arg>
+</example>
+
+<example name="autogen2">
+<text>
+freeway columns
+</text>
+<arg n="1">freeway</arg>
+<rel>columns</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

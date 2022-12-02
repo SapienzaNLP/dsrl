@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="outlook">
+<roleset id="outlook.01" name="tell the future" source="verb-predict.01">
+<roles>
+
+<role descr="fortune teller" n="0"></role>
+
+<role descr="prediction" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the U.K. economic outlook
+</text>
+<arg n="0">U.K.</arg>
+<arg n="1">economic</arg>
+<rel>outlook</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the outlook for corporate profits
+</text>
+<rel>outlook</rel>
+<arg n="1">for corporate profits</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

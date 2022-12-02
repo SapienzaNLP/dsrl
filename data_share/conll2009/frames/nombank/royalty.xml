@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="royalty">
+<roleset id="royalty.01" name="wages" source="verb-earn.01" vncls="13.5.1">
+<roles>
+
+<role descr="earner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="wages" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his ex-wife 's royalties on her tell-all book
+</text>
+<arg n="0">his ex-wife 's</arg>
+<arg f="REF" n="1">royalties</arg>
+<rel>royalties</rel>
+<arg n="3">on her tell-all book</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Jerell paid Ms. Garratt royalties for the line known as Multiples
+by Sandra Garratt , which are sold primarily through department
+stores .
+</text>
+<arg n="Support">paid</arg>
+<arg n="0">Ms. Garratt</arg>
+<arg f="REF" n="1">royalties</arg>
+<rel>royalties</rel>
+<arg n="3">
+for the line known as Multiples by Sandra Garratt , which are
+sold primarily through department stores</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

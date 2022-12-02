@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="subsidy">
+<roleset id="subsidy.01" name="to assist or support with a subsidy" source="verb-subsidize.01">
+<roles>
+
+<role descr="assister, agent" n="0"></role>
+
+<role descr="entity subsidized" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Federal subsidies to college students
+</text>
+<arg n="0">Federal</arg>
+<rel>subsidies</rel>
+<arg n="1">to college students</arg>
+</example>
+
+<example name="autogen2">
+<text>
+pork subsidies
+</text>
+<arg n="1">pork</arg>
+<rel>subsidies</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

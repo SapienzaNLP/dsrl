@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fun">
+<roleset id="fun.01" name="nomadj-fun/nomlike" source="verb-enjoy.01" vncls="31.2">
+<roles>
+
+<role descr="enjoyer" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="thing enjoyed" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+They had fun moving the carriers around
+</text>
+<arg n="0">They</arg>
+<arg n="Support">had</arg>
+<rel>fun</rel>
+<arg n="1">moving the carriers around</arg>
+</example>
+
+<example name="autogen2">
+<text>
+self-employment without fun or profit
+</text>
+<arg n="1">self-employment</arg>
+<arg f="NEG" n="M">without</arg>
+<rel>fun</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

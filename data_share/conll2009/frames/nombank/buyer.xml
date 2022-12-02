@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="buyer">
+<roleset id="buyer.01" name="purchase" source="verb-buy.01" vncls="13.5.1">
+<roles>
+
+<role descr="buyer" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing bought" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="seller" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="price paid" n="3">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he could sell Fujis to Taiwan buyers at $ 40 a box if he had them
+</text>
+<arg n="2">he</arg>
+<arg n="Support">sell to</arg>
+<arg n="1">Fujis</arg>
+<arg f="LOC" n="M">Taiwan</arg>
+<arg n="0">buyers</arg>
+<rel>buyers</rel>
+<arg n="3">at $ 40 a box</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the cost for car buyers
+</text>
+<arg n="3">the cost</arg>
+<arg n="1">car</arg>
+<arg n="0">buyers</arg>
+<rel>buyers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

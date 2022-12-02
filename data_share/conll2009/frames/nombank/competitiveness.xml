@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="competitiveness">
+<roleset id="competitiveness.01" name="nomadj-competitive">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the competitiveness of the television market
+</text>
+<rel>competitiveness</rel>
+<arg n="1">of the television market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the country 's competitiveness
+</text>
+<arg n="0">the country 's</arg>
+<rel>competitiveness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

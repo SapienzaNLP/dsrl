@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="warning">
+<roleset id="warning.01" name="give a warning" source="verb-warn.01" vncls="37.9-1">
+<roles>
+
+<role descr="entity giving warning" n="0">
+<vnrole vncls="37.9-1" vntheta="Agent"/></role>
+
+<role descr="warning, impelled action" n="1">
+<vnrole vncls="37.9-1" vntheta="Topic"/></role>
+
+<role descr="entity getting warning, impelled agent" n="2">
+<vnrole vncls="37.9-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a warning from New York state Comptroller Edward Regan that the
+1987 crash seriously weakened the city 's economy
+</text>
+<rel>warning</rel>
+<arg n="0">from New York state Comptroller Edward Regan</arg>
+<arg f="PRD" n="1">that the 1987 crash seriously weakened the city 's economy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In an apparent warning to currency traders who have lately been
+selling the British currency , he stated that the exchange rates
+will have a `` major role in the assessment of monetary
+conditions . ''
+</text>
+<arg f="ADV" n="M">apparent</arg>
+<arg f="REF" n="1">warning</arg>
+<rel>warning</rel>
+<arg n="2">
+to currency traders who have lately been selling the British
+currency</arg>
+<arg n="0">he</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

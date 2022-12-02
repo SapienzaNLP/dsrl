@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tremblor">
+<roleset id="tremblor.01" name="event">
+<roles>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 1971 tremblor in Southern California , when numerous bridges
+collapsed
+</text>
+<arg f="TMP" n="M">1971</arg>
+<rel>tremblor</rel>
+<arg f="LOC" n="M">in Southern California</arg>
+<arg f="TMP" n="M">when numerous bridges collapsed</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="idiocy">
+<roleset id="idiocy.01" name="nomadj-idiotic">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the `` idiocy of notions of protected groups in society '' as
+opposed to individual equality or , as he put it , in `` a common
+destiny as Americans
+</text>
+<rel>idiocy</rel>
+<arg n="1">
+of notions of protected groups in society '' as opposed to
+individual equality or , as he put it , in `` a common destiny as
+Americans</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

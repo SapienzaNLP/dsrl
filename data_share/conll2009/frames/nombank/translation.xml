@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="translation">
+<roleset id="translation.01" name="change (language" source="verb-translate.01">
+<roles>
+
+<role descr="causer of transformation" n="0"></role>
+
+<role descr="thing changing" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+translations of weaker foreign currencies into the stronger U.S.
+dollar
+</text>
+<rel>translations</rel>
+<arg n="1">of weaker foreign currencies</arg>
+<arg n="2">into the stronger U.S. dollar</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Wilbur 's translation
+</text>
+<arg n="0">Mr. Wilbur 's</arg>
+<arg f="REF" n="2">translation</arg>
+<rel>translation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

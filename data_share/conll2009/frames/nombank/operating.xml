@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="operating">
+<roleset id="operating.01" name="cf work" source="verb-operate.01" vncls="45.4">
+<roles>
+
+<role descr="agent, operator" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing operated" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="explicit patient (thing operated on" n="2"></role>
+
+<role descr="explicit role" n="3"></role>
+
+<role descr="explicit instrument (with or on, ususally" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+chief operating officer of FirstSouth
+</text>
+<rel>operating</rel>
+<arg n="0">officer</arg>
+<arg n="1">of FirstSouth</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its operating cash flow
+</text>
+<arg n="0">its</arg>
+<rel>operating</rel>
+<arg n="4">cash flow</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

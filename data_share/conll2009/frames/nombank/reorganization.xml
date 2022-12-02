@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reorganization">
+<roleset id="reorganization.01" name="make organized again" source="verb-reorganize.01">
+<roles>
+
+<role descr="organizer" n="0"></role>
+
+<role descr="thing organized" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="previous state" n="3"></role>
+
+<role descr="end state" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its proposed reorganization of founder Seymour Cray 's
+supercomputer design team into a separate company
+</text>
+<arg n="0">its</arg>
+<rel>reorganization</rel>
+<arg n="1">of founder Seymour Cray 's supercomputer design team</arg>
+<arg n="4">into a separate company</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its proposed reorganization
+</text>
+<arg n="1">its</arg>
+<rel>reorganization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

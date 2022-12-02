@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="segregation">
+<roleset id="segregation.01" name="separate" source="verb-segregate.01" vncls="23.1">
+<roles>
+
+<role descr="entity causing separation" n="0">
+<vnrole vncls="23.1" vntheta="Agent"/></role>
+
+<role descr="whole" n="1"></role>
+
+<role descr="pieces" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+racial segregation
+</text>
+<arg f="CAU" n="M">racial</arg>
+<rel>segregation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+complete and total segregation
+</text>
+<arg f="MNR" n="M">complete and total</arg>
+<rel>segregation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

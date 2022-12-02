@@ -1,0 +1,19 @@
+{
+    "ARGM-ADJ": "adjectival modifier",
+    "ARGM-ADV": "adverbial modifier",
+    "ARGM-CAU": "cause or reason",
+    "ARGM-COM": "comitative",
+    "ARGM-DIR": "direction or source",
+    "ARGM-DIS": "discourse connective",
+    "ARGM-EXT": "amount or extent",
+    "ARGM-GOL": "goal or destination",
+    "ARGM-LOC": "location or position",
+    "ARGM-LVB": "light verb",
+    "ARGM-MNR": "instrument or manner",
+    "ARGM-MOD": "modal auxiliary",
+    "ARGM-NEG": "negation marker",
+    "ARGM-PNC": "purpose, not cause",
+    "ARGM-PRD": "secondary predication",
+    "ARGM-PRP": "purpose or motivation",
+    "ARGM-TMP": "time or duration"
+}

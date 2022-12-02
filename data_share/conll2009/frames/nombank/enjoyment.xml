@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="enjoyment">
+<roleset id="enjoyment.01" name="take pleasure from" source="verb-enjoy.01" vncls="31.2">
+<roles>
+
+<role descr="enjoyer" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="thing enjoyed" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they exercise both for health and enjoyment
+</text>
+<arg n="0">they</arg>
+<rel>enjoyment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

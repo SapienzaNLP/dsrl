@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="negative">
+<roleset id="negative.01" name="attribute/nomadj-negative">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+headline negatives
+</text>
+<arg n="1">headline</arg>
+<arg f="REF" n="2">negatives</arg>
+<rel>negatives</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Dinkins 's negatives
+</text>
+<arg n="1">Dinkins 's</arg>
+<arg f="REF" n="2">negatives</arg>
+<rel>negatives</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

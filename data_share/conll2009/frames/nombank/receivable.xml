@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="receivable">
+<roleset id="receivable.01" name="get" source="verb-receive.01" vncls="13.5.2">
+<roles>
+
+<role descr="receiver" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing gotten" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="received from" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="price, in exchange for" n="3"></role>
+
+<role descr="attribute of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its Lone Star Steel Co. unit sued it in federal court here ,
+seeking to recover an intercompany receivable valued at a minimum
+of $ 23 million
+</text>
+<arg n="0">its Lone Star Steel Co. unit ---> *-1 ---> *-2</arg>
+<arg n="Support">recover</arg>
+<arg n="2">intercompany</arg>
+<arg n="1">receivable</arg>
+<rel>receivable</rel>
+<arg n="Support">valued</arg>
+<arg n="4">at a minimum of $ 23 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Citibank credit-card receivables offering
+</text>
+<arg n="0">Citibank</arg>
+<arg n="2">credit-card</arg>
+<arg n="1">receivables</arg>
+<rel>receivables</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

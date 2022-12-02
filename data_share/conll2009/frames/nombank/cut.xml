@@ -1,0 +1,85 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cut">
+<roleset id="cut.01" name="slice" source="verb-cut.01" vncls="41.2.2">
+<roles>
+
+<role descr="cutter" n="0">
+<vnrole vncls="41.2.2" vntheta="Agent"/></role>
+
+<role descr="thing cut" n="1">
+<vnrole vncls="41.2.2" vntheta="Patient"/></role>
+
+<role descr="medium, source" n="2">
+<vnrole vncls="23.2" vntheta="Material"/></role>
+
+<role descr="instrument" n="3">
+<vnrole vncls="21.1" vntheta="Instrument"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Canada , which is preparing to speed up tariff cuts with the U.S.
+,
+</text>
+<arg n="0">Canada ---> *T*-1 ---> *-2</arg>
+<arg n="Support">speed</arg>
+<arg n="1">tariff</arg>
+<rel>cuts</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The injured , including three in critical condition , were
+treated for burns , breathing problems and cuts from flying glass
+</text>
+<arg n="1">The injured , including three in critical condition , ---> *-1</arg>
+<arg n="Support">treated for</arg>
+<rel>cuts</rel>
+<arg n="0">from flying glass</arg>
+</example>
+
+</roleset>
+<roleset id="cut.02" name="reduce" source="verb-cut.02" vncls="21.1">
+<roles>
+
+<role descr="cutter" n="0">
+<vnrole vncls="21.1" vntheta="Agent"/></role>
+
+<role descr="thing reduced" n="1">
+<vnrole vncls="21.1" vntheta="Patient"/></role>
+
+<role descr="amount reduced by" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The cut in the dividend to 10 cents a share semiannually , from
+20 cents ,
+</text>
+<rel>cut</rel>
+<arg n="1">in the dividend</arg>
+<arg n="4">to 10 cents a share semiannually , from 20 cents ,</arg>
+<arg n="3">from 20 cents</arg>
+</example>
+
+<example name="autogen2">
+<text>
+government funding cuts
+</text>
+<arg n="0">government</arg>
+<arg n="1">funding</arg>
+<rel>cuts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

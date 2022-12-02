@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="familiarity">
+<roleset id="familiarity.01" name="nomadj-familiar">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the familiarity of his style
+</text>
+<rel>familiarity</rel>
+<arg n="1">of his style</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

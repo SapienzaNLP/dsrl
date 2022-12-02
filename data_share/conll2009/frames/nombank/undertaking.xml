@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="undertaking">
+<roleset id="undertaking.01" name="to decide or agree to do" source="verb-undertake.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="actor2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+interprovincial undertakings
+</text>
+<arg n="1">interprovincial</arg>
+<rel>undertakings</rel>
+</example>
+
+<example name="autogen2">
+<text>
+as part of its agreement with the EPA , it `` made certain
+voluntary undertakings with respect to intercorporate
+transactions entered into after the reorganization
+</text>
+<arg n="0">it</arg>
+<arg n="Support">made</arg>
+<arg f="MNR" n="M">voluntary</arg>
+<rel>undertakings</rel>
+<arg n="1">
+with respect to intercorporate transactions entered into after
+the reorganization</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

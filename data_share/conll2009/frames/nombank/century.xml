@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="century">
+<roleset id="century.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+centuries of polishing by Mother Nature -- first in the gentle
+current of the Orange River that carried the stones from South
+Africa 's interior , then in the cold surf of the ocean , and
+finally in the coarse sands of the desert --
+</text>
+<rel>centuries</rel>
+<arg n="1">
+of polishing by Mother Nature -- first in the gentle current of
+the Orange River that carried the stones from South Africa 's
+interior , then in the cold surf of the ocean , and finally in
+the coarse sands of the desert --</arg>
+</example>
+
+</roleset>
+<roleset id="century.02" name="environment/partitive-quant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+centuries of tributes to the callipygous
+</text>
+<rel>centuries</rel>
+<arg n="1">of tributes to the callipygous</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a century of Costa Rican democracy
+</text>
+<rel>century</rel>
+<arg n="1">of Costa Rican democracy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

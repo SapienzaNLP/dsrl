@@ -1,0 +1,77 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="verdict">
+<roleset id="verdict.01" name="cast a ballot" source="verb-vote.01">
+<roles>
+
+<role descr="voter" n="0"></role>
+
+<role descr="candidate or ballot issue" n="1"></role>
+
+<role descr="numerical count of vote, margin" n="2"></role>
+
+<role descr="proxy voter" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Their verdict on real estate
+</text>
+<arg n="0">Their</arg>
+<rel>verdict</rel>
+<arg n="1">on real estate</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their verdict
+</text>
+<arg n="0">their</arg>
+<rel>verdict</rel>
+</example>
+
+</roleset>
+<roleset id="verdict.02" name="judgement with award" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="award" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Pennzoil Co. win a $ 10.5 billion jury verdict against Texaco Inc
+</text>
+<arg n="2">Pennzoil Co.</arg>
+<arg n="Support">win</arg>
+<arg n="1">$ 10.5 billion</arg>
+<arg n="0">jury</arg>
+<rel>verdict</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Singer Bette Midler won a $ 400,000 federal court jury verdict
+against Young &amp; Rubicam in a case that threatens a popular
+advertising industry practice of using `` sound-alike ''
+performers to tout products .
+</text>
+<arg n="2">Singer Bette Midler</arg>
+<arg n="Support">won</arg>
+<arg n="1">$ 400,000</arg>
+<arg f="LOC" n="M">federal court</arg>
+<arg n="0">jury</arg>
+<rel>verdict</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

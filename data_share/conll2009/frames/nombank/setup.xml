@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="setup">
+<roleset id="setup.01" name="put, place" source="verb-set.01" vncls="9.1">
+<roles>
+
+<role descr="agent, setter" n="0">
+<vnrole vncls="9.1" vntheta="Agent"/></role>
+
+<role descr="thing set" n="1">
+<vnrole vncls="9.1" vntheta="Theme"/></role>
+
+<role descr="location or position" n="2">
+<vnrole vncls="9.1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Chandler 's setup
+</text>
+<arg n="0">Chandler 's</arg>
+<rel>setup</rel>
+</example>
+
+<example name="autogen2">
+<text>
+In an efficient setup , the same PC could perform all those tasks
+.
+</text>
+<arg f="MNR" n="M">efficient</arg>
+<rel>setup</rel>
+<arg n="1">the same PC</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

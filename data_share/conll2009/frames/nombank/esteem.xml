@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="esteem">
+<roleset id="esteem.01" name="nom-esteem/nomlike" source="verb-honor.01" vncls="29.2">
+<roles>
+
+<role descr="honorer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="person honored" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="for what, purpose, role" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+self-esteem
+</text>
+<arg n="1">self-esteem</arg>
+<rel>self-esteem</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the youngsters ' `` self-esteem
+</text>
+<arg n="0">the youngsters '</arg>
+<arg n="1">self-esteem</arg>
+<rel>self-esteem</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

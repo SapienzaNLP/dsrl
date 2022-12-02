@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="station">
+<roleset id="station.01" name="put military people in a place" source="verb-station.01">
+<roles>
+
+<role descr="high command, agent" n="0"></role>
+
+<role descr="military people" n="1"></role>
+
+<role descr="place" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a nurse 's station
+</text>
+<arg n="1">a nurse 's</arg>
+<rel>station</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

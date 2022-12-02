@@ -1,0 +1,97 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="closing">
+<roleset id="closing.01" name="shut" source="verb-closing.01" vncls="40.3.2">
+<roles>
+
+<role descr="person doing the closing" n="0">
+<vnrole vncls="40.3.2" vntheta="Agent"/></role>
+
+<role descr="thing closing" n="1">
+<vnrole vncls="40.3.2" vntheta="Patient"/></role>
+
+<role descr="anti-beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to carry out base closings ordered to begin in fiscal 1990
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">carry</arg>
+<arg n="1">base</arg>
+<rel>closings</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a plant closing
+</text>
+<arg n="1">plant</arg>
+<rel>closing</rel>
+</example>
+
+</roleset>
+<roleset id="closing.02" name="attribute">
+<roles>
+
+<role descr="thing closing" n="1"></role>
+
+<role descr="end point" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Philip Morris 's closing price of $ 44.5 , up 62.5 cents , in
+composite trading on the New York Stock Exchange yesterday
+</text>
+<arg n="1">Philip Morris 's</arg>
+<rel>closing</rel>
+<arg n="Support">price</arg>
+<arg n="2">of $ 44.5 , up 62.5 cents ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Manville 's closing price yesterday of $ 9.25 a share
+</text>
+<arg n="1">Manville 's</arg>
+<rel>closing</rel>
+<arg n="Support">price</arg>
+<arg f="TMP" n="M">yesterday</arg>
+<arg n="2">of $ 9.25 a share</arg>
+</example>
+
+</roleset>
+<roleset id="closing.03" name="come about, come to completion (as of deals" source="verb-closing.03" vncls="45.4">
+<roles>
+
+<role descr="entity making the deal" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="the deal" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the closing of a deal
+</text>
+<rel>closing</rel>
+<arg n="1">of a deal</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Closing of the transaction
+</text>
+<rel>Closing</rel>
+<arg n="1">of the transaction</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

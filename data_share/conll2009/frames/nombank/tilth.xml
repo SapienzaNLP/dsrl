@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tilth">
+<roleset id="tilth.01" name="to grow, develop, nurture" source="verb-cultivate.01" vncls="9.7-1">
+<roles>
+
+<role descr="grower, developer, agent" n="0">
+<vnrole vncls="9.7-1" vntheta="Agent"/></role>
+
+<role descr="thing prospering, theme" n="1">
+<vnrole vncls="9.7-1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+self-tilth
+</text>
+<arg n="0">self-tilth</arg>
+<rel>self-tilth</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="detriment">
+<roleset id="detriment.01" name="nomadj-detrimental">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Program trading is `` benefiting a few to the detriment of many
+</text>
+<arg n="1">Program trading</arg>
+<rel>detriment</rel>
+<arg n="2">of many</arg>
+</example>
+
+<example name="autogen2">
+<text>
+To the detriment of many low-income people , efforts to boost
+Medicaid funding , especially in rural areas , also were stricken
+.
+</text>
+<rel>detriment</rel>
+<arg n="2">of many low-income people</arg>
+<arg n="1">
+efforts to boost Medicaid funding , especially in rural areas ,
+also were stricken</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

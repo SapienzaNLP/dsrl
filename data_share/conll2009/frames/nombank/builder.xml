@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="builder">
+<roleset id="builder.01" name="construct" source="verb-build.01" vncls="26.1-1">
+<roles>
+
+<role descr="builder" n="0">
+<vnrole vncls="26.1-1" vntheta="Agent"/></role>
+
+<role descr="construction" n="1">
+<vnrole vncls="26.1-1" vntheta="Product"/></role>
+
+<role descr="material, start state" n="2">
+<vnrole vncls="26.1-1" vntheta="Material"/></role>
+
+<role descr="end state" n="4">
+<vnrole vncls="26.1-1" vntheta="Product"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the home builders
+</text>
+<arg n="1">home</arg>
+<arg n="0">builders</arg>
+<rel>builders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+home builders
+</text>
+<arg n="1">home</arg>
+<arg n="0">builders</arg>
+<rel>builders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

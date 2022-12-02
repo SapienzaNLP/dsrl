@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recipient">
+<roleset id="recipient.01" name="get" source="verb-receive.01" vncls="13.5.2">
+<roles>
+
+<role descr="receiver" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing gotten" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="received from" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="price, in exchange for" n="3"></role>
+
+<role descr="attribute of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+transplant recipients
+</text>
+<arg n="1">transplant</arg>
+<arg n="0">recipients</arg>
+<rel>recipients</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the originators and recipients of international wire transfers
+</text>
+<arg n="0">recipients</arg>
+<rel>recipients</rel>
+<arg n="1">of international wire transfers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

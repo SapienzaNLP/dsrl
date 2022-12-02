@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gist">
+<roleset id="gist.01" name="version">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The gist of this
+</text>
+<rel>gist</rel>
+<arg n="1">of this</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the gist of Mr. Mason 's remarks , quoted first in the Village
+Voice while he was a paid spokesman for the Rudolph Giuliani
+mayoral campaign , and then in Newsweek after he and the campaign
+parted company
+</text>
+<rel>gist</rel>
+<arg n="1">
+of Mr. Mason 's remarks , quoted first in the Village Voice while
+he was a paid spokesman for the Rudolph Giuliani mayoral campaign
+, and then in Newsweek after he and the campaign parted company</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

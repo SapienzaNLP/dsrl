@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lack">
+<roleset id="lack.01" name="be short of, not possess" source="verb-lack.01">
+<roles>
+
+<role descr="non)possessor" n="0"></role>
+
+<role descr="thing lacked" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the investors ' lack of control in big stock investments
+</text>
+<arg n="0">the investors '</arg>
+<rel>lack</rel>
+<arg n="1">of control in big stock investments</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the lack of a fast-selling product
+</text>
+<rel>lack</rel>
+<arg n="1">of a fast-selling product</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

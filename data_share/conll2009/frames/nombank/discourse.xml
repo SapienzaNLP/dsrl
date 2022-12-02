@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discourse">
+<roleset id="discourse.01" name="speak" source="verb-talk.01">
+<roles>
+
+<role descr="talker" n="0"></role>
+
+<role descr="subject" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Civilized discourse
+</text>
+<arg f="MNR" n="M">Civilized</arg>
+<rel>discourse</rel>
+</example>
+
+<example name="autogen2">
+<text>
+it launches into a 15-second discourse on its own attributes
+</text>
+<arg n="0">it</arg>
+<arg n="Support">launches into</arg>
+<arg f="TMP" n="M">15-second</arg>
+<rel>discourse</rel>
+<arg n="1">on its own attributes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

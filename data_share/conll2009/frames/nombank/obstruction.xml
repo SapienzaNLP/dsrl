@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="obstruction">
+<roleset id="obstruction.01" name="to block" source="verb-obstruct.01">
+<roles>
+
+<role descr="blocker, obstruction" n="0"></role>
+
+<role descr="thing obstructed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In 1988 , a year and a half after Mrs. Marcos and her late
+husband , Ferdinand Marcos , the ousted president of the
+Philippines , fled the Philippines for Hawaii , they were charged
+with racketeering , conspiracy , obstruction of justice and mail
+fraud in a scheme in which they allegedly embezzled more than $
+100 million from their homeland .
+</text>
+<arg n="0">they ---> *-205</arg>
+<arg n="Support">charged with</arg>
+<rel>obstruction</rel>
+<arg n="1">of justice</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Communists ' apparat of obstruction -- from the head of the
+dairy co-op to the village bank manager --
+</text>
+<arg n="0">the Communists ' apparat</arg>
+<rel>obstruction</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

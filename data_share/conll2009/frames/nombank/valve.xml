@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="valve">
+<roleset id="valve.01" name="have power over" source="verb-control.01">
+<roles>
+
+<role descr="controller" n="0"></role>
+
+<role descr="controlled" n="1"></role>
+
+<role descr="instrumental, controlled with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+shutoff valves
+</text>
+<arg n="1">shutoff</arg>
+<rel>valves</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

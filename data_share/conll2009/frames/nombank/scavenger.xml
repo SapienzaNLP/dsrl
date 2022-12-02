@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scavenger">
+<roleset id="scavenger.01" name="remove" source="verb-remove.01" vncls="10.2">
+<roles>
+
+<role descr="entity removing" n="0">
+<vnrole vncls="10.2" vntheta="Agent"/></role>
+
+<role descr="thing being removed" n="1">
+<vnrole vncls="10.2" vntheta="Theme"/></role>
+
+<role descr="removed from" n="2">
+<vnrole vncls="10.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` scavengers '' for bargain-basement 1989 cars
+</text>
+<arg n="0">scavengers</arg>
+<rel>scavengers</rel>
+<arg n="1">for bargain-basement 1989 cars</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a 15-minute scavenger hunt through their possessions
+</text>
+<arg f="TMP" n="M">15-minute</arg>
+<arg n="0">scavenger</arg>
+<rel>scavenger</rel>
+<arg n="Support">hunt</arg>
+<arg n="2">through their possessions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="town">
+<roleset id="town.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Hungarian country towns
+</text>
+<arg n="1">Hungarian</arg>
+<rel>towns</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a town in Switzerland
+</text>
+<rel>town</rel>
+<arg n="1">in Switzerland</arg>
+</example>
+
+</roleset>
+<roleset id="town.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the town of 10,000
+</text>
+<rel>town</rel>
+<arg n="1">of 10,000</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a town of 800 whites and two paved roads
+</text>
+<rel>town</rel>
+<arg n="1">of 800 whites and two paved roads</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

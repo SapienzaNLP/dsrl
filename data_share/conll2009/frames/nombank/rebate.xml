@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rebate">
+<roleset id="rebate.01" name="reduce in price" source="verb-discount.01">
+<roles>
+
+<role descr="discounter" n="0"></role>
+
+<role descr="commodity" n="1"></role>
+
+<role descr="ext, amount of reduction" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it will offer $ 800 rebates on its 1990 Beretta , the two-door
+version of its core compact-car line
+</text>
+<arg n="0">it</arg>
+<arg n="Support">offer</arg>
+<arg n="2">$ 800</arg>
+<rel>rebates</rel>
+<arg n="1">
+on its 1990 Beretta , the two-door version of its core
+compact-car line</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it will offer $ 750 cash rebates to buyers of its 1990-model Ford
+Bronco sport utility vehicle
+</text>
+<arg n="0">it</arg>
+<arg n="Support">offer</arg>
+<arg n="2">$ 750</arg>
+<rel>rebates</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

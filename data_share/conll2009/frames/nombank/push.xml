@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="push">
+<roleset id="push.01" name="try to) cause motion" source="verb-push.01" vncls="23.2">
+<roles>
+
+<role descr="pusher" n="0">
+<vnrole vncls="23.2" vntheta="Agent"/></role>
+
+<role descr="thing pushed" n="1">
+<vnrole vncls="23.2" vntheta="Theme"/></role>
+
+<role descr="direction" n="2">
+<vnrole vncls="9.3" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its big push into investigative journalism
+</text>
+<arg n="0">its</arg>
+<rel>push</rel>
+<arg n="2">into investigative journalism</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Digital 's push into mainframes
+</text>
+<arg n="0">Digital 's</arg>
+<rel>push</rel>
+<arg n="2">into mainframes</arg>
+</example>
+
+</roleset>
+<roleset id="push.02" name="force, impelled action" source="verb-push.02" vncls="12-1">
+<roles>
+
+<role descr="forcer, pusher" n="0">
+<vnrole vncls="12-1" vntheta="Agent"/></role>
+
+<role descr="impelled action" n="1" source="2"></role>
+
+<role descr="impelled agent" n="2" source="1">
+<vnrole vncls="12-1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the airline 's push to transform itself from a regional carrier
+to an international one
+</text>
+<arg n="0">the airline 's</arg>
+<rel>push</rel>
+<arg f="PRD" n="1">
+to transform itself from a regional carrier to an international
+one</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Now , the push is on for more-distinctive shows .
+</text>
+<rel>push</rel>
+<arg n="1">for more-distinctive shows</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

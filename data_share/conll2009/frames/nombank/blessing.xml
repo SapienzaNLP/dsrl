@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blessing">
+<roleset id="blessing.01" name="bless" source="verb-bless.01" vncls="33">
+<roles>
+
+<role descr="entity giving blessing" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="entity being blessed" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="blessed with (gift" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In return , he has the government 's blessing to build churches
+and spread Unificationism in that country .
+</text>
+<arg n="1">he</arg>
+<arg n="Support">has</arg>
+<arg n="0">the government 's</arg>
+<rel>blessing</rel>
+<arg f="PRD" n="2">to build churches and spread Unificationism in that country</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he rarely gave his blessing to the claptrap that passes for ``
+consensus '' in various international institutions
+</text>
+<arg n="0">his</arg>
+<rel>blessing</rel>
+<arg n="1">
+to the claptrap that passes for `` consensus '' in various
+international institutions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

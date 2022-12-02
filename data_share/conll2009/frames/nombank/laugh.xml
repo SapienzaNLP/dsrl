@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="laugh">
+<roleset id="laugh.01" name="laugh" source="verb-laugh.01" vncls="40.2">
+<roles>
+
+<role descr="laugher" n="0">
+<vnrole vncls="40.2" vntheta="Agent"/></role>
+
+<role descr="cognate object" n="1">
+<vnrole vncls="40.2" vntheta="Theme"/></role>
+
+<role descr="source of joy" n="2">
+<vnrole vncls="40.2" vntheta="Cause"/></role>
+
+<role descr="end state of arg0, as result of laughing" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The ads have generated some laughs but also plenty of attention
+because they are so unlike any other U.S. auto advertising .
+</text>
+<arg n="2">The ads</arg>
+<arg n="Support">generated</arg>
+<rel>laughs</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The inclusion at one point , for example , of a list of glitzy
+modern-day malefactors , ranging from Jim Bakker and Leona
+Helmsley to Zsa Zsa Gabor , is a bid for a cheap laugh unworthy
+of Mr. Boyd 's ability .
+</text>
+<arg n="2">
+The inclusion at one point , for example , of a list of glitzy
+modern-day malefactors , ranging from Jim Bakker and Leona
+Helmsley to Zsa Zsa Gabor ,</arg>
+<arg n="Support">bid for</arg>
+<rel>laugh</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="franchise">
+<roleset id="franchise.01" name="sell a representative   example of a chain" source="verb-franchise.01">
+<roles>
+
+<role descr="franchiser" n="0"></role>
+
+<role descr="example of chain" n="1"></role>
+
+<role descr="franchisee" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's cable franchise
+</text>
+<arg n="0">the company 's</arg>
+<arg n="1">cable</arg>
+<rel>franchise</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its highly lucrative junk franchise
+</text>
+<arg n="2">its</arg>
+<arg n="1">junk</arg>
+<rel>franchise</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

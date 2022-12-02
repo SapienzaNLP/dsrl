@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blemish">
+<roleset id="blemish.01" name="to disfigure" source="verb-blemish.01">
+<roles>
+
+<role descr="causer" n="0"></role>
+
+<role descr="entity disfigured" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a blemish on Finland 's international reputation
+</text>
+<arg n="0">blemish</arg>
+<rel>blemish</rel>
+<arg n="1">on Finland 's international reputation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

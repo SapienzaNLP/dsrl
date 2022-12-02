@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="holdout">
+<roleset id="holdout.01" name="wait2" source="verb-hold.09">
+<roles>
+
+<role descr="wait-er (not waiter, that's the other sense" n="1"></role>
+
+<role descr="thing waited for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Stalinist holdouts
+</text>
+<arg n="2">Stalinist</arg>
+<arg n="1">holdouts</arg>
+<rel>holdouts</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the staunchest holdouts against the reform rumbling through the
+Communist world
+</text>
+<arg f="MNR" n="M">staunchest</arg>
+<arg n="1">holdouts</arg>
+<rel>holdouts</rel>
+<arg n="2">against the reform rumbling through the Communist world</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="low">
+<roleset id="low.01" name="attribute/nomadj-low">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the day 's low of $ 1.127
+</text>
+<arg n="1">the day 's</arg>
+<rel>low</rel>
+<arg n="2">of $ 1.127</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the day 's low
+</text>
+<arg f="TMP" n="M">the day 's</arg>
+<arg f="REF" n="2">low</arg>
+<rel>low</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

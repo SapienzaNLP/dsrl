@@ -1,0 +1,82 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="difference">
+<roleset id="difference.01" name="disagree, argue" source="verb-differ.01" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+no difference of opinion between -LRB- Chairman -RRB- Lord King
+and Sir Colin on any aspect of company policy
+</text>
+<arg f="NEG" n="M">no</arg>
+<rel>difference</rel>
+<arg n="1">of opinion</arg>
+<arg n="0">between -LRB- Chairman -RRB- Lord King and Sir Colin</arg>
+<arg n="2">on any aspect of company policy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the difference in yield between an index of junk bonds and
+seven-year Treasury notes
+</text>
+<rel>difference</rel>
+<arg n="2">in yield</arg>
+<arg n="1">between an index of junk bonds and seven-year Treasury notes</arg>
+</example>
+
+</roleset>
+<roleset id="difference.02" name="be different" source="verb-differ.02" vncls="45.6">
+<roles>
+
+<role descr="the thing that makes a difference" n="0"></role>
+
+<role descr="things that are different/merged arg1" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext or mnr, how different" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="seperated arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+time differences with Norway
+</text>
+<arg n="1">time</arg>
+<rel>differences</rel>
+<arg n="3">with Norway</arg>
+</example>
+
+<example name="autogen2">
+<text>
+5 . Make a lasting difference in the regulatory life of an
+American savings-and-loan association through the Foster
+Corporate Parents Plan .
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">Make</arg>
+<arg f="MNR" n="M">lasting</arg>
+<rel>difference</rel>
+<arg n="1">
+in the regulatory life of an American savings-and-loan
+association</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

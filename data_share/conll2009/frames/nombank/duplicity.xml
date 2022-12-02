@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="duplicity">
+<roleset id="duplicity.01" name="nomadj-duplicitous">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The two sides in the legal battle have hurled accusations of
+duplicity at each other for weeks
+</text>
+<arg n="Support">hurled accusations of</arg>
+<rel>duplicity</rel>
+<arg n="0">at each other</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The accusations of lying and duplicity are flying thick and fast
+on both sides
+</text>
+<arg n="Support">accusations of flying</arg>
+<rel>duplicity</rel>
+<arg n="0">on both sides</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

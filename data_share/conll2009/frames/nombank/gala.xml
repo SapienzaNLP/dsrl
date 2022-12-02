@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gala">
+<roleset id="gala.01" name="event/nomlike" source="verb-celebrate.01" vncls="33">
+<roles>
+
+<role descr="honorer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="honored" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="for what reason" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a New York gala
+</text>
+<arg f="LOC" n="M">New York</arg>
+<rel>gala</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

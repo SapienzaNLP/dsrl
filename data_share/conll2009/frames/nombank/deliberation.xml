@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deliberation">
+<roleset id="deliberation.01" name="think about, as a judge" source="verb-deliberate.01">
+<roles>
+
+<role descr="thinker" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its deliberations
+</text>
+<arg n="0">its</arg>
+<rel>deliberations</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the panel 's deliberations
+</text>
+<arg n="0">the panel 's</arg>
+<rel>deliberations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

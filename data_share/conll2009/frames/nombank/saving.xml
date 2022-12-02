@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="saving">
+<roleset id="saving.01" name="financial sense" source="verb-save.01" vncls="13.5.1">
+<roles>
+
+<role descr="entity saving money" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="money" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Recipient"/></role>
+
+<role descr="cause, reason" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cost savings achieved by consolidating manufacturing operations ,
+blending two sales organizations and focusing more carefully the
+company 's promotional activities
+</text>
+<arg n="1">cost</arg>
+<rel>savings</rel>
+<arg n="Support">achieved</arg>
+<arg n="3">
+by consolidating manufacturing operations , blending two sales
+organizations and focusing more carefully the company 's
+promotional activities</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a tempting money-saving coupon
+</text>
+<arg n="1">money-saving</arg>
+<rel>money-saving</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

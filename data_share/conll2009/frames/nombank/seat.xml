@@ -1,0 +1,80 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="seat">
+<roleset id="seat.01" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its 100 guaranteed seats in the Soviet Congress
+</text>
+<arg n="0">its</arg>
+<rel>seats</rel>
+<arg n="2">in the Soviet Congress</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Michael E. Gellert , a director and a major shareholder , to fill
+the vacant seat of chairman
+</text>
+<arg n="0">Michael E. Gellert , a director and a major shareholder ,</arg>
+<arg n="Support">fill</arg>
+<rel>seat</rel>
+<arg n="1">of chairman</arg>
+</example>
+
+</roleset>
+<roleset id="seat.02" name="meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+$ 400 toilet seats or whatever they supposedly cost
+</text>
+<arg n="1">toilet</arg>
+<rel>seats</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the 49,000-plus seats of Oakland Coliseum
+</text>
+<rel>seats</rel>
+<arg n="1">of Oakland Coliseum</arg>
+</example>
+
+</roleset>
+<roleset id="seat.03" name="nomlike" source="verb-position.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their seat at the dinner table
+</text>
+<arg n="1">their</arg>
+<rel>seat</rel>
+<arg n="2">at the dinner table</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

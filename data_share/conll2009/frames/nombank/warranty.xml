@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="warranty">
+<roleset id="warranty.01" name="promise" source="verb-guarantee.01" vncls="29.5">
+<roles>
+
+<role descr="entity making guarantee" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="guarantee" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="beneficiary, guaranteed-to" n="2">
+<vnrole vncls="29.5" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+For owners who have followed the recommended oil maintenance
+schedule , Mazda will extend to five years or 60,000 miles the
+warranty term for engine damage due to abnormal engine oil
+deterioration .
+</text>
+<arg n="0">Mazda</arg>
+<arg n="Support">extend term</arg>
+<arg n="1">to five years or 60,000 miles</arg>
+<rel>warranty</rel>
+<arg n="2">for engine damage due to abnormal engine oil deterioration</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The plan would increase the warranty on auto-emission systems to
+eight years or 80,000 miles from five years or 50,000 for major
+parts .
+</text>
+<arg n="Support">increase</arg>
+<rel>warranty</rel>
+<arg n="2">on auto-emission systems</arg>
+<arg n="1">to eight years or 80,000 miles</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

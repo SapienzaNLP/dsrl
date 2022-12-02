@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inducement">
+<roleset id="inducement.01" name="to cause" source="verb-induce.01">
+<roles>
+
+<role descr="causer" n="0"></role>
+
+<role descr="event induced" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+TAX SHELTERS CALLED Individual Retirement Accounts , or `` IRAs ,
+'' were created without fanfare on Sept. 2 , 1974 , but grew
+beyond expectations as an inducement to personal saving .
+</text>
+<arg n="0">
+TAX SHELTERS CALLED Individual Retirement Accounts , or `` IRAs ,
+''</arg>
+<arg n="Support">grew as</arg>
+<rel>inducement</rel>
+<arg n="1">to personal saving</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an additional inducement to give
+</text>
+<arg f="REF" n="0">inducement</arg>
+<rel>inducement</rel>
+<arg f="PRD" n="1">to give</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

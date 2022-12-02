@@ -1,0 +1,202 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="order">
+<roleset id="order.01" name="impelled action" source="verb-order.01">
+<roles>
+
+<role descr="forcer" n="0"></role>
+
+<role descr="impelled action" n="1" source="2"></role>
+
+<role descr="impelled agent" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they defied his order to extend the school year by several weeks
+to make up for time lost during a teachers ' strike
+</text>
+<arg n="2">they</arg>
+<arg n="Support">defied</arg>
+<arg n="0">his</arg>
+<rel>order</rel>
+<arg f="PRD" n="1">
+to extend the school year by several weeks to make up for time
+lost during a teachers ' strike</arg>
+</example>
+
+<example name="autogen2">
+<text>
+buy orders from major brokerage firms to match the selling flood
+</text>
+<arg n="1">buy</arg>
+<rel>orders</rel>
+<arg n="0">from major brokerage firms</arg>
+</example>
+
+</roleset>
+<roleset id="order.02" name="request to be delivered" source="verb-order.02" vncls="13.5.1">
+<roles>
+
+<role descr="orderer" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing ordered" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary, ordered-for" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it received an order from Martinair Holland for four model
+767-300 wide-body jetliners valued at a total of about $ 326
+million
+</text>
+<arg n="3">it</arg>
+<arg n="Support">received</arg>
+<rel>order</rel>
+<arg n="1">
+*ICH*-1 ---> for four model 767-300 wide-body jetliners valued at
+a total of about $ 326 million</arg>
+<arg n="0">from Martinair Holland</arg>
+</example>
+
+<example name="autogen2">
+<text>
+engine orders from heavy-truck makers
+</text>
+<arg n="1">engine</arg>
+<rel>orders</rel>
+<arg n="0">from heavy-truck makers</arg>
+</example>
+
+</roleset>
+<roleset id="order.03" name="put, place" source="verb-set.01" vncls="9.1">
+<roles>
+
+<role descr="agent, setter" n="0">
+<vnrole vncls="9.1" vntheta="Agent"/></role>
+
+<role descr="thing set" n="1">
+<vnrole vncls="9.1" vntheta="Theme"/></role>
+
+<role descr="location or position" n="2">
+<vnrole vncls="9.1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+would fly in what balloon and in what order
+</text>
+<arg n="1">would fly</arg>
+<arg n="2">what</arg>
+<rel>order</rel>
+</example>
+
+<example name="autogen2">
+<text>
+numbers in order
+</text>
+<arg n="1">numbers</arg>
+<rel>order</rel>
+</example>
+
+</roleset>
+<roleset id="order.04" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a budget gap on the order of $ 500 million to $ 600 million
+</text>
+<arg n="1">a budget gap</arg>
+<rel>order</rel>
+<arg n="2">of $ 500 million to $ 600 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+outright cultural chauvinism of the first order
+</text>
+<arg n="1">outright cultural chauvinism</arg>
+<arg n="2">first</arg>
+<rel>order</rel>
+</example>
+
+</roleset>
+<roleset id="order.05" name="make secure" source="verb-secure.02">
+<roles>
+
+<role descr="maker" n="0"></role>
+
+<role descr="thing secured" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+policyholders sift through the rubble and restore some order to
+their lives
+</text>
+<arg n="0">policyholders</arg>
+<arg n="Support">restore</arg>
+<rel>order</rel>
+<arg n="1">to their lives</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Guzman Cabrera 's new order
+</text>
+<arg n="0">Mr. Guzman Cabrera 's</arg>
+<rel>order</rel>
+</example>
+
+</roleset>
+<roleset id="order.06" name="complex-prep-in-order-to">
+<roles>
+
+<role descr="consequence" n="1"></role>
+
+<role descr="precursor" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+give in order to get
+</text>
+<arg n="2">give</arg>
+<rel>order</rel>
+<arg f="PRD" n="1">to get</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it did so in order to attract larger clients , especially
+packaged-goods companies
+</text>
+<arg n="2">it did so</arg>
+<rel>order</rel>
+<arg f="PRD" n="1">to attract larger clients , especially packaged-goods companies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

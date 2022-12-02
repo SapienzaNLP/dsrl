@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conspiracy">
+<roleset id="conspiracy.01" name="work together for nefarious purposes" source="verb-conspire.01">
+<roles>
+
+<role descr="conspirator" n="0"></role>
+
+<role descr="job, project" n="1"></role>
+
+<role descr="co-conspirator" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the conspiracies of foreign intelligence services to create and
+use organized anti-government groups in our country
+</text>
+<rel>conspiracies</rel>
+<arg f="PRD" n="1">
+*ICH*-4 ---> to create and use organized anti-government groups
+in our country</arg>
+<arg n="0">of foreign intelligence services</arg>
+</example>
+
+<example name="autogen2">
+<text>
+sabotage and conspiracy to overthrow the government
+</text>
+<rel>conspiracy</rel>
+<arg f="PRD" n="1">to overthrow the government</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

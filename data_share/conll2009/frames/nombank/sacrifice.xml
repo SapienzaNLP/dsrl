@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sacrifice">
+<roleset id="sacrifice.01" name="give, as to a god/dess" source="verb-sacrifice.01" vncls="13.2">
+<roles>
+
+<role descr="sacrificer" n="0">
+<vnrole vncls="13.2" vntheta="Agent"/></role>
+
+<role descr="thing sacrificed" n="1">
+<vnrole vncls="13.2" vntheta="Theme"/></role>
+
+<role descr="thing sacrificed to" n="2">
+<vnrole vncls="13.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+She was devoted to Charles de Gaulle 's cause , accepting great
+financial sacrifice and considerable risk to become first a spy
+and then a one-woman USO tour for the forces of Free France .
+</text>
+<arg n="0">She ---> *-1</arg>
+<arg n="Support">accepting</arg>
+<arg f="EXT" n="M">great</arg>
+<arg n="1">financial</arg>
+<rel>sacrifice</rel>
+</example>
+
+<example name="autogen2">
+<text>
+sacrifice by every senator
+</text>
+<rel>sacrifice</rel>
+<arg n="0">by every senator</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="estimate">
+<roleset id="estimate.01" name="guess" source="verb-estimate.01" vncls="54.4">
+<roles>
+
+<role descr="estimator" n="0">
+<vnrole vncls="54.4" vntheta="Agent"/></role>
+
+<role descr="thing estimated" n="1">
+<vnrole vncls="54.4" vntheta="Theme"/></role>
+
+<role descr="estimated-to-be, attribute of arg1" n="2">
+<vnrole vncls="54.4" vntheta="Attribute"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a bullish U.S. Department of Agriculture estimate of the 1989-90
+Florida orange crop
+</text>
+<arg n="2">bullish</arg>
+<arg n="0">U.S. Department of Agriculture</arg>
+<rel>estimate</rel>
+<arg n="1">of the 1989-90 Florida orange crop</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the real GNP estimates of 0.2 percentage point a year , on
+average
+</text>
+<arg n="1">GNP</arg>
+<rel>estimates</rel>
+<arg n="2">of 0.2 percentage point a year , on average</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

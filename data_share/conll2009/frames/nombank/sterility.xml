@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sterility">
+<roleset id="sterility.01" name="attribute/nomadj-sterile">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+male sterility
+</text>
+<arg n="1">male</arg>
+<arg f="REF" n="2">sterility</arg>
+<rel>sterility</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

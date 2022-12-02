@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="foothold">
+<roleset id="foothold.01" name="start" source="verb-begin.01" vncls="55.1">
+<roles>
+
+<role descr="beginner, agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme(-creation" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their foothold in U.S. biotechnology concerns
+</text>
+<arg n="1">their</arg>
+<rel>foothold</rel>
+<arg f="LOC" n="M">in U.S. biotechnology concerns</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The company , which has a European foothold , Murata Europe
+Management G.m.b . H. in Germany ,
+</text>
+<arg n="1">The company ---> which ---> *T*-1</arg>
+<arg n="Support">has</arg>
+<arg f="LOC" n="M">European</arg>
+<rel>foothold</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

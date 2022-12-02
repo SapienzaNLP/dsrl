@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="graying">
+<roleset id="graying.01" name="cause to) become gray" source="verb-gray.01">
+<roles>
+
+<role descr="causer" n="0"></role>
+
+<role descr="thing becoming gray" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the `` graying '' of the church
+</text>
+<rel>graying</rel>
+<arg n="1">of the church</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

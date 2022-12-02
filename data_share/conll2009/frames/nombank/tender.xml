@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tender">
+<roleset id="tender.01" name="transaction" source="verb-offer.01" vncls="29.2">
+<roles>
+
+<role descr="entity offering" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="commodity" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="price" n="2"></role>
+
+<role descr="beneficiary or entity offered to" n="3">
+<vnrole vncls="29.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its $ 7-a-share tender offer for International Banknote Co.
+</text>
+<arg n="0">its</arg>
+<arg n="2">$ 7-a-share</arg>
+<rel>tender</rel>
+<arg n="Support">offer</arg>
+<arg n="1">for International Banknote Co.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the tender of at least 80 % of the debt , among other things
+</text>
+<rel>tender</rel>
+<arg n="1">of at least 80 % of the debt</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

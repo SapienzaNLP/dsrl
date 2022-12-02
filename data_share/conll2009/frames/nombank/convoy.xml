@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="convoy">
+<roleset id="convoy.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The convoy of about 100 vehicles
+</text>
+<rel>convoy</rel>
+<arg n="1">of about 100 vehicles</arg>
+</example>
+
+<example name="autogen2">
+<text>
+our convoys
+</text>
+<arg n="2">our</arg>
+<rel>convoys</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

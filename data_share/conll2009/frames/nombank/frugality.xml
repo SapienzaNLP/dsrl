@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="frugality">
+<roleset id="frugality.01" name="nomadj-frugal">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But many owners plan to practice frugality -- crossing out the
+old code and writing in the new one until their stock runs out .
+</text>
+<arg n="0">many owners ---> *-1</arg>
+<arg n="Support">practice</arg>
+<rel>frugality</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tumor">
+<roleset id="tumor.01" name="attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a woman 's spinal tumor
+</text>
+<arg n="0">a woman 's</arg>
+<arg n="1">spinal</arg>
+<arg n="2">tumor</arg>
+<rel>tumor</rel>
+</example>
+
+<example name="autogen2">
+<text>
+23 of 38 breast tumors
+</text>
+<arg n="1">breast</arg>
+<arg n="2">tumors</arg>
+<rel>tumors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

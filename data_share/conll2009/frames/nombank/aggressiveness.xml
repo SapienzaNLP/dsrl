@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aggressiveness">
+<roleset id="aggressiveness.01" name="nomadj-aggressive">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his own aggressiveness
+</text>
+<arg n="0">his</arg>
+<rel>aggressiveness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

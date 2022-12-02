@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="patrol">
+<roleset id="patrol.01" name="to monitor while in motion" source="verb-patrol.01" vncls="35.2">
+<roles>
+
+<role descr="patroller, agent" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="area, place" n="1">
+<vnrole vncls="35.2" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+police patrols of small-business areas
+</text>
+<arg n="0">police</arg>
+<rel>patrols</rel>
+<arg n="1">of small-business areas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a volunteer patrol
+</text>
+<arg n="0">volunteer</arg>
+<rel>patrol</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

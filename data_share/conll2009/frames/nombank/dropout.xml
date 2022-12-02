@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dropout">
+<roleset id="dropout.01" name="quit" source="verb-drop.04">
+<roles>
+
+<role descr="quitter" n="0"></role>
+
+<role descr="thing quit (usually of-phrase" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a high-school dropout
+</text>
+<arg n="1">high-school</arg>
+<arg n="0">dropout</arg>
+<rel>dropout</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Two Mexican college dropouts
+</text>
+<arg n="1">college</arg>
+<arg n="0">dropouts</arg>
+<rel>dropouts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

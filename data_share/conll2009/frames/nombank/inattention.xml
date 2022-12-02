@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inattention">
+<roleset id="inattention.01" name="nomlike-ignore/nomadj-inattentive" source="verb-ignore.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And some movies seem to have been hurt by their inattention .
+</text>
+<arg n="1">some movies ---> *-1 ---> *-2</arg>
+<arg n="Support">hurt by</arg>
+<arg n="0">their</arg>
+<rel>inattention</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

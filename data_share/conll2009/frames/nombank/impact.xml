@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="impact">
+<roleset id="impact.01" name="have an effect on" source="verb-impact.01">
+<roles>
+
+<role descr="thing affecting" n="0"></role>
+
+<role descr="thing affected" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its impact on air transportation and the more mundane , but
+politically important , projects of members
+</text>
+<arg n="0">its</arg>
+<rel>impact</rel>
+<arg n="1">
+on air transportation and the more mundane , but politically
+important , projects of members</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the impact will be on the division 's work , which includes the
+Navy 's Trident submarine-based missile program and the Air Force
+'s Strategic Defense Initiative
+</text>
+<rel>impact</rel>
+<arg n="1">
+on the division 's work , which includes the Navy 's Trident
+submarine-based missile program and the Air Force 's Strategic
+Defense Initiative</arg>
+</example>
+
+</roleset>
+<roleset id="impact.02" name="hit, strike" source="verb-impact.02">
+<roles>
+
+<role descr="thing hit" n="1"></role>
+
+<role descr="instrument, thing hit by or with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+As a result of the adhesive problem on the Ford Escort
+subcompacts , windshields may easily separate from the car during
+frontal impact
+</text>
+<arg n="Support">separate during</arg>
+<arg n="1">from the car</arg>
+<arg f="LOC" n="M">frontal</arg>
+<rel>impact</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the extraterrestrial impact
+</text>
+<arg f="LOC" n="M">extraterrestrial</arg>
+<rel>impact</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

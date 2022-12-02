@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="win">
+<roleset id="win.01" name="win" source="verb-win.01" vncls="13.5.1">
+<roles>
+
+<role descr="winner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing won (contest or prize" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="loser, giver of prize" n="3"></role>
+
+<role descr="in-exchange-for" n="4"></role>
+
+<role descr="score" n="5"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+After a landslide win in 1984 in polls held after the
+assassination of his mother , Indira Gandhi , Mr. Gandhi saw his
+popularity begin a roller coaster ride .
+</text>
+<arg n="5">landslide</arg>
+<rel>win</rel>
+<arg f="TMP" n="M">in 1984</arg>
+<arg n="1">
+in polls held after the assassination of his mother , Indira
+Gandhi ,</arg>
+<arg n="0">Mr. Gandhi</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Pale Pachyderms propelled six of 'em out of the unfriendly
+confines of Candlestick Park during the two games en route to
+13-7 and 9-6 wins over the San Francisco Giants .
+</text>
+<arg n="0">The Pale Pachyderms</arg>
+<arg n="Support">route to</arg>
+<arg n="5">13-7 and 9-6</arg>
+<rel>wins</rel>
+<arg n="3">over the San Francisco Giants</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

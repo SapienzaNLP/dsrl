@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="publication">
+<roleset id="publication.01" name="work-of-art" source="verb-publish.01">
+<roles>
+
+<role descr="agent/publisher" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its publication in this venerable paper
+</text>
+<arg n="1">its</arg>
+<rel>publication</rel>
+<arg n="2">in this venerable paper</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his institute 's recent publications on `` Journalism : In the
+Year 2000 ''
+</text>
+<arg n="0">his institute 's</arg>
+<rel>publications</rel>
+<arg n="1">on `` Journalism : In the Year 2000 ''</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

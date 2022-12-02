@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proposal">
+<roleset id="proposal.01" name="cf offer" source="verb-propose.01" vncls="37.7">
+<roles>
+
+<role descr="entity proposing" n="0">
+<vnrole vncls="37.7" vntheta="Agent"/></role>
+
+<role descr="thing proposed, proposition" n="1">
+<vnrole vncls="37.7" vntheta="Topic"/></role>
+
+<role descr="beneficiary or entity proposed to" n="2" source="3">
+<vnrole vncls="37.7" vntheta="Recipient"/></role>
+
+<role descr="label" n="3" source="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it sent a more detailed merger proposal to much-larger Mesa
+Airlines
+</text>
+<arg n="0">it</arg>
+<arg n="Support">sent</arg>
+<arg n="1">merger</arg>
+<rel>proposal</rel>
+<arg n="2">to much-larger Mesa Airlines</arg>
+</example>
+
+<example name="autogen2">
+<text>
+LIN 's proposal to spin off its television properties , pay
+shareholders a $ 20-a-share special dividend and combine its
+cellular-telephone operations with BellSouth 's cellular business
+</text>
+<arg n="0">LIN 's</arg>
+<rel>proposal</rel>
+<arg f="PRD" n="1">
+to spin off its television properties , pay shareholders a $
+20-a-share special dividend and combine its cellular-telephone
+operations with BellSouth 's cellular business</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

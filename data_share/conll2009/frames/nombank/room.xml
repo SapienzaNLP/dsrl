@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="room">
+<roleset id="room.01" name="attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="purpose/beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+That would leave Mrs. Thatcher little room for maneuver .
+</text>
+<arg n="Support">leave</arg>
+<arg n="0">Mrs. Thatcher</arg>
+<arg n="2">little</arg>
+<rel>room</rel>
+<arg n="3">for maneuver</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` room for flexibility '' in a bill to allow federal funding of
+abortions for poor women who are vicitims of rape and incest
+</text>
+<arg f="REF" n="2">room</arg>
+<rel>room</rel>
+<arg n="3">for flexibility</arg>
+<arg n="1">
+in a bill to allow federal funding of abortions for poor women
+who are vicitims of rape and incest</arg>
+</example>
+
+</roleset>
+<roleset id="room.02" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Shane Longman 's trading room
+</text>
+<arg n="1">Shane Longman 's</arg>
+<rel>room</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a hotel room
+</text>
+<arg n="1">hotel</arg>
+<rel>room</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

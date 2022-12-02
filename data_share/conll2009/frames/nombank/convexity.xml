@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="convexity">
+<roleset id="convexity.01" name="attribute/nomadj-convex">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+muni bonds that have a negative convexity -- those that have
+appreciated in price slowly relative to the decline in interest
+rates
+</text>
+<arg n="1">muni bonds ---> that ---> *T*-1</arg>
+<arg n="Support">have</arg>
+<arg n="2">negative</arg>
+<rel>convexity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

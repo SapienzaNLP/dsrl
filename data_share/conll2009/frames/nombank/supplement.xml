@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="supplement">
+<roleset id="supplement.01" name="add to, enhance" source="verb-supplement.01">
+<roles>
+
+<role descr="intentional agent" n="0"></role>
+
+<role descr="thing enhanced, added to" n="1"></role>
+
+<role descr="the supplement itself" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A 142-page ad supplement to Business Week 's special `` Corporate
+Elite '' issue
+</text>
+<arg f="REF" n="2">supplement</arg>
+<rel>supplement</rel>
+<arg n="1">to Business Week 's special `` Corporate Elite '' issue</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a supplement to the Dow Jones tender offer circular that it
+mailed last Friday
+</text>
+<arg f="REF" n="2">supplement</arg>
+<rel>supplement</rel>
+<arg n="1">to the Dow Jones tender offer circular that it mailed last Friday</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unitholder">
+<roleset id="unitholder.01" name="take part in" source="verb-participate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+current common unitholders
+</text>
+<arg n="1">common</arg>
+<arg n="0">unitholders</arg>
+<rel>unitholders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+NRM unitholders
+</text>
+<arg n="1">NRM</arg>
+<arg n="0">unitholders</arg>
+<rel>unitholders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

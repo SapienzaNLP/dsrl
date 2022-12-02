@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="organizing">
+<roleset id="organizing.01" name="make organized" source="verb-organize.01" vncls="26.4">
+<roles>
+
+<role descr="organizer" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="thing organized" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.4" vntheta="Beneficiary"/></role>
+
+<role descr="previous state" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+<role descr="end state" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the organizing genius
+</text>
+<rel>organizing</rel>
+<arg n="0">genius</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bitterness">
+<roleset id="bitterness.01" name="attribute/nomadj-bitter">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a family 's rage , bitterness , fear and isolation
+</text>
+<arg n="0">a family 's</arg>
+<arg f="REF" n="2">bitterness</arg>
+<rel>bitterness</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the bitterness of this battle
+</text>
+<arg f="REF" n="2">bitterness</arg>
+<rel>bitterness</rel>
+<arg n="1">of this battle</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

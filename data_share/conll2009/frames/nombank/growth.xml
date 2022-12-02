@@ -1,0 +1,84 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="growth">
+<roleset id="growth.01" name="increase" source="verb-grow.01" vncls="45.4">
+<roles>
+
+<role descr="causer of growth - should be possible" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing grown" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="amount increased by, ext or mnr" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point, end state of arg1" n="4"></role>
+
+<role descr="secondary-theme" n="5"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+realistic projections of Telerate 's revenue growth , in the
+range of 12 %
+</text>
+<arg n="5">Telerate 's</arg>
+<arg n="1">revenue</arg>
+<rel>growth</rel>
+<arg n="2">in the range of 12 %</arg>
+</example>
+
+<example name="autogen2">
+<text>
+On a truly comparable basis , we 've seen modest earnings growth
+this year from the operations of our company
+</text>
+<arg n="2">modest</arg>
+<arg n="1">earnings</arg>
+<rel>growth</rel>
+<arg n="0">*ICH*-1 ---> from the operations of our company</arg>
+</example>
+
+</roleset>
+<roleset id="growth.02" name="agriculture" source="verb-grow.03" vncls="26.1">
+<roles>
+
+<role descr="grower" n="0">
+<vnrole vncls="26.1" vntheta="Agent"/></role>
+
+<role descr="crop" n="1">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+<role descr="source" n="2">
+<vnrole vncls="26.1" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a hormone which directs the growth and function of white blood
+cells involved in the body 's immune response
+</text>
+<arg n="0">a hormone ---> which ---> *T*-5</arg>
+<arg n="Support">directs</arg>
+<rel>growth</rel>
+<arg n="1">of white blood cells involved in the body 's immune response</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the human body makes to stimulate the growth of red blood cells
+</text>
+<arg n="0">the human body ---> *-2</arg>
+<arg n="Support">stimulate</arg>
+<rel>growth</rel>
+<arg n="1">of red blood cells</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

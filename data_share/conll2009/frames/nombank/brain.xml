@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brain">
+<roleset id="brain.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their `` brains
+</text>
+<arg n="1">their</arg>
+<rel>brains</rel>
+</example>
+
+<example name="autogen2">
+<text>
+my own brain
+</text>
+<arg n="1">my</arg>
+<rel>brain</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

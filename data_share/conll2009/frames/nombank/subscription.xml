@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="subscription">
+<roleset id="subscription.01" name="like a magazine subscription, or belief system" source="verb-subscribe.01">
+<roles>
+
+<role descr="subscriber" n="0"></role>
+
+<role descr="magazine or belief system" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its annual subscription rate
+</text>
+<arg n="1">its</arg>
+<rel>subscription</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its subscription rates
+</text>
+<arg n="1">its</arg>
+<rel>subscription</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="permanence">
+<roleset id="permanence.01" name="attribute/nomadj-permanent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the permanence of this policy
+</text>
+<arg f="REF" n="2">permanence</arg>
+<rel>permanence</rel>
+<arg n="1">of this policy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

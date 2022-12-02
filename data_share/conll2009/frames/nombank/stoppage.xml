@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stoppage">
+<roleset id="stoppage.01" name="stop" source="verb-stop.01" vncls="55.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme (action or object being stopped" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Most of the country 's 20,000 judges and judicial employees
+joined the work stoppage .
+</text>
+<arg n="0">Most of the country 's 20,000 judges and judicial employees</arg>
+<arg n="Support">joined</arg>
+<arg n="1">work</arg>
+<rel>stoppage</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the work stoppage
+</text>
+<arg n="1">work</arg>
+<rel>stoppage</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

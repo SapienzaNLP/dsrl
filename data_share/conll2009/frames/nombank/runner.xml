@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="runner">
+<roleset id="runner.01" name="caused motion" source="verb-run.08">
+<roles>
+
+<role descr="causer of motion" n="0"></role>
+
+<role descr="entity in motion" n="1"></role>
+
+<role descr="destination" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+other notorious Central American drug runners
+</text>
+<arg f="LOC" n="M">Central American</arg>
+<arg n="1">drug</arg>
+<arg n="0">runners</arg>
+<rel>runners</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

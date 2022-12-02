@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="internment">
+<roleset id="internment.01" name="confine, restrict" source="verb-confine.01">
+<roles>
+
+<role descr="agent, confiner" n="0"></role>
+
+<role descr="entity confined, restricted" n="1"></role>
+
+<role descr="confined-to" n="2"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+Japanese-Americans held in World War II internment camps
+</text>
+<arg n="1">Japanese-Americans</arg>
+<arg n="Support">held in camps</arg>
+<arg f="TMP" n="M">World War II</arg>
+<rel>internment</rel>
+<arg n="2">camps</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

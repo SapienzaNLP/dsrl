@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="performer">
+<roleset id="performer.01" name="perform" source="verb-perform.01" vncls="26.7-1">
+<roles>
+
+<role descr="performer" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="performance, thing performed" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+the session 's best performer
+</text>
+<arg f="MNR" n="M">best</arg>
+<arg n="0">performer</arg>
+<rel>performer</rel>
+</example>
+
+<example name="autogen3">
+<text>
+above-average performers
+</text>
+<arg f="MNR" n="M">above-average</arg>
+<arg n="0">performers</arg>
+<rel>performers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rhythm">
+<roleset id="rhythm.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Hong Kong 's economic rhythm
+</text>
+<arg n="1">Hong Kong 's</arg>
+<arg n="3">economic</arg>
+<arg f="REF" n="2">rhythm</arg>
+<rel>rhythm</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the flowers waving in an eerie rhythm
+</text>
+<arg n="1">the flowers waving</arg>
+<arg n="2">eerie</arg>
+<rel>rhythm</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

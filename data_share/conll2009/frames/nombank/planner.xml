@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="planner">
+<roleset id="planner.01" name="expect" source="verb-plan.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2" source="3"></role>
+
+<role descr="secondary-theme" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a financial planner with Alexandra Armstrong Advisors Inc. in
+Washington
+</text>
+<arg n="1">financial</arg>
+<arg n="0">planner</arg>
+<rel>planner</rel>
+<arg n="2">with Alexandra Armstrong Advisors Inc. in Washington</arg>
+</example>
+
+<example name="autogen2">
+<text>
+T. Rowe Price 's planner
+</text>
+<arg n="2">T. Rowe Price 's</arg>
+<arg n="0">planner</arg>
+<rel>planner</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

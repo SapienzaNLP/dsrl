@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trader">
+<roleset id="trader.01" name="actrel/nom" source="verb-trade.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2" source="3"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+chief bullion trader for Chase Manhattan Bank
+</text>
+<arg n="3">chief</arg>
+<arg n="1">bullion</arg>
+<arg n="0">trader</arg>
+<rel>trader</rel>
+<arg n="2">for Chase Manhattan Bank</arg>
+</example>
+
+<example name="autogen2">
+<text>
+chief corporate trader at Harris Trust &amp; Savings Bank in New York
+</text>
+<arg n="3">chief</arg>
+<arg n="0">trader</arg>
+<rel>trader</rel>
+<arg n="2">at Harris Trust &amp; Savings Bank in New York</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

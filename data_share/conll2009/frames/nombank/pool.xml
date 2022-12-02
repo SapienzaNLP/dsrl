@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pool">
+<roleset id="pool.01" name="partitive-quant/nom" source="verb-pool.01" vncls="22.1-2">
+<roles>
+
+<role descr="collector(s), agent(s" n="0">
+<vnrole vncls="22.1-2" vntheta="Agent"/></role>
+
+<role descr="quantified/theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their mortgagebacked pools
+</text>
+<arg n="0">their</arg>
+<arg n="1">mortgagebacked</arg>
+<rel>pools</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its $ 220 million investment pool
+</text>
+<arg n="1">investment</arg>
+<rel>pool</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

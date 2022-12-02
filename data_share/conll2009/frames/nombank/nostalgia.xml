@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nostalgia">
+<roleset id="nostalgia.01" name="want, desire" source="verb-long.01" vncls="32.2">
+<roles>
+
+<role descr="wanter" n="0">
+<vnrole vncls="32.2" vntheta="Experiencer"/></role>
+
+<role descr="wanted" n="1">
+<vnrole vncls="32.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+We have as much nostalgia as anyone for those leafy , breezy days
+in Washington when honorable men and women dickered over budgets
+and even log-rolled a bit to see that the bridges got build ,
+roads paved , soldiers paid or that the desperately poor were
+cared for .
+</text>
+<arg n="0">We</arg>
+<arg n="Support">have</arg>
+<rel>nostalgia</rel>
+<arg n="1">
+for those leafy , breezy days in Washington when honorable men
+and women dickered over budgets and even log-rolled a bit to see
+that the bridges got build , roads paved , soldiers paid or that
+the desperately poor were cared for</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="perjury">
+<roleset id="perjury.01" name="nomlike" source="verb-lie.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to convict the judge of perjury and bribery conspiracy
+</text>
+<arg n="Support">convict of</arg>
+<arg n="0">the judge</arg>
+<rel>perjury</rel>
+</example>
+
+<example name="autogen2">
+<text>
+to convict Mr. Hastings of perjury and conspiring to accept a
+bribe
+</text>
+<arg n="Support">convict of</arg>
+<arg n="0">Mr. Hastings</arg>
+<rel>perjury</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

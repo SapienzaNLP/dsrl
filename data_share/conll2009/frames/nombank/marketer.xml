@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="marketer">
+<roleset id="marketer.01" name="try to sell, offer for sale" source="verb-market.01">
+<roles>
+
+<role descr="seller" n="0"></role>
+
+<role descr="thing sold" n="1"></role>
+
+<role descr="buyer" n="2"></role>
+
+<role descr="attribute" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a maker and marketer of hospital products
+</text>
+<arg n="0">marketer</arg>
+<rel>marketer</rel>
+<arg n="1">of hospital products</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a former Wang marketer
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg n="4">Wang</arg>
+<arg n="0">marketer</arg>
+<rel>marketer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

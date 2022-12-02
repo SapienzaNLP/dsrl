@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dalliance">
+<roleset id="dalliance.01" name="nomlike" source="verb-fool.02">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+romantic dalliances
+</text>
+<arg f="MNR" n="M">romantic</arg>
+<rel>dalliances</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sparkle">
+<roleset id="sparkle.01" name="attribute/nomadj-sparkly">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+psyllium 's new sparkle
+</text>
+<arg n="1">psyllium 's</arg>
+<arg f="TMP" n="M">new</arg>
+<arg f="REF" n="2">sparkle</arg>
+<rel>sparkle</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

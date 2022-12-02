@@ -1,0 +1,83 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="life">
+<roleset id="life.01" name="environment/partitive-quant">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the characters ' professional and private lives
+</text>
+<arg n="0">the characters '</arg>
+<arg n="1">professional and private</arg>
+<rel>lives</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The economic life of the region
+</text>
+<arg n="1">economic</arg>
+<rel>life</rel>
+<arg n="3">of the region</arg>
+</example>
+
+</roleset>
+<roleset id="life.02" name="attribute/nomadjlike-long">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its battery life of two to three hours
+</text>
+<arg n="3">its</arg>
+<arg n="1">battery</arg>
+<rel>life</rel>
+<arg n="2">of two to three hours</arg>
+</example>
+
+<example name="autogen3">
+<text>
+an average life of eight years
+</text>
+<rel>life</rel>
+<arg n="2">of eight years</arg>
+</example>
+
+</roleset>
+<roleset id="life.03" name="nomadj-lively">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Eurodollar bond market sprang to life late in the European
+trading session after the Dow Jones Industrial Average tumbled .
+</text>
+<arg n="1">The Eurodollar bond market</arg>
+<arg n="Support">sprang to</arg>
+<rel>life</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

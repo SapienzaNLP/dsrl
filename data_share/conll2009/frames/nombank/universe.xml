@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="universe">
+<roleset id="universe.01" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the faintest galaxies in the universe
+</text>
+<arg n="1">the faintest galaxies</arg>
+<rel>universe</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Marlowe 's universe
+</text>
+<arg n="1">Marlowe 's</arg>
+<rel>universe</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

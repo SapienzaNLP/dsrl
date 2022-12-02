@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="leader">
+<roleset id="leader.01" name="actrel/nom" source="verb-lead.04">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the market leader for traditional microprocessors with its 8086
+family that forms the heart of IBM-compatible personal computers
+</text>
+<arg n="2">market</arg>
+<arg n="0">leader</arg>
+<rel>leader</rel>
+<arg n="1">
+for traditional microprocessors with its 8086 family that forms
+the heart of IBM-compatible personal computers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a local union leader
+</text>
+<arg n="3">local</arg>
+<arg n="2">union</arg>
+<arg n="0">leader</arg>
+<rel>leader</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

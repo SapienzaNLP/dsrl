@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="riskiness">
+<roleset id="riskiness.01" name="attribute/nomadj-risky">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the riskiness of your investment portfolio
+</text>
+<arg f="REF" n="2">riskiness</arg>
+<rel>riskiness</rel>
+<arg n="1">of your investment portfolio</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the riskiness of clients ' portfolios
+</text>
+<arg f="REF" n="2">riskiness</arg>
+<rel>riskiness</rel>
+<arg n="1">of clients ' portfolios</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

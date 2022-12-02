@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="home">
+<roleset id="home.01" name="to reside or be present in" source="verb-inhabit.01">
+<roles>
+
+<role descr="resident" n="0"></role>
+
+<role descr="place of residence" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his home
+</text>
+<arg n="0">his</arg>
+<arg n="1">home</arg>
+<rel>home</rel>
+</example>
+
+<example name="autogen2">
+<text>
+new homes
+</text>
+<arg f="TMP" n="M">new</arg>
+<arg n="1">homes</arg>
+<rel>homes</rel>
+</example>
+
+</roleset>
+<roleset id="home.02" name="cause to be comfortable or happy" source="verb-comfort.01" vncls="31.1">
+<roles>
+
+<role descr="comforter" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="patient, comforted" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument or manner" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+we need to feel really at home
+</text>
+<arg n="1">we ---> *-2</arg>
+<arg n="Support">feel at</arg>
+<rel>home</rel>
+</example>
+
+</roleset>
+<roleset id="home.03" name="idiom-close-to-home/nomadjlike-familiar">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="experiencer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+, for some of us , strike close to home
+</text>
+<arg n="2">for some of us</arg>
+<arg n="Support">strike close to</arg>
+<rel>home</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

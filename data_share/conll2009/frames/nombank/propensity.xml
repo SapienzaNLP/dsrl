@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="propensity">
+<roleset id="propensity.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its propensity to take back what it gives
+</text>
+<arg n="0">its</arg>
+<rel>propensity</rel>
+<arg f="PRD" n="1">to take back what it gives</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the propensity for earthquakes
+</text>
+<rel>propensity</rel>
+<arg n="1">for earthquakes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

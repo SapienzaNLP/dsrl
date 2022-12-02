@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="babel">
+<roleset id="babel.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the babel of computer languages used by different machines ,
+including robots and machine tools
+</text>
+<rel>babel</rel>
+<arg n="1">
+of computer languages used by different machines , including
+robots and machine tools</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

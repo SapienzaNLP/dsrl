@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="facade">
+<roleset id="facade.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its yellow brick facade
+</text>
+<arg n="1">its</arg>
+<rel>facade</rel>
+</example>
+
+<example name="autogen2">
+<text>
+peeled business facades
+</text>
+<arg n="1">business</arg>
+<rel>facades</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

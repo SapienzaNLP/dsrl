@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="professionalism">
+<roleset id="professionalism.01" name="attribute/nomadj-professional">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's credibility and sense of professionalism and
+integrity
+</text>
+<arg n="1">the company 's</arg>
+<arg n="Support">sense of</arg>
+<arg f="REF" n="2">professionalism</arg>
+<rel>professionalism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

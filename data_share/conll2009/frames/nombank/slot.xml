@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="slot">
+<roleset id="slot.01" name="nomlike" source="verb-position.01" vncls="9.1">
+<roles>
+
+<role descr="agent, putter" n="0">
+<vnrole vncls="9.1" vntheta="Agent"/></role>
+
+<role descr="thing positioned, often rec" n="1">
+<vnrole vncls="9.1" vntheta="Theme"/></role>
+
+<role descr="goal" n="2">
+<vnrole vncls="9.1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its 9:30 time slot
+</text>
+<arg n="1">its</arg>
+<arg n="2">9:30</arg>
+<rel>slot</rel>
+</example>
+
+<example name="autogen2">
+<text>
+But perhaps even more remarkable , the three-hour-show , ``
+Wetten Dass '' -LRB- Make a Bet -RRB- , regularly wins the top
+slot in the country 's TV ratings , sometimes drawing as many as
+50 % of West German households .
+</text>
+<arg n="1">the three-hour-show , `` Wetten Dass '' -LRB- Make a Bet -RRB- ,</arg>
+<arg n="Support">wins</arg>
+<arg n="2">top</arg>
+<rel>slot</rel>
+<arg f="LOC" n="M">in the country 's TV ratings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="exercise">
+<roleset id="exercise.01" name="use" source="verb-exercise.01">
+<roles>
+
+<role descr="user" n="0"></role>
+
+<role descr="thing used, thing exercised" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the exercise of the power they have given the Fed
+</text>
+<rel>exercise</rel>
+<arg n="1">of the power they have given the Fed</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the exercise of stock options
+</text>
+<rel>exercise</rel>
+<arg n="1">of stock options</arg>
+</example>
+
+</roleset>
+<roleset id="exercise.02" name="athletics" source="verb-exercise.02" vncls="41.1.1">
+<roles>
+
+<role descr="athlete" n="0">
+<vnrole vncls="41.1.1" vntheta="Agent"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the most exercise we 'd had all morning
+</text>
+<rel>exercise</rel>
+<arg n="0">we</arg>
+<arg n="Support">had</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they simply walk these days for exercise
+</text>
+<arg n="0">they</arg>
+<arg n="Support">walk for</arg>
+<rel>exercise</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

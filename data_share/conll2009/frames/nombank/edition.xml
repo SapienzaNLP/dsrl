@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="edition">
+<roleset id="edition.01" name="version/nom" source="verb-edit.01">
+<roles>
+
+<role descr="editor" n="0"></role>
+
+<role descr="text" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our regional editions
+</text>
+<arg n="0">our</arg>
+<arg n="1">regional</arg>
+<rel>editions</rel>
+</example>
+
+<example name="autogen3">
+<text>
+30 regional editions
+</text>
+<arg n="1">regional</arg>
+<rel>editions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

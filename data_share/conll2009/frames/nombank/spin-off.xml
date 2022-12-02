@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spin-off">
+<roleset id="spin-off.01" name="create through spinning" source="verb-spin.04">
+<roles>
+
+<role descr="creator" n="0"></role>
+
+<role descr="creation" n="1"></role>
+
+<role descr="raw material" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a spinoff product
+</text>
+<rel>spinoff</rel>
+<arg n="1">product</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a spinoff of Immunex
+</text>
+<arg f="REF" n="1">spinoff</arg>
+<rel>spinoff</rel>
+<arg n="2">of Immunex</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

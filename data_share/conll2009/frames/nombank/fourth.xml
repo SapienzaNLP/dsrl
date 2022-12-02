@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fourth">
+<roleset id="fourth.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more than one-fourth of its shares
+</text>
+<rel>one-fourth</rel>
+<arg n="1">of its shares</arg>
+</example>
+
+<example name="autogen2">
+<text>
+one-fourth of the economy of the nation 's most populous state
+</text>
+<rel>one-fourth</rel>
+<arg n="1">of the economy of the nation 's most populous state</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

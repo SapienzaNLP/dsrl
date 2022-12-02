@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="breed">
+<roleset id="breed.01" name="type">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a new breed of savvy consumer who puts bargain prices ,
+nutritional and environmental concerns , and other priorities
+ahead of old-fashioned brand loyalty
+</text>
+<rel>breed</rel>
+<arg n="1">
+of savvy consumer who puts bargain prices , nutritional and
+environmental concerns , and other priorities ahead of
+old-fashioned brand loyalty</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The new breed of team owner
+</text>
+<arg f="TMP" n="M">new</arg>
+<rel>breed</rel>
+<arg n="1">of team owner</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

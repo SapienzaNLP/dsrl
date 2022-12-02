@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ailment">
+<roleset id="ailment.01" name="be ill" source="verb-ail.01">
+<roles>
+
+<role descr="cause" n="0"></role>
+
+<role descr="experiencer" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Honecker was twice hospitalized this summer for a gall
+bladder ailment
+</text>
+<arg n="3">Mr. Honecker</arg>
+<arg n="Support">hospitalized for</arg>
+<arg n="1">gall bladder</arg>
+<arg n="0">ailment</arg>
+<rel>ailment</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her ailment
+</text>
+<arg n="1">her</arg>
+<arg n="0">ailment</arg>
+<rel>ailment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="factory">
+<roleset id="factory.01" name="create" source="verb-manufacture.01" vncls="26.4">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.4" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fiberglass factory
+</text>
+<arg n="1">fiberglass</arg>
+<arg n="0">factory</arg>
+<rel>factory</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Indeed , Matchbox and other leading Hong Kong toy makers were
+setting up factories in Southeast Asia , especially in Thailand ,
+long before the massacre .
+</text>
+<arg n="0">factories</arg>
+<rel>factories</rel>
+<arg f="LOC" n="M">in Southeast Asia , especially in Thailand</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

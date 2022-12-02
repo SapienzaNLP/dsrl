@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="booking">
+<roleset id="booking.01" name="initiate employment" source="verb-hire.01" vncls="29.2">
+<roles>
+
+<role descr="employer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="new employee" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="job" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Our bookings
+</text>
+<arg n="1">Our</arg>
+<rel>bookings</rel>
+</example>
+
+<example name="autogen2">
+<text>
+our bookings
+</text>
+<arg n="1">our</arg>
+<rel>bookings</rel>
+</example>
+
+</roleset>
+<roleset id="booking.02" name="hold back" source="verb-reserve.01" vncls="13.5.1">
+<roles>
+
+<role descr="reserver, holder back" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing reserved" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="secondary attribute of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+civilian aircraft bookings
+</text>
+<arg n="1">civilian aircraft</arg>
+<rel>bookings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="detention">
+<roleset id="detention.01" name="to keep in custody or delay" source="verb-detain.01">
+<roles>
+
+<role descr="police, etc" n="0"></role>
+
+<role descr="entity detained" n="1"></role>
+
+<role descr="detained for what" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a detention center for illegal immigrants from China
+</text>
+<rel>detention</rel>
+<arg n="1">for illegal immigrants from China</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Stanley 's detention
+</text>
+<arg n="1">Mr. Stanley 's</arg>
+<rel>detention</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

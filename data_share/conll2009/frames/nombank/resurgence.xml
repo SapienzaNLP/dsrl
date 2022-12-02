@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resurgence">
+<roleset id="resurgence.01" name="be" source="verb-exist.01" vncls="39.6">
+<roles>
+
+<role descr="thing existing" n="1">
+<vnrole vncls="39.6" vntheta="Theme"/></role>
+
+<role descr="secondary attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the resurgence -LCB- in inflation -RCB-
+</text>
+<rel>resurgence</rel>
+<arg n="1">-LCB- in inflation -RCB-</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the resurgence of black and white
+</text>
+<rel>resurgence</rel>
+<arg n="1">of black and white</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="perversity">
+<roleset id="perversity.01" name="nomadj-perverse">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Swedish Academy 's past perversities
+</text>
+<arg n="1">the Swedish Academy 's</arg>
+<arg f="TMP" n="M">past</arg>
+<rel>perversities</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

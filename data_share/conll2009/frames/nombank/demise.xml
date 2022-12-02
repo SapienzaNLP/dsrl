@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="demise">
+<roleset id="demise.01" name="sterben" source="verb-die.01" vncls="48.2">
+<roles>
+
+<role descr="the deceased" n="1">
+<vnrole vncls="48.2" vntheta="Theme"/></role>
+
+<role descr="cognate object" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The demise of Merkur -LRB- pronounced mare-COOR -RRB-
+</text>
+<rel>demise</rel>
+<arg n="1">of Merkur -LRB- pronounced mare-COOR -RRB-</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Merkur 's demise
+</text>
+<arg n="1">Merkur 's</arg>
+<rel>demise</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hitch">
+<roleset id="hitch.01" name="to block" source="verb-obstruct.01">
+<roles>
+
+<role descr="blocker, obstruction" n="0"></role>
+
+<role descr="thing obstructed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cultural hitches in marketing and distribution
+</text>
+<arg n="0">hitches</arg>
+<rel>hitches</rel>
+<arg n="1">in marketing and distribution</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Staples would sell new stock without a hitch
+</text>
+<arg n="Support">sell without</arg>
+<arg n="1">new stock</arg>
+<arg n="0">hitch</arg>
+<rel>hitch</rel>
+</example>
+
+</roleset>
+<roleset id="hitch.02" name="include in some group" source="verb-associate.01" vncls="22.2">
+<roles>
+
+<role descr="agent, entity causing some grouping, making an association" n="0"></role>
+
+<role descr="theme, thing being included in some group" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="group, associated-with" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Greece 's eight-year misadventure under autocratic
+pseudosocialism and subsequent three-month hitch with a
+conservative-communist coalition government
+</text>
+<arg n="1">Greece 's</arg>
+<arg f="TMP" n="M">subsequent</arg>
+<arg f="TMP" n="M">three-month</arg>
+<rel>hitch</rel>
+<arg n="2">with a conservative-communist coalition government</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

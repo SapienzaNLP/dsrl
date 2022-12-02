@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="engineer">
+<roleset id="engineer.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+executive engineer of Ford Motor Co. 's auto-safety office
+</text>
+<arg n="3">executive</arg>
+<arg n="0">engineer</arg>
+<rel>engineer</rel>
+<arg n="2">of Ford Motor Co. 's auto-safety office</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a chemical engineer
+</text>
+<arg n="1">chemical</arg>
+<arg n="0">engineer</arg>
+<rel>engineer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

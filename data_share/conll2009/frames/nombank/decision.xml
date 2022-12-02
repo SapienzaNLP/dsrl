@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="decision">
+<roleset id="decision.01" name="decide" source="verb-decide.01">
+<roles>
+
+<role descr="decider" n="0"></role>
+
+<role descr="decision" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Senate decision to postpone action on capital gains
+</text>
+<arg n="0">Senate</arg>
+<rel>decision</rel>
+<arg f="PRD" n="1">to postpone action on capital gains</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a decision on the proposed transaction , which was announced in
+July
+</text>
+<rel>decision</rel>
+<arg n="1">on the proposed transaction , which was announced in July</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

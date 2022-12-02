@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="usurpation">
+<roleset id="usurpation.01" name="to seize, take over" source="verb-usurp.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="entity usurped" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an unconstitutional usurpation of its power
+</text>
+<arg f="MNR" n="M">unconstitutional</arg>
+<rel>usurpation</rel>
+<arg n="1">of its power</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

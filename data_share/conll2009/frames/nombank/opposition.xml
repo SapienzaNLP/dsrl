@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="opposition">
+<roleset id="opposition.01" name="oppose, object to" source="verb-oppose.01" vncls="29.2">
+<roles>
+
+<role descr="opposer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing opposed to" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their opposition to apartheid
+</text>
+<arg n="0">their</arg>
+<rel>opposition</rel>
+<arg n="1">to apartheid</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Gandhi 's opposition
+</text>
+<arg n="1">Mr. Gandhi 's</arg>
+<rel>opposition</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="loitering">
+<roleset id="loitering.01" name="pass time idly, probably in a 	 semi-horizontal position" source="verb-lounge.01">
+<roles>
+
+<role descr="layabout(s" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+drug dealing and loitering near their premises
+</text>
+<rel>loitering</rel>
+<arg f="LOC" n="M">near their premises</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

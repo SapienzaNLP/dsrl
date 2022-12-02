@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="circulation">
+<roleset id="circulation.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But at 2.3 million weekly paid circulation , U.S. News still
+ranks third behind Time Warner Inc. 's Time magazine , with 4.4
+million circulation , and Washington Post Co. 's Newsweek , with
+3.3 million circulation .
+</text>
+<arg n="2">2.3 million weekly</arg>
+<rel>circulation</rel>
+<arg n="1">U.S. News</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Working Woman , with circulation near one million ,
+</text>
+<arg n="1">Working Woman</arg>
+<rel>circulation</rel>
+<arg n="2">near one million</arg>
+</example>
+
+</roleset>
+<roleset id="circulation.02" name="cause to) go around" source="verb-circulate.01">
+<roles>
+
+<role descr="causer" n="0"></role>
+
+<role descr="thing going 'round" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 300 billion rubles in circulation
+</text>
+<arg n="1">the 300 billion rubles</arg>
+<rel>circulation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the circulation of two `` bid-wanted '' lists totaling $ 655
+million
+</text>
+<rel>circulation</rel>
+<arg n="1">of two `` bid-wanted '' lists totaling $ 655 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

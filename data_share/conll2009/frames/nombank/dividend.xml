@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dividend">
+<roleset id="dividend.01" name="wages" source="verb-earn.01" vncls="13.5.1">
+<roles>
+
+<role descr="earner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="wages" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+ONEIDA Ltd. declared a 10 % stock dividend , payable Dec. 15 to
+stock of record Nov. 17 .
+</text>
+<arg n="0">ONEIDA Ltd.</arg>
+<arg n="Support">declared</arg>
+<arg n="1">10 %</arg>
+<arg n="2">stock</arg>
+<rel>dividend</rel>
+</example>
+
+<example name="autogen2">
+<text>
+$ 12.9 million in preferred dividends that had no counterpart in
+the year-earlier quarter
+</text>
+<arg n="1">$ 12.9 million</arg>
+<arg n="3">preferred</arg>
+<rel>dividends</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lawsuit">
+<roleset id="lawsuit.01" name="call to court" source="verb-sue.01">
+<roles>
+
+<role descr="litigant" n="0"></role>
+
+<role descr="crime" n="1" source="2"></role>
+
+<role descr="adjudicator or listener" n="2"></role>
+
+<role descr="defender" n="3" source="1"></role>
+
+<role descr="award sought" n="4" source="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the subject of a $ 1.1 billion federal anti-racketeering lawsuit
+accusing him of bleeding off assets of a California thrift he
+controlled , Lincoln Savings &amp; Loan Association , and driving it
+into insolvency
+</text>
+<arg n="3">the subject</arg>
+<arg n="4">$ 1.1 billion</arg>
+<arg n="0">federal</arg>
+<arg n="1">anti-racketeering</arg>
+<rel>lawsuit</rel>
+</example>
+
+<example name="autogen2">
+<text>
+he had filed separate lawsuits in the Ontario Supreme Court for
+unjust dismissal against Enfield and for libel against its
+largest shareholder , Canadian Express Ltd. , and two executives
+of Hees International Bancorp Inc. , which controls Canadian
+Express
+</text>
+<arg n="0">he</arg>
+<arg n="Support">filed</arg>
+<rel>lawsuits</rel>
+<arg n="1">*ICH*-1 ---> for unjust dismissal</arg>
+<arg n="3">*ICH*-2 ---> against Enfield</arg>
+<arg n="2">in the Ontario Supreme Court</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

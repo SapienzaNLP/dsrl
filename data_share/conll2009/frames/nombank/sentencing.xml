@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sentencing">
+<roleset id="sentencing.01" name="assign criminal punishment" source="verb-sentence.01">
+<roles>
+
+<role descr="judge/jury" n="0"></role>
+
+<role descr="criminal" n="1"></role>
+
+<role descr="punishment" n="2"></role>
+
+<role descr="crime" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Garcias ' sentencing
+</text>
+<arg n="1">the Garcias '</arg>
+<rel>sentencing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his sentencing
+</text>
+<arg n="1">his</arg>
+<rel>sentencing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

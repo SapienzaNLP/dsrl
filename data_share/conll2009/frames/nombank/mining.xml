@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mining">
+<roleset id="mining.01" name="extract (ore or minerals) from the earth" source="verb-mine.01" vncls="10.9">
+<roles>
+
+<role descr="miner, agent" n="0">
+<vnrole vncls="10.9" vntheta="Agent"/></role>
+
+<role descr="thing extracted" n="1">
+<vnrole vncls="10.9" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its Malapai Resources Co . uranium-mining unit
+</text>
+<arg n="1">uranium-mining</arg>
+<rel>uranium-mining</rel>
+<arg n="0">unit</arg>
+</example>
+
+<example name="autogen2">
+<text>
+real-estate , venture-capital and uranium-mining operations
+</text>
+<arg n="1">uranium-mining</arg>
+<rel>uranium-mining</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

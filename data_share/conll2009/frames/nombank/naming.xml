@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="naming">
+<roleset id="naming.01" name="call" source="verb-name.01" vncls="29.3">
+<roles>
+
+<role descr="namer" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="named" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="name of arg1" n="2">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The naming of FCB/Leber Katz Partners as agency of record for
+Nabisco Brands Inc. and Planters LifeSavers Co.
+</text>
+<rel>naming</rel>
+<arg n="1">of FCB/Leber Katz Partners</arg>
+<arg n="2">
+as agency of record for Nabisco Brands Inc. and Planters
+LifeSavers Co.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,84 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tip">
+<roleset id="tip.01" name="give a hint to" source="verb-tip.04">
+<roles>
+
+<role descr="giver of hint" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="getter of hint" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Equitable Gas Co. is considering the format to offer energy tips
+to consumers
+</text>
+<arg n="0">Equitable Gas Co. ---> *-3</arg>
+<arg n="Support">offer</arg>
+<arg n="1">energy</arg>
+<rel>tips</rel>
+<arg n="2">to consumers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Noriega 's tips on emerging leftists at his school
+</text>
+<arg n="0">Mr. Noriega 's</arg>
+<rel>tips</rel>
+<arg n="1">on emerging leftists at his school</arg>
+</example>
+
+</roleset>
+<roleset id="tip.02" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+only the tip of the iceberg
+</text>
+<rel>tip</rel>
+<arg n="1">of the iceberg</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the tips of her red high heels
+</text>
+<rel>tips</rel>
+<arg n="1">of her red high heels</arg>
+</example>
+
+</roleset>
+<roleset id="tip.03" name="leave a gratuity" source="verb-tip.02">
+<roles>
+
+<role descr="tipper" n="0"></role>
+
+<role descr="gratuity" n="1"></role>
+
+<role descr="waiter, etc" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+waiters who get cash tips
+</text>
+<arg n="2">waiters ---> who ---> *T*-1</arg>
+<arg n="Support">get</arg>
+<arg n="1">cash</arg>
+<rel>tips</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

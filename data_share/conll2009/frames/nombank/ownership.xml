@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ownership">
+<roleset id="ownership.01" name="nom/share" source="verb-own.01">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="possession/quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its reduced ownership in the Lyondell Petrochemical Co.
+</text>
+<arg n="0">its</arg>
+<arg n="2">reduced</arg>
+<rel>ownership</rel>
+<arg n="1">in the Lyondell Petrochemical Co.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+50-50 ownership of the planned venture
+</text>
+<arg n="2">50-50</arg>
+<rel>ownership</rel>
+<arg n="1">of the planned venture</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

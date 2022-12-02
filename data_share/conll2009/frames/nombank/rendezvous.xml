@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rendezvous">
+<roleset id="rendezvous.01" name="to bring or come together" source="verb-rendezvous.01">
+<roles>
+
+<role descr="entities meeting" n="0"></role>
+
+<role descr="rendezvous with" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In response to the letters , Mr. Thomson usually sends an
+autographed photo with a polite note , and rarely arranges a
+rendezvous .
+</text>
+<arg n="0">Mr. Thomson</arg>
+<arg n="Support">arranges</arg>
+<rel>rendezvous</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

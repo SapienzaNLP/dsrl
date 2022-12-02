@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dissemination">
+<roleset id="dissemination.01" name="to scatter widely, spread" source="verb-disseminate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient/goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the `` dissemination '' of that material in the U.S.
+</text>
+<rel>dissemination</rel>
+<arg n="1">of that material</arg>
+<arg n="2">in the U.S.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+brokerage firms such as Shearson that print their weekly market
+commentaries on Fridays for dissemination the following week
+</text>
+<arg n="0">brokerage firms ---> that ---> *T*-2</arg>
+<arg n="Support">print for</arg>
+<arg n="1">their weekly market commentaries</arg>
+<rel>dissemination</rel>
+<arg f="TMP" n="M">the following week</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

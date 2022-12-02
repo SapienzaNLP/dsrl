@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="centerpiece">
+<roleset id="centerpiece.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the centerpiece of CenTrust 's strategy to transform itself into
+a traditional S&amp;L from a high-flying institution that relied
+heavily on securities trading for profits
+</text>
+<arg n="0">centerpiece</arg>
+<rel>centerpiece</rel>
+<arg n="1">
+of CenTrust 's strategy to transform itself into a traditional
+S&amp;L from a high-flying institution that relied heavily on
+securities trading for profits</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The centerpiece of the promotion
+</text>
+<arg n="0">centerpiece</arg>
+<rel>centerpiece</rel>
+<arg n="1">of the promotion</arg>
+</example>
+
+</roleset>
+<roleset id="centerpiece.02" name="nomadjlike-significant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a centerpiece issue
+</text>
+<rel>centerpiece</rel>
+<arg n="1">issue</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

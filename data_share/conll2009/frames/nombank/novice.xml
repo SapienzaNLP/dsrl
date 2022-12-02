@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="novice">
+<roleset id="novice.01" name="nomadj-novice">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a political novice
+</text>
+<arg n="1">political</arg>
+<arg n="0">novice</arg>
+<rel>novice</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

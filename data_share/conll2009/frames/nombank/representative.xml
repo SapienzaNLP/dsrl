@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="representative">
+<roleset id="representative.01" name="actrel/consultant/stand for, correspond" source="verb-represent.01" vncls="29.2">
+<roles>
+
+<role descr="item / entity taking place of other" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+<role descr="employer" n="4" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Machinists representatives at Lockheed Corp.
+</text>
+<arg n="4">Machinists</arg>
+<arg n="0">representatives</arg>
+<rel>representatives</rel>
+<arg n="2">at Lockheed Corp.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The U.S. trade representative
+</text>
+<arg n="4">U.S.</arg>
+<arg n="1">trade</arg>
+<arg n="0">representative</arg>
+<rel>representative</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

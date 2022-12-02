@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="volley">
+<roleset id="volley.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a volley of full-page advertisements in six major British
+newspapers
+</text>
+<rel>volley</rel>
+<arg n="1">of full-page advertisements in six major British newspapers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

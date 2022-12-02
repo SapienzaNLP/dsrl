@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sex">
+<roleset id="sex.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the race , sex and income level of borrowers
+</text>
+<arg f="REF" n="2">sex</arg>
+<rel>sex</rel>
+<arg n="1">of borrowers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their sex
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">sex</arg>
+<rel>sex</rel>
+</example>
+
+</roleset>
+<roleset id="sex.02" name="engage in sexual relations" source="verb-fuck.01">
+<roles>
+
+<role descr="party the first" n="0"></role>
+
+<role descr="party the second" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he had sex with a male congressional page in 1983
+</text>
+<arg n="0">he</arg>
+<arg n="Support">had</arg>
+<rel>sex</rel>
+<arg n="1">with a male congressional page</arg>
+</example>
+
+<example name="autogen2">
+<text>
+sex between uninfected partners
+</text>
+<rel>sex</rel>
+<arg n="0">between uninfected partners</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

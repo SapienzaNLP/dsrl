@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resolution">
+<roleset id="resolution.01" name="work-of-art/nom" source="verb-resolve.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Senator Bob Dole 's proposed commemorative resolution
+</text>
+<arg n="0">Senator Bob Dole 's</arg>
+<arg n="1">commemorative</arg>
+<rel>resolution</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the strongly worded Armenian resolution
+</text>
+<arg n="1">Armenian</arg>
+<rel>resolution</rel>
+</example>
+
+</roleset>
+<roleset id="resolution.02" name="resolve, come to a solution" source="verb-resolve.01">
+<roles>
+
+<role descr="entity making resolution" n="0"></role>
+
+<role descr="thing being resolved" n="1"></role>
+
+<role descr="comitative, resolved with" n="2"></role>
+
+<role descr="attribute, resolved to or at" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the resolution of the matter by the Ethics Committee
+</text>
+<rel>resolution</rel>
+<arg n="1">of the matter</arg>
+<arg n="0">by the Ethics Committee</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the resolution of certain accounting issues relating to mortgages
+servicing
+</text>
+<rel>resolution</rel>
+<arg n="1">of certain accounting issues relating to mortgages servicing</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

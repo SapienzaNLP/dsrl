@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="offense">
+<roleset id="offense.01" name="give offense, bother" source="verb-offend.01" vncls="31.1">
+<roles>
+
+<role descr="offender" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="offended" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mrs. Yeargin 's offense
+</text>
+<arg n="0">Mrs. Yeargin 's</arg>
+<rel>offense</rel>
+</example>
+
+<example name="autogen2">
+<text>
+But when asked what exactly he does in business , he immediately
+takes offense .
+</text>
+<arg n="1">he</arg>
+<arg n="Support">takes</arg>
+<rel>offense</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

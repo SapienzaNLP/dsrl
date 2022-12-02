@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="holder">
+<roleset id="holder.01" name="grasp, bear" source="verb-hold.01" vncls="15.1">
+<roles>
+
+<role descr="holder" n="0">
+<vnrole vncls="15.1" vntheta="Agent"/></role>
+
+<role descr="thing held" n="1">
+<vnrole vncls="15.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="secondary attribute of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the parent company 's credit-card holders
+</text>
+<arg n="2">the parent company 's</arg>
+<arg n="1">credit-card</arg>
+<arg n="0">holders</arg>
+<rel>holders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Jefferson Smurfit 's minority holders
+</text>
+<arg n="2">Jefferson Smurfit 's</arg>
+<arg n="0">holders</arg>
+<rel>holders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

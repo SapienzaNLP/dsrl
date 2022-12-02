@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="emissary">
+<roleset id="emissary.01" name="stand for, correspond" source="verb-represent.01" vncls="29.2">
+<roles>
+
+<role descr="item / entity taking place of other" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="item / entity being substituted by the other" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his emissaries
+</text>
+<arg n="1">his</arg>
+<arg n="0">emissaries</arg>
+<rel>emissaries</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

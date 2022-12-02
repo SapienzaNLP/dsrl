@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="praise">
+<roleset id="praise.01" name="praise" source="verb-praise.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="attribute/reason" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the official 's praise of Clean Harbors for the quality of some
+of the data in the report
+</text>
+<arg n="0">the official 's</arg>
+<rel>praise</rel>
+<arg n="1">of Clean Harbors</arg>
+<arg n="2">for the quality of some of the data in the report</arg>
+</example>
+
+<example name="autogen2">
+<text>
+These days , Mr. Breeden is winning praise in Washington and on
+Wall Street for his behind-the-scenes role in monitoring the
+Friday-the-13th market plunge and the following Monday 's
+harrowing morning session .
+</text>
+<arg n="1">Mr. Breeden</arg>
+<arg n="Support">winning</arg>
+<rel>praise</rel>
+<arg n="0">in Washington and on Wall Street</arg>
+<arg n="2">
+for his behind-the-scenes role in monitoring the Friday-the-13th
+market plunge and the following Monday 's harrowing morning
+session</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

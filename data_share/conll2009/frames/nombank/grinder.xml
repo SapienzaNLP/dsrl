@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grinder">
+<roleset id="grinder.01" name="make smaller, crush1" source="verb-grind.01" vncls="26.1">
+<roles>
+
+<role descr="grinder" n="0">
+<vnrole vncls="26.1" vntheta="Agent"/></role>
+
+<role descr="thing crushed" n="1">
+<vnrole vncls="26.1" vntheta="Patient"/></role>
+
+<role descr="end state" n="2">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Capitol Hill sausage-grinder
+</text>
+<arg n="0">sausage-grinder</arg>
+<arg n="1">sausage-grinder</arg>
+<rel>sausage-grinder</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

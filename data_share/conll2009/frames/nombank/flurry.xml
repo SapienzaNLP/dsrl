@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flurry">
+<roleset id="flurry.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The biggest flurry of investor activity
+</text>
+<rel>flurry</rel>
+<arg n="1">of investor activity</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the flurry of interest in those shares
+</text>
+<rel>flurry</rel>
+<arg n="1">of interest in those shares</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

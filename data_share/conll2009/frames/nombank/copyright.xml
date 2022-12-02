@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="copyright">
+<roleset id="copyright.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+holders of the copyright on the movie
+</text>
+<arg n="0">holders</arg>
+<arg n="Support">holders of</arg>
+<rel>copyright</rel>
+<arg n="1">on the movie</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its copyright
+</text>
+<arg n="0">its</arg>
+<rel>copyright</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

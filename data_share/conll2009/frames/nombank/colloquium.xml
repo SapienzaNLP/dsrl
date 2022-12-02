@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="colloquium">
+<roleset id="colloquium.01" name="get together with" source="verb-meet.03" vncls="36.3">
+<roles>
+
+<role descr="one party" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="reason to meet" n="1"></role>
+
+<role descr="other party" n="2">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+<role descr="time of meeting" n="M"></role>
+
+<role descr="location of meeting" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a student colloquium
+</text>
+<arg n="0">student</arg>
+<rel>colloquium</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

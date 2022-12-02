@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="roomful">
+<roleset id="roomful.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a roomful of Arkansas reporters
+</text>
+<rel>roomful</rel>
+<arg n="1">of Arkansas reporters</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

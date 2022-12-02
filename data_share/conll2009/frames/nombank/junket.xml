@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="junket">
+<roleset id="junket.01" name="travel" source="verb-travel.01" vncls="51.3.2">
+<roles>
+
+<role descr="traveller" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="destination or path" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+ex-President Reagan 's multimillion-dollar junket in Japan
+</text>
+<arg n="0">ex-President Reagan 's</arg>
+<rel>junket</rel>
+<arg f="LOC" n="M">in Japan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+With the $ 3 million received from investors , he took frequent
+junkets with friends to exotic locales and leased an expensive
+BMW for his girlfriend , whom he met at the shop where he got his
+custom-tailored suits .
+</text>
+<arg n="0">he</arg>
+<arg n="Support">took</arg>
+<arg f="TMP" n="M">frequent</arg>
+<rel>junkets</rel>
+<arg f="MNR" n="M">with friends</arg>
+<arg n="1">to exotic locales</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

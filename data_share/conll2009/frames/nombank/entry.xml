@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="entry">
+<roleset id="entry.01" name="enter, go in" source="verb-enter.01" vncls="51.1-1">
+<roles>
+
+<role descr="entity entering" n="0">
+<vnrole vncls="51.1-1" vntheta="Theme"/></role>
+
+<role descr="place or thing entered" n="1">
+<vnrole vncls="51.1-1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Intel 's entry in the crowded market for reduced instruction set
+computing , or RISC , computers
+</text>
+<arg n="0">Intel 's</arg>
+<rel>entry</rel>
+<arg n="1">
+in the crowded market for reduced instruction set computing , or
+RISC , computers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his entry into their official association
+</text>
+<arg n="0">his</arg>
+<rel>entry</rel>
+<arg n="1">into their official association</arg>
+</example>
+
+</roleset>
+<roleset id="entry.02" name="submit, cause to enter" source="verb-enter.02" vncls="29.2">
+<roles>
+
+<role descr="submitter" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing submitted" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+<role descr="beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's order entry
+</text>
+<arg n="0">the company 's</arg>
+<arg n="1">order</arg>
+<rel>entry</rel>
+</example>
+
+<example name="autogen2">
+<text>
+certain accounting entries on the parent company 's books
+</text>
+<arg n="1">accounting</arg>
+<rel>entries</rel>
+<arg n="2">on the parent company 's books</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

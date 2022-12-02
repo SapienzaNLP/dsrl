@@ -1,0 +1,76 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="weight">
+<roleset id="weight.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But as legislative action , they would carry greater weight and
+would be more difficult to rescind .
+</text>
+<arg n="1">they</arg>
+<arg n="Support">carry</arg>
+<arg n="2">greater</arg>
+<rel>weight</rel>
+</example>
+
+<example name="autogen3">
+<text>
+their combined weight
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">weight</arg>
+<rel>weight</rel>
+</example>
+
+</roleset>
+<roleset id="weight.02" name="give-weight-to" source="verb-emphasize.01">
+<roles>
+
+<role descr="emphasizer" n="0"></role>
+
+<role descr="utterance" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to give more weight to these other objectives that the secretary
+represents -- low interest rates , short-run economic expansion ,
+and stabilization of exchange rates at internationally managed
+levels
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">give</arg>
+<rel>weight</rel>
+<arg n="1">
+to these other objectives that the secretary represents -- low
+interest rates , short-run economic expansion , and stabilization
+of exchange rates at internationally managed levels</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to give more weight to cost-benefit considerations in evaluating
+pesticides
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">give</arg>
+<rel>weight</rel>
+<arg n="1">to cost-benefit considerations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

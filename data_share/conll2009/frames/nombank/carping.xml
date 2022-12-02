@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="carping">
+<roleset id="carping.01" name="complain ineffectually" source="verb-carp.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` less carping '' about the emergency office 's performance
+</text>
+<rel>carping</rel>
+<arg n="1">about the emergency office 's performance</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

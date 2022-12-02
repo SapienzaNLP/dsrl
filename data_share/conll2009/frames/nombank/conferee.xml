@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conferee">
+<roleset id="conferee.01" name="meet with" source="verb-confer.01" vncls="33">
+<roles>
+
+<role descr="one party" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="other party" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen6">
+<text>
+other Senate conferees
+</text>
+<arg f="LOC" n="M">Senate</arg>
+<arg n="0">conferees</arg>
+<rel>conferees</rel>
+</example>
+
+<example name="autogen7">
+<text>
+the House conferees
+</text>
+<arg f="LOC" n="M">House</arg>
+<arg n="0">conferees</arg>
+<rel>conferees</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

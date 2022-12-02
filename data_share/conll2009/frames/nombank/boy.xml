@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="boy">
+<roleset id="boy.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her boy
+</text>
+<arg n="1">her</arg>
+<arg n="0">boy</arg>
+<rel>boy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+corporate America 's good guys and bad boys
+</text>
+<arg n="1">corporate America 's</arg>
+<arg n="0">boys</arg>
+<rel>boys</rel>
+</example>
+
+</roleset>
+<roleset id="boy.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In using program trading as a whipping boy , fundamentalist
+investors stand to gain the high ground in wooing small investors
+for their existing stock-selection products .
+</text>
+<arg n="2">* ---> fundamentalist investors</arg>
+<arg n="Support">using as</arg>
+<arg n="1">whipping</arg>
+<arg n="0">boy</arg>
+<rel>boy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a black stock boy
+</text>
+<arg n="1">stock</arg>
+<arg n="0">boy</arg>
+<rel>boy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

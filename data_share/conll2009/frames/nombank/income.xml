@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="income">
+<roleset id="income.01" name="wages" source="verb-earn.01" vncls="13.5.1">
+<roles>
+
+<role descr="earner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="wages" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+For 1984 , they reported gross income of $ 1,647 from Amway sales
+, offset by expenses totaling $ 16,746 -- including car costs of
+$ 6,805 and travel and entertainment costs of $ 5,088 .
+</text>
+<arg n="0">they</arg>
+<arg n="Support">reported</arg>
+<arg f="MNR" n="M">gross</arg>
+<rel>income</rel>
+<arg n="1">of $ 1,647</arg>
+<arg n="3">from Amway sales</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's income from continuing operations
+</text>
+<arg n="0">the company 's</arg>
+<arg f="REF" n="1">income</arg>
+<rel>income</rel>
+<arg n="3">from continuing operations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

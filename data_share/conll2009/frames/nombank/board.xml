@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="board">
+<roleset id="board.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Prime 's five-member board
+</text>
+<arg n="1">Prime 's</arg>
+<arg n="2">five-member</arg>
+<rel>board</rel>
+</example>
+
+<example name="autogen2">
+<text>
+UAL 's board
+</text>
+<arg n="2">UAL 's</arg>
+<rel>board</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

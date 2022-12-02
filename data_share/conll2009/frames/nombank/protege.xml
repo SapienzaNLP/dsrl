@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="protege">
+<roleset id="protege.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a protege of Isaac Stern who performed with major orchestras
+while still a student
+</text>
+<arg n="0">protege</arg>
+<rel>protege</rel>
+<arg n="1">of Isaac Stern</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a longtime Honecker protege
+</text>
+<arg f="TMP" n="M">longtime</arg>
+<arg n="1">Honecker</arg>
+<arg n="0">protege</arg>
+<rel>protege</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

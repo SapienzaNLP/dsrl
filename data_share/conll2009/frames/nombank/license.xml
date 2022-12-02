@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="license">
+<roleset id="license.01" name="give legal rights to property" source="verb-license.01">
+<roles>
+
+<role descr="granter of license" n="0"></role>
+
+<role descr="licensed thing" n="1"></role>
+
+<role descr="beneficiary, licensed-to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a software license provided by the Morris units to Information
+International
+</text>
+<arg n="1">software</arg>
+<rel>license</rel>
+<arg n="Support">provided</arg>
+<arg n="0">by the Morris units</arg>
+<arg n="2">to Information International</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the firm 's license to sell securities
+</text>
+<arg n="2">the firm 's</arg>
+<rel>license</rel>
+<arg f="PRD" n="1">to sell securities</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

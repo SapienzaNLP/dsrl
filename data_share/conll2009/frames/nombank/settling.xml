@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="settling">
+<roleset id="settling.01" name="resolve" source="verb-settle.02">
+<roles>
+
+<role descr="entity making resolution" n="0"></role>
+
+<role descr="thing being resolved" n="1"></role>
+
+<role descr="comitative, resolved with" n="2"></role>
+
+<role descr="attribute, resolved to or at" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the settling of strikes in Canada and Mexico
+</text>
+<rel>settling</rel>
+<arg n="1">of strikes</arg>
+<arg f="LOC" n="M">in Canada and Mexico</arg>
+</example>
+
+</roleset>
+<roleset id="settling.02" name="come to rest, generally, or decline, of commodity prices" source="verb-settle.03">
+<roles>
+
+<role descr="entity causing something to settle" n="0"></role>
+
+<role descr="commodity or stock, thing settling" n="1"></role>
+
+<role descr="ext, amount declined by" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+two settling ponds
+</text>
+<rel>settling</rel>
+<arg n="1">ponds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

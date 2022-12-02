@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="announcement">
+<roleset id="announcement.01" name="say for all to hear" source="verb-announce.01" vncls="37.7">
+<roles>
+
+<role descr="announcer" n="0">
+<vnrole vncls="37.7" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.7" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.7" vntheta="Recipient"/></role>
+
+<role descr="attributive" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a vitriolic U.S. response to Sony Corp. 's announcement of its
+purchase of Columbia Pictures Entertainment Inc.
+</text>
+<arg n="2">U.S.</arg>
+<arg n="Support">response to</arg>
+<arg n="0">Sony Corp. 's</arg>
+<rel>announcement</rel>
+<arg n="1">of its purchase of Columbia Pictures Entertainment Inc.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his withdrawal announcement
+</text>
+<arg n="0">his</arg>
+<arg n="1">withdrawal</arg>
+<rel>announcement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

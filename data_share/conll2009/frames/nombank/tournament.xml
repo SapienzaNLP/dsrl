@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tournament">
+<roleset id="tournament.01" name="compete, vie" source="verb-compete.01" vncls="36.1">
+<roles>
+
+<role descr="competitor" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="opponent" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="prize" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their domination of the just-concluded tournament
+</text>
+<arg n="0">their</arg>
+<arg n="Support">domination of</arg>
+<rel>tournament</rel>
+</example>
+
+<example name="autogen2">
+<text>
+last year 's tournament
+</text>
+<arg f="TMP" n="M">last year 's</arg>
+<rel>tournament</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

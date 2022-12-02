@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="issuer">
+<roleset id="issuer.01" name="emit" source="verb-issue.01" vncls="13.3">
+<roles>
+
+<role descr="issuer" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="thing issued" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="issued to" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+<role descr="attribute, issued as or at" n="3">
+<vnrole vncls="48.1.1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+many junk issuers
+</text>
+<arg n="1">junk</arg>
+<arg n="0">issuers</arg>
+<rel>issuers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+some California issuers
+</text>
+<arg f="LOC" n="M">California</arg>
+<arg n="0">issuers</arg>
+<rel>issuers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

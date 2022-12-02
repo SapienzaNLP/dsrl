@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="angst">
+<roleset id="angst.01" name="cause emotional anguish" source="verb-upset.01" vncls="31.1">
+<roles>
+
+<role descr="agent of upsetting" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="upset entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+all the political angst it would cause
+</text>
+<arg f="MNR" n="M">political</arg>
+<rel>angst</rel>
+<arg n="0">it</arg>
+<arg n="Support">cause</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

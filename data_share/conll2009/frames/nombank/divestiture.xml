@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="divestiture">
+<roleset id="divestiture.01" name="get rid of" source="verb-divest.01" vncls="10.6">
+<roles>
+
+<role descr="entity removing" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="thing being removed" n="1">
+<vnrole vncls="10.6" vntheta="Theme"/></role>
+
+<role descr="removed from" n="2">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+industrial gas divestitures
+</text>
+<arg n="0">industrial</arg>
+<arg n="1">gas</arg>
+<rel>divestitures</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Brazil divestiture and drug restructuring
+</text>
+<arg n="0">Brazil</arg>
+<rel>divestiture</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

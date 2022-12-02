@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hike">
+<roleset id="hike.01" name="go up" source="verb-rise.01" vncls="47.6">
+<roles>
+
+<role descr="logical subject, patient, thing rising" n="1">
+<vnrole vncls="47.6" vntheta="Theme"/></role>
+
+<role descr="ext, amount risen" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4">
+<vnrole vncls="51.1-2" vntheta="Location"/></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the price hikes
+</text>
+<arg n="1">price</arg>
+<arg f="REF" n="2">hikes</arg>
+<rel>hikes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a 19 % pay hike in the first year
+</text>
+<arg n="2">19 %</arg>
+<arg n="1">pay</arg>
+<rel>hike</rel>
+<arg f="TMP" n="M">in the first year</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deposit">
+<roleset id="deposit.01" name="put" source="verb-deposit.01">
+<roles>
+
+<role descr="depositor, agent" n="0"></role>
+
+<role descr="thing deposited" n="1"></role>
+
+<role descr="where" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their loans , investments and deposits at Qintex Entertainment
+</text>
+<arg n="0">their</arg>
+<arg f="REF" n="1">deposits</arg>
+<rel>deposits</rel>
+<arg n="2">at Qintex Entertainment</arg>
+</example>
+
+<example name="autogen2">
+<text>
+As of Sept. 30 , the bank had assets of $ 511 million and
+deposits of $ 469 million
+</text>
+<arg n="2">the bank</arg>
+<arg n="Support">had</arg>
+<rel>deposits</rel>
+<arg n="1">of $ 469 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

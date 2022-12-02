@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="monitor">
+<roleset id="monitor.01" name="look closely at" source="verb-monitor.01">
+<roles>
+
+<role descr="observer" n="0"></role>
+
+<role descr="thing looked at" n="1"></role>
+
+<role descr="looking for what" n="2"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the United Nation 's monitors
+</text>
+<arg n="2">the United Nation 's</arg>
+<arg n="0">monitors</arg>
+<rel>monitors</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a local lawyer and human-rights monitor
+</text>
+<arg n="1">human-rights</arg>
+<arg n="0">monitor</arg>
+<rel>monitor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

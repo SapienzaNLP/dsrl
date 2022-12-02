@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="meter">
+<roleset id="meter.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+190,000 square meters of incredibly expensive property in the
+Marunouchi district , the business and financial center of Tokyo
+, often jokingly called `` Mitsubishi Village
+</text>
+<rel>meters</rel>
+<arg n="1">
+of incredibly expensive property in the Marunouchi district , the
+business and financial center of Tokyo , often jokingly called ``
+Mitsubishi Village</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

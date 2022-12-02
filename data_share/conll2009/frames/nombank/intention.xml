@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="intention">
+<roleset id="intention.01" name="intend, plan" source="verb-intend.01" vncls="29.2">
+<roles>
+
+<role descr="planner" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="intent, thing planned" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="extracted subject" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its intention to decide by yearend the size of the next increase
+in the IMF 's capital base
+</text>
+<arg n="0">its</arg>
+<rel>intention</rel>
+<arg f="PRD" n="1">
+to decide by yearend the size of the next increase in the IMF 's
+capital base</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their intentions to reform
+</text>
+<arg n="0">their</arg>
+<rel>intentions</rel>
+<arg f="PRD" n="1">to reform</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clout">
+<roleset id="clout.01" name="attribute/nom" source="verb-impress.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="experiencer" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="instrument" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they also bring mammoth marketing clout , sparking fear
+</text>
+<arg n="0">they</arg>
+<arg n="Support">bring</arg>
+<arg n="2">mammoth</arg>
+<arg n="3">marketing</arg>
+<rel>clout</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a buyer with the clout of a Renaissance
+</text>
+<arg n="0">a buyer</arg>
+<rel>clout</rel>
+<arg n="2">of a Renaissance</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

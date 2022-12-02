@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="selling">
+<roleset id="selling.01" name="commerce: seller" source="verb-sell.01" vncls="13.1-1">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing sold" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="price paid" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Freddie Mac 's 17-member securities selling group
+</text>
+<arg n="4">Freddie Mac 's</arg>
+<arg n="1">securities</arg>
+<rel>selling</rel>
+<arg n="0">group</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The nation 's largest short-selling operation
+</text>
+<arg n="3">short-selling</arg>
+<rel>short-selling</rel>
+<arg n="0">operation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

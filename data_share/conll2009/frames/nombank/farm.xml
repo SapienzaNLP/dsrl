@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="farm">
+<roleset id="farm.01" name="create" source="verb-produce.01" vncls="26.7-2">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+FARM PRODUCTS :
+</text>
+<arg n="0">FARM</arg>
+<rel>FARM</rel>
+<arg n="1">PRODUCTS</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the hog farms
+</text>
+<arg n="1">hog</arg>
+<arg n="0">farms</arg>
+<rel>farms</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

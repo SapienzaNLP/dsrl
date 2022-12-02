@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="apprehension">
+<roleset id="apprehension.01" name="nomlike" source="verb-dread.01" vncls="31.2">
+<roles>
+
+<role descr="experiencer" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+When the judge bought his new Sunbird from James E. Black
+Pontiac-Cadillac in Ebensburg five years ago , the dealership had
+`` certain apprehensions '' about the judge 's reputation ,
+according to the grand-jury report .
+</text>
+<arg n="0">the dealership</arg>
+<arg n="Support">had</arg>
+<rel>apprehensions</rel>
+<arg n="1">about the judge 's reputation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Seldom have House hearings caused so much apprehension in the
+Senate , where California Sen. Cranston and four other senators
+were already writhing in the glare of unfavorable publicity over
+the alleged looting of Lincoln by their friend and political
+benefactor , Charles Keating Jr. , principal stockholder of
+Lincoln 's parent company , American Continental Corp. of Phoenix
+, Ariz .
+</text>
+<arg n="1">House hearings</arg>
+<arg n="Support">caused</arg>
+<rel>apprehension</rel>
+<arg n="0">
+in the Senate , where California Sen. Cranston and four other
+senators were already writhing in the glare of unfavorable
+publicity over the alleged looting of Lincoln by their friend and
+political benefactor , Charles Keating Jr. , principal
+stockholder of Lincoln 's parent company , American Continental
+Corp. of Phoenix , Ariz</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

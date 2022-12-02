@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="billing">
+<roleset id="billing.01" name="charge a fee" source="verb-bill.01" vncls="54.5">
+<roles>
+
+<role descr="seller, biller" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="asking price, amount of bill" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="buyer, billed" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+General Electric Co. may have covered up fraudulent billings to
+the Pentagon
+</text>
+<arg n="0">General Electric Co.</arg>
+<arg n="Support">covered</arg>
+<arg f="MNR" n="M">fraudulent</arg>
+<rel>billings</rel>
+<arg n="2">to the Pentagon</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an American Telephone &amp; Telegraph Co. billing adjustment
+</text>
+<arg n="0">American Telephone &amp; Telegraph Co.</arg>
+<rel>billing</rel>
+<arg n="Support">adjustment</arg>
+</example>
+
+</roleset>
+<roleset id="billing.02" name="revenue/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Dentsu 's billings last year were larger than those of Young &amp;
+Rubicam , the world 's second-largest ad agency , according to a
+survey by the publication Advertising Age .
+</text>
+<arg n="1">Dentsu 's</arg>
+<rel>billings</rel>
+<arg n="2">
+larger than those of Young &amp; Rubicam , the world 's
+second-largest ad agency</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Della Femina had billings of just $ 660 million last year and
+ranked as the U.S. 's 24th-largest ad agency .
+</text>
+<arg n="1">Della Femina</arg>
+<arg n="Support">had</arg>
+<rel>billings</rel>
+<arg n="2">of just $ 660 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

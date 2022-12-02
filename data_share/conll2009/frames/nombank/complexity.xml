@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="complexity">
+<roleset id="complexity.01" name="nomadj-complex/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+great complexity
+</text>
+<arg n="2">great</arg>
+<rel>complexity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the complexity , paperwork and cost of utilization review
+</text>
+<arg f="REF" n="2">complexity</arg>
+<rel>complexity</rel>
+<arg n="1">of utilization review</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

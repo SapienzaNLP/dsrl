@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="backlash">
+<roleset id="backlash.01" name="to make angry" source="verb-anger.01" vncls="31.1">
+<roles>
+
+<role descr="experiencer" n="0" source="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1" source="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the international backlash over the sale two years ago of
+sensitive military technology to the Soviets by a subsidiary of
+Japan 's Toshiba Corp.
+</text>
+<arg n="0">international</arg>
+<rel>backlash</rel>
+<arg n="1">
+over the sale two years ago of sensitive military technology to
+the Soviets by a subsidiary of Japan 's Toshiba Corp.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a possible white backlash
+</text>
+<arg n="0">white</arg>
+<rel>backlash</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

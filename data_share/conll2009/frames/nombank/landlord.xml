@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="landlord">
+<roleset id="landlord.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Hoffman 's landlord
+</text>
+<arg n="1">Mr. Hoffman 's</arg>
+<arg n="0">landlord</arg>
+<rel>landlord</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

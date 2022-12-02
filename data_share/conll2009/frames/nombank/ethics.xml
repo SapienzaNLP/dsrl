@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ethics">
+<roleset id="ethics.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his ethics
+</text>
+<arg n="1">his</arg>
+<arg f="REF" n="2">ethics</arg>
+<rel>ethics</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the ethics of economic equity
+</text>
+<arg f="REF" n="2">ethics</arg>
+<rel>ethics</rel>
+<arg n="1">of economic equity</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

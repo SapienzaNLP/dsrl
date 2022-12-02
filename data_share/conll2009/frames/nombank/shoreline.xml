@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shoreline">
+<roleset id="shoreline.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+shoreline along Prince William Sound
+</text>
+<rel>shoreline</rel>
+<arg n="1">along Prince William Sound</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Alaskan shoreline
+</text>
+<arg n="1">Alaskan</arg>
+<rel>shoreline</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

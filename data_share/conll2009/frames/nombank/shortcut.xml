@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shortcut">
+<roleset id="shortcut.01" name="stretch" source="verb-stretch.01">
+<roles>
+
+<role descr="path" n="1"></role>
+
+<role descr="ext or tmp, by how much or until when" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point/goal" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a shortcut to growth
+</text>
+<rel>shortcut</rel>
+<arg n="4">to growth</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

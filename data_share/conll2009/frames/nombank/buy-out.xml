@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="buy-out">
+<roleset id="buy-out.01" name="purchase completely" source="verb-buy.03" vncls="13.5.1">
+<roles>
+
+<role descr="buyer" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing bought" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="seller" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="price paid" n="3">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its $ 1.6 billion leveraged buy-out of American Medical
+International
+</text>
+<arg n="0">its</arg>
+<arg n="3">$ 1.6 billion</arg>
+<rel>buy-out</rel>
+<arg n="1">of American Medical International</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's buy-out of a 50 % stake in Eastman Christensen Co.
+from Texas Eastern Corp. last June
+</text>
+<arg n="0">the company 's</arg>
+<rel>buy-out</rel>
+<arg n="1">of a 50 % stake in Eastman Christensen Co.</arg>
+<arg n="2">from Texas Eastern Corp.</arg>
+<arg f="TMP" n="M">last June</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

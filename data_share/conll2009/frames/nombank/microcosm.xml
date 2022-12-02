@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="microcosm">
+<roleset id="microcosm.01" name="attribute/environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a microcosm of a thousand years in garden design ... a rose
+garden , herb garden , serpentine garden , flower fields , an
+apple orchard ... organized in a patchwork of 50-by-50-foot
+squares to form ` rooms '
+</text>
+<rel>microcosm</rel>
+<arg n="1">of a thousand years in garden design</arg>
+<arg n="2">
+a rose garden , herb garden , serpentine garden , flower fields ,
+an apple orchard ... organized in a patchwork of 50-by-50-foot
+squares to form ` rooms '</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pollutant">
+<roleset id="pollutant.01" name="to contaminate" source="verb-pollute.01" vncls="9.8">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="entity polluted" n="1">
+<vnrole vncls="9.8" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+pollutants in the air
+</text>
+<arg n="0">pollutants</arg>
+<rel>pollutants</rel>
+<arg n="1">in the air</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` discharges of pollutants '' into the `` waters of the United
+States ''
+</text>
+<arg n="Support">discharges of</arg>
+<arg n="0">pollutants</arg>
+<rel>pollutants</rel>
+<arg n="1">into the `` waters of the United States ''</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

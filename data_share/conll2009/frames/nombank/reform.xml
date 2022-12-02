@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reform">
+<roleset id="reform.01" name="make changes, improve" source="verb-reform.01">
+<roles>
+
+<role descr="reformer" n="0"></role>
+
+<role descr="thing changed" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its own economic reforms
+</text>
+<arg n="0">its</arg>
+<arg n="1">economic</arg>
+<rel>reforms</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the open-door policy and economic reforms
+</text>
+<arg n="1">economic</arg>
+<rel>reforms</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="auctioneer">
+<roleset id="auctioneer.01" name="sell at auction" source="verb-auction.02">
+<roles>
+
+<role descr="seller" n="0"></role>
+
+<role descr="sold" n="1"></role>
+
+<role descr="highest bidder" n="2"></role>
+
+<role descr="price paid" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Antwerp auctioneer Campo
+</text>
+<arg f="LOC" n="M">Antwerp</arg>
+<arg n="0">auctioneer</arg>
+<rel>auctioneer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

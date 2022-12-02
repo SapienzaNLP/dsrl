@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="swaying">
+<roleset id="swaying.01" name="move" source="verb-sway.01" vncls="47.3">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="47.3" vntheta="Agent"/></role>
+
+<role descr="thing swaying" n="1">
+<vnrole vncls="47.3" vntheta="Theme"/></role>
+
+<role descr="degree of motion" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the swaying of the building
+</text>
+<rel>swaying</rel>
+<arg n="1">of the building</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

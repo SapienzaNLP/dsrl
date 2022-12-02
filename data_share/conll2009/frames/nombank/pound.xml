@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pound">
+<roleset id="pound.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more than 700,000 pounds of uranium
+</text>
+<rel>pounds</rel>
+<arg n="1">of uranium</arg>
+</example>
+
+<example name="autogen2">
+<text>
+More than 400,000 pounds of uranium a year
+</text>
+<rel>pounds</rel>
+<arg n="1">of uranium</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

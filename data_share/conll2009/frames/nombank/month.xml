@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="month">
+<roleset id="month.01" name="environment/meronym">
+<roles>
+
+<role descr="theme/whole" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her sixth month of pregnancy
+</text>
+<arg n="3">her</arg>
+<rel>month</rel>
+<arg n="1">of pregnancy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its third consecutive record month of short interest
+</text>
+<arg n="3">its</arg>
+<rel>month</rel>
+<arg n="1">of short interest</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pioneer">
+<roleset id="pioneer.01" name="come up with a new idea" source="verb-pioneer.01" vncls="29.8">
+<roles>
+
+<role descr="thinker" n="0">
+<vnrole vncls="29.8" vntheta="Agent"/></role>
+
+<role descr="new idea" n="1">
+<vnrole vncls="29.8" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the plan pioneer
+</text>
+<arg n="1">plan</arg>
+<arg n="0">pioneer</arg>
+<rel>pioneer</rel>
+</example>
+
+<example name="autogen2">
+<text>
+pioneers in a significant new trend in the corporate world : the
+rise of what I call corporate due process
+</text>
+<arg n="0">pioneers</arg>
+<rel>pioneers</rel>
+<arg n="1">
+in a significant new trend in the corporate world : the rise of
+what I call corporate due process</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

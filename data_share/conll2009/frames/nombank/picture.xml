@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="picture">
+<roleset id="picture.01" name="display in a picture" source="verb-picture.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="thing pictured" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fund 's sales picture
+</text>
+<arg n="0">the fund 's</arg>
+<arg n="1">sales</arg>
+<rel>picture</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a picture of Mr. Lutsenko interviewing singer John Denver in
+Colorado
+</text>
+<rel>picture</rel>
+<arg n="1">of Mr. Lutsenko interviewing singer John Denver in Colorado</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

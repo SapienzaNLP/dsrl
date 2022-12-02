@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="better">
+<roleset id="better.01" name="nomadj-better">
+<roles>
+
+<role descr="comparative" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their betters
+</text>
+<arg n="1">their</arg>
+<arg n="0">betters</arg>
+<rel>betters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

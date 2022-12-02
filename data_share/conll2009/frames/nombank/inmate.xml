@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inmate">
+<roleset id="inmate.01" name="to reside or be present in" source="verb-inhabit.01">
+<roles>
+
+<role descr="resident" n="0"></role>
+
+<role descr="place of residence" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A medium-sized one in Brooklyn , it says , could be altered to
+house up to 1,000 inmates at a lower cost than building a new
+prison in upstate New York .
+</text>
+<arg n="1">A medium-sized one in Brooklyn ---> *-2</arg>
+<arg n="Support">house</arg>
+<arg n="0">inmates</arg>
+<rel>inmates</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The center , close to Hong Kong 's border with China , will be
+ready today and will be able to house 1,000 inmates
+</text>
+<arg n="1">The center , close to Hong Kong 's border with China , ---> *-1</arg>
+<arg n="Support">house</arg>
+<arg n="0">inmates</arg>
+<rel>inmates</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

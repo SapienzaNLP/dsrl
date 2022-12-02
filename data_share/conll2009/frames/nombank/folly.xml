@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="folly">
+<roleset id="folly.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the economic folly of such ordinances
+</text>
+<arg n="1">economic</arg>
+<rel>folly</rel>
+<arg n="0">of such ordinances</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="characterization">
+<roleset id="characterization.01" name="assign a label or attribute" source="verb-characterize.01" vncls="29.2">
+<roles>
+
+<role descr="describer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing described" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="secondary attribute, described-as" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your characterization of California 's Greens in particular as ``
+la-la activists
+</text>
+<arg n="0">your</arg>
+<rel>characterization</rel>
+<arg n="1">of California 's Greens in particular</arg>
+<arg n="2">as `` la-la activists</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` The industry defies characterization . ''
+</text>
+<arg n="1">The industry</arg>
+<arg n="Support">defies</arg>
+<rel>characterization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

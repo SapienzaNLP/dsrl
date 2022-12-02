@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="doctrine">
+<roleset id="doctrine.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his majoritarian doctrine
+</text>
+<arg n="0">his</arg>
+<arg n="1">majoritarian</arg>
+<rel>doctrine</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the doctrine of separation of powers
+</text>
+<rel>doctrine</rel>
+<arg n="1">of separation of powers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

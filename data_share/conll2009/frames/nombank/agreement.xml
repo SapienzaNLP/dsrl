@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="agreement">
+<roleset id="agreement.01" name="agree" source="verb-agree.01">
+<roles>
+
+<role descr="agreer" n="0"></role>
+
+<role descr="proposition" n="1"></role>
+
+<role descr="other entity agreeing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any House-Senate agreement on the deficit-reduction legislation
+</text>
+<arg n="0">House-Senate</arg>
+<arg n="2">House-Senate</arg>
+<rel>agreement</rel>
+<arg n="1">on the deficit-reduction legislation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a confidentiality agreement with Dunkin ' Donuts
+</text>
+<arg n="1">confidentiality</arg>
+<rel>agreement</rel>
+<arg n="2">with Dunkin ' Donuts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

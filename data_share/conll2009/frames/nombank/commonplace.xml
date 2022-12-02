@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commonplace">
+<roleset id="commonplace.01" name="nomadj-common">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the national commonplace
+</text>
+<arg f="LOC" n="M">national</arg>
+<rel>commonplace</rel>
+</example>
+
+<example name="autogen2">
+<text>
+It is now a commonplace that prosecutors are bringing criminal
+indictments in cases where until a few years ago only a civil
+action at most would have been brought .
+</text>
+<rel>commonplace</rel>
+<arg n="1">
+that prosecutors are bringing criminal indictments in cases where
+until a few years ago only a civil action at most would have been
+brought</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dominion">
+<roleset id="dominion.01" name="surpass" source="verb-dominate.01" vncls="47.8">
+<roles>
+
+<role descr="surpasser" n="0">
+<vnrole vncls="47.8" vntheta="Theme1"/></role>
+
+<role descr="thing surpassed" n="1">
+<vnrole vncls="47.8" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+if some other curiosity from the Burgess Shale had survived
+instead , beings at once wiser and less boorish than Homo sapiens
+might have eventually gained earthly dominion
+</text>
+<arg n="0">beings at once wiser and less boorish than Homo sapiens</arg>
+<arg n="Support">gained</arg>
+<arg n="1">earthly</arg>
+<rel>dominion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

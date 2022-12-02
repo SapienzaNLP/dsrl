@@ -1,0 +1,76 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="charter">
+<roleset id="charter.01" name="request" source="verb-grant.01" vncls="29.5">
+<roles>
+
+<role descr="granter" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing granted" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="beneficiary, granted-to" n="2">
+<vnrole vncls="29.5" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its own charter of promoting education , science and culture
+</text>
+<arg n="2">its</arg>
+<rel>charter</rel>
+<arg n="1">of promoting education , science and culture</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the EC Commission 's plans for a `` charter of fundamental social
+rights ''
+</text>
+<arg n="0">the EC Commission 's</arg>
+<arg n="Support">plans for</arg>
+<rel>charter</rel>
+<arg n="1">of fundamental social rights</arg>
+</example>
+
+</roleset>
+<roleset id="charter.02" name="be a renter" source="verb-rent.01" vncls="13.5.1">
+<roles>
+
+<role descr="renter" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing rented (eg, apartment" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="landlord" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="rent" n="3">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+<role descr="term" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an Irish-Soviet charter airline
+</text>
+<rel>charter</rel>
+<arg n="2">airline</arg>
+</example>
+
+<example name="autogen2">
+<text>
+charter planes
+</text>
+<rel>charter</rel>
+<arg n="1">planes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

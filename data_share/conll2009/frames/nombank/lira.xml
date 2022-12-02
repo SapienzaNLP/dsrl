@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lira">
+<roleset id="lira.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+100 billion lire of 12 5/8 % bonds due June 30 , 1993 , priced at
+101.45 to yield 12.75 % less full fees , via Banca Nazionale del
+Lavaro
+</text>
+<rel>lire</rel>
+<arg n="1">
+of 12 5/8 % bonds due June 30 , 1993 , priced at 101.45 to yield
+12.75 % less full fees , via Banca Nazionale del Lavaro</arg>
+</example>
+
+<example name="autogen2">
+<text>
+200 billion lire of 12 % bonds due Nov. 16 , 1995 , priced at 101
+3/4 to yield 12 % less full fees , via lead manager Banco
+Commercial Italiana
+</text>
+<rel>lire</rel>
+<arg n="1">
+of 12 % bonds due Nov. 16 , 1995 , priced at 101 3/4 to yield 12
+% less full fees , via lead manager Banco Commercial Italiana</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

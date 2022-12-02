@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grievance">
+<roleset id="grievance.01" name="put a grievance before someone, or the court">
+<roles>
+
+<role descr="claimant" n="0"></role>
+
+<role descr="reason" n="1"></role>
+
+<role descr="adjudicator or listener" n="2"></role>
+
+<role descr="defendant" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the pilots pursue their back-pay grievance before the arbitrator
+</text>
+<arg n="0">their</arg>
+<arg n="1">back-pay</arg>
+<rel>grievance</rel>
+<arg n="2">before the arbitrator</arg>
+</example>
+
+<example name="autogen2">
+<text>
+workers vent steam through an elaborate grievance procedure and ,
+as a perk , fly free in empty cockpit seats
+</text>
+<arg n="0">workers</arg>
+<rel>grievance</rel>
+<arg n="Support">procedure</arg>
+</example>
+
+</roleset>
+<roleset id="grievance.02" name="nomlike" source="verb-complain.01" vncls="37.8">
+<roles>
+
+<role descr="complainer" n="0">
+<vnrole vncls="37.8" vntheta="Agent"/></role>
+
+<role descr="cause, complain of or about" n="1">
+<vnrole vncls="37.8" vntheta="Topic"/></role>
+
+<role descr="hearer, complain to" n="2">
+<vnrole vncls="37.8" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the grievances and demands of Soviet ethnic minorities and
+republics
+</text>
+<rel>grievances</rel>
+<arg n="0">of Soviet ethnic minorities and republics</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

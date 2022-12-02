@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="attacker">
+<roleset id="attacker.01" name="to make an attack, criticize strongly" source="verb-attack.01">
+<roles>
+
+<role descr="attacker" n="0"></role>
+
+<role descr="entity attacked" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her attacker
+</text>
+<arg n="1">her</arg>
+<arg n="0">attacker</arg>
+<rel>attacker</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Bork 's attackers
+</text>
+<arg n="1">Mr. Bork 's</arg>
+<arg n="0">attackers</arg>
+<rel>attackers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

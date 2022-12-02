@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="oversight">
+<roleset id="oversight.01" name="supervise" source="verb-oversee.01">
+<roles>
+
+<role descr="supervisor" n="0"></role>
+
+<role descr="thing supervised" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any congressional oversight of intelligence activities
+</text>
+<arg n="0">congressional</arg>
+<rel>oversight</rel>
+<arg n="1">of intelligence activities</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an oversight board
+</text>
+<rel>oversight</rel>
+<arg n="0">board</arg>
+</example>
+
+</roleset>
+<roleset id="oversight.02" name="to make an error or a mistake" source="verb-err.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he voluntarily admitted the `` oversight '' when he was being
+considered for a city job
+</text>
+<arg n="0">he</arg>
+<arg n="Support">admitted</arg>
+<rel>oversight</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. McInnes 's oversight
+</text>
+<arg n="0">Mr. McInnes 's</arg>
+<rel>oversight</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flash">
+<roleset id="flash.01" name="attribute/nomadj-exciting">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+If growth regains its glamour among investors , a sluggish
+segment of the Nasdaq over-the-counter market could show some
+flash .
+</text>
+<arg n="1">a sluggish segment of the Nasdaq over-the-counter market</arg>
+<arg n="Support">show</arg>
+<arg f="REF" n="2">flash</arg>
+<rel>flash</rel>
+</example>
+
+</roleset>
+<roleset id="flash.02" name="shine, show quickly" source="verb-flash.01" vncls="43.1">
+<roles>
+
+<role descr="shower, agent" n="0">
+<vnrole vncls="43.1" vntheta="Agent"/></role>
+
+<role descr="thing shining" n="1">
+<vnrole vncls="43.1" vntheta="Theme"/></role>
+
+<role descr="location, such as screen" n="2">
+<vnrole vncls="43.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+flashes of light
+</text>
+<rel>flashes</rel>
+<arg n="1">of light</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

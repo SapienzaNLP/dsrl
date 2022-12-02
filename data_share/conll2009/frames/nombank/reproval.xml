@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reproval">
+<roleset id="reproval.01" name="chastise, blame" source="verb-reprove.01">
+<roles>
+
+<role descr="blamer" n="0"></role>
+
+<role descr="blamed" n="1"></role>
+
+<role descr="cause" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Acting more than a year after Ms. Bertussi filed a complaint ,
+the panel issued a `` letter of reproval '' saying Rep. Bates had
+admitted conduct that violated a House rule forbidding
+discrimination against employees on account of their sex .
+</text>
+<arg n="0">the panel</arg>
+<arg n="Support">issued letter of</arg>
+<rel>reproval</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

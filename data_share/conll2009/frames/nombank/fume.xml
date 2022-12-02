@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fume">
+<roleset id="fume.01" name="create" source="verb-produce.01" vncls="26.7-2">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+fumes from an adhesive used in the carpeting
+</text>
+<arg n="1">fumes</arg>
+<rel>fumes</rel>
+<arg n="0">from an adhesive used in the carpeting</arg>
+</example>
+
+<example name="autogen2">
+<text>
+toxic fumes from the carpets
+</text>
+<arg n="1">fumes</arg>
+<rel>fumes</rel>
+<arg n="0">from the carpets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

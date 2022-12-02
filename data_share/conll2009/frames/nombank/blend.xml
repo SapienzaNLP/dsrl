@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blend">
+<roleset id="blend.01" name="blend, mix, combine" source="verb-blend.01" vncls="22.1-1">
+<roles>
+
+<role descr="agent, mixer" n="0">
+<vnrole vncls="22.1-1" vntheta="Agent"/></role>
+
+<role descr="ingredient one" n="1">
+<vnrole vncls="22.1-1" vntheta="Patient1"/></role>
+
+<role descr="ingredient two" n="2">
+<vnrole vncls="22.1-1" vntheta="Patient2"/></role>
+
+<role descr="end product" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their particular blend of style , genius and energy
+</text>
+<arg n="0">their</arg>
+<rel>blend</rel>
+<arg n="1">of style , genius and energy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a peculiar blend of Giant companies , which are involved in
+making cement , recycling newsprint and operating fast-food
+restaurants
+</text>
+<rel>blend</rel>
+<arg n="1">
+of Giant companies , which are involved in making cement ,
+recycling newsprint and operating fast-food restaurants</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

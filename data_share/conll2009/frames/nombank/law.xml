@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="law">
+<roleset id="law.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Under Kansas right-to-work laws , contracts can not require
+workers to be union members .
+</text>
+<arg n="0">Kansas</arg>
+<arg n="3">right-to-work</arg>
+<arg f="REF" n="1">laws</arg>
+<rel>laws</rel>
+<arg n="2">contracts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Under bankruptcy law , Eastern has exclusive rights for a certain
+period to develop its own reorganization plan .
+</text>
+<arg n="3">bankruptcy</arg>
+<arg f="REF" n="1">law</arg>
+<rel>law</rel>
+<arg n="2">Eastern</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

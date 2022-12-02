@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="polishing">
+<roleset id="polishing.01" name="make shiny" source="verb-polish.01" vncls="9.9">
+<roles>
+
+<role descr="polisher" n="0">
+<vnrole vncls="9.9" vntheta="Agent"/></role>
+
+<role descr="thing getting shiny" n="1">
+<vnrole vncls="9.9" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="9.9" vntheta="Theme"/></role>
+
+<role descr="end state, attribute" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his image polishing
+</text>
+<arg n="0">his</arg>
+<arg n="1">image</arg>
+<rel>polishing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

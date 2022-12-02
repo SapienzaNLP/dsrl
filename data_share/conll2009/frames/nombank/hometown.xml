@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hometown">
+<roleset id="hometown.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his hometown
+</text>
+<arg n="1">his</arg>
+<arg n="0">hometown</arg>
+<rel>hometown</rel>
+</example>
+
+<example name="autogen2">
+<text>
+my hometown
+</text>
+<arg n="1">my</arg>
+<arg n="0">hometown</arg>
+<rel>hometown</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

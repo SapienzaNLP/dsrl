@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="surprise">
+<roleset id="surprise.01" name="surprise" source="verb-surprise.01" vncls="31.1">
+<roles>
+
+<role descr="surpriser" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="person surprised" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The surprise resignations of two top economic government
+officials
+</text>
+<rel>surprise</rel>
+<arg n="2">resignations</arg>
+<arg n="0">of two top economic government officials</arg>
+</example>
+
+<example name="autogen2">
+<text>
+recessions often take investors by surprise
+</text>
+<arg n="0">recessions</arg>
+<arg n="Support">take by</arg>
+<arg n="1">investors</arg>
+<rel>surprise</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

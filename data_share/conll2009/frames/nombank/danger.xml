@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="danger">
+<roleset id="danger.01" name="nomadj-dangerous">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Republican danger is that abortion could become for them what
+it 's long been for Democrats , a divisive litmus test .
+</text>
+<arg n="2">Republican</arg>
+<rel>danger</rel>
+<arg n="1">
+that abortion could become for them what it 's long been for
+Democrats , a divisive litmus test</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the danger to investors from incompetence
+</text>
+<rel>danger</rel>
+<arg n="2">to investors</arg>
+<arg n="1">from incompetence</arg>
+</example>
+
+</roleset>
+<roleset id="danger.02" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+They are in less danger of losing liquidity simply because of
+tape lags and clearing and settlement delays .
+</text>
+<arg n="0">They</arg>
+<rel>danger</rel>
+<arg n="1">
+of losing liquidity simply because of tape lags and clearing and
+settlement delays</arg>
+</example>
+
+<example name="autogen2">
+<text>
+glasnost is in no immediate danger
+</text>
+<arg n="0">glasnost</arg>
+<arg f="NEG" n="M">no</arg>
+<arg f="TMP" n="M">immediate</arg>
+<rel>danger</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

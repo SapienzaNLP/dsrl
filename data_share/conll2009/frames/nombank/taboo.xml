@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="taboo">
+<roleset id="taboo.01" name="prohibit" source="verb-ban.01">
+<roles>
+
+<role descr="lawgiver, usually" n="0"></role>
+
+<role descr="action prohibited" n="1"></role>
+
+<role descr="secondary agent" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the unwritten taboo on hostile bids
+</text>
+<rel>taboo</rel>
+<arg n="1">on hostile bids</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a practice common in broadcasting but considered taboo by
+magazine publishers
+</text>
+<arg n="1">a practice ---> *</arg>
+<arg n="Support">considered</arg>
+<rel>taboo</rel>
+<arg n="0">by magazine publishers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

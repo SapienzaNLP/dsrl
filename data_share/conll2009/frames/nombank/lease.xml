@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lease">
+<roleset id="lease.01" name="be a renter" source="verb-lease.01" vncls="13.5.1">
+<roles>
+
+<role descr="renter" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing rented (eg, apartment" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="landlord" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="rent" n="3">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+<role descr="term" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+PWA 's long-term debt and capital lease obligations rose to C$
+1.24 billion at the end of the second quarter , nearly double the
+year-earlier figure , reflecting debt absorbed under the Wardair
+purchase .
+</text>
+<arg n="0">PWA 's</arg>
+<arg n="1">capital</arg>
+<rel>lease</rel>
+<arg n="Support">rose obligations</arg>
+<arg n="3">
+C$ 1.24 billion at the end of the second quarter , nearly double
+the year-earlier figure</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the U.S. 's leases on military bases in the Philippines
+</text>
+<arg n="0">the U.S. 's</arg>
+<rel>leases</rel>
+<arg n="1">on military bases in the Philippines</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

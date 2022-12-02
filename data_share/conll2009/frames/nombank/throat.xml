@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="throat">
+<roleset id="throat.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their throats
+</text>
+<arg n="1">their</arg>
+<rel>throats</rel>
+</example>
+
+<example name="autogen2">
+<text>
+suddenly he 'd leap from behind some statue of Marshall onto Cap
+'s chest and grab him by the throat and choke him till he coughed
+up an additional $ 2 billion or so
+</text>
+<arg n="Support">grab by</arg>
+<arg n="1">him</arg>
+<rel>throat</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

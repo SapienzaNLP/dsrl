@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="directory">
+<roleset id="directory.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+AN AIDS DIRECTORY from the American Foundation for AIDS Research
+</text>
+<arg n="1">AIDS</arg>
+<rel>DIRECTORY</rel>
+<arg n="0">from the American Foundation for AIDS Research</arg>
+</example>
+
+<example name="autogen2">
+<text>
+bureau-sponsored business directories published by an outside
+firm , Better Book Inc
+</text>
+<arg n="1">business</arg>
+<rel>directories</rel>
+<arg n="Support">published</arg>
+<arg n="0">by an outside firm , Better Book Inc</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

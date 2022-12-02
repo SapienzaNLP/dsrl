@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brainchild">
+<roleset id="brainchild.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the brainchild of Sik Chi Wan , director of the Po Lin Monastery
+, who said : `` Hong Kong is such a prosperous place , we also
+need some kind of religious symbol
+</text>
+<arg n="1">brainchild</arg>
+<rel>brainchild</rel>
+<arg n="0">
+of Sik Chi Wan , director of the Po Lin Monastery , who said : ``
+Hong Kong is such a prosperous place , we also need some kind of
+religious symbol</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his brainchild
+</text>
+<arg n="0">his</arg>
+<arg n="1">brainchild</arg>
+<rel>brainchild</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

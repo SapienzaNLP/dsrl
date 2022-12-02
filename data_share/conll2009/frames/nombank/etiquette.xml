@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="etiquette">
+<roleset id="etiquette.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an emerging protocol -- indeed , an etiquette -- to it
+</text>
+<rel>etiquette</rel>
+<arg n="2">to it</arg>
+</example>
+
+<example name="autogen2">
+<text>
+proper trail etiquette
+</text>
+<arg f="MNR" n="M">proper</arg>
+<arg n="2">trail</arg>
+<rel>etiquette</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

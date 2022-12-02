@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="barrel">
+<roleset id="barrel.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+about 10 million barrels of oil
+</text>
+<rel>barrels</rel>
+<arg n="1">of oil</arg>
+</example>
+
+<example name="autogen2">
+<text>
+two million barrels of Arab oil a day
+</text>
+<rel>barrels</rel>
+<arg n="1">of Arab oil</arg>
+</example>
+
+</roleset>
+<roleset id="barrel.02" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the barrel of a gun
+</text>
+<rel>barrel</rel>
+<arg n="1">of a gun</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="assortment">
+<roleset id="assortment.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The assortment of expensive children 's toys that I have
+purchased wisely at a host of discount-toy brokerage firms
+</text>
+<rel>assortment</rel>
+<arg n="1">of expensive children 's toys</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an assortment of Spanish-language magazines , Mexican cooking
+items and candies
+</text>
+<rel>assortment</rel>
+<arg n="1">of Spanish-language magazines , Mexican cooking items and candies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

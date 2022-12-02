@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="borrowing">
+<roleset id="borrowing.01" name="get temporarily" source="verb-borrow.01" vncls="13.5.2">
+<roles>
+
+<role descr="borrower" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing borrowed" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="loaner" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="collateral" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+$ 900 million in bank borrowings
+</text>
+<arg n="1">$ 900 million</arg>
+<arg n="2">bank</arg>
+<rel>borrowings</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the bank borrowings used by Beatrice to redeem its $ 526.3
+million principal amount of increasing rate debentures in August
+</text>
+<arg n="2">bank</arg>
+<rel>borrowings</rel>
+<arg n="Support">used</arg>
+<arg n="0">by Beatrice</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="artwork">
+<roleset id="artwork.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a real garden `` artwork ''
+</text>
+<arg f="ADV" n="M">real</arg>
+<arg n="1">garden</arg>
+<rel>artwork</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Dali artwork
+</text>
+<arg n="0">Dali</arg>
+<rel>artwork</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="document">
+<roleset id="document.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+bank documents for foreign-exchange remittances
+</text>
+<arg n="0">bank</arg>
+<rel>documents</rel>
+<arg n="1">for foreign-exchange remittances</arg>
+</example>
+
+<example name="autogen3">
+<text>
+engineering documents
+</text>
+<arg n="1">engineering</arg>
+<rel>documents</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="storytelling">
+<roleset id="storytelling.01" name="pass along information" source="verb-tell.01" vncls="37.1-1">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.1-1" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Mahfouz 's elliptical storytelling
+</text>
+<arg n="0">Mr. Mahfouz 's</arg>
+<arg f="MNR" n="M">elliptical</arg>
+<rel>storytelling</rel>
+</example>
+
+<example name="autogen2">
+<text>
+visual storytelling
+</text>
+<arg f="MNR" n="M">visual</arg>
+<rel>storytelling</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

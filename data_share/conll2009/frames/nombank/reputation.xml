@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reputation">
+<roleset id="reputation.01" name="to consider, look on" source="verb-repute.01">
+<roles>
+
+<role descr="considerer, agent" n="0"></role>
+
+<role descr="entity considered" n="1"></role>
+
+<role descr="secondary predicate on arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his reputation as a freespender
+</text>
+<arg n="1">his</arg>
+<rel>reputation</rel>
+<arg n="2">as a freespender</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this cash hoarder 's reputation for honesty
+</text>
+<arg n="1">this cash hoarder 's</arg>
+<rel>reputation</rel>
+<arg n="2">for honesty</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

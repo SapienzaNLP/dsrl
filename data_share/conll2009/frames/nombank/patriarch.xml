@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="patriarch">
+<roleset id="patriarch.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+patriarch of Anglo American Corp. and De Beers
+</text>
+<arg n="0">patriarch</arg>
+<rel>patriarch</rel>
+<arg n="2">of Anglo American Corp. and De Beers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

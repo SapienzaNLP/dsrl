@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="look">
+<roleset id="look.01" name="vision" source="verb-look.01" vncls="30.4">
+<roles>
+
+<role descr="looker" n="0">
+<vnrole vncls="30.4" vntheta="Agent"/></role>
+
+<role descr="thing looked at or for or on" n="1">
+<vnrole vncls="30.4" vntheta="Stimulus"/></role>
+
+<role descr="attribute of arg1" n="2">
+<vnrole vncls="35.5" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Treasury 's look at plans for giving new tax breaks on
+dividends and raising taxes on short-term trades by pension funds
+</text>
+<arg n="0">the Treasury 's</arg>
+<rel>look</rel>
+<arg n="1">
+at plans for giving new tax breaks on dividends and raising taxes
+on short-term trades by pension funds</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a look at some of the alternatives
+</text>
+<rel>look</rel>
+<arg n="1">at some of the alternatives</arg>
+</example>
+
+</roleset>
+<roleset id="look.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The beautiful look of wool , '' croons the show 's narrator , ``
+slightly Victorian in its influence
+</text>
+<arg n="2">beautiful</arg>
+<rel>look</rel>
+<arg n="1">of wool</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the monochrome look
+</text>
+<arg n="2">monochrome</arg>
+<rel>look</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="delight">
+<roleset id="delight.01" name="make happy, direct" source="verb-delight.01" vncls="31.1">
+<roles>
+
+<role descr="agent, pleaser" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="patient, entity pleased" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrumental" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The delight of television in dramatic confrontation
+</text>
+<rel>delight</rel>
+<arg n="1">of television</arg>
+<arg n="0">in dramatic confrontation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+To the delight of some doctors , the bill dropped a plan passed
+by the Finance Committee that would have overhauled the entire
+physician-reimbursement system under Medicare .
+</text>
+<rel>delight</rel>
+<arg n="1">of some doctors</arg>
+<arg n="0">
+the bill dropped a plan passed by the Finance Committee that
+would have overhauled the entire physician-reimbursement system
+under Medicare</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

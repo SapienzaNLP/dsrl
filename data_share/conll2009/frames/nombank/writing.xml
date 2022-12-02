@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="writing">
+<roleset id="writing.01" name="set pen to paper" source="verb-write.01" vncls="26.7-2">
+<roles>
+
+<role descr="writer" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="thing written" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the writing of fewer policies at flat prices
+</text>
+<rel>writing</rel>
+<arg n="1">of fewer policies</arg>
+<arg n="2">at flat prices</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Bertolt Brecht 's theoretical writings
+</text>
+<arg n="0">Bertolt Brecht 's</arg>
+<arg f="REF" n="1">writings</arg>
+<rel>writings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

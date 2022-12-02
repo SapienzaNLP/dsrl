@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sort">
+<roleset id="sort.01" name="type">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+These sorts of takeovers
+</text>
+<rel>sorts</rel>
+<arg n="1">of takeovers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the sort of market to have a big position in
+</text>
+<rel>sort</rel>
+<arg n="1">of market</arg>
+</example>
+
+</roleset>
+<roleset id="sort.02" name="nomadj-quasi/nomadv-sort-of">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Sort of a two-step bear market . ''
+</text>
+<rel>Sort</rel>
+<arg n="1">of a two-step bear market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+seems to me sort of draconian
+</text>
+<rel>sort</rel>
+<arg n="1">draconian</arg>
+</example>
+
+</roleset>
+<roleset id="sort.03" name="put into order" source="verb-sort.01">
+<roles>
+
+<role descr="sorter" n="0"></role>
+
+<role descr="thing being sorted" n="1"></role>
+
+<role descr="order, criterion" n="2"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+the morning package sort
+</text>
+<arg f="TMP" n="M">morning</arg>
+<arg n="1">package</arg>
+<rel>sort</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

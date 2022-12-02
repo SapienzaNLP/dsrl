@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="feud">
+<roleset id="feud.01" name="fight constantly" source="verb-feud.01" vncls="36.1">
+<roles>
+
+<role descr="first fighter" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second fighter, if separate" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="spoils or point of contention" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a feud with Assistant Secretary of State Bernard Aronson over the
+administration 's policy on Panama and support for Nicaragua 's
+Contra rebels
+</text>
+<rel>feud</rel>
+<arg n="0">with Assistant Secretary of State Bernard Aronson</arg>
+<arg n="2">
+over the administration 's policy on Panama and support for
+Nicaragua 's Contra rebels</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a feud between two major creditors
+</text>
+<rel>feud</rel>
+<arg n="0">between two major creditors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

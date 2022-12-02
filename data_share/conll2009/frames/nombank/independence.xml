@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="independence">
+<roleset id="independence.01" name="nomadj-independent/nomlike-depend" source="verb-depend.01" vncls="47.1-1">
+<roles>
+
+<role descr="depender" n="1" source="0">
+<vnrole vncls="47.1-1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the territory 's independence from Pretoria
+</text>
+<arg n="1">the territory 's</arg>
+<rel>independence</rel>
+<arg n="2">from Pretoria</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to give up some of its independence to a white knight
+</text>
+<arg n="Support">give some of</arg>
+<arg n="1">its</arg>
+<rel>independence</rel>
+<arg n="2">to a white knight</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

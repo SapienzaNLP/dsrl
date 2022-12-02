@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="investigation">
+<roleset id="investigation.01" name="examine closely" source="verb-investigate.01" vncls="30.2">
+<roles>
+
+<role descr="examiner" n="0">
+<vnrole vncls="30.2" vntheta="Agent"/></role>
+
+<role descr="examined" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+<role descr="examined for" n="2">
+<vnrole vncls="35.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the federal investigation of futures trading that so far has
+resulted in 46 indictments lodged against individuals on the Merc
+and the Chicago Board of Trade
+</text>
+<arg n="0">federal</arg>
+<rel>investigation</rel>
+<arg n="1">of futures trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Gulf Power had been under investigation for violating the Utility
+Holding Company Act , which prohibits public utilities from
+making political contributions .
+</text>
+<arg n="1">Gulf Power</arg>
+<rel>investigation</rel>
+<arg n="2">
+for violating the Utility Holding Company Act , which prohibits
+public utilities from making political contributions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

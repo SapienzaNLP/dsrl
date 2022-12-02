@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="seclusion">
+<roleset id="seclusion.01" name="nomadj-alone/nomlike" source="verb-isolate.01" vncls="16">
+<roles>
+
+<role descr="entity causing isolation" n="0">
+<vnrole vncls="16" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="16" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+After a few weeks in seclusion , Mr. Mack opened a consulting
+firm , but not to enable him to directly lobby
+</text>
+<arg f="TMP" n="M">a few weeks</arg>
+<arg n="Support">weeks in</arg>
+<rel>seclusion</rel>
+<arg n="1">Mr. Mack</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

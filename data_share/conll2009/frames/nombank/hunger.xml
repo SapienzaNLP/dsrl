@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hunger">
+<roleset id="hunger.01" name="want, crave" source="verb-desire.01" vncls="32.1">
+<roles>
+
+<role descr="wanter" n="0">
+<vnrole vncls="32.1" vntheta="Experiencer"/></role>
+
+<role descr="wanted" n="1">
+<vnrole vncls="32.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+institutions ' hunger for liquidity
+</text>
+<arg n="0">institutions '</arg>
+<rel>hunger</rel>
+<arg n="1">for liquidity</arg>
+</example>
+
+<example name="autogen2">
+<text>
+service companies ' hunger for work
+</text>
+<arg n="0">service companies '</arg>
+<rel>hunger</rel>
+<arg n="1">for work</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

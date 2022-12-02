@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wedding">
+<roleset id="wedding.01" name="cause to be closely affiliated" source="verb-wed.01" vncls="22.2">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="one half" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="other half, usually prepositional" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their daughters ' weddings to foreign noblemen
+</text>
+<arg n="1">their daughters '</arg>
+<rel>weddings</rel>
+<arg n="2">to foreign noblemen</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their wedding day
+</text>
+<arg n="1">their</arg>
+<rel>wedding</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

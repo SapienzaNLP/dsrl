@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deputy">
+<roleset id="deputy.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+Mr. Skinner 's deputy
+</text>
+<arg n="2">Mr. Skinner 's</arg>
+<arg n="0">deputy</arg>
+<rel>deputy</rel>
+</example>
+
+<example name="autogen3">
+<text>
+Mr. Webster 's two top CIA deputies
+</text>
+<arg n="2">CIA</arg>
+<arg n="0">deputies</arg>
+<rel>deputies</rel>
+</example>
+
+</roleset>
+<roleset id="deputy.02" name="help, assist" source="verb-assist.01">
+<roles>
+
+<role descr="assistant" n="0"></role>
+
+<role descr="project" n="1" source="2"></role>
+
+<role descr="assisted" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+deputy transportation secretary
+</text>
+<arg n="0">deputy</arg>
+<rel>deputy</rel>
+<arg n="1">transportation</arg>
+<arg n="2">secretary</arg>
+</example>
+
+<example name="autogen2">
+<text>
+deputy chief
+</text>
+<arg n="0">deputy</arg>
+<rel>deputy</rel>
+<arg n="2">chief</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

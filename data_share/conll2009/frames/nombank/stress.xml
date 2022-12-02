@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stress">
+<roleset id="stress.01" name="prepositional usage" source="verb-worry.02" vncls="31.3">
+<roles>
+
+<role descr="experiencer" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="topic of worry" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the number of automobile choices is causing stress among
+consumers today
+</text>
+<arg n="1">the number of automobile choices</arg>
+<arg n="Support">causing</arg>
+<rel>stress</rel>
+<arg n="0">among consumers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the stress of racing the clock
+</text>
+<rel>stress</rel>
+<arg n="1">of racing the clock</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

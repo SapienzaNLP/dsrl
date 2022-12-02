@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="jab">
+<roleset id="jab.01" name="hit sharply" source="verb-jab.01">
+<roles>
+
+<role descr="hitter" n="0"></role>
+
+<role descr="thing hit" n="1"></role>
+
+<role descr="instrument of hitting" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The letter , in fact , takes a jab at ABC for being a laggard in
+black programming .
+</text>
+<arg n="0">The letter</arg>
+<arg n="Support">takes</arg>
+<rel>jab</rel>
+<arg n="1">at ABC</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his satirical jabs
+</text>
+<arg n="0">his</arg>
+<arg f="MNR" n="M">satirical</arg>
+<rel>jabs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

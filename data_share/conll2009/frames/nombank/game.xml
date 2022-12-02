@@ -1,0 +1,152 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="game">
+<roleset id="game.01" name="nomlike" source="verb-play.01" vncls="26.7-1">
+<roles>
+
+<role descr="player" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="second actor" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The first two games of the World Series between the Oakland
+Athletics and San Francisco Giants
+</text>
+<rel>games</rel>
+<arg n="1">of the World Series</arg>
+<arg n="0">between the Oakland Athletics and San Francisco Giants</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the ball game
+</text>
+<arg n="1">ball</arg>
+<rel>game</rel>
+</example>
+
+</roleset>
+<roleset id="game.02" name="deceive" source="verb-deceive.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+backers are playing some fiscal `` games '' of their own with the
+voters
+</text>
+<arg n="0">backers</arg>
+<arg n="Support">playing</arg>
+<arg n="1">fiscal</arg>
+<rel>games</rel>
+<arg n="2">with the voters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+disingenuous games about their activities
+</text>
+<rel>games</rel>
+<arg n="1">about their activities</arg>
+</example>
+
+</roleset>
+<roleset id="game.03" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Nintendo 's new hand-held video game
+</text>
+<arg n="0">Nintendo 's</arg>
+<arg f="TMP" n="M">new</arg>
+<rel>game</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an expensive video game made by Nintendo Co. of Japan
+</text>
+<rel>game</rel>
+<arg n="Support">made</arg>
+<arg n="0">Nintendo Co. of Japan</arg>
+</example>
+
+</roleset>
+<roleset id="game.04" name="nomadj-game">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Small retailers who ca n't afford to travel to his New York
+showroom have become fair game .
+</text>
+<arg n="1">
+Small retailers who ca n't afford to travel to his New York
+showroom</arg>
+<rel>game</rel>
+</example>
+
+<example name="autogen2">
+<text>
+So , is the tax code now open game again ?
+</text>
+<arg n="1">the tax code</arg>
+<rel>game</rel>
+</example>
+
+</roleset>
+<roleset id="game.05" name="nomadjlike-important">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The name of the game is to move goods .
+</text>
+<arg n="Support">name of</arg>
+<rel>game</rel>
+<arg f="PRD" n="1">to move goods</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Competition is the name of the game
+</text>
+<arg n="1">Competition</arg>
+<arg n="Support">name of</arg>
+<rel>game</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

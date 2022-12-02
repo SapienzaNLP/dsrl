@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rift">
+<roleset id="rift.01" name="disagree" source="verb-disagree.01" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+-LRB- The sale caused a rift between the widow and some of her
+husband 's followers .
+</text>
+<arg n="2">The sale</arg>
+<arg n="Support">caused</arg>
+<rel>rift</rel>
+<arg n="0">between the widow and some of her husband 's followers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a rift in the bank 's shareholders ' syndicate that could lead to
+a battle for control of the concern
+</text>
+<rel>rift</rel>
+<arg n="0">in the bank 's shareholders ' syndicate</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

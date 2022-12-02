@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cool">
+<roleset id="cool.01" name="attribute/nomadj-cool">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the cool of the ocean
+</text>
+<arg f="REF" n="2">cool</arg>
+<rel>cool</rel>
+<arg n="1">of the ocean</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="breadbasket">
+<roleset id="breadbasket.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the nation 's agricultural breadbasket
+</text>
+<arg n="3">the nation 's</arg>
+<arg n="1">agricultural</arg>
+<arg n="0">breadbasket</arg>
+<rel>breadbasket</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="enforcer">
+<roleset id="enforcer.01" name="make sure the rules are followed" source="verb-enforce.01">
+<roles>
+
+<role descr="enforcer" n="0"></role>
+
+<role descr="rule(s" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The state 's tax enforcers
+</text>
+<arg n="1">tax</arg>
+<arg n="0">enforcers</arg>
+<rel>enforcers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+State law enforcers
+</text>
+<arg n="1">law</arg>
+<arg n="0">enforcers</arg>
+<rel>enforcers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

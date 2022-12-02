@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="concession">
+<roleset id="concession.01" name="transitive-give-up" source="verb-give.08">
+<roles>
+
+<role descr="giver" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+If a solution is n't reached by then , she said , the U.S. would
+have the right to suspend some trade concessions to Canada
+equivalent in value to the losses suffered by U.S.
+fish-processing companies in Alaska and the Pacific Northwest .
+</text>
+<arg n="0">the U.S. ---> *</arg>
+<arg n="Support">suspend</arg>
+<arg n="1">trade</arg>
+<rel>concessions</rel>
+<arg n="2">to Canada</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the unions ' cooperation and wage concessions
+</text>
+<arg n="0">the unions '</arg>
+<arg n="1">wage</arg>
+<rel>concessions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

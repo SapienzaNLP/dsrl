@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ratification">
+<roleset id="ratification.01" name="to approve" source="verb-ratify.01">
+<roles>
+
+<role descr="approver, agent" n="0"></role>
+
+<role descr="entity ratified" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The U.S. and Finland signed an income-tax treaty , subject to
+ratification .
+</text>
+<arg n="0">The U.S. and Finland</arg>
+<arg n="Support">signed treaty subject to</arg>
+<arg n="1">an income-tax treaty</arg>
+<rel>ratification</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The so-called poison pill took effect Aug. 9 pending ratification
+by holders .
+</text>
+<arg n="1">The so-called poison pill</arg>
+<rel>ratification</rel>
+<arg n="0">by holders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

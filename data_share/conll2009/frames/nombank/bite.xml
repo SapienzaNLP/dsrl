@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bite">
+<roleset id="bite.01" name="attribute/nomadjlike-witty">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He launched into Saint-Saens 's `` The Swan '' from `` Carnival
+of the Animals , '' a favorite encore piece for cellists , with
+lovely , glossy tone and no bite .
+</text>
+<arg n="1">
+He launched into Saint-Saens 's `` The Swan '' from `` Carnival
+of the Animals , '' a favorite encore piece for cellists ,</arg>
+<arg n="2">no</arg>
+<rel>bite</rel>
+</example>
+
+</roleset>
+<roleset id="bite.02" name="nom/partitive-quant" source="verb-bite.01" vncls="18.2">
+<roles>
+
+<role descr="biter, agent" n="0">
+<vnrole vncls="18.2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="18.2" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Paying , say , 10 % for insurance against losses takes a deep
+bite out of the return .
+</text>
+<arg n="0">Paying , say , 10 % for insurance against losses</arg>
+<arg n="Support">takes</arg>
+<rel>bite</rel>
+<arg n="1">out of the return</arg>
+</example>
+
+<example name="autogen2">
+<text>
+sound bites
+</text>
+<arg n="1">sound</arg>
+<rel>bites</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

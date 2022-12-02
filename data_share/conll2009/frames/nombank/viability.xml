@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="viability">
+<roleset id="viability.01" name="attribute/nomadj-viable">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their financial viability
+</text>
+<arg n="3">their</arg>
+<arg n="1">financial</arg>
+<arg f="REF" n="2">viability</arg>
+<rel>viability</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Showtime 's viability
+</text>
+<arg n="1">Showtime 's</arg>
+<arg f="REF" n="2">viability</arg>
+<rel>viability</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

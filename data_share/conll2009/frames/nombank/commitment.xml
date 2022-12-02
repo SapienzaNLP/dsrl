@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commitment">
+<roleset id="commitment.01" name="be strongly attached to" source="verb-commit.01">
+<roles>
+
+<role descr="causal agent" n="0"></role>
+
+<role descr="entity committed" n="1"></role>
+
+<role descr="committed to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it obtained `` firm '' financing commitments from three major
+banks in regard to its offer for 50.3 % of LIN Broadcasting Corp
+</text>
+<arg n="0">it</arg>
+<arg n="Support">obtained</arg>
+<arg f="MNR" n="M">firm</arg>
+<arg n="2">financing</arg>
+<rel>commitments</rel>
+<arg n="1">from three major banks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its investigative commitment
+</text>
+<arg n="1">its</arg>
+<arg n="2">investigative</arg>
+<rel>commitment</rel>
+</example>
+
+</roleset>
+<roleset id="commitment.02" name="commit a crime" source="verb-commit.02">
+<roles>
+
+<role descr="criminal" n="0"></role>
+
+<role descr="crime" n="1"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+Her commitment of a mysterious crime that only she knew about
+</text>
+<arg n="0">Her</arg>
+<rel>commitment</rel>
+<arg n="1">of a mysterious crime that only she knew about</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

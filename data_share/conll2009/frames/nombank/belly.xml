@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="belly">
+<roleset id="belly.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the average male ringer leaves quite a lot to be desired : badly
+dressed , decorated with acne and a large beer-belly , frequently
+unwashed and unbearably flatulent in peals
+</text>
+<arg n="1">the average male ringer ---> *-3</arg>
+<rel>beer-belly</rel>
+</example>
+
+<example name="autogen2">
+<text>
+cattle , hogs and pork belly futures contracts
+</text>
+<arg n="1">pork</arg>
+<rel>belly</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

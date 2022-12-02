@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crust">
+<roleset id="crust.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Earth 's crust
+</text>
+<arg n="1">the Earth 's</arg>
+<rel>crust</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

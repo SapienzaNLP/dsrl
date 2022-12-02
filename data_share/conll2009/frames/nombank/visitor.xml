@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="visitor">
+<roleset id="visitor.01" name="visit, meet with" source="verb-visit.01" vncls="36.3">
+<roles>
+
+<role descr="one party" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="other party" n="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+spa visitors
+</text>
+<arg n="1">spa</arg>
+<arg n="0">visitors</arg>
+<rel>visitors</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a temporary visitor
+</text>
+<arg f="MNR" n="M">temporary</arg>
+<arg n="0">visitor</arg>
+<rel>visitor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

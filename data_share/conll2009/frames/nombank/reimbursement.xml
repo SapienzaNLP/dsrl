@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reimbursement">
+<roleset id="reimbursement.01" name="pay back" source="verb-reimburse.01" vncls="13.2">
+<roles>
+
+<role descr="payer" n="0">
+<vnrole vncls="13.2" vntheta="Agent"/></role>
+
+<role descr="amount of cash" n="1">
+<vnrole vncls="13.2" vntheta="Theme"/></role>
+
+<role descr="paid to" n="2">
+<vnrole vncls="13.2" vntheta="Recipient"/></role>
+
+<role descr="in-exchange-for" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it will seek reimbursement from the state for that part of the
+cleanup costs and damage claims it says resulted from the state
+'s conduct
+</text>
+<arg n="2">it</arg>
+<arg n="Support">seek</arg>
+<arg f="REF" n="1">reimbursement</arg>
+<rel>reimbursement</rel>
+<arg n="0">from the state</arg>
+<arg n="3">
+for that part of the cleanup costs and damage claims it says
+resulted from the state 's conduct</arg>
+</example>
+
+<example name="autogen2">
+<text>
+reimbursements to physicians
+</text>
+<arg f="REF" n="1">reimbursements</arg>
+<rel>reimbursements</rel>
+<arg n="2">to physicians</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

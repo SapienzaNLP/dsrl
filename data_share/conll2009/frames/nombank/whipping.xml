@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="whipping">
+<roleset id="whipping.01" name="to win over" source="defeat.01">
+<roles>
+
+<role descr="entity victorious" n="0"></role>
+
+<role descr="topic of conflict" n="1"></role>
+
+<role descr="entity defeated" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its notorious whippings of the grandmasters Bent Larsen of
+Denmark and Robert Byrne of the U.S.
+</text>
+<arg n="0">its</arg>
+<rel>whippings</rel>
+<arg n="2">
+of the grandmasters Bent Larsen of Denmark and Robert Byrne of
+the U.S.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

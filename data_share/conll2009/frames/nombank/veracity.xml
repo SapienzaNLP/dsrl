@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="veracity">
+<roleset id="veracity.01" name="attribute/nomadj-veracious">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the veracity of the separate documents leaked to the New York
+Times
+</text>
+<arg f="REF" n="2">veracity</arg>
+<rel>veracity</rel>
+<arg n="1">of the separate documents leaked to the New York Times</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the motives and veracity of the nation 's third-largest defense
+contractor
+</text>
+<arg f="REF" n="2">veracity</arg>
+<rel>veracity</rel>
+<arg n="1">of the nation 's third-largest defense contractor</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

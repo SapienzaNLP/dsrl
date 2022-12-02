@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="paragraph">
+<roleset id="paragraph.01" name="work-of-art/meronym">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="whole" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the paragraph about premiums in the fact sheet he received
+</text>
+<rel>paragraph</rel>
+<arg n="1">about premiums</arg>
+<arg n="2">in the fact sheet he received</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

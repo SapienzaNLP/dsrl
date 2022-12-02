@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="evacuation">
+<roleset id="evacuation.01" name="cause to be empty (of people" source="verb-evacuate.01" vncls="10.2">
+<roles>
+
+<role descr="causer of emptiness" n="0">
+<vnrole vncls="10.2" vntheta="Agent"/></role>
+
+<role descr="enclosure, building, etc" n="1">
+<vnrole vncls="10.2" vntheta="Source"/></role>
+
+<role descr="people" n="2">
+<vnrole vncls="10.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an emergency evacuation
+</text>
+<arg f="PNC" n="M">emergency</arg>
+<rel>evacuation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their evacuation plans
+</text>
+<arg n="2">their</arg>
+<rel>evacuation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

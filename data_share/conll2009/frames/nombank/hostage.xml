@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hostage">
+<roleset id="hostage.01" name="nom/nomadj-captive" source="verb-kidnap.01" vncls="10.5">
+<roles>
+
+<role descr="kidnapper, agent" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="person kidnapped" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+development is often held hostage to zoning boards
+</text>
+<arg n="1">development ---> *-2</arg>
+<arg n="Support">held</arg>
+<rel>hostage</rel>
+<arg n="0">to zoning boards</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they are hostage for the behavior of their families
+</text>
+<arg n="1">they</arg>
+<rel>hostage</rel>
+<arg f="CAU" n="M">for the behavior of their families</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="occurrence">
+<roleset id="occurrence.01" name="occur, take place" source="verb-occur.01" vncls="48.3">
+<roles>
+
+<role descr="event" n="1">
+<vnrole vncls="48.3" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+numerous occurrences of questionable teacher help to students
+</text>
+<rel>occurrences</rel>
+<arg n="1">of questionable teacher help to students</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its occurrence
+</text>
+<arg n="1">its</arg>
+<rel>occurrence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

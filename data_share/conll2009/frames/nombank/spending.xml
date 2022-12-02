@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spending">
+<roleset id="spending.01" name="use money" source="verb-spend.01">
+<roles>
+
+<role descr="spender, buyer" n="0"></role>
+
+<role descr="thing bought, commodity" n="1"></role>
+
+<role descr="seller" n="2"></role>
+
+<role descr="price paid, money" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+After one of the most amazing debates we 've ever seen on the
+cable channel C-SPAN , the House voted 250 to 170 on Wednesday to
+order $ 28.4 million in spending for a New Jersey arts center , a
+Michigan library and 38 other pet projects out of the same
+discretionary fund that was supposed to have been so abused
+during Sam Pierce 's tenure .
+</text>
+<arg n="0">the House ---> *-3</arg>
+<arg n="Support">order $ in</arg>
+<arg n="3">$ 28.4 million</arg>
+<rel>spending</rel>
+<arg n="1">
+for a New Jersey arts center , a Michigan library and 38 other
+pet projects</arg>
+</example>
+
+<example name="autogen2">
+<text>
+positive advertising spending at several of its major daily
+newspapers , such as the Miami Herald and San Jose Mercury News
+</text>
+<arg n="1">advertising</arg>
+<rel>spending</rel>
+<arg n="0">
+at several of its major daily newspapers , such as the Miami
+Herald and San Jose Mercury News</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

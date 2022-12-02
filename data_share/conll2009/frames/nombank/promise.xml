@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="promise">
+<roleset id="promise.01" name="promise" source="verb-promise.01" vncls="13.3">
+<roles>
+
+<role descr="promiser" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="promised action" n="1" source="2">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="person promised to" n="2" source="1">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Instead , the banks secured a promise from state-owned Bank of
+Communications that it would lend Asia Development the entire $
+55 million at maturity to finance repayment of the original
+borrowing .
+</text>
+<arg n="2">the banks</arg>
+<arg n="Support">secured</arg>
+<rel>promise</rel>
+<arg n="0">from state-owned Bank of Communications</arg>
+<arg n="1">
+that it would lend Asia Development the entire $ 55 million at
+maturity to finance repayment of the original borrowing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+promises by Peugeot to open negotiations in Paris at the same
+time the last man left the premises
+</text>
+<rel>promises</rel>
+<arg n="0">by Peugeot</arg>
+<arg f="PRD" n="1">
+to open negotiations in Paris at the same time the last man left
+the premises</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

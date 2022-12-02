@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dedication">
+<roleset id="dedication.01" name="intend to use for some purpose" source="verb-dedicate.01">
+<roles>
+
+<role descr="agent, dedicator" n="0"></role>
+
+<role descr="thing dedicated" n="1"></role>
+
+<role descr="to what" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+employees ' dedication
+</text>
+<arg n="0">employees '</arg>
+<rel>dedication</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the dedication of a research center here
+</text>
+<rel>dedication</rel>
+<arg n="1">of a research center here</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="defiance">
+<roleset id="defiance.01" name="to oppose, resist, or refuse" source="verb-defy.01">
+<roles>
+
+<role descr="defiant one, agent" n="0"></role>
+
+<role descr="entity defied" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Benton 's populist defiance of modernist art
+</text>
+<arg n="0">Benton 's</arg>
+<rel>defiance</rel>
+<arg n="1">of modernist art</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

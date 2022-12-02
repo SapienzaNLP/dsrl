@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="panjandrum">
+<roleset id="panjandrum.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the grand panjandrums of the market
+</text>
+<arg n="0">panjandrums</arg>
+<rel>panjandrums</rel>
+<arg n="1">of the market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

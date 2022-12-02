@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="arrival">
+<roleset id="arrival.01" name="move, come to" source="verb-arrive.01" vncls="51.1-2">
+<roles>
+
+<role descr="entity in motion / 'comer" n="1">
+<vnrole vncls="51.1-2" vntheta="Theme"/></role>
+
+<role descr="extent -- rare" n="2"></role>
+
+<role descr="start point -- also rare" n="3"></role>
+
+<role descr="end point, destination" n="4">
+<vnrole vncls="51.1-2" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the arrival of cocoa from the interior
+</text>
+<rel>arrival</rel>
+<arg n="1">of cocoa</arg>
+<arg n="3">from the interior</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the arrival on the market of $ 4.52 billion in 30-year bonds
+offered by the Resolution Funding Corp. as part of the government
+'s bailout of the savings and loan industry
+</text>
+<rel>arrival</rel>
+<arg n="4">on the market</arg>
+<arg n="1">
+of $ 4.52 billion in 30-year bonds offered by the Resolution
+Funding Corp. as part of the government 's bailout of the savings
+and loan industry</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

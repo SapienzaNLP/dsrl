@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="jolt">
+<roleset id="jolt.01" name="surprise, shock" source="verb-jolt.01" vncls="31.1">
+<roles>
+
+<role descr="jolter" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="experiencer" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the markets now appear to have steadied '' after the `` nasty
+jolt '' of the 190.58-point plunge in the Dow Jones Industrial
+Average a week ago
+</text>
+<arg n="1">the markets ---> *-2</arg>
+<rel>jolt</rel>
+<arg n="0">
+of the 190.58-point plunge in the Dow Jones Industrial Average a
+week ago</arg>
+</example>
+
+<example name="autogen2">
+<text>
+stock-market jolts
+</text>
+<arg n="1">stock-market</arg>
+<rel>jolts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

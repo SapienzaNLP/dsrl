@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disbursement">
+<roleset id="disbursement.01" name="distribute money" source="verb-disburse.01" vncls="13.2">
+<roles>
+
+<role descr="bursar" n="0">
+<vnrole vncls="13.2" vntheta="Agent"/></role>
+
+<role descr="money" n="1">
+<vnrole vncls="13.2" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="13.2" vntheta="Recipient"/></role>
+
+<role descr="source of money" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the program would be limited to a net disbursement of $ 600
+million a year
+</text>
+<arg n="2">the program</arg>
+<arg n="Support">limited to</arg>
+<rel>disbursement</rel>
+<arg n="1">of $ 600 million a year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Brady Plan , which promises larger and earlier disbursements
+to approved countries
+</text>
+<arg n="0">the Brady Plan ---> which ---> *T*-1</arg>
+<arg n="Support">promises</arg>
+<rel>disbursements</rel>
+<arg n="2">to approved countries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

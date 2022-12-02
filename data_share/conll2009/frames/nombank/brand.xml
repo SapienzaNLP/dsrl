@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brand">
+<roleset id="brand.01" name="type/work-of-art/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value/name" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Philip Morris 's Benson &amp; Hedges cigarette brand
+</text>
+<arg n="0">Philip Morris 's</arg>
+<arg n="2">Benson &amp; Hedges</arg>
+<arg n="1">cigarette</arg>
+<rel>brand</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Houston-based Maryland Club Foods , which had sales of about $
+200 million last year , sells coffee under the Maryland Club and
+Butter-Nut brands to restaurants , hotels , offices and airlines
+.
+</text>
+<arg n="Support">sells under</arg>
+<arg n="1">coffee</arg>
+<arg n="2">Maryland Club and Butter-Nut</arg>
+<rel>brands</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="duration">
+<roleset id="duration.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 15 seconds of the earthquake 's actual duration
+</text>
+<arg n="2">the 15 seconds</arg>
+<arg n="1">the earthquake 's</arg>
+<rel>duration</rel>
+</example>
+
+<example name="autogen2">
+<text>
+most nursing home stays are of comparatively short duration
+</text>
+<arg n="1">most nursing home stays</arg>
+<arg n="2">comparatively short</arg>
+<rel>duration</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="downgrade">
+<roleset id="downgrade.01" name="replace" source="verb-downgrade.01">
+<roles>
+
+<role descr="replacer" n="0"></role>
+
+<role descr="old thing" n="1"></role>
+
+<role descr="new thing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+corporate credit downgrades
+</text>
+<arg n="1">corporate credit</arg>
+<rel>downgrades</rel>
+</example>
+
+</roleset>
+<roleset id="downgrade.02" name="worsen" source="verb-downgrade.02">
+<roles>
+
+<role descr="causer of worsening, agent" n="0"></role>
+
+<role descr="thing worsening" n="1"></role>
+
+<role descr="amount, ext" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a sector downgrade by Warburg Securities
+</text>
+<arg n="1">sector</arg>
+<rel>downgrade</rel>
+<arg n="0">by Warburg Securities</arg>
+</example>
+
+<example name="autogen2">
+<text>
+It also placed on CreditWatch for possible downgrade other
+securities , including the double-B-minus/B rating of Crossland
+'s certificates of deposit and the single-B rating of its senior
+subordinated capital notes .
+</text>
+<arg n="0">It</arg>
+<arg n="Support">placed for</arg>
+<rel>downgrade</rel>
+<arg n="1">
+other securities , including the double-B-minus/B rating of
+Crossland 's certificates of deposit and the single-B rating of
+its senior subordinated capital notes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reserve">
+<roleset id="reserve.01" name="attribute">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+CBS 's enormous cash reserves
+</text>
+<arg n="0">CBS 's</arg>
+<arg n="2">enormous</arg>
+<arg n="1">cash</arg>
+<rel>reserves</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The field has reserves of 21 million barrels .
+</text>
+<arg n="1">The field</arg>
+<arg n="Support">has</arg>
+<rel>reserves</rel>
+<arg n="2">of 21 million barrels</arg>
+</example>
+
+</roleset>
+<roleset id="reserve.02" name="nomadj-reserved">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Japanese reserve
+</text>
+<arg n="1">Japanese</arg>
+<rel>reserve</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

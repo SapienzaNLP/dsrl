@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bishop">
+<roleset id="bishop.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his dark-squared bishop
+</text>
+<arg n="2">his</arg>
+<arg n="1">dark-squared</arg>
+<arg n="0">bishop</arg>
+<rel>bishop</rel>
+</example>
+
+<example name="autogen2">
+<text>
+D.T. 's surviving bishop
+</text>
+<arg n="2">D.T. 's</arg>
+<arg n="0">bishop</arg>
+<rel>bishop</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

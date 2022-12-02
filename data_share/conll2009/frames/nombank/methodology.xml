@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="methodology">
+<roleset id="methodology.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Its valuation methodologies
+</text>
+<arg n="0">Its</arg>
+<arg n="1">valuation</arg>
+<rel>methodologies</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a clear timetable and methodology for liberalizing the system of
+setting prices , breaking up huge industrial monopolies and
+putting unprofitable state-owned companies out of business
+</text>
+<rel>methodology</rel>
+<arg n="1">
+for liberalizing the system of setting prices , breaking up huge
+industrial monopolies and putting unprofitable state-owned
+companies out of business</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

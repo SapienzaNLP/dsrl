@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="restriction">
+<roleset id="restriction.01" name="ensure something stays below a certain level" source="verb-restrict.01">
+<roles>
+
+<role descr="agent, limiter" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="limit" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+easing restrictions on travel for East Germans
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">easing</arg>
+<rel>restrictions</rel>
+<arg n="1">on travel</arg>
+<arg n="3">for East Germans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a state restriction of abortion
+</text>
+<arg n="0">state</arg>
+<rel>restriction</rel>
+<arg n="1">of abortion</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

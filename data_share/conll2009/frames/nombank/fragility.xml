@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fragility">
+<roleset id="fragility.01" name="nomadj-fragile/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+fragility in the huge junk-bond market
+</text>
+<arg f="REF" n="2">fragility</arg>
+<rel>fragility</rel>
+<arg n="1">in the huge junk-bond market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+larger fragility
+</text>
+<arg n="2">larger</arg>
+<rel>fragility</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

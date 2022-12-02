@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="labor">
+<roleset id="labor.01" name="work" source="verb-work.01">
+<roles>
+
+<role descr="worker" n="0"></role>
+
+<role descr="job, project" n="1"></role>
+
+<role descr="employer" n="2"></role>
+
+<role descr="coworker" n="3"></role>
+
+<role descr="instrumental" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fruits of your labor
+</text>
+<arg n="1">the fruits</arg>
+<arg n="0">your</arg>
+<rel>labor</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its future labor costs
+</text>
+<arg n="2">its</arg>
+<arg n="0">labor</arg>
+<rel>labor</rel>
+<arg n="Support">costs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

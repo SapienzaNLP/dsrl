@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tightener">
+<roleset id="tightener.01" name="cause to be tight(er" source="verb-tighten.01" vncls="45.4">
+<roles>
+
+<role descr="causer of tightening" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing tightening" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its seat-belt tightener
+</text>
+<arg n="1">seat-belt</arg>
+<arg n="0">tightener</arg>
+<rel>tightener</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

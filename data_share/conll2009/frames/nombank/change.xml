@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="change">
+<roleset id="change.01" name="transform" source="verb-change.01" vncls="26.6">
+<roles>
+
+<role descr="causer of transformation" n="0">
+<vnrole vncls="26.6" vntheta="Agent"/></role>
+
+<role descr="thing changing" n="1">
+<vnrole vncls="26.6" vntheta="Patient"/></role>
+
+<role descr="end state" n="2">
+<vnrole vncls="26.6" vntheta="Product"/></role>
+
+<role descr="start state" n="3">
+<vnrole vncls="26.6" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its shareholders approved a previously announced name change to
+Intercontinental Enterprises Inc
+</text>
+<arg n="0">its shareholders</arg>
+<arg n="Support">approved</arg>
+<arg n="1">name</arg>
+<rel>change</rel>
+<arg n="2">to Intercontinental Enterprises Inc</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Israel 's `` suggested changes '' to his proposal for direct
+Israeli-Palestinian talks
+</text>
+<arg n="0">Israel 's</arg>
+<rel>changes</rel>
+<arg n="1">to his proposal for direct Israeli-Palestinian talks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

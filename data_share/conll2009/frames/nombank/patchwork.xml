@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="patchwork">
+<roleset id="patchwork.01" name="combine, mix" source="verb-combine.01" vncls="22.1-1">
+<roles>
+
+<role descr="agent, mixer" n="0">
+<vnrole vncls="22.1-1" vntheta="Agent"/></role>
+
+<role descr="ingredient one" n="1">
+<vnrole vncls="22.1-1" vntheta="Patient1"/></role>
+
+<role descr="ingredient two" n="2">
+<vnrole vncls="22.1-1" vntheta="Patient2"/></role>
+
+<role descr="end product" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a patchwork of 50-by-50-foot squares
+</text>
+<arg f="REF" n="3">patchwork</arg>
+<rel>patchwork</rel>
+<arg n="1">of 50-by-50-foot squares</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

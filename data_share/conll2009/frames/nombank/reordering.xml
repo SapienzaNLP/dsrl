@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reordering">
+<roleset id="reordering.01" name="to change the arrangement of" source="verb-rearrange.01">
+<roles>
+
+<role descr="arranger, agent" n="0"></role>
+
+<role descr="item being rearranged" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the vast international reordering
+</text>
+<arg f="MNR" n="M">vast</arg>
+<arg n="1">international</arg>
+<rel>reordering</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

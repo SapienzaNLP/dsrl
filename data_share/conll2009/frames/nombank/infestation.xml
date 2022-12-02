@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="infestation">
+<roleset id="infestation.01" name="nom-infest/nomlike" source="inhabit.01">
+<roles>
+
+<role descr="resident" n="0"></role>
+
+<role descr="place of residence" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your typical demonic infestation
+</text>
+<arg f="MNR" n="M">typical</arg>
+<arg n="0">demonic</arg>
+<rel>infestation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

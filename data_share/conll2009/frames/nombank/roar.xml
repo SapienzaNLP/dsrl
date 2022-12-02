@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="roar">
+<roleset id="roar.01" name="like a lion" source="verb-roar.01" vncls="43.2">
+<roles>
+
+<role descr="roarer" n="0">
+<vnrole vncls="43.2" vntheta="Agent"/></role>
+
+<role descr="utterance, roar itself" n="1">
+<vnrole vncls="43.2" vntheta="Theme"/></role>
+
+<role descr="listener" n="2">
+<vnrole vncls="38" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the roar of cement mixers
+</text>
+<rel>roar</rel>
+<arg n="0">of cement mixers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

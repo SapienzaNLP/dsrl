@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="retrenchment">
+<roleset id="retrenchment.01" name="re)take a strong defensive position" source="verb-retrench.01">
+<roles>
+
+<role descr="entity in defensive position" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+retrenchment for the military
+</text>
+<rel>retrenchment</rel>
+<arg n="0">for the military</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Last year 's retrenchment
+</text>
+<arg f="TMP" n="M">Last year 's</arg>
+<rel>retrenchment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

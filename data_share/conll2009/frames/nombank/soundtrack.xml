@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="soundtrack">
+<roleset id="soundtrack.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Prince 's `` Batman '' soundtrack
+</text>
+<arg n="0">Prince 's</arg>
+<arg n="1">`` Batman ''</arg>
+<rel>soundtrack</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the soundtrack of Errol Morris 's acclaimed film , `` The Thin
+Blue Line
+</text>
+<rel>soundtrack</rel>
+<arg n="1">of Errol Morris 's acclaimed film , `` The Thin Blue Line</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

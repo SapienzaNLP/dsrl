@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consultation">
+<roleset id="consultation.01" name="get together with" source="verb-consult.01" vncls="36.3">
+<roles>
+
+<role descr="consulter" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="in regards to" n="1" source="2"></role>
+
+<role descr="consulted with" n="2" source="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He had frequent telephone consultations with Mr. Brady and
+Michael Boskin , chairman of the counsel of economic advisers .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">had</arg>
+<arg f="LOC" n="M">telephone</arg>
+<rel>consultations</rel>
+<arg n="2">
+with Mr. Brady and Michael Boskin , chairman of the counsel of
+economic advisers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+refer people to lawyers , usually personal-injury specialists ,
+for in-office consultation
+</text>
+<arg n="Support">refer for</arg>
+<arg n="2">people</arg>
+<arg n="0">to lawyers , usually personal-injury specialists ,</arg>
+<arg f="LOC" n="M">in-office</arg>
+<rel>consultation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

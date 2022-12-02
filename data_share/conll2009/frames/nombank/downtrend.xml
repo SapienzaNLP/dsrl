@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="downtrend">
+<roleset id="downtrend.01" name="fall" source="verb-decline.01" vncls="45.6">
+<roles>
+
+<role descr="logical subject, patient, thing declining" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext, amount declined by" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point, end state of arg1" n="4"></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the market 's recent downtrend
+</text>
+<arg n="1">the market 's</arg>
+<rel>downtrend</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

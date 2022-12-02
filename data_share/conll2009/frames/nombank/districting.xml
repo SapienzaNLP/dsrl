@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="districting">
+<roleset id="districting.01" name="nomlike" source="verb-divide.02" vncls="23.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="23.1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a districting plan for Birmingham that carves out three
+white-majority districts and six black-majority districts
+</text>
+<rel>districting</rel>
+<arg n="Support">plan</arg>
+<arg n="1">for Birmingham</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

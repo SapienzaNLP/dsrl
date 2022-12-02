@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="video">
+<roleset id="video.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And Kodak is distributing an instructional video to processors on
+how to develop its monochrome film more efficiently .
+</text>
+<arg n="3">instructional</arg>
+<rel>video</rel>
+<arg n="1">
+*ICH*-1 ---> on how to develop its monochrome film more
+efficiently</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Computer-generated videos
+</text>
+<arg n="0">Computer-generated</arg>
+<arg n="Support">Computer-generated</arg>
+<rel>videos</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="transfusion">
+<roleset id="transfusion.01" name="nom-transfuse/nomlike" source="verb-transfer.01" vncls="11.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="11.1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="11.1" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="11.1" vntheta="Recipient"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="11.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+blood transfusions
+</text>
+<arg n="1">blood</arg>
+<rel>transfusions</rel>
+</example>
+
+<example name="autogen2">
+<text>
+victim of a tainted transfusion
+</text>
+<arg n="2">victim</arg>
+<rel>transfusion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

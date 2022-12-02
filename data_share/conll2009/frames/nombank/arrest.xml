@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="arrest">
+<roleset id="arrest.01" name="like a criminal" source="verb-arrest.01">
+<roles>
+
+<role descr="police" n="0"></role>
+
+<role descr="criminal" n="1"></role>
+
+<role descr="crime" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the arrest of opposition activists on the ground of terrorism
+</text>
+<rel>arrest</rel>
+<arg n="1">of opposition activists</arg>
+<arg n="2">on the ground of terrorism</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the arrest by West German authorities of five young West Germans
+, accused of stealing information from computers in the U.S. and
+Europe and selling it to the Soviet KGB
+</text>
+<rel>arrest</rel>
+<arg n="0">by West German authorities</arg>
+<arg n="1">
+of five young West Germans , accused of stealing information from
+computers in the U.S. and Europe and selling it to the Soviet KGB</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

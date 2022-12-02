@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crunch">
+<roleset id="crunch.01" name="nomadjlike-problematic">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Campeau Corp. 's cash crunch
+</text>
+<arg n="0">Campeau Corp. 's</arg>
+<arg n="1">cash</arg>
+<rel>crunch</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a supply crunch
+</text>
+<arg n="1">supply</arg>
+<rel>crunch</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

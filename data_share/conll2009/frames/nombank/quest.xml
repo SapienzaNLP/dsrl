@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="quest">
+<roleset id="quest.01" name="try" source="verb-attempt.01">
+<roles>
+
+<role descr="agent/entity trying" n="0"></role>
+
+<role descr="thing tried" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their quest to cover internal shortages of FT-SE 100 shares
+</text>
+<arg n="0">their</arg>
+<rel>quest</rel>
+<arg f="PRD" n="1">to cover internal shortages of FT-SE 100 shares</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their quest to perfect apartheid
+</text>
+<arg n="0">their</arg>
+<rel>quest</rel>
+<arg f="PRD" n="1">to perfect apartheid</arg>
+</example>
+
+</roleset>
+<roleset id="quest.02" name="search, seek" source="verb-search.01" vncls="35.2">
+<roles>
+
+<role descr="searcher" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="searched for" n="1">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the quest for proven talent
+</text>
+<rel>quest</rel>
+<arg n="1">for proven talent</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

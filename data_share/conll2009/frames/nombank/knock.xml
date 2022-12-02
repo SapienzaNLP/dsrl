@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="knock">
+<roleset id="knock.01" name="hit" source="verb-knock.01">
+<roles>
+
+<role descr="agent, hitter - animate only" n="0"></role>
+
+<role descr="thing hit" n="1"></role>
+
+<role descr="instrument, thing hit by or with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the hairyknuckled knock of the Sierra Club at their doors
+</text>
+<arg n="2">hairyknuckled</arg>
+<rel>knock</rel>
+<arg n="0">of the Sierra Club</arg>
+<arg n="1">at their doors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

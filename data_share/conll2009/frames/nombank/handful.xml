@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="handful">
+<roleset id="handful.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+only a handful of takeover-related stocks
+</text>
+<rel>handful</rel>
+<arg n="1">of takeover-related stocks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A handful of hot retail locations , such as the 57th Street and
+Madison and Fifth Avenue areas ,
+</text>
+<rel>handful</rel>
+<arg n="1">
+of hot retail locations , such as the 57th Street and Madison and
+Fifth Avenue areas ,</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

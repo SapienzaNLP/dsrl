@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="plateau">
+<roleset id="plateau.01" name="level off: become level, even" source="verb-level.02" vncls="45.4">
+<roles>
+
+<role descr="thing becoming level" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But for all its success , CNN has hit a plateau .
+</text>
+<arg n="1">CNN</arg>
+<arg n="Support">hit</arg>
+<rel>plateau</rel>
+</example>
+
+<example name="autogen2">
+<text>
+And , in some neighborhoods , rents have merely hit a plateau .
+</text>
+<arg n="1">rents</arg>
+<arg n="Support">hit</arg>
+<rel>plateau</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

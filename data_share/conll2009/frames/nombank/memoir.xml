@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="memoir">
+<roleset id="memoir.01" name="work-of-art" source="verb-remember.01" vncls="29.2">
+<roles>
+
+<role descr="rememberer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="memory" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his memoirs
+</text>
+<arg n="0">his</arg>
+<arg n="1">memoirs</arg>
+<rel>memoirs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

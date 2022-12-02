@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="softening">
+<roleset id="softening.01" name="to make soft or softer" source="verb-soften.01" vncls="45.4">
+<roles>
+
+<role descr="cause of softening" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="entity softened" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+softening of demand
+</text>
+<rel>softening</rel>
+<arg n="1">of demand</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a softening in the economy
+</text>
+<rel>softening</rel>
+<arg n="1">in the economy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

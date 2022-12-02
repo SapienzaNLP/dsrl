@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grave">
+<roleset id="grave.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a pauper 's grave
+</text>
+<arg n="1">a pauper 's</arg>
+<arg n="0">grave</arg>
+<rel>grave</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his own early grave
+</text>
+<arg n="1">his</arg>
+<arg f="TMP" n="M">early</arg>
+<arg n="0">grave</arg>
+<rel>grave</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,97 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commission">
+<roleset id="commission.01" name="commit a crime" source="verb-commit.02">
+<roles>
+
+<role descr="criminal" n="0"></role>
+
+<role descr="crime" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the mere existence of the penalty deters many people from the
+commission of capital crimes
+</text>
+<arg n="Support">deters from</arg>
+<arg n="0">many people</arg>
+<rel>commission</rel>
+<arg n="1">of capital crimes</arg>
+</example>
+
+</roleset>
+<roleset id="commission.02" name="arg2-nominalization/arg1-nominalization" source="verb-commission.01">
+<roles>
+
+<role descr="granter, agent" n="0"></role>
+
+<role descr="task" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a state commission on economic reform
+</text>
+<arg n="0">state</arg>
+<arg n="2">commission</arg>
+<rel>commission</rel>
+<arg n="1">on economic reform</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the election commission
+</text>
+<arg n="1">election</arg>
+<arg n="2">commission</arg>
+<rel>commission</rel>
+</example>
+
+</roleset>
+<roleset id="commission.03" name="asking price" source="verb-charge.01" vncls="54.5">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="asking price" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He confers big trading commissions on Wall Street firms .
+</text>
+<arg n="2">He</arg>
+<arg n="Support">confers</arg>
+<arg n="1">big</arg>
+<arg n="3">trading</arg>
+<rel>commissions</rel>
+<arg n="0">on Wall Street firms</arg>
+</example>
+
+<example name="autogen2">
+<text>
+institutional brokerage commissions
+</text>
+<arg n="0">institutional</arg>
+<arg n="3">brokerage</arg>
+<arg f="REF" n="1">commissions</arg>
+<rel>commissions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

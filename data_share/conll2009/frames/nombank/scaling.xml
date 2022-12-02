@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scaling">
+<roleset id="scaling.01" name="change size" source="verb-scale.01">
+<roles>
+
+<role descr="agent, entity causing change in size" n="0"></role>
+
+<role descr="thing changing size" n="1"></role>
+
+<role descr="ext, amount changed by" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+<role descr="direction, up or back" n="5"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the scaling back of a controversial catastrophic health-care plan
+for the elderly
+</text>
+<rel>scaling</rel>
+<arg n="1">of a controversial catastrophic health-care plan for the elderly</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

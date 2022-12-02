@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="freedom">
+<roleset id="freedom.01" name="to make free" source="verb-free.01" vncls="10.6">
+<roles>
+
+<role descr="entity providing freedom, agent" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="entity made free" n="1">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+<role descr="freed from" n="2">
+<vnrole vncls="10.6" vntheta="Theme"/></role>
+
+<role descr="beneficiary/purpose" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+At the same time , he must give it sufficient freedom to provide
+the economic benefits so desperately needed .
+</text>
+<arg n="0">he</arg>
+<arg n="Support">give</arg>
+<arg n="1">it</arg>
+<rel>freedom</rel>
+<arg f="PRD" n="3">to provide the economic benefits so desperately needed</arg>
+</example>
+
+<example name="autogen2">
+<text>
+there must be freedom of choice for both journalists and viewers
+</text>
+<rel>freedom</rel>
+<arg n="3">of choice</arg>
+<arg n="1">for both journalists and viewers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

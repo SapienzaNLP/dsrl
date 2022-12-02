@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="formation">
+<roleset id="formation.01" name="create, make" source="verb-form.01" vncls="26.4">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="thing created" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.4" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+<role descr="attribute of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Friday , 42 franchisees announced the formation of an association
+-- called A.P. Association Inc. -- to `` preserve the integrity
+of the Arby 's system . ''
+</text>
+<arg n="0">42 franchisees</arg>
+<arg n="Support">announced</arg>
+<rel>formation</rel>
+<arg n="1">
+of an association -- called A.P. Association Inc. -- to ``
+preserve the integrity of the Arby 's system</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the formation of a holding company enabling the savings bank to
+pursue nontraditional banking activities under a new federal law
+</text>
+<rel>formation</rel>
+<arg n="1">
+of a holding company enabling the savings bank to pursue
+nontraditional banking activities under a new federal law</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

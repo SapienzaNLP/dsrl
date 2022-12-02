@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lesson">
+<roleset id="lesson.01" name="try to) make learn" source="verb-teach.01" vncls="37.1-1">
+<roles>
+
+<role descr="teacher" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="37.1-1" vntheta="Topic"/></role>
+
+<role descr="student(s" n="2">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But Sony ultimately took a lesson from the American management
+books and fired Mr. Katzenstein , after he committed the social
+crime of making an appointment to see the venerable Akio Morita ,
+founder of Sony .
+</text>
+<arg n="2">Sony</arg>
+<arg n="Support">took</arg>
+<rel>lesson</rel>
+<arg n="0">from the American management books</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a stark lesson in the power of the appropriations committees
+</text>
+<rel>lesson</rel>
+<arg n="1">in the power of the appropriations committees</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

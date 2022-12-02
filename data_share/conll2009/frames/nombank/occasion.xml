@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="occasion">
+<roleset id="occasion.01" name="bring about an event" source="verb-occasion.01">
+<roles>
+
+<role descr="bringer about" n="0"></role>
+
+<role descr="event" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some occasions when Mr. Dinkins has discussed the issues during
+the campaign
+</text>
+<arg f="REF" n="1">occasions</arg>
+<rel>occasions</rel>
+<arg f="TMP" n="M">when Mr. Dinkins has discussed the issues during the campaign</arg>
+</example>
+
+<example name="autogen2">
+<text>
+previous occasions
+</text>
+<arg f="TMP" n="M">previous</arg>
+<arg f="REF" n="1">occasions</arg>
+<rel>occasions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

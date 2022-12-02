@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cooking">
+<roleset id="cooking.01" name="to prepare a meal or treat by heating" source="verb-cook.01" vncls="26.3-1">
+<roles>
+
+<role descr="cook, agent" n="0">
+<vnrole vncls="26.3-1" vntheta="Agent"/></role>
+
+<role descr="food" n="1">
+<vnrole vncls="26.3-1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Not unexpectedly , wives , whether working or non-working , did
+by far the most -- about 80 % of the shopping , laundry and
+cooking , and about two-thirds of housecleaning , washing dishes
+, child care and family paper work .
+</text>
+<arg n="0">wives , whether working or non-working</arg>
+<arg n="Support">did % of</arg>
+<rel>cooking</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

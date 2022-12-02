@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disarray">
+<roleset id="disarray.01" name="nomadjlike-chaotic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` Retailers are just in disarray . ''
+</text>
+<arg n="1">Retailers</arg>
+<rel>disarray</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the situation in disarray
+</text>
+<arg n="1">the situation</arg>
+<rel>disarray</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

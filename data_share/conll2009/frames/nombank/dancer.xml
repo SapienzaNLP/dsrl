@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dancer">
+<roleset id="dancer.01" name="dance" source="verb-dance.01" vncls="51.5">
+<roles>
+
+<role descr="dancer" n="0">
+<vnrole vncls="51.5" vntheta="Agent"/></role>
+
+<role descr="dance" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="partner" n="2">
+<vnrole vncls="51.5" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+disco dancers
+</text>
+<arg n="1">disco</arg>
+<arg n="0">dancers</arg>
+<rel>dancers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an Indian rain dancer
+</text>
+<arg n="1">rain</arg>
+<arg n="0">dancer</arg>
+<rel>dancer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

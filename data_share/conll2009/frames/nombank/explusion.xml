@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="explusion">
+<roleset id="explusion.01" name="to force or drive out, to discharge from" source="verb-expel.01" vncls="10.2">
+<roles>
+
+<role descr="expeller, agent" n="0">
+<vnrole vncls="10.2" vntheta="Agent"/></role>
+
+<role descr="entity expelled" n="1">
+<vnrole vncls="10.2" vntheta="Theme"/></role>
+
+<role descr="expelled from" n="2">
+<vnrole vncls="10.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Moscow , which left the group in 1983 to avoid explusion over
+allegations that political dissidents were being certified as
+insane ,
+</text>
+<arg n="1">Moscow ---> which ---> *T*-4 ---> *-5</arg>
+<arg n="Support">avoid</arg>
+<rel>explusion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

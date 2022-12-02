@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="coat">
+<roleset id="coat.01" name="cover, apply something to a surface" source="verb-coat.01" vncls="9.8">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a thicker coat of zinc
+</text>
+<arg f="MNR" n="M">thicker</arg>
+<rel>coat</rel>
+<arg n="2">of zinc</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="joy">
+<roleset id="joy.01" name="nomadj-joyous/nom" source="verb-enjoy.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+when he advised Warner President Terry Semel of the Sony offer at
+lunch on Sept. 25 , Mr. Semel `` hugged and congratulated me ,
+and expressed joy that we had finally realized our long-term
+ambition of running and having an equity position in a major
+entertainment company
+</text>
+<arg n="0">Mr. Semel</arg>
+<arg n="Support">expressed</arg>
+<rel>joy</rel>
+<arg n="1">
+that we had finally realized our long-term ambition of running
+and having an equity position in a major entertainment company</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the joys of bell ringing
+</text>
+<rel>joys</rel>
+<arg n="1">of bell ringing</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fest">
+<roleset id="fest.01" name="honor with memorial, be a memorial" source="verb-commemorate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the oily , hour-long rubfests enjoyed by spa visitors
+</text>
+<arg f="TMP" n="M">hour-long</arg>
+<rel>rubfests</rel>
+<arg n="Support">enjoyed</arg>
+<arg n="0">by spa visitors</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the best-of-seven fest
+</text>
+<arg n="1">best-of-seven</arg>
+<rel>fest</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

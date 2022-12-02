@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="productivity">
+<roleset id="productivity.01" name="attribute/nomadj-productive">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+higher employee productivity
+</text>
+<arg n="2">higher</arg>
+<arg n="1">employee</arg>
+<rel>productivity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+higher transport costs and lower productivity in the southern
+countries
+</text>
+<arg n="2">lower</arg>
+<rel>productivity</rel>
+<arg n="1">in the southern countries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

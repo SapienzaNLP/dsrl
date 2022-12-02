@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="endangerment">
+<roleset id="endangerment.01" name="to expose to harm or danger" source="verb-endanger.01">
+<roles>
+
+<role descr="exposer to danger, agent" n="0"></role>
+
+<role descr="entity endangered" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+life endangerment
+</text>
+<arg n="1">life</arg>
+<rel>endangerment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

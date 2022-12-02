@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="liaison">
+<roleset id="liaison.01" name="attach" source="verb-connect.01" vncls="22.1-2">
+<roles>
+
+<role descr="agent, entity doing the tying" n="0">
+<vnrole vncls="22.1-2" vntheta="Agent"/></role>
+
+<role descr="patient, thing(s) being tied" n="1">
+<vnrole vncls="22.1-2" vntheta="Patient1"/></role>
+
+<role descr="instrument, string" n="2">
+<vnrole vncls="22.1-2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Big Board 's liaison with the Chicago Board of Trade
+</text>
+<arg n="0">The Big Board 's</arg>
+<rel>liaison</rel>
+<arg n="1">with the Chicago Board of Trade</arg>
+</example>
+
+<example name="autogen2">
+<text>
+supposed romantic liaisons between Husker players and a low-level
+female university employee
+</text>
+<arg n="1">romantic</arg>
+<rel>liaisons</rel>
+<arg n="0">between Husker players and a low-level female university employee</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

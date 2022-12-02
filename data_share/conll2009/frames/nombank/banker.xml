@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="banker">
+<roleset id="banker.01" name="put (money) in the bank" source="verb-bank.01" vncls="9.10">
+<roles>
+
+<role descr="putter, agent" n="0">
+<vnrole vncls="9.10" vntheta="Agent"/></role>
+
+<role descr="money" n="1">
+<vnrole vncls="9.10" vntheta="Theme"/></role>
+
+<role descr="bank" n="2">
+<vnrole vncls="9.10" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Lomas 's investment banker
+</text>
+<arg n="2">Lomas 's</arg>
+<arg n="0">banker</arg>
+<rel>banker</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its investment banker
+</text>
+<arg n="2">its</arg>
+<arg n="0">banker</arg>
+<rel>banker</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

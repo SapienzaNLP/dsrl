@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="capitalization">
+<roleset id="capitalization.01" name="provide with cash value" source="verb-capitalize.01">
+<roles>
+
+<role descr="assigner" n="0"></role>
+
+<role descr="assigned to" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+estimated world market capitalization of $ 9.671 trillion
+</text>
+<arg n="1">world market</arg>
+<rel>capitalization</rel>
+<arg n="2">of $ 9.671 trillion</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a company with enormous real-estate holdings in major European
+cities and a market capitalization of 28 million Swiss francs
+</text>
+<arg n="1">a company</arg>
+<arg f="LOC" n="M">market</arg>
+<rel>capitalization</rel>
+<arg n="2">of 28 million Swiss francs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

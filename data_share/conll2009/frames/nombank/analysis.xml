@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="analysis">
+<roleset id="analysis.01" name="investigate, figure out" source="verb-analyze.01" vncls="34">
+<roles>
+
+<role descr="student" n="0">
+<vnrole vncls="34" vntheta="Agent"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="34" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Laband 's analysis of time values
+</text>
+<arg n="0">Mr. Laband 's</arg>
+<rel>analysis</rel>
+<arg n="1">of time values</arg>
+</example>
+
+<example name="autogen2">
+<text>
+technical market analysis
+</text>
+<arg n="1">market</arg>
+<rel>analysis</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

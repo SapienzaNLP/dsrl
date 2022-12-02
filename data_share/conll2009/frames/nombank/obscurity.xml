@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="obscurity">
+<roleset id="obscurity.01" name="nomadj-obscure">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Somalia remains in obscurity
+</text>
+<arg n="1">Somalia</arg>
+<arg n="Support">remains in</arg>
+<rel>obscurity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+After years of relative obscurity , he is starting to attract
+notice for the ecological as well as the aesthetic quality of his
+architecture .
+</text>
+<arg n="Support">years of</arg>
+<rel>obscurity</rel>
+<arg n="1">he</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shuttle">
+<roleset id="shuttle.01" name="move something back   and forth" source="verb-shuttle.01" vncls="11.5-1">
+<roles>
+
+<role descr="mover" n="0">
+<vnrole vncls="11.5-1" vntheta="Agent"/></role>
+
+<role descr="thing moved" n="1">
+<vnrole vncls="11.5-1" vntheta="Theme"/></role>
+
+<role descr="one (or both) location(s), start point" n="2">
+<vnrole vncls="11.5-1" vntheta="Source"/></role>
+
+<role descr="other location, destination" n="3">
+<vnrole vncls="11.5-1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+late-night shuttles to the biology labs
+</text>
+<arg f="TMP" n="M">late-night</arg>
+<rel>shuttles</rel>
+<arg n="3">to the biology labs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its East Coast shuttle
+</text>
+<arg n="2">East Coast</arg>
+<rel>shuttle</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

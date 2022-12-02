@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grazing">
+<roleset id="grazing.01" name="allow to) eat grass" source="verb-graze.01" vncls="39.5">
+<roles>
+
+<role descr="cow" n="0">
+<vnrole vncls="39.5" vntheta="Agent"/></role>
+
+<role descr="grass, pasture" n="1">
+<vnrole vncls="39.5" vntheta="Patient"/></role>
+
+<role descr="rancher" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a wounded caribou trying to make it past ice and wolves to reach
+safer winter grazing
+</text>
+<arg n="0">a wounded caribou ---> * ---> *-3</arg>
+<arg n="Support">reach</arg>
+<arg f="TMP" n="M">winter</arg>
+<rel>grazing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

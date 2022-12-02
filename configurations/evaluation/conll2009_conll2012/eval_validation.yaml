@@ -1,0 +1,25 @@
+_target_: src.multi_dataset_evaluation.MultiDatasetEvaluation
+evaluations:
+  conll2009:
+    _target_: src.multi_dataset_evaluation.DatasetSpecificEvaluation
+    dataset_id: conll2009
+    evaluation:
+      _target_: src.conll2009_evaluation.Conll2009Evaluation
+      frames_path: data_share/conll2009/frames/conll2009_frames.json
+      argm_definitions_path: data_share/conll2009/frames/conll2009_argm_definitions.json
+      conll_path: data_share/conll2009/original/CoNLL2009_dev.txt
+      output_path: CoNLL2009_dev.pred.txt
+      scorer_path: scripts/scorers/eval09.pl
+      language_model_name: princeton-nlp/sup-simcse-roberta-base
+  conll2012:
+    _target_: src.multi_dataset_evaluation.DatasetSpecificEvaluation
+    dataset_id: conll2012
+    evaluation:
+      _target_: src.conll2012_evaluation.Conll2012Evaluation
+      frames_path: data_share/conll2012/frames/conll2012_frames.json
+      argm_definitions_path: data_share/conll2012/frames/conll2012_argm_definitions.json
+      gold_input_path: data_share/conll2012/original/CoNLL2012_dev.txt
+      gold_output_path: CoNLL2012_dev.gold.txt
+      pred_output_path: CoNLL2012_dev.pred.txt
+      scorer_path: scripts/scorers/srl-eval.pl
+      language_model_name: princeton-nlp/sup-simcse-roberta-base

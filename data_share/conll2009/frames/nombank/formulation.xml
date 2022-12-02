@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="formulation">
+<roleset id="formulation.01" name="create" source="verb-formulate.01">
+<roles>
+
+<role descr="creator" n="0"></role>
+
+<role descr="thing created" n="1"></role>
+
+<role descr="beneficiary" n="2" source="3"></role>
+
+<role descr="source" n="3" source="2"></role>
+
+<role descr="attribute, secondary predication" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+OMB Director Richard Darman 's formulation that `` if it looks
+like a duck , walks like a duck and quacks like a duck , it 's a
+duck
+</text>
+<arg n="0">OMB Director Richard Darman 's</arg>
+<rel>formulation</rel>
+<arg f="PRD" n="1">
+that `` if it looks like a duck , walks like a duck and quacks
+like a duck , it 's a duck</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the budget formulation and execution process
+</text>
+<arg n="1">budget</arg>
+<rel>formulation</rel>
+<arg n="Support">process</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

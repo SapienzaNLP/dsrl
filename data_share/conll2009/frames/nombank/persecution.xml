@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="persecution">
+<roleset id="persecution.01" name="to oppress or harass" source="verb-persecute.01" vncls="33">
+<roles>
+
+<role descr="persecutor" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="persecutee" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The persecution pursued the Rothschilds across Europe as the
+Nazis grabbed countries , confiscating the family 's property in
+the process .
+</text>
+<rel>persecution</rel>
+<arg n="Support">pursued</arg>
+<arg n="1">the Rothschilds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

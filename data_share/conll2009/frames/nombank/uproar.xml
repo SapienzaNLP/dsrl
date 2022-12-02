@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="uproar">
+<roleset id="uproar.01" name="to make angry" source="verb-anger.01" vncls="31.1">
+<roles>
+
+<role descr="cause of anger" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="experiencer" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an uproar from many legislators , who continue to conduct debates
+mostly in English
+</text>
+<rel>uproar</rel>
+<arg n="1">
+from many legislators , who continue to conduct debates mostly in
+English</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the cold fusion uproar
+</text>
+<arg n="0">cold fusion</arg>
+<rel>uproar</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

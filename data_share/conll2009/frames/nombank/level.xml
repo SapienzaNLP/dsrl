@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="level">
+<roleset id="level.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+continued weak advertising levels at its flagship New York Times
+</text>
+<arg n="2">weak</arg>
+<arg n="1">advertising</arg>
+<rel>levels</rel>
+<arg n="3">at its flagship New York Times</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the lowest level
+</text>
+<arg n="2">lowest</arg>
+<rel>level</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

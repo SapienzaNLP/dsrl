@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="safeguard">
+<roleset id="safeguard.01" name="to protect" source="verb-safeguard.01">
+<roles>
+
+<role descr="protector" n="0"></role>
+
+<role descr="entity protected" n="1"></role>
+
+<role descr="entity protected from" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+safeguards adopted by the Merc to stem a market slide
+</text>
+<rel>safeguards</rel>
+<arg n="Support">adopted</arg>
+<arg n="0">by the Merc</arg>
+<arg f="PRD" n="2">to stem a market slide</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Many aspects of the bill are salutary , providing appropriate
+public safeguards that can and should be instituted throughout
+the industry .
+</text>
+<arg n="0">Many aspects of the bill ---> *-3</arg>
+<arg n="Support">providing</arg>
+<arg f="MNR" n="M">appropriate</arg>
+<arg n="1">public</arg>
+<rel>safeguards</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

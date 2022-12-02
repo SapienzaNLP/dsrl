@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scalp">
+<roleset id="scalp.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his scalp
+</text>
+<arg n="1">his</arg>
+<rel>scalp</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

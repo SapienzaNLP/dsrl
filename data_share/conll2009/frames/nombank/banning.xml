@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="banning">
+<roleset id="banning.01" name="prohibit" source="verb-ban.01">
+<roles>
+
+<role descr="lawgiver, usually" n="0"></role>
+
+<role descr="action prohibited" n="1"></role>
+
+<role descr="secondary agent" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+As the days go by , the South African government will be ever
+more hard pressed to justify the continued imprisonment of Mr.
+Mandela as well as the continued banning of the ANC and
+enforcement of the state of emergency .
+</text>
+<arg n="0">the South African government ---> *</arg>
+<arg n="Support">justify</arg>
+<arg f="TMP" n="M">continued</arg>
+<rel>banning</rel>
+<arg n="1">of the ANC</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

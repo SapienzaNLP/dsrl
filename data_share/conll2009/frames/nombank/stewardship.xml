@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stewardship">
+<roleset id="stewardship.01" name="nomlike" source="verb-lead.02" vncls="51.7">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="51.7" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="51.7" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the new stewardship of Edwin L. Artzt , who becomes chairman and
+chief executive officer in January
+</text>
+<arg f="TMP" n="M">new</arg>
+<rel>stewardship</rel>
+<arg n="0">
+of Edwin L. Artzt , who becomes chairman and chief executive
+officer in January</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="method">
+<roleset id="method.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her secret garden design method
+</text>
+<arg n="0">her</arg>
+<arg n="1">garden design</arg>
+<rel>method</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the completed-contract method of accounting , which is used by
+military contractors to reduce their tax burden
+</text>
+<rel>method</rel>
+<arg n="1">of accounting</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

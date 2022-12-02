@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lecturer">
+<roleset id="lecturer.01" name="to deliver a lecture" source="verb-lecture.01">
+<roles>
+
+<role descr="lecturer, agent" n="0"></role>
+
+<role descr="audience" n="1"></role>
+
+<role descr="topic or utterance" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+lecturer in transportation at Massachusetts Institute of
+Technology
+</text>
+<arg n="0">lecturer</arg>
+<rel>lecturer</rel>
+<arg n="2">in transportation</arg>
+<arg n="1">at Massachusetts Institute of Technology</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Star lecturer at Harvard
+</text>
+<arg n="0">lecturer</arg>
+<rel>lecturer</rel>
+<arg n="1">at Harvard</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

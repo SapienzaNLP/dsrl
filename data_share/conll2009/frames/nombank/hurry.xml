@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hurry">
+<roleset id="hurry.01" name="to move or act at a high speed" source="verb-hurry.01" vncls="53.2">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="53.2" vntheta="Agent"/></role>
+
+<role descr="entity in motion" n="1">
+<vnrole vncls="53.2" vntheta="Theme"/></role>
+
+<role descr="purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+We are not in any hurry to sell '' Saks , Marshall Field or B.A.T
+'s other U.S. retail properties
+</text>
+<arg n="1">We</arg>
+<rel>hurry</rel>
+<arg f="PRD" n="2">
+to sell '' Saks , Marshall Field or B.A.T 's other U.S. retail
+properties</arg>
+</example>
+
+<example name="autogen2">
+<text>
+want refunds in a hurry
+</text>
+<arg n="2">refunds</arg>
+<rel>hurry</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nominee">
+<roleset id="nominee.01" name="suggest someone take a role" source="verb-nominate.01" vncls="29.1">
+<roles>
+
+<role descr="nominator" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="candidate" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="role of arg1" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Democratic mayoral nominee David Dinkins
+</text>
+<arg n="0">Democratic</arg>
+<arg n="2">mayoral</arg>
+<arg n="1">nominee</arg>
+<rel>nominee</rel>
+</example>
+
+<example name="autogen2">
+<text>
+future Supreme Court nominees
+</text>
+<arg f="TMP" n="M">future</arg>
+<arg n="2">Supreme Court</arg>
+<arg n="1">nominees</arg>
+<rel>nominees</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

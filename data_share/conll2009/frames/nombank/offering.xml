@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="offering">
+<roleset id="offering.01" name="transaction" source="verb-offer.01" vncls="29.2">
+<roles>
+
+<role descr="entity offering" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="commodity" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="price" n="2"></role>
+
+<role descr="beneficiary or entity offered to" n="3">
+<vnrole vncls="29.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it plans a public offering of 8.4 million shares of its Berlitz
+International Inc. unit at $ 19 to $ 21 a share
+</text>
+<arg n="0">it</arg>
+<arg n="Support">plans</arg>
+<arg n="3">public</arg>
+<rel>offering</rel>
+<arg n="1">of 8.4 million shares of its Berlitz International Inc. unit</arg>
+<arg n="2">at $ 19 to $ 21 a share</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the federal utility 's first public debt offering
+</text>
+<arg n="0">the federal utility 's</arg>
+<arg n="3">public</arg>
+<arg n="1">debt</arg>
+<rel>offering</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

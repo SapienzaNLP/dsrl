@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dilution">
+<roleset id="dilution.01" name="water down, make weaker" source="verb-dilute.01">
+<roles>
+
+<role descr="causal agent" n="0"></role>
+
+<role descr="thing weakening" n="1"></role>
+
+<role descr="ext" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+<role descr="instrument" n="5"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the stock dilution of an employee stock ownership plan adopted
+earlier this year
+</text>
+<arg n="1">stock</arg>
+<rel>dilution</rel>
+<arg n="0">of an employee stock ownership plan adopted earlier this year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the dilution from acquiring McCall 's , Golf World -LRB- U.S.
+-RRB- and Sailing World magazines
+</text>
+<rel>dilution</rel>
+<arg n="0">
+from acquiring McCall 's , Golf World -LRB- U.S. -RRB- and
+Sailing World magazines</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

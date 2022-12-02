@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="president">
+<roleset id="president.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Budget 's vice president , marketing planning
+</text>
+<arg n="2">Budget 's</arg>
+<arg n="3">vice</arg>
+<arg n="0">president</arg>
+<rel>president</rel>
+<arg n="1">marketing planning</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an NBC vice president
+</text>
+<arg n="2">NBC</arg>
+<arg n="3">vice</arg>
+<arg n="0">president</arg>
+<rel>president</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disintegration">
+<roleset id="disintegration.01" name="fall apart completely" source="verb-disintegrate.01" vncls="45.4">
+<roles>
+
+<role descr="causer of disintegration" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing disintegating" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the disintegration of public standards
+</text>
+<rel>disintegration</rel>
+<arg n="1">of public standards</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the process of disintegration in many school systems
+</text>
+<rel>disintegration</rel>
+<arg n="1">in many school systems</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

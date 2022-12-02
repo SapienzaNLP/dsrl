@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="backside">
+<roleset id="backside.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a woman 's backside
+</text>
+<arg n="1">a woman 's</arg>
+<rel>backside</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

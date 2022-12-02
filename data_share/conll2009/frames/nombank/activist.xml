@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="activist">
+<roleset id="activist.01" name="nomadj-active">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="domain" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a veteran anti-apartheid activist
+</text>
+<arg n="1">anti-apartheid</arg>
+<arg n="0">activist</arg>
+<rel>activist</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the anti-apartheid activists
+</text>
+<arg n="1">anti-apartheid</arg>
+<arg n="0">activists</arg>
+<rel>activists</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

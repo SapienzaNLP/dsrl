@@ -1,0 +1,95 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fit">
+<roleset id="fit.01" name="nom/attribute" source="verb-fit.01" vncls="54.3">
+<roles>
+
+<role descr="agent, causer of fitting" n="0">
+<vnrole vncls="54.3" vntheta="Agent"/></role>
+
+<role descr="theme/thing(s) fitting" n="1">
+<vnrole vncls="54.3" vntheta="Attribute"/></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Sansui , he said , is a perfect fit for Polly Peck 's electronics
+operations , which make televisions , videocassette recorders ,
+microwaves and other products on an `` original equipment maker
+'' basis for sale under other companies ' brand names .
+</text>
+<arg n="1">Sansui</arg>
+<arg n="2">perfect</arg>
+<rel>fit</rel>
+<arg n="3">
+for Polly Peck 's electronics operations , which make televisions
+, videocassette recorders , microwaves and other products on an
+`` original equipment maker '' basis for sale under other
+companies ' brand names</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a good fit
+</text>
+<arg n="2">good</arg>
+<rel>fit</rel>
+</example>
+
+</roleset>
+<roleset id="fit.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+fits of being oversold and overbought
+</text>
+<rel>fits</rel>
+<arg n="1">of being oversold and overbought</arg>
+</example>
+
+</roleset>
+<roleset id="fit.03" name="nomlike/to make angry" source="verb-anger.01" vncls="31.1">
+<roles>
+
+<role descr="cause of anger" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="experiencer" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+I threw such a fit
+</text>
+<arg n="1">I</arg>
+<arg n="Support">threw</arg>
+<rel>fit</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Clearly , people like Mrs. Lombardi are giving marketers fits .
+</text>
+<arg n="0">people like Mrs. Lombardi</arg>
+<arg n="Support">giving</arg>
+<arg n="1">marketers</arg>
+<rel>fits</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

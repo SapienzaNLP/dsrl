@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="density">
+<roleset id="density.01" name="attribute/nomadj-dense/nomlike-saturate" source="verb-saturate.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="substance/instrument" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+low-density lipoproteins
+</text>
+<arg n="2">low-density</arg>
+<rel>low-density</rel>
+<arg n="1">lipoproteins</arg>
+</example>
+
+<example name="autogen2">
+<text>
+pedestrian density
+</text>
+<arg n="1">pedestrian</arg>
+<arg f="REF" n="2">density</arg>
+<rel>density</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

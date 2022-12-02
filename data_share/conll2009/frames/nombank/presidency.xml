@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="presidency">
+<roleset id="presidency.01" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+you want the presidency of the company
+</text>
+<arg n="0">you</arg>
+<arg n="Support">want</arg>
+<arg n="1">presidency</arg>
+<rel>presidency</rel>
+<arg n="2">of the company</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the Bush presidency
+</text>
+<arg n="0">Bush</arg>
+<arg n="1">presidency</arg>
+<rel>presidency</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

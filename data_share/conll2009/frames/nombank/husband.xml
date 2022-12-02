@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="husband">
+<roleset id="husband.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen9">
+<text>
+their husbands '
+</text>
+<arg n="1">their</arg>
+<arg n="0">husbands</arg>
+<rel>husbands</rel>
+</example>
+
+<example name="autogen10">
+<text>
+my 33-year-old husband
+</text>
+<arg n="1">my</arg>
+<arg n="0">husband</arg>
+<rel>husband</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

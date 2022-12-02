@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="layer">
+<roleset id="layer.01" name="partitive-quant/partitive-part">
+<roles>
+
+<role descr="theme/descriptor" n="1"></role>
+
+<role descr="whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+the Earth 's ozone layer
+</text>
+<arg n="2">the Earth 's</arg>
+<arg n="1">ozone</arg>
+<rel>layer</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the earth 's stratospheric ozone layer
+</text>
+<arg n="2">the earth 's stratospheric</arg>
+<arg n="1">ozone</arg>
+<rel>layer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

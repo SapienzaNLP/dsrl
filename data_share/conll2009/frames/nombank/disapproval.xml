@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disapproval">
+<roleset id="disapproval.01" name="dissent to" source="verb-disapprove.01" vncls="31.3">
+<roles>
+
+<role descr="disapprover" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="thing disapproved" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any regulation which has been disapproved pursuant to a
+resolution of disapproval duly adopted in accordance with the
+applicable law of the United States
+</text>
+<arg n="1">any regulation ---> which ---> *T*-3</arg>
+<arg n="Support">disapproved pursuant to resolution of</arg>
+<rel>disapproval</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Even that met with Mr. Greenspan 's disapproval because it might
+subject the Fed `` to a more intensely political perspective ''
+and `` could risk bending monetary policy away from long-term
+strategic goals . ''
+</text>
+<arg n="1">Even that</arg>
+<arg n="Support">met with</arg>
+<arg n="0">Mr. Greenspan 's</arg>
+<rel>disapproval</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

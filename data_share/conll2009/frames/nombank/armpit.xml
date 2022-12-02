@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="armpit">
+<roleset id="armpit.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his armpits
+</text>
+<arg n="1">his</arg>
+<rel>armpits</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

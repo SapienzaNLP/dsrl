@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consciousness">
+<roleset id="consciousness.01" name="nomlike/nomadj-conscious" source="verb-perceive.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+human consciousness towards touch
+</text>
+<arg n="0">human</arg>
+<rel>consciousness</rel>
+<arg n="1">towards touch</arg>
+</example>
+
+<example name="autogen2">
+<text>
+everything '' -- such as program trading and wide stock market
+swings -- `` that everyone had pushed back in their consciousness
+</text>
+<arg n="1">everything ---> that</arg>
+<arg n="Support">pushed back in</arg>
+<arg n="0">their</arg>
+<rel>consciousness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

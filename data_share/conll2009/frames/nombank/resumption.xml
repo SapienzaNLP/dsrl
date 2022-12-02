@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resumption">
+<roleset id="resumption.01" name="begin again" source="verb-resume.01" vncls="55.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme(-creation" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a resumption of negotiations
+</text>
+<rel>resumption</rel>
+<arg n="1">of negotiations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the resumption of talks between Boeing Co. and striking
+Machinists union members
+</text>
+<rel>resumption</rel>
+<arg n="1">of talks between Boeing Co. and striking Machinists union members</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

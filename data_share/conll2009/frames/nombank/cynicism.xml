@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cynicism">
+<roleset id="cynicism.01" name="nomadj-cynical">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his hard-bitten cynicism
+</text>
+<arg n="0">his</arg>
+<arg f="MNR" n="M">hard-bitten</arg>
+<rel>cynicism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

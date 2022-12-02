@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="limb">
+<roleset id="limb.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the limbs of aspiring beggars
+</text>
+<rel>limbs</rel>
+<arg n="1">of aspiring beggars</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their life and limbs
+</text>
+<arg n="1">their</arg>
+<rel>limbs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="privacy">
+<roleset id="privacy.01" name="attribute/nomadj-private">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the extra privacy of these trades
+</text>
+<arg n="2">extra</arg>
+<rel>privacy</rel>
+<arg n="1">of these trades</arg>
+</example>
+
+<example name="autogen2">
+<text>
+maximum privacy
+</text>
+<arg n="2">maximum</arg>
+<rel>privacy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

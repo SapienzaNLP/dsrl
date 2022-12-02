@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="middle">
+<roleset id="middle.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the middle of the Indian Ocean
+</text>
+<rel>middle</rel>
+<arg n="1">of the Indian Ocean</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the middle of a four-week , 20-city tour as a solo pianist
+</text>
+<rel>middle</rel>
+<arg n="1">of a four-week , 20-city tour as a solo pianist</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

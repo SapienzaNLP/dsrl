@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="creativity">
+<roleset id="creativity.01" name="nomadj-creative/attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+creativity in your children
+</text>
+<arg f="REF" n="2">creativity</arg>
+<rel>creativity</rel>
+<arg n="0">in your children</arg>
+</example>
+
+<example name="autogen2">
+<text>
+research creativity
+</text>
+<arg n="1">research</arg>
+<arg f="REF" n="2">creativity</arg>
+<rel>creativity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

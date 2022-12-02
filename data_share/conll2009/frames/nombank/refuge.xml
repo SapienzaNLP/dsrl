@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="refuge">
+<roleset id="refuge.01" name="default" source="verb-escape.01" vncls="51.1-1">
+<roles>
+
+<role descr="entity escaping" n="0">
+<vnrole vncls="51.1-1" vntheta="Theme"/></role>
+
+<role descr="place or thing escaped" n="1">
+<vnrole vncls="51.1-1" vntheta="Location"/></role>
+
+<role descr="goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+hundreds of dissidents who had sought refuge in the Church
+</text>
+<arg n="0">dissidents ---> who ---> *T*-1</arg>
+<arg n="Support">sought</arg>
+<rel>refuge</rel>
+<arg n="2">in the Church</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a political dissident who took refuge there after the massacre
+</text>
+<arg n="0">a political dissident ---> who ---> *T*-1</arg>
+<arg n="Support">took</arg>
+<rel>refuge</rel>
+<arg n="2">there</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

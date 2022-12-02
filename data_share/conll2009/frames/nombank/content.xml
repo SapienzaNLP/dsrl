@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="content">
+<roleset id="content.01" name="hold inside" source="verb-contain.01">
+<roles>
+
+<role descr="container" n="0"></role>
+
+<role descr="contents" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its contents
+</text>
+<arg n="0">its</arg>
+<arg n="1">contents</arg>
+<rel>contents</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the editorial content of the magazine
+</text>
+<arg n="1">content</arg>
+<rel>content</rel>
+<arg n="0">of the magazine</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

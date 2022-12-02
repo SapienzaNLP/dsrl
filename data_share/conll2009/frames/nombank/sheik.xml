@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sheik">
+<roleset id="sheik.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Sufi sheiks
+</text>
+<arg n="2">Sufi</arg>
+<arg n="0">sheiks</arg>
+<rel>sheiks</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,100 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="claim">
+<roleset id="claim.01" name="assert" source="verb-claim.01">
+<roles>
+
+<role descr="asserterer" n="0"></role>
+
+<role descr="assertion" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the USFL 's claims that the NFL monopolized major league football
+</text>
+<arg n="0">the USFL 's</arg>
+<rel>claims</rel>
+<arg n="1">that the NFL monopolized major league football</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the claim that it has n't infringed on Pharmacia 's patent
+</text>
+<rel>claim</rel>
+<arg n="1">that it has n't infringed on Pharmacia 's patent</arg>
+</example>
+
+</roleset>
+<roleset id="claim.02" name="seize" source="verb-claim.02">
+<roles>
+
+<role descr="claim staker" n="0"></role>
+
+<role descr="property claimed" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his claim to that
+</text>
+<arg n="0">his</arg>
+<rel>claim</rel>
+<arg n="1">to that</arg>
+</example>
+
+<example name="autogen3">
+<text>
+a claim by the Philippines
+</text>
+<rel>claim</rel>
+<arg n="0">by the Philippines</arg>
+</example>
+
+</roleset>
+<roleset id="claim.03" name="court claim and tax deduction claim">
+<roles>
+
+<role descr="claimant" n="0"></role>
+
+<role descr="reason" n="1"></role>
+
+<role descr="defendant" n="2"></role>
+
+<role descr="award sought" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Peruvian mineral concern 's $ 251 million claim stems from
+1988 jury award in a case stemming from the brothers ' alleged
+attempts to corner the 1979-80 silver market .
+</text>
+<arg n="0">The Peruvian mineral concern 's</arg>
+<arg n="3">$ 251 million</arg>
+<rel>claim</rel>
+<arg n="Support">stems</arg>
+<arg n="1">
+from 1988 jury award in a case stemming from the brothers '
+alleged attempts to corner the 1979-80 silver market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Gaubert 's claim for the loss of his property
+</text>
+<arg n="0">Mr. Gaubert 's</arg>
+<arg f="REF" n="3">claim</arg>
+<rel>claim</rel>
+<arg n="1">for the loss of his property</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

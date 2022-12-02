@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lifetime">
+<roleset id="lifetime.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his lifetime , 47 years ,
+</text>
+<arg n="1">his</arg>
+<rel>lifetime</rel>
+<arg n="2">47 years</arg>
+</example>
+
+<example name="autogen2">
+<text>
+our lifetime
+</text>
+<arg n="1">our</arg>
+<arg f="REF" n="2">lifetime</arg>
+<rel>lifetime</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cameo">
+<roleset id="cameo.01" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a cameo by Bernie Ohls , the `` good cop '' of previous Chandler
+books who still does n't hesitate to have Marlowe jailed when it
+suits his purposes
+</text>
+<rel>cameo</rel>
+<arg n="0">
+by Bernie Ohls , the `` good cop '' of previous Chandler books
+who still does n't hesitate to have Marlowe jailed when it suits
+his purposes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

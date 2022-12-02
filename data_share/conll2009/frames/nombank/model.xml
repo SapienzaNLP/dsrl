@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="model">
+<roleset id="model.01" name="work-of-art" source="verb-model.01" vncls="26.4">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+<role descr="copy" n="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its model portfolio
+</text>
+<arg n="0">its</arg>
+<rel>model</rel>
+<arg n="1">portfolio</arg>
+</example>
+
+<example name="autogen2">
+<text>
+every model we had for the marketplace
+</text>
+<arg f="REF" n="2">model</arg>
+<rel>model</rel>
+<arg n="0">we</arg>
+<arg n="Support">had</arg>
+<arg n="1">for the marketplace</arg>
+</example>
+
+</roleset>
+<roleset id="model.02" name="version/type">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+By 1979 , designers and engineers at Dictaphone , a Pitney Bowes
+subsidiary , had produced a working model of a `` picocassette ''
+recorder .
+</text>
+<arg n="0">
+designers and engineers at Dictaphone , a Pitney Bowes subsidiary
+,</arg>
+<arg n="Support">produced</arg>
+<rel>model</rel>
+<arg n="1">of a `` picocassette '' recorder</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its models
+</text>
+<arg n="0">its</arg>
+<rel>models</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

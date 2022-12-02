@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="handout">
+<roleset id="handout.01" name="give3" source="verb-hand.03" vncls="11.1-1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="11.1-1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="11.1-1" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="11.1-1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+We do not come to this House asking for any handout
+</text>
+<arg n="2">We ---> *-1</arg>
+<arg n="Support">asking for</arg>
+<rel>handout</rel>
+</example>
+
+</roleset>
+<roleset id="handout.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Straszheim 's handout
+</text>
+<arg n="0">Mr. Straszheim 's</arg>
+<rel>handout</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

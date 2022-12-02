@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crush">
+<roleset id="crush.01" name="partitive-quant/nomlike" source="verb-hurry.01">
+<roles>
+
+<role descr="quantified/theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a crush of sell orders
+</text>
+<rel>crush</rel>
+<arg n="1">of sell orders</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the crush of sell orders
+</text>
+<rel>crush</rel>
+<arg n="1">of sell orders</arg>
+</example>
+
+</roleset>
+<roleset id="crush.02" name="object of affection" source="verb-love.01" vncls="31.2">
+<roles>
+
+<role descr="lover" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="loved" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a softy with a secret crush on truth , justice and the American
+Way
+</text>
+<arg n="0">a softy</arg>
+<rel>crush</rel>
+<arg n="1">on truth , justice and the American Way</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

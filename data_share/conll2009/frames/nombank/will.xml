@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="will">
+<roleset id="will.01" name="ability">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+having the will to fulfill the ghosts ' role , i.e. , to be able
+to win if called on
+</text>
+<arg n="0">*</arg>
+<arg n="Support">having</arg>
+<rel>will</rel>
+<arg n="1">
+to fulfill the ghosts ' role , i.e. , to be able to win if called
+on</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the will of his troops
+</text>
+<rel>will</rel>
+<arg n="0">of his troops</arg>
+</example>
+
+</roleset>
+<roleset id="will.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Manpower 's good will
+</text>
+<arg n="1">Manpower 's</arg>
+<arg n="2">good</arg>
+<rel>will</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The name change and good will write-off
+</text>
+<arg n="2">good</arg>
+<rel>will</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

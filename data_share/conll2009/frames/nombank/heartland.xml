@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="heartland">
+<roleset id="heartland.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its pre-1967 Jewish heartland
+</text>
+<arg n="3">its</arg>
+<arg f="TMP" n="M">pre-1967</arg>
+<arg n="1">Jewish</arg>
+<arg n="0">heartland</arg>
+<rel>heartland</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

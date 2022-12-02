@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="essay">
+<roleset id="essay.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its historical essays on Series trivia
+</text>
+<arg n="0">its</arg>
+<arg n="3">historical</arg>
+<rel>essays</rel>
+<arg n="1">on Series trivia</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his essay
+</text>
+<arg n="0">his</arg>
+<rel>essay</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

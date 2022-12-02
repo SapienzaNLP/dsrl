@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="connection">
+<roleset id="connection.01" name="include in some group" source="verb-associate.01" vncls="22.2">
+<roles>
+
+<role descr="agent, entity causing some grouping, making an association" n="0"></role>
+
+<role descr="theme, thing being included in some group" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="group, associated-with" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Irish-Soviet aviation connection
+</text>
+<arg n="1">Irish-Soviet</arg>
+<arg n="2">Irish-Soviet</arg>
+<rel>connection</rel>
+</example>
+
+<example name="autogen2">
+<text>
+connection with a promissory note
+</text>
+<rel>connection</rel>
+<arg n="2">with a promissory note</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

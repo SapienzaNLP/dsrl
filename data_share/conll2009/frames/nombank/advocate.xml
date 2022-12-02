@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="advocate">
+<roleset id="advocate.01" name="consultant/nom" source="verb-advocate.01">
+<roles>
+
+<role descr="advocate" n="0"></role>
+
+<role descr="suggestion or group advocated for" n="1"></role>
+
+<role descr="recipient or entity influenced" n="2"></role>
+
+<role descr="employer" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Chamber of Commerce 's small-business advocate
+</text>
+<arg n="4">the Chamber of Commerce 's</arg>
+<arg n="1">small-business</arg>
+<arg n="0">advocate</arg>
+<rel>advocate</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Transportation Department , responding to pressure from
+safety advocates , took further steps to impose on light trucks
+and vans the safety requirements used for automobiles .
+</text>
+<arg n="2">The Transportation Department</arg>
+<arg n="Support">responding to pressure from</arg>
+<arg n="1">safety</arg>
+<arg n="0">advocates</arg>
+<rel>advocates</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

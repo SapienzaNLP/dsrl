@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="arrears">
+<roleset id="arrears.01" name="payment outstanding" source="verb-owe.01" vncls="13.3">
+<roles>
+
+<role descr="payer or buyer" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="price paid" n="1"></role>
+
+<role descr="seller or person being paid" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+After the payment , Healthcare still will be $ 6.5 million in
+arrears on rent and mortgage payments to HealthVest , a real
+estate investment trust whose portfolio consists largely of
+properties operated by Healthcare .
+</text>
+<arg n="0">Healthcare</arg>
+<arg n="1">$ 6.5 million</arg>
+<rel>arrears</rel>
+<arg n="3">
+on rent and mortgage payments to HealthVest , a real estate
+investment trust whose portfolio consists largely of properties
+operated by Healthcare</arg>
+</example>
+
+<example name="autogen2">
+<text>
+arrears about $ 6 million
+</text>
+<rel>arrears</rel>
+<arg n="1">about $ 6 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="polling">
+<roleset id="polling.01" name="survey, as of voters" source="verb-poll.01">
+<roles>
+
+<role descr="poller" n="0"></role>
+
+<role descr="people asked" n="1"></role>
+
+<role descr="topic" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 18 to 24 year olds in NORC 's polling in the early 1970s and
+early 1980s
+</text>
+<arg n="1">the 18 to 24 year olds</arg>
+<arg n="0">NORC 's</arg>
+<rel>polling</rel>
+<arg f="TMP" n="M">in the early 1970s and early 1980s</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Pre-trial polling
+</text>
+<arg f="TMP" n="M">Pre-trial</arg>
+<rel>polling</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dash">
+<roleset id="dash.01" name="attribute/partitive-quant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+hefty dashes of Americana
+</text>
+<arg n="2">hefty</arg>
+<rel>dashes</rel>
+<arg n="1">of Americana</arg>
+</example>
+
+<example name="autogen2">
+<text>
+At least it has a little dash .
+</text>
+<arg n="1">it</arg>
+<arg n="Support">has</arg>
+<arg n="2">little</arg>
+<rel>dash</rel>
+</example>
+
+</roleset>
+<roleset id="dash.02" name="run for a short distance" source="verb-dash.02" vncls="51.3.2">
+<roles>
+
+<role descr="runner" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="destination or path" n="1">
+<vnrole vncls="51.3.2" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a short-lived dash to 1.87 marks by the end of November
+</text>
+<arg f="TMP" n="M">short-lived</arg>
+<rel>dash</rel>
+<arg n="1">to 1.87 marks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

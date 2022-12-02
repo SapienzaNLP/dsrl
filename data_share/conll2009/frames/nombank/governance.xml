@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="governance">
+<roleset id="governance.01" name="to control or influence" source="verb-govern.01">
+<roles>
+
+<role descr="entity having a control or influence" n="0"></role>
+
+<role descr="thing governed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+exchange governance
+</text>
+<arg n="1">exchange</arg>
+<rel>governance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+school governance
+</text>
+<arg n="1">school</arg>
+<rel>governance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

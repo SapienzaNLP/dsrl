@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pact">
+<roleset id="pact.01" name="agree" source="verb-agree.01">
+<roles>
+
+<role descr="agreer" n="0"></role>
+
+<role descr="proposition" n="1"></role>
+
+<role descr="other entity agreeing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+LIN 's merger pact with BellSouth
+</text>
+<arg n="0">LIN 's</arg>
+<arg n="1">merger</arg>
+<rel>pact</rel>
+<arg n="2">with BellSouth</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the trade pact
+</text>
+<arg n="1">trade</arg>
+<rel>pact</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

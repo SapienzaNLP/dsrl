@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="waffle">
+<roleset id="waffle.01" name="to speak, write, or act evasively about" source="verb-waffle.01">
+<roles>
+
+<role descr="speaker, writer, actor" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In fact , Mr. Bush 's dance was more wiggle than waffle .
+</text>
+<arg n="0">Mr. Bush 's dance</arg>
+<rel>waffle</rel>
+</example>
+
+<example name="autogen2">
+<text>
+it detected George Bush in a characteristic waffle on abortion
+the past week
+</text>
+<arg n="Support">detected in</arg>
+<arg n="0">George Bush</arg>
+<arg f="MNR" n="M">characteristic</arg>
+<rel>waffle</rel>
+<arg n="1">on abortion</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

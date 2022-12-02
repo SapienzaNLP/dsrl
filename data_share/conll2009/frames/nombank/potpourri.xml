@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="potpourri">
+<roleset id="potpourri.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an ingeniously chosen potpourri of pieces , none longer than five
+minutes , none that would disturb or challenge a listener
+</text>
+<rel>potpourri</rel>
+<arg n="1">
+of pieces , none longer than five minutes , none that would
+disturb or challenge a listener</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 656 million potpourri
+</text>
+<arg n="1">$ 656 million</arg>
+<rel>potpourri</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

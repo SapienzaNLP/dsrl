@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resilience">
+<roleset id="resilience.01" name="attribute/nomadj-resilient">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The insurers ' relative resilience
+</text>
+<arg n="1">The insurers '</arg>
+<arg n="2">relative</arg>
+<rel>resilience</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The group 's resilience
+</text>
+<arg n="1">The group 's</arg>
+<rel>resilience</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

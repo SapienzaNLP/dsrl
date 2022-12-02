@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mastermind">
+<roleset id="mastermind.01" name="create" source="verb-invent.01" vncls="26.4">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="thing created" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the mastermind behind the use of the ad agencies -- Appleyard ,
+Dick Leonard Group II Inc. and Hemmer &amp; Yates Corp. -- to make
+payments to various political candidates from 1981 to 1988
+</text>
+<arg n="0">mastermind</arg>
+<rel>mastermind</rel>
+<arg n="1">
+behind the use of the ad agencies -- Appleyard , Dick Leonard
+Group II Inc. and Hemmer &amp; Yates Corp. -- to make payments to
+various political candidates from 1981 to 1988</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

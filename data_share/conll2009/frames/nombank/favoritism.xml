@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="favoritism">
+<roleset id="favoritism.01" name="like, prefer" source="verb-favor.01" vncls="31.2">
+<roles>
+
+<role descr="liker" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+noncompetitive favoritism at HUD
+</text>
+<arg f="MNR" n="M">noncompetitive</arg>
+<rel>favoritism</rel>
+<arg n="0">at HUD</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

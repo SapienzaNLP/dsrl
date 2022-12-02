@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="quota">
+<roleset id="quota.01" name="share">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Japan 's steel quota
+</text>
+<arg n="0">Japan 's</arg>
+<arg n="1">steel</arg>
+<arg f="REF" n="2">quota</arg>
+<rel>quota</rel>
+</example>
+
+<example name="autogen2">
+<text>
+steel quotas
+</text>
+<arg n="1">steel</arg>
+<arg f="REF" n="2">quotas</arg>
+<rel>quotas</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

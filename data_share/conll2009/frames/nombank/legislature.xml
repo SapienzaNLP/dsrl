@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="legislature">
+<roleset id="legislature.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Beirut 's legislature
+</text>
+<arg n="1">Beirut 's</arg>
+<arg n="0">legislature</arg>
+<rel>legislature</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Oslo 's 165-member legislature
+</text>
+<arg n="1">Oslo 's</arg>
+<arg n="0">legislature</arg>
+<rel>legislature</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="woe">
+<roleset id="woe.01" name="attribute/nomadj-woeful">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Arizona 's worsening real-estate woes
+</text>
+<arg n="1">Arizona 's</arg>
+<arg n="2">real-estate</arg>
+<rel>woes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its financial woes
+</text>
+<arg n="1">its</arg>
+<arg n="3">financial</arg>
+<arg f="REF" n="2">woes</arg>
+<rel>woes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

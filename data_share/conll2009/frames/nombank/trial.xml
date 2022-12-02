@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trial">
+<roleset id="trial.01" name="attempt" source="verb-try.01">
+<roles>
+
+<role descr="agent/entity trying" n="0"></role>
+
+<role descr="thing tried" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's clinical trials of both its animal and human-based
+insulins
+</text>
+<arg n="0">the company 's</arg>
+<arg f="MNR" n="M">clinical</arg>
+<rel>trials</rel>
+<arg n="1">of both its animal and human-based insulins</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The company is also offering a free trial of its computers to
+consumers who qualify for its credit cards or leases .
+</text>
+<arg n="Support">offering</arg>
+<arg f="MNR" n="M">free</arg>
+<rel>trial</rel>
+<arg n="1">of its computers</arg>
+<arg n="0">to consumers who qualify for its credit cards or leases</arg>
+</example>
+
+</roleset>
+<roleset id="trial.02" name="lawsuit" source="verb-try.02">
+<roles>
+
+<role descr="litigant" n="0"></role>
+
+<role descr="entity tried" n="1"></role>
+
+<role descr="adjudicator" n="2"></role>
+
+<role descr="tried for" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Stanley is on trial over charges that he violated a
+proclamation , issued by the South African administrator general
+earlier this year , which made it a crime punishable by two years
+in prison for any person to `` insult , disparate or belittle ''
+the election commission .
+</text>
+<arg n="1">Mr. Stanley</arg>
+<rel>trial</rel>
+<arg n="3">
+over charges that he violated a proclamation , issued by the
+South African administrator general earlier this year , which
+made it a crime punishable by two years in prison for any person
+to `` insult , disparate or belittle '' the election commission</arg>
+</example>
+
+<example name="autogen2">
+<text>
+taking cases to trial
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">taking to</arg>
+<arg n="1">cases</arg>
+<rel>trial</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

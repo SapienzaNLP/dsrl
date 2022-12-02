@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="character">
+<roleset id="character.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its pre-Reagan character
+</text>
+<arg n="1">its</arg>
+<arg n="2">pre-Reagan</arg>
+<rel>character</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its good corporate character
+</text>
+<arg n="1">its</arg>
+<arg n="2">good corporate</arg>
+<rel>character</rel>
+</example>
+
+</roleset>
+<roleset id="character.02" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+their characters
+</text>
+<arg n="1">their</arg>
+<arg n="0">characters</arg>
+<rel>characters</rel>
+</example>
+
+<example name="autogen3">
+<text>
+a character Marilyn Monroe must have played
+</text>
+<arg n="0">character</arg>
+<rel>character</rel>
+<arg n="1">Marilyn Monroe</arg>
+<arg n="Support">played</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

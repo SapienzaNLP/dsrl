@@ -1,0 +1,108 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="light">
+<roleset id="light.01" name="cause to know" source="verb-inform.01">
+<roles>
+
+<role descr="informer" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mrs. Yeargin 's case also casts some light on the dark side of
+school reform , where pressures on teachers are growing and where
+high-stakes testing has enhanced the temptation to cheat .
+</text>
+<arg n="0">Mrs. Yeargin 's case</arg>
+<arg n="Support">casts</arg>
+<rel>light</rel>
+<arg n="1">
+on the dark side of school reform , where pressures on teachers
+are growing and where high-stakes testing has enhanced the
+temptation to cheat</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In such situations , he says , the house `` is going to put the
+best light on things . ''
+</text>
+<arg n="0">the house ---> *-1</arg>
+<arg n="Support">put</arg>
+<rel>light</rel>
+<arg n="1">on things</arg>
+</example>
+
+</roleset>
+<roleset id="light.02" name="nomlike" source="verb-permit.01">
+<roles>
+
+<role descr="allower" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Fed would first give a green light to the economy by making
+credit readily available and then turn on the red and bring
+growth to a screeching halt
+</text>
+<arg n="0">the Fed</arg>
+<arg n="Support">give</arg>
+<rel>light</rel>
+<arg n="1">to the economy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the green light Judges Alarcon and Hall have given to the
+fabrication of quotations
+</text>
+<rel>light</rel>
+<arg n="0">Judges Alarcon and Hall</arg>
+<arg n="Support">given</arg>
+<arg n="1">to the fabrication of quotations</arg>
+</example>
+
+</roleset>
+<roleset id="light.03" name="discourse-connective">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="result" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Lortie 's departure , while sudden , was seen as inevitable
+in light of the shift in strategy .
+</text>
+<arg n="1">as inevitable</arg>
+<rel>light</rel>
+<arg n="2">of the shift in strategy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he was dropping it `` in light of the recent change in market
+conditions
+</text>
+<arg n="1">he was dropping it</arg>
+<rel>light</rel>
+<arg n="2">of the recent change in market conditions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

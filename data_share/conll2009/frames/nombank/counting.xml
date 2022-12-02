@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="counting">
+<roleset id="counting.01" name="enumerate" source="verb-count.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a bean-counting drill
+</text>
+<arg n="1">bean-counting</arg>
+<rel>bean-counting</rel>
+</example>
+
+</roleset>
+<roleset id="counting.02" name="include" source="verb-count.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="predicate" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the counting of illegal aliens
+</text>
+<rel>counting</rel>
+<arg n="1">of illegal aliens</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

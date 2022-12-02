@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sympathizer">
+<roleset id="sympathizer.01" name="to share the feelings or ideas" source="verb-sympathize.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="shared feelings or ideas" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Free French sympathizers
+</text>
+<arg n="1">Free French</arg>
+<arg n="0">sympathizers</arg>
+<rel>sympathizers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="input">
+<roleset id="input.01" name="to put or set into, between, or among" source="verb-insert.01">
+<roles>
+
+<role descr="inserter" n="0"></role>
+
+<role descr="entity inserted" n="1"></role>
+
+<role descr="location" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+huge inputs of church money from South Korea and Japan
+</text>
+<arg f="EXT" n="M">huge</arg>
+<rel>inputs</rel>
+<arg n="1">of church money</arg>
+<arg n="0">from South Korea and Japan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the input energy
+</text>
+<rel>input</rel>
+<arg n="1">energy</arg>
+</example>
+
+</roleset>
+<roleset id="input.02" name="two cents/intans" source="verb-comment.01">
+<roles>
+
+<role descr="commentor" n="0"></role>
+
+<role descr="thing commented on" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their input on the film
+</text>
+<arg n="0">their</arg>
+<rel>input</rel>
+<arg n="1">on the film</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their input
+</text>
+<arg n="0">their</arg>
+<rel>input</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

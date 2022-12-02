@@ -1,0 +1,81 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="seller">
+<roleset id="seller.01" name="commerce: seller" source="verb-sell.01" vncls="13.1-1">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing sold" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="price paid" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+auction houses occasionally guarantee the seller of a highly
+desirable work of art a minimum price
+</text>
+<arg n="2">auction houses</arg>
+<arg n="Support">guarantee</arg>
+<arg n="0">seller</arg>
+<rel>seller</rel>
+<arg n="1">of a highly desirable work of art</arg>
+<arg n="3">a minimum price</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the short sellers
+</text>
+<arg n="3">short</arg>
+<arg n="0">sellers</arg>
+<rel>sellers</rel>
+</example>
+
+</roleset>
+<roleset id="seller.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+author of several best sellers featuring Spenser , a contemporary
+private eye in the Marlowe mold ,
+</text>
+<arg n="0">author</arg>
+<rel>sellers</rel>
+<arg n="Support">featuring</arg>
+<arg n="1">Spenser , a contemporary private eye in the Marlowe mold ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Intelligence Committee 's ranking Republican , Senator
+William Cohen , joined with Senator George Mitchell to write a
+best seller about Iran-Contra , deploring `` Men of Zeal . ''
+</text>
+<arg n="0">
+The Intelligence Committee 's ranking Republican , Senator
+William Cohen , ---> *-1</arg>
+<arg n="Support">write</arg>
+<rel>seller</rel>
+<arg n="1">about Iran-Contra</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

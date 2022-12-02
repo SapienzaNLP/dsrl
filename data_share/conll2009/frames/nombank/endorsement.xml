@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="endorsement">
+<roleset id="endorsement.01" name="support for a position" source="verb-endorse.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="attribute/reason" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your strong endorsement to repeal this Depression-era fossil
+</text>
+<arg n="0">your</arg>
+<arg f="MNR" n="M">strong</arg>
+<rel>endorsement</rel>
+<arg n="1">to repeal this Depression-era fossil</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their formal endorsement of a merger with Daimler-Benz AG
+</text>
+<arg n="0">their</arg>
+<arg f="MNR" n="M">formal</arg>
+<rel>endorsement</rel>
+<arg n="1">of a merger with Daimler-Benz AG</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reparation">
+<roleset id="reparation.01" name="to restore after damage or injury" source="verb-repair.01">
+<roles>
+
+<role descr="repairer, agent" n="0"></role>
+
+<role descr="entity repaired" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+federal reparations for Japanese-Americans held in World War II
+internment camps
+</text>
+<rel>reparations</rel>
+<arg n="1">for Japanese-Americans held in World War II internment camps</arg>
+</example>
+
+<example name="autogen3">
+<text>
+Japanese-American reparations
+</text>
+<arg n="1">Japanese-American</arg>
+<rel>reparations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

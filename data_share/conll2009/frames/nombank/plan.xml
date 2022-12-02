@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="plan">
+<roleset id="plan.01" name="expect" source="verb-plan.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2" source="3"></role>
+
+<role descr="secondary-theme" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its financing plans for its proposed $ 4.5 billion acquisition of
+Farmers Group Inc.
+</text>
+<arg n="0">its</arg>
+<arg n="1">financing</arg>
+<rel>plans</rel>
+<arg n="3">for its proposed $ 4.5 billion acquisition of Farmers Group Inc.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+LTV 's three pension plans operated for its LTV Steel Co.
+subsidiary 's employees
+</text>
+<arg n="0">LTV 's</arg>
+<arg n="1">pension</arg>
+<rel>plans</rel>
+<arg n="Support">operated</arg>
+<arg n="2">for its LTV Steel Co. subsidiary 's employees</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

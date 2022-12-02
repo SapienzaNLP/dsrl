@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="season">
+<roleset id="season.01" name="environment">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the town 's winter ski season
+</text>
+<arg n="0">the town 's</arg>
+<arg n="2">winter</arg>
+<arg n="1">ski</arg>
+<rel>season</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a robust holiday driving season
+</text>
+<arg n="2">holiday</arg>
+<arg n="1">driving</arg>
+<rel>season</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

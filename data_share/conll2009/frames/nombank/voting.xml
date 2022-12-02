@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="voting">
+<roleset id="voting.01" name="cast a ballot" source="verb-vote.01">
+<roles>
+
+<role descr="voter" n="0"></role>
+
+<role descr="candidate or ballot issue" n="1"></role>
+
+<role descr="numerical count of vote, margin" n="2"></role>
+
+<role descr="proxy voter" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to deter the biggest voting bloc -- nearly 40 % -- from endorsing
+the direction Spain is taking
+</text>
+<arg n="Support">deter</arg>
+<rel>voting</rel>
+<arg n="0">bloc</arg>
+<arg n="1">from endorsing the direction Spain is taking</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the voting stock
+</text>
+<rel>voting</rel>
+<arg n="0">stock</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

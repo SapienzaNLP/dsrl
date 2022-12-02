@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="assembly">
+<roleset id="assembly.01" name="group/nom" source="verb-assemble.02">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2" source="0"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Islamabad 's 237-seat assembly
+</text>
+<arg n="2">Islamabad 's</arg>
+<arg n="1">237-seat</arg>
+<rel>assembly</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the state assembly floor
+</text>
+<arg n="2">state</arg>
+<rel>assembly</rel>
+</example>
+
+</roleset>
+<roleset id="assembly.02" name="build" source="verb-assemble.01" vncls="26.1">
+<roles>
+
+<role descr="builder" n="0">
+<vnrole vncls="26.1" vntheta="Agent"/></role>
+
+<role descr="construction" n="1">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+<role descr="material, start state" n="2">
+<vnrole vncls="26.1" vntheta="Material"/></role>
+
+<role descr="end state" n="4">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a satellite-assembly operation
+</text>
+<arg n="1">satellite-assembly</arg>
+<rel>satellite-assembly</rel>
+<arg n="0">operation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a computer-assembly project
+</text>
+<arg n="1">computer-assembly</arg>
+<rel>computer-assembly</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

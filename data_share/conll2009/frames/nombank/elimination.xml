@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="elimination">
+<roleset id="elimination.01" name="remove" source="verb-eliminate.01">
+<roles>
+
+<role descr="entity removing" n="0"></role>
+
+<role descr="thing being removed" n="1"></role>
+
+<role descr="removed from" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Pinnacle 's elimination of dividend payments
+</text>
+<arg n="0">Pinnacle 's</arg>
+<rel>elimination</rel>
+<arg n="1">of dividend payments</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the elimination of jobs for American workers
+</text>
+<rel>elimination</rel>
+<arg n="1">of jobs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

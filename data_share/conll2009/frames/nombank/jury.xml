@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="jury">
+<roleset id="jury.01" name="actrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="patient/criminal" n="1"></role>
+
+<role descr="employer" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+<role descr="award/crime" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the U.S. grand jury
+</text>
+<arg n="2">U.S.</arg>
+<arg n="3">grand</arg>
+<arg n="0">jury</arg>
+<rel>jury</rel>
+</example>
+
+<example name="autogen3">
+<text>
+a federal grand jury
+</text>
+<arg n="2">federal</arg>
+<arg n="3">grand</arg>
+<arg n="0">jury</arg>
+<rel>jury</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

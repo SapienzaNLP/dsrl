@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="declaration">
+<roleset id="declaration.01" name="announce" source="verb-declare.02" vncls="37.7">
+<roles>
+
+<role descr="announcer" n="0">
+<vnrole vncls="37.7" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.7" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.7" vntheta="Recipient"/></role>
+
+<role descr="attributive" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+President Bush signed a disaster declaration covering seven
+Northern California counties .
+</text>
+<arg n="0">President Bush</arg>
+<arg n="Support">signed</arg>
+<arg n="1">disaster</arg>
+<rel>declaration</rel>
+<arg n="3">covering seven Northern California counties</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Sino-British joint declaration on Hong Kong
+</text>
+<arg n="0">Sino-British</arg>
+<arg f="MNR" n="M">joint</arg>
+<arg f="REF" n="1">declaration</arg>
+<rel>declaration</rel>
+<arg n="3">on Hong Kong</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

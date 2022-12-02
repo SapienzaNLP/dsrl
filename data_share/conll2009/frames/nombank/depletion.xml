@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="depletion">
+<roleset id="depletion.01" name="to use up or empty out" source="verb-deplete.01" vncls="10.6">
+<roles>
+
+<role descr="user, emptier, agent" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="entity depleted" n="1">
+<vnrole vncls="10.6" vntheta="Theme"/></role>
+
+<role descr="entity depleted of" n="2">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+chlorofluorocarbons contributed to the depletion of ozone in the
+earth 's atmosphere
+</text>
+<arg n="0">chlorofluorocarbons</arg>
+<arg n="Support">contributed to</arg>
+<rel>depletion</rel>
+<arg n="2">of ozone</arg>
+<arg n="1">in the earth 's atmosphere</arg>
+</example>
+
+<example name="autogen3">
+<text>
+ozone depletion and global warming theories
+</text>
+<arg n="2">ozone</arg>
+<rel>depletion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

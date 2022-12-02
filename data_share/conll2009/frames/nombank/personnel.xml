@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="personnel">
+<roleset id="personnel.01" name="pay for working" source="verb-employ.01" vncls="29.2">
+<roles>
+
+<role descr="employer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="employee" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="job" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Sony sales personnel
+</text>
+<arg n="0">Sony</arg>
+<arg n="2">sales</arg>
+<arg n="1">personnel</arg>
+<rel>personnel</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their computers and personnel
+</text>
+<arg n="0">their</arg>
+<arg n="1">personnel</arg>
+<rel>personnel</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

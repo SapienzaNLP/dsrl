@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bastion">
+<roleset id="bastion.01" name="shield from danger" source="verb-protect.01">
+<roles>
+
+<role descr="protector" n="0"></role>
+
+<role descr="protected" n="1"></role>
+
+<role descr="danger" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a bastion of the sport
+</text>
+<arg n="3">bastion</arg>
+<rel>bastion</rel>
+<arg n="1">of the sport</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this bastion of traditional values
+</text>
+<arg n="3">bastion</arg>
+<rel>bastion</rel>
+<arg n="1">of traditional values</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

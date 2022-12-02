@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="author">
+<roleset id="author.01" name="to write or construct" source="verb-author.01">
+<roles>
+
+<role descr="author, agent" n="0"></role>
+
+<role descr="text authored" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its author
+</text>
+<arg n="1">its</arg>
+<arg n="0">author</arg>
+<rel>author</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an analyst and author in the 1930s and 1940s
+</text>
+<arg n="0">author</arg>
+<rel>author</rel>
+<arg f="TMP" n="M">in the 1930s and 1940s</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

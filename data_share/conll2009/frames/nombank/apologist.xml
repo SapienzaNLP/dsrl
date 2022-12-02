@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="apologist">
+<roleset id="apologist.01" name="be contrite" source="verb-apologize.01">
+<roles>
+
+<role descr="apologist" n="0"></role>
+
+<role descr="apologize for" n="1"></role>
+
+<role descr="apologized to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+UNESCO apologists
+</text>
+<arg n="1">UNESCO</arg>
+<arg n="0">apologists</arg>
+<rel>apologists</rel>
+</example>
+
+<example name="autogen2">
+<text>
+even the American apologists
+</text>
+<arg f="LOC" n="M">American</arg>
+<arg n="0">apologists</arg>
+<rel>apologists</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

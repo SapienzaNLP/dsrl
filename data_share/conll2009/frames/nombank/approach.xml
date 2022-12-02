@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="approach">
+<roleset id="approach.01" name="treat, deal with" source="verb-approach.02">
+<roles>
+
+<role descr="treater, dealer, agent" n="0"></role>
+
+<role descr="thing" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to get beyond the zombie approach to a Pinter character
+</text>
+<arg n="0">*</arg>
+<arg n="Support">get beyond</arg>
+<arg n="2">zombie</arg>
+<rel>approach</rel>
+<arg n="1">to a Pinter character</arg>
+</example>
+
+<example name="autogen2">
+<text>
+His theoretical approach
+</text>
+<arg n="0">His</arg>
+<arg n="1">theoretical</arg>
+<rel>approach</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

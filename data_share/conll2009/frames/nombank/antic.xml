@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="antic">
+<roleset id="antic.01" name="body language" source="verb-gesture.01">
+<roles>
+
+<role descr="gesturer" n="0"></role>
+
+<role descr="gestured at" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The personal antics of agency Director Amadou-Mahtar M'Bow
+</text>
+<rel>antics</rel>
+<arg n="0">of agency Director Amadou-Mahtar M'Bow</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

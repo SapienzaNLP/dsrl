@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="leeway">
+<roleset id="leeway.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a lot of leeway for U.S. Bankruptcy Judge Burton R. Lifland to
+decide what , if anything , the pilots actually collect
+</text>
+<arg f="EXT" n="M">a lot</arg>
+<rel>leeway</rel>
+<arg n="0">for U.S. Bankruptcy Judge Burton R. Lifland</arg>
+<arg n="1">to decide what , if anything , the pilots actually collect</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he wo n't give federal agencies much leeway in coping with
+Gramm-Rudman spending cuts , which took effect yesterday
+</text>
+<arg n="Support">give</arg>
+<arg n="0">federal agencies</arg>
+<rel>leeway</rel>
+<arg n="1">
+in coping with Gramm-Rudman spending cuts , which took effect
+yesterday</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

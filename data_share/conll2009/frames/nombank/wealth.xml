@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wealth">
+<roleset id="wealth.01" name="attribute/nomadj-wealthy">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+consumer wealth
+</text>
+<arg n="1">consumer</arg>
+<arg f="REF" n="2">wealth</arg>
+<rel>wealth</rel>
+</example>
+
+<example name="autogen2">
+<text>
+private wealth creation
+</text>
+<arg n="1">private</arg>
+<arg f="REF" n="2">wealth</arg>
+<rel>wealth</rel>
+</example>
+
+</roleset>
+<roleset id="wealth.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the wealth of health and education programs financed in the
+underlying bill
+</text>
+<rel>wealth</rel>
+<arg n="1">of health and education programs financed in the underlying bill</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

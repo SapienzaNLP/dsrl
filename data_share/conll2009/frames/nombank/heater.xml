@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="heater">
+<roleset id="heater.01" name="make hot or hotter1" source="verb-heat.01" vncls="45.4">
+<roles>
+
+<role descr="agent, causer" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="entity heated" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="45.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+broken water heaters
+</text>
+<arg n="1">water</arg>
+<arg n="0">heaters</arg>
+<rel>heaters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

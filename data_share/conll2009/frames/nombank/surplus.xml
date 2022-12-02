@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="surplus">
+<roleset id="surplus.01" name="go up incrementally" source="verb-increase.01" vncls="45.4">
+<roles>
+
+<role descr="causer of increase" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing increasing" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="amount increased by, ext or mnr" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Japan had an unadjusted trade surplus of $ 1.82 billion for the
+first 10 days of October , down from $ 3.16 billion a year
+earlier
+</text>
+<arg n="0">Japan</arg>
+<arg n="Support">had</arg>
+<arg n="1">trade</arg>
+<rel>surplus</rel>
+<arg n="2">of $ 1.82 billion</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its trade surplus
+</text>
+<arg n="0">its</arg>
+<arg n="1">trade</arg>
+<arg f="REF" n="2">surplus</arg>
+<rel>surplus</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

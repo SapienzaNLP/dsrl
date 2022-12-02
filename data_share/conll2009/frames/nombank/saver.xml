@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="saver">
+<roleset id="saver.01" name="financial sense" source="verb-save.01" vncls="13.5.1">
+<roles>
+
+<role descr="entity saving money" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="money" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Recipient"/></role>
+
+<role descr="cause, reason" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+college savers
+</text>
+<arg n="3">college</arg>
+<arg n="0">savers</arg>
+<rel>savers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

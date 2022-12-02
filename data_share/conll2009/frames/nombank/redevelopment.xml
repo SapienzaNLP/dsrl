@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="redevelopment">
+<roleset id="redevelopment.01" name="create" source="verb-redevelop.01" vncls="26.1">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.1" vntheta="Agent"/></role>
+
+<role descr="thing created" n="1">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3" source="2">
+<vnrole vncls="26.1" vntheta="Material"/></role>
+
+<role descr="attribute of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the redevelopment of Times Square
+</text>
+<rel>redevelopment</rel>
+<arg n="1">of Times Square</arg>
+</example>
+
+<example name="autogen2">
+<text>
+downtown redevelopment
+</text>
+<arg n="1">downtown</arg>
+<rel>redevelopment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

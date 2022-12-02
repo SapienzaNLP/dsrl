@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="evolution">
+<roleset id="evolution.01" name="change form" source="verb-evolve.01" vncls="48.1.1">
+<roles>
+
+<role descr="thing changing" n="1">
+<vnrole vncls="48.1.1" vntheta="Theme"/></role>
+
+<role descr="end state" n="2">
+<vnrole vncls="26.2" vntheta="Product"/></role>
+
+<role descr="start state" n="3">
+<vnrole vncls="26.2" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the evolution of private-sector wonder drugs , which promulgated
+medical therapy
+</text>
+<rel>evolution</rel>
+<arg n="1">
+of private-sector wonder drugs , which promulgated medical
+therapy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+human evolution
+</text>
+<arg n="1">human</arg>
+<rel>evolution</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

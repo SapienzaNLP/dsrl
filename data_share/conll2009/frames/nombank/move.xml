@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="move">
+<roleset id="move.01" name="change location" source="verb-move.01" vncls="11.2">
+<roles>
+
+<role descr="mover" n="0">
+<vnrole vncls="11.2" vntheta="Agent"/></role>
+
+<role descr="moved" n="1">
+<vnrole vncls="11.2" vntheta="Theme"/></role>
+
+<role descr="destination" n="2">
+<vnrole vncls="11.2" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his move to the chairmanship
+</text>
+<arg n="1">his</arg>
+<rel>move</rel>
+<arg n="2">to the chairmanship</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Digital 's move into mainframes
+</text>
+<arg n="0">Digital 's</arg>
+<rel>move</rel>
+<arg n="2">into mainframes</arg>
+</example>
+
+</roleset>
+<roleset id="move.02" name="take measures" source="verb-move.02">
+<roles>
+
+<role descr="mover" n="0"></role>
+
+<role descr="measures" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Time magazine , in a move to reduce the costs of wooing new
+subscribers , is lowering its circulation guarantee to
+advertisers for the second consecutive year , increasing its
+subscription rates and cutting back on merchandise giveaways .
+</text>
+<arg n="0">Time magazine</arg>
+<rel>move</rel>
+<arg f="PRD" n="1">to reduce the costs of wooing new subscribers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+moves to ease credit
+</text>
+<rel>moves</rel>
+<arg f="PRD" n="1">to ease credit</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dislike">
+<roleset id="dislike.01" name="anti-affection" source="verb-dislike.01" vncls="31.2">
+<roles>
+
+<role descr="disliker" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="object of disaffection" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their dislike of President Bush 's proposal for cars that run on
+alternative fuels
+</text>
+<arg n="0">their</arg>
+<rel>dislike</rel>
+<arg n="1">
+of President Bush 's proposal for cars that run on alternative
+fuels</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their dislike of Noriega
+</text>
+<arg n="0">their</arg>
+<rel>dislike</rel>
+<arg n="1">of Noriega</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

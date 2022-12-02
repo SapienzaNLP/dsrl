@@ -1,0 +1,98 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="principal">
+<roleset id="principal.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the school 's seventh principal
+</text>
+<arg n="2">the school 's</arg>
+<arg n="0">principal</arg>
+<rel>principal</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the school 's principal
+</text>
+<arg n="2">the school 's</arg>
+<arg n="0">principal</arg>
+<rel>principal</rel>
+</example>
+
+</roleset>
+<roleset id="principal.02" name="nomadj-principal">
+<roles>
+
+<role descr="participant" n="0"></role>
+
+<role descr="group" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a principal in the investment firm of Levy Harkins
+</text>
+<arg n="0">principal</arg>
+<rel>principal</rel>
+<arg n="1">in the investment firm of Levy Harkins</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a principal at Scudder , Stevens &amp; Clark
+</text>
+<arg n="0">principal</arg>
+<rel>principal</rel>
+<arg n="1">at Scudder , Stevens &amp; Clark</arg>
+</example>
+
+</roleset>
+<roleset id="principal.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+C$ 1,000 principal amount of debentures
+</text>
+<arg n="2">C$ 1,000</arg>
+<rel>principal</rel>
+<arg n="Support">amount</arg>
+<arg n="1">of debentures</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The notes will have a principal amount of $ 300 million at
+maturity .
+</text>
+<arg n="1">The notes</arg>
+<arg n="Support">have amount</arg>
+<rel>principal</rel>
+<arg n="2">of $ 300 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

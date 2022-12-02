@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fight">
+<roleset id="fight.01" name="fight" source="verb-fight.01" vncls="36.3">
+<roles>
+
+<role descr="first fighter" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="second fighter, if separate" n="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+<role descr="spoils" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Eventually , Texaco , which was forced into bankruptcy
+proceedings by that litigation , settled its fight with Pennzoil
+for $ 3 billion in 1986 .
+</text>
+<arg n="0">its</arg>
+<rel>fight</rel>
+<arg n="1">with Pennzoil</arg>
+<arg n="2">for $ 3 billion</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the capital-gains fight
+</text>
+<arg n="2">capital-gains</arg>
+<rel>fight</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

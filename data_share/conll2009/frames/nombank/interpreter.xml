@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="interpreter">
+<roleset id="interpreter.01" name="to explain, make sense" source="verb-interpret.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="entity interpreted" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a superior interpreter of Shakespeare
+</text>
+<arg n="0">interpreter</arg>
+<rel>interpreter</rel>
+<arg n="1">of Shakespeare</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an ideal interpreter of both works
+</text>
+<arg n="0">interpreter</arg>
+<rel>interpreter</rel>
+<arg n="1">of both works</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

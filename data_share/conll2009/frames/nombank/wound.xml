@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wound">
+<roleset id="wound.01" name="cause injury" source="verb-wound.01" vncls="31.1">
+<roles>
+
+<role descr="causer of injury" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="patient" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the city 's racial and ethnic wounds
+</text>
+<arg n="1">the city 's</arg>
+<arg n="0">racial and ethnic</arg>
+<rel>wounds</rel>
+</example>
+
+<example name="autogen2">
+<text>
+When Maj. Moises Giroldi , the leader of the abortive coup in
+Panama , was buried , his body bore several gunshot wounds , a
+cracked skull and broken legs and ribs .
+</text>
+<arg n="1">his body</arg>
+<arg n="Support">bore</arg>
+<arg n="0">gunshot</arg>
+<rel>wounds</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="investment">
+<roleset id="investment.01" name="provide" source="verb-invest.01" vncls="13.4.2">
+<roles>
+
+<role descr="investor" n="0">
+<vnrole vncls="13.4.2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="13.4.2" vntheta="Theme"/></role>
+
+<role descr="purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+increased capital investment by Pacific Bell for network
+improvements
+</text>
+<arg n="1">capital</arg>
+<rel>investment</rel>
+<arg n="0">by Pacific Bell</arg>
+<arg n="2">for network improvements</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 1 billion investment in Hoylake
+</text>
+<arg n="1">$ 1 billion</arg>
+<rel>investment</rel>
+<arg n="2">in Hoylake</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

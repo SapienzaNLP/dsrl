@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="back">
+<roleset id="back.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the back of the chair
+</text>
+<rel>back</rel>
+<arg n="1">of the chair</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his back
+</text>
+<arg n="1">his</arg>
+<rel>back</rel>
+</example>
+
+</roleset>
+<roleset id="back.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+famed running back Herschel Walker
+</text>
+<arg n="3">running</arg>
+<arg n="0">back</arg>
+<rel>back</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an Atlanta defensive back
+</text>
+<arg n="2">Atlanta</arg>
+<arg n="3">defensive</arg>
+<arg n="0">back</arg>
+<rel>back</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

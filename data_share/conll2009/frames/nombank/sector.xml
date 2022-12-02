@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sector">
+<roleset id="sector.01" name="group/partitive-quant/partitive-part">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a weaker real-estate sector in the region
+</text>
+<arg n="1">real-estate</arg>
+<rel>sector</rel>
+<arg n="2">in the region</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its sector of industry
+</text>
+<rel>sector</rel>
+<arg n="2">of industry</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

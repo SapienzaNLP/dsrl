@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="volunteer">
+<roleset id="volunteer.01" name="to give or offer to give voluntarily" source="verb-volunteer.01" vncls="29.8">
+<roles>
+
+<role descr="entity volunteering, voluntary agent" n="0">
+<vnrole vncls="29.8" vntheta="Agent"/></role>
+
+<role descr="service volunteered" n="1">
+<vnrole vncls="29.8" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the volunteer military
+</text>
+<arg n="0">volunteer</arg>
+<rel>volunteer</rel>
+<arg n="1">military</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` volunteers '' planting trees , emptying bedpans , tutoring
+children , and assisting librarians for $ 100 a week , tax free ,
+plus medical care
+</text>
+<arg n="0">volunteers</arg>
+<rel>volunteers</rel>
+<arg f="PRD" n="1">
+planting trees , emptying bedpans , tutoring children , and
+assisting librarians for $ 100 a week , tax free , plus medical
+care</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

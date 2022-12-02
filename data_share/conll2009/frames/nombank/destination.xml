@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="destination">
+<roleset id="destination.01" name="assign to a specific purpose" source="verb-destine.01">
+<roles>
+
+<role descr="entity destined" n="1"></role>
+
+<role descr="purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her destination
+</text>
+<arg n="1">her</arg>
+<rel>destination</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his destination
+</text>
+<arg n="1">his</arg>
+<rel>destination</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

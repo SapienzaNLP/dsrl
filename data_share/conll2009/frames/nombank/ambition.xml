@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ambition">
+<roleset id="ambition.01" name="nomadj-ambitious">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="domain or theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their ambitions to run a major entertainment powerhouse
+</text>
+<arg n="0">their</arg>
+<rel>ambitions</rel>
+<arg f="PRD" n="1">to run a major entertainment powerhouse</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the ambition of state Attorney General John Van de Kamp
+</text>
+<rel>ambition</rel>
+<arg n="0">of state Attorney General John Van de Kamp</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

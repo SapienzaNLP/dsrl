@@ -1,0 +1,81 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reception">
+<roleset id="reception.01" name="nomlike" source="verb-celebrate.01" vncls="33">
+<roles>
+
+<role descr="honorer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="honored" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="for what reason" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+After an 88-year absence from the birthplace of the family
+banking empire , the return of the Rothschild group to Frankfurt
+was greeted by the glare of television lights , curious reporters
+and a mayoral reception in Town Hall .
+</text>
+<arg n="1">the return of the Rothschild group to Frankfurt</arg>
+<arg n="Support">greeted by glare of</arg>
+<arg n="0">mayoral</arg>
+<rel>reception</rel>
+<arg f="LOC" n="M">in Town Hall</arg>
+</example>
+
+</roleset>
+<roleset id="reception.02" name="nomlike/attribute" source="verb-accept.01" vncls="29.2">
+<roles>
+
+<role descr="acceptor" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing accepted" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="accepted-from" n="3">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Georgia-Pacific Corp. 's unsolicited $ 3.19 billion bid for Great
+Northern Nekoosa Corp. was hailed by Wall Street despite a cool
+reception by the target company .
+</text>
+<arg n="1">
+Georgia-Pacific Corp. 's unsolicited $ 3.19 billion bid for Great
+Northern Nekoosa Corp.</arg>
+<arg n="2">cool</arg>
+<rel>reception</rel>
+<arg n="0">by the target company</arg>
+</example>
+
+<example name="autogen2">
+<text>
+His message is getting a chilly reception in Detroit , where the
+Big Three auto makers are already being forced to close plants
+because of soft sales and reduced dealer orders .
+</text>
+<arg n="1">His message</arg>
+<arg n="Support">getting</arg>
+<arg n="2">chilly</arg>
+<rel>reception</rel>
+<arg n="0">
+in Detroit , where the Big Three auto makers are already being
+forced to close plants because of soft sales and reduced dealer
+orders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

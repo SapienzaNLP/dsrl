@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="funding">
+<roleset id="funding.01" name="provide money for, get money for" source="verb-fund.01">
+<roles>
+
+<role descr="financ(i)er" n="0"></role>
+
+<role descr="thing financed" n="1"></role>
+
+<role descr="money" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The House Appropriations Committee approved an estimated $ 2.85
+billion in emergency funding to assist California 's recovery
+from last week 's earthquake and to extend further aid to East
+Coast victims of Hurricane Hugo .
+</text>
+<arg n="0">The House Appropriations Committee</arg>
+<arg n="Support">approved $ in</arg>
+<arg n="2">an estimated $ 2.85 billion</arg>
+<arg f="PNC" n="M">emergency</arg>
+<rel>funding</rel>
+<arg f="PRD" n="1">
+to assist California 's recovery from last week 's earthquake and
+to extend further aid to East Coast victims of Hurricane Hugo</arg>
+</example>
+
+<example name="autogen2">
+<text>
+federal funding of abortions for poor women who are vicitims of
+rape and incest
+</text>
+<arg n="0">federal</arg>
+<rel>funding</rel>
+<arg n="1">of abortions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

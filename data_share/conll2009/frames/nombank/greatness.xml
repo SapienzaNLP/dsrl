@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="greatness">
+<roleset id="greatness.01" name="attribute/nomadj-great">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its own greatness
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">greatness</arg>
+<rel>greatness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

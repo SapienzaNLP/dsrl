@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ghost">
+<roleset id="ghost.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Raeder 's ghost
+</text>
+<arg n="1">Raeder 's</arg>
+<arg n="0">ghost</arg>
+<rel>ghost</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Adm. Erich Raeder 's ghost
+</text>
+<arg n="1">Adm. Erich Raeder 's</arg>
+<arg n="0">ghost</arg>
+<rel>ghost</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

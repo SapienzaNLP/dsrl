@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inaccuracy">
+<roleset id="inaccuracy.01" name="nomadj-inaccurate/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The illogic and inaccuracy of John H. Adams 's comments for the
+National Resources Defense Council
+</text>
+<arg f="REF" n="2">inaccuracy</arg>
+<rel>inaccuracy</rel>
+<arg n="1">
+of John H. Adams 's comments for the National Resources Defense
+Council</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sharing">
+<roleset id="sharing.01" name="share" source="verb-share.01">
+<roles>
+
+<role descr="sharer" n="0"></role>
+
+<role descr="thing shared" n="1"></role>
+
+<role descr="shared with, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a hard-liner who quickly ruled out any sharing of power with
+pro-democracy groups
+</text>
+<arg n="0">a hard-liner ---> who ---> *T*-2</arg>
+<arg n="Support">ruled</arg>
+<rel>sharing</rel>
+<arg n="1">of power</arg>
+<arg n="2">with pro-democracy groups</arg>
+</example>
+
+<example name="autogen2">
+<text>
+employee profit-sharing
+</text>
+<arg n="0">employee</arg>
+<arg n="1">profit-sharing</arg>
+<rel>profit-sharing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

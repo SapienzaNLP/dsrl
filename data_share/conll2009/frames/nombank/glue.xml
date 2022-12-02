@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="glue">
+<roleset id="glue.01" name="attach with glue" source="verb-glue.01" vncls="22.4">
+<roles>
+
+<role descr="causer of attachment, agent" n="0">
+<vnrole vncls="22.4" vntheta="Agent"/></role>
+
+<role descr="entity glued" n="1">
+<vnrole vncls="22.4" vntheta="Patient1"/></role>
+
+<role descr="entity glued to" n="2">
+<vnrole vncls="22.4" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+tire-patching glue
+</text>
+<arg n="1">tire-patching</arg>
+<arg n="0">glue</arg>
+<rel>glue</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the glue of the 1986 accord
+</text>
+<arg n="0">glue</arg>
+<rel>glue</rel>
+<arg n="1">of the 1986 accord</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

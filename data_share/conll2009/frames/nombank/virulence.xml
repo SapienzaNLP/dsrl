@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="virulence">
+<roleset id="virulence.01" name="attribute/nomadj-virulent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the toxin 's virulence
+</text>
+<arg n="1">the toxin 's</arg>
+<arg f="REF" n="2">virulence</arg>
+<rel>virulence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reckoning">
+<roleset id="reckoning.01" name="figure, think, count" source="verb-reckon.01" vncls="29.1">
+<roles>
+
+<role descr="thinker" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="object, thing under consideration, thought" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="attribute" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+by the government 's own reckoning , needs some $ 100 million in
+new capital for rehabilitation
+</text>
+<arg n="0">the government 's</arg>
+<rel>reckoning</rel>
+<arg n="1">needs some $ 100 million in new capital for rehabilitation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

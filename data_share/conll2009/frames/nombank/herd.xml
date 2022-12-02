@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="herd">
+<roleset id="herd.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their herds
+</text>
+<arg n="2">their</arg>
+<rel>herds</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a herd of swine
+</text>
+<rel>herd</rel>
+<arg n="2">of swine</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

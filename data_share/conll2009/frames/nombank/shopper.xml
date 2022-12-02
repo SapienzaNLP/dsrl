@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shopper">
+<roleset id="shopper.01" name="look for something to buy" source="verb-shop.01" vncls="35.2">
+<roles>
+
+<role descr="shopper" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="thing sought" n="1">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 55-year-old car shopper
+</text>
+<arg f="TMP" n="M">55-year-old</arg>
+<arg n="1">car</arg>
+<arg n="0">shopper</arg>
+<rel>shopper</rel>
+</example>
+
+<example name="autogen2">
+<text>
+CHRISTMAS SHOPPERS
+</text>
+<arg f="TMP" n="M">CHRISTMAS</arg>
+<arg n="0">SHOPPERS</arg>
+<rel>SHOPPERS</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

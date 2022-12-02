@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thing">
+<roleset id="thing.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a thing of the past
+</text>
+<rel>thing</rel>
+<arg n="1">of the past</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the child-parent thing
+</text>
+<arg n="1">child-parent</arg>
+<rel>thing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

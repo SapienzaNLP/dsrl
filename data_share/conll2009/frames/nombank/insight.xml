@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="insight">
+<roleset id="insight.01" name="understand" source="verb-understand.01">
+<roles>
+
+<role descr="understander" n="0"></role>
+
+<role descr="thing understood" n="1"></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+everyone from top executives to rookie designers to go `` town
+watching , '' to visit chic parts of Tokyo to try to gain
+insights into developing cars for trend-setters
+</text>
+<arg n="0">
+everyone from top executives to rookie designers ---> *-1 --->
+*-3 ---> *-2</arg>
+<arg n="Support">gain</arg>
+<rel>insights</rel>
+<arg n="1">into developing cars for trend-setters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their own insights
+</text>
+<arg n="0">their</arg>
+<arg f="REF" n="1">insights</arg>
+<rel>insights</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

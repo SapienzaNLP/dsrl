@@ -1,0 +1,128 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="step">
+<roleset id="step.01" name="ability/modified">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme/action" n="1"></role>
+
+<role descr="direction" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Steve Jobs took a step back from the frontier of
+personal-computer technology in an effort to spur sales of Next
+Inc. 's new machine .
+</text>
+<arg n="0">Steve Jobs</arg>
+<arg n="Support">took</arg>
+<rel>step</rel>
+<arg n="2">back</arg>
+<arg n="1">from the frontier of personal-computer technology</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their first steps into American publishing
+</text>
+<arg n="0">their</arg>
+<rel>steps</rel>
+<arg n="1">into American publishing</arg>
+</example>
+
+</roleset>
+<roleset id="step.02" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the pit 's top step
+</text>
+<arg n="1">the pit 's</arg>
+<rel>step</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Capitol steps
+</text>
+<arg n="1">Capitol</arg>
+<rel>steps</rel>
+</example>
+
+</roleset>
+<roleset id="step.03" name="compatible" source="verb-compare.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="standard" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he is out of step with the consensus of world intellectuals that
+the Namibian guerrillas were above all else the victims of
+suppression by neighboring South Africa
+</text>
+<arg n="1">he</arg>
+<arg f="NEG" n="M">out of</arg>
+<rel>step</rel>
+<arg n="2">
+with the consensus of world intellectuals that the Namibian
+guerrillas were above all else the victims of suppression by
+neighboring South Africa</arg>
+</example>
+
+<example name="autogen2">
+<text>
+late Friday afternoon the CBOE halted stock-index options trading
+in step with the Chicago Mercantile Exchange 's halt in
+stock-index futures
+</text>
+<arg n="1">the CBOE halted stock-index options trading</arg>
+<rel>step</rel>
+<arg n="2">
+with the Chicago Mercantile Exchange 's halt in stock-index
+futures</arg>
+</example>
+
+</roleset>
+<roleset id="step.04" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+only a few steps from the very top of the stands
+</text>
+<rel>steps</rel>
+<arg n="1">from the very top of the stands</arg>
+</example>
+
+<example name="autogen2">
+<text>
+At one point , the reader is two steps ahead of Marlowe in
+catching on to a double identity scam
+</text>
+<rel>steps</rel>
+<arg n="1">ahead of Marlowe</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

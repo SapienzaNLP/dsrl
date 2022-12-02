@@ -1,0 +1,97 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="kicker">
+<roleset id="kicker.01" name="say" source="verb-add.01">
+<roles>
+
+<role descr="speaker" n="0"></role>
+
+<role descr="utterance" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` David Dinkins , '' says the kicker , `` Why does he always
+wait until he 's caught ? ''
+</text>
+<arg n="1">
+`` David Dinkins , '' says the kicker , `` Why does he always
+wait until he 's caught ? '' ---> *T*-2</arg>
+<arg n="Support">says</arg>
+<arg n="0">kicker</arg>
+<rel>kicker</rel>
+</example>
+
+<example name="autogen2">
+<text>
+`` Funny thing , '' says the kicker , `` both these candidates
+are named Rudolph Giuliani . ''
+</text>
+<arg n="1">
+`` Funny thing `` both these candidates are named Rudolph
+Giuliani . ''</arg>
+<arg n="Support">says</arg>
+<rel>kicker</rel>
+</example>
+
+</roleset>
+<roleset id="kicker.02" name="mathematics" source="verb-add.02" vncls="22.1-2">
+<roles>
+
+<role descr="adder" n="0">
+<vnrole vncls="22.1-2" vntheta="Agent"/></role>
+
+<role descr="thing being added" n="1">
+<vnrole vncls="22.1-2" vntheta="Patient1"/></role>
+
+<role descr="thing being added to" n="2">
+<vnrole vncls="22.1-2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+equity kickers
+</text>
+<arg n="1">equity</arg>
+<arg n="0">kickers</arg>
+<rel>kickers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The equity kicker
+</text>
+<arg n="1">equity</arg>
+<arg n="0">kicker</arg>
+<rel>kicker</rel>
+</example>
+
+</roleset>
+<roleset id="kicker.03" name="drive or impel with the foot" source="verb-kick.01" vncls="23.2">
+<roles>
+
+<role descr="kicker" n="0">
+<vnrole vncls="23.2" vntheta="Agent"/></role>
+
+<role descr="thing kicked" n="1">
+<vnrole vncls="23.2" vntheta="Theme"/></role>
+
+<role descr="instrument (defaults to foot" n="2">
+<vnrole vncls="18.1" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+tire-kickers and lookee-loos
+</text>
+<arg n="0">tire-kickers</arg>
+<arg n="1">tire-kickers</arg>
+<rel>tire-kickers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

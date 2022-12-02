@@ -1,0 +1,88 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="degree">
+<roleset id="degree.01" name="attribute/nom" source="verb-extend.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the high degree of leverage in the options market
+</text>
+<arg n="2">high</arg>
+<rel>degree</rel>
+<arg n="1">of leverage in the options market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the high degree of public interest '' at stake
+</text>
+<arg n="2">high</arg>
+<rel>degree</rel>
+<arg n="1">of public interest</arg>
+</example>
+
+</roleset>
+<roleset id="degree.02" name="temperature/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+minus 321 degrees Fahrenheit
+</text>
+<arg n="2">minus 321</arg>
+<rel>degrees</rel>
+</example>
+
+</roleset>
+<roleset id="degree.03" name="give someone credit for smth" source="verb-credit.01">
+<roles>
+
+<role descr="giver of credit" n="0"></role>
+
+<role descr="entity credited" n="1"></role>
+
+<role descr="credited for" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He earned a master 's degree in architecture from Yale .
+</text>
+<arg n="1">He</arg>
+<arg n="Support">earned</arg>
+<arg n="3">master 's</arg>
+<rel>degree</rel>
+<arg n="2">in architecture</arg>
+<arg n="0">from Yale</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Someone with a master 's degree in classical arts who works in a
+deli
+</text>
+<arg n="1">Someone</arg>
+<arg n="3">master 's</arg>
+<rel>degree</rel>
+<arg n="2">in classical arts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

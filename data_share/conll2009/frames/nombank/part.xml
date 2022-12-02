@@ -1,0 +1,159 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="part">
+<roleset id="part.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+part of his efforts to create a climate of trust and peace in
+which his government can begin negotiations with black leaders
+over a new constitution aimed at giving blacks a voice in
+national government
+</text>
+<rel>part</rel>
+<arg n="1">
+of his efforts to create a climate of trust and peace in which
+his government can begin negotiations with black leaders over a
+new constitution aimed at giving blacks a voice in national
+government</arg>
+</example>
+
+<example name="autogen2">
+<text>
+part of the company
+</text>
+<rel>part</rel>
+<arg n="1">of the company</arg>
+</example>
+
+</roleset>
+<roleset id="part.02" name="share">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Since then , Intel has cornered a large part of the market with
+successive generations of 16-bit and 32-bit chips , all of which
+can run software written for previous models .
+</text>
+<arg n="0">Intel</arg>
+<arg n="Support">cornered</arg>
+<arg n="2">large</arg>
+<rel>part</rel>
+<arg n="1">of the market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Once production hurdles are overcome , the chips could take over
+a significant part of the market .
+</text>
+<arg n="0">the chips</arg>
+<arg n="Support">take</arg>
+<arg n="2">significant</arg>
+<rel>part</rel>
+<arg n="1">of the market</arg>
+</example>
+
+</roleset>
+<roleset id="part.03" name="nomadjlike-active" source="verb-participate.01">
+<roles>
+
+<role descr="agent, entity participating" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his part in the bidding wars
+</text>
+<arg n="0">his</arg>
+<rel>part</rel>
+<arg n="1">in the bidding wars</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Lorin and Mr. Laff were part of a conspiracy to maintain the
+prices of certain stocks at artificially high prices
+</text>
+<arg n="0">Mr. Lorin and Mr. Laff</arg>
+<rel>part</rel>
+<arg n="1">
+of a conspiracy to maintain the prices of certain stocks at
+artificially high prices</arg>
+</example>
+
+</roleset>
+<roleset id="part.04" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Hungary 's part of the project
+</text>
+<arg n="0">Hungary 's</arg>
+<rel>part</rel>
+<arg n="1">of the project</arg>
+</example>
+
+<example name="autogen13">
+<text>
+Contel 's part
+</text>
+<arg n="0">Contel 's</arg>
+<rel>part</rel>
+</example>
+
+</roleset>
+<roleset id="part.05" name="on-part-of-multiword-expression/on-x's-part-multiword-expression">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the part of the American people
+</text>
+<rel>part</rel>
+<arg n="1">of the American people</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their part
+</text>
+<arg n="1">their</arg>
+<rel>part</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

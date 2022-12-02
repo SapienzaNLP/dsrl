@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bequest">
+<roleset id="bequest.01" name="to leave by will, hand down" source="verb-bequeath.01" vncls="13.3">
+<roles>
+
+<role descr="giver, agent" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="entity bequeathed" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a $ 49.7 million bequest
+</text>
+<arg n="1">$ 49.7 million</arg>
+<rel>bequest</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The institute has governmental service contracts for the
+provision of direct patient services ; collects patient fees ;
+receives money through contributions from individuals ,
+foundations and bequests .
+</text>
+<arg n="2">The institute</arg>
+<arg n="Support">receives through contributions from</arg>
+<arg n="1">money</arg>
+<rel>bequests</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

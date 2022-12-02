@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="weakness">
+<roleset id="weakness.01" name="attribute/nomadj-weak">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the gravest structural weaknesses of the U.S. economy
+</text>
+<arg n="3">structural</arg>
+<arg f="REF" n="2">weaknesses</arg>
+<rel>weaknesses</rel>
+<arg n="1">of the U.S. economy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+several years of weakness
+</text>
+<arg f="TMP" n="M">several years</arg>
+<arg f="REF" n="2">weakness</arg>
+<rel>weakness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

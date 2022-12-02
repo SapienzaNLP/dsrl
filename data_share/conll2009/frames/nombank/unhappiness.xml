@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unhappiness">
+<roleset id="unhappiness.01" name="nomadj-unhappy">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+unhappiness with his aggressive efforts to clear the courthouse
+'s docket
+</text>
+<rel>unhappiness</rel>
+<arg n="1">with his aggressive efforts to clear the courthouse 's docket</arg>
+</example>
+
+<example name="autogen2">
+<text>
+conservatives ' unhappiness with Mr. Bush 's cautious handling of
+the recent unsuccessful coup in Panama
+</text>
+<arg n="0">conservatives '</arg>
+<rel>unhappiness</rel>
+<arg n="1">
+with Mr. Bush 's cautious handling of the recent unsuccessful
+coup in Panama</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="destruction">
+<roleset id="destruction.01" name="destroy" source="verb-destroy.01" vncls="44">
+<roles>
+
+<role descr="destroyer" n="0">
+<vnrole vncls="44" vntheta="Agent"/></role>
+
+<role descr="thing destroyed" n="1">
+<vnrole vncls="44" vntheta="Patient"/></role>
+
+<role descr="instrument of destruction" n="2">
+<vnrole vncls="44" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the destruction to the Bay Area wrought by Tuesday 's quake
+</text>
+<rel>destruction</rel>
+<arg n="1">to the Bay Area</arg>
+<arg n="Support">wrought</arg>
+<arg n="0">by Tuesday 's quake</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the destruction of this 2.5-mile stretch of highway
+</text>
+<rel>destruction</rel>
+<arg n="1">of this 2.5-mile stretch of highway</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="asking">
+<roleset id="asking.01" name="ask a favor, ask a request, ask for" source="verb-ask.02" vncls="37.1-1">
+<roles>
+
+<role descr="asker" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="favor" n="1">
+<vnrole vncls="37.1-1" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But devices are there for the asking , whether in stores or
+through the mail .
+</text>
+<arg n="1">devices</arg>
+<arg n="Support">there for</arg>
+<rel>asking</rel>
+</example>
+
+</roleset>
+<roleset id="asking.02" name="buying and selling" source="verb-ask.03">
+<roles>
+
+<role descr="seller" n="0"></role>
+
+<role descr="commodity" n="1"></role>
+
+<role descr="buyer" n="2"></role>
+
+<role descr="asking price" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The FADA real-estate package , with an asking price of $ 428
+million ,
+</text>
+<arg n="1">The FADA real-estate package</arg>
+<rel>asking</rel>
+<arg n="Support">price</arg>
+<arg n="3">of $ 428 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+landlords ' initial asking price
+</text>
+<arg n="0">landlords '</arg>
+<rel>asking</rel>
+<arg n="3">price</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

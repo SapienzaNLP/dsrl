@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="covert">
+<roleset id="covert.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+dense coverts of live oak interspersed with marshes and prairies
+</text>
+<rel>coverts</rel>
+<arg n="1">of live oak</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

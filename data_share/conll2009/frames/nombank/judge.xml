@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="judge">
+<roleset id="judge.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a state court judge
+</text>
+<arg n="2">state</arg>
+<arg n="1">court</arg>
+<arg n="0">judge</arg>
+<rel>judge</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the court 's chief judge
+</text>
+<arg n="2">the court 's</arg>
+<arg n="3">chief</arg>
+<arg n="0">judge</arg>
+<rel>judge</rel>
+</example>
+
+</roleset>
+<roleset id="judge.02" name="make a judgement" source="verb-judge.01" vncls="29.4">
+<roles>
+
+<role descr="judge" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="judged" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="judgement, attribute of arg1" n="2">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+<role descr="on what grounds" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a poor judge of masculine charm
+</text>
+<arg f="MNR" n="M">poor</arg>
+<arg n="0">judge</arg>
+<rel>judge</rel>
+<arg n="1">of masculine charm</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the ultimate judges of the investment quality of various LBO
+deals and leveraged restructurings
+</text>
+<arg f="TMP" n="M">ultimate</arg>
+<arg n="0">judges</arg>
+<rel>judges</rel>
+<arg n="1">
+of the investment quality of various LBO deals and leveraged
+restructurings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reunification">
+<roleset id="reunification.01" name="join together" source="verb-unify.01" vncls="22.2">
+<roles>
+
+<role descr="joiner, agent" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="first) thing(s) being unified" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="other things, if separate from arg1" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+<role descr="unified whole" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the reunification of Germany
+</text>
+<rel>reunification</rel>
+<arg n="1">of Germany</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their reunification
+</text>
+<arg n="1">their</arg>
+<rel>reunification</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

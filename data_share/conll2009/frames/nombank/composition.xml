@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="composition">
+<roleset id="composition.01" name="to form,  constitute" source="verb-compose.01">
+<roles>
+
+<role descr="causer of group, agent" n="0"></role>
+
+<role descr="entity composed" n="1"></role>
+
+<role descr="composed of" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+pharmaceutical compositions and methods
+</text>
+<arg n="2">pharmaceutical</arg>
+<arg f="REF" n="1">compositions</arg>
+<rel>compositions</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the composition of the management team
+</text>
+<rel>composition</rel>
+<arg n="1">of the management team</arg>
+</example>
+
+</roleset>
+<roleset id="composition.02" name="to create, produce art" source="verb-compose.02" vncls="26.7-2">
+<roles>
+
+<role descr="artist, agent" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="entity composed" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+musical compositions
+</text>
+<arg f="MNR" n="M">musical</arg>
+<arg f="REF" n="1">compositions</arg>
+<rel>compositions</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The piano compositions
+</text>
+<arg f="MNR" n="M">piano</arg>
+<arg f="REF" n="1">compositions</arg>
+<rel>compositions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

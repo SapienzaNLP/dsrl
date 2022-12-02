@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bidder">
+<roleset id="bidder.01" name="auction" source="verb-bid.01">
+<roles>
+
+<role descr="bidder" n="0"></role>
+
+<role descr="the target, goods" n="1"></role>
+
+<role descr="how much you're bidding, buying price" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the only bidder for the company as a whole
+</text>
+<arg n="0">bidder</arg>
+<rel>bidder</rel>
+<arg n="1">for the company as a whole</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the union-bidder
+</text>
+<arg n="0">union-bidder</arg>
+<rel>union-bidder</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shipment">
+<roleset id="shipment.01" name="send a package" source="verb-ship.01" vncls="11.1-1">
+<roles>
+
+<role descr="sender" n="0">
+<vnrole vncls="11.1-1" vntheta="Agent"/></role>
+
+<role descr="package" n="1">
+<vnrole vncls="11.1-1" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="11.1-1" vntheta="Destination"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="11.1-1" vntheta="Source"/></role>
+
+<role descr="secondary-theme" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+shipments of East bloc arms to Salvadoran rebels from Managua
+</text>
+<rel>shipments</rel>
+<arg n="1">of East bloc arms</arg>
+<arg n="2">to Salvadoran rebels</arg>
+<arg n="3">from Managua</arg>
+</example>
+
+<example name="autogen2">
+<text>
+P&amp;G 's U.S. shipments
+</text>
+<arg n="0">P&amp;G 's</arg>
+<arg n="2">U.S.</arg>
+<arg f="REF" n="1">shipments</arg>
+<rel>shipments</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

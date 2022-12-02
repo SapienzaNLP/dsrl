@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brethren">
+<roleset id="brethren.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their big institutional brethren
+</text>
+<arg n="2">their</arg>
+<arg n="1">institutional</arg>
+<arg n="0">brethren</arg>
+<rel>brethren</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their richer EC brethren
+</text>
+<arg n="2">their</arg>
+<arg n="1">EC</arg>
+<arg n="0">brethren</arg>
+<rel>brethren</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

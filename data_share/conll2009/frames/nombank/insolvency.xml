@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="insolvency">
+<roleset id="insolvency.01" name="nomadj-insolvent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an ailing savings-and-loan association -- teetering on insolvency
+--
+</text>
+<arg n="1">an ailing savings-and-loan association</arg>
+<arg n="Support">teetering on</arg>
+<rel>insolvency</rel>
+</example>
+
+<example name="autogen2">
+<text>
+bleeding off assets of a California thrift he controlled ,
+Lincoln Savings &amp; Loan Association , and driving it into
+insolvency
+</text>
+<arg n="Support">driving into</arg>
+<arg n="1">it</arg>
+<rel>insolvency</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

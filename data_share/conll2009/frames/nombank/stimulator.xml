@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stimulator">
+<roleset id="stimulator.01" name="cause an increase (in interest, etc" source="verb-stimulate.01" vncls="31.1">
+<roles>
+
+<role descr="cause of increase" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="thing increasing" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if agent also present" n="2"></role>
+
+<role descr="end state of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more potent magnetic brain stimulators
+</text>
+<arg f="MNR" n="M">more potent</arg>
+<arg n="2">magnetic</arg>
+<arg n="1">brain</arg>
+<arg n="0">stimulators</arg>
+<rel>stimulators</rel>
+</example>
+
+<example name="autogen2">
+<text>
+brain stimulators
+</text>
+<arg n="1">brain</arg>
+<arg n="0">stimulators</arg>
+<rel>stimulators</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

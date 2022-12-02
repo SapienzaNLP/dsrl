@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="duel">
+<roleset id="duel.01" name="fight" source="verb-fight.01" vncls="36.3">
+<roles>
+
+<role descr="first fighter" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="second fighter, if separate" n="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+<role descr="spoils" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they hurl fireballs that smolder rather than burn , and relive
+old duels in the sun
+</text>
+<arg n="0">they</arg>
+<arg n="Support">relive</arg>
+<arg f="TMP" n="M">old</arg>
+<rel>duels</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Only a week ago , when airline buy-out fever was already winding
+down , Mr. Steinhardt was engaged in a duel with USAir .
+</text>
+<arg n="0">Mr. Steinhardt</arg>
+<arg n="Support">engaged in</arg>
+<rel>duel</rel>
+<arg n="1">with USAir</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

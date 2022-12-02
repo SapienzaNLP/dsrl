@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dependent">
+<roleset id="dependent.01" name="defrel" source="verb-depend.01">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+having a multitude of dependents
+</text>
+<arg n="1">*</arg>
+<arg n="Support">having multitude of</arg>
+<arg n="0">dependents</arg>
+<rel>dependents</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

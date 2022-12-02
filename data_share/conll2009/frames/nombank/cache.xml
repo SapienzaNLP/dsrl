@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cache">
+<roleset id="cache.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a ready cache of information
+</text>
+<rel>cache</rel>
+<arg n="1">of information</arg>
+</example>
+
+<example name="autogen2">
+<text>
+cash caches
+</text>
+<arg n="1">cash</arg>
+<rel>caches</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

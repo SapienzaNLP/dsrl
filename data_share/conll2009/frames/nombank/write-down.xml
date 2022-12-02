@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="write-down">
+<roleset id="write-down.01" name="lower monetary value" source="verb-write.04">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="thing with value" n="1"></role>
+
+<role descr="amount of change" n="2"></role>
+
+<role descr="old high value" n="3"></role>
+
+<role descr="new lower value" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a $ 130.2 million write-down of the securities in the high-yield
+portfolio to the lower of their cost or market value
+</text>
+<arg n="2">$ 130.2 million</arg>
+<rel>write-down</rel>
+<arg n="1">of the securities in the high-yield portfolio</arg>
+<arg n="4">to the lower of their cost or market value</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its second-quarter write-down
+</text>
+<arg n="0">its</arg>
+<arg f="TMP" n="M">second-quarter</arg>
+<rel>write-down</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

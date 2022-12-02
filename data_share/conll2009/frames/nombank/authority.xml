@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="authority">
+<roleset id="authority.01" name="ability/nom" source="verb-authorize.01">
+<roles>
+
+<role descr="allower" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="explicit allowed-agent" n="2"></role>
+
+<role descr="purpose" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to give local governments authority to levy sales taxes
+</text>
+<arg n="0">*</arg>
+<arg n="Support">give</arg>
+<arg n="2">local governments</arg>
+<rel>authority</rel>
+<arg f="PRD" n="1">to levy sales taxes</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their authority '' over what shows get on the air
+</text>
+<arg n="2">their</arg>
+<rel>authority</rel>
+<arg n="1">over what shows get on the air</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

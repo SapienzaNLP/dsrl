@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="manner">
+<roleset id="manner.01" name="attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the business-like manner in which the Bank goes about development
+</text>
+<arg n="2">business-like</arg>
+<rel>manner</rel>
+<arg n="1">the Bank goes about development</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` We usually operate in that conservative manner . ''
+</text>
+<arg n="1">We usually operate</arg>
+<arg n="2">conservative</arg>
+<rel>manner</rel>
+</example>
+
+</roleset>
+<roleset id="manner.02" name="nomlike" source="verb-behave.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="manner" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his unwitting comic manner
+</text>
+<arg n="0">his</arg>
+<arg n="1">comic</arg>
+<rel>manner</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its subjects ' minds , manners and morals
+</text>
+<arg n="0">its subjects '</arg>
+<rel>manners</rel>
+</example>
+
+</roleset>
+<roleset id="manner.03" name="type">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+all manner of appropriations bills
+</text>
+<rel>manner</rel>
+<arg n="1">of appropriations bills</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

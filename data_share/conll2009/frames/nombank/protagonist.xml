@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="protagonist">
+<roleset id="protagonist.01" name="to play the leading role" source="verb-star.01" vncls="29.8">
+<roles>
+
+<role descr="actor" n="0" source="1">
+<vnrole vncls="29.8" vntheta="Agent"/></role>
+
+<role descr="theme" n="1" source="2">
+<vnrole vncls="29.8" vntheta="Theme"/></role>
+
+<role descr="attribute" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the protagonist in a Bill Cohen morality play
+</text>
+<arg n="0">protagonist</arg>
+<rel>protagonist</rel>
+<arg n="1">in a Bill Cohen morality play</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the protagonist of his 1972 work , `` About Harry Towns
+</text>
+<arg n="0">protagonist</arg>
+<rel>protagonist</rel>
+<arg n="1">of his 1972 work , `` About Harry Towns</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

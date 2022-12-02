@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deterioration">
+<roleset id="deterioration.01" name="to grow worse" source="verb-deteriorate.01" vncls="45.4">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="entity deteriorating" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="endstate" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the federal officials would not negligently cause the
+deterioration '' of Independent American
+</text>
+<arg n="0">the federal officials</arg>
+<arg n="Support">cause</arg>
+<rel>deterioration</rel>
+<arg n="1">of Independent American</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a deterioration of business conditions in southern China
+</text>
+<rel>deterioration</rel>
+<arg n="1">of business conditions in southern China</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

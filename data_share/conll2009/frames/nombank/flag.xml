@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flag">
+<roleset id="flag.01" name="show, cause to see" source="verb-signal.01" vncls="37.4">
+<roles>
+
+<role descr="shower" n="0">
+<vnrole vncls="37.4" vntheta="Agent"/></role>
+
+<role descr="thing seen/shown" n="1">
+<vnrole vncls="37.4" vntheta="Topic"/></role>
+
+<role descr="seer" n="2">
+<vnrole vncls="37.4" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+many brandishing flags of the outlawed African National Congress
+</text>
+<arg n="0">many</arg>
+<arg n="Support">brandishing</arg>
+<rel>flags</rel>
+<arg n="1">of the outlawed African National Congress</arg>
+</example>
+
+<example name="autogen2">
+<text>
+little ANC flags
+</text>
+<arg n="1">ANC</arg>
+<rel>flags</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

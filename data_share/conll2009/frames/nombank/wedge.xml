@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wedge">
+<roleset id="wedge.01" name="separate" source="verb-separate.01" vncls="23.1">
+<roles>
+
+<role descr="entity causing separation" n="0">
+<vnrole vncls="23.1" vntheta="Agent"/></role>
+
+<role descr="thing being divided" n="1">
+<vnrole vncls="23.1" vntheta="Theme"/></role>
+
+<role descr="source, separated from" n="2">
+<vnrole vncls="23.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The prolonged price pressures are driving a wedge between some
+franchisers and their franchisees .
+</text>
+<arg n="0">The prolonged price pressures</arg>
+<arg n="Support">driving</arg>
+<rel>wedge</rel>
+<arg n="1">between some franchisers and their franchisees</arg>
+</example>
+
+</roleset>
+<roleset id="wedge.02" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a wedge of its third floor
+</text>
+<rel>wedge</rel>
+<arg n="1">of its third floor</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

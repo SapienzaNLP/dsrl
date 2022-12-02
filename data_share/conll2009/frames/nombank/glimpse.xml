@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="glimpse">
+<roleset id="glimpse.01" name="watch" source="verb-view.01" vncls="30.2">
+<roles>
+
+<role descr="viewer" n="0">
+<vnrole vncls="30.2" vntheta="Experiencer"/></role>
+
+<role descr="thing viewed" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+I first got a glimpse at the witness list
+</text>
+<arg n="0">I</arg>
+<arg n="Support">got</arg>
+<rel>glimpse</rel>
+<arg n="1">at the witness list</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a glimpse into the thinking of serious investors on a variety of
+other topics
+</text>
+<rel>glimpse</rel>
+<arg n="1">
+into the thinking of serious investors on a variety of other
+topics</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

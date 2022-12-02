@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="west">
+<roleset id="west.01" name="nomadj-west">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the pipelines within and running west of Alberta , respectively
+</text>
+<arg n="1">the pipelines</arg>
+<arg n="Support">running</arg>
+<rel>west</rel>
+<arg n="2">of Alberta</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Nagykanizsa in the west
+</text>
+<arg n="1">Nagykanizsa</arg>
+<rel>west</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="official">
+<roleset id="official.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+American intelligence officials
+</text>
+<arg n="2">American</arg>
+<arg n="1">intelligence</arg>
+<arg n="0">officials</arg>
+<rel>officials</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Network officials
+</text>
+<arg n="2">Network</arg>
+<arg n="0">officials</arg>
+<rel>officials</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

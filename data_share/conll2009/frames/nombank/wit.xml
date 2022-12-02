@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wit">
+<roleset id="wit.01" name="attribute/nomadj-witty">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+With a splendid cast led by David Darlow as Alceste , Christina
+Haag as Celimene and , especially , William Brown as a Philinte
+who plays the Hollywood game but harbors authentic values and
+feelings , the Goodman production barrels through an all-night
+Hollywood party with exuberance and wit .
+</text>
+<arg n="1">the Goodman production</arg>
+<arg f="REF" n="2">wit</arg>
+<rel>wit</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Gelbart 's wit
+</text>
+<arg n="1">Mr. Gelbart 's</arg>
+<arg f="REF" n="2">wit</arg>
+<rel>wit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

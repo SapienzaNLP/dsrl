@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="junior">
+<roleset id="junior.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Harvard junior
+</text>
+<arg n="2">Harvard</arg>
+<arg n="0">junior</arg>
+<rel>junior</rel>
+</example>
+
+<example name="autogen3">
+<text>
+-- Junior football player .
+</text>
+<arg n="0">Junior</arg>
+<rel>Junior</rel>
+<arg n="1">football player</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

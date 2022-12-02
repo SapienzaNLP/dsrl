@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bombing">
+<roleset id="bombing.01" name="to attack or damage" source="verb-bomb.01">
+<roles>
+
+<role descr="attacker, agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ahmad Jibril , whose terrorist band is blamed for the Pan Am 103
+bombing ,
+</text>
+<arg n="0">whose terrorist band ---> *T*-2 ---> *-1</arg>
+<arg n="Support">blamed for</arg>
+<arg n="1">Pan Am 103</arg>
+<rel>bombing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a Palestinian terrorist who is wanted in the U.S. for the 1982
+bombing of a Pan American Airways flight
+</text>
+<arg n="0">a Palestinian terrorist ---> who ---> *T*-2 ---> *-1</arg>
+<arg n="Support">wanted for</arg>
+<rel>bombing</rel>
+<arg n="1">of a Pan American Airways flight</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

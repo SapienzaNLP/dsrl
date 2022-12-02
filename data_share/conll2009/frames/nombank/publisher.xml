@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="publisher">
+<roleset id="publisher.01" name="consultant/actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+<role descr="employer" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Time associate publisher
+</text>
+<arg n="2">Time</arg>
+<arg n="3">associate</arg>
+<arg n="0">publisher</arg>
+<rel>publisher</rel>
+</example>
+
+<example name="autogen2">
+<text>
+publisher of adult trade books for Random House
+</text>
+<arg n="0">publisher</arg>
+<rel>publisher</rel>
+<arg n="1">of adult trade books</arg>
+<arg n="2">for Random House</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

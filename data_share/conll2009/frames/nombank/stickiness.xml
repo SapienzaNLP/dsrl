@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stickiness">
+<roleset id="stickiness.01" name="attribute/nomadj-sticky">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The wage stickiness
+</text>
+<arg n="1">wage</arg>
+<arg f="REF" n="2">stickiness</arg>
+<rel>stickiness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

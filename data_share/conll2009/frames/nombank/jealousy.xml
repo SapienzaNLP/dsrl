@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="jealousy">
+<roleset id="jealousy.01" name="nomadj-jealous/nomlike" source="verb-envy.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="cause" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+jealousy among states competing for assistance
+</text>
+<rel>jealousy</rel>
+<arg n="0">among states competing for assistance</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his jealousy
+</text>
+<arg n="0">his</arg>
+<rel>jealousy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

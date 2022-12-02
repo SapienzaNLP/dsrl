@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="modification">
+<roleset id="modification.01" name="change" source="verb-modify.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Remarketers make modifications to IBM 's computer hardware and
+resell the products .
+</text>
+<arg n="0">Remarketers</arg>
+<arg n="Support">make</arg>
+<rel>modifications</rel>
+<arg n="1">to IBM 's computer hardware</arg>
+</example>
+
+<example name="autogen2">
+<text>
+refinery modification
+</text>
+<arg n="1">refinery</arg>
+<rel>modification</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

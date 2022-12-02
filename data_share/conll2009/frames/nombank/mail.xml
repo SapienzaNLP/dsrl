@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mail">
+<roleset id="mail.01" name="send" source="verb-mail.01" vncls="11.1-1">
+<roles>
+
+<role descr="mailer" n="0">
+<vnrole vncls="11.1-1" vntheta="Agent"/></role>
+
+<role descr="letter" n="1">
+<vnrole vncls="11.1-1" vntheta="Theme"/></role>
+
+<role descr="mailed-to" n="2">
+<vnrole vncls="11.1-1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a direct mail marketer of office supplies
+</text>
+<arg f="MNR" n="M">direct</arg>
+<rel>mail</rel>
+<arg n="0">marketer</arg>
+<arg n="1">of office supplies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Postal Service 's only job is to deliver the mail to the mail
+room
+</text>
+<arg n="0">the Postal Service 's ---> *</arg>
+<arg n="Support">deliver</arg>
+<arg f="REF" n="1">mail</arg>
+<rel>mail</rel>
+<arg n="2">to the mail room</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="moratorium">
+<roleset id="moratorium.01" name="ensure something stays below a certain level" source="verb-restrict.01">
+<roles>
+
+<role descr="agent, limiter" n="0"></role>
+
+<role descr="thing limited" n="1"></role>
+
+<role descr="limit" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its moratorium on federal funding of research involving
+fetal-tissue transplants
+</text>
+<arg n="0">its</arg>
+<arg n="2">moratorium</arg>
+<rel>moratorium</rel>
+<arg n="1">on federal funding of research involving fetal-tissue transplants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The department placed a moratorium on the research , pending a
+review of scientific , legal and ethical issues .
+</text>
+<arg n="0">The department</arg>
+<arg n="Support">placed</arg>
+<arg n="2">moratorium</arg>
+<rel>moratorium</rel>
+<arg n="1">on the research</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

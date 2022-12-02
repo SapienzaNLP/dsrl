@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pursuer">
+<roleset id="pursuer.01" name="follow, chase" source="verb-pursue.01" vncls="51.6">
+<roles>
+
+<role descr="thing following" n="0">
+<vnrole vncls="51.6" vntheta="Agent"/></role>
+
+<role descr="thing followed" n="1">
+<vnrole vncls="51.6" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more aggressive pursuers of tax delinquents
+</text>
+<arg f="MNR" n="M">more aggressive</arg>
+<arg n="0">pursuers</arg>
+<rel>pursuers</rel>
+<arg n="1">of tax delinquents</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

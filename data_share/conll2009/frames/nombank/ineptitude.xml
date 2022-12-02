@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ineptitude">
+<roleset id="ineptitude.01" name="nomadj-inept/ability">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Barre 's brutality and ineptitude
+</text>
+<arg n="0">Mr. Barre 's</arg>
+<rel>ineptitude</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Baker nonetheless remains furious both at Shamir , for backing
+down on the elections , and at Shamir 's rival , Peres , for
+political ineptitude in forcing a premature cabinet vote on Baker
+'s plan .
+</text>
+<arg n="Support">furious for</arg>
+<arg n="0">at Shamir 's rival , Peres ,</arg>
+<rel>ineptitude</rel>
+<arg n="1">in forcing a premature cabinet vote on Baker 's plan</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="binge">
+<roleset id="binge.01" name="aspectual/nomlike" source="verb-keep.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the corporate borrowing binge
+</text>
+<arg n="0">corporate</arg>
+<arg n="1">borrowing</arg>
+<rel>binge</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Kidder 's hiring binge
+</text>
+<arg n="0">Kidder 's</arg>
+<arg n="1">hiring</arg>
+<rel>binge</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

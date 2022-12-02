@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="welfare">
+<roleset id="welfare.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+social welfare spending
+</text>
+<arg n="1">social</arg>
+<arg f="REF" n="2">welfare</arg>
+<rel>welfare</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the welfare of the company , its shareholders , its employees and
+the broader public
+</text>
+<arg f="REF" n="2">welfare</arg>
+<rel>welfare</rel>
+<arg n="1">
+of the company , its shareholders , its employees and the broader
+public</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

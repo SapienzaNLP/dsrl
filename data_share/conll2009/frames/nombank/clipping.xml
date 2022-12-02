@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clipping">
+<roleset id="clipping.01" name="to cut, cut off, or cut out1" source="verb-clip.01" vncls="21.1">
+<roles>
+
+<role descr="clipper, agent" n="0">
+<vnrole vncls="21.1" vntheta="Agent"/></role>
+
+<role descr="thing clipped" n="1">
+<vnrole vncls="21.1" vntheta="Patient"/></role>
+
+<role descr="clipped from" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+press clippings
+</text>
+<arg n="2">press</arg>
+<arg f="REF" n="1">clippings</arg>
+<rel>clippings</rel>
+</example>
+
+<example name="autogen2">
+<text>
+news clippings
+</text>
+<arg n="2">news</arg>
+<arg f="REF" n="1">clippings</arg>
+<rel>clippings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

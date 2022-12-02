@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="temperature">
+<roleset id="temperature.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the high temperatures used in canning vegetables
+</text>
+<arg n="2">high</arg>
+<rel>temperatures</rel>
+<arg n="Support">used</arg>
+<arg f="PRD" n="1">in canning vegetables</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The economy 's temperature
+</text>
+<arg n="1">The economy 's</arg>
+<arg f="REF" n="2">temperature</arg>
+<rel>temperature</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

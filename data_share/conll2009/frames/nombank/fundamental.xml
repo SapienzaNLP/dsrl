@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fundamental">
+<roleset id="fundamental.01" name="nomadj-fundamental/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Britain 's economic fundamentals
+</text>
+<arg n="3">Britain 's</arg>
+<arg n="1">economic</arg>
+<arg f="REF" n="2">fundamentals</arg>
+<rel>fundamentals</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The fundamentals are pretty strong
+</text>
+<rel>fundamentals</rel>
+<arg n="2">pretty strong</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

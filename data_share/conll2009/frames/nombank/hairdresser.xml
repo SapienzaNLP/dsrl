@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hairdresser">
+<roleset id="hairdresser.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Barbra Streisand 's hairdresser
+</text>
+<arg n="1">Barbra Streisand 's</arg>
+<arg n="0">hairdresser</arg>
+<rel>hairdresser</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

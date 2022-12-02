@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="irritation">
+<roleset id="irritation.01" name="to annoy" source="verb-irritate.01" vncls="31.1">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="experiencer" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the irritation of bugs
+</text>
+<rel>irritation</rel>
+<arg n="0">of bugs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` We 're not running that ad campaign any more , '' Mr.
+Straszheim snaps in a rare show of irritation .
+</text>
+<arg n="1">Mr. Straszheim</arg>
+<arg n="Support">show of</arg>
+<rel>irritation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

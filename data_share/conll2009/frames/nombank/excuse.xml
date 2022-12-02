@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="excuse">
+<roleset id="excuse.01" name="relieve of guilt/justification" source="verb-excuse.01" vncls="33">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="action" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+insurers will use the earthquake as an excuse to raise insurance
+rates , ending their long price wars
+</text>
+<arg n="2">insurers</arg>
+<arg n="Support">use as</arg>
+<arg n="0">the earthquake</arg>
+<rel>excuse</rel>
+<arg n="1">to raise insurance rates</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an excuse for clamping down on campaigning '' by creating an
+atmosphere of a military emergency
+</text>
+<rel>excuse</rel>
+<arg n="1">
+for clamping down on campaigning '' by creating an atmosphere of
+a military emergency</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

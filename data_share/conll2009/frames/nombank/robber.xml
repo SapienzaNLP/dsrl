@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="robber">
+<roleset id="robber.01" name="to engage in or commit robbery" source="verb-rob.01" vncls="10.6">
+<roles>
+
+<role descr="robber, thief" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="person robbed" n="1">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Express and Train Robbers Frank James and Jesse W. James
+</text>
+<arg n="1">Express and Train</arg>
+<arg n="0">Robbers</arg>
+<rel>Robbers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the owner was murdered by robbers
+</text>
+<arg n="Support">murdered by</arg>
+<arg n="1">NIL</arg>
+<arg n="0">robbers</arg>
+<rel>robbers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

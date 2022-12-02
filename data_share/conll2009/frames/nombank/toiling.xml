@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="toiling">
+<roleset id="toiling.01" name="work endlessly" source="verb-toil.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his years of feckless toiling in the pit
+</text>
+<arg n="0">his</arg>
+<arg n="Support">years of</arg>
+<arg f="MNR" n="M">feckless</arg>
+<rel>toiling</rel>
+<arg f="LOC" n="M">in the pit</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

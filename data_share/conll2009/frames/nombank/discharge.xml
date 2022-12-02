@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discharge">
+<roleset id="discharge.01" name="remove supply, as with electricity" source="verb-discharge.01" vncls="10.1">
+<roles>
+
+<role descr="supplier" n="0">
+<vnrole vncls="10.1" vntheta="Agent"/></role>
+
+<role descr="supply" n="1">
+<vnrole vncls="10.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` discharges of pollutants '' into the `` waters of the United
+States ''
+</text>
+<rel>discharges</rel>
+<arg n="1">of pollutants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` zero discharge
+</text>
+<arg f="EXT" n="M">zero</arg>
+<rel>discharge</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="direction">
+<roleset id="direction.01" name="provide direction" source="verb-direct.01" vncls="26.7-1">
+<roles>
+
+<role descr="director" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="thing directed" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="direction, towards what" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he points the gun in the wrong direction
+</text>
+<arg n="0">he</arg>
+<arg n="Support">points in</arg>
+<arg n="1">the gun</arg>
+<arg n="2">wrong</arg>
+<rel>direction</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the anti-debt direction of regulators
+</text>
+<arg n="2">anti-debt</arg>
+<rel>direction</rel>
+<arg n="1">of regulators</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

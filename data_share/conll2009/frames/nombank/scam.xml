@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scam">
+<roleset id="scam.01" name="to deceive" source="verb-trick.01">
+<roles>
+
+<role descr="deceiver, agent" n="0"></role>
+
+<role descr="entity tricked" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Scam artists
+</text>
+<rel>Scam</rel>
+<arg n="0">artists</arg>
+</example>
+
+<example name="autogen3">
+<text>
+scam artists
+</text>
+<rel>scam</rel>
+<arg n="0">artists</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

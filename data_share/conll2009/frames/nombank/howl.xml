@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="howl">
+<roleset id="howl.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a howl of protests from members of the opposition Labor Party ,
+who accused the Thatcher administration of backing down on
+promised protection for a privatized company
+</text>
+<rel>howl</rel>
+<arg n="1">
+of protests from members of the opposition Labor Party , who
+accused the Thatcher administration of backing down on promised
+protection for a privatized company</arg>
+</example>
+
+</roleset>
+<roleset id="howl.02" name="emit howl, speak   howlingly" source="verb-howl.01" vncls="43.2">
+<roles>
+
+<role descr="howler" n="0">
+<vnrole vncls="43.2" vntheta="Agent"/></role>
+
+<role descr="utterance, cognate object" n="1">
+<vnrole vncls="38" vntheta="Theme"/></role>
+
+<role descr="listener" n="2">
+<vnrole vncls="38" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+The wolf's howl
+</text>
+<arg n="0">The wolf's</arg>
+<rel>howl</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

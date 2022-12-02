@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="decree">
+<roleset id="decree.01" name="to issue or demand  by decree" source="verb-decree.01">
+<roles>
+
+<role descr="ruler, issuer of decree" n="0"></role>
+
+<role descr="entity decreed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a consent decree with Ohio to build a $ 1.4 million
+pollution-control facility at the Ashtabula chemical
+manufacturing plant by Aug. 1 , 1990
+</text>
+<arg n="1">consent</arg>
+<rel>decree</rel>
+<arg n="0">with Ohio</arg>
+<arg f="PNC" n="M">
+to build a $ 1.4 million pollution-control facility at the
+Ashtabula chemical manufacturing plant by Aug. 1 , 1990</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The agreement and consent decree
+</text>
+<arg n="1">consent</arg>
+<rel>decree</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

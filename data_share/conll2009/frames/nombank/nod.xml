@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nod">
+<roleset id="nod.01" name="to lower and raise the head or to express by nodding" source="verb-nod.01" vncls="40.3.1-1">
+<roles>
+
+<role descr="entity with a bobbing head, agent" n="0">
+<vnrole vncls="40.3.1-1" vntheta="Agent"/></role>
+
+<role descr="thing expressed by nodding" n="1">
+<vnrole vncls="40.3.1-1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+They do n't even give a nod to human sensibilities by celebrating
+Halloween .
+</text>
+<arg n="0">They</arg>
+<arg n="Support">give</arg>
+<rel>nod</rel>
+<arg n="1">to human sensibilities</arg>
+</example>
+
+<example name="autogen2">
+<text>
+But beyond this decorative nod to tradition , Ms. Bogart and
+company head off in a stylistic direction that all but transforms
+Gorky 's naturalistic drama into something akin to , well , farce
+.
+</text>
+<arg f="MNR" n="M">decorative</arg>
+<rel>nod</rel>
+<arg n="1">to tradition</arg>
+<arg n="0">Ms. Bogart and company</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

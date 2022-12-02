@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tech">
+<roleset id="tech.01" name="attribute/nomadj-technological">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the world 's high-tech leaders
+</text>
+<arg n="2">high-tech</arg>
+<rel>high-tech</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

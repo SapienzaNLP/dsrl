@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="malfunction">
+<roleset id="malfunction.01" name="nomlike" source="verb-crash.01" vncls="18.4-1">
+<roles>
+
+<role descr="entity crashed" n="1">
+<vnrole vncls="18.4-1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the malfunctions on Continental stock exchanges during last week
+'s global market turbulence
+</text>
+<rel>malfunctions</rel>
+<arg n="1">on Continental stock exchanges</arg>
+<arg f="TMP" n="M">during last week 's global market turbulence</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a computer malfunction
+</text>
+<arg n="1">computer</arg>
+<rel>malfunction</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

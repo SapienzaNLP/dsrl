@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="anger">
+<roleset id="anger.01" name="nomadj-angry" source="verb-anger.01" vncls="31.1">
+<roles>
+
+<role descr="experiencer" n="0" source="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1" source="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+growing anger in the Ukraine and Byelorussia over continuing high
+levels of radiation from Chernobyl
+</text>
+<rel>anger</rel>
+<arg n="0">in the Ukraine and Byelorussia</arg>
+<arg n="1">over continuing high levels of radiation from Chernobyl</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the bitterness and anger of a principal who was her friend and
+now calls her a betrayer ; of colleagues who say she brought them
+shame ; of students and parents who defended her and insist she
+was treated harshly ; and of school-district officials stunned
+that despite the bald-faced nature of her actions , she became
+something of a local martyr
+</text>
+<rel>anger</rel>
+<arg n="0">
+of a principal who was her friend and now calls her a betrayer ;
+of colleagues who say she brought them shame ; of students and
+parents who defended her and insist she was treated harshly ; and
+of school-district officials stunned that despite the bald-faced
+nature of her actions , she became something of a local martyr</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

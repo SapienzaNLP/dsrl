@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="launching">
+<roleset id="launching.01" name="introduce, bring up, start" source="verb-launch.01">
+<roles>
+
+<role descr="starter, agent" n="0"></role>
+
+<role descr="thing being launched" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the administration to inform it within 48 hours of the launching
+of any covert activity
+</text>
+<arg n="0">the administration</arg>
+<arg n="Support">inform of</arg>
+<rel>launching</rel>
+<arg n="1">of any covert activity</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Seven years late in the launching , $ 1 billion over budget and a
+target of anti-nuclear protestors , Galileo has long been a
+symbol of trouble for the National Aeronautics and Space
+Administration .
+</text>
+<arg n="1">*-1 ---> Galileo</arg>
+<arg n="Support">late in</arg>
+<rel>launching</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

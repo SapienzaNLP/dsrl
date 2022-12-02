@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ad">
+<roleset id="ad.01" name="make a commercial pitch" source="verb-advertise.01" vncls="35.2">
+<roles>
+
+<role descr="advertiser" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="thing being pitched, advertised" n="1">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its quake ad
+</text>
+<arg n="0">its</arg>
+<arg n="1">quake</arg>
+<rel>ad</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Today 's Fidelity ad
+</text>
+<arg n="1">Fidelity</arg>
+<rel>ad</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

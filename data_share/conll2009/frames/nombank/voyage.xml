@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="voyage">
+<roleset id="voyage.01" name="nomlike" source="verb-go.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2" source="3"></role>
+
+<role descr="goal" n="3" source="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+To wit , my maiden voyage -LRB- and novitiates are referred to as
+virgins -RRB- began at dawn on a dew-sodden fairway and ended at
+noon in a soggy field .
+</text>
+<arg n="1">my</arg>
+<rel>voyage</rel>
+<arg n="Support">began</arg>
+<arg n="2">on a dew-sodden fairway</arg>
+<arg n="Support">ended</arg>
+<arg n="3">in a soggy field</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="district">
+<roleset id="district.01" name="partitive-part/division">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="theme" n="2"></role>
+
+<role descr="type/criteria" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+London 's financial district
+</text>
+<arg n="1">London 's</arg>
+<arg n="2">financial</arg>
+<rel>district</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the nation 's congressional districts
+</text>
+<arg n="1">the nation 's</arg>
+<arg n="3">congressional</arg>
+<rel>districts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

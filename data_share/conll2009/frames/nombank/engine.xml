@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="engine">
+<roleset id="engine.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+helicopter engines
+</text>
+<arg n="1">helicopter</arg>
+<rel>engines</rel>
+</example>
+
+<example name="autogen3">
+<text>
+a space-shuttle engine
+</text>
+<arg n="1">space-shuttle</arg>
+<rel>engine</rel>
+</example>
+
+</roleset>
+<roleset id="engine.02" name="ability-sbjnom">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a good engine for growth
+</text>
+<arg n="0">engine</arg>
+<rel>engine</rel>
+<arg n="1">for growth</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

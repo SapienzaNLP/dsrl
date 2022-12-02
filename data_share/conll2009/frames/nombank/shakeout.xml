@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shakeout">
+<roleset id="shakeout.01" name="upheaval/disrupt" source="verb-disrupt.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The shakeout in the publicly traded companies
+</text>
+<rel>shakeout</rel>
+<arg n="1">in the publicly traded companies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the worst shakeout ever in the junk market
+</text>
+<rel>shakeout</rel>
+<arg n="1">in the junk market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

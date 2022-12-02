@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="origination">
+<roleset id="origination.01" name="create, come about" source="verb-originate.01">
+<roles>
+
+<role descr="creator" n="0"></role>
+
+<role descr="thing originated" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+<role descr="attribute of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+HomeFed 's loan originations and purchases
+</text>
+<arg n="0">HomeFed 's</arg>
+<arg n="1">loan</arg>
+<rel>originations</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its remaining mortgage loan origination operations
+</text>
+<arg n="1">loan</arg>
+<rel>origination</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

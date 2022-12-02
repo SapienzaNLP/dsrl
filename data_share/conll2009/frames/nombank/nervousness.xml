@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nervousness">
+<roleset id="nervousness.01" name="nomadj-nervous" source="verb-worry.02">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the market still has n't shaken off its nervousness after its
+bumpy ride of the past several sessions , caused by interest-rate
+increases last week and Wall Street 's 6.9 % plunge Friday
+</text>
+<arg n="0">its</arg>
+<rel>nervousness</rel>
+<arg n="1">
+after its bumpy ride of the past several sessions , caused by
+interest-rate increases last week and Wall Street 's 6.9 % plunge
+Friday</arg>
+</example>
+
+<example name="autogen2">
+<text>
+nervousness about China 's political turmoil
+</text>
+<rel>nervousness</rel>
+<arg n="1">about China 's political turmoil</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

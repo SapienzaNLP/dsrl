@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="injunction">
+<roleset id="injunction.01" name="prohibit" source="verb-ban.01">
+<roles>
+
+<role descr="lawgiver, usually" n="0"></role>
+
+<role descr="action prohibited" n="1"></role>
+
+<role descr="secondary agent" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A federal judge has issued a preliminary injunction against the
+purchase because of Federal Trade Commission concerns that the
+transaction would reduce competition in the production of two
+kinds of rivets .
+</text>
+<arg n="0">A federal judge</arg>
+<arg n="Support">issued</arg>
+<arg f="TMP" n="M">preliminary</arg>
+<rel>injunction</rel>
+<arg n="1">against the purchase</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an injunction to prevent any future hoisting of trees
+</text>
+<rel>injunction</rel>
+<arg f="PRD" n="1">to prevent any future hoisting of trees</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

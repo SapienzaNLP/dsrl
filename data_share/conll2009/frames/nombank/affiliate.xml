@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="affiliate">
+<roleset id="affiliate.01" name="to adopt or accept as a member" source="verb-affiliate.01" vncls="22.2">
+<roles>
+
+<role descr="causer of affiliation, agent" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="entity affiliated" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="affiliated with" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its HealthVest affiliate
+</text>
+<arg n="0">its</arg>
+<arg n="2">HealthVest</arg>
+<arg n="1">affiliate</arg>
+<rel>affiliate</rel>
+</example>
+
+<example name="autogen2">
+<text>
+affiliates of brokerage firms
+</text>
+<arg n="1">affiliates</arg>
+<rel>affiliates</rel>
+<arg n="2">of brokerage firms</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

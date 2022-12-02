@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mate">
+<roleset id="mate.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his more-muscular mates
+</text>
+<arg n="1">his</arg>
+<arg n="0">mates</arg>
+<rel>mates</rel>
+</example>
+
+</roleset>
+<roleset id="mate.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his running mate
+</text>
+<arg n="2">his</arg>
+<arg n="1">running</arg>
+<arg n="0">mate</arg>
+<rel>mate</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Reagan 's running mate
+</text>
+<arg n="2">Mr. Reagan 's</arg>
+<arg n="1">running</arg>
+<arg n="0">mate</arg>
+<rel>mate</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

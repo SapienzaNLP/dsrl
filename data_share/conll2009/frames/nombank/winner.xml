@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="winner">
+<roleset id="winner.01" name="win" source="verb-win.01" vncls="13.5.1">
+<roles>
+
+<role descr="winner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing won (contest or prize" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="loser, giver of prize" n="3"></role>
+
+<role descr="in-exchange-for" n="4"></role>
+
+<role descr="score" n="5"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Orioles ' eight-time Gold Glove winner
+</text>
+<arg n="2">the Orioles '</arg>
+<arg n="1">Gold Glove</arg>
+<arg n="0">winner</arg>
+<rel>winner</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their winners
+</text>
+<arg n="2">their</arg>
+<arg n="0">winners</arg>
+<rel>winners</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

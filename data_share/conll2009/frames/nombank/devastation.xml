@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="devastation">
+<roleset id="devastation.01" name="destroy" source="verb-devastate.01">
+<roles>
+
+<role descr="destroyer" n="0"></role>
+
+<role descr="thing destroyed" n="1"></role>
+
+<role descr="instrument of destruction" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Hugo devastation
+</text>
+<arg n="0">Hugo</arg>
+<rel>devastation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the quake 's devastation
+</text>
+<arg n="0">the quake 's</arg>
+<rel>devastation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

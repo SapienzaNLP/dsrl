@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="quotation">
+<roleset id="quotation.01" name="quote" source="verb-quote.01" vncls="37.1-1">
+<roles>
+
+<role descr="quoter" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="topic" n="1" source="2">
+<vnrole vncls="37.1-1" vntheta="Topic"/></role>
+
+<role descr="source" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Miller 's quotations from Mr. Hubbard
+</text>
+<arg n="0">Mr. Miller 's</arg>
+<rel>quotations</rel>
+<arg n="2">from Mr. Hubbard</arg>
+</example>
+
+<example name="autogen2">
+<text>
+price quotations
+</text>
+<arg n="1">price</arg>
+<rel>quotations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

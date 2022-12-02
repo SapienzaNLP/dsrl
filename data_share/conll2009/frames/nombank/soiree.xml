@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="soiree">
+<roleset id="soiree.01" name="have a party" source="verb-celebrate.02">
+<roles>
+
+<role descr="celebrator(s" n="0"></role>
+
+<role descr="party, occasion" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+She has thrown extravagant soirees for crowds of people , but
+prefers more intimate gatherings .
+</text>
+<arg n="0">She</arg>
+<arg n="Support">thrown</arg>
+<arg f="MNR" n="M">extravagant</arg>
+<arg n="1">soirees</arg>
+<rel>soirees</rel>
+<arg n="2">for crowds of people</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

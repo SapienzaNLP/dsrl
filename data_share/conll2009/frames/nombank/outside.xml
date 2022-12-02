@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="outside">
+<roleset id="outside.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the outside of each hatbox
+</text>
+<rel>outside</rel>
+<arg n="1">of each hatbox</arg>
+</example>
+
+<example name="autogen2">
+<text>
+panning for gold outside of Grand Central Station
+</text>
+<rel>outside</rel>
+<arg n="1">of Grand Central Station</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="diameter">
+<roleset id="diameter.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a TV display that is 40 inches in diameter but only a few inches
+thick
+</text>
+<arg n="1">a TV display ---> that ---> *T*-1</arg>
+<arg n="2">40 inches</arg>
+<arg n="Support">inches in</arg>
+<rel>diameter</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lament">
+<roleset id="lament.01" name="to regret, express grief" source="verb-lament.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some player 's lament `` about the miserly millions he is offered
+to play the game
+</text>
+<arg n="0">some player 's</arg>
+<rel>lament</rel>
+<arg n="1">about the miserly millions he is offered to play the game</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Holston 's lament
+</text>
+<arg n="0">Mr. Holston 's</arg>
+<rel>lament</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

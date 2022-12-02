@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="person">
+<roleset id="person.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our intelligence people
+</text>
+<arg n="2">our</arg>
+<arg n="1">intelligence</arg>
+<arg n="0">people</arg>
+<rel>people</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his salespeople
+</text>
+<arg n="2">his</arg>
+<arg n="0">salespeople</arg>
+<rel>salespeople</rel>
+</example>
+
+</roleset>
+<roleset id="person.02" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen4">
+<text>
+the German people
+</text>
+<arg n="1">German</arg>
+<arg n="0">people</arg>
+<rel>people</rel>
+</example>
+
+<example name="autogen5">
+<text>
+Namibia 's people
+</text>
+<arg n="1">Namibia 's</arg>
+<arg n="0">people</arg>
+<rel>people</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

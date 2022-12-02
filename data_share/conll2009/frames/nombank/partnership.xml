@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="partnership">
+<roleset id="partnership.01" name="work with" source="verb-cooperate.01" vncls="36.1">
+<roles>
+
+<role descr="one cooperator" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="other cooperator(s" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="shared task" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Jim Beam Brands has a distribution partnership with Nikka Whiskey
+Co. , a distiller .
+</text>
+<arg n="0">Jim Beam Brands</arg>
+<arg n="Support">has</arg>
+<arg n="2">distribution</arg>
+<rel>partnership</rel>
+<arg n="1">with Nikka Whiskey Co. , a distiller</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its public real-estate limited partnerships
+</text>
+<arg n="0">its</arg>
+<arg n="2">real-estate</arg>
+<rel>partnerships</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

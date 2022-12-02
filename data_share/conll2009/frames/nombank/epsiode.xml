@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="epsiode">
+<roleset id="epsiode.01" name="version">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a forthcoming epsiode on Caryl Chessman , the last man to be
+executed in California , in 1960
+</text>
+<rel>epsiode</rel>
+<arg n="1">
+on Caryl Chessman , the last man to be executed in California ,
+in 1960</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

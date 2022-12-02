@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="portrait">
+<roleset id="portrait.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a self-portrait
+</text>
+<arg n="0">self-portrait</arg>
+<arg n="1">self-portrait</arg>
+<rel>self-portrait</rel>
+</example>
+
+<example name="autogen2">
+<text>
+`` Portrait of a Man as Mars
+</text>
+<rel>Portrait</rel>
+<arg n="1">of a Man as Mars</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

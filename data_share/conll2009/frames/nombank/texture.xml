@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="texture">
+<roleset id="texture.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Although set in Japan , the novel 's texture is almost entirely
+Western , especially American .
+</text>
+<arg n="1">the novel 's</arg>
+<rel>texture</rel>
+<arg n="2">almost entirely Western , especially American</arg>
+</example>
+
+<example name="autogen2">
+<text>
+butter texture
+</text>
+<arg n="1">butter</arg>
+<arg f="REF" n="2">texture</arg>
+<rel>texture</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

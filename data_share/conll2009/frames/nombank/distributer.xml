@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="distributer">
+<roleset id="distributer.01" name="distribute" source="verb-distribute.01" vncls="13.2">
+<roles>
+
+<role descr="distributor" n="0">
+<vnrole vncls="13.2" vntheta="Agent"/></role>
+
+<role descr="thing distributed" n="1">
+<vnrole vncls="13.2" vntheta="Theme"/></role>
+
+<role descr="distributed to" n="2">
+<vnrole vncls="13.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+food-service distributors that supply pizzerias and restaurants
+</text>
+<arg n="1">food-service</arg>
+<arg n="0">distributors</arg>
+<rel>distributors</rel>
+<arg n="Support">supply</arg>
+<arg n="2">pizzerias and restaurants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+three propane distributors
+</text>
+<arg n="1">propane</arg>
+<arg n="0">distributors</arg>
+<rel>distributors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

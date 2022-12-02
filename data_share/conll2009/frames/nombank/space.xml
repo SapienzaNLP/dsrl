@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="space">
+<roleset id="space.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="use/purpose" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Phoenix has a seven-year supply of unoccupied office space
+</text>
+<arg n="1">Phoenix</arg>
+<arg n="Support">has supply of</arg>
+<arg n="2">a seven-year supply</arg>
+<arg n="3">office</arg>
+<rel>space</rel>
+</example>
+
+<example name="autogen2">
+<text>
+my living space
+</text>
+<arg n="1">my</arg>
+<arg n="3">living</arg>
+<arg f="REF" n="2">space</arg>
+<rel>space</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

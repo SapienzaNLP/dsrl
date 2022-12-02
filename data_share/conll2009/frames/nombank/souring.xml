@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="souring">
+<roleset id="souring.01" name="make sour" source="verb-sour.01" vncls="45.4">
+<roles>
+
+<role descr="agent, entity causing sourness" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing becoming sour" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a souring in relations between the neighboring countries
+</text>
+<rel>souring</rel>
+<arg n="1">in relations between the neighboring countries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the souring of socialism under Nasser , whose dictatorial rule
+replaced the monarchy overthrown in 1952
+</text>
+<rel>souring</rel>
+<arg n="1">of socialism</arg>
+<arg n="0">
+under Nasser , whose dictatorial rule replaced the monarchy
+overthrown in 1952</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

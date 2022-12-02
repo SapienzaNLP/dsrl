@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="redeployment">
+<roleset id="redeployment.01" name="set into place, again" source="verb-redeploy.01">
+<roles>
+
+<role descr="deployer" n="0"></role>
+
+<role descr="deployed" n="1"></role>
+
+<role descr="secondary predication" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a redeployment of assets by the Los Angeles-based oil company
+that has included the $ 200 million sale of its headquarters
+property and the pending sale of half of its Chicago refinery and
+related marketing operations to Petroleos de Venezuela S.A
+</text>
+<rel>redeployment</rel>
+<arg n="1">of assets</arg>
+<arg n="0">
+by the Los Angeles-based oil company that has included the $ 200
+million sale of its headquarters property and the pending sale of
+half of its Chicago refinery and related marketing operations to
+Petroleos de Venezuela S.A</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

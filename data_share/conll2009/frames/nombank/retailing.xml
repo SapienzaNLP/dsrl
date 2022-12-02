@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="retailing">
+<roleset id="retailing.01" name="sell at retail" source="verb-retail.01" vncls="13.1-1">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing sold" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="price paid" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the consumer-electronics and appliance discount-retailing chain
+</text>
+<arg n="1">consumer-electronics and appliance</arg>
+<arg n="3">discount-retailing</arg>
+<rel>discount-retailing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Syms 's `` core business of off-price retailing
+</text>
+<arg n="0">Syms 's</arg>
+<arg n="Support">business of</arg>
+<arg n="3">off-price</arg>
+<rel>retailing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

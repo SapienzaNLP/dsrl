@@ -1,0 +1,116 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="feeling">
+<roleset id="feeling.01" name="emote" source="verb-feel.01" vncls="30.4">
+<roles>
+
+<role descr="feeler, person experiencing emotion" n="0">
+<vnrole vncls="30.4" vntheta="Experiencer"/></role>
+
+<role descr="emotion or sensation" n="1">
+<vnrole vncls="30.4" vntheta="Stimulus"/></role>
+
+<role descr="entity to or for whom the emotion is directed" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+You have to have clear feelings about someone before you can make
+jokes
+</text>
+<arg n="0">You ---> *-2</arg>
+<arg n="Support">have</arg>
+<arg n="1">clear</arg>
+<rel>feelings</rel>
+<arg n="2">about someone</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its pent-up feelings
+</text>
+<arg n="0">its</arg>
+<arg n="1">pent-up</arg>
+<rel>feelings</rel>
+</example>
+
+</roleset>
+<roleset id="feeling.02" name="believe" source="verb-feel.02" vncls="29.5">
+<roles>
+
+<role descr="believer" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="belief" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="attributive" n="2">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+My gut feeling is that the Marina properties will be affected
+</text>
+<arg n="0">My</arg>
+<rel>feeling</rel>
+<arg n="1">that the Marina properties will be affected</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a general feeling that we 'd seen the worst
+</text>
+<arg f="ADV" n="M">general</arg>
+<rel>feeling</rel>
+<arg n="1">that we 'd seen the worst</arg>
+</example>
+
+</roleset>
+<roleset id="feeling.03" name="caress" source="verb-feel.03" vncls="31.3">
+<roles>
+
+<role descr="feeler" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="thing felt" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` What a good feeling it would be for me to do that , '' he says
+he thought .
+</text>
+<arg f="MNR" n="M">good</arg>
+<rel>feeling</rel>
+<arg n="1">*EXP*-3 ---> for me to do that</arg>
+</example>
+
+</roleset>
+<roleset id="feeling.04" name="perceive to be" source="verb-feel.05">
+<roles>
+
+<role descr="stimulus" n="1"></role>
+
+<role descr="perception" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It 's a nice feeling to know that things stabilized
+</text>
+<arg n="2">nice</arg>
+<rel>feeling</rel>
+<arg f="PRD" n="1">to know that things stabilized</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

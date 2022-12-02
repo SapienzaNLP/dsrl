@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="right">
+<roleset id="right.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="licensed thing" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Independent directors would have veto rights to any acquisition
+if they unanimously decide it is n't in LIN 's best interest .
+</text>
+<arg n="0">Independent directors</arg>
+<arg n="Support">have</arg>
+<arg n="1">veto</arg>
+<rel>rights</rel>
+<arg n="3">to any acquisition</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their pummeling rights
+</text>
+<arg n="0">their</arg>
+<arg n="1">pummeling</arg>
+<rel>rights</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

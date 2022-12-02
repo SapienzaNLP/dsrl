@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resignation">
+<roleset id="resignation.01" name="quit, cease employment" source="verb-resign.01">
+<roles>
+
+<role descr="resigner" n="0"></role>
+
+<role descr="position resigned" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the resignation of William Allen as chairman of the U.S. Civil
+Rights Commission
+</text>
+<rel>resignation</rel>
+<arg n="0">of William Allen</arg>
+<arg n="1">as chairman of the U.S. Civil Rights Commission</arg>
+</example>
+
+<example name="autogen3">
+<text>
+Mr. Wilson 's resignation
+</text>
+<arg n="0">Mr. Wilson 's</arg>
+<rel>resignation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

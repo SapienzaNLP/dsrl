@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mutation">
+<roleset id="mutation.01" name="to undergo or cause to undergo mutation" source="verb-mutate.01">
+<roles>
+
+<role descr="causer of change, agent" n="0"></role>
+
+<role descr="entity undergoing mutation" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a mutation in the one gene that caused virulence
+</text>
+<rel>mutation</rel>
+<arg n="1">in the one gene that caused virulence</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

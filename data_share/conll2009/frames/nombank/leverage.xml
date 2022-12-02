@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="leverage">
+<roleset id="leverage.01" name="some financial thing" source="verb-leverage.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="thing leveraged" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to give its negotiators leverage with foreign steel suppliers to
+try to get them to withdraw subsidies and protectionism from
+their own steel industries
+</text>
+<arg n="Support">give</arg>
+<arg n="0">its negotiators</arg>
+<rel>leverage</rel>
+<arg n="1">with foreign steel suppliers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+less debt leverage
+</text>
+<arg n="1">debt</arg>
+<rel>leverage</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

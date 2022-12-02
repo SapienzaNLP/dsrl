@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="secrecy">
+<roleset id="secrecy.01" name="attribute/nomadj-secret">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+bank secrecy requirements
+</text>
+<arg n="1">bank</arg>
+<arg f="REF" n="2">secrecy</arg>
+<rel>secrecy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Fed 's efforts at secrecy
+</text>
+<arg n="1">The Fed 's</arg>
+<arg n="Support">efforts at</arg>
+<arg f="REF" n="2">secrecy</arg>
+<rel>secrecy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

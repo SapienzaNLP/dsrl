@@ -1,0 +1,119 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="figure">
+<roleset id="figure.01" name="stand for, correspond" source="verb-represent.01" vncls="29.2">
+<roles>
+
+<role descr="item / entity taking place of other" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="item / entity being substituted by the other" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+action figures
+</text>
+<arg n="1">action</arg>
+<arg n="0">figures</arg>
+<rel>figures</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Personal space -LRB- Figure 3 -RRB-
+</text>
+<arg n="1">Personal space</arg>
+<arg n="0">Figure</arg>
+<rel>Figure</rel>
+</example>
+
+</roleset>
+<roleset id="figure.02" name="determine, calculate" source="verb-figure.04" vncls="29.5">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing determined" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="attribute of arg1" n="2" source="3">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Commerce Department 's latest figures for manufacturers in
+billions of dollars , seasonally adjusted
+</text>
+<arg n="0">the Commerce Department 's</arg>
+<rel>figures</rel>
+<arg n="1">for manufacturers</arg>
+<arg n="2">in billions of dollars</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Sales figures of the test-prep materials
+</text>
+<arg n="1">Sales</arg>
+<rel>figures</rel>
+<arg n="3">of the test-prep materials</arg>
+</example>
+
+</roleset>
+<roleset id="figure.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+geometrical figures
+</text>
+<arg n="2">geometrical</arg>
+<arg n="1">figures</arg>
+<rel>figures</rel>
+</example>
+
+</roleset>
+<roleset id="figure.04" name="play a role" source="verb-figure.03">
+<roles>
+
+<role descr="actor" n="0"></role>
+
+<role descr="role" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+several political figures
+</text>
+<arg n="1">political</arg>
+<arg n="0">figures</arg>
+<rel>figures</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a romantic figure
+</text>
+<arg n="1">romantic</arg>
+<arg n="0">figure</arg>
+<rel>figure</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

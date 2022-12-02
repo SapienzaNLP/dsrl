@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="distinction">
+<roleset id="distinction.01" name="attribute/reciprical-arg1-3" source="verb-distinguish.01" vncls="23.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="23.1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="23.1" vntheta="Patient1"/></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3" source="2">
+<vnrole vncls="23.1" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 1972 CBS sitcom called `` Bridget Loves Bernie , '' whose sole
+distinction was that it led to the real-life marriage of Meredith
+Baxter and David Birney
+</text>
+<arg n="1">a 1972 CBS sitcom ---> whose</arg>
+<rel>distinction</rel>
+<arg n="2">
+that it led to the real-life marriage of Meredith Baxter and
+David Birney</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Asman should make distinctions among Fidel , the army and the
+Cuban people .
+</text>
+<arg n="0">Mr. Asman</arg>
+<arg n="Support">make</arg>
+<rel>distinctions</rel>
+<arg n="1">among Fidel , the army and the Cuban people</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

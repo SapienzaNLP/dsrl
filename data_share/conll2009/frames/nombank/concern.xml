@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="concern">
+<roleset id="concern.01" name="worry about" source="verb-concern.01" vncls="31.1">
+<roles>
+
+<role descr="causer of concern" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="worried entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+U.S. regulators ' concern over a Goldsmith acquisition of Farmers
+</text>
+<arg n="1">U.S. regulators '</arg>
+<rel>concern</rel>
+<arg n="0">over a Goldsmith acquisition of Farmers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the concern for the Japanese
+</text>
+<rel>concern</rel>
+<arg n="1">for the Japanese</arg>
+</example>
+
+</roleset>
+<roleset id="concern.02" name="deal with, have to do with" source="verb-concern.02">
+<roles>
+
+<role descr="entity dealing with something" n="0"></role>
+
+<role descr="thing dealt with" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The rating concern
+</text>
+<arg n="1">rating</arg>
+<arg n="0">concern</arg>
+<rel>concern</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Australian concern
+</text>
+<arg f="LOC" n="M">Australian</arg>
+<arg n="0">concern</arg>
+<rel>concern</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

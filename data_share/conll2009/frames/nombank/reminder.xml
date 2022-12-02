@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reminder">
+<roleset id="reminder.01" name="to cause to remember" source="verb-remind.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="thing reminded" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+another reminder that , at least at the federal level , political
+`` ticket splitting '' has been on the rise over the past half
+century
+</text>
+<arg n="3">reminder</arg>
+<rel>reminder</rel>
+<arg n="1">
+that , at least at the federal level , political `` ticket
+splitting '' has been on the rise over the past half century</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a good reminder that we all need to prepare prior to an event
+</text>
+<arg n="3">reminder</arg>
+<rel>reminder</rel>
+<arg n="1">that we all need to prepare prior to an event</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

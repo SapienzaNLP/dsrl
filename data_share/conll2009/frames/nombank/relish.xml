@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="relish">
+<roleset id="relish.01" name="enjoy" source="verb-relish.01" vncls="31.2">
+<roles>
+
+<role descr="enjoyer" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="thing enjoyed" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+However , she remembers the lean years and recalls with relish
+wearing her first major American purchase -- that turban 10 years
+later and having a Los Angeles boutique owner ask her if it was a
+Chanel .
+</text>
+<arg n="0">she</arg>
+<arg n="Support">recalls</arg>
+<rel>relish</rel>
+<arg n="1">
+wearing her first major American purchase -- that turban 10 years
+later and having a Los Angeles boutique owner ask her if it was a
+Chanel</arg>
+</example>
+
+<example name="autogen2">
+<text>
+none tracks them down with more relish than does New York since
+it acquired an $ 80 million computer system in 1985
+</text>
+<arg n="1">tracks them down</arg>
+<rel>relish</rel>
+<arg n="0">New York</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

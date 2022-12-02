@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aid">
+<roleset id="aid.01" name="help" source="verb-aid.01">
+<roles>
+
+<role descr="helper" n="0"></role>
+
+<role descr="project" n="1"></role>
+
+<role descr="benefactor" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+greater economic aid and technological know-how to flow from West
+to East
+</text>
+<arg f="EXT" n="M">greater</arg>
+<arg n="1">economic</arg>
+<rel>aid</rel>
+<arg n="Support">flow</arg>
+<arg n="0">from West</arg>
+<arg n="2">to East</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Soviet aid to Kabul
+</text>
+<arg n="0">Soviet</arg>
+<rel>aid</rel>
+<arg n="2">to Kabul</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

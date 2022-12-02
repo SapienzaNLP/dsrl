@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flier">
+<roleset id="flier.01" name="fly through the air, travel via air" source="verb-fly.01" vncls="47.6">
+<roles>
+
+<role descr="causal agent (pilot" n="0">
+<vnrole vncls="47.6" vntheta="Agent"/></role>
+
+<role descr="thing actually doing the flying (plane" n="1">
+<vnrole vncls="47.6" vntheta="Theme"/></role>
+
+<role descr="beneficiary (passenger" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+500 TWA frequent flier miles
+</text>
+<arg n="1">TWA</arg>
+<arg n="0">flier</arg>
+<rel>flier</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the 961 former Tiger fliers
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg n="1">Tiger</arg>
+<arg n="0">fliers</arg>
+<rel>fliers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

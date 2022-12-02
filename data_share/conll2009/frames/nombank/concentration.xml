@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="concentration">
+<roleset id="concentration.01" name="affix attention on" source="verb-concentrate.01">
+<roles>
+
+<role descr="agent, contrentrater" n="0"></role>
+
+<role descr="contrentrated-on" n="1"></role>
+
+<role descr="thing contrentrated, if separate from agent" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+traders to switch their concentration to the demand side
+</text>
+<arg n="0">their</arg>
+<rel>concentration</rel>
+<arg n="1">to the demand side</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a concentration on key products
+</text>
+<rel>concentration</rel>
+<arg n="1">on key products</arg>
+</example>
+
+</roleset>
+<roleset id="concentration.02" name="cause a reduction in volume (as of a liquid" source="verb-concentrate.02">
+<roles>
+
+<role descr="causer" n="0"></role>
+
+<role descr="liquid" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the concentration of investment decisions in the hands of
+government
+</text>
+<rel>concentration</rel>
+<arg n="1">of investment decisions in the hands of government</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the concentration of group homes for the mentally retarded
+</text>
+<rel>concentration</rel>
+<arg n="1">of group homes for the mentally retarded</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

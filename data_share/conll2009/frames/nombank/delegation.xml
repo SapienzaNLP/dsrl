@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="delegation">
+<roleset id="delegation.01" name="actrel" source="verb-represent.01" vncls="29.2">
+<roles>
+
+<role descr="item / entity taking place of other" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="item / entity being substituted by the other" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mississippi 's House delegation
+</text>
+<arg n="1">Mississippi 's</arg>
+<arg n="2">House</arg>
+<arg f="REF" n="0">delegation</arg>
+<rel>delegation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+China 's delegation to a Chinese-British Liaison Committee on
+Hong Kong
+</text>
+<arg n="1">China 's</arg>
+<arg f="REF" n="0">delegation</arg>
+<rel>delegation</rel>
+<arg n="2">to a Chinese-British Liaison Committee on Hong Kong</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

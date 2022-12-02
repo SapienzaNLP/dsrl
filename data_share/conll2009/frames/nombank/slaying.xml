@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="slaying">
+<roleset id="slaying.01" name="to kill violently" source="verb-slay.01" vncls="42.1">
+<roles>
+
+<role descr="killer" n="0">
+<vnrole vncls="42.1" vntheta="Agent"/></role>
+
+<role descr="corpse" n="1">
+<vnrole vncls="42.1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the pro-Iranian Islamic Jihad took responsibility for the slaying
+to avenge the beheading of 16 terrorists by Riyadh 's government
+in September
+</text>
+<arg n="0">the pro-Iranian Islamic Jihad</arg>
+<arg n="Support">took responsibility for</arg>
+<rel>slaying</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The country 's narcotics traffickers claimed responsibility for
+the slaying .
+</text>
+<arg n="0">The country 's narcotics traffickers</arg>
+<arg n="Support">claimed responsibility for</arg>
+<rel>slaying</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

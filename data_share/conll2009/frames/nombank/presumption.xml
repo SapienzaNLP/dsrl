@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="presumption">
+<roleset id="presumption.01" name="to assume, take for granted" source="verb-presume.01" vncls="29.4">
+<roles>
+
+<role descr="presumer, agent" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="entity presumed" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="secondary predicate on arg1" n="2">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a presumption in some sectors of -LRB- Mexico 's -RRB- government
+that there is a lot of Japanese money waiting behind the gate ,
+and that by slightly opening the gate , that money will enter
+Mexico
+</text>
+<rel>presumption</rel>
+<arg n="1">
+*ICH*-2 ---> that there is a lot of Japanese money waiting behind
+the gate , and that by slightly opening the gate , that money
+will enter Mexico</arg>
+<arg n="0">in some sectors of -LRB- Mexico 's -RRB- government</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Clean Water Act is written upon the presumption -- the
+pretense , rather -- that nothing but zero risk will do
+</text>
+<arg n="0">the Clean Water Act ---> *-1</arg>
+<arg n="Support">written upon</arg>
+<rel>presumption</rel>
+<arg n="1">that nothing but zero risk will do</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

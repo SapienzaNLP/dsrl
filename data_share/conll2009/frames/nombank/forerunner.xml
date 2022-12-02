@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="forerunner">
+<roleset id="forerunner.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Our mammalian forerunners
+</text>
+<arg n="2">Our</arg>
+<arg n="1">mammalian</arg>
+<arg n="0">forerunners</arg>
+<rel>forerunners</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

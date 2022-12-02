@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="raiser">
+<roleset id="raiser.01" name="fundraising" source="verb-raise.02">
+<roles>
+
+<role descr="getter of money" n="0"></role>
+
+<role descr="money" n="1"></role>
+
+<role descr="giver of money" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Former Democratic fund-raiser Thomas M. Gaubert
+</text>
+<arg n="0">fund-raiser</arg>
+<arg n="1">fund-raiser</arg>
+<rel>fund-raiser</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a fund-raiser
+</text>
+<arg n="0">fund-raiser</arg>
+<arg n="1">fund-raiser</arg>
+<rel>fund-raiser</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="repatriation">
+<roleset id="repatriation.01" name="send one back to one's homeland" source="verb-repatriate.01">
+<roles>
+
+<role descr="sender" n="0"></role>
+
+<role descr="expatriate" n="1"></role>
+
+<role descr="homeland" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+About 1,100 Chinese were awaiting repatriation yesterday .
+</text>
+<arg n="1">About 1,100 Chinese</arg>
+<arg n="Support">awaiting</arg>
+<rel>repatriation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

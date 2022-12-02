@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inexperience">
+<roleset id="inexperience.01" name="nomadj-experienced" source="verb-experience.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his inexperience
+</text>
+<arg n="0">his</arg>
+<rel>inexperience</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

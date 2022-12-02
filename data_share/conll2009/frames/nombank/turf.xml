@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="turf">
+<roleset id="turf.01" name="possess" source="verb-own.01">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="possession" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+their turf
+</text>
+<arg n="0">their</arg>
+<arg n="1">turf</arg>
+<rel>turf</rel>
+</example>
+
+<example name="autogen3">
+<text>
+her home turf
+</text>
+<arg n="0">her</arg>
+<arg f="LOC" n="M">home</arg>
+<arg n="1">turf</arg>
+<rel>turf</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

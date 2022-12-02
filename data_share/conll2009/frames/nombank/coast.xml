@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="coast">
+<roleset id="coast.01" name="partitive-part">
+<roles>
+
+<role descr="theme/land" n="1"></role>
+
+<role descr="theme2/water" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Texas-Louisiana coast
+</text>
+<arg n="1">Texas-Louisiana</arg>
+<rel>coast</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Carolina coast
+</text>
+<arg n="1">Carolina</arg>
+<rel>coast</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

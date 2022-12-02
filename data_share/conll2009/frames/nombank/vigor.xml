@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vigor">
+<roleset id="vigor.01" name="attribute/nomadj-vigorous">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+renewed vigor in the WCRS-Eurocom talks
+</text>
+<arg n="2">renewed</arg>
+<rel>vigor</rel>
+<arg n="1">in the WCRS-Eurocom talks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the economy 's vigor
+</text>
+<arg n="1">the economy 's</arg>
+<arg f="REF" n="2">vigor</arg>
+<rel>vigor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

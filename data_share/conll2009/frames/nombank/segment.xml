@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="segment">
+<roleset id="segment.01" name="group/partitive-quant/partitive-part">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Goodrich 's vinyl-products segment
+</text>
+<arg n="2">Goodrich 's</arg>
+<arg n="1">vinyl-products</arg>
+<rel>segment</rel>
+</example>
+
+<example name="autogen2">
+<text>
+some other segments of California 's political and media culture
+</text>
+<rel>segments</rel>
+<arg n="2">of California 's political and media culture</arg>
+</example>
+
+</roleset>
+<roleset id="segment.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+several NBC daytime consumer segments
+</text>
+<arg n="0">NBC</arg>
+<arg f="TMP" n="M">daytime</arg>
+<rel>segments</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Abbie Hoffman segment
+</text>
+<arg n="1">Abbie Hoffman</arg>
+<rel>segment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

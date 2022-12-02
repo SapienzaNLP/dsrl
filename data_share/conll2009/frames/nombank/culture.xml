@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="culture">
+<roleset id="culture.01" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+California 's political and media culture
+</text>
+<arg n="3">California 's</arg>
+<arg n="1">political and media</arg>
+<rel>culture</rel>
+</example>
+
+<example name="autogen2">
+<text>
+American pop culture
+</text>
+<arg n="3">American</arg>
+<arg n="1">pop</arg>
+<rel>culture</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

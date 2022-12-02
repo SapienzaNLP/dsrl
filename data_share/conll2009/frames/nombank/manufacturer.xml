@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="manufacturer">
+<roleset id="manufacturer.01" name="create" source="verb-manufacture.01" vncls="26.4">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.4" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+toy manufacturers
+</text>
+<arg n="1">toy</arg>
+<arg n="0">manufacturers</arg>
+<rel>manufacturers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Butler , Wis. , manufacturer
+</text>
+<arg f="LOC" n="M">Butler , Wis. ,</arg>
+<arg n="0">manufacturer</arg>
+<rel>manufacturer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shutdown">
+<roleset id="shutdown.01" name="cause to end" source="verb-shut.05">
+<roles>
+
+<role descr="intentional agent" n="0"></role>
+
+<role descr="thing ending" n="1"></role>
+
+<role descr="explicit instrument, thing ended with" n="2"></role>
+
+<role descr="point at which something ends" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The circuit breakers caused a 30-minute shutdown in trading in
+Standard &amp; Poor 's 500-stock index futures contract as the
+markets were falling .
+</text>
+<arg n="0">The circuit breakers</arg>
+<arg n="Support">caused</arg>
+<arg f="TMP" n="M">30-minute</arg>
+<rel>shutdown</rel>
+<arg n="1">in trading in Standard &amp; Poor 's 500-stock index futures contract</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the impending Scarborough shutdown
+</text>
+<arg f="TMP" n="M">impending</arg>
+<arg n="1">Scarborough</arg>
+<rel>shutdown</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

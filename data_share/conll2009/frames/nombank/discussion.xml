@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discussion">
+<roleset id="discussion.01" name="talk about" source="verb-discuss.01">
+<roles>
+
+<role descr="discussant" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="conversation partner, if explicit" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Aer Lingus is in discussions with the Soviet carrier about a
+cargo venture and other possibilities .
+</text>
+<arg n="0">Aer Lingus</arg>
+<rel>discussions</rel>
+<arg n="2">with the Soviet carrier</arg>
+<arg n="1">about a cargo venture and other possibilities</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the bill now under discussion
+</text>
+<arg n="1">the bill</arg>
+<rel>discussion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="appraisal">
+<roleset id="appraisal.01" name="set a price, value" source="verb-appraise.01" vncls="54.4">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="54.4" vntheta="Agent"/></role>
+
+<role descr="commodity" n="1">
+<vnrole vncls="54.4" vntheta="Theme"/></role>
+
+<role descr="price" n="2">
+<vnrole vncls="54.4" vntheta="Attribute"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+firms offering prepurchase house appraisals , to deter overpaying
+,
+</text>
+<arg n="0">firms</arg>
+<arg n="Support">offering</arg>
+<arg f="TMP" n="M">prepurchase</arg>
+<arg n="1">house</arg>
+<rel>appraisals</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a recent appraisal
+</text>
+<arg f="TMP" n="M">recent</arg>
+<rel>appraisal</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="release">
+<roleset id="release.01" name="let go" source="verb-release.01">
+<roles>
+
+<role descr="releaser" n="0"></role>
+
+<role descr="thing released" n="1"></role>
+
+<role descr="released from" n="2"></role>
+
+<role descr="released to" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the release of asbestos into the environment from a building he
+was demolishing
+</text>
+<rel>release</rel>
+<arg n="1">of asbestos</arg>
+<arg n="3">into the environment</arg>
+<arg n="2">from a building he was demolishing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+He sent out thousands of news releases from his Kensington , Md.
+, office .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">sent thousands of</arg>
+<arg n="1">news</arg>
+<rel>releases</rel>
+<arg n="2">from his Kensington , Md. , office</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

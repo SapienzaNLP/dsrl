@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="omission">
+<roleset id="omission.01" name="leave out (of" source="verb-omit.01" vncls="10.1">
+<roles>
+
+<role descr="omitter" n="0">
+<vnrole vncls="10.1" vntheta="Agent"/></role>
+
+<role descr="thing left out" n="1">
+<vnrole vncls="10.1" vntheta="Theme"/></role>
+
+<role descr="left out of what" n="2">
+<vnrole vncls="10.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an omission in President Bush 's capital-gains proposal
+</text>
+<rel>omission</rel>
+<arg n="2">in President Bush 's capital-gains proposal</arg>
+</example>
+
+<example name="autogen2">
+<text>
+errors and omissions in engineering and contracting
+</text>
+<rel>omissions</rel>
+<arg n="2">in engineering and contracting</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

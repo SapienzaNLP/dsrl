@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="verification">
+<roleset id="verification.01" name="determine truth of a proposition" source="verb-verify.01">
+<roles>
+
+<role descr="verifier" n="0"></role>
+
+<role descr="verified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+detailed testing and verification of the bomber 's capabilities
+</text>
+<rel>verification</rel>
+<arg n="1">of the bomber 's capabilities</arg>
+</example>
+
+<example name="autogen2">
+<text>
+she was still viewing prices and other data as subject to
+verification
+</text>
+<arg n="Support">viewing as subject to</arg>
+<arg n="1">prices and other data</arg>
+<rel>verification</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

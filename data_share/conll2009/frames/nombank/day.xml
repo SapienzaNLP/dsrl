@@ -1,0 +1,92 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="day">
+<roleset id="day.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their maiden day of national over-the-counter trading
+</text>
+<arg n="3">their</arg>
+<rel>day</rel>
+<arg n="1">of national over-the-counter trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the didactic days of Norman Lear
+</text>
+<arg n="2">didactic</arg>
+<rel>days</rel>
+<arg n="1">of Norman Lear</arg>
+</example>
+
+</roleset>
+<roleset id="day.02" name="subpart">
+<roles>
+
+<role descr="piece" n="1"></role>
+
+<role descr="theme" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+20-hour work days
+</text>
+<arg n="1">20-hour</arg>
+<arg n="2">work</arg>
+<rel>days</rel>
+</example>
+
+<example name="autogen2">
+<text>
+16-hour days
+</text>
+<arg n="1">16-hour</arg>
+<rel>days</rel>
+</example>
+
+</roleset>
+<roleset id="day.03" name="environment/meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the holiest day in the Jewish calendar
+</text>
+<arg n="2">holiest</arg>
+<rel>day</rel>
+<arg n="1">in the Jewish calendar</arg>
+</example>
+
+<example name="autogen2">
+<text>
+eight fewer business days in the latest quarter
+</text>
+<arg n="3">business</arg>
+<rel>days</rel>
+<arg n="1">in the latest quarter</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

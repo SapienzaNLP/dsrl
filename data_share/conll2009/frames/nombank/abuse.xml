@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="abuse">
+<roleset id="abuse.01" name="to use wrongly or hurt by maltreatment" source="verb-abuse.01" vncls="33">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="entity abused" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` mental abuse '' from coaches
+</text>
+<arg n="1">mental</arg>
+<rel>abuse</rel>
+<arg n="0">from coaches</arg>
+</example>
+
+<example name="autogen2">
+<text>
+abuse of the public trust
+</text>
+<rel>abuse</rel>
+<arg n="1">of the public trust</arg>
+</example>
+
+</roleset>
+<roleset id="abuse.02" name="nomlike" source="verb-misuse.01">
+<roles>
+
+<role descr="user" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+wholesale abuse of copyrighted material by home tapers
+</text>
+<rel>abuse</rel>
+<arg n="1">of copyrighted material</arg>
+<arg n="0">by home tapers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+dual-trading abuses
+</text>
+<arg n="1">dual-trading</arg>
+<rel>abuses</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

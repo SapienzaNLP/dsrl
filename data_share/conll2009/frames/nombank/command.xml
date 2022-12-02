@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="command">
+<roleset id="command.01" name="ability">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+President Corazon Aquino , whose command of Filipino is spotty ,
+</text>
+<arg n="0">President Corazon Aquino ---> whose</arg>
+<rel>command</rel>
+<arg n="1">of Filipino</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Second in command from 1979 to 1984 , Mrs. Verne told a Paris
+court that the `` great disorder '' that reigned at the agency
+led her into temptation .
+</text>
+<arg n="0">*-2 ---> Mrs. Verne</arg>
+<arg n="Support">Second in</arg>
+<rel>command</rel>
+</example>
+
+</roleset>
+<roleset id="command.02" name="job/actrel" source="verb-command.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his own naval command in Japan , NavforJapan
+</text>
+<arg n="0">his</arg>
+<arg n="2">naval</arg>
+<rel>command</rel>
+<arg f="LOC" n="M">in Japan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his U.N. command in Korea
+</text>
+<arg n="0">his</arg>
+<arg n="2">U.N.</arg>
+<rel>command</rel>
+<arg f="LOC" n="M">in Korea</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

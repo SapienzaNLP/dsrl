@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="compilation">
+<roleset id="compilation.01" name="collect" source="verb-compile.01" vncls="26.1">
+<roles>
+
+<role descr="agent, entity acquiring something" n="0">
+<vnrole vncls="26.1" vntheta="Agent"/></role>
+
+<role descr="thing acquired" n="1">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="26.1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its latest compilation of performance statistics
+</text>
+<arg n="0">its</arg>
+<arg f="TMP" n="M">latest</arg>
+<rel>compilation</rel>
+<arg n="1">of performance statistics</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The trade group 's compilation of Commerce Department data
+</text>
+<arg n="0">The trade group 's</arg>
+<rel>compilation</rel>
+<arg n="1">of Commerce Department data</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

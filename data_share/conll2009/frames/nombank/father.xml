@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="father">
+<roleset id="father.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+Her friend Diana 's father
+</text>
+<arg n="1">Her friend Diana 's</arg>
+<arg n="0">father</arg>
+<rel>father</rel>
+</example>
+
+<example name="autogen3">
+<text>
+Lily 's father
+</text>
+<arg n="1">Lily 's</arg>
+<arg n="0">father</arg>
+<rel>father</rel>
+</example>
+
+</roleset>
+<roleset id="father.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The self-proclaimed father of on-site massage
+</text>
+<arg n="0">father</arg>
+<rel>father</rel>
+<arg n="1">of on-site massage</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the father of modern securities analysis
+</text>
+<arg n="0">father</arg>
+<rel>father</rel>
+<arg n="1">of modern securities analysis</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

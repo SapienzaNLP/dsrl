@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="condemnation">
+<roleset id="condemnation.01" name="express strong disapproval of" source="verb-condemn.01" vncls="33">
+<roles>
+
+<role descr="condemner" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="condemned" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="grounds for condemnation" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+<role descr="destination" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a land condemnation case
+</text>
+<arg n="1">land</arg>
+<rel>condemnation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

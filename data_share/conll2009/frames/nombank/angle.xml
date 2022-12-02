@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="angle">
+<roleset id="angle.01" name="assign an attribute to" source="verb-view.02" vncls="29.2">
+<roles>
+
+<role descr="assigner" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing labelled" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="attribute" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my angle
+</text>
+<arg n="0">my</arg>
+<rel>angle</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the minority -- South Bronx angle
+</text>
+<arg n="0">minority -- South Bronx</arg>
+<rel>angle</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

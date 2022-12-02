@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recognition">
+<roleset id="recognition.01" name="assign a label or attribute" source="verb-recognize.01" vncls="29.5">
+<roles>
+
+<role descr="describer" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing described, utterance" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="secondary attribute, described-as" n="2">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+optical character-recognition devices
+</text>
+<arg n="1">character-recognition</arg>
+<rel>character-recognition</rel>
+<arg n="0">devices</arg>
+</example>
+
+<example name="autogen2">
+<text>
+she was eager to win -- if not for money , then for pride and
+recognition
+</text>
+<arg n="1">she ---> *-1</arg>
+<arg n="Support">eager for</arg>
+<arg n="2">to win</arg>
+<rel>recognition</rel>
+</example>
+
+</roleset>
+<roleset id="recognition.02" name="state as true" source="verb-recognize.02">
+<roles>
+
+<role descr="stater" n="0"></role>
+
+<role descr="true proposition" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He should do more to reduce tax rates on wealth and income , in
+recognition of the fact that those cuts yield higher , not lower
+, revenues .
+</text>
+<arg n="0">He</arg>
+<rel>recognition</rel>
+<arg n="1">of the fact that those cuts yield higher , not lower , revenues</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a recognition that there was much too much fluff in the LBO
+market
+</text>
+<rel>recognition</rel>
+<arg n="1">that there was much too much fluff in the LBO market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

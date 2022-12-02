@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="attorney">
+<roleset id="attorney.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary/consultant" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+<role descr="employer" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the assistant U.S. attorney prosecuting the Marcos case
+</text>
+<arg n="3">assistant</arg>
+<arg n="2">U.S.</arg>
+<arg n="0">attorney</arg>
+<rel>attorney</rel>
+<arg n="Support">prosecuting</arg>
+<arg n="1">the Marcos case</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an attorney general from California
+</text>
+<arg n="0">attorney</arg>
+<rel>attorney</rel>
+<arg n="3">general</arg>
+<arg n="2">from California</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

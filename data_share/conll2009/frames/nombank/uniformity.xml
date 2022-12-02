@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="uniformity">
+<roleset id="uniformity.01" name="attribute/nomadj-uniform">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+uniformity among states in provisions for taxpayers ' rights
+</text>
+<arg f="REF" n="2">uniformity</arg>
+<rel>uniformity</rel>
+<arg n="1">among states</arg>
+<arg n="3">in provisions for taxpayers ' rights</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

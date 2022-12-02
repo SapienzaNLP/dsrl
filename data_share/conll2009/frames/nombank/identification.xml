@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="identification">
+<roleset id="identification.01" name="label, call" source="verb-identify.01" vncls="29.2">
+<roles>
+
+<role descr="caller" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="item being labelled" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="attribute" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Employees wore identification badges listing not only their names
+but also their dates of hire .
+</text>
+<arg n="1">Employees</arg>
+<arg n="Support">wore badges</arg>
+<rel>identification</rel>
+<arg n="0">badges</arg>
+</example>
+
+<example name="autogen2">
+<text>
+identification systems
+</text>
+<rel>identification</rel>
+<arg n="0">systems</arg>
+</example>
+
+</roleset>
+<roleset id="identification.02" name="feel empathy" source="verb-identify.02">
+<roles>
+
+<role descr="feeler" n="0"></role>
+
+<role descr="thing being identified with" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="based on web example">
+<text>
+The victim's identification with the attacker
+</text>
+<arg n="0">The victim's</arg>
+<rel>identification</rel>
+<arg n="1">the attacker</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

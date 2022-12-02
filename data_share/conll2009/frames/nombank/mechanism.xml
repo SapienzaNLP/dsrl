@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mechanism">
+<roleset id="mechanism.01" name="ability">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the exchange-rate mechanism of the European Monetary System ,
+which links the major EC currencies
+</text>
+<arg n="1">exchange-rate</arg>
+<rel>mechanism</rel>
+<arg n="0">of the European Monetary System</arg>
+</example>
+
+<example name="autogen2">
+<text>
+mechanisms for easing tensions and facilitating the co-existence
+of groups in conflict
+</text>
+<rel>mechanisms</rel>
+<arg n="1">
+for easing tensions and facilitating the co-existence of groups
+in conflict</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

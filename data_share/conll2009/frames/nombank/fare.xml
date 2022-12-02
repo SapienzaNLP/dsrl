@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fare">
+<roleset id="fare.01" name="allow to enter" source="verb-admit.02">
+<roles>
+
+<role descr="allower (ticket" n="0"></role>
+
+<role descr="enterer" n="1"></role>
+
+<role descr="place entered" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their one-way fares to the Virgin Islands
+</text>
+<arg n="0">their</arg>
+<rel>fares</rel>
+<arg n="2">to the Virgin Islands</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The round-trip fare to Havana
+</text>
+<rel>fare</rel>
+<arg n="2">to Havana</arg>
+</example>
+
+</roleset>
+<roleset id="fare.02" name="consume" source="verb-eat.01" vncls="39.1">
+<roles>
+
+<role descr="consumer, eater" n="0">
+<vnrole vncls="39.1" vntheta="Agent"/></role>
+
+<role descr="meal" n="1">
+<vnrole vncls="39.1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+other takeout fare
+</text>
+<arg n="1">takeout</arg>
+<rel>fare</rel>
+</example>
+
+<example name="autogen2">
+<text>
+more conventional fare
+</text>
+<arg f="MNR" n="M">more conventional</arg>
+<rel>fare</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

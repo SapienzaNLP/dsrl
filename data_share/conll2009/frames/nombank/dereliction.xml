@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dereliction">
+<roleset id="dereliction.01" name="nomadj-derelict">
+<roles>
+
+<role descr="ignorer" n="0"></role>
+
+<role descr="thing ignored" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+I 'm not accusing insurers of dereliction of duty
+</text>
+<arg n="Support">accusing of</arg>
+<arg n="0">insurers</arg>
+<rel>dereliction</rel>
+<arg n="1">of duty</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

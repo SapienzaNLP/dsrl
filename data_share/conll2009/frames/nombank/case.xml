@@ -1,0 +1,222 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="case">
+<roleset id="case.01" name="law-case" source="verb-try.02">
+<roles>
+
+<role descr="litigant/first-party" n="0"></role>
+
+<role descr="topic/crime" n="1" source="2"></role>
+
+<role descr="adjudicator" n="2"></role>
+
+<role descr="defendant/other-party" n="3" source="1"></role>
+
+<role descr="venue" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the government 's racketeering case against the International
+Brotherhood of Teamsters
+</text>
+<arg n="0">the government 's</arg>
+<arg n="1">racketeering</arg>
+<rel>case</rel>
+<arg n="3">against the International Brotherhood of Teamsters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+defendants in a criminal case before the judge
+</text>
+<arg n="3">defendants</arg>
+<arg n="1">criminal</arg>
+<rel>case</rel>
+<arg n="2">before the judge</arg>
+</example>
+
+</roleset>
+<roleset id="case.02" name="partitive-quant/instance-of-set">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a case of human error , which we found almost immediately and
+corrected
+</text>
+<rel>case</rel>
+<arg n="1">of human error</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the cases of rape , incest and danger to the life of the mother
+</text>
+<rel>cases</rel>
+<arg n="1">of rape , incest and danger to the life of the mother</arg>
+</example>
+
+</roleset>
+<roleset id="case.03" name="discourse-connective-if-then">
+<roles>
+
+<role descr="proposition" n="1"></role>
+
+<role descr="evidence" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+-LRB- In case you have forgotten , his name was Rudolph Dirks .
+-RRB-
+</text>
+<rel>case</rel>
+<arg n="2">you have forgotten</arg>
+<arg n="1">his name was Rudolph Dirks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to replace that coverage in case there were any other major
+disasters before the end of the year
+</text>
+<arg n="1">to replace that coverage</arg>
+<rel>case</rel>
+<arg n="2">there were any other major disasters before the end of the year</arg>
+</example>
+
+</roleset>
+<roleset id="case.04" name="make the case that" source="verb-prove.01" vncls="29.4">
+<roles>
+
+<role descr="prover" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="proposition" n="1"></role>
+
+<role descr="recipient" n="2" source="2"></role>
+
+<role descr="beneficiary" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Peasants can make a credible case , against Solidarity , that
+hell-bent reform will drive millions from the land .
+</text>
+<arg n="0">The Peasants</arg>
+<arg n="Support">make</arg>
+<arg f="MNR" n="M">credible</arg>
+<rel>case</rel>
+<arg n="1">
+*ICH*-1 ---> that hell-bent reform will drive millions from the
+land</arg>
+<arg n="2">against Solidarity</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Fed 's case for its own independence
+</text>
+<arg n="0">The Fed 's</arg>
+<rel>case</rel>
+<arg n="1">for its own independence</arg>
+</example>
+
+</roleset>
+<roleset id="case.05" name="discourse-connective-2-is-subtype-of-1">
+<roles>
+
+<role descr="type" n="1"></role>
+
+<role descr="subtype" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+restaurants -LRB- in this case , the Russian Samovar , a New York
+restaurant operated by and for Soviet emigres -RRB-
+</text>
+<arg n="1">restaurants</arg>
+<rel>case</rel>
+<arg n="2">
+the Russian Samovar , a New York restaurant operated by and for
+Soviet emigres</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a stiff -LRB- in this case , 29.8 % -RRB- annual rate
+</text>
+<rel>case</rel>
+<arg n="2">29.8 %</arg>
+</example>
+
+</roleset>
+<roleset id="case.06" name="partitive-quant/instance">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the case of former House Speaker James Wright
+</text>
+<rel>case</rel>
+<arg n="1">of former House Speaker James Wright</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a case where private markets are approving of Washington 's
+bashing of Wall Street
+</text>
+<rel>case</rel>
+<arg n="1">
+where private markets are approving of Washington 's bashing of
+Wall Street</arg>
+</example>
+
+</roleset>
+<roleset id="case.07" name="partitive-quant/container">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a case of wine -LRB- The wine , naturally , was Seagram 's brand
+, an Ogilvy client -RRB-
+</text>
+<rel>case</rel>
+<arg n="1">
+of wine -LRB- The wine , naturally , was Seagram 's brand , an
+Ogilvy client -RRB-</arg>
+</example>
+
+<example name="autogen2">
+<text>
+cases of soda
+</text>
+<rel>cases</rel>
+<arg n="1">of soda</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="candidacy">
+<roleset id="candidacy.01" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Goldwater presidential candidacy
+</text>
+<arg n="0">Goldwater</arg>
+<arg n="1">presidential</arg>
+<rel>candidacy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Dinkins candidacy
+</text>
+<arg n="0">Dinkins</arg>
+<rel>candidacy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

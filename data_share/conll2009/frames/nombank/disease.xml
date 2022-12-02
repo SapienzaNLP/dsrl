@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disease">
+<roleset id="disease.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+pediatric kidney diseases
+</text>
+<arg n="1">pediatric</arg>
+<arg n="2">kidney</arg>
+<rel>diseases</rel>
+</example>
+
+<example name="autogen2">
+<text>
+respiratory diseases
+</text>
+<arg n="2">respiratory</arg>
+<rel>diseases</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

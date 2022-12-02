@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="licensee">
+<roleset id="licensee.01" name="give legal rights to property" source="verb-license.01">
+<roles>
+
+<role descr="granter of license" n="0"></role>
+
+<role descr="licensed thing" n="1"></role>
+
+<role descr="beneficiary, licensed-to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its European licensee
+</text>
+<arg n="0">its</arg>
+<arg f="LOC" n="M">European</arg>
+<arg n="2">licensee</arg>
+<rel>licensee</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a Safford , Ariz. , licensee of McDonald 's Corp. who is chairman
+of the company 's National Operators Advisory Board
+</text>
+<arg f="LOC" n="M">Safford , Ariz. ,</arg>
+<arg n="2">licensee</arg>
+<rel>licensee</rel>
+<arg n="1">of McDonald 's Corp.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

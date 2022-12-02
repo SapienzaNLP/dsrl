@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="procurement">
+<roleset id="procurement.01" name="nom-procure/nomlike" source="verb-receive.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Motorola `` has engaged in fraudulent and inequitable conduct in
+the procurement of certain Motorola patents '' used in Motorola
+'s MC68030 microprocessor chip
+</text>
+<arg n="0">Motorola</arg>
+<rel>procurement</rel>
+<arg n="1">
+of certain Motorola patents '' used in Motorola 's MC68030
+microprocessor chip</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the state procurement division
+</text>
+<arg n="0">state</arg>
+<rel>procurement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

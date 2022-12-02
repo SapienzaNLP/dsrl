@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="murder">
+<roleset id="murder.01" name="cause to die" source="verb-murder.01" vncls="42.1">
+<roles>
+
+<role descr="killer" n="0">
+<vnrole vncls="42.1" vntheta="Agent"/></role>
+
+<role descr="corpse" n="1">
+<vnrole vncls="42.1" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="42.1" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+murders by repeat offenders who torture their victims
+</text>
+<rel>murders</rel>
+<arg n="0">by repeat offenders who torture their victims</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the racial murder of a black teen-ager in the white Brooklyn
+neighborhood of Bensonhurst
+</text>
+<rel>murder</rel>
+<arg n="1">of a black teen-ager</arg>
+<arg f="LOC" n="M">in the white Brooklyn neighborhood of Bensonhurst</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

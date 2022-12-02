@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="loss">
+<roleset id="loss.01" name="lose, no longer have" source="verb-lose.02">
+<roles>
+
+<role descr="entity losing something" n="0"></role>
+
+<role descr="thing lost" n="1"></role>
+
+<role descr="beneficiary, entity gaining thing lost" n="2"></role>
+
+<role descr="source of loss" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ford 's $ 37 million loss on U.S. automotive operations
+</text>
+<arg n="0">Ford 's</arg>
+<arg n="1">$ 37 million</arg>
+<rel>loss</rel>
+<arg n="3">on U.S. automotive operations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Quotron 's loss of its two biggest customers , Merrill Lynch &amp;
+Co. and American Express Co. 's Shearson Lehman Hutton Inc. , to
+Automated Data Processing Inc. earlier this year
+</text>
+<arg n="0">Quotron 's</arg>
+<rel>loss</rel>
+<arg n="1">
+of its two biggest customers , Merrill Lynch &amp; Co. and American
+Express Co. 's Shearson Lehman Hutton Inc.</arg>
+<arg n="2">to Automated Data Processing Inc.</arg>
+<arg f="TMP" n="M">earlier this year</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

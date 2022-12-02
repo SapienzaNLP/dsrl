@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="affair">
+<roleset id="affair.01" name="hug, embrace" source="verb-hug.01" vncls="47.8">
+<roles>
+
+<role descr="hugger" n="0">
+<vnrole vncls="47.8" vntheta="Theme1"/></role>
+
+<role descr="hugged" n="1">
+<vnrole vncls="47.8" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their love affair
+</text>
+<arg n="0">their</arg>
+<arg n="1">love</arg>
+<rel>affair</rel>
+</example>
+
+<example name="autogen2">
+<text>
+politicians accepting substantial gifts from businessmen or
+having extramarital affairs
+</text>
+<arg n="0">politicians</arg>
+<arg n="Support">having</arg>
+<arg n="1">extramarital</arg>
+<rel>affairs</rel>
+</example>
+
+</roleset>
+<roleset id="affair.02" name="issue">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Gulf Power 's governmental-affairs efforts
+</text>
+<arg n="0">Gulf Power 's</arg>
+<arg n="1">governmental-affairs</arg>
+<rel>governmental-affairs</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Koskotas affair
+</text>
+<arg n="1">Koskotas</arg>
+<rel>affair</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

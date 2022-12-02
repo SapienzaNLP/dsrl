@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="finger">
+<roleset id="finger.01" name="partitive-part/meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Washington 's sticky fingers
+</text>
+<arg n="1">Washington 's</arg>
+<rel>fingers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his finger
+</text>
+<arg n="1">his</arg>
+<rel>finger</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

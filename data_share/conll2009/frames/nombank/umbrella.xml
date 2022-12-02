@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="umbrella">
+<roleset id="umbrella.01" name="make into one" source="verb-unite.01" vncls="22.2">
+<roles>
+
+<role descr="uniter, agent" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="first) thing(s) being unified" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="other things, if separate from arg1" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+<role descr="unified whole" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the umbrella organization for companies controlled by Harry B.
+Helmsley
+</text>
+<rel>umbrella</rel>
+<arg n="0">organization</arg>
+<arg n="1">for companies controlled by Harry B. Helmsley</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the auction house founded in London 1744 and now under the
+umbrella of Sotheby 's Holdings Inc.
+</text>
+<arg n="1">the auction house</arg>
+<rel>umbrella</rel>
+<arg n="0">of Sotheby 's Holdings Inc.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

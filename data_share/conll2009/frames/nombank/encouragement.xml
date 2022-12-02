@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="encouragement">
+<roleset id="encouragement.01" name="impelled action" source="verb-encourage.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+U.S. encouragement of coups against anti-American leaders
+</text>
+<arg n="0">U.S.</arg>
+<rel>encouragement</rel>
+<arg n="1">of coups against anti-American leaders</arg>
+</example>
+
+<example name="autogen2">
+<text>
+encouragement for the Fed to give primary emphasis to stabilizing
+the price level
+</text>
+<rel>encouragement</rel>
+<arg n="1">
+for the Fed to give primary emphasis to stabilizing the price
+level</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

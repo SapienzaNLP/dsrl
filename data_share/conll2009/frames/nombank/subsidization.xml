@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="subsidization">
+<roleset id="subsidization.01" name="to assist or support with a subsidy" source="verb-subsidize.01">
+<roles>
+
+<role descr="assister, agent" n="0"></role>
+
+<role descr="entity subsidized" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cross subsidization
+</text>
+<arg f="MNR" n="M">cross</arg>
+<rel>subsidization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="corner">
+<roleset id="corner.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+busy street corners
+</text>
+<arg n="1">street</arg>
+<rel>corners</rel>
+</example>
+
+<example name="autogen2">
+<text>
+all corners of the OTC market
+</text>
+<rel>corners</rel>
+<arg n="1">of the OTC market</arg>
+</example>
+
+</roleset>
+<roleset id="corner.02" name="partitive-part/border">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="theme2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the corner of Shattuck and Alcatraz at the Oakland-Berkeley
+border
+</text>
+<rel>corner</rel>
+<arg n="1">of Shattuck and Alcatraz</arg>
+</example>
+
+</roleset>
+<roleset id="corner.03" name="have a monopoly on" source="verb-corner.01">
+<roles>
+
+<role descr="monopolist" n="0"></role>
+
+<role descr="thing monopolized" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Nelson Bunker Hunt 's attempted corner on silver a decade ago
+</text>
+<arg n="0">Nelson Bunker Hunt 's</arg>
+<rel>corner</rel>
+<arg n="1">on silver</arg>
+<arg f="TMP" n="M">a decade ago</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="indispensability">
+<roleset id="indispensability.01" name="nomadj-indispensable/nomlike" source="verb-prize.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="purpose/context" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the indispensability in particular cases of verbatim quotations
+</text>
+<rel>indispensability</rel>
+<arg f="TMP" n="M">in particular cases</arg>
+<arg n="1">of verbatim quotations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

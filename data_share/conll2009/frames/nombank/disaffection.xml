@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disaffection">
+<roleset id="disaffection.01" name="piss off" source="verb-alienate.01" vncls="31.1">
+<roles>
+
+<role descr="causer of anger, agent" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="entity getting angry" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from agent" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+This doubled the mortgage interest rates of the many new
+homeowners that Mrs. Thatcher 's policies had created , producing
+widespread disaffection and pushing Labor ahead in the polls .
+</text>
+<arg n="0">This ---> *-2</arg>
+<arg n="Support">producing</arg>
+<arg f="MNR" n="M">widespread</arg>
+<rel>disaffection</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

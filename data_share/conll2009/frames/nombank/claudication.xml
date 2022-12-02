@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="claudication">
+<roleset id="claudication.01" name="to move or proceed haltingly or unsteadily" source="verb-limp.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+intermittent claudication
+</text>
+<arg f="TMP" n="M">intermittent</arg>
+<rel>claudication</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

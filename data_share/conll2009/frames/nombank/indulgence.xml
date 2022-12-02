@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="indulgence">
+<roleset id="indulgence.01" name="allow a luxury" source="verb-indulge.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they give themselves the indulgence of beautiful offices , with
+plush furnishings
+</text>
+<arg n="0">they</arg>
+<arg n="Support">give</arg>
+<arg n="2">themselves</arg>
+<rel>indulgence</rel>
+<arg n="1">of beautiful offices , with plush furnishings</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Ms. Foster 's indulgence
+</text>
+<arg n="0">Ms. Foster 's</arg>
+<rel>indulgence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="halt">
+<roleset id="halt.01" name="stop" source="verb-halt.01" vncls="55.1">
+<roles>
+
+<role descr="causer of stopping" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme (action or object being stopped" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument, if separate from arg0" n="2">
+<vnrole vncls="45.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Chicago Mercantile Exchange 's halt in stock-index futures
+</text>
+<arg n="0">the Chicago Mercantile Exchange 's</arg>
+<rel>halt</rel>
+<arg n="1">in stock-index futures</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the futures-trading halt
+</text>
+<arg n="1">futures-trading</arg>
+<rel>halt</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

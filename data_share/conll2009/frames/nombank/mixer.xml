@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mixer">
+<roleset id="mixer.01" name="mix, combine" source="verb-mix.01" vncls="22.1-1">
+<roles>
+
+<role descr="agent, mixer" n="0">
+<vnrole vncls="22.1-1" vntheta="Agent"/></role>
+
+<role descr="ingredient one" n="1">
+<vnrole vncls="22.1-1" vntheta="Patient1"/></role>
+
+<role descr="ingredient two" n="2">
+<vnrole vncls="22.1-1" vntheta="Patient2"/></role>
+
+<role descr="end product" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cement mixers
+</text>
+<arg n="3">cement</arg>
+<arg n="0">mixers</arg>
+<rel>mixers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

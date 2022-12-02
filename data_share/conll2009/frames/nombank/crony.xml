@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crony">
+<roleset id="crony.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+political cronies
+</text>
+<arg n="1">political</arg>
+<arg n="0">cronies</arg>
+<rel>cronies</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

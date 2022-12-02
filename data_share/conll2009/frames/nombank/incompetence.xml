@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="incompetence">
+<roleset id="incompetence.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+young people whose ignorance and intellectual incompetence is
+matched only by their good opinion of themselves
+</text>
+<arg n="0">young people ---> whose</arg>
+<arg n="1">intellectual</arg>
+<rel>incompetence</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the sheer incompetence of unqualified planners
+</text>
+<rel>incompetence</rel>
+<arg n="0">of unqualified planners</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

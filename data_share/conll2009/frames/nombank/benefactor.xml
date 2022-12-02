@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="benefactor">
+<roleset id="benefactor.01" name="give advantage to" source="verb-benefit.01">
+<roles>
+
+<role descr="giver" n="0"></role>
+
+<role descr="beneficiary, given-to" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their friend and political benefactor
+</text>
+<arg n="0">their</arg>
+<arg n="1">benefactor</arg>
+<rel>benefactor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dilemma">
+<roleset id="dilemma.01" name="decide" source="verb-decide.01">
+<roles>
+
+<role descr="decider" n="0"></role>
+
+<role descr="decision" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+If a competitor enters the game , for example , Mr. Hahn could
+face the dilemma of paying a premium for Nekoosa or seeing the
+company fall into the arms of a rival .
+</text>
+<arg n="0">Mr. Hahn</arg>
+<arg n="Support">face</arg>
+<rel>dilemma</rel>
+<arg n="1">
+of paying a premium for Nekoosa or seeing the company fall into
+the arms of a rival</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the reunification dilemma
+</text>
+<arg n="1">reunification</arg>
+<rel>dilemma</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

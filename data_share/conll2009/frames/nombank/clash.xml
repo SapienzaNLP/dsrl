@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clash">
+<roleset id="clash.01" name="to come into conflict, be in opposition" source="verb-clash.01" vncls="36.1">
+<roles>
+
+<role descr="agentive clasher" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="entity clashed with" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="entity clashed over" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Both executives left the company after clashes with Chairman
+Ralph Ingersoll Jr .
+</text>
+<arg n="0">Both executives</arg>
+<arg n="Support">left after</arg>
+<rel>clashes</rel>
+<arg n="1">with Chairman Ralph Ingersoll Jr</arg>
+</example>
+
+<example name="autogen2">
+<text>
+such a clash of corporate titans
+</text>
+<rel>clash</rel>
+<arg n="0">of corporate titans</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

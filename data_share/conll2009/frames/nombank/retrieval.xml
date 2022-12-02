@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="retrieval">
+<roleset id="retrieval.01" name="get back" source="verb-retrieve.01" vncls="13.5.2">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing gotten" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="source" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the recent retrieval of a big chunk of Flight 232 's tail engine
+from a cornfield near the Sioux City Airport in Iowa
+</text>
+<arg f="TMP" n="M">recent</arg>
+<rel>retrieval</rel>
+<arg n="1">of a big chunk of Flight 232 's tail engine</arg>
+<arg n="2">from a cornfield near the Sioux City Airport in Iowa</arg>
+</example>
+
+<example name="autogen2">
+<text>
+optically based data storage and retrieval devices
+</text>
+<arg n="1">data</arg>
+<rel>retrieval</rel>
+<arg n="0">devices</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,101 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="number">
+<roleset id="number.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the large number of right-wing whites , who oppose any
+concessions to the black majority ,
+</text>
+<rel>number</rel>
+<arg n="1">
+of right-wing whites , who oppose any concessions to the black
+majority ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a number of people
+</text>
+<rel>number</rel>
+<arg n="1">of people</arg>
+</example>
+
+</roleset>
+<roleset id="number.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="type" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Fidelity 's automated 800-number
+</text>
+<arg n="1">Fidelity 's</arg>
+<arg n="3">800-number</arg>
+<rel>800-number</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its 900 number
+</text>
+<arg n="1">its</arg>
+<arg n="3">900</arg>
+<arg f="REF" n="2">number</arg>
+<rel>number</rel>
+</example>
+
+</roleset>
+<roleset id="number.03" name="determine, calculate" source="verb-figure.04" vncls="29.5">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="value" n="2" source="3">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+<role descr="type" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The deposit numbers for August
+</text>
+<arg n="3">deposit</arg>
+<arg f="REF" n="2">numbers</arg>
+<rel>numbers</rel>
+<arg n="1">for August</arg>
+</example>
+
+<example name="autogen2">
+<text>
+This bad trade number
+</text>
+<arg n="3">trade</arg>
+<arg f="REF" n="2">number</arg>
+<rel>number</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

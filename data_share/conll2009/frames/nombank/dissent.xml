@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dissent">
+<roleset id="dissent.01" name="to disagree" source="verb-dissent.01">
+<roles>
+
+<role descr="disagreer, agent" n="0"></role>
+
+<role descr="disagreement, dissent from" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their dissents
+</text>
+<arg n="0">their</arg>
+<rel>dissents</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her dissent
+</text>
+<arg n="0">her</arg>
+<rel>dissent</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

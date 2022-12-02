@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accent">
+<roleset id="accent.01" name="to bring out certain features" source="verb-accent.01">
+<roles>
+
+<role descr="decorator" n="0"></role>
+
+<role descr="thing decorated" n="1"></role>
+
+<role descr="decorations" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a popular accent in tony new housing tracts
+</text>
+<rel>accent</rel>
+<arg n="1">in tony new housing tracts</arg>
+</example>
+
+</roleset>
+<roleset id="accent.02" name="speak" source="verb-speak.01">
+<roles>
+
+<role descr="speaker" n="0"></role>
+
+<role descr="dialect or language" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+salesmen will affect the accent of the region of the country they
+are calling
+</text>
+<arg n="0">salesmen</arg>
+<arg n="Support">affect</arg>
+<rel>accent</rel>
+<arg n="1">of the region of the country they are calling</arg>
+</example>
+
+<example name="autogen2">
+<text>
+At least , they both speak with strong accents , as do Jackie and
+Maddie .
+</text>
+<arg n="0">they</arg>
+<arg n="Support">speak</arg>
+<rel>accents</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

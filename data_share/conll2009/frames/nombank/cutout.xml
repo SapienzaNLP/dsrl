@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cutout">
+<roleset id="cutout.01" name="slice" source="verb-cut.01" vncls="41.2.2">
+<roles>
+
+<role descr="cutter" n="0">
+<vnrole vncls="41.2.2" vntheta="Agent"/></role>
+
+<role descr="thing cut" n="1">
+<vnrole vncls="41.2.2" vntheta="Patient"/></role>
+
+<role descr="medium, source" n="2">
+<vnrole vncls="23.2" vntheta="Material"/></role>
+
+<role descr="instrument" n="3">
+<vnrole vncls="21.1" vntheta="Instrument"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+paper cutouts
+</text>
+<arg n="2">paper</arg>
+<arg n="1">cutouts</arg>
+<rel>cutouts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

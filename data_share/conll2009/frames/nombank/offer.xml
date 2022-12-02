@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="offer">
+<roleset id="offer.01" name="transaction" source="verb-offer.01" vncls="29.2">
+<roles>
+
+<role descr="entity offering" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="commodity" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="price" n="2"></role>
+
+<role descr="beneficiary or entity offered to" n="3">
+<vnrole vncls="29.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Revco received a $ 925 million takeover offer from Texas
+financier Robert Bass and Acadia Partners .
+</text>
+<arg n="3">Revco</arg>
+<arg n="Support">received</arg>
+<arg n="2">$ 925 million</arg>
+<arg n="1">takeover</arg>
+<rel>offer</rel>
+<arg n="0">from Texas financier Robert Bass and Acadia Partners</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its $ 45-a-share offer for Dunkin ' Donuts Inc.
+</text>
+<arg n="0">its</arg>
+<arg n="2">$ 45-a-share</arg>
+<rel>offer</rel>
+<arg n="1">for Dunkin ' Donuts Inc.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

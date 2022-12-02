@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="framer">
+<roleset id="framer.01" name="write legislative bills" source="verb-frame.05">
+<roles>
+
+<role descr="legislator" n="0"></role>
+
+<role descr="potential law" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the framers of the Constitution
+</text>
+<arg n="0">framers</arg>
+<rel>framers</rel>
+<arg n="1">of the Constitution</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the framers of that legislation
+</text>
+<arg n="0">framers</arg>
+<rel>framers</rel>
+<arg n="1">of that legislation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="boast">
+<roleset id="boast.01" name="be loudly proud of" source="verb-boast.01" vncls="37.8">
+<roles>
+
+<role descr="boaster" n="0">
+<vnrole vncls="37.8" vntheta="Agent"/></role>
+
+<role descr="thing proud of" n="1">
+<vnrole vncls="37.8" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.8" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Yet their best boast is that they produce 32 % of Polish pork .
+</text>
+<arg n="0">their</arg>
+<rel>boast</rel>
+<arg n="1">that they produce 32 % of Polish pork</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

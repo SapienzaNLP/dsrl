@@ -1,0 +1,148 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="point">
+<roleset id="point.01" name="discourse-connective-when">
+<roles>
+
+<role descr="consequence" n="1"></role>
+
+<role descr="precursor" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+At one point in early trading the March price rose to as high as
+14.22 cents when the stock market recovered , but the price then
+fell back .
+</text>
+<rel>point</rel>
+<arg n="2">in early trading</arg>
+<arg n="1">
+the March price rose to as high as 14.22 cents when the stock
+market recovered</arg>
+</example>
+
+<example name="autogen2">
+<text>
+At one point in futures trading , as the stock market firmed ,
+the December contract rose to as high as $ 1.2965 , but it was
+n't able to sustain the gain .
+</text>
+<rel>point</rel>
+<arg n="2">in futures trading</arg>
+<arg n="1">
+, as the stock market firmed , the December contract rose to as
+high as $ 1.2965</arg>
+</example>
+
+</roleset>
+<roleset id="point.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="topic" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his vantage point
+</text>
+<arg n="0">his</arg>
+<arg n="1">vantage</arg>
+<rel>point</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his point that Americans have rights as individuals , not as
+members of certain select groups
+</text>
+<arg n="0">his</arg>
+<rel>point</rel>
+<arg n="2">
+that Americans have rights as individuals , not as members of
+certain select groups</arg>
+</example>
+
+</roleset>
+<roleset id="point.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the half-way point on a so-called road show to market the package
+around the world
+</text>
+<arg n="2">half-way</arg>
+<rel>point</rel>
+<arg n="1">on a so-called road show to market the package around the world</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Another sticking point for advertisers
+</text>
+<arg n="2">sticking</arg>
+<arg f="REF" n="3">point</arg>
+<rel>point</rel>
+<arg n="1">for advertisers</arg>
+</example>
+
+</roleset>
+<roleset id="point.04" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a point of land
+</text>
+<rel>point</rel>
+<arg n="1">of land</arg>
+</example>
+
+</roleset>
+<roleset id="point.05" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a certain point in a vessel
+</text>
+<rel>point</rel>
+<arg n="1">in a vessel</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a control point in the middle
+</text>
+<rel>point</rel>
+<arg n="1">in the middle</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

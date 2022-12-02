@@ -1,0 +1,146 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="heart">
+<roleset id="heart.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the heart of IBM-compatible personal computers
+</text>
+<arg n="0">heart</arg>
+<rel>heart</rel>
+<arg n="1">of IBM-compatible personal computers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the heart of a grandiose plan Mr. Paul had in which the art was
+to do double duty -- as an investment for CenTrust and as
+decoration for the S&amp;L 's new office tower , designed by I.M. Pei
+</text>
+<arg n="0">heart</arg>
+<rel>heart</rel>
+<arg n="1">
+of a grandiose plan Mr. Paul had in which the art was to do
+double duty -- as an investment for CenTrust and as decoration
+for the S&amp;L 's new office tower , designed by I.M. Pei</arg>
+</example>
+
+</roleset>
+<roleset id="heart.02" name="meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+its heart
+</text>
+<arg n="1">its</arg>
+<rel>heart</rel>
+</example>
+
+<example name="autogen4">
+<text>
+their hearts
+</text>
+<arg n="1">their</arg>
+<rel>hearts</rel>
+</example>
+
+</roleset>
+<roleset id="heart.03" name="take to heart" source="verb-heed.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Judging by a poll of Wall Street Journal readers conducted this
+summer by Erdos &amp; Morgan Inc. , serious investors have taken that
+advice to heart .
+</text>
+<arg n="0">serious investors</arg>
+<arg n="Support">taken to</arg>
+<arg n="1">that advice</arg>
+<rel>heart</rel>
+</example>
+
+<example name="autogen2">
+<text>
+advice the writers should take to heart
+</text>
+<arg n="1">advice ---> 0 ---> *T*-1</arg>
+<arg n="0">the writers</arg>
+<arg n="Support">take to</arg>
+<rel>heart</rel>
+</example>
+
+</roleset>
+<roleset id="heart.04" name="idiom-take-heart/nomlike" source="verb-comfort.01" vncls="31.1">
+<roles>
+
+<role descr="comforter" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="patient, comforted" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Take heart , sports fans
+</text>
+<arg n="1">* ---> sports fans</arg>
+<arg n="Support">Take</arg>
+<rel>heart</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Some of the bill 's supporters had taken heart from the fact that
+the letter was n't signed by Mr. Skinner and that it did n't
+contain a veto threat .
+</text>
+<arg n="1">Some of the bill 's supporters</arg>
+<arg n="Support">taken</arg>
+<rel>heart</rel>
+<arg n="0">
+from the fact that the letter was n't signed by Mr. Skinner and
+that it did n't contain a veto threat</arg>
+</example>
+
+</roleset>
+<roleset id="heart.05" name="change of heart" source="verb-reverse.01">
+<roles>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its change of heart
+</text>
+<arg n="1">its</arg>
+<arg n="Support">change of</arg>
+<rel>heart</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

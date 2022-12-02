@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="groundwork">
+<roleset id="groundwork.01" name="establish" source="verb-establish.01" vncls="29.2">
+<roles>
+
+<role descr="agent, setter" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing set" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="attribute" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Though Dentsu says it has no concrete acquisition plans or
+deadlines , it is laying the groundwork for international growth
+.
+</text>
+<arg n="0">it</arg>
+<arg n="Support">laying</arg>
+<arg n="1">groundwork</arg>
+<rel>groundwork</rel>
+<arg n="2">for international growth</arg>
+</example>
+
+<example name="autogen2">
+<text>
+S.A. Brewing Holdings Ltd. began laying the groundwork to launch
+a rival offer for Bond Corp . Holdings Ltd. 's Australian brewing
+operations .
+</text>
+<arg n="0">S.A. Brewing Holdings Ltd. ---> *-1</arg>
+<arg n="Support">laying</arg>
+<arg n="1">groundwork</arg>
+<rel>groundwork</rel>
+<arg f="PRD" n="2">
+to launch a rival offer for Bond Corp . Holdings Ltd. 's
+Australian brewing operations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

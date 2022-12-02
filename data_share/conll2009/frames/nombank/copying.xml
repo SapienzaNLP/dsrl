@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="copying">
+<roleset id="copying.01" name="make a copy" source="verb-copy.01" vncls="25.2">
+<roles>
+
+<role descr="copyist, agent" n="0">
+<vnrole vncls="25.2" vntheta="Agent"/></role>
+
+<role descr="original" n="1">
+<vnrole vncls="25.2" vntheta="Theme"/></role>
+
+<role descr="copy" n="2">
+<vnrole vncls="25.2" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the unauthorized copying of songs and musical compositions
+</text>
+<arg f="MNR" n="M">unauthorized</arg>
+<rel>copying</rel>
+<arg n="1">of songs and musical compositions</arg>
+</example>
+
+<example name="autogen2">
+<text>
+home copying
+</text>
+<arg f="LOC" n="M">home</arg>
+<rel>copying</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

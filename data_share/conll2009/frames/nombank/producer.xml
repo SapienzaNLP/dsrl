@@ -1,0 +1,76 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="producer">
+<roleset id="producer.01" name="create" source="verb-produce.01" vncls="26.7-2">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+OPEC oil producers
+</text>
+<arg n="3">OPEC</arg>
+<arg n="1">oil</arg>
+<arg n="0">producers</arg>
+<rel>producers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a large Canadian producer
+</text>
+<arg f="LOC" n="M">Canadian</arg>
+<arg n="0">producer</arg>
+<rel>producer</rel>
+</example>
+
+</roleset>
+<roleset id="producer.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a senior producer with MacNeil-Lehrer NewsHour
+</text>
+<arg n="3">senior</arg>
+<arg n="0">producer</arg>
+<rel>producer</rel>
+<arg n="2">with MacNeil-Lehrer NewsHour</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The executive producer of `` Saturday Night With Connie Chung
+</text>
+<arg n="3">executive</arg>
+<arg n="0">producer</arg>
+<rel>producer</rel>
+<arg n="1">of `` Saturday Night With Connie Chung</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

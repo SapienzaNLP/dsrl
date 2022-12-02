@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="anonymity">
+<roleset id="anonymity.01" name="attribute/nomadj-anonymous">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+NSC staffers working in relative anonymity
+</text>
+<arg n="1">NSC staffers</arg>
+<arg n="Support">working in</arg>
+<arg f="REF" n="2">anonymity</arg>
+<rel>anonymity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+one government official , insisting on anonymity
+</text>
+<arg n="1">one government official</arg>
+<arg n="Support">insisting on</arg>
+<arg f="REF" n="2">anonymity</arg>
+<rel>anonymity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

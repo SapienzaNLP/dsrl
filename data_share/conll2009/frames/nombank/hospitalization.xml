@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hospitalization">
+<roleset id="hospitalization.01" name="be in or send to (the) hospital" source="verb-hospitalize.01">
+<roles>
+
+<role descr="sender" n="0"></role>
+
+<role descr="injured/ill entity" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+inappropriate hospitalization
+</text>
+<arg f="ADV" n="M">inappropriate</arg>
+<rel>hospitalization</rel>
+</example>
+
+<example name="autogen2">
+<text>
+elective hospitalizations
+</text>
+<arg f="MNR" n="M">elective</arg>
+<rel>hospitalizations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

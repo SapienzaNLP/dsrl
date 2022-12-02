@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tooling">
+<roleset id="tooling.01" name="nomlike" source="verb-prepare.02">
+<roles>
+
+<role descr="preparer" n="0"></role>
+
+<role descr="thing made ready" n="1"></role>
+
+<role descr="ready for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+production tooling and test equipment
+</text>
+<arg n="2">production</arg>
+<rel>tooling</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

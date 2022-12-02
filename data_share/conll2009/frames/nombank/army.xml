@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="army">
+<roleset id="army.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an even more efficient Japanese economic army
+</text>
+<arg n="2">Japanese</arg>
+<arg n="1">economic</arg>
+<rel>army</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the entire Afghan army
+</text>
+<arg n="2">Afghan</arg>
+<rel>army</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

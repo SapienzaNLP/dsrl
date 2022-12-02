@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="advisory">
+<roleset id="advisory.01" name="nom" source="verb-advise.01" vncls="37.9-1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="37.9-1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1" source="2">
+<vnrole vncls="37.9-1" vntheta="Topic"/></role>
+
+<role descr="recipient" n="2" source="1">
+<vnrole vncls="37.9-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the San Francisco investment advisory firm
+</text>
+<arg n="1">investment</arg>
+<rel>advisory</rel>
+<arg n="0">firm</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a real estate advisory , management and development company
+</text>
+<arg n="1">real estate</arg>
+<rel>advisory</rel>
+<arg n="0">company</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

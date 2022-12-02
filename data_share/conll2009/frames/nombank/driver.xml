@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="driver">
+<roleset id="driver.01" name="drive a vehicle" source="verb-drive.01" vncls="11.5-1">
+<roles>
+
+<role descr="driver" n="0">
+<vnrole vncls="11.5-1" vntheta="Agent"/></role>
+
+<role descr="vehicle or path" n="1">
+<vnrole vncls="11.5-1" vntheta="Theme"/></role>
+
+<role descr="person driven" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Taxi Driver
+</text>
+<arg n="1">Taxi</arg>
+<arg n="0">Driver</arg>
+<rel>Driver</rel>
+</example>
+
+<example name="autogen2">
+<text>
+my driver
+</text>
+<arg n="2">my</arg>
+<arg n="0">driver</arg>
+<rel>driver</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

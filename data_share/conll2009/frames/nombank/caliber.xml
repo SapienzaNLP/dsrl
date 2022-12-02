@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="caliber">
+<roleset id="caliber.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a low-caliber weapon
+</text>
+<arg n="2">low-caliber</arg>
+<rel>low-caliber</rel>
+<arg n="1">weapon</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

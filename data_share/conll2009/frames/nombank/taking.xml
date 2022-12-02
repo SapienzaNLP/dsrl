@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="taking">
+<roleset id="taking.01" name="noming/light-verb" source="verb-take.01" vncls="10.5">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+risk-taking by affiliates of brokerage firms
+</text>
+<arg n="1">risk-taking</arg>
+<rel>risk-taking</rel>
+<arg n="0">by affiliates of brokerage firms</arg>
+</example>
+
+<example name="autogen4">
+<text>
+the taking of an unborn life
+</text>
+<rel>taking</rel>
+<arg n="1">of an unborn life</arg>
+</example>
+
+</roleset>
+<roleset id="taking.02" name="take, acquire, come to have" source="verb-take.01" vncls="10.5">
+<roles>
+
+<role descr="taker" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="thing taken" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+<role descr="entity taken from, or prepositional complement of arg1" n="2">
+<vnrole vncls="10.5" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+uncompensated takings from the defendants
+</text>
+<rel>takings</rel>
+<arg n="2">from the defendants</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

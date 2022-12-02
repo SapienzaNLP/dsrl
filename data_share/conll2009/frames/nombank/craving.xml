@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="craving">
+<roleset id="craving.01" name="want a lot" source="verb-crave.01" vncls="32.2">
+<roles>
+
+<role descr="wanter" n="0">
+<vnrole vncls="32.2" vntheta="Experiencer"/></role>
+
+<role descr="thing wanted" n="1">
+<vnrole vncls="32.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their clients to play down complex or ambiguous matters ,
+simplify their messages and provide their target audiences with a
+psychological craving to make the desired choice
+</text>
+<arg n="0">their target audiences</arg>
+<rel>craving</rel>
+<arg f="PRD" n="1">to make the desired choice</arg>
+</example>
+
+<example name="autogen2">
+<text>
+parents ' craving for a top-rated education for their children
+</text>
+<arg n="0">parents '</arg>
+<rel>craving</rel>
+<arg n="1">for a top-rated education for their children</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

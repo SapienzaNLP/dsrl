@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="licensing">
+<roleset id="licensing.01" name="give legal rights to property" source="verb-license.01">
+<roles>
+
+<role descr="granter of license" n="0"></role>
+
+<role descr="licensed thing" n="1"></role>
+
+<role descr="beneficiary, licensed-to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the syndicator and licensing agent for Charles Schulz 's comic
+strip
+</text>
+<rel>licensing</rel>
+<arg n="0">agent</arg>
+<arg n="1">for Charles Schulz 's comic strip</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The optical products company has signed a licensing agreement
+with Photoprotective Technologies Inc. , a closely held firm in
+San Antonio , Texas , which has developed a method to incorporate
+the synthetic melanin into plastic lenses .
+</text>
+<arg n="2">The optical products company</arg>
+<arg n="Support">signed agreement</arg>
+<rel>licensing</rel>
+<arg n="0">
+with Photoprotective Technologies Inc. , a closely held firm in
+San Antonio , Texas , which has developed a method to incorporate
+the synthetic melanin into plastic lenses</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

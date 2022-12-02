@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="information">
+<roleset id="information.01" name="cause to know" source="verb-inform.01">
+<roles>
+
+<role descr="informer" n="0"></role>
+
+<role descr="informed" n="1"></role>
+
+<role descr="information" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Magazines are not providing us in-depth information on
+circulation
+</text>
+<arg n="0">Magazines</arg>
+<arg n="Support">providing</arg>
+<arg n="2">us</arg>
+<rel>information</rel>
+<arg n="1">on circulation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their most critical business information
+</text>
+<arg n="2">their</arg>
+<arg n="1">business</arg>
+<rel>information</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

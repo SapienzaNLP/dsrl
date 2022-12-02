@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="training">
+<roleset id="training.01" name="teach a skill" source="verb-train.01">
+<roles>
+
+<role descr="trainer" n="0"></role>
+
+<role descr="skill" n="1"></role>
+
+<role descr="trainee" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they are not providing compliance and security-type training so
+that we can avoid stupid mistakes
+</text>
+<arg n="0">they</arg>
+<arg n="Support">providing</arg>
+<arg n="1">security-type</arg>
+<rel>training</rel>
+</example>
+
+<example name="autogen2">
+<text>
+four youngsters in training
+</text>
+<arg n="2">four youngsters</arg>
+<rel>training</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

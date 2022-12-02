@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="victim">
+<roleset id="victim.01" name="nom/victim/crisscross" source="verb-prey.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="entity  preyed on" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+vicitims of rape and incest
+</text>
+<arg n="2">vicitims</arg>
+<rel>vicitims</rel>
+<arg n="1">of rape and incest</arg>
+</example>
+
+<example name="autogen3">
+<text>
+their victims
+</text>
+<arg n="0">their</arg>
+<arg n="2">victims</arg>
+<rel>victims</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="logo">
+<roleset id="logo.01" name="call" source="verb-name.01" vncls="29.3">
+<roles>
+
+<role descr="namer" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="named" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="name of arg1" n="2">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the MGM lion's-head logo
+</text>
+<arg n="1">MGM</arg>
+<arg n="2">lion's-head</arg>
+<rel>logo</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the original Pinkerton 's logo with an open eye and the
+inscription `` We Never Sleep , '' which inspired the phrase ``
+private eye
+</text>
+<arg n="1">Pinkerton 's</arg>
+<arg f="TMP" n="M">'s</arg>
+<rel>logo</rel>
+<arg n="2">with an open eye and the inscription `` We Never Sleep , ''</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

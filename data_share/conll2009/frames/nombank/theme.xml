@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="theme">
+<roleset id="theme.01" name="work-of-art/issue">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its Bill of Rights theme
+</text>
+<arg n="0">its</arg>
+<arg n="1">Bill of Rights</arg>
+<rel>theme</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the theme of courtship between the assimilated offspring of
+Jewish and Irish immigrants
+</text>
+<rel>theme</rel>
+<arg n="1">
+of courtship between the assimilated offspring of Jewish and
+Irish immigrants</arg>
+</example>
+
+</roleset>
+<roleset id="theme.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a hotel-casino with a Brazilian theme and only 430 rooms -- all
+of them suites
+</text>
+<arg n="1">a hotel-casino</arg>
+<arg n="2">Brazilian</arg>
+<rel>theme</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its Caesarean theme
+</text>
+<arg n="1">its</arg>
+<arg n="2">Caesarean</arg>
+<rel>theme</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sack">
+<roleset id="sack.01" name="nomlike" source="verb-defeat.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the best punt return , quarterback sack , etc
+</text>
+<arg n="1">quarterback</arg>
+<rel>sack</rel>
+</example>
+
+</roleset>
+<roleset id="sack.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+large burlap sacks of the imported material
+</text>
+<rel>sacks</rel>
+<arg n="1">of the imported material</arg>
+</example>
+
+<example name="autogen2">
+<text>
+sacks of feed
+</text>
+<rel>sacks</rel>
+<arg n="1">of feed</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

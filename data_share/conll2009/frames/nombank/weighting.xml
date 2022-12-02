@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="weighting">
+<roleset id="weighting.01" name="attribute" source="verb-weight.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value/attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Both before and after the Friday plunge , Shearson has maintained
+a recommended portfolio weighting of 65 % stocks , 20 % bonds and
+15 % cash .
+</text>
+<arg n="0">Shearson</arg>
+<arg n="Support">maintained</arg>
+<arg n="1">portfolio</arg>
+<rel>weighting</rel>
+<arg n="2">of 65 % stocks , 20 % bonds and 15 % cash</arg>
+</example>
+
+<example name="autogen2">
+<text>
+portfolio weightings
+</text>
+<arg n="1">portfolio</arg>
+<arg f="REF" n="2">weightings</arg>
+<rel>weightings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

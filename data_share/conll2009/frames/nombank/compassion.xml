@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="compassion">
+<roleset id="compassion.01" name="nomadj-compassionate">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+compassion for her plight
+</text>
+<rel>compassion</rel>
+<arg n="1">for her plight</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

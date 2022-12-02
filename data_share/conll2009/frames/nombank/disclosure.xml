@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disclosure">
+<roleset id="disclosure.01" name="say" source="verb-disclose.01">
+<roles>
+
+<role descr="sayer" n="0"></role>
+
+<role descr="utterance" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+<role descr="attributive" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ford Motor Co. 's disclosure to the U.S. Securities and Exchange
+Commission that it will seek 100 % of Jaguar 's shares
+outstanding when U.K. government share regulations are lifted at
+the end of next year
+</text>
+<arg n="0">Ford Motor Co. 's</arg>
+<rel>disclosure</rel>
+<arg n="1">
+*ICH*-2 ---> that it will seek 100 % of Jaguar 's shares
+outstanding when U.K. government share regulations are lifted at
+the end of next year</arg>
+<arg n="2">to the U.S. Securities and Exchange Commission</arg>
+</example>
+
+<example name="autogen2">
+<text>
+For example , the Herald consistently beat its much-larger rival
+on disclosures about Los Angeles Mayor Tom Bradley 's financial
+dealings .
+</text>
+<arg n="0">the Herald</arg>
+<arg n="Support">beat on</arg>
+<arg f="REF" n="1">disclosures</arg>
+<rel>disclosures</rel>
+<arg n="3">about Los Angeles Mayor Tom Bradley 's financial dealings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

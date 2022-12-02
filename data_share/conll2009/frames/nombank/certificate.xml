@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="certificate">
+<roleset id="certificate.01" name="establish the truth" source="verb-prove.01" vncls="29.4">
+<roles>
+
+<role descr="prover" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="proposition" n="1">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+<role descr="beneficiary, proved-to" n="2">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the operating certificate of any carrier the official considers
+unfit
+</text>
+<arg n="1">operating</arg>
+<rel>certificate</rel>
+<arg n="0">of any carrier the official considers unfit</arg>
+</example>
+
+<example name="autogen2">
+<text>
+CERTIFICATES OF DEPOSIT :
+</text>
+<rel>CERTIFICATES</rel>
+<arg n="1">OF DEPOSIT</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

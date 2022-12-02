@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="use">
+<roleset id="use.01" name="take advantage of, utilise" source="verb-use.01" vncls="29.2">
+<roles>
+
+<role descr="user" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing used" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="purpose" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their use of black and white in advertising
+</text>
+<arg n="0">their</arg>
+<rel>use</rel>
+<arg n="1">of black and white</arg>
+<arg n="2">in advertising</arg>
+</example>
+
+<example name="autogen2">
+<text>
+CFC use in appliance manufacture
+</text>
+<arg n="1">CFC</arg>
+<rel>use</rel>
+<arg n="2">in appliance manufacture</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

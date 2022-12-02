@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="roadblock">
+<roleset id="roadblock.01" name="stop, prevent" source="verb-bar.01">
+<roles>
+
+<role descr="stopper, agent" n="0"></role>
+
+<role descr="action or object being prevented" n="1"></role>
+
+<role descr="secondary predication on action" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Politics has essentially put up a roadblock '' to finding sites
+for new federal prisons
+</text>
+<arg n="0">Politics</arg>
+<arg n="Support">put</arg>
+<rel>roadblock</rel>
+<arg f="PRD" n="1">to finding sites for new federal prisons</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Each new trading roadblock
+</text>
+<arg n="1">trading</arg>
+<rel>roadblock</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

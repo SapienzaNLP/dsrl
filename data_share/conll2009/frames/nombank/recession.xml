@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recession">
+<roleset id="recession.01" name="put into a lower position" source="verb-recess.01">
+<roles>
+
+<role descr="placer, putter, agent" n="0"></role>
+
+<role descr="thing in lower position" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+throwing the economy into a recession
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">throwing into</arg>
+<arg n="1">the economy</arg>
+<rel>recession</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a local economy in recession
+</text>
+<arg n="1">a local economy</arg>
+<rel>recession</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

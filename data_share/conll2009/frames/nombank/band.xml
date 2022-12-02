@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="band">
+<roleset id="band.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its own `` band '' of ringers , who would herald every Sunday
+morning and evening service
+</text>
+<arg n="2">its</arg>
+<rel>band</rel>
+<arg n="1">of ringers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Ahmad Jibril , whose terrorist band is blamed for the Pan Am 103
+bombing ,
+</text>
+<arg n="2">Ahmad Jibril ---> whose</arg>
+<arg n="1">terrorist</arg>
+<rel>band</rel>
+</example>
+
+</roleset>
+<roleset id="band.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+an FM radio band
+</text>
+<arg n="2">FM</arg>
+<arg n="1">radio</arg>
+<rel>band</rel>
+</example>
+
+<example name="autogen3">
+<text>
+The FM radio band
+</text>
+<arg n="2">FM</arg>
+<arg n="1">radio</arg>
+<rel>band</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

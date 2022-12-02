@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aberration">
+<roleset id="aberration.01" name="to make an error or a mistake" source="verb-err.01">
+<roles>
+
+<role descr="mistaken entity, agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a colonial aberration
+</text>
+<arg f="MNR" n="M">colonial</arg>
+<rel>aberration</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

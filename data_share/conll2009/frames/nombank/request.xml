@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="request">
+<roleset id="request.01" name="ask a favor, ask a request, ask for" source="verb-request.01">
+<roles>
+
+<role descr="asker" n="0"></role>
+
+<role descr="favor" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Lawmakers scrapped all of a $ 7.4 million State Department
+request for the 1992 Expo in Seville , Spain , but agreed
+elsewhere to $ 15,000 for an oil portrait of former Chief Justice
+Warren Burger .
+</text>
+<arg n="2">Lawmakers</arg>
+<arg n="Support">scrapped all of</arg>
+<arg n="1">$ 7.4 million</arg>
+<arg n="0">State Department</arg>
+<rel>request</rel>
+<arg n="3">for the 1992 Expo in Seville , Spain</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 20 million Bush request for his state
+</text>
+<arg n="1">$ 20 million</arg>
+<arg n="0">Bush</arg>
+<rel>request</rel>
+<arg n="3">for his state</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

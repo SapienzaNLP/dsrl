@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="median">
+<roleset id="median.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+State housing prices , at a median $ 201,028 ,
+</text>
+<arg n="1">State housing prices</arg>
+<arg f="REF" n="2">median</arg>
+<rel>median</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the median of a 2.5-mile stretch of the Harbor Freeway just south
+of Los Angeles , near the Memorial Coliseum
+</text>
+<arg f="REF" n="2">median</arg>
+<rel>median</rel>
+<arg n="1">
+of a 2.5-mile stretch of the Harbor Freeway just south of Los
+Angeles , near the Memorial Coliseum</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="repository">
+<roleset id="repository.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+proper repositories for making distinctions about pop singers
+</text>
+<arg n="0">repositories</arg>
+<rel>repositories</rel>
+<arg n="1">for making distinctions about pop singers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

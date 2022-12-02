@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rage">
+<roleset id="rage.01" name="be very angry, violent" source="verb-rage.02">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a family 's rage , bitterness , fear and isolation
+</text>
+<arg n="0">a family 's</arg>
+<rel>rage</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their brotherly love -- and resentment and frustration and rage
+--
+</text>
+<arg n="0">their</arg>
+<rel>rage</rel>
+</example>
+
+</roleset>
+<roleset id="rage.02" name="nomadjlike-popular">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary/audience" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the thin-tired racing bikes that then were the rage
+</text>
+<arg n="1">the thin-tired racing bikes ---> that ---> *T*-1</arg>
+<rel>rage</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Soviet joint ventures were the rage in the West
+</text>
+<arg n="1">Soviet joint ventures</arg>
+<rel>rage</rel>
+<arg n="2">in the West</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

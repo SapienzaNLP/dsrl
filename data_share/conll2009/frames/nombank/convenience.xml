@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="convenience">
+<roleset id="convenience.01" name="nomadj-convenient">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the compact packaging and convenience of concentrated products
+</text>
+<rel>convenience</rel>
+<arg n="1">of concentrated products</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the processors and convenience phones
+</text>
+<rel>convenience</rel>
+<arg n="1">phones</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

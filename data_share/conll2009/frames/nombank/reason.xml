@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reason">
+<roleset id="reason.01" name="ability-without-agent">
+<roles>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a reason for halting its plan to acquire the airline
+</text>
+<rel>reason</rel>
+<arg n="1">for halting its plan to acquire the airline</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a reason the stock market was down early in Friday 's session ,
+before it got started on its reckless 190-point plunge
+</text>
+<rel>reason</rel>
+<arg n="1">
+the stock market was down early in Friday 's session , before it
+got started on its reckless 190-point plunge</arg>
+</example>
+
+</roleset>
+<roleset id="reason.02" name="justify" source="verb-motivate.02">
+<roles>
+
+<role descr="justifier" n="0"></role>
+
+<role descr="decision or attitude being shown to be right" n="1"></role>
+
+<role descr="explicit instrument" n="2"></role>
+
+<role descr="secondary predication on arg1" n="3"></role>
+
+<role descr="beneficiary, justified to" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Due to health reasons , Lt. Col. Noriega has elected to postpone
+his visit to Washington
+</text>
+<arg n="2">health</arg>
+<rel>reasons</rel>
+<arg n="0">Lt. Col. Noriega</arg>
+<arg n="1">has elected to postpone his visit to Washington</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his departure was for `` personal reasons , '' which he declined
+to specify
+</text>
+<arg n="1">his departure</arg>
+<arg n="2">personal</arg>
+<rel>reasons</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

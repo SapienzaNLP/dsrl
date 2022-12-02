@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="holding">
+<roleset id="holding.01" name="grasp, bear" source="verb-hold.01" vncls="15.1">
+<roles>
+
+<role descr="holder" n="0">
+<vnrole vncls="15.1" vntheta="Agent"/></role>
+
+<role descr="thing held" n="1">
+<vnrole vncls="15.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="secondary attribute of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their junk holdings
+</text>
+<arg n="0">their</arg>
+<arg n="1">junk</arg>
+<rel>holdings</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a 51 % holding in Rockefeller Group , the owner of some of
+midtown Manhattan 's most exclusive real estate
+</text>
+<arg n="3">51 %</arg>
+<rel>holding</rel>
+<arg n="1">
+in Rockefeller Group , the owner of some of midtown Manhattan 's
+most exclusive real estate</arg>
+</example>
+
+</roleset>
+<roleset id="holding.02" name="last, persevere" source="verb-hold.03">
+<roles>
+
+<role descr="thing lasting" n="1"></role>
+
+<role descr="description of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A holding pattern
+</text>
+<rel>holding</rel>
+<arg n="1">pattern</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

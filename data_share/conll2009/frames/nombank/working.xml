@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="working">
+<roleset id="working.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the workings of the recently formed Resolution Trust Corp. , a
+federal agency charged with disposing of an estimated $ 200
+billion of real estate dumped in government hands by insolvent
+savings and loans
+</text>
+<arg f="REF" n="2">workings</arg>
+<rel>workings</rel>
+<arg n="1">
+of the recently formed Resolution Trust Corp. , a federal agency
+charged with disposing of an estimated $ 200 billion of real
+estate dumped in government hands by insolvent savings and loans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the suspension 's inner workings
+</text>
+<arg n="1">the suspension 's</arg>
+<arg f="REF" n="2">workings</arg>
+<rel>workings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

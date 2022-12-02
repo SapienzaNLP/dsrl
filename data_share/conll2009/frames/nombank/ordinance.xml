@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ordinance">
+<roleset id="ordinance.01" name="supervise, watch over" source="verb-regulate.01">
+<roles>
+
+<role descr="regulator" n="0"></role>
+
+<role descr="thing regulated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Pittsburgh suburb 's zoning ordinance
+</text>
+<arg n="0">a Pittsburgh suburb 's</arg>
+<arg n="1">zoning</arg>
+<rel>ordinance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+anti-profiteering ordinances
+</text>
+<arg n="1">anti-profiteering</arg>
+<rel>ordinances</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

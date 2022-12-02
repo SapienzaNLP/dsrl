@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="complex">
+<roleset id="complex.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its 18-screen theater complex in Universal City , Calif. ,
+</text>
+<arg n="2">its</arg>
+<arg n="1">theater</arg>
+<rel>complex</rel>
+<arg f="LOC" n="M">in Universal City , Calif. ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its convention and headquarters complex
+</text>
+<arg n="2">its</arg>
+<arg n="1">convention and headquarters</arg>
+<rel>complex</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

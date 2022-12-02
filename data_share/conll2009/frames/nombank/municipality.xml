@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="municipality">
+<roleset id="municipality.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+every other municipality and state in the country
+</text>
+<rel>municipality</rel>
+<arg n="1">in the country</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

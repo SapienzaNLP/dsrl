@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="frustration">
+<roleset id="frustration.01" name="cause angst" source="verb-frustrate.01">
+<roles>
+
+<role descr="cause" n="0"></role>
+
+<role descr="experiencer" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Democratic frustration with the Reagan victories and Court
+appointments , the contingency plans in place , and Mr. Bork 's
+paper trail of vulnerable writings
+</text>
+<arg n="1">Democratic</arg>
+<rel>frustration</rel>
+<arg n="0">
+with the Reagan victories and Court appointments , the
+contingency plans in place , and Mr. Bork 's paper trail of
+vulnerable writings</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their brotherly love -- and resentment and frustration and rage
+--
+</text>
+<arg n="1">their</arg>
+<rel>frustration</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

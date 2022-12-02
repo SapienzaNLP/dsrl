@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="contracting">
+<roleset id="contracting.01" name="enter into a contract" source="verb-contract.02">
+<roles>
+
+<role descr="causer of contract" n="0"></role>
+
+<role descr="reason, purpose" n="1"></role>
+
+<role descr="contracted with" n="2"></role>
+
+<role descr="payment ammount" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the contracting out of work by the company
+</text>
+<rel>contracting</rel>
+<arg n="1">of work</arg>
+<arg n="2">by the company</arg>
+</example>
+
+<example name="autogen2">
+<text>
+defense contracting
+</text>
+<arg n="1">defense</arg>
+<rel>contracting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="expenditure">
+<roleset id="expenditure.01" name="use money" source="verb-spend.01">
+<roles>
+
+<role descr="spender, buyer" n="0"></role>
+
+<role descr="thing bought, commodity" n="1"></role>
+
+<role descr="seller" n="2"></role>
+
+<role descr="price paid, money" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any Treasury Department expenditure for enforcement of a 1986 tax
+provision intended to counter discrimination in employee-benefit
+plans
+</text>
+<arg n="0">Treasury Department</arg>
+<rel>expenditure</rel>
+<arg n="1">
+for enforcement of a 1986 tax provision intended to counter
+discrimination in employee-benefit plans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+corporations are in the unusual position of having plenty of cash
+left over after paying dividends and making capital expenditures
+</text>
+<arg n="0">corporations ---> *-2 ---> *-1</arg>
+<arg n="Support">making</arg>
+<arg n="3">capital</arg>
+<rel>expenditures</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

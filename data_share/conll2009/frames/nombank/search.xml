@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="search">
+<roleset id="search.01" name="search, seek" source="verb-search.01" vncls="35.2">
+<roles>
+
+<role descr="searcher" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="searched for" n="1">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his search for the Reuters shares
+</text>
+<arg n="0">his</arg>
+<rel>search</rel>
+<arg n="1">for the Reuters shares</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the search for `` a real computer in a package so small you can
+take it everywhere
+</text>
+<rel>search</rel>
+<arg n="1">
+for `` a real computer in a package so small you can take it
+everywhere</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

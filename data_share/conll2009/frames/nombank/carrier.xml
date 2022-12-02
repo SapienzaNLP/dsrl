@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="carrier">
+<roleset id="carrier.01" name="bring with, have" source="verb-carry.01" vncls="11.4">
+<roles>
+
+<role descr="carrier" n="0">
+<vnrole vncls="11.4" vntheta="Agent"/></role>
+
+<role descr="thing carried" n="1">
+<vnrole vncls="11.4" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="with' reflecting back on arg0" n="3"></role>
+
+<role descr="beneficiary (predicted but not seen" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+air carriers
+</text>
+<arg n="1">air</arg>
+<arg n="0">carriers</arg>
+<rel>carriers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+any U.S. carrier
+</text>
+<arg f="LOC" n="M">U.S.</arg>
+<arg n="0">carrier</arg>
+<rel>carrier</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

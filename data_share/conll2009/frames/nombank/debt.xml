@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="debt">
+<roleset id="debt.01" name="give temporarily" source="verb-loan.01" vncls="13.1-1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its $ 39 billion foreign debt
+</text>
+<arg n="2">its</arg>
+<arg n="1">$ 39 billion</arg>
+<arg n="0">foreign</arg>
+<rel>debt</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the remaining C$ 349 million of Mexican debt
+</text>
+<arg n="1">C$ 349 million</arg>
+<arg n="2">Mexican</arg>
+<rel>debt</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brother">
+<roleset id="brother.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Noriega 's half-brother
+</text>
+<arg n="1">Mr. Noriega 's</arg>
+<arg n="0">half-brother</arg>
+<arg n="3">half-brother</arg>
+<rel>half-brother</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her brother Michael
+</text>
+<arg n="1">her</arg>
+<arg n="0">brother</arg>
+<rel>brother</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

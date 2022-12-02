@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reconciliation">
+<roleset id="reconciliation.01" name="to accommodate, settle, accept" source="verb-reconcile.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="reconciled to/with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mubarak held reconciliation talks with Gadhafi at the Egyptian
+resort of Mersa Metruh .
+</text>
+<arg n="0">Mubarak</arg>
+<arg n="Support">held talks</arg>
+<rel>reconciliation</rel>
+<arg n="1">with Gadhafi</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The budget reconciliation
+</text>
+<arg n="1">budget</arg>
+<rel>reconciliation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

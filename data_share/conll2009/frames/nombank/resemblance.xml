@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resemblance">
+<roleset id="resemblance.01" name="seem like" source="verb-resemble.01">
+<roles>
+
+<role descr="copy" n="1"></role>
+
+<role descr="original" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But its performance did bear some resemblance to events of two
+years ago , during the October 1987 global stock market crash .
+</text>
+<arg n="1">its performance</arg>
+<arg n="Support">bear</arg>
+<rel>resemblance</rel>
+<arg n="2">
+to events of two years ago , during the October 1987 global stock
+market crash</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The style throughout bears a strong resemblance to Chandler 's
+prose at its most pared down .
+</text>
+<arg n="1">The style throughout</arg>
+<arg n="Support">bears</arg>
+<arg f="MNR" n="M">strong</arg>
+<rel>resemblance</rel>
+<arg n="2">to Chandler 's prose at its most pared down</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

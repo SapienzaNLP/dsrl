@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="seer">
+<roleset id="seer.01" name="view" source="verb-see.01" vncls="29.2">
+<roles>
+
+<role descr="viewer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing viewed" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the flamboyant market seer
+</text>
+<arg n="1">market</arg>
+<arg n="0">seer</arg>
+<rel>seer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

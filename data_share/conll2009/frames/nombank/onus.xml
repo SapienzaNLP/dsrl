@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="onus">
+<roleset id="onus.01" name="nomlike" source="verb-burden.01" vncls="13.4.2">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="13.4.2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1" source="2">
+<vnrole vncls="13.4.2" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2" source="1">
+<vnrole vncls="13.4.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` Wilder has managed to get across the idea that Coleman will
+say anything to get elected governor and -- more important -- has
+been able to put the onus for all the negative campaigning on
+Coleman . ''
+</text>
+<arg n="0">Wilder ---> *-1</arg>
+<arg n="Support">put</arg>
+<rel>onus</rel>
+<arg n="1">for all the negative campaigning</arg>
+<arg n="2">on Coleman</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Meanwhile , bond investors are laboring under the onus of a
+national debt ceiling debate .
+</text>
+<arg n="2">bond investors</arg>
+<arg n="Support">laboring under</arg>
+<rel>onus</rel>
+<arg n="1">of a national debt ceiling debate</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

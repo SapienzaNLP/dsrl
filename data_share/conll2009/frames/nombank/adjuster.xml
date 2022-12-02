@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="adjuster">
+<roleset id="adjuster.01" name="change (slightly" source="verb-adjust.01">
+<roles>
+
+<role descr="causer of transformation" n="0"></role>
+
+<role descr="thing changing" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+<role descr="purpose, reason for adjustment" n="4"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+claims adjusters
+</text>
+<arg n="1">claims</arg>
+<arg n="0">adjusters</arg>
+<rel>adjusters</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the claims adjusters
+</text>
+<arg n="1">claims</arg>
+<arg n="0">adjusters</arg>
+<rel>adjusters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

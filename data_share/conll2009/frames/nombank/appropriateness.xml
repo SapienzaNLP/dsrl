@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="appropriateness">
+<roleset id="appropriateness.01" name="attribute/nomadj-appropriate">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the appropriateness of recommended treatment
+</text>
+<arg f="REF" n="2">appropriateness</arg>
+<rel>appropriateness</rel>
+<arg n="1">of recommended treatment</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the appropriateness of patient care
+</text>
+<arg f="REF" n="2">appropriateness</arg>
+<rel>appropriateness</rel>
+<arg n="1">of patient care</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="equation">
+<roleset id="equation.01" name="work-of-art/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the FDA bioequivalence-therapeutic-equivalence equation
+</text>
+<arg n="0">FDA</arg>
+<arg n="1">bioequivalence-therapeutic-equivalence</arg>
+<arg f="REF" n="2">equation</arg>
+<rel>equation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the leverage equation
+</text>
+<arg n="1">leverage</arg>
+<arg f="REF" n="2">equation</arg>
+<rel>equation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

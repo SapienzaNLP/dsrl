@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cabinet">
+<roleset id="cabinet.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+more than 100 boxes and file cabinets of documents
+</text>
+<rel>cabinets</rel>
+<arg n="1">of documents</arg>
+</example>
+
+</roleset>
+<roleset id="cabinet.02" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The 19-member cabinet is led by Prime Minister Jan Syse , who
+acknowledged a `` difficult situation '' since the coalition
+controls only 62 seats in Oslo 's 165-member legislature .
+</text>
+<arg n="1">19-member</arg>
+<rel>cabinet</rel>
+<arg n="Support">led</arg>
+<arg n="2">
+by Prime Minister Jan Syse , who acknowledged a `` difficult
+situation '' since the coalition controls only 62 seats in Oslo
+'s 165-member legislature</arg>
+</example>
+
+<example name="autogen2">
+<text>
+former Gandhi cabinet minister Vishwanath Pratap Singh
+</text>
+<arg n="2">Gandhi</arg>
+<rel>cabinet</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

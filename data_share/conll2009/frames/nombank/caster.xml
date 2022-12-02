@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="caster">
+<roleset id="caster.01" name="cover, throw" source="verb-cast.01">
+<roles>
+
+<role descr="thrower" n="0"></role>
+
+<role descr="thing thrown" n="1"></role>
+
+<role descr="thrown over, covered" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a so-called spin caster
+</text>
+<arg n="1">spin</arg>
+<arg n="0">caster</arg>
+<rel>caster</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="acre">
+<roleset id="acre.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+19 acres of land
+</text>
+<rel>acres</rel>
+<arg n="1">of land</arg>
+</example>
+
+<example name="autogen2">
+<text>
+nearly 40,000 acres of raw land with development potential
+</text>
+<rel>acres</rel>
+<arg n="1">of raw land with development potential</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

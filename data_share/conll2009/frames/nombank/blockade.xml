@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blockade">
+<roleset id="blockade.01" name="oppose, halt, stop" source="verb-block.01" vncls="16">
+<roles>
+
+<role descr="blocker, agent" n="0">
+<vnrole vncls="16" vntheta="Agent"/></role>
+
+<role descr="theme (action or object being stopped" n="1">
+<vnrole vncls="16" vntheta="Theme"/></role>
+
+<role descr="secondary predication" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a guerrilla blockade on the strategic Salang Highway
+</text>
+<arg n="0">guerrilla</arg>
+<rel>blockade</rel>
+<arg n="1">on the strategic Salang Highway</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Israel 's army lifted a blockade around a Palestinian town in the
+occupied West Bank , ending a 42-day campaign of seizing cars ,
+furniture and other goods to crush a tax boycott .
+</text>
+<arg n="0">Israel 's army</arg>
+<arg n="Support">lifted</arg>
+<rel>blockade</rel>
+<arg n="1">around a Palestinian town in the occupied West Bank</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

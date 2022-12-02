@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="optimism">
+<roleset id="optimism.01" name="nomadj-optimistic">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+market optimism about the prospects for its newly introduced
+notebook-sized computer
+</text>
+<arg n="0">market</arg>
+<rel>optimism</rel>
+<arg n="1">
+about the prospects for its newly introduced notebook-sized
+computer</arg>
+</example>
+
+<example name="autogen2">
+<text>
+optimism that the company 's ABC television network will continue
+to fare well in the ratings
+</text>
+<rel>optimism</rel>
+<arg n="1">
+that the company 's ABC television network will continue to fare
+well in the ratings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

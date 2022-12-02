@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fortune">
+<roleset id="fortune.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Zurich-based magazine Bilanz lists Mr. Rey as having a fortune of
+about 1.5 billion Swiss francs .
+</text>
+<arg n="1">Mr. Rey ---> *-1</arg>
+<arg n="Support">having</arg>
+<rel>fortune</rel>
+<arg n="2">of about 1.5 billion Swiss francs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the fortunes of a close-knit team of young , high-flying dealers
+, hired for their particular blend of style , genius and energy
+</text>
+<arg f="REF" n="2">fortunes</arg>
+<rel>fortunes</rel>
+<arg n="1">
+of a close-knit team of young , high-flying dealers , hired for
+their particular blend of style , genius and energy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ending">
+<roleset id="ending.01" name="cause to stop" source="verb-end.01" vncls="55.1">
+<roles>
+
+<role descr="intentional agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="thing ending" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="explicit instrument, thing ended with" n="2"></role>
+
+<role descr="point at which something ends" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+different endings for a movie
+</text>
+<rel>endings</rel>
+<arg n="1">for a movie</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the ending of this unsustainable inflation
+</text>
+<rel>ending</rel>
+<arg n="1">of this unsustainable inflation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="constituent">
+<roleset id="constituent.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen4">
+<text>
+their constituents
+</text>
+<arg n="1">their</arg>
+<arg n="0">constituents</arg>
+<rel>constituents</rel>
+</example>
+
+<example name="autogen5">
+<text>
+Any individual legislator 's constituents
+</text>
+<arg n="1">Any individual legislator 's</arg>
+<arg n="0">constituents</arg>
+<rel>constituents</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

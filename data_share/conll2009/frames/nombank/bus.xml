@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bus">
+<roleset id="bus.01" name="stretch" source="verb-stretch.01">
+<roles>
+
+<role descr="ext or tmp, by how much or until when" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bus from Mill Valley in Marin County
+</text>
+<rel>bus</rel>
+<arg n="3">from Mill Valley in Marin County</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a free shuttle bus to a health club , which offered up its
+showers , saunas and hot tubs
+</text>
+<rel>bus</rel>
+<arg n="4">
+to a health club , which offered up its showers , saunas and hot
+tubs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

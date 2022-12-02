@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="intrusion">
+<roleset id="intrusion.01" name="put into without invitation" source="verb-intrude.01" vncls="48.1.2">
+<roles>
+
+<role descr="putter" n="0">
+<vnrole vncls="48.1.2" vntheta="Agent"/></role>
+
+<role descr="thing put" n="1">
+<vnrole vncls="48.1.2" vntheta="Theme"/></role>
+
+<role descr="where put" n="2">
+<vnrole vncls="48.1.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the intrusion of politics into literature
+</text>
+<rel>intrusion</rel>
+<arg n="1">of politics</arg>
+<arg n="2">into literature</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an intrusion on the Bill of Rights
+</text>
+<rel>intrusion</rel>
+<arg n="2">on the Bill of Rights</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

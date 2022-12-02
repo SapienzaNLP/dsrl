@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bottleneck">
+<roleset id="bottleneck.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The record corn-buying binge by the Soviet Union is causing
+serious bottlenecks in the U.S. grain pipeline .
+</text>
+<arg n="2">The record corn-buying binge by the Soviet Union</arg>
+<arg n="Support">causing</arg>
+<rel>bottlenecks</rel>
+<arg n="1">in the U.S. grain pipeline</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the bottleneck in copper production
+</text>
+<arg f="REF" n="2">bottleneck</arg>
+<rel>bottleneck</rel>
+<arg n="1">in copper production</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,95 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crack">
+<roleset id="crack.01" name="make a cracking noise" source="verb-crack.01" vncls="43.2">
+<roles>
+
+<role descr="shaker" n="0">
+<vnrole vncls="43.2" vntheta="Agent"/></role>
+
+<role descr="thing shaking" n="1">
+<vnrole vncls="43.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a crack of the bat
+</text>
+<rel>crack</rel>
+<arg n="0">of the bat</arg>
+</example>
+
+</roleset>
+<roleset id="crack.02" name="break, but not into pieces" source="verb-crack.02" vncls="45.1">
+<roles>
+
+<role descr="breaker" n="0">
+<vnrole vncls="45.1" vntheta="Agent"/></role>
+
+<role descr="thing broken" n="1">
+<vnrole vncls="45.1" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="45.1" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+large cracks in the walls
+</text>
+<rel>cracks</rel>
+<arg n="1">in the walls</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Many hairline cracks in the concrete slabs afterwards .
+</text>
+<rel>cracks</rel>
+<arg n="1">in the concrete slabs</arg>
+</example>
+
+</roleset>
+<roleset id="crack.03" name="witty remark" source="verb-crack.03">
+<roles>
+
+<role descr="joker" n="0"></role>
+
+<role descr="joke" n="1" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the crack about his being a `` tool-and-die man ''
+</text>
+<rel>crack</rel>
+<arg n="1">about his being a `` tool-and-die man ''</arg>
+</example>
+
+</roleset>
+<roleset id="crack.04" name="nomlike" source="verb-attempt.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The few big state farms take first crack at what does get made .
+</text>
+<arg n="0">The few big state farms</arg>
+<arg n="Support">take</arg>
+<arg f="TMP" n="M">first</arg>
+<rel>crack</rel>
+<arg n="1">at what does get made</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="homework">
+<roleset id="homework.01" name="work" source="verb-work.01">
+<roles>
+
+<role descr="worker" n="0"></role>
+
+<role descr="job, project" n="1"></role>
+
+<role descr="employer/teacher" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their homework
+</text>
+<arg n="0">their</arg>
+<rel>homework</rel>
+</example>
+
+<example name="autogen2">
+<text>
+they did on class attendance and homework combined
+</text>
+<arg n="0">they</arg>
+<arg n="Support">did on</arg>
+<rel>homework</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

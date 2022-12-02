@@ -1,0 +1,88 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="buy">
+<roleset id="buy.01" name="purchase (verb nom" source="verb-buy.01" vncls="13.5.1">
+<roles>
+
+<role descr="buyer" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing bought" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="seller" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="price paid" n="3">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+hundred-thousand-share buy orders for UAL
+</text>
+<arg n="3">hundred-thousand-share</arg>
+<rel>buy</rel>
+<arg n="Support">orders</arg>
+<arg n="1">for UAL</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Almost simultaneously , PaineWebber began a very visible buy
+program for dozens of stocks .
+</text>
+<arg n="0">PaineWebber</arg>
+<arg n="Support">began program</arg>
+<rel>buy</rel>
+<arg n="1">for dozens of stocks</arg>
+</example>
+
+</roleset>
+<roleset id="buy.02" name="arg1 nom" source="verb-buy.01" vncls="13.5.1">
+<roles>
+
+<role descr="buyer" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing bought" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="seller" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="price paid" n="3">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Moon 's lavish international conferences , speaking tours ,
+and assorted land buys
+</text>
+<arg n="0">Mr. Moon 's</arg>
+<arg n="1">land</arg>
+<rel>buys</rel>
+</example>
+
+<example name="autogen2">
+<text>
+five brokerage houses that consider the stock a buy
+</text>
+<arg n="0">five brokerage houses ---> that ---> *T*-1</arg>
+<arg n="Support">consider</arg>
+<arg n="1">buy</arg>
+<rel>buy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="indicator">
+<roleset id="indicator.01" name="show" source="verb-indicate.01">
+<roles>
+
+<role descr="indicator" n="0"></role>
+
+<role descr="thing indicated" n="1"></role>
+
+<role descr="indicated to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the government 's economic indicators
+</text>
+<arg n="2">the government 's</arg>
+<arg n="1">economic</arg>
+<arg n="0">indicators</arg>
+<rel>indicators</rel>
+</example>
+
+<example name="autogen2">
+<text>
+September leading indicators
+</text>
+<arg f="TMP" n="M">September</arg>
+<arg n="0">indicators</arg>
+<rel>indicators</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

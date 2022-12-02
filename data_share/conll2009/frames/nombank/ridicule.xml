@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ridicule">
+<roleset id="ridicule.01" name="make fun of" source="verb-ridicule.01" vncls="33">
+<roles>
+
+<role descr="ridiculer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="ridiculous thing" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="cause of ridiculosity" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Beantown scribes , who spare no invective when taking on local
+luminaries such as Michael `` Pee Wee '' Dukakis , or New England
+Patriots Coach Raymond `` Rev. Ray '' Berry , yesterday poured
+ridicule on new drawings of Globe columnists that replaced old
+photos in the revamped pages this week .
+</text>
+<arg n="0">
+Beantown scribes , who spare no invective when taking on local
+luminaries such as Michael `` Pee Wee '' Dukakis , or New England
+Patriots Coach Raymond `` Rev. Ray '' Berry ,</arg>
+<arg n="Support">poured</arg>
+<rel>ridicule</rel>
+<arg n="1">
+on new drawings of Globe columnists that replaced old photos in
+the revamped pages this week</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Their ridicule of him
+</text>
+<arg n="0">Their</arg>
+<rel>ridicule</rel>
+<arg n="1">of him</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

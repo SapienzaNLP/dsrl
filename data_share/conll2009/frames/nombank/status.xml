@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="status">
+<roleset id="status.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its legal status as a real estate investment trust
+</text>
+<arg n="1">its</arg>
+<rel>status</rel>
+<arg n="2">as a real estate investment trust</arg>
+</example>
+
+<example name="autogen2">
+<text>
+senior status
+</text>
+<arg n="2">senior</arg>
+<rel>status</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

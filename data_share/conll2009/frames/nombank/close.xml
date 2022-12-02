@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="close">
+<roleset id="close.01" name="attribute">
+<roles>
+
+<role descr="thing closing" n="1"></role>
+
+<role descr="end point" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its close of 2233.9 the previous Friday
+</text>
+<arg n="1">its</arg>
+<rel>close</rel>
+<arg n="2">of 2233.9</arg>
+<arg f="TMP" n="M">the previous Friday</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Wednesday 's Tokyo close of 143.08 yen
+</text>
+<arg f="TMP" n="M">Wednesday 's</arg>
+<arg f="LOC" n="M">Tokyo</arg>
+<rel>close</rel>
+<arg n="2">of 143.08 yen</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

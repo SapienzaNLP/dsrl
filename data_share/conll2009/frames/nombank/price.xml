@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="price">
+<roleset id="price.01" name="cf cost" source="verb-price.01" vncls="54.4">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="54.4" vntheta="Agent"/></role>
+
+<role descr="commodity" n="1">
+<vnrole vncls="54.4" vntheta="Theme"/></role>
+
+<role descr="price" n="2">
+<vnrole vncls="54.4" vntheta="Attribute"/></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+As the good times rolled they more than doubled their prices for
+pulp , a raw material used in all sorts of paper , to $ 830 a
+metric ton this past spring from $ 380 a ton at the start of 1986
+.
+</text>
+<arg n="0">their</arg>
+<rel>prices</rel>
+<arg n="1">for pulp , a raw material used in all sorts of paper ,</arg>
+<arg n="2">to $ 830 a metric ton this past spring</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its stock price
+</text>
+<arg n="3">its</arg>
+<arg n="1">stock</arg>
+<arg f="REF" n="2">price</arg>
+<rel>price</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brokerage">
+<roleset id="brokerage.01" name="to arrange or manage as a broker" source="verb-broker.01">
+<roles>
+
+<role descr="arranger, agent" n="0"></role>
+
+<role descr="entity brokered" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+this insurance firm 's reinsurance brokerage group
+</text>
+<arg n="2">this insurance firm 's</arg>
+<arg n="1">reinsurance</arg>
+<arg n="0">brokerage</arg>
+<rel>brokerage</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the many small penny-stock firms whose brokerage licenses are
+routinely revoked
+</text>
+<arg n="2">whose</arg>
+<arg n="0">brokerage</arg>
+<rel>brokerage</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

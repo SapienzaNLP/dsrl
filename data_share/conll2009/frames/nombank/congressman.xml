@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="congressman">
+<roleset id="congressman.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a congressman from Georgia
+</text>
+<arg n="0">congressman</arg>
+<rel>congressman</rel>
+<arg n="1">from Georgia</arg>
+</example>
+
+<example name="autogen2">
+<text>
+visiting U.S. congressmen
+</text>
+<arg n="1">U.S.</arg>
+<arg n="0">congressmen</arg>
+<rel>congressmen</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

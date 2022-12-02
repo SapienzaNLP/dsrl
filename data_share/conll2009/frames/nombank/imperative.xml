@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="imperative">
+<roleset id="imperative.01" name="need" source="verb-need.01" vncls="32.1">
+<roles>
+
+<role descr="needer" n="0">
+<vnrole vncls="32.1" vntheta="Experiencer"/></role>
+
+<role descr="thing needed" n="1">
+<vnrole vncls="32.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the domestic political imperatives of West Germany
+</text>
+<arg f="LOC" n="M">domestic</arg>
+<arg f="MNR" n="M">political</arg>
+<arg f="REF" n="1">imperatives</arg>
+<rel>imperatives</rel>
+<arg n="0">of West Germany</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

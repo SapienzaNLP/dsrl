@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="morale">
+<roleset id="morale.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+students with higher morale and superior academic performance
+</text>
+<arg n="1">students</arg>
+<arg n="2">higher</arg>
+<rel>morale</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their own morale
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">morale</arg>
+<rel>morale</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

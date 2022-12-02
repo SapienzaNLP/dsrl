@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="match">
+<roleset id="match.01" name="match" source="verb-match.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="theme2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Rockefeller may well have found its match in Mitsubishi Estate ,
+a company of long history , strong government ties and sound
+resources .
+</text>
+<arg n="1">its</arg>
+<rel>match</rel>
+<arg n="2">
+in Mitsubishi Estate , a company of long history , strong
+government ties and sound resources</arg>
+</example>
+
+<example name="autogen2">
+<text>
+no match for the Cannes Film Festival in terms of prestige
+</text>
+<arg f="NEG" n="M">no</arg>
+<arg f="REF" n="2">match</arg>
+<rel>match</rel>
+<arg n="1">for the Cannes Film Festival</arg>
+</example>
+
+</roleset>
+<roleset id="match.02" name="compete, vie" source="verb-compete.01" vncls="36.1">
+<roles>
+
+<role descr="competitor" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="opponent" n="2" source="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="prize" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the famous yachting match
+</text>
+<arg n="1">yachting</arg>
+<rel>match</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a whirlwind bidding match
+</text>
+<arg f="MNR" n="M">whirlwind</arg>
+<arg n="1">bidding</arg>
+<rel>match</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

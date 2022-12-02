@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thicket">
+<roleset id="thicket.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a thicket of long hair
+</text>
+<rel>thicket</rel>
+<arg n="1">of long hair</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the regulatory thicket
+</text>
+<arg n="1">regulatory</arg>
+<rel>thicket</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

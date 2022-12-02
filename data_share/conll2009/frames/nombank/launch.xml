@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="launch">
+<roleset id="launch.01" name="introduce, bring up, start" source="verb-launch.01">
+<roles>
+
+<role descr="starter, agent" n="0"></role>
+
+<role descr="thing being launched" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+NASA pronounced the space shuttle Atlantis ready for launch
+tomorrow following a five-day postponement of the flight because
+of a faulty engine computer .
+</text>
+<arg n="0">NASA</arg>
+<arg n="Support">pronounced ready for</arg>
+<arg n="1">the space shuttle Atlantis</arg>
+<rel>launch</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the launch of 1-2-3 Release 3 , the upgraded spreadsheet software
+</text>
+<rel>launch</rel>
+<arg n="1">of 1-2-3 Release 3 , the upgraded spreadsheet software</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

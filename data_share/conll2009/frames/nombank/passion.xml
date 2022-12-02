@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="passion">
+<roleset id="passion.01" name="want, crave" source="verb-desire.01" vncls="32.1">
+<roles>
+
+<role descr="wanter" n="0">
+<vnrole vncls="32.1" vntheta="Experiencer"/></role>
+
+<role descr="wanted" n="1">
+<vnrole vncls="32.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Football has long been Mr. Jones 's passion , both on and off the
+field .
+</text>
+<arg n="1">Football</arg>
+<arg n="0">Mr. Jones 's</arg>
+<rel>passion</rel>
+</example>
+
+<example name="autogen2">
+<text>
+His trials aroused public passions out of all proportion to the
+rather banal secrets he allegedly had passed to Soviet
+intelligence .
+</text>
+<arg n="1">His trials</arg>
+<arg n="Support">aroused</arg>
+<arg n="0">public</arg>
+<rel>passions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

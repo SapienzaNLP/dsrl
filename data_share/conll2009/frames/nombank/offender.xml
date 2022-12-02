@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="offender">
+<roleset id="offender.01" name="give offense, bother" source="verb-offend.01" vncls="31.1">
+<roles>
+
+<role descr="offender" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="offended" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some drug offenders
+</text>
+<arg n="2">drug</arg>
+<arg n="0">offenders</arg>
+<rel>offenders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+repeat offenders
+</text>
+<arg f="TMP" n="M">repeat</arg>
+<arg n="0">offenders</arg>
+<rel>offenders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

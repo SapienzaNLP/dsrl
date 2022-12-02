@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bombardment">
+<roleset id="bombardment.01" name="to attack or assail persistently" source="verb-bombard.01" vncls="9.8">
+<roles>
+
+<role descr="attacker, agent" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="patient" n="1">
+<vnrole vncls="9.8" vntheta="Destination"/></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+While the Tigreans are communists , like the Eritreans they are
+among the most anti-Soviet guerrillas in the world , having
+suffered more than a decade of aerial bombardment by the
+Soviet-supplied Mengistu air force .
+</text>
+<arg n="1">they ---> *-1</arg>
+<arg n="Support">suffered decade of</arg>
+<arg n="2">aerial</arg>
+<rel>bombardment</rel>
+<arg n="0">by the Soviet-supplied Mengistu air force</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proprietorship">
+<roleset id="proprietorship.01" name="possess" source="verb-own.01">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="possession" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+sole proprietorships
+</text>
+<arg f="MNR" n="M">sole</arg>
+<rel>proprietorships</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

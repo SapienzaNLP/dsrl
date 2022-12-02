@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="volunteerism">
+<roleset id="volunteerism.01" name="to give or offer to give voluntarily" source="verb-volunteer.01" vncls="29.8">
+<roles>
+
+<role descr="entity volunteering, voluntary agent" n="0">
+<vnrole vncls="29.8" vntheta="Agent"/></role>
+
+<role descr="service volunteered" n="1">
+<vnrole vncls="29.8" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to inform citizens of all ages and exhort them to genuine
+volunteerism
+</text>
+<arg n="Support">exhort to</arg>
+<arg n="0">them</arg>
+<arg f="MNR" n="M">genuine</arg>
+<rel>volunteerism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

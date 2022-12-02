@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="greed">
+<roleset id="greed.01" name="attribute/nomadj-greedy">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+human greed
+</text>
+<arg n="0">human</arg>
+<rel>greed</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Yield greed
+</text>
+<arg n="1">Yield</arg>
+<arg f="REF" n="2">greed</arg>
+<rel>greed</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

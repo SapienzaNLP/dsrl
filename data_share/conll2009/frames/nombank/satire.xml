@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="satire">
+<roleset id="satire.01" name="attribute/nomadj-satirical">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+sharp political satire
+</text>
+<arg n="2">sharp</arg>
+<arg n="1">political</arg>
+<rel>satire</rel>
+</example>
+
+</roleset>
+<roleset id="satire.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Gelbart 's satire
+</text>
+<arg n="0">Mr. Gelbart 's satire</arg>
+<rel>satire</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a political satire on the Iran-Contra affair
+</text>
+<rel>satire</rel>
+<arg n="1">on the Iran-Contra affair</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

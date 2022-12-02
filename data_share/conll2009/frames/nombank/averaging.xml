@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="averaging">
+<roleset id="averaging.01" name="to amount to or come to an average, compute an average" source="verb-average.01">
+<roles>
+
+<role descr="agent, person computing the average" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="amount" n="2"></role>
+
+<role descr="scale" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+income averaging
+</text>
+<arg n="1">income</arg>
+<rel>averaging</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the dollar-cost averaging method
+</text>
+<arg n="3">dollar-cost</arg>
+<rel>averaging</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

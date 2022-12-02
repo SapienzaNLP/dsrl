@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="appointment">
+<roleset id="appointment.01" name="name to a position, hire" source="verb-appoint.01" vncls="29.1">
+<roles>
+
+<role descr="appointer, employer" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="appointee, employee" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="job, position" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its appointment to assist the managers
+</text>
+<arg n="0">its</arg>
+<rel>appointment</rel>
+<arg f="PRD" n="2">to assist the managers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Brawer 's appointment as president
+</text>
+<arg n="1">Mr. Brawer 's</arg>
+<rel>appointment</rel>
+<arg n="2">as president</arg>
+</example>
+
+</roleset>
+<roleset id="appointment.02" name="have a date with someone" source="verb-meet.03">
+<roles>
+
+<role descr="maker of the appointment" n="0"></role>
+
+<role descr="the reason for the appointment" n="1"></role>
+
+<role descr="the person or group to see" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He has canceled numerous campaign appointments and was largely
+inaccessible to the media until the stock story broke .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">canceled</arg>
+<arg n="1">campaign</arg>
+<rel>appointments</rel>
+</example>
+
+<example name="autogen2">
+<text>
+he committed the social crime of making an appointment to see the
+venerable Akio Morita , founder of Sony
+</text>
+<arg n="0">he ---> *</arg>
+<arg n="Support">making</arg>
+<rel>appointment</rel>
+<arg n="1">to see the venerable Akio Morita , founder of Sony</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

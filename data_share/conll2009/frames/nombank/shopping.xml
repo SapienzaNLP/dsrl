@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shopping">
+<roleset id="shopping.01" name="look for something to buy" source="verb-shop.01" vncls="35.2">
+<roles>
+
+<role descr="shopper" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="thing sought" n="1">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+<role descr="source" n="2"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+one-stop shopping for takeover finance
+</text>
+<arg n="2">one-stop</arg>
+<rel>shopping</rel>
+<arg n="1">for takeover finance</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The office will provide `` one-stop shopping '' for Japanese
+financial institutions and other clients seeking advice on access
+to the world capital markets , according to A. Bruce Schimberg ,
+Sidley 's senior banking specialist , who will move to Tokyo from
+Chicago to open the office next year .
+</text>
+<arg n="2">one-stop</arg>
+<rel>shopping</rel>
+<arg n="0">
+for Japanese financial institutions and other clients seeking
+advice on access to the world capital markets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="heyday">
+<roleset id="heyday.01" name="nomlike" source="verb-peak.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the heyday of debt
+</text>
+<rel>heyday</rel>
+<arg n="1">of debt</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

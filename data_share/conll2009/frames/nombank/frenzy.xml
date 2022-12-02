@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="frenzy">
+<roleset id="frenzy.01" name="nomadjlike-frantic">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a bidding frenzy for sports rights
+</text>
+<arg n="1">bidding</arg>
+<rel>frenzy</rel>
+<arg n="3">for sports rights</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Warner 's producers have already started a ` feeding frenzy ' for
+our projects
+</text>
+<arg n="0">Warner 's producers</arg>
+<arg n="Support">started</arg>
+<rel>frenzy</rel>
+<arg n="1">for our projects</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

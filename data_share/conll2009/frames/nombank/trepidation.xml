@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trepidation">
+<roleset id="trepidation.01" name="prepositional usage" source="verb-worry.02" vncls="31.3">
+<roles>
+
+<role descr="worrier" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="topic of worry" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+trepidation about what a key economic report will show today
+</text>
+<rel>trepidation</rel>
+<arg n="1">about what a key economic report will show today</arg>
+</example>
+
+<example name="autogen2">
+<text>
+I approached `` Mastergate , '' Larry Gelbart 's new comedy at
+the Criterion Center , with considerable trepidation .
+</text>
+<arg n="0">I</arg>
+<arg f="MNR" n="M">considerable</arg>
+<rel>trepidation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

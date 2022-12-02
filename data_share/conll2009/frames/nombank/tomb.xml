@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tomb">
+<roleset id="tomb.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Garfield tomb
+</text>
+<arg n="1">Garfield</arg>
+<arg n="0">tomb</arg>
+<rel>tomb</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Lenin 's tomb
+</text>
+<arg n="1">Lenin 's</arg>
+<arg n="0">tomb</arg>
+<rel>tomb</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

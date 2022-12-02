@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="virtue">
+<roleset id="virtue.01" name="attribute/nomadj-virtuous">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="setting" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its anatomical virtues
+</text>
+<arg n="1">its</arg>
+<arg n="3">anatomical</arg>
+<arg f="REF" n="2">virtues</arg>
+<rel>virtues</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the virtues of private markets over the vices of public action
+</text>
+<rel>virtues</rel>
+<arg n="2">of private markets over the vices of public action</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

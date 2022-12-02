@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="landing">
+<roleset id="landing.01" name="bring to land, from water or air" source="verb-land.01" vncls="9.10">
+<roles>
+
+<role descr="bringer, captain, pilot, agent" n="0">
+<vnrole vncls="9.10" vntheta="Agent"/></role>
+
+<role descr="thing landing" n="1">
+<vnrole vncls="9.10" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their scheduled landing
+</text>
+<arg n="1">their</arg>
+<rel>landing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its landing rights
+</text>
+<arg n="0">its</arg>
+<rel>landing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

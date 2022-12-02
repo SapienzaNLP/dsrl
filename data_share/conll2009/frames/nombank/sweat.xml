@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sweat">
+<roleset id="sweat.01" name="sweat" source="verb-sweat.01" vncls="43.4">
+<roles>
+
+<role descr="sweater (no, not like your grandmother made for you" n="0">
+<vnrole vncls="43.4" vntheta="Agent"/></role>
+
+<role descr="the sweat itself" n="1">
+<vnrole vncls="43.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the sweat of men and women living in economic slavery
+</text>
+<arg n="1">sweat</arg>
+<rel>sweat</rel>
+<arg n="0">of men and women living in economic slavery</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they were working up a sweat with such activities as jogging ,
+tennis , swimming and aerobics
+</text>
+<arg n="0">they</arg>
+<arg n="Support">working</arg>
+<arg n="1">sweat</arg>
+<rel>sweat</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

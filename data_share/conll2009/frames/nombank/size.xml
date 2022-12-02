@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="size">
+<roleset id="size.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+National Geographic 's smaller-than-average size
+</text>
+<arg n="1">National Geographic 's</arg>
+<arg n="2">smaller-than-average</arg>
+<rel>size</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a financial commitment of this size
+</text>
+<arg n="1">a financial commitment</arg>
+<arg n="2">this</arg>
+<rel>size</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

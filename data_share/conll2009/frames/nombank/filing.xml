@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="filing">
+<roleset id="filing.01" name="paperwork" source="verb-file.01" vncls="9.10">
+<roles>
+
+<role descr="filer" n="0">
+<vnrole vncls="9.10" vntheta="Agent"/></role>
+
+<role descr="file" n="1">
+<vnrole vncls="9.10" vntheta="Theme"/></role>
+
+<role descr="filed-with" n="2"></role>
+
+<role descr="filed against" n="3"></role>
+
+<role descr="purpose of filing" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they make required filings to antitrust regulators about mergers
+, acquisitions and certain other transactions
+</text>
+<arg n="0">they</arg>
+<arg n="Support">make</arg>
+<rel>filings</rel>
+<arg n="2">to antitrust regulators</arg>
+<arg n="4">about mergers , acquisitions and certain other transactions</arg>
+</example>
+
+<example name="autogen2">
+<text>
+bankruptcy filings by two major U.S. companies , Worlds of Wonder
+Inc. and Coleco Industries Inc
+</text>
+<arg n="2">bankruptcy</arg>
+<rel>filings</rel>
+<arg n="0">
+by two major U.S. companies , Worlds of Wonder Inc. and Coleco
+Industries Inc</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

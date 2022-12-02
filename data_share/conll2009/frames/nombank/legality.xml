@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="legality">
+<roleset id="legality.01" name="attribute/nomadj-legal">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the legality of a widely employed anti-takeover defense of
+companies in the Netherlands
+</text>
+<arg f="REF" n="2">legality</arg>
+<rel>legality</rel>
+<arg n="1">
+of a widely employed anti-takeover defense of companies in the
+Netherlands</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the legality of these sales
+</text>
+<arg f="REF" n="2">legality</arg>
+<rel>legality</rel>
+<arg n="1">of these sales</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stab">
+<roleset id="stab.01" name="try" source="verb-attempt.01">
+<roles>
+
+<role descr="agent/entity trying" n="0"></role>
+
+<role descr="thing tried" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a commendable stab at topicality
+</text>
+<rel>stab</rel>
+<arg n="1">at topicality</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bit">
+<roleset id="bit.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a little bit of a company
+</text>
+<rel>bit</rel>
+<arg n="1">of a company</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a little bit of euphoria
+</text>
+<rel>bit</rel>
+<arg n="1">of euphoria</arg>
+</example>
+
+</roleset>
+<roleset id="bit.02" name="partitive-part/meronym">
+<roles>
+
+<role descr="whole/descriptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Some drill-bit prices
+</text>
+<arg n="1">drill-bit</arg>
+<rel>drill-bit</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an oil drilling bit seal
+</text>
+<arg n="1">oil drilling</arg>
+<rel>bit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

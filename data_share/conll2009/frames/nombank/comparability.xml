@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="comparability">
+<roleset id="comparability.01" name="compare" source="verb-compare.01" vncls="22.2">
+<roles>
+
+<role descr="entity making comparison" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="first item in comparison" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="second item in comparison, usually prepositional" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+financial-report comparability with profit-making businesses
+</text>
+<arg n="1">financial-report</arg>
+<rel>comparability</rel>
+<arg n="2">with profit-making businesses</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

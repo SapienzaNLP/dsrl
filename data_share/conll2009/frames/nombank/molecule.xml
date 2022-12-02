@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="molecule">
+<roleset id="molecule.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+oxygen molecules
+</text>
+<arg n="1">oxygen</arg>
+<rel>molecules</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the water molecules
+</text>
+<arg n="1">water</arg>
+<rel>molecules</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

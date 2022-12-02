@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="revenge">
+<roleset id="revenge.01" name="to take revenge for a perceived wrong" source="verb-avenge.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="defendent" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+too much booze Takes revenge the next day about nine
+</text>
+<arg n="0">too much booze</arg>
+<arg n="Support">Takes</arg>
+<rel>revenge</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

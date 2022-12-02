@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="caseload">
+<roleset id="caseload.01" name="attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Our felony caseloads
+</text>
+<arg n="0">Our</arg>
+<arg n="1">felony</arg>
+<arg f="REF" n="2">caseloads</arg>
+<rel>caseloads</rel>
+</example>
+
+<example name="autogen2">
+<text>
+FEMA now possibly may have the heaviest caseload in its history
+</text>
+<arg n="0">FEMA</arg>
+<arg n="Support">have</arg>
+<arg n="2">heaviest</arg>
+<rel>caseload</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

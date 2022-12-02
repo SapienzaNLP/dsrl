@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="motor">
+<roleset id="motor.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Minuteman missile rocket motors
+</text>
+<arg n="1">Minuteman missile rocket</arg>
+<rel>motors</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a costly solid rocket-motor facility
+</text>
+<arg n="1">rocket-motor</arg>
+<rel>rocket-motor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

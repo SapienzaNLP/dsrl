@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="center">
+<roleset id="center.01" name="nomadj-central">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="institution/beneficiary" n="2"></role>
+
+<role descr="domain" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its real-estate and shopping-center assets
+</text>
+<arg n="2">its</arg>
+<arg n="1">shopping-center</arg>
+<arg n="3">shopping-center</arg>
+<rel>shopping-center</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the training center for the Dallas Cowboys football team
+</text>
+<arg n="3">training</arg>
+<arg n="1">center</arg>
+<rel>center</rel>
+<arg n="2">for the Dallas Cowboys football team</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

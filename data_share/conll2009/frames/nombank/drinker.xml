@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drinker">
+<roleset id="drinker.01" name="ingest liquids" source="verb-drink.01" vncls="39.1">
+<roles>
+
+<role descr="drinker" n="0">
+<vnrole vncls="39.1" vntheta="Agent"/></role>
+
+<role descr="liquid" n="1">
+<vnrole vncls="39.1" vntheta="Patient"/></role>
+
+<role descr="source of liquid" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a heavy drinker
+</text>
+<arg f="MNR" n="M">heavy</arg>
+<arg n="0">drinker</arg>
+<rel>drinker</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a controversial `` frequent drinker '' promotion
+</text>
+<arg f="TMP" n="M">frequent</arg>
+<arg n="0">drinker</arg>
+<rel>drinker</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

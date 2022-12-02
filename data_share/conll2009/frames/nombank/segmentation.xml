@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="segmentation">
+<roleset id="segmentation.01" name="divide object into pieces" source="verb-segment.01">
+<roles>
+
+<role descr="agent, divider" n="0"></role>
+
+<role descr="whole object" n="1"></role>
+
+<role descr="pieces" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Market segmentation
+</text>
+<arg n="1">Market</arg>
+<rel>segmentation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+market segmentation
+</text>
+<arg n="1">market</arg>
+<rel>segmentation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

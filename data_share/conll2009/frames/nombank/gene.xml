@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gene">
+<roleset id="gene.01" name="give-trait-to-recipient" source="verb-transmit.01" vncls="11.1-1">
+<roles>
+
+<role descr="sender" n="0">
+<vnrole vncls="11.1-1" vntheta="Agent"/></role>
+
+<role descr="theme/purpose" n="1">
+<vnrole vncls="11.1-1" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="11.1-1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a plant gene that prevents the production of pollen
+</text>
+<arg n="2">plant</arg>
+<arg n="0">gene</arg>
+<rel>gene</rel>
+<arg n="1">that prevents the production of pollen</arg>
+</example>
+
+<example name="autogen2">
+<text>
+mice with the defective gene
+</text>
+<arg n="2">mice</arg>
+<arg n="0">gene</arg>
+<rel>gene</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

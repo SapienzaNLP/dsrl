@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dozen">
+<roleset id="dozen.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+dozens of corporations
+</text>
+<rel>dozens</rel>
+<arg n="1">of corporations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+dozens of school systems
+</text>
+<rel>dozens</rel>
+<arg n="1">of school systems</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

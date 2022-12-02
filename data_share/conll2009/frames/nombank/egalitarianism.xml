@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="egalitarianism">
+<roleset id="egalitarianism.01" name="attribute/nomadj-egalitarian">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the egalitarianism of modern America
+</text>
+<rel>egalitarianism</rel>
+<arg n="1">of modern America</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

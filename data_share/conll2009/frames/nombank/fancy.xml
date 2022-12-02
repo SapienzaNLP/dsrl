@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fancy">
+<roleset id="fancy.01" name="affection" source="verb-like.01" vncls="31.2">
+<roles>
+
+<role descr="liker" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="object of affection" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they took a fancy to
+</text>
+<arg n="0">they</arg>
+<arg n="Support">took</arg>
+<rel>fancy</rel>
+<arg n="1">to</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the more a scandal has to do with a congressman 's duties as a
+congressman , the less likely it is to catch the fancy of a
+network
+</text>
+<arg n="1">it ---> *-1</arg>
+<arg n="Support">catch</arg>
+<rel>fancy</rel>
+<arg n="0">of a network</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

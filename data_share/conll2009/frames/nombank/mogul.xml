@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mogul">
+<roleset id="mogul.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="expert" n="0"></role>
+
+<role descr="domain" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+British publishing mogul Robert Maxwell
+</text>
+<arg n="1">publishing</arg>
+<arg n="0">mogul</arg>
+<rel>mogul</rel>
+</example>
+
+<example name="autogen2">
+<text>
+direct-mail-mogul David
+</text>
+<arg n="0">direct-mail-mogul</arg>
+<arg n="1">direct-mail-mogul</arg>
+<rel>direct-mail-mogul</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

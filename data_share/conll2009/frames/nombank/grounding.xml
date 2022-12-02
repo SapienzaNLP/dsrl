@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grounding">
+<roleset id="grounding.01" name="nomlike" source="verb-establish.01" vncls="29.2">
+<roles>
+
+<role descr="agent, setter" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing set" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="attribute" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the less gifted get the necessary grounding for further study or
+for entering the modern world of work
+</text>
+<arg n="1">the less gifted</arg>
+<arg n="Support">get</arg>
+<rel>grounding</rel>
+<arg n="2">for further study or for entering the modern world of work</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

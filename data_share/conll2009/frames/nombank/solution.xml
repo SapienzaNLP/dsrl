@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="solution">
+<roleset id="solution.01" name="to find a solution to" source="verb-solve.01">
+<roles>
+
+<role descr="solver" n="0"></role>
+
+<role descr="the problem" n="1"></role>
+
+<role descr="manner/instrument/solution" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+conceiver of the cement-truck solution
+</text>
+<arg n="0">conceiver</arg>
+<arg n="2">cement-truck</arg>
+<rel>solution</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their solution to everything
+</text>
+<arg n="0">their</arg>
+<rel>solution</rel>
+<arg n="1">to everything</arg>
+</example>
+
+</roleset>
+<roleset id="solution.02" name="mix, combine" source="verb-mix.01" vncls="22.1-1">
+<roles>
+
+<role descr="agent, mixer" n="0">
+<vnrole vncls="22.1-1" vntheta="Agent"/></role>
+
+<role descr="ingredient one" n="1">
+<vnrole vncls="22.1-1" vntheta="Patient1"/></role>
+
+<role descr="ingredient two" n="2">
+<vnrole vncls="22.1-1" vntheta="Patient2"/></role>
+
+<role descr="used for" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a chemical solution
+</text>
+<arg n="1">chemical</arg>
+<rel>solution</rel>
+</example>
+
+<example name="autogen2">
+<text>
+rubber solution
+</text>
+<arg n="1">rubber</arg>
+<rel>solution</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recovery">
+<roleset id="recovery.01" name="get better" source="verb-recover.01">
+<roles>
+
+<role descr="that which was sick, now getting better" n="1"></role>
+
+<role descr="sickness" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The city 's recovery from the earthquake
+</text>
+<arg n="1">The city 's</arg>
+<rel>recovery</rel>
+<arg n="2">from the earthquake</arg>
+</example>
+
+<example name="autogen2">
+<text>
+disaster-recovery response centers
+</text>
+<arg n="2">disaster-recovery</arg>
+<rel>disaster-recovery</rel>
+</example>
+
+</roleset>
+<roleset id="recovery.02" name="get back" source="verb-recover.02" vncls="10.5">
+<roles>
+
+<role descr="entity getting something" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="thing gotten" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+<role descr="gotten from" n="2">
+<vnrole vncls="10.5" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cogeneration and waste heat recovery plants
+</text>
+<arg n="1">heat</arg>
+<rel>recovery</rel>
+<arg n="0">plants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+insurance recoveries
+</text>
+<arg n="2">insurance</arg>
+<rel>recoveries</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

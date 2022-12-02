@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suspense">
+<roleset id="suspense.01" name="hang" source="verb-suspend.02" vncls="9.2-1">
+<roles>
+
+<role descr="agent, entity causing something to be suspended" n="0">
+<vnrole vncls="9.2-1" vntheta="Agent"/></role>
+
+<role descr="thing suspended" n="1">
+<vnrole vncls="9.2-1" vntheta="Theme"/></role>
+
+<role descr="suspended from" n="2">
+<vnrole vncls="9.2-1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a suspense novel
+</text>
+<rel>suspense</rel>
+<arg n="0">novel</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

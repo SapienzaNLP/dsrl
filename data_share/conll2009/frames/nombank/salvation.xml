@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="salvation">
+<roleset id="salvation.01" name="desperate peril sense" source="verb-save.02">
+<roles>
+
+<role descr="hero" n="0"></role>
+
+<role descr="victim" n="1"></role>
+
+<role descr="peril" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+look to God , not crime , for their salvation
+</text>
+<arg n="Support">look for</arg>
+<arg n="0">to God , not crime ,</arg>
+<arg n="1">their</arg>
+<rel>salvation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

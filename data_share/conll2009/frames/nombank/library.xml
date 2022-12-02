@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="library">
+<roleset id="library.01" name="group/partitive-quant">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="whole/employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Volokhs ' art-nouveau library
+</text>
+<arg n="2">the Volokhs '</arg>
+<arg n="1">art-nouveau</arg>
+<rel>library</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Berkeley Main library
+</text>
+<arg n="2">Berkeley</arg>
+<rel>library</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bicentennial">
+<roleset id="bicentennial.01" name="honor with memorial, be a memorial" source="verb-commemorate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bicentennial of the French revolution and its `` Universal
+Declaration of Human Rights
+</text>
+<rel>bicentennial</rel>
+<arg n="1">
+of the French revolution and its `` Universal Declaration of
+Human Rights</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

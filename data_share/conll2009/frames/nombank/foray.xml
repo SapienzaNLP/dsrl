@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="foray">
+<roleset id="foray.01" name="to make an attack, criticize strongly" source="verb-attack.01">
+<roles>
+
+<role descr="attacker" n="0"></role>
+
+<role descr="entity attacked" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her husband disappears for drug-seeking forays into Manhattan
+</text>
+<arg n="0">her husband</arg>
+<arg n="Support">disappears for</arg>
+<arg n="2">drug-seeking</arg>
+<rel>forays</rel>
+<arg n="1">into Manhattan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its foray into the Florida and Texas markets
+</text>
+<arg n="0">its</arg>
+<rel>foray</rel>
+<arg n="1">into the Florida and Texas markets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

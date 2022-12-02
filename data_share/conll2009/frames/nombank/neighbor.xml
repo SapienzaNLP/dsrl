@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="neighbor">
+<roleset id="neighbor.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Especially his neighbors
+</text>
+<arg n="1">his</arg>
+<arg n="0">neighbors</arg>
+<rel>neighbors</rel>
+</example>
+
+<example name="autogen3">
+<text>
+Its neighbor
+</text>
+<arg n="1">Its</arg>
+<arg n="0">neighbor</arg>
+<rel>neighbor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

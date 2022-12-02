@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="censorship">
+<roleset id="censorship.01" name="to edit so as to block the truth" source="verb-censor.01">
+<roles>
+
+<role descr="censor" n="0"></role>
+
+<role descr="entity censored" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their government , which would have licensing and censorship
+powers and , indeed , duties to block printing of `` wrong ''
+ideas
+</text>
+<arg n="0">their government ---> which ---> *T*-28</arg>
+<arg n="Support">have powers</arg>
+<rel>censorship</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Colombian media accept this new and hideous censorship
+</text>
+<arg n="1">the Colombian media</arg>
+<arg n="Support">accept</arg>
+<arg f="MNR" n="M">new and hideous</arg>
+<rel>censorship</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

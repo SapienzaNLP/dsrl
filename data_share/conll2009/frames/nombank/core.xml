@@ -1,0 +1,89 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="core">
+<roleset id="core.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the intellectual and organizational core of the ANC
+</text>
+<arg n="0">core</arg>
+<rel>core</rel>
+<arg n="1">of the ANC</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the core of the columns
+</text>
+<arg n="0">core</arg>
+<rel>core</rel>
+<arg n="1">of the columns</arg>
+</example>
+
+</roleset>
+<roleset id="core.02" name="nomadjlike-significant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+core inflation
+</text>
+<rel>core</rel>
+<arg n="1">inflation</arg>
+</example>
+
+<example name="autogen4">
+<text>
+the company 's core businesses
+</text>
+<rel>core</rel>
+<arg n="1">businesses</arg>
+</example>
+
+</roleset>
+<roleset id="core.03" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a steady core of stocks
+</text>
+<rel>core</rel>
+<arg n="1">of stocks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a significant core of people involved in government life who
+understood that direct taxation is n't the only way to slow down
+an economy
+</text>
+<rel>core</rel>
+<arg n="1">
+of people involved in government life who understood that direct
+taxation is n't the only way to slow down an economy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

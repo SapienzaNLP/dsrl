@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="loophole">
+<roleset id="loophole.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a giant loophole in the one-party consent law
+</text>
+<arg n="2">giant</arg>
+<rel>loophole</rel>
+<arg n="1">in the one-party consent law</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

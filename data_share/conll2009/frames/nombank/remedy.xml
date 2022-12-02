@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="remedy">
+<roleset id="remedy.01" name="make better" source="verb-remedy.01">
+<roles>
+
+<role descr="causer of improvement, agent" n="0"></role>
+
+<role descr="thing getting better" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its rights and remedies
+</text>
+<arg n="0">its</arg>
+<arg f="REF" n="2">remedies</arg>
+<rel>remedies</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a matter that needs remedy now , not six months from now , or six
+years from now , or 26 years from now
+</text>
+<arg n="1">a matter ---> that ---> *T*-2</arg>
+<arg n="Support">needs</arg>
+<rel>remedy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

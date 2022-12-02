@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="excerpt">
+<roleset id="excerpt.01" name="to remove or obtain" source="verb-extract.01" vncls="10.1">
+<roles>
+
+<role descr="remover, agent" n="0">
+<vnrole vncls="10.1" vntheta="Agent"/></role>
+
+<role descr="thing extracted" n="1">
+<vnrole vncls="10.1" vntheta="Theme"/></role>
+
+<role descr="entity extracted from" n="2">
+<vnrole vncls="10.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+excerpts from the electronic traffic that night
+</text>
+<arg f="REF" n="1">excerpts</arg>
+<rel>excerpts</rel>
+<arg n="2">from the electronic traffic that night</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the exerpts of Wayne Angell 's exchange with a Gosbank
+representative -LRB- `` Put the Soviet Economy on Golden Rails ,
+'' editorial page , Oct. 5 -RRB-
+</text>
+<arg f="REF" n="1">exerpts</arg>
+<rel>exerpts</rel>
+<arg n="2">
+of Wayne Angell 's exchange with a Gosbank representative -LRB-
+`` Put the Soviet Economy on Golden Rails , '' editorial page ,
+Oct. 5 -RRB-</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

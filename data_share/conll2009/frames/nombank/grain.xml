@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grain">
+<roleset id="grain.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+corn and sorghum feed grains
+</text>
+<arg n="1">corn and sorghum feed</arg>
+<rel>grains</rel>
+</example>
+
+<example name="autogen2">
+<text>
+sorghum grain
+</text>
+<arg n="1">sorghum</arg>
+<rel>grain</rel>
+</example>
+
+</roleset>
+<roleset id="grain.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a grain of salt
+</text>
+<rel>grain</rel>
+<arg n="1">of salt</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

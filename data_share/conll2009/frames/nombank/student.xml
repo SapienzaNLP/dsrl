@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="student">
+<roleset id="student.01" name="examine closely" source="verb-study.01" vncls="30.2">
+<roles>
+
+<role descr="student" n="0">
+<vnrole vncls="30.2" vntheta="Agent"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="30.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+music students
+</text>
+<arg n="1">music</arg>
+<arg n="0">students</arg>
+<rel>students</rel>
+</example>
+
+<example name="autogen3">
+<text>
+working students
+</text>
+<arg f="MNR" n="M">working</arg>
+<arg n="0">students</arg>
+<rel>students</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

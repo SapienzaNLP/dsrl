@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="workout">
+<roleset id="workout.01" name="work out: exercise" source="verb-work.03">
+<roles>
+
+<role descr="athlete" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a workout of the Suns
+</text>
+<rel>workout</rel>
+<arg n="0">of the Suns</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their once-sacred workout
+</text>
+<arg n="0">their</arg>
+<arg f="MNR" n="M">once-sacred</arg>
+<rel>workout</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vassal">
+<roleset id="vassal.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+vassals of the German state
+</text>
+<arg n="0">vassals</arg>
+<rel>vassals</rel>
+<arg n="2">of the German state</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tide">
+<roleset id="tide.01" name="be part of a trend" source="verb-trend.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the highest tides of the year
+</text>
+<arg n="2">highest</arg>
+<rel>tides</rel>
+<arg n="1">of the year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the downward tide in London 's stock market
+</text>
+<arg n="2">downward</arg>
+<rel>tide</rel>
+<arg n="1">in London 's stock market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

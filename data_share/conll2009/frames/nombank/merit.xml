@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="merit">
+<roleset id="merit.01" name="be worthy of" source="verb-merit.01">
+<roles>
+
+<role descr="thing worthy" n="0"></role>
+
+<role descr="thing worthy of" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+their merits
+</text>
+<arg n="0">their</arg>
+<rel>merits</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the suit is without merit
+</text>
+<arg n="0">the suit</arg>
+<rel>merit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

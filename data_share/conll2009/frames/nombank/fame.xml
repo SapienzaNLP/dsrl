@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fame">
+<roleset id="fame.01" name="attribute/nomadj-famous">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme/reason" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Donna Rice of Gary Hart fame
+</text>
+<arg n="0">Donna Rice</arg>
+<arg n="1">Gary Hart</arg>
+<arg f="REF" n="2">fame</arg>
+<rel>fame</rel>
+</example>
+
+<example name="autogen2">
+<text>
+another American black woman who found a measure of fame in Paris
+</text>
+<arg n="0">another American black woman ---> who ---> *T*-1</arg>
+<arg n="Support">found measure of</arg>
+<arg n="2">a measure</arg>
+<rel>fame</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

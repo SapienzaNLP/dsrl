@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="humorist">
+<roleset id="humorist.01" name="set pen to paper" source="verb-write.01" vncls="26.7-2">
+<roles>
+
+<role descr="writer" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="thing written" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+political humorist Art Buchwald
+</text>
+<arg n="1">political</arg>
+<arg n="0">humorist</arg>
+<rel>humorist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

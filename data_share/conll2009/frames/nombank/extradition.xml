@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="extradition">
+<roleset id="extradition.01" name="expel" source="verb-extradite.01" vncls="10.2">
+<roles>
+
+<role descr="expeller, agent" n="0">
+<vnrole vncls="10.2" vntheta="Agent"/></role>
+
+<role descr="entity expelled" n="1">
+<vnrole vncls="10.2" vntheta="Theme"/></role>
+
+<role descr="expelled from" n="2">
+<vnrole vncls="10.2" vntheta="Source"/></role>
+
+<role descr="expelled to" n="3">
+<vnrole vncls="10.2" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the extradition of Mohammed Rashid , a Palestinian terrorist who
+is wanted in the U.S. for the 1982 bombing of a Pan American
+Airways flight
+</text>
+<rel>extradition</rel>
+<arg n="1">
+of Mohammed Rashid , a Palestinian terrorist who is wanted in the
+U.S. for the 1982 bombing of a Pan American Airways flight</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the extraditions of Colombians wanted on drug charges in the U.S.
+</text>
+<rel>extraditions</rel>
+<arg n="1">of Colombians wanted on drug charges in the U.S.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

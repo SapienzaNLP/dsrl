@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shower">
+<roleset id="shower.01" name="fall, sprinkle, rain" source="verb-shower.01" vncls="17.2">
+<roles>
+
+<role descr="causer of things falling" n="0">
+<vnrole vncls="17.2" vntheta="Agent"/></role>
+
+<role descr="things falling" n="1">
+<vnrole vncls="17.2" vntheta="Theme"/></role>
+
+<role descr="falling on what" n="2">
+<vnrole vncls="17.2" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+traditional champagne showers
+</text>
+<arg n="1">champagne</arg>
+<rel>showers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+fecal showers by giant bees
+</text>
+<arg n="1">fecal</arg>
+<rel>showers</rel>
+<arg n="0">by giant bees</arg>
+</example>
+
+</roleset>
+<roleset id="shower.02" name="personal hygine" source="verb-shower.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his schoolmates to take only brief showers
+</text>
+<arg n="0">his schoolmates</arg>
+<arg n="Support">take</arg>
+<rel>showers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chart">
+<roleset id="chart.01" name="work-of-art" source="verb-chart.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+research firms ' market-share charts
+</text>
+<arg n="0">research firms '</arg>
+<arg n="1">market-share</arg>
+<rel>charts</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an organizational chart
+</text>
+<arg n="1">organizational</arg>
+<rel>chart</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

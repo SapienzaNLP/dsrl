@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="requisition">
+<roleset id="requisition.01" name="to demand" source="verb-requisition.01">
+<roles>
+
+<role descr="demander, agent" n="0"></role>
+
+<role descr="entity requisitioned" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He made a midnight requisition of all the printers he could lay
+hands on so that he could monitor all the telephone lines coming
+into the lab 's computers .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">made</arg>
+<arg f="TMP" n="M">midnight</arg>
+<rel>requisition</rel>
+<arg n="1">of all the printers he could lay hands on</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="illogic">
+<roleset id="illogic.01" name="nomadj-illogical/work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The illogic and inaccuracy of John H. Adams 's comments for the
+National Resources Defense Council
+</text>
+<rel>illogic</rel>
+<arg n="1">
+of John H. Adams 's comments for the National Resources Defense
+Council</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

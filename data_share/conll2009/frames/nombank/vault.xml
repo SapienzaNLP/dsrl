@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vault">
+<roleset id="vault.01" name="store" source="verb-store.01" vncls="15.2">
+<roles>
+
+<role descr="storer" n="0">
+<vnrole vncls="15.2" vntheta="Agent"/></role>
+
+<role descr="commodity" n="1">
+<vnrole vncls="15.2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the video vault
+</text>
+<arg n="1">video</arg>
+<arg n="0">vault</arg>
+<rel>vault</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Security Pacific National Bank 's central vault
+</text>
+<arg n="2">Security Pacific National Bank 's</arg>
+<arg f="LOC" n="M">central</arg>
+<arg n="0">vault</arg>
+<rel>vault</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

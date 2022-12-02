@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sponsor">
+<roleset id="sponsor.01" name="actrel/nom" source="verb-sponsor.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bill 's chief sponsor
+</text>
+<arg n="1">the bill 's</arg>
+<arg n="3">chief</arg>
+<arg n="0">sponsor</arg>
+<rel>sponsor</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the various congressional sponsors of the 40 pork-barrel projects
+</text>
+<arg n="2">congressional</arg>
+<arg n="0">sponsors</arg>
+<rel>sponsors</rel>
+<arg n="1">of the 40 pork-barrel projects</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

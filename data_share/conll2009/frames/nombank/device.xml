@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="device">
+<roleset id="device.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Appropriations committees have used an assortment of devices to
+disguise as much as $ 1 billion in spending
+</text>
+<arg n="0">Appropriations committees</arg>
+<arg n="Support">used assortment of</arg>
+<rel>devices</rel>
+<arg f="PRD" n="1">to disguise as much as $ 1 billion in spending</arg>
+</example>
+
+<example name="autogen2">
+<text>
+standard cassette devices
+</text>
+<arg n="1">cassette</arg>
+<rel>devices</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

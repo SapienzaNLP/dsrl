@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="retreat">
+<roleset id="retreat.01" name="run away" source="verb-retreat.01">
+<roles>
+
+<role descr="retreater" n="0"></role>
+
+<role descr="scary thing" n="1"></role>
+
+<role descr="causal agent" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a retreat from optical storage
+</text>
+<rel>retreat</rel>
+<arg n="1">from optical storage</arg>
+</example>
+
+<example name="autogen2">
+<text>
+dollar retreats
+</text>
+<arg n="0">dollar</arg>
+<rel>retreats</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

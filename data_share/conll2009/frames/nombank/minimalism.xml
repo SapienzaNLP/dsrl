@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="minimalism">
+<roleset id="minimalism.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the genuinely radical minimalism of Berg and Webern
+</text>
+<arg n="2">genuinely radical</arg>
+<rel>minimalism</rel>
+<arg n="1">of Berg and Webern</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Its supposedly austere minimalism
+</text>
+<arg n="1">Its</arg>
+<arg n="2">supposedly austere</arg>
+<rel>minimalism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

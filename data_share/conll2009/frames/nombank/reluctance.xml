@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reluctance">
+<roleset id="reluctance.01" name="nomadj-reluctant" source="verb-hesitate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+growing reluctance among the allies to commit themselves to big
+defense spending while East-West disarmament talks show signs of
+success
+</text>
+<rel>reluctance</rel>
+<arg n="0">among the allies</arg>
+<arg f="PRD" n="1">
+to commit themselves to big defense spending while East-West
+disarmament talks show signs of success</arg>
+</example>
+
+<example name="autogen2">
+<text>
+reluctance by banks to provide financing for a buy-out of UAL
+Corp. , parent of United Airlines
+</text>
+<rel>reluctance</rel>
+<arg n="0">by banks</arg>
+<arg f="PRD" n="1">
+to provide financing for a buy-out of UAL Corp. , parent of
+United Airlines</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

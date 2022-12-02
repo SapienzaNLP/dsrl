@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="respect">
+<roleset id="respect.01" name="to regard highly" source="verb-respect.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="entity respected" n="1"></role>
+
+<role descr="secondary predicate" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his judgment -LCB- and -RCB- respect for the law
+</text>
+<arg n="0">his</arg>
+<rel>respect</rel>
+<arg n="1">for the law</arg>
+</example>
+
+<example name="autogen2">
+<text>
+respect for the editorial product
+</text>
+<rel>respect</rel>
+<arg n="1">for the editorial product</arg>
+</example>
+
+</roleset>
+<roleset id="respect.02" name="issue">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+respect to the ultimate value of the loans
+</text>
+<rel>respect</rel>
+<arg n="1">to the ultimate value of the loans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+respect to the appropriate level of loan loss reserves
+</text>
+<rel>respect</rel>
+<arg n="1">to the appropriate level of loan loss reserves</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

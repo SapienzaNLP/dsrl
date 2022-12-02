@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="overseer">
+<roleset id="overseer.01" name="supervise" source="verb-oversee.01">
+<roles>
+
+<role descr="supervisor" n="0"></role>
+
+<role descr="thing supervised" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its Vietnamese overseers
+</text>
+<arg n="1">its</arg>
+<arg n="0">overseers</arg>
+<rel>overseers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="infringement">
+<roleset id="infringement.01" name="go where you don't have the right" source="verb-infringe.01">
+<roles>
+
+<role descr="infringer" n="0"></role>
+
+<role descr="infringed (up)on" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Polaroid Corp. 's patent-infringement damages case against
+Eastman Kodak Co. , one of the highest stakes corporate trials
+ever ,
+</text>
+<arg n="1">patent-infringement</arg>
+<rel>patent-infringement</rel>
+<arg n="Support">case</arg>
+<arg n="0">
+against Eastman Kodak Co. , one of the highest stakes corporate
+trials ever ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the patent-infringement proceedings
+</text>
+<arg n="1">patent-infringement</arg>
+<rel>patent-infringement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

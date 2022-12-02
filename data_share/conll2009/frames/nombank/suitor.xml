@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suitor">
+<roleset id="suitor.01" name="cause to) be suitable for" source="verb-suit.01">
+<roles>
+
+<role descr="suitable thing" n="1"></role>
+
+<role descr="suitable to/for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a possible suitor for Burmah Oil
+</text>
+<arg n="1">suitor</arg>
+<rel>suitor</rel>
+<arg n="2">for Burmah Oil</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a possible suitor for Burmah
+</text>
+<arg n="1">suitor</arg>
+<rel>suitor</rel>
+<arg n="2">for Burmah</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

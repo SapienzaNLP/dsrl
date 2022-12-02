@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="custody">
+<roleset id="custody.01" name="to be concerned" source="verb-care.01" vncls="31.3">
+<roles>
+
+<role descr="carer, agent" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="thing cared for/about" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+existing federal prisons have taken custody of 375 local inmates
+</text>
+<arg n="0">existing federal prisons</arg>
+<arg n="Support">taken</arg>
+<rel>custody</rel>
+<arg n="1">of 375 local inmates</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he had General Noriega in custody , but was under attack by
+pro-Noriega troops
+</text>
+<arg n="0">he</arg>
+<arg n="Support">had in</arg>
+<arg n="1">General Noriega</arg>
+<rel>custody</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

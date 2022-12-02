@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scientist">
+<roleset id="scientist.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a research scientist at the Tokyo Metropolitan Institute of
+Medical Science
+</text>
+<arg n="1">research</arg>
+<arg n="0">scientist</arg>
+<rel>scientist</rel>
+<arg n="2">at the Tokyo Metropolitan Institute of Medical Science</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Galileo 's project scientist
+</text>
+<arg n="2">Galileo 's</arg>
+<arg n="0">scientist</arg>
+<rel>scientist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

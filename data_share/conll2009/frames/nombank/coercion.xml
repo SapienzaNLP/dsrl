@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="coercion">
+<roleset id="coercion.01" name="to persuade" source="verb-coerce.01">
+<roles>
+
+<role descr="persuasive entity, agent" n="0"></role>
+
+<role descr="impelled person" n="1"></role>
+
+<role descr="action or proposition" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+no coercion
+</text>
+<arg f="NEG" n="M">no</arg>
+<rel>coercion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

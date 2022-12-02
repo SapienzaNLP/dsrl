@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="predator">
+<roleset id="predator.01" name="to make an attack, criticize strongly" source="verb-attack.01">
+<roles>
+
+<role descr="attacker" n="0"></role>
+
+<role descr="entity attacked" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a hostile predator emerges for Saatchi &amp; Saatchi Co.
+</text>
+<arg n="0">predator</arg>
+<rel>predator</rel>
+<arg n="1">*ICH*-1 ---> for Saatchi &amp; Saatchi Co.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+To fight off predators , B.A.T plans to spin off about $ 6
+billion in assets , largely by selling such U.S. retailing units
+as Marshall Field and Saks and by floating its big paper and U.K.
+retailing business via share issues to existing holders .
+</text>
+<arg n="1">*-1 ---> B.A.T</arg>
+<arg n="Support">fight</arg>
+<arg n="0">predators</arg>
+<rel>predators</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

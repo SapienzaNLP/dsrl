@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="yield">
+<roleset id="yield.01" name="give a dividend" source="verb-yield.03">
+<roles>
+
+<role descr="thing providing a dividend" n="0"></role>
+
+<role descr="dividend, earnings" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a seemingly puny 6 % yield on a one-year muni
+</text>
+<arg n="1">6 %</arg>
+<rel>yield</rel>
+<arg n="0">on a one-year muni</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Investors can get slightly higher yields on deposits below $
+50,000 than they can on deposits of $ 90,000 and up .
+</text>
+<arg n="2">Investors</arg>
+<arg n="Support">get</arg>
+<rel>yields</rel>
+<arg n="0">on deposits below $ 50,000</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

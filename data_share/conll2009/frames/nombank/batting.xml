@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="batting">
+<roleset id="batting.01" name="close and open eye(s) quickly" source="verb-bat.01" vncls="40.3.2">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="40.3.2" vntheta="Agent"/></role>
+
+<role descr="eye(s" n="1">
+<vnrole vncls="40.3.2" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+His seductive batting of the eyes
+</text>
+<arg n="0">His</arg>
+<arg f="MNR" n="M">seductive</arg>
+<rel>batting</rel>
+<arg n="1">of the eyes</arg>
+</example>
+
+</roleset>
+<roleset id="batting.02" name="bring in runs by hitting a baseball" source="verb-bat.03">
+<roles>
+
+<role descr="batter" n="0"></role>
+
+<role descr="runs" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his batting average
+</text>
+<arg n="0">his</arg>
+<rel>batting</rel>
+<arg n="Support">average</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Thomson played outfield and third base until 1960 , posting a
+lifetime 0.27 batting average and chalking up 264 home runs
+before retiring and going into paper-goods sales .
+</text>
+<arg n="0">Mr. Thomson ---> *-1</arg>
+<arg n="Support">posting average</arg>
+<rel>batting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

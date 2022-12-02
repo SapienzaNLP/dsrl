@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ordeal">
+<roleset id="ordeal.01" name="have a sensation or experience" source="verb-experience.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an unpleasant courtroom ordeal
+</text>
+<arg f="LOC" n="M">courtroom</arg>
+<rel>ordeal</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his three-year legal ordeal
+</text>
+<arg n="0">his</arg>
+<arg f="TMP" n="M">three-year</arg>
+<arg n="1">legal</arg>
+<rel>ordeal</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

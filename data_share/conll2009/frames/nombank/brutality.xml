@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brutality">
+<roleset id="brutality.01" name="nomadj-brutal/experience1">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In terms of sheer brutality , the Somali regime of Siad Barre may
+rank as No. 1 in the world .
+</text>
+<arg n="Support">terms of</arg>
+<rel>brutality</rel>
+<arg n="0">the Somali regime of Siad Barre</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Barre 's brutality and ineptitude
+</text>
+<arg n="0">Mr. Barre 's</arg>
+<rel>brutality</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

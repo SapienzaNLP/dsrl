@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="science">
+<roleset id="science.01" name="field">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a computer-science student
+</text>
+<arg n="1">computer-science</arg>
+<rel>computer-science</rel>
+</example>
+
+<example name="autogen2">
+<text>
+other plant-science products
+</text>
+<arg n="1">plant-science</arg>
+<rel>plant-science</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

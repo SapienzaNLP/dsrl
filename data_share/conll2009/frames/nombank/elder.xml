@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="elder">
+<roleset id="elder.01" name="nomadj-elder">
+<roles>
+
+<role descr="comparative" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+their elders
+</text>
+<arg n="1">their</arg>
+<arg n="0">elders</arg>
+<rel>elders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

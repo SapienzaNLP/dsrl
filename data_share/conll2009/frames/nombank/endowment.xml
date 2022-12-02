@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="endowment">
+<roleset id="endowment.01" name="give (often generously" source="verb-endow.01" vncls="9.8">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="gift" n="1">
+<vnrole vncls="9.8" vntheta="Theme"/></role>
+
+<role descr="given-to" n="2">
+<vnrole vncls="9.8" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Harvard endowment
+</text>
+<arg n="0">Harvard</arg>
+<arg f="REF" n="1">endowment</arg>
+<rel>endowment</rel>
+</example>
+
+<example name="autogen2">
+<text>
+endowment fund contributions
+</text>
+<arg f="REF" n="1">endowment</arg>
+<rel>endowment</rel>
+<arg n="0">fund</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

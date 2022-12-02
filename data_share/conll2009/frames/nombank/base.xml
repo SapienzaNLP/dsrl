@@ -1,0 +1,201 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="base">
+<roleset id="base.01" name="site-for-institution" source="verb-base.01">
+<roles>
+
+<role descr="institution" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+those Soviet bases
+</text>
+<arg n="1">Soviet</arg>
+<rel>bases</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the base of Drexel 's highly profitable junk-bond operation that
+led to the firm 's legal difficulties
+</text>
+<rel>base</rel>
+<arg n="1">
+of Drexel 's highly profitable junk-bond operation that led to
+the firm 's legal difficulties</arg>
+</example>
+
+</roleset>
+<roleset id="base.02" name="nomadj-basic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+base prices
+</text>
+<rel>base</rel>
+<arg n="1">prices</arg>
+</example>
+
+<example name="autogen5">
+<text>
+The base price
+</text>
+<rel>base</rel>
+<arg n="1">price</arg>
+</example>
+
+</roleset>
+<roleset id="base.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its large capital base
+</text>
+<arg n="3">its</arg>
+<arg n="1">capital</arg>
+<arg f="REF" n="2">base</arg>
+<rel>base</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a 1985 base of 100
+</text>
+<rel>base</rel>
+<arg n="2">of 100</arg>
+</example>
+
+</roleset>
+<roleset id="base.04" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the base of small-investor support the OTC market was struggling
+to rebuild in the wake of the October 1987 crash
+</text>
+<rel>base</rel>
+<arg n="1">of small-investor support</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a firm base of small-investor participation
+</text>
+<rel>base</rel>
+<arg n="1">of small-investor participation</arg>
+</example>
+
+</roleset>
+<roleset id="base.05" name="justified by" source="verb-base.02">
+<roles>
+
+<role descr="agent (rarely seen" n="0"></role>
+
+<role descr="decision" n="1"></role>
+
+<role descr="justification" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+They are `` at the base of all of the problems of corruption
+</text>
+<arg n="2">They</arg>
+<rel>base</rel>
+<arg n="1">of all of the problems of corruption</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the market lacks a base on which to set long-term buying strategy
+, as the future direction of U.S. interest rates remains unclear
+</text>
+<arg n="0">the market</arg>
+<arg f="NEG" n="M">lacks</arg>
+<arg n="Support">lacks</arg>
+<arg f="REF" n="2">base</arg>
+<rel>base</rel>
+<arg f="PRD" n="1">to set long-term buying strategy</arg>
+</example>
+
+</roleset>
+<roleset id="base.06" name="lend aid, credence to" source="verb-support.01" vncls="31.2">
+<roles>
+
+<role descr="helper/consumer" n="0"></role>
+
+<role descr="person or project being supported" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a major regime base
+</text>
+<arg n="1">regime</arg>
+<arg n="0">base</arg>
+<rel>base</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a donor base
+</text>
+<arg n="0">donor</arg>
+<rel>base</rel>
+</example>
+
+</roleset>
+<roleset id="base.07" name="nomadjlike-inappropriate">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the experts ' report `` completely off base
+</text>
+<arg n="1">the experts ' report</arg>
+<rel>base</rel>
+</example>
+
+<example name="autogen2">
+<text>
+some people -LCB- on HUD Secretary Jack Kemp 's -RCB- staff are
+off base in terms in which they 're evaluating certain things
+affecting my hometown
+</text>
+<arg n="1">some people -LCB- on HUD Secretary Jack Kemp 's -RCB- staff</arg>
+<rel>base</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="industry">
+<roleset id="industry.01" name="environment for thing">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The whole production industry
+</text>
+<arg n="1">production</arg>
+<rel>industry</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the aluminum industry
+</text>
+<arg n="1">aluminum</arg>
+<rel>industry</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

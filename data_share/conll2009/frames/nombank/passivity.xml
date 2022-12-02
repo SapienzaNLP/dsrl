@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="passivity">
+<roleset id="passivity.01" name="nomadj-passive">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+D.T. 's surviving bishop was reduced to passivity
+</text>
+<arg n="0">D.T. 's surviving bishop ---> *-2</arg>
+<arg n="Support">reduced to</arg>
+<rel>passivity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

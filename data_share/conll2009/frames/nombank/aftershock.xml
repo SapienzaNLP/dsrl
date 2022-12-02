@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aftershock">
+<roleset id="aftershock.01" name="be subsequent, temporally or spatially" source="verb-follow.01" vncls="47.8">
+<roles>
+
+<role descr="thing following, coming after" n="1">
+<vnrole vncls="47.8" vntheta="Theme1"/></role>
+
+<role descr="thing followed, coming before" n="2">
+<vnrole vncls="47.8" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+aftershocks of Friday 's late Big Board plunge
+</text>
+<arg n="1">aftershocks</arg>
+<rel>aftershocks</rel>
+<arg n="2">of Friday 's late Big Board plunge</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the aftershock of Black Monday , when investors fled the market
+because of huge losses
+</text>
+<arg n="1">aftershock</arg>
+<rel>aftershock</rel>
+<arg n="2">
+of Black Monday , when investors fled the market because of huge
+losses</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

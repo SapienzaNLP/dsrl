@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="misperception">
+<roleset id="misperception.01" name="believe" source="verb-believe.01" vncls="29.4">
+<roles>
+
+<role descr="believer" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="belief" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your almost beatific misperceptions
+</text>
+<arg n="0">your</arg>
+<rel>misperceptions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

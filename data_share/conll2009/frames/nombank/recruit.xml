@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recruit">
+<roleset id="recruit.01" name="convince to join" source="verb-recruit.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Golenbock recruits
+</text>
+<arg n="0">Golenbock</arg>
+<arg n="1">recruits</arg>
+<rel>recruits</rel>
+</example>
+
+<example name="autogen2">
+<text>
+many young recruits in Japanese securities firms
+</text>
+<arg n="1">recruits</arg>
+<rel>recruits</rel>
+<arg n="2">in Japanese securities firms</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

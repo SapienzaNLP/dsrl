@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trace">
+<roleset id="trace.01" name="come to be visible" source="verb-appear.01">
+<roles>
+
+<role descr="thing appearing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+traces of yellow
+</text>
+<rel>traces</rel>
+<arg n="1">of yellow</arg>
+</example>
+
+<example name="autogen2">
+<text>
+traces of bacteria
+</text>
+<rel>traces</rel>
+<arg n="1">of bacteria</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

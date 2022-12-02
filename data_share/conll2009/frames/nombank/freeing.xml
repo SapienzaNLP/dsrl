@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="freeing">
+<roleset id="freeing.01" name="to make free" source="verb-free.01" vncls="10.6">
+<roles>
+
+<role descr="entity providing freedom, agent" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="entity made free" n="1">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+<role descr="freed from" n="2">
+<vnrole vncls="10.6" vntheta="Theme"/></role>
+
+<role descr="beneficiary/purpose" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the freeing of the others
+</text>
+<rel>freeing</rel>
+<arg n="1">of the others</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

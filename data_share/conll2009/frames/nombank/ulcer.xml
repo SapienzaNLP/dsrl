@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ulcer">
+<roleset id="ulcer.01" name="attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+duodenal ulcers
+</text>
+<arg n="1">duodenal</arg>
+<arg n="2">ulcers</arg>
+<rel>ulcers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

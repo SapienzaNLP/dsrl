@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resonance">
+<roleset id="resonance.01" name="attribute/nomadj-resonant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+magnetic resonance imaging equipment
+</text>
+<arg n="1">magnetic</arg>
+<rel>resonance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the new MRI -LRB- magnetic resonance imaging -RRB- scanners
+</text>
+<arg n="1">magnetic</arg>
+<rel>resonance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lover">
+<roleset id="lover.01" name="object of affection" source="verb-love.01" vncls="31.2">
+<roles>
+
+<role descr="lover" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="loved" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ambiguan freedom lovers
+</text>
+<arg n="1">freedom</arg>
+<arg n="0">lovers</arg>
+<rel>lovers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Plant lovers
+</text>
+<arg n="1">Plant</arg>
+<arg n="0">lovers</arg>
+<rel>lovers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gate">
+<roleset id="gate.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the rickety gate at Mr. Sisulu 's modest house
+</text>
+<rel>gate</rel>
+<arg n="1">at Mr. Sisulu 's modest house</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their gates
+</text>
+<arg n="1">their</arg>
+<rel>gates</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

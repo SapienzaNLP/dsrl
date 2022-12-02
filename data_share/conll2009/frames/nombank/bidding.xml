@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bidding">
+<roleset id="bidding.01" name="auction" source="verb-bid.01">
+<roles>
+
+<role descr="bidder" n="0"></role>
+
+<role descr="the target, goods" n="1"></role>
+
+<role descr="how much you're bidding, buying price" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+New England Electric System bowed out of the bidding for Public
+Service Co. of New Hampshire , saying that the risks were too
+high and the potential payoff too far in the future to justify a
+higher offer .
+</text>
+<arg n="0">New England Electric System</arg>
+<arg n="Support">bowed of</arg>
+<rel>bidding</rel>
+<arg n="1">for Public Service Co. of New Hampshire</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a bidding war between the two U.S. auto giants
+</text>
+<rel>bidding</rel>
+<arg n="Support">war</arg>
+<arg n="0">between the two U.S. auto giants</arg>
+</example>
+
+</roleset>
+<roleset id="bidding.02" name="obey, follow the rules" source="verb-obey.01">
+<roles>
+
+<role descr="obeyer" n="0"></role>
+
+<role descr="rule or rule-giver" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+computers do his bidding
+</text>
+<arg n="0">computers</arg>
+<arg n="Support">do</arg>
+<arg n="1">his</arg>
+<rel>bidding</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chutzpah">
+<roleset id="chutzpah.01" name="nomadjlike-audacious/ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In an extraordinary mix of cultures and church-state powers ,
+Rep. Robert Dornan -LRB- R. , Calif . -RRB- lectured his fellow
+Roman Catholics -- including Mr. Florio -- for having the ``
+chutzpah '' to disagree with the hierarchy of their church on
+abortion .
+</text>
+<arg n="0">his fellow Roman Catholics -- including Mr. Florio -- ---> *-1</arg>
+<arg n="Support">having</arg>
+<rel>chutzpah</rel>
+<arg n="1">to disagree with the hierarchy of their church on abortion</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

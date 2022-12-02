@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fickleness">
+<roleset id="fickleness.01" name="nomadj-fickle">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the very fickleness of baby boomers
+</text>
+<rel>fickleness</rel>
+<arg n="1">of baby boomers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

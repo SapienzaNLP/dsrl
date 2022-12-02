@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="smell">
+<roleset id="smell.01" name="attribute/nomadj-smelly">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a horrible smell of gas
+</text>
+<arg n="2">horrible</arg>
+<rel>smell</rel>
+<arg n="1">of gas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the smell of `` raw meat ''
+</text>
+<arg f="REF" n="2">smell</arg>
+<rel>smell</rel>
+<arg n="1">of `` raw meat ''</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

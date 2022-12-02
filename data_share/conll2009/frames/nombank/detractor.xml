@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="detractor">
+<roleset id="detractor.01" name="nomlike" source="verb-disparage.01" vncls="33">
+<roles>
+
+<role descr="talker, agent" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="victim" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his detractors
+</text>
+<arg n="1">his</arg>
+<arg n="0">detractors</arg>
+<rel>detractors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

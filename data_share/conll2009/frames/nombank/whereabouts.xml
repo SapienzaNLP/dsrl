@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="whereabouts">
+<roleset id="whereabouts.01" name="cause to) be located in" source="verb-locate.01">
+<roles>
+
+<role descr="institution, thing located" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the whereabouts of her daughter
+</text>
+<rel>whereabouts</rel>
+<arg n="1">of her daughter</arg>
+</example>
+
+<example name="autogen2">
+<text>
+her whereabouts
+</text>
+<arg n="1">her</arg>
+<rel>whereabouts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

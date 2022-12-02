@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bet">
+<roleset id="bet.01" name="wager" source="verb-bet.01" vncls="54.5">
+<roles>
+
+<role descr="better" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="amount of bet" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="basis, proposition, bet-on" n="2">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+<role descr="co-better" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Topping the cheese stunt , on another typical evening of fun on
+`` Wetten Dass , '' a contestant won a bet with the show 's host
+, Thomas Gottschalk , that he could identify 300 German dialects
+over the telephone .
+</text>
+<arg n="0">a contestant</arg>
+<arg n="Support">won</arg>
+<rel>bet</rel>
+<arg n="3">with the show 's host , Thomas Gottschalk ,</arg>
+<arg n="2">that he could identify 300 German dialects over the telephone</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their bets
+</text>
+<arg n="0">their</arg>
+<rel>bets</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

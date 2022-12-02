@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="velocity">
+<roleset id="velocity.01" name="attribute/nomadjlike-quickly">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Its maximum velocity
+</text>
+<arg n="1">Its</arg>
+<arg f="REF" n="2">velocity</arg>
+<rel>velocity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the velocity of the market 's drop
+</text>
+<arg f="REF" n="2">velocity</arg>
+<rel>velocity</rel>
+<arg n="1">of the market 's drop</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

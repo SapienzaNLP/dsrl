@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="advantage">
+<roleset id="advantage.01" name="acquire" source="verb-gain.02">
+<roles>
+
+<role descr="exploiter" n="0"></role>
+
+<role descr="entity used" n="1"></role>
+
+<role descr="entity which loses advantage" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the exemptions , deductions and credits that gave some taxpayers
+an advantage over others
+</text>
+<arg n="1">the exemptions , deductions and credits ---> that ---> *T*-1</arg>
+<arg n="Support">gave</arg>
+<arg n="0">some taxpayers</arg>
+<rel>advantage</rel>
+<arg n="2">over others</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his racial advantage
+</text>
+<arg n="0">his</arg>
+<arg n="1">racial</arg>
+<rel>advantage</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

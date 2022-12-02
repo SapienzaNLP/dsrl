@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="solace">
+<roleset id="solace.01" name="make feel better" source="verb-console.01" vncls="31.1">
+<roles>
+
+<role descr="consoler" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="consoled" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="consolation, instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the best source of solace
+</text>
+<arg n="0">the best source</arg>
+<arg n="Support">source of</arg>
+<rel>solace</rel>
+</example>
+
+<example name="autogen2">
+<text>
+In the long , frightening night after Tuesday 's devastating
+earthquake , Bay Area residents searched for comfort and solace
+wherever they could .
+</text>
+<arg n="1">Bay Area residents</arg>
+<arg n="Support">searched for</arg>
+<rel>solace</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

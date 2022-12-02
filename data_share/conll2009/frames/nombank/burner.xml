@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="burner">
+<roleset id="burner.01" name="cause to) be on fire" source="verb-burn.01">
+<roles>
+
+<role descr="pyromaniac" n="0"></role>
+
+<role descr="thing burning" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a barn burner
+</text>
+<arg n="1">barn</arg>
+<arg n="0">burner</arg>
+<rel>burner</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a propane burner
+</text>
+<arg n="1">propane</arg>
+<arg n="0">burner</arg>
+<rel>burner</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

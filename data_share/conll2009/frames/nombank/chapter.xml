@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chapter">
+<roleset id="chapter.01" name="partitive-part/book-chapter">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+merely the latest chapter in a byzantine relationship between Mr.
+Noriega and Washington that stretches back three decades
+</text>
+<rel>chapter</rel>
+<arg n="1">
+in a byzantine relationship between Mr. Noriega and Washington
+that stretches back three decades</arg>
+</example>
+
+<example name="autogen5">
+<text>
+four chapters of yet another Marlowe book , `` The Poodle Springs
+Story , '' which seemed to go beyond parody into something like
+burlesque
+</text>
+<rel>chapters</rel>
+<arg n="1">
+of yet another Marlowe book , `` The Poodle Springs Story , ''
+which seemed to go beyond parody into something like burlesque</arg>
+</example>
+
+</roleset>
+<roleset id="chapter.02" name="partitive-part/division">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="theme" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the club 's Ventura chapter
+</text>
+<arg n="1">the club 's</arg>
+<arg n="2">Ventura</arg>
+<rel>chapter</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Los Angeles chapter of the National Association of Investors
+Corp. , an organization of investment clubs and individual
+investors
+</text>
+<arg n="2">Los Angeles</arg>
+<rel>chapter</rel>
+<arg n="1">
+of the National Association of Investors Corp. , an organization
+of investment clubs and individual investors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

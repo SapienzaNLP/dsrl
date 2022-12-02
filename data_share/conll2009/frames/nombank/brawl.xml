@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brawl">
+<roleset id="brawl.01" name="nomlike" source="verb-fight.01" vncls="36.3">
+<roles>
+
+<role descr="first fighter" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="second fighter, if separate" n="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+<role descr="spoils" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its brawl with Pennzoil
+</text>
+<arg n="0">its</arg>
+<rel>brawl</rel>
+<arg n="1">with Pennzoil</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Brawls between union factions
+</text>
+<rel>Brawls</rel>
+<arg n="0">between union factions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

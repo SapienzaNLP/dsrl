@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gauge">
+<roleset id="gauge.01" name="determine, measure" source="verb-gauge.01">
+<roles>
+
+<role descr="decider" n="0"></role>
+
+<role descr="thing determined" n="1"></role>
+
+<role descr="grounds" n="2"></role>
+
+<role descr="attribute of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The government 's primary economic-forecasting gauge
+</text>
+<arg n="0">The government 's</arg>
+<arg n="1">economic-forecasting</arg>
+<arg n="2">gauge</arg>
+<rel>gauge</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the mostly widely followed gauge of the tax-exempt market
+</text>
+<arg n="2">gauge</arg>
+<rel>gauge</rel>
+<arg n="1">of the tax-exempt market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

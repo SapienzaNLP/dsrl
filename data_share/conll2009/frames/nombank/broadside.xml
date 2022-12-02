@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="broadside">
+<roleset id="broadside.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Tonkin 's broadside
+</text>
+<arg n="0">Mr. Tonkin 's</arg>
+<rel>broadside</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

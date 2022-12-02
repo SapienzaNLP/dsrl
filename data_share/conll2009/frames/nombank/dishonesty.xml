@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dishonesty">
+<roleset id="dishonesty.01" name="nomadj-dishonest">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Employee Dishonesty
+</text>
+<arg n="0">Employee</arg>
+<rel>Dishonesty</rel>
+</example>
+
+<example name="autogen2">
+<text>
+employee dishonesty
+</text>
+<arg n="0">employee</arg>
+<rel>dishonesty</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

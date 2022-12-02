@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shoulder">
+<roleset id="shoulder.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ms. Foster 's neck and shoulders
+</text>
+<arg n="1">Ms. Foster 's</arg>
+<rel>shoulders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his shoulder
+</text>
+<arg n="1">his</arg>
+<rel>shoulder</rel>
+</example>
+
+</roleset>
+<roleset id="shoulder.02" name="reject, decline, turn down" source="verb-reject.01" vncls="29.2">
+<roles>
+
+<role descr="rejecter" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing rejected" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="attribute" n="3">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Meanwhile , investors turned a cold shoulder to the Treasury 's
+sale of $ 10 billion of new two-year notes yesterday .
+</text>
+<arg n="0">investors</arg>
+<arg n="Support">turned</arg>
+<rel>shoulder</rel>
+<arg n="1">
+to the Treasury 's sale of $ 10 billion of new two-year notes
+yesterday</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Nekoosa has given the offer a public cold shoulder , a reaction
+Mr. Hahn has n't faced in his 18 earlier acquisitions , all of
+which were negotiated behind the scenes .
+</text>
+<arg n="0">Nekoosa</arg>
+<arg n="Support">given</arg>
+<arg n="1">the offer</arg>
+<arg f="MNR" n="M">public</arg>
+<rel>shoulder</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

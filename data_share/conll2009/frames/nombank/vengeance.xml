@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vengeance">
+<roleset id="vengeance.01" name="nom" source="verb-avenge.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="benficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+800 Libyans threatening vengeance if Italy refuses to pay
+compensation for more than 30 years of colonial rule
+</text>
+<arg n="0">800 Libyans</arg>
+<arg n="Support">threatening</arg>
+<rel>vengeance</rel>
+</example>
+
+</roleset>
+<roleset id="vengeance.02" name="idiom-with-a-vengence/nomadvlike-forcefully">
+<roles>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Then when the market was at a technical level to buy , they came
+in with a vengeance . ''
+</text>
+<arg n="1">they came in</arg>
+<rel>vengeance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Democracy is making a return with a vengeance to Latin America 's
+most populous and deeply indebted country .
+</text>
+<arg n="1">
+Democracy is making a return to Latin America 's most populous
+and deeply indebted country</arg>
+<rel>vengeance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

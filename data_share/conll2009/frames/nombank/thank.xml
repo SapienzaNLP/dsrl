@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thank">
+<roleset id="thank.01" name="thank" source="verb-thank.01" vncls="33">
+<roles>
+
+<role descr="thanker" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="thanked" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="for what" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+THANKS TO modern medicine
+</text>
+<rel>THANKS</rel>
+<arg n="1">TO modern medicine</arg>
+</example>
+
+<example name="autogen2">
+<text>
+As thanks , the egg industry tried to break him .
+</text>
+<rel>thanks</rel>
+<arg n="0">the egg industry</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

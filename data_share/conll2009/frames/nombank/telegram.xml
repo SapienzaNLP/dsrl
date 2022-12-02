@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="telegram">
+<roleset id="telegram.01" name="work-of-art" source="verb-send.01" vncls="11.1-1">
+<roles>
+
+<role descr="sender" n="0">
+<vnrole vncls="11.1-1" vntheta="Agent"/></role>
+
+<role descr="sent" n="1">
+<vnrole vncls="11.1-1" vntheta="Theme"/></role>
+
+<role descr="sent-to" n="2">
+<vnrole vncls="11.1-1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In Moscow , Mr. Gorbachev sent Mr. Krenz a congratulatory
+telegram that appeared to urge the new leadership to heed growing
+calls for change .
+</text>
+<arg n="0">Mr. Gorbachev</arg>
+<arg n="Support">sent</arg>
+<arg n="2">Mr. Krenz</arg>
+<arg n="1">congratulatory</arg>
+<rel>telegram</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

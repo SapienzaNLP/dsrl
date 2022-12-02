@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="raider">
+<roleset id="raider.01" name="enter suddenly" source="verb-raid.01" vncls="35.4">
+<roles>
+
+<role descr="raider" n="0">
+<vnrole vncls="35.4" vntheta="Agent"/></role>
+
+<role descr="raided" n="1">
+<vnrole vncls="35.4" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Allianz would help protect it from raiders
+</text>
+<arg n="Support">protect from</arg>
+<arg n="1">it</arg>
+<arg n="0">raiders</arg>
+<rel>raiders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+real estate magnate and sometime raider Donald Trump
+</text>
+<arg f="TMP" n="M">sometime</arg>
+<arg n="0">raider</arg>
+<rel>raider</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

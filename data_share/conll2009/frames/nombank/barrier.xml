@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="barrier">
+<roleset id="barrier.01" name="stop, prevent" source="verb-bar.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme (action or object being prevented" n="1"></role>
+
+<role descr="secondary predication or action" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they could install a crash barrier between the sidewalk and the
+road
+</text>
+<arg n="0">they</arg>
+<arg n="Support">install</arg>
+<arg n="2">crash</arg>
+<arg n="3">barrier</arg>
+<rel>barrier</rel>
+</example>
+
+<example name="autogen2">
+<text>
+relaxed trade barriers
+</text>
+<arg n="2">trade</arg>
+<arg n="3">barriers</arg>
+<rel>barriers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

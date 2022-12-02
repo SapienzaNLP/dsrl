@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="compliance">
+<roleset id="compliance.01" name="cooperate" source="verb-comply.01">
+<roles>
+
+<role descr="complier" n="0"></role>
+
+<role descr="complied-with ie, rule" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+compliance by floor traders with exchange and Commodity Futures
+Trading Commission rules
+</text>
+<rel>compliance</rel>
+<arg n="0">by floor traders</arg>
+<arg n="1">with exchange and Commodity Futures Trading Commission rules</arg>
+</example>
+
+<example name="autogen2">
+<text>
+tax-compliance material
+</text>
+<arg n="1">tax-compliance</arg>
+<rel>tax-compliance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reprieve">
+<roleset id="reprieve.01" name="help, ease, get rid of" source="verb-relieve.01" vncls="10.6">
+<roles>
+
+<role descr="thing relieving" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="thing being helped, eased, gotten rid of" n="1">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Duke arranges a last minute reprieve for all concerned
+</text>
+<arg n="0">the Duke</arg>
+<arg n="Support">arranges</arg>
+<arg f="MNR" n="M">last minute</arg>
+<rel>reprieve</rel>
+<arg n="1">for all concerned</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Meanwhile , Friday brought a reprieve for money managers whose
+investment styles had put them at odds with the market rally .
+</text>
+<arg n="0">Friday</arg>
+<arg n="Support">brought</arg>
+<rel>reprieve</rel>
+<arg n="1">
+for money managers whose investment styles had put them at odds
+with the market rally</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

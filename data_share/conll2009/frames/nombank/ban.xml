@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ban">
+<roleset id="ban.01" name="prohibit" source="verb-ban.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="secondary agent" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the -LCB- U.S. . -RCB- ban on military sales to the Panamanian
+Defense Forces
+</text>
+<arg n="0">U.S.</arg>
+<rel>ban</rel>
+<arg n="1">on military sales to the Panamanian Defense Forces</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a ban on any Treasury Department expenditure for enforcement of a
+1986 tax provision intended to counter discrimination in
+employee-benefit plans
+</text>
+<rel>ban</rel>
+<arg n="1">
+on any Treasury Department expenditure for enforcement of a 1986
+tax provision intended to counter discrimination in
+employee-benefit plans</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

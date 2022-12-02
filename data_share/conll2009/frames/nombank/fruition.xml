@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fruition">
+<roleset id="fruition.01" name="occur, take place" source="verb-happen.01" vncls="48.3">
+<roles>
+
+<role descr="event" n="1">
+<vnrole vncls="48.3" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Investment and emigration plans take time to come to fruition .
+</text>
+<arg n="1">Investment and emigration plans ---> *-1</arg>
+<arg n="Support">come to</arg>
+<rel>fruition</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Goldsmith 's highly leveraged bid will come to fruition
+</text>
+<arg n="1">Mr. Goldsmith 's highly leveraged bid</arg>
+<arg n="Support">come to</arg>
+<rel>fruition</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

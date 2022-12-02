@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="effect">
+<roleset id="effect.01" name="have an effect on" source="effect-verb.02">
+<roles>
+
+<role descr="cause" n="0"></role>
+
+<role descr="effect, usually a change" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="instrumental" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the deleterious effects of space on materials and instruments
+</text>
+<arg n="1">deleterious</arg>
+<rel>effects</rel>
+<arg n="0">of space</arg>
+<arg n="2">on materials and instruments</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an important `` chilling effect '' on all manner of
+appropriations bills
+</text>
+<arg n="1">chilling</arg>
+<rel>effect</rel>
+<arg n="2">on all manner of appropriations bills</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

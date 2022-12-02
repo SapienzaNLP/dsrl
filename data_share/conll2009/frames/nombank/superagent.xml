@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="superagent">
+<roleset id="superagent.01" name="consultant/actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+<role descr="employer" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Olympics superagent Barry Frank
+</text>
+<arg n="2">Olympics</arg>
+<arg n="0">superagent</arg>
+<rel>superagent</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

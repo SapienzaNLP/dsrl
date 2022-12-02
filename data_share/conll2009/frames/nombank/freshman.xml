@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="freshman">
+<roleset id="freshman.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 52 freshman Republicans
+</text>
+<rel>freshman</rel>
+<arg n="1">Republicans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Berkeley 's freshmen
+</text>
+<arg n="1">Berkeley 's</arg>
+<rel>freshmen</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gospel">
+<roleset id="gospel.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Others preach the gospel of buying only blue-chip growth stocks .
+</text>
+<arg n="0">Others</arg>
+<arg n="Support">preach</arg>
+<rel>gospel</rel>
+<arg n="1">of buying only blue-chip growth stocks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="maximum">
+<roleset id="maximum.01" name="ensure something stays below a certain level" source="verb-limit.01">
+<roles>
+
+<role descr="agent, limiter" n="0"></role>
+
+<role descr="thing limited" n="1"></role>
+
+<role descr="limit" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it reached a maximum of 35 %
+</text>
+<arg n="1">it</arg>
+<arg n="Support">reached</arg>
+<rel>maximum</rel>
+<arg n="2">of 35 %</arg>
+</example>
+
+<example name="autogen2">
+<text>
+maximum liquidity
+</text>
+<arg f="REF" n="2">maximum</arg>
+<rel>maximum</rel>
+<arg n="1">liquidity</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

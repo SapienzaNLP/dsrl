@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="contribution">
+<roleset id="contribution.01" name="give" source="verb-contribute.01" vncls="13.2">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.2" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.2" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+five senators who received thousands of dollars in campaign
+contributions from Mr. Keating
+</text>
+<arg n="2">five senators ---> who ---> *T*-1</arg>
+<arg n="Support">received thousands in</arg>
+<arg n="1">thousands of dollars</arg>
+<rel>contributions</rel>
+<arg n="0">from Mr. Keating</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its $ 965 million equity contribution
+</text>
+<arg n="0">its</arg>
+<arg n="1">$ 965 million</arg>
+<rel>contribution</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tipper">
+<roleset id="tipper.01" name="give a hint to" source="verb-tip.04">
+<roles>
+
+<role descr="giver of hint" n="0"></role>
+
+<role descr="hint" n="1"></role>
+
+<role descr="getter of hint" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his tipper
+</text>
+<arg n="2">his</arg>
+<arg n="0">tipper</arg>
+<rel>tipper</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

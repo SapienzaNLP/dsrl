@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fad">
+<roleset id="fad.01" name="nomlike/attribute" source="verb-trend.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a health-food fad
+</text>
+<arg n="2">health-food</arg>
+<rel>fad</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the fitness fad
+</text>
+<arg n="2">fitness</arg>
+<rel>fad</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

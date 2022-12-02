@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prospectus">
+<roleset id="prospectus.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the program 's publicity prospectus
+</text>
+<arg n="3">the program 's</arg>
+<arg n="1">publicity</arg>
+<rel>prospectus</rel>
+</example>
+
+<example name="autogen2">
+<text>
+it filed a preliminary prospectus for an offering of common
+shares
+</text>
+<arg n="0">it</arg>
+<arg n="Support">filed</arg>
+<arg f="TMP" n="M">preliminary</arg>
+<rel>prospectus</rel>
+<arg n="1">for an offering of common shares</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

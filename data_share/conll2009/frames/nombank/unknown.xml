@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unknown">
+<roleset id="unknown.01" name="understand" source="verb-know.01" vncls="29.5">
+<roles>
+
+<role descr="knower" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing known or thought" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="attribute of arg1" n="2">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the biggest unknown is how they will fare in a recession
+</text>
+<arg f="EXT" n="M">biggest</arg>
+<rel>unknown</rel>
+<arg n="1">how they will fare in a recession</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

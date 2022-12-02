@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="correspondence">
+<roleset id="correspondence.01" name="exchange letters with" source="verb-correspond.01" vncls="36.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="actor2" n="2" source="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+correspondence mailed about incomplete 8300s
+</text>
+<rel>correspondence</rel>
+<arg n="Support">mailed</arg>
+<arg n="1">about incomplete 8300s</arg>
+</example>
+
+<example name="autogen2">
+<text>
+highly classified correspondence between the two branches of
+government
+</text>
+<rel>correspondence</rel>
+<arg n="0">between the two branches of government</arg>
+</example>
+
+</roleset>
+<roleset id="correspondence.02" name="be parallel/equivalent to" source="verb-correspond.02" vncls="47.2">
+<roles>
+
+<role descr="topic, theme" n="1">
+<vnrole vncls="47.2" vntheta="Theme"/></role>
+
+<role descr="compared with" n="2"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+the unlikely correspondence between eye color and knowledge of botany
+</text>
+<arg f="ADV" n="M">unlikely</arg>
+<rel>correspondence</rel>
+<arg n="1">between eye color and knowledge of botany</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

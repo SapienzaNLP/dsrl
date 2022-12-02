@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="richness">
+<roleset id="richness.01" name="attribute/nomadj-rich">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the nuance and richness of Gorky 's individual characters
+</text>
+<arg f="REF" n="2">richness</arg>
+<rel>richness</rel>
+<arg n="1">of Gorky 's individual characters</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

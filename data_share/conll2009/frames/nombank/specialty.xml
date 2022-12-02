@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="specialty">
+<roleset id="specialty.01" name="specialize" source="verb-specialize.01">
+<roles>
+
+<role descr="specialist" n="0"></role>
+
+<role descr="speciality" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a specialty bulk-chemical unit
+</text>
+<rel>specialty</rel>
+<arg n="1">bulk-chemical</arg>
+<arg n="0">unit</arg>
+</example>
+
+<example name="autogen3">
+<text>
+a British independent oil and specialty chemicals marketing
+concern
+</text>
+<rel>specialty</rel>
+<arg n="1">chemicals</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

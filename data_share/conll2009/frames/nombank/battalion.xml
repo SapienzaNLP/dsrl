@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="battalion">
+<roleset id="battalion.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a battalion of topiary barbers , rosarians , orchardists and
+arborists
+</text>
+<rel>battalion</rel>
+<arg n="2">of topiary barbers , rosarians , orchardists and arborists</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

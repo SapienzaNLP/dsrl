@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deportation">
+<roleset id="deportation.01" name="to expel from a country" source="verb-deport.01" vncls="10.2">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="10.2" vntheta="Agent"/></role>
+
+<role descr="entity deported" n="1">
+<vnrole vncls="10.2" vntheta="Theme"/></role>
+
+<role descr="goal" n="2"></role>
+
+<role descr="country  deported from" n="3" source="2">
+<vnrole vncls="10.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The 658 Chinese , who have been in a refugee-assistance center ,
+were sent to immigration facilities yesterday pending deportation
+to China
+</text>
+<arg n="1">The 658 Chinese , who have been in a refugee-assistance center ,</arg>
+<rel>deportation</rel>
+<arg n="2">to China</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The deportation of more than 315,000 men , women and children by
+the Bulgarian regime
+</text>
+<rel>deportation</rel>
+<arg n="1">of more than 315,000 men , women and children</arg>
+<arg n="0">by the Bulgarian regime</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

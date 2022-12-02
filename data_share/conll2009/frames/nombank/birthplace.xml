@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="birthplace">
+<roleset id="birthplace.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the birthplace of the family banking empire
+</text>
+<arg n="0">birthplace</arg>
+<rel>birthplace</rel>
+<arg n="1">of the family banking empire</arg>
+</example>
+
+<example name="autogen2">
+<text>
+my birthplace
+</text>
+<arg n="1">my</arg>
+<arg n="0">birthplace</arg>
+<rel>birthplace</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="creditor">
+<roleset id="creditor.01" name="to enter as a credit" source="verb-credit.02">
+<roles>
+
+<role descr="lender/agent" n="0"></role>
+
+<role descr="amount credited" n="1"></role>
+
+<role descr="borrower/beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+South Africa negotiated a new debt agreement with its major
+foreign creditors for about $ 8 billion of its foreign debt
+outstanding
+</text>
+<arg n="2">its</arg>
+<arg f="LOC" n="M">foreign</arg>
+<arg n="0">creditors</arg>
+<rel>creditors</rel>
+<arg n="1">for about $ 8 billion of its foreign debt outstanding</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its creditors
+</text>
+<arg n="2">its</arg>
+<arg n="0">creditors</arg>
+<rel>creditors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

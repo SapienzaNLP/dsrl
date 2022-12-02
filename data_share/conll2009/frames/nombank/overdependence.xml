@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="overdependence">
+<roleset id="overdependence.01" name="rely" source="verb-depend.01">
+<roles>
+
+<role descr="result/experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+To maintain control over production and avoid overdependence on
+foreign sources , he says he still makes most of his furs in the
+U.S. .
+</text>
+<arg n="0">* ---> he</arg>
+<arg n="Support">avoid</arg>
+<rel>overdependence</rel>
+<arg n="1">on foreign sources</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

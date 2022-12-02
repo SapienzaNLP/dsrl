@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="advertising">
+<roleset id="advertising.01" name="make a commercial pitch" source="verb-advertise.01" vncls="35.2">
+<roles>
+
+<role descr="advertiser" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="thing being pitched, advertised" n="1">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Tandy has added several new products to that line , including a
+laptop computer priced around $ 1,000 , and is focusing its
+advertising on the easy-to-use software that is packaged with its
+machines .
+</text>
+<arg n="0">its</arg>
+<rel>advertising</rel>
+<arg n="1">on the easy-to-use software that is packaged with its machines</arg>
+</example>
+
+<example name="autogen2">
+<text>
+tobacco advertising
+</text>
+<arg n="1">tobacco</arg>
+<rel>advertising</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

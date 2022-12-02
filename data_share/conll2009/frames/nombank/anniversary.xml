@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="anniversary">
+<roleset id="anniversary.01" name="honor with memorial, be a memorial" source="verb-commemorate.01">
+<roles>
+
+<role descr="agent, honorer" n="0"></role>
+
+<role descr="thing remembered" n="1"></role>
+
+<role descr="times celebrated" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Investors celebrated the second anniversary of Black Monday with
+a buying spree in both stocks and bonds .
+</text>
+<arg n="0">Investors</arg>
+<arg n="Support">celebrated</arg>
+<arg n="2">second</arg>
+<rel>anniversary</rel>
+<arg n="1">of Black Monday</arg>
+</example>
+
+<example name="autogen2">
+<text>
+photography 's 150th anniversary
+</text>
+<arg n="1">photography 's</arg>
+<arg n="2">150th</arg>
+<rel>anniversary</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

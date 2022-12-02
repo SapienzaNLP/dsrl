@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="caterer">
+<roleset id="caterer.01" name="provide (food, in the default) for (a party" source="verb-cater.01">
+<roles>
+
+<role descr="caterer" n="0"></role>
+
+<role descr="thing (event?) catered" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A food caterer
+</text>
+<arg n="1">food</arg>
+<arg n="0">caterer</arg>
+<rel>caterer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

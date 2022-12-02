@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="seizure">
+<roleset id="seizure.01" name="acquire (forcefully or stealthily" source="verb-seize.01" vncls="10.5">
+<roles>
+
+<role descr="agent, entity acquiring something" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="thing acquired" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+<role descr="acquired-from" n="2">
+<vnrole vncls="10.5" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+prosecutors to limit pretrial asset seizures if there are less
+intrusive means of protecting assets the government may
+subsequently be able to seize after a conviction
+</text>
+<arg n="0">prosecutors</arg>
+<arg n="Support">limit</arg>
+<arg f="TMP" n="M">pretrial</arg>
+<arg n="1">asset</arg>
+<rel>seizures</rel>
+</example>
+
+<example name="autogen2">
+<text>
+seizures of drug dealers ' assets
+</text>
+<rel>seizures</rel>
+<arg n="1">of drug dealers ' assets</arg>
+</example>
+
+</roleset>
+<roleset id="seizure.02" name="nomlike" source="verb-cough.01">
+<roles>
+
+<role descr="experiencer" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the magnet technique might spark seizures in epileptics
+</text>
+<arg n="Support">spark</arg>
+<rel>seizures</rel>
+<arg n="1">in epileptics</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

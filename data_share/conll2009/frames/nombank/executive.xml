@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="executive">
+<roleset id="executive.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a senior IBM marketing executive
+</text>
+<arg n="3">senior</arg>
+<arg n="2">IBM</arg>
+<arg n="1">marketing</arg>
+<arg n="0">executive</arg>
+<rel>executive</rel>
+</example>
+
+<example name="autogen2">
+<text>
+chief executive of L.J. Hooker
+</text>
+<arg n="3">chief</arg>
+<arg n="0">executive</arg>
+<rel>executive</rel>
+<arg n="2">of L.J. Hooker</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

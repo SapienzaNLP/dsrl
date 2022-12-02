@@ -1,0 +1,87 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stage">
+<roleset id="stage.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its initial production stage
+</text>
+<arg n="3">its</arg>
+<arg n="1">production</arg>
+<rel>stage</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its post-production stages of `` cleaning up the film
+</text>
+<arg n="3">its</arg>
+<rel>stages</rel>
+<arg n="1">of `` cleaning up the film</arg>
+</example>
+
+</roleset>
+<roleset id="stage.02" name="environment">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+CNN 's stage for its big push into investigative journalism
+</text>
+<rel>stage</rel>
+<arg n="1">for its big push into investigative journalism</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the minstrel and vaudeville stage
+</text>
+<arg n="1">minstrel and vaudeville</arg>
+<rel>stage</rel>
+</example>
+
+</roleset>
+<roleset id="stage.03" name="nomadj-prominent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` Today , '' said Mr. Sisulu , `` the ANC has captured the
+center stage of political life in South Africa . ''
+</text>
+<arg n="1">the ANC</arg>
+<arg n="Support">captured</arg>
+<rel>stage</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The witness table is center stage
+</text>
+<arg n="1">The witness table</arg>
+<rel>stage</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

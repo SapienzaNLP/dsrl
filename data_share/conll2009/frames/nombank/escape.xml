@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="escape">
+<roleset id="escape.01" name="default" source="verb-escape.01" vncls="51.1-1">
+<roles>
+
+<role descr="entity escaping" n="0">
+<vnrole vncls="51.1-1" vntheta="Theme"/></role>
+
+<role descr="place or thing escaped" n="1">
+<vnrole vncls="51.1-1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fire escape
+</text>
+<arg n="1">fire</arg>
+<rel>escape</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Once there , what ways of escape are open to them other than
+drink , drugs or insanity ?
+</text>
+<rel>escape</rel>
+<arg n="Support">open</arg>
+<arg n="0">to them</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

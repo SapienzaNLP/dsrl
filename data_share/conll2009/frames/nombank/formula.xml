@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="formula">
+<roleset id="formula.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's infant formula
+</text>
+<arg n="0">the company 's</arg>
+<arg n="1">infant</arg>
+<rel>formula</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a formula to limit rate increases to satisfy the state
+</text>
+<rel>formula</rel>
+<arg n="1">to limit rate increases to satisfy the state</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

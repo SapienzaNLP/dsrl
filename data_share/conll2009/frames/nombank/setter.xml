@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="setter">
+<roleset id="setter.01" name="establish" source="verb-set.02" vncls="25.1">
+<roles>
+
+<role descr="agent, setter" n="0">
+<vnrole vncls="25.1" vntheta="Agent"/></role>
+
+<role descr="thing set" n="1">
+<vnrole vncls="25.1" vntheta="Theme"/></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+government rate setters
+</text>
+<arg n="1">rate</arg>
+<arg n="0">setters</arg>
+<rel>setters</rel>
+</example>
+
+<example name="autogen2">
+<text>
+fashion trendsetter
+</text>
+<arg n="1">fashion</arg>
+<arg n="0">trendsetter</arg>
+<rel>trendsetter</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

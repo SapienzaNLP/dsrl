@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="controller">
+<roleset id="controller.01" name="have power over" source="verb-control.01">
+<roles>
+
+<role descr="controller" n="0"></role>
+
+<role descr="controlled" n="1"></role>
+
+<role descr="instrumental, controlled with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+computer controllers
+</text>
+<arg n="1">computer</arg>
+<arg n="0">controllers</arg>
+<rel>controllers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+video controller equipment
+</text>
+<arg n="1">video</arg>
+<arg n="0">controller</arg>
+<rel>controller</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

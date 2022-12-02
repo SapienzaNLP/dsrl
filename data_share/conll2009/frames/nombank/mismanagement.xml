@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mismanagement">
+<roleset id="mismanagement.01" name="supervise" source="verb-manage.01">
+<roles>
+
+<role descr="manager" n="0"></role>
+
+<role descr="thing managed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his own mismanagement
+</text>
+<arg n="0">his</arg>
+<rel>mismanagement</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The HUD scandals will simply continue , but under new
+mismanagement .
+</text>
+<arg n="1">The HUD scandals</arg>
+<arg f="TMP" n="M">new</arg>
+<rel>mismanagement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

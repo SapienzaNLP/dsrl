@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="experience">
+<roleset id="experience.01" name="have a sensation or experience" source="verb-experience.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="experienced" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bank 's experience with LDC debt
+</text>
+<arg n="0">the bank 's</arg>
+<rel>experience</rel>
+<arg n="1">with LDC debt</arg>
+</example>
+
+<example name="autogen2">
+<text>
+military experience
+</text>
+<arg n="1">military</arg>
+<rel>experience</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

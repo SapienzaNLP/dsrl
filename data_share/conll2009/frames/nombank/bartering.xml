@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bartering">
+<roleset id="bartering.01" name="trade" source="verb-barter.01" vncls="13.6">
+<roles>
+
+<role descr="agent, entity trading" n="0">
+<vnrole vncls="13.6" vntheta="Agent"/></role>
+
+<role descr="thing being traded (away" n="1">
+<vnrole vncls="13.6" vntheta="Theme1"/></role>
+
+<role descr="other exchanger" n="2"></role>
+
+<role descr="other item in exchange, price, or premium, traded for or at" n="3">
+<vnrole vncls="13.6" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+this bartering away of the prestige of the republic 's highest
+office
+</text>
+<rel>bartering</rel>
+<arg n="1">of the prestige of the republic 's highest office</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

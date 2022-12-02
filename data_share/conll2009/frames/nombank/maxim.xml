@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="maxim">
+<roleset id="maxim.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Detroit 's long-held maxim that safety does n't sell
+</text>
+<arg n="0">Detroit 's</arg>
+<rel>maxim</rel>
+<arg f="PRD" n="1">that safety does n't sell</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A maxim of Frankfurt banking holds that wherever Deutsche Bank
+goes , other West German banks follow .
+</text>
+<rel>maxim</rel>
+<arg n="0">of Frankfurt banking</arg>
+<arg n="Support">holds</arg>
+<arg f="PRD" n="1">that wherever Deutsche Bank goes , other West German banks follow</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

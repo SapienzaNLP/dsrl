@@ -1,0 +1,104 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="maker">
+<roleset id="maker.01" name="create1" source="verb-make.01" vncls="26.1-1">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.1-1" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.1-1" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.1-1" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2">
+<vnrole vncls="26.1-1" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the maker of data management equipment
+</text>
+<arg n="0">maker</arg>
+<rel>maker</rel>
+<arg n="1">of data management equipment</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the `` cripple-maker ''
+</text>
+<arg n="0">cripple-maker</arg>
+<arg n="3">cripple-maker</arg>
+<rel>cripple-maker</rel>
+</example>
+
+</roleset>
+<roleset id="maker.02" name="bid or purchase or whatever" source="verb-make.03">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+government policy makers
+</text>
+<arg n="1">policy</arg>
+<arg n="0">makers</arg>
+<rel>makers</rel>
+</example>
+
+<example name="autogen11">
+<text>
+Many market makers
+</text>
+<arg n="1">market</arg>
+<arg n="0">makers</arg>
+<rel>makers</rel>
+</example>
+
+</roleset>
+<roleset id="maker.03" name="earn cash or wages" source="verb-make.05">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2" source="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The new gritty game became a money maker for Wall Street 's once
+austere old-name houses .
+</text>
+<arg n="1">money</arg>
+<arg n="0">maker</arg>
+<rel>maker</rel>
+<arg n="2">for Wall Street 's once austere old-name houses</arg>
+</example>
+
+<example name="autogen2">
+<text>
+moneymakers for their city
+</text>
+<arg n="0">moneymakers</arg>
+<arg n="1">moneymakers</arg>
+<rel>moneymakers</rel>
+<arg n="2">for their city</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

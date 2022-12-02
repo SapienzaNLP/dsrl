@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="public">
+<roleset id="public.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the American public
+</text>
+<arg n="2">American</arg>
+<arg n="0">public</arg>
+<rel>public</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the buying public
+</text>
+<arg n="1">buying</arg>
+<arg n="0">public</arg>
+<rel>public</rel>
+</example>
+
+</roleset>
+<roleset id="public.02" name="nomadv-publicly">
+<roles>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+expressing those views in public
+</text>
+<arg n="1">expressing those views</arg>
+<rel>public</rel>
+</example>
+
+<example name="autogen2">
+<text>
+we could have done this in public '' because so little sensitive
+information was disclosed
+</text>
+<arg n="1">we could have done this</arg>
+<rel>public</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

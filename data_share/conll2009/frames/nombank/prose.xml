@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prose">
+<roleset id="prose.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Chandler 's prose
+</text>
+<arg n="0">Chandler 's</arg>
+<rel>prose</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his earnest prose
+</text>
+<arg n="0">his</arg>
+<rel>prose</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

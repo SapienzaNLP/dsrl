@@ -1,0 +1,140 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="opening">
+<roleset id="opening.01" name="open" source="verb-open.01" vncls="47.6">
+<roles>
+
+<role descr="opener" n="0">
+<vnrole vncls="47.6" vntheta="Agent"/></role>
+
+<role descr="thing opening" n="1">
+<vnrole vncls="47.6" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="40.3.2" vntheta="Recipient"/></role>
+
+<role descr="instrument" n="3" source="2">
+<vnrole vncls="45.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the opening of Seoul 's markets to more American goods
+</text>
+<rel>opening</rel>
+<arg n="1">of Seoul 's markets</arg>
+<arg n="2">to more American goods</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Supreme Court 's opening of debate
+</text>
+<arg n="0">the Supreme Court 's</arg>
+<rel>opening</rel>
+<arg n="1">of debate</arg>
+</example>
+
+</roleset>
+<roleset id="opening.02" name="begin" source="verb-open.02" vncls="48.1.1">
+<roles>
+
+<role descr="theme" n="1">
+<vnrole vncls="48.1.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the opening of the New York Stock Exchange , which would be
+hammered by such a volatile move on the Merc
+</text>
+<rel>opening</rel>
+<arg n="1">
+of the New York Stock Exchange , which would be hammered by such
+a volatile move on the Merc</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Frankfurt 's opening
+</text>
+<arg n="1">Frankfurt 's</arg>
+<rel>opening</rel>
+</example>
+
+</roleset>
+<roleset id="opening.03" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a four-foot-high concrete slab with no openings
+</text>
+<arg n="1">a four-foot-high concrete slab</arg>
+<arg f="NEG" n="M">no</arg>
+<rel>openings</rel>
+</example>
+
+</roleset>
+<roleset id="opening.04" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some big opening for major movement on economic cooperation , or
+arms control , or the environment
+</text>
+<arg f="EXT" n="M">big</arg>
+<rel>opening</rel>
+<arg n="1">
+for major movement on economic cooperation , or arms control , or
+the environment</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Many openings for mass cheating , such as questionable tax
+shelters and home offices ,
+</text>
+<rel>openings</rel>
+<arg n="1">for mass cheating</arg>
+</example>
+
+</roleset>
+<roleset id="opening.05" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the department now has 75 openings and wants to hire 625 civil
+engineers over the next 15 months
+</text>
+<arg n="2">the department</arg>
+<arg n="Support">has</arg>
+<arg f="REF" n="1">openings</arg>
+<rel>openings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

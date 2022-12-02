@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dispute">
+<roleset id="dispute.01" name="argue" source="verb-dispute.01" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their acrimonious legal dispute over Hollywood producers Peter
+Guber and Jon Peters
+</text>
+<arg n="0">their</arg>
+<arg f="MNR" n="M">acrimonious</arg>
+<arg n="1">legal</arg>
+<rel>dispute</rel>
+<arg n="2">over Hollywood producers Peter Guber and Jon Peters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a 10-year dispute with the National Iranian Oil Co. over claims
+that Ashland did n't pay for Iranian crude it had received
+</text>
+<arg f="TMP" n="M">10-year</arg>
+<rel>dispute</rel>
+<arg n="1">with the National Iranian Oil Co.</arg>
+<arg n="2">
+over claims that Ashland did n't pay for Iranian crude it had
+received</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

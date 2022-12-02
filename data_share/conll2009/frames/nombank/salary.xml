@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="salary">
+<roleset id="salary.01" name="wages" source="verb-earn.01" vncls="13.5.1">
+<roles>
+
+<role descr="earner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="wages" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it paid the two producers a fixed annual salary of $ 3 million
+</text>
+<arg n="2">it</arg>
+<arg n="Support">paid</arg>
+<arg n="0">the two producers</arg>
+<arg f="MNR" n="M">fixed</arg>
+<arg f="TMP" n="M">annual</arg>
+<rel>salary</rel>
+<arg n="1">of $ 3 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+FEDERAL JUDICIAL SALARIES
+</text>
+<arg n="3">FEDERAL</arg>
+<arg n="0">JUDICIAL</arg>
+<arg f="REF" n="1">SALARIES</arg>
+<rel>SALARIES</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

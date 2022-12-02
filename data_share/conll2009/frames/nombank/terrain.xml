@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="terrain">
+<roleset id="terrain.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+rugged terrain
+</text>
+<arg n="2">rugged</arg>
+<arg f="REF" n="1">terrain</arg>
+<rel>terrain</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

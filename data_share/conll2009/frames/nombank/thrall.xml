@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thrall">
+<roleset id="thrall.01" name="have power over" source="verb-control.01">
+<roles>
+
+<role descr="controller" n="0"></role>
+
+<role descr="controlled" n="1"></role>
+
+<role descr="instrumental, controlled with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Will he , if he wins , be in the thrall of the most liberal of
+his allies , who advocate such policies as rent control for
+commercial buildings , or will he tilt toward the real-estate
+interests that have funneled money into his campaign ?
+</text>
+<arg n="1">he</arg>
+<rel>thrall</rel>
+<arg n="0">
+of the most liberal of his allies , who advocate such policies as
+rent control for commercial buildings</arg>
+</example>
+
+<example name="autogen2">
+<text>
+clients like Mr. Paul in its thrall
+</text>
+<arg n="1">clients like Mr. Paul</arg>
+<arg n="0">its</arg>
+<rel>thrall</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="forbearance">
+<roleset id="forbearance.01" name="stop, prevent" source="verb-restrain.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme (action or object being prevented" n="1"></role>
+
+<role descr="secondary predication or action" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Unlike other writers who either battled the fascists during the
+Civil War , or left Spain when Franco triumphed , Mr. Cela fought
+briefly on the general 's side , no doubt earning with his war
+wound some forbearance when he went on to depict a country with a
+high population of vagabonds , murderers and rural idiots
+trudging aimlessly through a dried-out land .
+</text>
+<arg n="0">Mr. Cela ---> *-4</arg>
+<arg n="Support">earning</arg>
+<rel>forbearance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

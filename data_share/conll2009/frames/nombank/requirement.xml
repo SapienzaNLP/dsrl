@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="requirement">
+<roleset id="requirement.01" name="need" source="verb-require.01">
+<roles>
+
+<role descr="requirer" n="0"></role>
+
+<role descr="thing required" n="1"></role>
+
+<role descr="required-of, required-from ('ablative" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Leaseway fulfilled payment requirements of its debt obligations
+since the leveraged buy-out
+</text>
+<arg n="2">Leaseway</arg>
+<arg n="Support">fulfilled</arg>
+<arg n="1">payment</arg>
+<rel>requirements</rel>
+<arg n="3">of its debt obligations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its cash requirements
+</text>
+<arg n="0">its</arg>
+<arg n="1">cash</arg>
+<rel>requirements</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

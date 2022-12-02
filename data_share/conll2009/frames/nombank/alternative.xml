@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="alternative">
+<roleset id="alternative.01" name="nomadj-alternative/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="purpose" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` strategic alternatives , '' for its Business Men 's Assurance
+Co. unit
+</text>
+<arg n="3">strategic</arg>
+<arg f="REF" n="2">alternatives</arg>
+<rel>alternatives</rel>
+<arg n="0">for its Business Men 's Assurance Co. unit</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Dunkin ' Donuts to seek alternatives to DD Acquisition 's offer
+</text>
+<arg n="0">Dunkin ' Donuts</arg>
+<arg n="Support">seek</arg>
+<arg f="REF" n="2">alternatives</arg>
+<rel>alternatives</rel>
+<arg n="1">to DD Acquisition 's offer</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

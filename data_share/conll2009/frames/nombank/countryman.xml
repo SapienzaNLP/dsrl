@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="countryman">
+<roleset id="countryman.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+his countrymen
+</text>
+<arg n="1">his</arg>
+<arg n="0">countrymen</arg>
+<rel>countrymen</rel>
+</example>
+
+<example name="autogen3">
+<text>
+their countrymen
+</text>
+<arg n="1">their</arg>
+<arg n="0">countrymen</arg>
+<rel>countrymen</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

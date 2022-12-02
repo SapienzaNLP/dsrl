@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chain">
+<roleset id="chain.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its prestigious Bloomingdales department-store chain
+</text>
+<arg n="1">department-store</arg>
+<rel>chain</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the 10-store Sports Unlimited chain
+</text>
+<arg n="1">10-store</arg>
+<rel>chain</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

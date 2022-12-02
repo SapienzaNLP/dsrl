@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="depressant">
+<roleset id="depressant.01" name="bring down (stock prices" source="verb-depress.02">
+<roles>
+
+<role descr="causer of depression (agent or instrument" n="0"></role>
+
+<role descr="stock" n="1"></role>
+
+<role descr="ext" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a price depressant
+</text>
+<arg n="1">price</arg>
+<arg n="0">depressant</arg>
+<rel>depressant</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the market depressant
+</text>
+<arg n="1">market</arg>
+<arg n="0">depressant</arg>
+<rel>depressant</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

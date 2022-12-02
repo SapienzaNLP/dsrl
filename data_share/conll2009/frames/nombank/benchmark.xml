@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="benchmark">
+<roleset id="benchmark.01" name="attribute/nomadjlike-standard">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The U.S. benchmark crude
+</text>
+<arg n="3">U.S.</arg>
+<arg f="REF" n="2">benchmark</arg>
+<rel>benchmark</rel>
+<arg n="1">crude</arg>
+</example>
+
+<example name="autogen2">
+<text>
+that 3 % benchmark
+</text>
+<arg n="2">3 %</arg>
+<rel>benchmark</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

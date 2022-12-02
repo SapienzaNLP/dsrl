@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fusillade">
+<roleset id="fusillade.01" name="to make an attack, criticize strongly" source="verb-attack.01">
+<roles>
+
+<role descr="attacker" n="0"></role>
+
+<role descr="entity attacked" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ground batteries , targeting an odd assortment of aircraft
+traveling at highly unusual speeds , opened up a furious
+fusillade .
+</text>
+<arg n="0">
+Ground batteries , targeting an odd assortment of aircraft
+traveling at highly unusual speeds ,</arg>
+<arg n="Support">opened</arg>
+<arg f="MNR" n="M">furious</arg>
+<rel>fusillade</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his predictable fusillade
+</text>
+<arg n="0">his</arg>
+<arg f="ADV" n="M">predictable</arg>
+<rel>fusillade</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

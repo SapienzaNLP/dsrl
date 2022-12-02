@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gravity">
+<roleset id="gravity.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its gravity
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">gravity</arg>
+<rel>gravity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

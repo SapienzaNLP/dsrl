@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cycle">
+<roleset id="cycle.01" name="environment/partitive-quant">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+regional economic cycles
+</text>
+<arg n="3">regional</arg>
+<arg n="1">economic</arg>
+<rel>cycles</rel>
+</example>
+
+<example name="autogen2">
+<text>
+one market 's down cycle
+</text>
+<arg n="3">one market 's</arg>
+<arg n="1">down</arg>
+<rel>cycle</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

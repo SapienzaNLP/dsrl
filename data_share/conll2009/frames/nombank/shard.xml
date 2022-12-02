@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shard">
+<roleset id="shard.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+shards of metal
+</text>
+<rel>shards</rel>
+<arg n="1">of metal</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wake">
+<roleset id="wake.01" name="nom/discourse-connective-when" source="verb-follow.01" vncls="47.8">
+<roles>
+
+<role descr="causal agent" n="0"></role>
+
+<role descr="thing following, coming after" n="1">
+<vnrole vncls="47.8" vntheta="Theme1"/></role>
+
+<role descr="thing followed, coming before" n="2">
+<vnrole vncls="47.8" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+stock selling in the wake of Friday 's 190.58 point drop in the
+Dow Jones Industrial Average
+</text>
+<arg n="1">stock selling</arg>
+<rel>wake</rel>
+<arg n="2">
+of Friday 's 190.58 point drop in the Dow Jones Industrial
+Average</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it plans to restructure in the wake of a third-quarter loss of $
+7.7 million , or $ 1.01 a share , reflecting an $ 11 million
+addition to loan-loss reserves
+</text>
+<arg f="PRD" n="1">to restructure</arg>
+<rel>wake</rel>
+<arg n="2">
+of a third-quarter loss of $ 7.7 million , or $ 1.01 a share ,
+reflecting an $ 11 million addition to loan-loss reserves</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="incursion">
+<roleset id="incursion.01" name="incur, unwillingly take on" source="verb-incur.01">
+<roles>
+
+<role descr="entity taking something on" n="0"></role>
+
+<role descr="penalty" n="1"></role>
+
+<role descr="reason for penalty" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his incursion into the takeover-threat game
+</text>
+<rel>incursion</rel>
+<arg n="1">into the takeover-threat game</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the incursion of imports
+</text>
+<rel>incursion</rel>
+<arg n="0">of imports</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

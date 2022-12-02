@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bathroom">
+<roleset id="bathroom.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+train bathrooms
+</text>
+<arg n="1">train</arg>
+<rel>bathrooms</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

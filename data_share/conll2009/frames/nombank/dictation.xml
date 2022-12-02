@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dictation">
+<roleset id="dictation.01" name="to impose or command" source="verb-dictate.01" vncls="37.1-1">
+<roles>
+
+<role descr="dictator, agent" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="entity dictated" n="1">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they were summoned to the judge 's chambers on separate occasions
+to take dictation , only to find the judge in his bikini
+underwear
+</text>
+<arg n="1">they ---> *-129</arg>
+<arg n="Support">take</arg>
+<rel>dictation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

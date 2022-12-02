@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="credibility">
+<roleset id="credibility.01" name="attribute/nomadj-credible">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the adverse facts have to be transferred to the market with equal
+intensity and credibility as the statements of corporate insiders
+</text>
+<arg n="1">the adverse facts ---> *-2</arg>
+<arg n="2">equal</arg>
+<rel>credibility</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a question of how much credibility you gain for the possible loss
+of recognition
+</text>
+<arg n="2">how much</arg>
+<rel>credibility</rel>
+<arg n="1">you</arg>
+<arg n="Support">gain</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

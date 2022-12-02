@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="liability">
+<roleset id="liability.01" name="extract money because of misdeed" source="verb-fine.01" vncls="54.5">
+<roles>
+
+<role descr="finer, receiver of money" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="fine, money" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="fined, giver of money" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="cause, misdeed" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they still face $ 2.4 billion in liabilities from unresolved
+disputes , including $ 1 billion they fear they wo n't be able to
+pass on to customers
+</text>
+<arg n="2">they</arg>
+<arg n="Support">face $ in</arg>
+<arg n="1">$ 2.4 billion</arg>
+<rel>liabilities</rel>
+<arg n="3">from unresolved disputes</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 1 million liability policy for his business
+</text>
+<arg n="1">$ 1 million</arg>
+<rel>liability</rel>
+<arg n="2">for his business</arg>
+</example>
+
+</roleset>
+<roleset id="liability.02" name="to harm or spoil" source="verb-damage.01">
+<roles>
+
+<role descr="agent, causer" n="0"></role>
+
+<role descr="entity damaged" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+perhaps Mrs. Thatcher 's style of management has become a
+political liability
+</text>
+<arg n="0">Mrs. Thatcher 's style of management</arg>
+<arg n="2">political</arg>
+<rel>liability</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Masson 's description of himself as a `` private asset but a
+public liability '' to Anna Freud
+</text>
+<arg n="0">Mr. Masson 's</arg>
+<arg n="Support">description of as</arg>
+<rel>liability</rel>
+<arg n="1">to Anna Freud</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

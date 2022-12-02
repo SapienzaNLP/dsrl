@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="program">
+<roleset id="program.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Beijing 's austerity programs
+</text>
+<arg n="0">Beijing 's</arg>
+<arg n="1">austerity</arg>
+<rel>programs</rel>
+</example>
+
+<example name="autogen2">
+<text>
+service programs
+</text>
+<arg n="1">service</arg>
+<rel>programs</rel>
+</example>
+
+</roleset>
+<roleset id="program.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the only network news program
+</text>
+<arg n="0">network</arg>
+<arg n="1">news</arg>
+<rel>program</rel>
+</example>
+
+<example name="autogen2">
+<text>
+most American programs
+</text>
+<arg n="1">American</arg>
+<rel>programs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dive">
+<roleset id="dive.01" name="to plunge into water" source="verb-dive.01" vncls="35.2">
+<roles>
+
+<role descr="diver" n="0">
+<vnrole vncls="35.2" vntheta="Agent"/></role>
+
+<role descr="area" n="1">
+<vnrole vncls="35.2" vntheta="Location"/></role>
+
+<role descr="dive for" n="2">
+<vnrole vncls="35.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the deepest one-day dive in the Dow Jones Industrial Average
+since the Oct. 19 , 1987 , crash
+</text>
+<arg f="MNR" n="M">deepest</arg>
+<arg f="TMP" n="M">one-day</arg>
+<rel>dive</rel>
+<arg n="1">in the Dow Jones Industrial Average</arg>
+</example>
+
+</roleset>
+<roleset id="dive.02" name="to drop" source="verb-dive.02">
+<roles>
+
+<role descr="thing falling" n="1"></role>
+
+<role descr="extent" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the recent sharp dive in stock prices
+</text>
+<arg n="2">sharp</arg>
+<rel>dive</rel>
+<arg n="1">in stock prices</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Confidence in the pound is widely expected to take another sharp
+dive if trade figures for September , due for release tomorrow ,
+fail to show a substantial improvement from July and August 's
+near-record deficits .
+</text>
+<arg n="1">Confidence in the pound ---> *-1</arg>
+<arg n="Support">take</arg>
+<arg n="2">sharp</arg>
+<rel>dive</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

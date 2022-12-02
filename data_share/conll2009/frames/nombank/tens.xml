@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tens">
+<roleset id="tens.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+tens of billions of dollars of service exports -- such as inbound
+tourism ; legal , accounting and other professional services
+furnished to foreigners ; financial , engineering and
+construction services ; and the like --
+</text>
+<rel>tens</rel>
+<arg n="1">
+of billions of dollars of service exports -- such as inbound
+tourism ; legal , accounting and other professional services
+furnished to foreigners ; financial , engineering and
+construction services ; and the like --</arg>
+</example>
+
+<example name="autogen2">
+<text>
+tens of thousands of software packages using the IBM standard
+</text>
+<rel>tens</rel>
+<arg n="1">of thousands of software packages using the IBM standard</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

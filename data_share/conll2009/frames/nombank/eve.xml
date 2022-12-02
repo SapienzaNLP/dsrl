@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="eve">
+<roleset id="eve.01" name="begin" source="verb-start.01" vncls="55.1">
+<roles>
+
+<role descr="theme(-creation" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the eve of the industry 's deregulation in 1986
+</text>
+<rel>eve</rel>
+<arg n="1">of the industry 's deregulation in 1986</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the eve of the Christmas shopping season
+</text>
+<rel>eve</rel>
+<arg n="1">of the Christmas shopping season</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

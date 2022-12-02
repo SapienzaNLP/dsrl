@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="virtuosity">
+<roleset id="virtuosity.01" name="attribute/nomadjlike-skilled">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` The Remains of the Day '' so eloquently demonstrates with
+quiet virtuosity
+</text>
+<arg n="1">The Remains of the Day</arg>
+<arg n="Support">demonstrates with</arg>
+<arg f="REF" n="2">virtuosity</arg>
+<rel>virtuosity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

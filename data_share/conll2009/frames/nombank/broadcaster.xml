@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="broadcaster">
+<roleset id="broadcaster.01" name="to transmit or announce" source="verb-broadcast.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="message" n="1"></role>
+
+<role descr="audience" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+U.S. broadcasters
+</text>
+<arg f="LOC" n="M">U.S.</arg>
+<arg n="0">broadcasters</arg>
+<rel>broadcasters</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a former AM broadcaster in his native Missouri
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg f="MNR" n="M">AM</arg>
+<arg n="0">broadcaster</arg>
+<rel>broadcaster</rel>
+<arg f="LOC" n="M">in his native Missouri</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

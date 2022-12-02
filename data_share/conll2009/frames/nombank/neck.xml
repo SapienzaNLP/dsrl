@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="neck">
+<roleset id="neck.01" name="meronym/partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ms. Foster 's neck and shoulders
+</text>
+<arg n="1">Ms. Foster 's</arg>
+<rel>neck</rel>
+</example>
+
+<example name="autogen2">
+<text>
+your neck
+</text>
+<arg n="1">your</arg>
+<rel>neck</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

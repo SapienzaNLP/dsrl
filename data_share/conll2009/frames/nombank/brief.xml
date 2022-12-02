@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brief">
+<roleset id="brief.01" name="work-of-art/nom" source="verb-brief.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient/listener" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The law firm has filed a friend-of-the-court brief jointly with
+the Washington Legal Foundation , a conservative legal group .
+</text>
+<arg n="0">The law firm</arg>
+<arg n="Support">filed</arg>
+<arg n="1">friend-of-the-court</arg>
+<rel>brief</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a friend-of-the-court brief
+</text>
+<arg n="1">friend-of-the-court</arg>
+<rel>brief</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

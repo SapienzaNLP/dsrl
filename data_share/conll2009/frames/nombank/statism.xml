@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="statism">
+<roleset id="statism.01" name="attribute/nomadj-statist">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+everyone else 's statism
+</text>
+<arg n="1">everyone else 's</arg>
+<arg f="REF" n="2">statism</arg>
+<rel>statism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

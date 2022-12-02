@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="massacre">
+<roleset id="massacre.01" name="nomlike" source="verb-murder.01" vncls="42.1">
+<roles>
+
+<role descr="killer" n="0">
+<vnrole vncls="42.1" vntheta="Agent"/></role>
+
+<role descr="corpse" n="1">
+<vnrole vncls="42.1" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="42.1" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the massacre of athletes that attended the 1972 Olympics
+</text>
+<rel>massacre</rel>
+<arg n="1">of athletes that attended the 1972 Olympics</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the June 4 massacre of pro-democracy demonstrators in Beijing
+</text>
+<arg f="TMP" n="M">June 4</arg>
+<rel>massacre</rel>
+<arg n="1">of pro-democracy demonstrators</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

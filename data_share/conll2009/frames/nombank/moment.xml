@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="moment">
+<roleset id="moment.01" name="meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The best moments in the show
+</text>
+<rel>moments</rel>
+<arg n="1">in the show</arg>
+</example>
+
+<example name="autogen2">
+<text>
+great moments in Series past
+</text>
+<rel>moments</rel>
+<arg n="1">in Series past</arg>
+</example>
+
+</roleset>
+<roleset id="moment.02" name="attribute/environment">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Pryor 's moment of epiphany
+</text>
+<arg n="0">Mr. Pryor 's</arg>
+<rel>moment</rel>
+<arg n="1">of epiphany</arg>
+</example>
+
+<example name="autogen2">
+<text>
+moments of panic -LRB- a word the London Times forbade my father
+to use when he was reporting the Wall Street crash in 1929 -RRB-
+</text>
+<rel>moments</rel>
+<arg n="1">
+of panic -LRB- a word the London Times forbade my father to use
+when he was reporting the Wall Street crash in 1929 -RRB-</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conduit">
+<roleset id="conduit.01" name="environment">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a conduit for program trading of U.S. stocks
+</text>
+<rel>conduit</rel>
+<arg n="1">for program trading of U.S. stocks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+real estate mortgage investment conduit issues
+</text>
+<arg n="1">real estate mortgage investment</arg>
+<rel>conduit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

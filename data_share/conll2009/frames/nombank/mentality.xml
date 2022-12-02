@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mentality">
+<roleset id="mentality.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Japanese ministries still have a `` provider '' mentality
+</text>
+<arg n="1">Japanese ministries</arg>
+<arg n="Support">have</arg>
+<arg n="2">provider</arg>
+<rel>mentality</rel>
+</example>
+
+<example name="autogen2">
+<text>
+no-mistakes mentality
+</text>
+<arg n="2">no-mistakes</arg>
+<rel>mentality</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

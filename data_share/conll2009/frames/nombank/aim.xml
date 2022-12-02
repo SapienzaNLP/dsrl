@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aim">
+<roleset id="aim.01" name="plan" source="verb-aim.01">
+<roles>
+
+<role descr="aimer" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his aim is to reach people who are bedridden , have no access to
+transportation , ca n't find a lawyer to take their case or
+simply ca n't afford lawyers ' consultation fees
+</text>
+<arg n="0">his</arg>
+<rel>aim</rel>
+<arg f="PRD" n="1">
+to reach people who are bedridden , have no access to
+transportation , ca n't find a lawyer to take their case or
+simply ca n't afford lawyers ' consultation fees</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The aim would be to end the guerrilla war for control of Cambodia
+by allowing the Khmer Rouge a small share of power .
+</text>
+<rel>aim</rel>
+<arg f="PRD" n="1">
+to end the guerrilla war for control of Cambodia by allowing the
+Khmer Rouge a small share of power</arg>
+</example>
+
+</roleset>
+<roleset id="aim.02" name="directed motion" source="verb-aim.02">
+<roles>
+
+<role descr="aimer" n="0"></role>
+
+<role descr="thing in motion" n="1"></role>
+
+<role descr="target" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Compaq is already taking aim at Zenith 's market share .
+</text>
+<arg n="0">Compaq</arg>
+<arg n="Support">taking</arg>
+<rel>aim</rel>
+<arg n="2">at Zenith 's market share</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Chinese , in turn , took aim at American `` interference ''
+in China 's domestic affairs .
+</text>
+<arg n="0">The Chinese</arg>
+<arg n="Support">took</arg>
+<rel>aim</rel>
+<arg n="2">at American `` interference '' in China 's domestic affairs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

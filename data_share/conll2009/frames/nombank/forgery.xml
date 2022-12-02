@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="forgery">
+<roleset id="forgery.01" name="create a counterfeit" source="verb-forge.01" vncls="25.2">
+<roles>
+
+<role descr="counterfeiter" n="0">
+<vnrole vncls="25.2" vntheta="Agent"/></role>
+
+<role descr="copied" n="1">
+<vnrole vncls="25.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He was arrested , though not indicted , on at least three other
+occasions in the '60s and '70s : for assault and unlawful
+confinement , for fraud and forgery of private documents , and
+for extortion .
+</text>
+<arg n="0">He ---> *-1</arg>
+<arg n="Support">arrested for</arg>
+<rel>forgery</rel>
+<arg n="1">of private documents</arg>
+</example>
+
+<example name="autogen2">
+<text>
+inventory forgeries in accounting records
+</text>
+<arg n="1">inventory</arg>
+<rel>forgeries</rel>
+<arg f="LOC" n="M">in accounting records</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

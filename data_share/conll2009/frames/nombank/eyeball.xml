@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="eyeball">
+<roleset id="eyeball.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their eyeballs
+</text>
+<arg n="1">their</arg>
+<rel>eyeballs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crisis">
+<roleset id="crisis.01" name="nomadjlike-problematic">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the nation 's education crisis
+</text>
+<arg n="0">the nation 's</arg>
+<arg n="1">education</arg>
+<rel>crisis</rel>
+</example>
+
+<example name="autogen5">
+<text>
+financial crisis
+</text>
+<arg n="1">financial</arg>
+<rel>crisis</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

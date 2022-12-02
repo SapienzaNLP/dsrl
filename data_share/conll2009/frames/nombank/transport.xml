@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="transport">
+<roleset id="transport.01" name="move from one place to   another" source="verb-transport.01" vncls="11.1">
+<roles>
+
+<role descr="causer of motion" n="0">
+<vnrole vncls="11.1" vntheta="Agent"/></role>
+
+<role descr="thing in motion" n="1">
+<vnrole vncls="11.1" vntheta="Theme"/></role>
+
+<role descr="destination" n="2">
+<vnrole vncls="11.1" vntheta="Destination"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="11.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+By yesterday afternoon , Air Force transport planes began moving
+additional rescue and medical supplies , physicians ,
+communications equipment and FEMA personnel to California .
+</text>
+<rel>transport</rel>
+<arg n="0">planes</arg>
+<arg n="Support">planes moving</arg>
+<arg n="1">
+additional rescue and medical supplies , physicians ,
+communications equipment and FEMA personnel</arg>
+<arg n="2">to California</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their freight-transport , storage and distribution costs
+</text>
+<arg n="0">their</arg>
+<arg n="1">freight-transport</arg>
+<rel>freight-transport</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

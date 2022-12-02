@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="termination">
+<roleset id="termination.01" name="end, stop" source="verb-terminate.01" vncls="55.1">
+<roles>
+
+<role descr="intentional agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="thing ending" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="point at which something ends" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an `` unlawful termination '' by MGM/UA of the acquisition
+agreement with Qintex
+</text>
+<arg f="MNR" n="M">unlawful</arg>
+<rel>termination</rel>
+<arg n="0">by MGM/UA</arg>
+<arg n="1">of the acquisition agreement with Qintex</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Cheney 's program terminations
+</text>
+<arg n="0">Mr. Cheney 's</arg>
+<arg n="1">program</arg>
+<rel>terminations</rel>
+</example>
+
+</roleset>
+<roleset id="termination.02" name="cause to cease employment" source="verb-terminate.02">
+<roles>
+
+<role descr="employer" n="0"></role>
+
+<role descr="ex-employee" n="1"></role>
+
+<role descr="job" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the transfer and termination of employees in our U.S. operations
+</text>
+<rel>termination</rel>
+<arg n="1">of employees</arg>
+<arg n="0">in our U.S. operations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

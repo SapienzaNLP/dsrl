@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="syndrome">
+<roleset id="syndrome.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+children with acquired immune deficiency syndrome
+</text>
+<arg n="1">children</arg>
+<arg n="2">acquired immune deficiency</arg>
+<rel>syndrome</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the so-called sick-building syndrome
+</text>
+<arg n="2">sick-building</arg>
+<rel>syndrome</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

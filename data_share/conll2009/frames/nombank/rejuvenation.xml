@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rejuvenation">
+<roleset id="rejuvenation.01" name="to restore" source="verb-rejuvenate.01">
+<roles>
+
+<role descr="cause, agent" n="0"></role>
+
+<role descr="entity rejuvenated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Spanish economic rejuvenation
+</text>
+<arg n="0">Spanish</arg>
+<arg n="1">economic</arg>
+<rel>rejuvenation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

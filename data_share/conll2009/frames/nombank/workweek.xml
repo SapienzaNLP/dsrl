@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="workweek">
+<roleset id="workweek.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Some of the utility 's employees may opt for a four-day workweek
+, 10 hours a day , to cut the commute by 20 % .
+</text>
+<arg n="1">Some of the utility 's employees</arg>
+<arg n="Support">opt for</arg>
+<arg n="2">four-day</arg>
+<rel>workweek</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a 35-hour workweek
+</text>
+<arg n="2">35-hour</arg>
+<rel>workweek</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,115 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="subject">
+<roleset id="subject.01" name="crisscross/subject to some action" source="verb-subject.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1" source="2"></role>
+
+<role descr="patient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the subject of excessive influence
+</text>
+<arg f="REF" n="2">subject</arg>
+<rel>subject</rel>
+<arg n="1">of excessive influence</arg>
+</example>
+
+</roleset>
+<roleset id="subject.02" name="attribute/crisscross">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the subject of a $ 1.1 billion federal anti-racketeering lawsuit
+accusing him of bleeding off assets of a California thrift he
+controlled , Lincoln Savings &amp; Loan Association , and driving it
+into insolvency
+</text>
+<arg f="REF" n="2">subject</arg>
+<rel>subject</rel>
+<arg n="1">
+of a $ 1.1 billion federal anti-racketeering lawsuit accusing him
+of bleeding off assets of a California thrift he controlled ,
+Lincoln Savings &amp; Loan Association , and driving it into
+insolvency</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the subject of major initiatives
+</text>
+<arg f="REF" n="2">subject</arg>
+<rel>subject</rel>
+<arg n="1">of major initiatives</arg>
+</example>
+
+</roleset>
+<roleset id="subject.03" name="issue">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the subject of class and egalitarianism
+</text>
+<rel>subject</rel>
+<arg n="1">of class and egalitarianism</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the subject of education
+</text>
+<rel>subject</rel>
+<arg n="1">of education</arg>
+</example>
+
+</roleset>
+<roleset id="subject.04" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his subjects
+</text>
+<arg n="1">his</arg>
+<arg n="0">subjects</arg>
+<rel>subjects</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its subjects '
+</text>
+<arg n="1">its</arg>
+<arg n="0">subjects</arg>
+<rel>subjects</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rain">
+<roleset id="rain.01" name="event" source="verb-rain.01" vncls="57">
+<roles>
+
+<role descr="metaphorical agent" n="0"></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="57" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` yellow rain '' attacks
+</text>
+<arg n="1">yellow</arg>
+<rel>rain</rel>
+</example>
+
+<example name="autogen4">
+<text>
+acid rain
+</text>
+<arg n="1">acid</arg>
+<rel>rain</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

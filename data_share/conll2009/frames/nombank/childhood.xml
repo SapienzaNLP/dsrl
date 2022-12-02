@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="childhood">
+<roleset id="childhood.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a rare childhood cancer
+</text>
+<rel>childhood</rel>
+<arg n="1">cancer</arg>
+</example>
+
+<example name="autogen2">
+<text>
+childhood memories
+</text>
+<rel>childhood</rel>
+<arg n="1">memories</arg>
+</example>
+
+</roleset>
+<roleset id="childhood.02" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their childhood
+</text>
+<arg n="0">their</arg>
+<rel>childhood</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her childhood Bronx of the '50s
+</text>
+<arg n="0">her</arg>
+<rel>childhood</rel>
+<arg f="LOC" n="M">Bronx</arg>
+<arg f="TMP" n="M">of the '50s</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

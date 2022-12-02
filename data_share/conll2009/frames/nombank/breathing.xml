@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="breathing">
+<roleset id="breathing.01" name="suck air" source="verb-breathe.01" vncls="47.2">
+<roles>
+
+<role descr="breather" n="0"></role>
+
+<role descr="air, we hope" n="1">
+<vnrole vncls="47.2" vntheta="Theme"/></role>
+
+<role descr="direction" n="2">
+<vnrole vncls="47.2" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The injured , including three in critical condition , were
+treated for burns , breathing problems and cuts from flying glass
+</text>
+<arg n="0">The injured , including three in critical condition , ---> *-1</arg>
+<arg n="Support">treated for problems</arg>
+<rel>breathing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+hardly any heavy breathing
+</text>
+<arg f="MNR" n="M">heavy</arg>
+<rel>breathing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

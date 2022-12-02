@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="collection">
+<roleset id="collection.01" name="acquire" source="verb-collect.01" vncls="13.5.2">
+<roles>
+
+<role descr="agent, entity acquiring something" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing acquired" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="seller" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the collection of the payroll tax from large companies
+</text>
+<rel>collection</rel>
+<arg n="1">of the payroll tax</arg>
+<arg n="2">from large companies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+my record collection
+</text>
+<arg n="0">my</arg>
+<arg n="1">record</arg>
+<rel>collection</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

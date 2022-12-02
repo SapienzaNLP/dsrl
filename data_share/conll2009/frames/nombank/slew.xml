@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="slew">
+<roleset id="slew.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a slew of nagging problems to grapple with , some of which have
+the potential to become quite serious
+</text>
+<rel>slew</rel>
+<arg n="1">
+of nagging problems to grapple with , some of which have the
+potential to become quite serious</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a slew of software products aimed at eliminating some of the
+major problems involved in computerizing manufacturing operations
+</text>
+<rel>slew</rel>
+<arg n="1">of software products</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

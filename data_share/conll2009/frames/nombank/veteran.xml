@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="veteran">
+<roleset id="veteran.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+project veterans
+</text>
+<arg n="1">project</arg>
+<arg n="0">veterans</arg>
+<rel>veterans</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the boiler-room veteran
+</text>
+<arg n="1">boiler-room</arg>
+<arg n="0">veteran</arg>
+<rel>veteran</rel>
+</example>
+
+</roleset>
+<roleset id="veteran.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 60-year-old security veteran
+</text>
+<arg n="1">security</arg>
+<arg n="0">veteran</arg>
+<rel>veteran</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a veteran of several manufacturing companies who joined Campbell
+in 1986
+</text>
+<arg n="0">veteran</arg>
+<rel>veteran</rel>
+<arg n="2">of several manufacturing companies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

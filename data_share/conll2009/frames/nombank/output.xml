@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="output">
+<roleset id="output.01" name="disseminate" source="verb-put.10">
+<roles>
+
+<role descr="distributor" n="0"></role>
+
+<role descr="distributed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Canadian oil output
+</text>
+<arg n="0">Canadian</arg>
+<arg n="1">oil</arg>
+<rel>output</rel>
+</example>
+
+<example name="autogen2">
+<text>
+higher-profit output , such as coated and electrogalvanized
+products , which remain beyond the reach of minimills
+</text>
+<rel>output</rel>
+<arg n="1">
+such as coated and electrogalvanized products , which remain
+beyond the reach of minimills</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

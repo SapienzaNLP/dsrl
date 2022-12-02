@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="improvisation">
+<roleset id="improvisation.01" name="to perform without preparation" source="verb-improvise.01">
+<roles>
+
+<role descr="performer" n="0"></role>
+
+<role descr="thing improvised" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Still , the restaurant 's ever-changing menu of five-course
+dinners -- it supposedly has n't repeated a meal since opening in
+1971 -- requires constant improvisation .
+</text>
+<arg n="1">the restaurant 's ever-changing menu of five-course dinners</arg>
+<arg n="Support">requires</arg>
+<arg f="MNR" n="M">constant</arg>
+<rel>improvisation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

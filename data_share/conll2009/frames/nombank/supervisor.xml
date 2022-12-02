@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="supervisor">
+<roleset id="supervisor.01" name="supervise" source="verb-supervise.01">
+<roles>
+
+<role descr="supervisor" n="0"></role>
+
+<role descr="thing supervised" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+supervisors of a parallel federal examination
+</text>
+<arg n="0">supervisors</arg>
+<rel>supervisors</rel>
+<arg n="1">of a parallel federal examination</arg>
+</example>
+
+</roleset>
+<roleset id="supervisor.02" name="actrel/nom" source="verb-supervise.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an operations supervisor at the Social Security office in Grand
+Rapids , Mich. , where massages began last month
+</text>
+<arg n="1">operations</arg>
+<arg n="0">supervisor</arg>
+<rel>supervisor</rel>
+<arg n="2">
+at the Social Security office in Grand Rapids , Mich. , where
+massages began last month</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a station supervisor at Daly City Police Department
+</text>
+<arg n="1">station</arg>
+<arg n="0">supervisor</arg>
+<rel>supervisor</rel>
+<arg n="2">at Daly City Police Department</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

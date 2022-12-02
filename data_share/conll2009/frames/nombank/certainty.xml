@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="certainty">
+<roleset id="certainty.01" name="nomadj-certain/attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Those devices do n't give sufficient certainty to our bosses in
+Japan
+</text>
+<arg n="1">Those devices</arg>
+<arg n="Support">give</arg>
+<arg n="2">sufficient</arg>
+<rel>certainty</rel>
+<arg n="0">to our bosses in Japan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to add stability and certainty to the airline-acquisition process
+</text>
+<rel>certainty</rel>
+<arg n="1">to the airline-acquisition process</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

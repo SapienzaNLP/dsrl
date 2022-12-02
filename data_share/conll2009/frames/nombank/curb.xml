@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="curb">
+<roleset id="curb.01" name="reduce" source="verb-curb.01">
+<roles>
+
+<role descr="causer of reduction, agent" n="0"></role>
+
+<role descr="logical subject, patient, thing falling" n="1"></role>
+
+<role descr="ext, amount fallen" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point, end state of arg1" n="4"></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+states ca n't justify stricter abortion curbs by changing the
+definition of when life begins
+</text>
+<arg n="0">states</arg>
+<arg n="Support">justify</arg>
+<arg f="MNR" n="M">stricter</arg>
+<arg n="1">abortion</arg>
+<rel>curbs</rel>
+</example>
+
+<example name="autogen2">
+<text>
+U.S. curbs on the exports of sensitive technology to East bloc
+countries
+</text>
+<arg n="0">U.S.</arg>
+<rel>curbs</rel>
+<arg n="1">on the exports of sensitive technology to East bloc countries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

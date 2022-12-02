@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="burning">
+<roleset id="burning.01" name="cause to) be on fire" source="verb-burn.01">
+<roles>
+
+<role descr="pyromaniac" n="0"></role>
+
+<role descr="thing burning" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the contentious flag-burning ruling
+</text>
+<arg n="1">flag-burning</arg>
+<rel>flag-burning</rel>
+</example>
+
+<example name="autogen3">
+<text>
+flag burning
+</text>
+<arg n="1">flag</arg>
+<rel>burning</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

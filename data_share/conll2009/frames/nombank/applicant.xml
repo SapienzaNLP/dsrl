@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="applicant">
+<roleset id="applicant.01" name="ask for" source="verb-apply.01">
+<roles>
+
+<role descr="applier" n="0"></role>
+
+<role descr="thing applied for" n="1"></role>
+
+<role descr="entity applied to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Passport applicants
+</text>
+<arg n="1">Passport</arg>
+<arg n="0">applicants</arg>
+<rel>applicants</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

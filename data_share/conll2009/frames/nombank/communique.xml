@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="communique">
+<roleset id="communique.01" name="communicate" source="verb-communicate.01" vncls="36.1">
+<roles>
+
+<role descr="first (or all) communicator" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+<role descr="other communicator(s" n="2">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any formal resolutions or communiques
+</text>
+<arg f="MNR" n="M">formal</arg>
+<arg f="REF" n="1">communiques</arg>
+<rel>communiques</rel>
+</example>
+
+<example name="autogen2">
+<text>
+separate communiques to the affected plants
+</text>
+<arg f="MNR" n="M">separate</arg>
+<arg f="REF" n="1">communiques</arg>
+<rel>communiques</rel>
+<arg n="2">to the affected plants</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

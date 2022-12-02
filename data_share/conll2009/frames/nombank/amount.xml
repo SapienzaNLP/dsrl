@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="amount">
+<roleset id="amount.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+$ 850 face amount of new notes
+</text>
+<arg n="2">$ 850</arg>
+<rel>amount</rel>
+<arg n="1">of new notes</arg>
+</example>
+
+<example name="autogen2">
+<text>
+each $ 1,000 face amount
+</text>
+<arg n="2">$ 1,000</arg>
+<rel>amount</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

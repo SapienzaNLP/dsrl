@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="horticulturist">
+<roleset id="horticulturist.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Washington State University horticulturist Robert Norton
+</text>
+<arg n="1">Washington State University</arg>
+<arg n="0">horticulturist</arg>
+<rel>horticulturist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

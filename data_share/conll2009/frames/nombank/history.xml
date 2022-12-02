@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="history">
+<roleset id="history.01" name="make a permanent record" source="verb-record.01" vncls="25.4">
+<roles>
+
+<role descr="recorder" n="0">
+<vnrole vncls="25.4" vntheta="Agent"/></role>
+
+<role descr="topic" n="1">
+<vnrole vncls="25.4" vntheta="Topic"/></role>
+
+<role descr="event" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the most profitable periods in their history
+</text>
+<arg n="3">the most profitable periods</arg>
+<arg n="1">their</arg>
+<rel>history</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Washington writer Suzanne Garment , who is working on a history
+of post-Watergate scandal
+</text>
+<arg n="0">Washington writer Suzanne Garment ---> who ---> *T*-1</arg>
+<arg n="Support">working on</arg>
+<rel>history</rel>
+<arg n="1">of post-Watergate scandal</arg>
+</example>
+
+</roleset>
+<roleset id="history.02" name="have a sensation or experience" source="verb-experience.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="experienced" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the seismic history of the Bay Area
+</text>
+<arg n="1">seismic</arg>
+<rel>history</rel>
+<arg n="0">of the Bay Area</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the drug lords ' history of wiping out leftists in the
+hinterlands
+</text>
+<arg n="0">the drug lords '</arg>
+<rel>history</rel>
+<arg n="1">of wiping out leftists in the hinterlands</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

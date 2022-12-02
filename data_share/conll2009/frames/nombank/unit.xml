@@ -1,0 +1,139 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unit">
+<roleset id="unit.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its leasing unit
+</text>
+<arg n="1">its</arg>
+<rel>unit</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its Freeport Uranium Recovery Co. unit
+</text>
+<arg n="1">its</arg>
+<rel>unit</rel>
+</example>
+
+</roleset>
+<roleset id="unit.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+125 million European currency units of 9 1/8 % bonds due Nov. 10
+, 1994 , priced at 101 5/8 to yield 9.13 % at the recommended
+reoffered price of par , via Banque Paribas Capital Markets
+</text>
+<rel>units</rel>
+<arg n="1">
+of 9 1/8 % bonds due Nov. 10 , 1994 , priced at 101 5/8 to yield
+9.13 % at the recommended reoffered price of par , via Banque
+Paribas Capital Markets</arg>
+</example>
+
+<example name="autogen2">
+<text>
+unit of labor
+</text>
+<rel>unit</rel>
+<arg n="1">of labor</arg>
+</example>
+
+</roleset>
+<roleset id="unit.03" name="share">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+holders of its common units
+</text>
+<arg n="0">holders</arg>
+<arg n="Support">holders of</arg>
+<arg n="1">its</arg>
+<rel>units</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the partnership 's units
+</text>
+<arg n="1">the partnership 's</arg>
+<rel>units</rel>
+</example>
+
+</roleset>
+<roleset id="unit.04" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+the Red Cross , Salvation Army , military units , police , fire
+departments , rescue units and individual citizens
+</text>
+<arg n="1">military</arg>
+<rel>units</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the bargaining unit
+</text>
+<arg n="1">bargaining</arg>
+<rel>unit</rel>
+</example>
+
+</roleset>
+<roleset id="unit.05" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen4">
+<text>
+units of $ 10,000 to $ 1 million
+</text>
+<rel>units</rel>
+<arg n="2">of $ 10,000 to $ 1 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

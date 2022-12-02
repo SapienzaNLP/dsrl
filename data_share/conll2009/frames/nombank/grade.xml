@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grade">
+<roleset id="grade.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+treacherous mountain grades
+</text>
+<arg n="2">treacherous</arg>
+<arg n="1">mountain</arg>
+<rel>grades</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Benchmark grades
+</text>
+<arg n="2">Benchmark</arg>
+<rel>grades</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

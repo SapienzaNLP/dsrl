@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="paralysis">
+<roleset id="paralysis.01" name="to make powerless" source="verb-paralyze.01">
+<roles>
+
+<role descr="cause of paralysis, agent" n="0"></role>
+
+<role descr="entity paralyzed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the executive order banning assassinations had contributed to
+U.S. paralysis during the coup
+</text>
+<arg n="1">the executive order banning assassinations</arg>
+<arg n="Support">contributed to</arg>
+<arg n="0">U.S.</arg>
+<rel>paralysis</rel>
+<arg f="TMP" n="M">during the coup</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Israeli paralysis
+</text>
+<arg n="1">Israeli</arg>
+<rel>paralysis</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

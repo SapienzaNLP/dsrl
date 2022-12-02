@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sage">
+<roleset id="sage.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+New Yorker magazine 's resident baseball sage
+</text>
+<arg n="2">New Yorker magazine 's</arg>
+<arg f="LOC" n="M">resident</arg>
+<arg n="1">baseball</arg>
+<arg n="0">sage</arg>
+<rel>sage</rel>
+</example>
+
+<example name="autogen2">
+<text>
+six apple-industry sages
+</text>
+<arg n="1">apple-industry</arg>
+<arg n="0">sages</arg>
+<rel>sages</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

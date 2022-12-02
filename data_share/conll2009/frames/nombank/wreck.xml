@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wreck">
+<roleset id="wreck.01" name="destroy" source="verb-wreck.01">
+<roles>
+
+<role descr="destroyer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="instrument of destruction" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+killing a Supreme Court justice , for instance , or deliberately
+causing a train wreck that results in a death
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">causing</arg>
+<arg n="1">train</arg>
+<rel>wreck</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the wreck of the old Banco Ambrosiano , which collapsed amid
+scandal after the death of Chairman Roberto Calvi in 1982
+</text>
+<rel>wreck</rel>
+<arg n="1">
+of the old Banco Ambrosiano , which collapsed amid scandal after
+the death of Chairman Roberto Calvi in 1982</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

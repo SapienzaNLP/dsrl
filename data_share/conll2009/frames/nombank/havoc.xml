@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="havoc">
+<roleset id="havoc.01" name="bother" source="verb-disturb.01" vncls="31.1">
+<roles>
+
+<role descr="disturber" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="disturbed" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Together , the two stocks wreaked havoc among takeover stock
+traders , and caused a 7.3 % drop in the Dow Jones Transportation
+Average , second in size only to the stock-market crash of Oct.
+19 , 1987 .
+</text>
+<arg n="0">the two stocks</arg>
+<arg n="Support">wreaked</arg>
+<rel>havoc</rel>
+<arg n="1">among takeover stock traders</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a recession could wreak havoc on the underlying assets
+</text>
+<arg n="0">a recession</arg>
+<arg n="Support">wreak</arg>
+<rel>havoc</rel>
+<arg n="1">on the underlying assets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

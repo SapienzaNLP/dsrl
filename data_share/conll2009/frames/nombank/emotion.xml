@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="emotion">
+<roleset id="emotion.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+ANC emotion
+</text>
+<arg n="1">ANC</arg>
+<rel>emotion</rel>
+</example>
+
+<example name="autogen2">
+<text>
+human emotion
+</text>
+<arg n="0">human</arg>
+<rel>emotion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

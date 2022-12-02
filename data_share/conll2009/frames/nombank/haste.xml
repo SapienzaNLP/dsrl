@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="haste">
+<roleset id="haste.01" name="to move or act at a high speed" source="verb-hurry.01" vncls="53.2">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="53.2" vntheta="Agent"/></role>
+
+<role descr="entity in motion" n="1">
+<vnrole vncls="53.2" vntheta="Theme"/></role>
+
+<role descr="secondary predicate, purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his haste to seal the deal with Tiger Chairman Saul Steinberg
+last August
+</text>
+<arg n="1">his</arg>
+<rel>haste</rel>
+<arg f="PRD" n="2">to seal the deal with Tiger Chairman Saul Steinberg last August</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

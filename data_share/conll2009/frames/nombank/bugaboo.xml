@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bugaboo">
+<roleset id="bugaboo.01" name="frighten" source="verb-frighten.01" vncls="31.1">
+<roles>
+
+<role descr="cause of fear" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="frightened entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+<role descr="intensifier" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bugaboo of small business
+</text>
+<arg n="0">bugaboo</arg>
+<rel>bugaboo</rel>
+<arg n="1">of small business</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

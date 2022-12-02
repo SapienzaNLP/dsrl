@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="celebration">
+<roleset id="celebration.01" name="honor, show respect to" source="verb-celebrate.01" vncls="33">
+<roles>
+
+<role descr="honorer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="honored" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="for what reason" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the country 's dismal 40th anniversary celebrations
+</text>
+<arg n="0">the country 's</arg>
+<arg f="MNR" n="M">dismal</arg>
+<arg n="1">40th anniversary</arg>
+<rel>celebrations</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Bush 's joining a celebration of Costa Rican democracy at a
+time his administration has sought sharp cuts in U.S. aid to the
+tiny country
+</text>
+<arg n="0">Mr. Bush 's</arg>
+<arg n="Support">joining</arg>
+<rel>celebration</rel>
+<arg n="1">of Costa Rican democracy</arg>
+</example>
+
+</roleset>
+<roleset id="celebration.02" name="have a party" source="verb-celebrate.02">
+<roles>
+
+<role descr="celebrator(s" n="0"></role>
+
+<role descr="party, occasion" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Costa Rica 's celebration of 100 years of democracy
+</text>
+<arg n="0">Costa Rica 's</arg>
+<rel>celebration</rel>
+<arg n="1">of 100 years of democracy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a patriotic celebration of the 200th anniversary of the Bill of
+Rights
+</text>
+<arg f="MNR" n="M">patriotic</arg>
+<rel>celebration</rel>
+<arg n="1">of the 200th anniversary of the Bill of Rights</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

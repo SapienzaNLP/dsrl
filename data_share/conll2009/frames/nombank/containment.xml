@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="containment">
+<roleset id="containment.01" name="hold inside" source="verb-contain.01">
+<roles>
+
+<role descr="container" n="0"></role>
+
+<role descr="contents" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the `` utilization management '' cost containment strategy
+</text>
+<arg n="1">cost</arg>
+<rel>containment</rel>
+</example>
+
+<example name="autogen2">
+<text>
+most other cost containment strategies
+</text>
+<arg n="1">cost</arg>
+<rel>containment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

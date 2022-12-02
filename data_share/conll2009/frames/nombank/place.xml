@@ -1,0 +1,287 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="place">
+<roleset id="place.01" name="environment">
+<roles>
+
+<role descr="action/theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="environment/context" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Rothschilds ' place in Frankfurt 's history
+</text>
+<arg n="1">the Rothschilds '</arg>
+<rel>place</rel>
+<arg n="3">in Frankfurt 's history</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Stocks have a place in an investors ' portfolio along with real
+estate , bonds , international securities and cash
+</text>
+<arg n="1">Stocks</arg>
+<arg n="Support">have</arg>
+<rel>place</rel>
+<arg n="3">in an investors ' portfolio</arg>
+</example>
+
+</roleset>
+<roleset id="place.02" name="in-effect/in-existance" source="verb-enact.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme/law/policy" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Noriega had numerous assets in place in Nicaragua and could
+accomplish many essential things , just as Noriega had helped
+-LCB- the U.S. . -RCB- the previous year in blowing up a
+Sandinista arsenal
+</text>
+<arg n="0">Noriega</arg>
+<arg n="Support">had in</arg>
+<arg n="1">numerous assets</arg>
+<rel>place</rel>
+</example>
+
+<example name="autogen2">
+<text>
+rules are in place that synchronize circuit breakers in all
+markets
+</text>
+<arg n="1">rules</arg>
+<rel>place</rel>
+</example>
+
+</roleset>
+<roleset id="place.03" name="occur, take place" source="verb-occur.01" vncls="48.3">
+<roles>
+
+<role descr="event" n="1">
+<vnrole vncls="48.3" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the real battle will take place between center-stage players like
+Toshiba , Zenith and now Compaq
+</text>
+<arg n="1">the real battle</arg>
+<arg n="Support">take</arg>
+<rel>place</rel>
+</example>
+
+<example name="autogen2">
+<text>
+trades taking place
+</text>
+<arg n="1">trades</arg>
+<arg n="Support">taking</arg>
+<rel>place</rel>
+</example>
+
+</roleset>
+<roleset id="place.04" name="substitute" source="verb-replace.01">
+<roles>
+
+<role descr="replacer" n="0"></role>
+
+<role descr="old thing" n="1"></role>
+
+<role descr="new thing" n="2"></role>
+
+<role descr="environment/context" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Banque Nationale de Paris , another state-sector bank , might
+have had about taking Credit Lyonnais 's place in the accord
+</text>
+<arg n="2">
+Banque Nationale de Paris , another state-sector bank , --->
+*T*-1 ---> *</arg>
+<arg n="Support">taking</arg>
+<arg n="1">Credit Lyonnais 's</arg>
+<rel>place</rel>
+<arg n="3">in the accord</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In place of the games , ABC said it planned to broadcast next
+week 's episodes of its prime-time Wednesday and Thursday lineups
+, except for a one-hour special on the earthquake at 10 p.m. last
+night .
+</text>
+<rel>place</rel>
+<arg n="1">of the games</arg>
+<arg n="0">ABC</arg>
+</example>
+
+</roleset>
+<roleset id="place.05" name="assign a position in a list" source="verb-rank.01" vncls="29.2">
+<roles>
+
+<role descr="assigner" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing assigned a position" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="position" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+<role descr="environment/context/list" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+respondents , who put Soviet President Mikhail Gorbachev in
+second place
+</text>
+<arg n="0">respondents ---> who ---> *T*-1</arg>
+<arg n="Support">put in</arg>
+<arg n="1">Soviet President Mikhail Gorbachev</arg>
+<arg n="2">second</arg>
+<rel>place</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Michael J. Fox replaced Bruce Willis in third place
+</text>
+<arg n="1">Bruce Willis</arg>
+<arg n="2">third</arg>
+<rel>place</rel>
+</example>
+
+</roleset>
+<roleset id="place.06" name="nomadj-stationary/in-place">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+headphones jauntily in place
+</text>
+<arg n="1">headphones</arg>
+<rel>place</rel>
+</example>
+
+<example name="autogen2">
+<text>
+to retain the windshield in place in a crash test at 30 miles per
+hour
+</text>
+<arg n="1">the windshield</arg>
+<rel>place</rel>
+</example>
+
+</roleset>
+<roleset id="place.07" name="nomadj-appropriate">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="suitable-for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+This is no place for pedestrians
+</text>
+<arg n="2">This</arg>
+<arg f="NEG" n="M">no</arg>
+<rel>place</rel>
+<arg n="1">for pedestrians</arg>
+</example>
+
+<example name="autogen2">
+<text>
+there 's no place for your child in school
+</text>
+<arg f="NEG" n="M">no</arg>
+<rel>place</rel>
+<arg n="1">for your child</arg>
+<arg n="2">in school</arg>
+</example>
+
+</roleset>
+<roleset id="place.08" name="discourse-adverbial">
+<roles>
+
+<role descr="theme/proposition" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+created the situation in the first place
+</text>
+<arg n="1">created the situation</arg>
+<rel>place</rel>
+</example>
+
+<example name="autogen2">
+<text>
+established the right of abortion in the first place
+</text>
+<arg n="1">established the right of abortion</arg>
+<rel>place</rel>
+</example>
+
+</roleset>
+<roleset id="place.09" name="attribute/decimal place">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="environment/context/list" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Actually , the funds do fluctuate , but beyond the third decimal
+place .
+</text>
+<arg n="1">the funds</arg>
+<arg n="2">third</arg>
+<arg n="3">decimal</arg>
+<rel>place</rel>
+</example>
+
+<example name="autogen2">
+<text>
+income that was figured beyond the third or fourth decimal place
+</text>
+<arg n="1">income ---> that ---> *T*-2 ---> *-1</arg>
+<arg n="2">third or fourth</arg>
+<arg n="3">decimal</arg>
+<rel>place</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

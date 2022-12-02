@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="confinement">
+<roleset id="confinement.01" name="confine, restrict" source="verb-confine.01">
+<roles>
+
+<role descr="agent, confiner" n="0"></role>
+
+<role descr="entity confined, restricted" n="1"></role>
+
+<role descr="confined-to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He was arrested , though not indicted , on at least three other
+occasions in the '60s and '70s : for assault and unlawful
+confinement , for fraud and forgery of private documents , and
+for extortion .
+</text>
+<arg n="0">He ---> *-1</arg>
+<arg n="Support">arrested for</arg>
+<arg f="MNR" n="M">unlawful</arg>
+<rel>confinement</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Dr. Morgan has just emerged from the D.C. jail after more than
+two years ' confinement for contempt of court , a heroine to her
+many supporters .
+</text>
+<arg n="1">Dr. Morgan</arg>
+<arg n="Support">emerged after</arg>
+<arg n="2">from the D.C. jail</arg>
+<arg f="TMP" n="M">more than two years '</arg>
+<rel>confinement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

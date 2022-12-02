@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recalculation">
+<roleset id="recalculation.01" name="recalculate, reckon, think" source="verb-recalculate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+recalculations and revisions in other trade areas
+</text>
+<rel>recalculations</rel>
+<arg n="1">in other trade areas</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

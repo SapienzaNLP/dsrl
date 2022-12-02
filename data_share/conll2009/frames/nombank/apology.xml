@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="apology">
+<roleset id="apology.01" name="be contrite" source="verb-apologize.01">
+<roles>
+
+<role descr="apologist" n="0"></role>
+
+<role descr="apologize for" n="1"></role>
+
+<role descr="apologized to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Peladeau has never made any apologies for publishing the
+tabloid , a brash mix of crime and sports .
+</text>
+<arg n="0">Mr. Peladeau</arg>
+<arg n="Support">made</arg>
+<rel>apologies</rel>
+<arg n="1">for publishing the tabloid , a brash mix of crime and sports</arg>
+</example>
+
+<example name="autogen2">
+<text>
+But the new union leader makes no apologies for Pemex 's more
+outward-looking attitude .
+</text>
+<arg n="0">the new union leader</arg>
+<arg n="Support">makes</arg>
+<arg f="NEG" n="M">no</arg>
+<rel>apologies</rel>
+<arg n="1">for Pemex 's more outward-looking attitude</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

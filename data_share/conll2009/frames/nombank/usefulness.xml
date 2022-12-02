@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="usefulness">
+<roleset id="usefulness.01" name="nomadj-useful">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the usefulness of intervention to help restrain the dollar
+</text>
+<rel>usefulness</rel>
+<arg n="1">of intervention to help restrain the dollar</arg>
+</example>
+
+<example name="autogen2">
+<text>
+laptop computers , whose usefulness had been limited because of
+lack of storage
+</text>
+<arg n="1">laptop computers ---> whose</arg>
+<rel>usefulness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

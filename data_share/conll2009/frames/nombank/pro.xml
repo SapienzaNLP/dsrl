@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pro">
+<roleset id="pro.01" name="nomadjlike-expert/actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+investment pros
+</text>
+<arg n="1">investment</arg>
+<arg n="0">pros</arg>
+<rel>pros</rel>
+</example>
+
+<example name="autogen4">
+<text>
+your pros
+</text>
+<arg n="2">your</arg>
+<arg n="0">pros</arg>
+<rel>pros</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dream">
+<roleset id="dream.01" name="dream" source="verb-dream.01">
+<roles>
+
+<role descr="dreamer" n="0"></role>
+
+<role descr="dream" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their dream job
+</text>
+<arg n="0">their</arg>
+<rel>dream</rel>
+<arg n="1">job</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the dream of building a space-based defense shield to knock out
+Soviet nuclear missiles
+</text>
+<rel>dream</rel>
+<arg n="1">
+of building a space-based defense shield to knock out Soviet
+nuclear missiles</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

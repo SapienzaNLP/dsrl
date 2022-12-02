@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proof">
+<roleset id="proof.01" name="establish the truth" source="verb-prove.01" vncls="29.4">
+<roles>
+
+<role descr="prover" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="proposition" n="1">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+<role descr="beneficiary, proved-to" n="2">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+proof of PASOK complicity
+</text>
+<arg f="REF" n="0">proof</arg>
+<rel>proof</rel>
+<arg n="1">of PASOK complicity</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Brown had no proof
+</text>
+<arg n="0">Brown</arg>
+<arg n="Support">had</arg>
+<arg f="NEG" n="M">no</arg>
+<rel>proof</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

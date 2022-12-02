@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="librarian">
+<roleset id="librarian.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a law librarian
+</text>
+<arg n="1">law</arg>
+<arg n="0">librarian</arg>
+<rel>librarian</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the company librarian
+</text>
+<arg n="2">company</arg>
+<arg n="0">librarian</arg>
+<rel>librarian</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

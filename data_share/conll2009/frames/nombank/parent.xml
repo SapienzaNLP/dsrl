@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="parent">
+<roleset id="parent.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+ABC 's parent
+</text>
+<arg n="1">ABC 's</arg>
+<arg n="0">parent</arg>
+<rel>parent</rel>
+</example>
+
+<example name="autogen2">
+<text>
+both parents of a minor
+</text>
+<arg n="0">parents</arg>
+<rel>parents</rel>
+<arg n="1">of a minor</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

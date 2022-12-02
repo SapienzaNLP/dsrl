@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="access">
+<roleset id="access.01" name="access" source="verb-access.01">
+<roles>
+
+<role descr="accessor" n="0"></role>
+
+<role descr="thing accessed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+U.S. access to the Japanese semiconductor market
+</text>
+<arg n="0">U.S.</arg>
+<rel>access</rel>
+<arg n="1">to the Japanese semiconductor market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the access to Hong Kong 's port , airport , banks and support
+industries , such as printing companies ,
+</text>
+<rel>access</rel>
+<arg n="1">
+to Hong Kong 's port , airport , banks and support industries ,
+such as printing companies ,</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

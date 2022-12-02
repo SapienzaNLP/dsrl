@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="weariness">
+<roleset id="weariness.01" name="nomadj-weary">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a weariness among some conservatives
+</text>
+<rel>weariness</rel>
+<arg n="0">among some conservatives</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

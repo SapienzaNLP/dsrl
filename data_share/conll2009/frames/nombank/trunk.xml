@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trunk">
+<roleset id="trunk.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the trunk of a private butcher 's Polish Fiat
+</text>
+<rel>trunk</rel>
+<arg n="1">of a private butcher 's Polish Fiat</arg>
+</example>
+
+<example name="autogen2">
+<text>
+doll-sized versions of California 's famous long-necked palms ,
+with stubby trunks and fern-like fronds
+</text>
+<arg n="1">doll-sized versions of California 's famous long-necked palms</arg>
+<rel>trunks</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="banner">
+<roleset id="banner.01" name="flag sense" source="verb-flag.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the banner of pragmatism
+</text>
+<arg n="0">banner</arg>
+<rel>banner</rel>
+<arg n="1">of pragmatism</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the PASOK banner
+</text>
+<arg n="1">PASOK</arg>
+<arg n="0">banner</arg>
+<rel>banner</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

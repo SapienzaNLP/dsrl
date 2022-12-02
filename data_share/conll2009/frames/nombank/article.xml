@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="article">
+<roleset id="article.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="publication" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a bold and informative article in this September 's issue of
+Science by Ethan Nadelmann on this subject
+</text>
+<arg f="MNR" n="M">bold and informative</arg>
+<rel>article</rel>
+<arg n="2">in this September 's issue of Science</arg>
+<arg n="0">by Ethan Nadelmann</arg>
+<arg n="1">on this subject</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A Fortune article on Saul Steinberg
+</text>
+<arg n="2">Fortune</arg>
+<rel>article</rel>
+<arg n="1">on Saul Steinberg</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

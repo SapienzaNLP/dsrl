@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="parliament">
+<roleset id="parliament.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the nation 's parliament
+</text>
+<arg n="2">the nation 's</arg>
+<rel>parliament</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Soviet parliament
+</text>
+<arg n="2">Soviet</arg>
+<rel>parliament</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

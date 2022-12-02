@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fury">
+<roleset id="fury.01" name="nomadj-furious" source="verb-anger.01">
+<roles>
+
+<role descr="experiencer" n="0" source="1"></role>
+
+<role descr="theme" n="1" source="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my frustration and fury
+</text>
+<arg n="0">my</arg>
+<rel>fury</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The husky blond guide with the Aggie cap twists his face in mock
+fury .
+</text>
+<arg n="0">The husky blond guide with the Aggie cap</arg>
+<rel>fury</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

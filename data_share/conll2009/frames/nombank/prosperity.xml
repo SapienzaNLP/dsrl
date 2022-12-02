@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prosperity">
+<roleset id="prosperity.01" name="nomadj-prosperous/attribute" source="verb-prosper.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+West Germany 's enormous postwar prosperity
+</text>
+<arg n="0">West Germany 's</arg>
+<arg n="2">enormous</arg>
+<arg f="TMP" n="M">postwar</arg>
+<rel>prosperity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Individual prosperity
+</text>
+<arg n="0">Individual</arg>
+<rel>prosperity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="man">
+<roleset id="man.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme/role/job" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+NBC weather man Willard Scott
+</text>
+<arg n="2">NBC</arg>
+<arg n="1">weather</arg>
+<arg n="0">man</arg>
+<rel>man</rel>
+</example>
+
+<example name="autogen2">
+<text>
+as much a company man
+</text>
+<arg n="2">company</arg>
+<arg n="0">man</arg>
+<rel>man</rel>
+</example>
+
+</roleset>
+<roleset id="man.02" name="prototype">
+<roles>
+
+<role descr="relation holder/prototype" n="0"></role>
+
+<role descr="theme/descriptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Korea 's common man
+</text>
+<arg n="1">common</arg>
+<arg n="0">man</arg>
+<rel>man</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an idea man
+</text>
+<arg n="1">idea</arg>
+<arg n="0">man</arg>
+<rel>man</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

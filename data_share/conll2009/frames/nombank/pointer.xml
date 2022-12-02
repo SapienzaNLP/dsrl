@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pointer">
+<roleset id="pointer.01" name="give pointer" source="verb-advise.01" vncls="37.9-1">
+<roles>
+
+<role descr="entity giving pointer" n="0">
+<vnrole vncls="37.9-1" vntheta="Agent"/></role>
+
+<role descr="pointer, impelled action" n="1" source="2">
+<vnrole vncls="37.9-1" vntheta="Topic"/></role>
+
+<role descr="entity getting pointer, impelled agent" n="2" source="1">
+<vnrole vncls="37.9-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+installation pointers
+</text>
+<arg n="1">installation</arg>
+<rel>pointers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="loan">
+<roleset id="loan.01" name="give temporarily" source="verb-loan.01" vncls="13.1-1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="loan against, with collateral" n="3"></role>
+
+<role descr="interest" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+obtaining a $ 20,000 interest-free loan from an officer of the
+defunct defense contractor
+</text>
+<arg n="2">NIL</arg>
+<arg n="Support">obtaining</arg>
+<arg n="1">$ 20,000</arg>
+<arg n="4">interest-free</arg>
+<rel>loan</rel>
+<arg n="0">from an officer of the defunct defense contractor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The base rate on corporate loans at large U.S. money center
+commercial banks .
+</text>
+<arg n="4">The base rate</arg>
+<arg n="2">corporate</arg>
+<rel>loans</rel>
+<arg n="0">at large U.S. money center commercial banks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

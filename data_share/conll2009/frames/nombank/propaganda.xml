@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="propaganda">
+<roleset id="propaganda.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Nazi propaganda against Jewish financiers
+</text>
+<arg n="0">Nazi</arg>
+<rel>propaganda</rel>
+<arg n="1">against Jewish financiers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Sandinista propaganda
+</text>
+<arg n="0">Sandinista</arg>
+<rel>propaganda</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

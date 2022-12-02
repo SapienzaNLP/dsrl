@@ -1,0 +1,123 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="press">
+<roleset id="press.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Swiss financial press
+</text>
+<arg n="2">Swiss</arg>
+<arg n="1">financial</arg>
+<rel>press</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Greek press
+</text>
+<arg n="2">Greek</arg>
+<rel>press</rel>
+</example>
+
+</roleset>
+<roleset id="press.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the press of social activities or mandatory joint appearances ,
+things of that nature for public consumption
+</text>
+<rel>press</rel>
+<arg n="1">
+of social activities or mandatory joint appearances , things of
+that nature for public consumption</arg>
+</example>
+
+</roleset>
+<roleset id="press.03" name="apply pressure1" source="verb-pressure.01">
+<roles>
+
+<role descr="presser" n="0"></role>
+
+<role descr="pressed (on" n="1"></role>
+
+<role descr="goal, pressed-for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an ancient press squeezes rubber solution into a flat strip
+</text>
+<arg n="0">press</arg>
+<rel>press</rel>
+<arg n="Support">squeezes</arg>
+<arg n="1">rubber solution</arg>
+</example>
+
+<example name="autogen3">
+<text>
+metal-forming presses
+</text>
+<arg n="1">metal-forming</arg>
+<arg n="Support">metal-forming</arg>
+<arg n="0">presses</arg>
+<rel>presses</rel>
+</example>
+
+</roleset>
+<roleset id="press.04" name="put pen to paper" source="verb-print.01" vncls="25.2">
+<roles>
+
+<role descr="printer" n="0">
+<vnrole vncls="25.2" vntheta="Agent"/></role>
+
+<role descr="document" n="1">
+<vnrole vncls="25.2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an initial press run of 100,000 copies
+</text>
+<arg n="0">press</arg>
+<rel>press</rel>
+<arg n="Support">run</arg>
+<arg n="1">of 100,000 copies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this came up and hit the press
+</text>
+<arg n="1">this</arg>
+<arg n="Support">hit</arg>
+<arg n="0">press</arg>
+<rel>press</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

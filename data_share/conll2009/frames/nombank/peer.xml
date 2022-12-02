@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="peer">
+<roleset id="peer.01" name="equal, be the same as" source="verb-equal.01">
+<roles>
+
+<role descr="focus of equation" n="1"></role>
+
+<role descr="other side of equation" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their peers
+</text>
+<arg n="2">their</arg>
+<arg n="1">peers</arg>
+<rel>peers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his Peruvian peers
+</text>
+<arg n="2">his</arg>
+<arg n="1">peers</arg>
+<rel>peers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="strategist">
+<roleset id="strategist.01" name="actrel/nomadjlike-expert">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the senior options strategist at Cowen &amp; Co
+</text>
+<arg n="3">senior</arg>
+<arg n="1">options</arg>
+<arg n="0">strategist</arg>
+<rel>strategist</rel>
+<arg n="2">at Cowen &amp; Co</arg>
+</example>
+
+<example name="autogen2">
+<text>
+chief strategist for Dean Witter
+</text>
+<arg n="3">chief</arg>
+<arg n="0">strategist</arg>
+<rel>strategist</rel>
+<arg n="2">for Dean Witter</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

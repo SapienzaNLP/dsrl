@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="frame">
+<roleset id="frame.01" name="meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+broken poster frames
+</text>
+<arg n="1">poster</arg>
+<rel>frames</rel>
+</example>
+
+<example name="autogen2">
+<text>
+`` one frame '' of the freeway
+</text>
+<rel>frame</rel>
+<arg n="1">of the freeway</arg>
+</example>
+
+</roleset>
+<roleset id="frame.02" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the philosophical frame
+</text>
+<arg n="1">philosophical</arg>
+<rel>frame</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

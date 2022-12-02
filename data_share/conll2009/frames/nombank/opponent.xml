@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="opponent">
+<roleset id="opponent.01" name="oppose, object to" source="verb-oppose.01" vncls="29.2">
+<roles>
+
+<role descr="opposer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing opposed to" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="actor2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Bush 's opponents on the abortion issue
+</text>
+<arg n="2">Mr. Bush 's</arg>
+<arg n="0">opponents</arg>
+<rel>opponents</rel>
+<arg n="1">on the abortion issue</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Giuliani 's black opponent
+</text>
+<arg n="2">Mr. Giuliani 's</arg>
+<arg n="0">opponent</arg>
+<rel>opponent</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="smattering">
+<roleset id="smattering.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a smattering of yuppies who want to be on the cutting edge
+</text>
+<rel>smattering</rel>
+<arg n="1">of yuppies who want to be on the cutting edge</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a smattering of junk bonds
+</text>
+<rel>smattering</rel>
+<arg n="1">of junk bonds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

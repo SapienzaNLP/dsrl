@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="try">
+<roleset id="try.01" name="attempt" source="verb-try.01">
+<roles>
+
+<role descr="agent/entity trying" n="0"></role>
+
+<role descr="thing tried" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A few fast-food outlets are giving it a try .
+</text>
+<arg n="0">A few fast-food outlets</arg>
+<arg n="Support">giving</arg>
+<arg n="1">it</arg>
+<rel>try</rel>
+</example>
+
+<example name="autogen2">
+<text>
+I quit after one try , whether I win or lose
+</text>
+<arg n="0">I</arg>
+<rel>try</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suppository">
+<roleset id="suppository.01" name="to put or set into, between, or among" source="verb-insert.01">
+<roles>
+
+<role descr="inserter" n="0"></role>
+
+<role descr="entity inserted" n="1"></role>
+
+<role descr="location" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+vaginal suppository
+</text>
+<arg n="2">vaginal</arg>
+<arg f="REF" n="1">suppository</arg>
+<rel>suppository</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prodigy">
+<roleset id="prodigy.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a computer prodigy
+</text>
+<arg n="1">computer</arg>
+<arg n="0">prodigy</arg>
+<rel>prodigy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

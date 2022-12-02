@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="relief">
+<roleset id="relief.01" name="help, ease, get rid of" source="verb-relieve.01" vncls="10.6">
+<roles>
+
+<role descr="thing relieving" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="thing being helped, eased, gotten rid of" n="1">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Senate and House bills to provide special casualty-loss treatment
+and other tax relief for timber growers in the hurricane disaster
+areas
+</text>
+<arg n="0">Senate and House bills ---> 0 ---> *T*-1</arg>
+<arg n="Support">provide</arg>
+<arg n="1">tax</arg>
+<rel>relief</rel>
+<arg n="2">for timber growers in the hurricane disaster areas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this and other deadline relief for Hugo 's victims
+</text>
+<arg n="1">deadline</arg>
+<rel>relief</rel>
+<arg n="2">for Hugo 's victims</arg>
+</example>
+
+</roleset>
+<roleset id="relief.02" name="make feel better" source="verb-relieve.02" vncls="31.1">
+<roles>
+
+<role descr="reliever" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="patient, relieved" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument or manner" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+SBA relief loans
+</text>
+<arg n="0">SBA</arg>
+<rel>relief</rel>
+<arg n="2">loans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+federal disaster relief
+</text>
+<arg n="0">federal</arg>
+<arg n="1">disaster</arg>
+<rel>relief</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

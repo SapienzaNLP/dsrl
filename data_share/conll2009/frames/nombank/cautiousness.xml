@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cautiousness">
+<roleset id="cautiousness.01" name="nomadj-cautious/experience">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its cautiousness
+</text>
+<arg n="0">its</arg>
+<rel>cautiousness</rel>
+</example>
+
+<example name="autogen2">
+<text>
+California 's cautiousness
+</text>
+<arg n="0">California 's</arg>
+<rel>cautiousness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

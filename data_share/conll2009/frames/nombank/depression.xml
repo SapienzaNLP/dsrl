@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="depression">
+<roleset id="depression.01" name="bring down (mood" source="verb-depress.01" vncls="31.1">
+<roles>
+
+<role descr="causer of depression" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="entity getting depressed" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if causer also present" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their `` normal '' phobias , anxieties , depressions and
+substance abuse
+</text>
+<arg n="0">their</arg>
+<arg f="MNR" n="M">normal</arg>
+<rel>depressions</rel>
+</example>
+
+<example name="autogen2">
+<text>
+each affected employee loses about 16 work days a year because of
+stress , anxiety or depression
+</text>
+<arg n="1">each affected employee</arg>
+<rel>depression</rel>
+</example>
+
+</roleset>
+<roleset id="depression.02" name="bring down (stock prices" source="verb-depress.02">
+<roles>
+
+<role descr="causer of depression (agent or instrument" n="0"></role>
+
+<role descr="stock" n="1"></role>
+
+<role descr="ext" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a serious sales depression and adjustment
+</text>
+<arg n="1">sales</arg>
+<rel>depression</rel>
+</example>
+
+<example name="autogen2">
+<text>
+today 's market depression
+</text>
+<arg f="TMP" n="M">today 's</arg>
+<arg n="1">market</arg>
+<rel>depression</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

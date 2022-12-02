@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="miner">
+<roleset id="miner.01" name="extract (ore or minerals) from the earth" source="verb-mine.01" vncls="10.9">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="10.9" vntheta="Agent"/></role>
+
+<role descr="thing extracted" n="1">
+<vnrole vncls="10.9" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+about 10,000 diamond miners
+</text>
+<arg n="1">diamond</arg>
+<arg n="0">miners</arg>
+<rel>miners</rel>
+</example>
+
+<example name="autogen2">
+<text>
+gold and general miner
+</text>
+<arg n="1">gold and general</arg>
+<arg n="0">miner</arg>
+<rel>miner</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cloud">
+<roleset id="cloud.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` clouds of blue dust '' that hung over parts of the factory ,
+even though exhaust fans ventilated the area
+</text>
+<rel>clouds</rel>
+<arg n="1">of blue dust</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an evil-looking cloud of black smoke
+</text>
+<rel>cloud</rel>
+<arg n="1">of black smoke</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

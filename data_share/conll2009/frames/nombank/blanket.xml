@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blanket">
+<roleset id="blanket.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a blanket of flowers
+</text>
+<rel>blanket</rel>
+<arg n="1">of flowers</arg>
+</example>
+
+</roleset>
+<roleset id="blanket.02" name="nomadj-complete">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+blanket appeals
+</text>
+<rel>blanket</rel>
+<arg n="1">appeals</arg>
+</example>
+
+<example name="autogen2">
+<text>
+not a blanket commitment
+</text>
+<rel>blanket</rel>
+<arg n="1">commitment</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="contrary">
+<roleset id="contrary.01" name="discourse-connective">
+<roles>
+
+<role descr="theme1" n="1"></role>
+
+<role descr="theme2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Rumors to the contrary have been that it would be a six billion
+mark issue , or that the last Bund , a 7 % issue due October 1999
+, would be increased by two billion marks .
+</text>
+<arg n="2">Rumors</arg>
+<rel>contrary</rel>
+<arg n="1">
+that it would be a six billion mark issue , or that the last Bund
+, a 7 % issue due October 1999 , would be increased by two
+billion marks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Dictates of good sense to the contrary not withstanding , the
+general inclination was to believe that the disturbance would be
+brief and that ball would be played .
+</text>
+<arg n="2">Dictates of good sense</arg>
+<rel>contrary</rel>
+<arg n="1">
+the general inclination was to believe that the disturbance would
+be brief and that ball would be played</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rout">
+<roleset id="rout.01" name="compete, vie" source="verb-compete.01" vncls="36.1">
+<roles>
+
+<role descr="competitor" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="opponent" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="prize" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In 1966 , on route to a re-election rout of Democrat Frank
+O'Connor , GOP Gov. Nelson Rockefeller of New York appeared in
+person saying , `` If you want to keep the crime rates high ,
+O'Connor is your man . ''
+</text>
+<arg n="Support">route to</arg>
+<arg n="2">re-election</arg>
+<rel>rout</rel>
+<arg n="1">of Democrat Frank O'Connor</arg>
+<arg n="0">GOP Gov. Nelson Rockefeller of New York</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the market rout
+</text>
+<arg n="1">market</arg>
+<rel>rout</rel>
+</example>
+
+</roleset>
+<roleset id="rout.02" name="go down incrementally" source="verb-decrease.01" vncls="45.4">
+<roles>
+
+<role descr="causer of decline, agent" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing decreasing" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="amount decreased by, ext or mnr" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+a price rout in the making
+</text>
+<arg n="1">price</arg>
+<rel>rout</rel>
+<arg f="LOC" n="M">in the making</arg>
+</example>
+
+<example name="autogen3">
+<text>
+Friday 's market rout
+</text>
+<arg f="LOC" n="M">Friday 's</arg>
+<arg n="1">market</arg>
+<rel>rout</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

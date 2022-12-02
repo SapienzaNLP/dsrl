@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mayoralty">
+<roleset id="mayoralty.01" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his mayoralty
+</text>
+<arg n="0">his</arg>
+<arg n="1">mayoralty</arg>
+<rel>mayoralty</rel>
+</example>
+
+<example name="autogen2">
+<text>
+he wins the mayoralty on Nov. 7
+</text>
+<arg n="0">he</arg>
+<arg n="Support">wins</arg>
+<arg n="1">mayoralty</arg>
+<rel>mayoralty</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

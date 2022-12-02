@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mischief">
+<roleset id="mischief.01" name="nomadj-mischievous">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Mason slips into his standup mode and starts meting out that
+old-fashioned Jewish mischief to other people as well as to
+himself
+</text>
+<arg n="0">Mr. Mason ---> *-1</arg>
+<arg n="Support">meting</arg>
+<arg f="MNR" n="M">Jewish</arg>
+<rel>mischief</rel>
+</example>
+
+<example name="autogen2">
+<text>
+anti-takeover mischief by Secretary of Transportation Skinner ,
+who professes to believe safety will be compromised if KLM and
+British Airways own interests in companies that fly airplanes
+</text>
+<rel>mischief</rel>
+<arg n="0">
+by Secretary of Transportation Skinner , who professes to believe
+safety will be compromised if KLM and British Airways own
+interests in companies that fly airplanes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

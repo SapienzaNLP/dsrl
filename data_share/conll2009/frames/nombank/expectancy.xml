@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="expectancy">
+<roleset id="expectancy.01" name="attribute" source="verb-expect.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our average life expectancy
+</text>
+<arg n="0">our</arg>
+<arg n="1">life</arg>
+<arg f="REF" n="2">expectancy</arg>
+<rel>expectancy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

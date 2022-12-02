@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rival">
+<roleset id="rival.01" name="to attempt to equal or surpass" source="verb-rival.01">
+<roles>
+
+<role descr="competitor" n="0"></role>
+
+<role descr="competing with" n="1"></role>
+
+<role descr="competion goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+IBM 's traditional mainframe rivals
+</text>
+<arg n="1">IBM 's</arg>
+<arg n="2">mainframe</arg>
+<arg n="0">rivals</arg>
+<rel>rivals</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Foothills ' main rival to build a Mackenzie Delta pipeline
+</text>
+<arg n="1">Foothills '</arg>
+<arg n="0">rival</arg>
+<rel>rival</rel>
+<arg n="2">to build a Mackenzie Delta pipeline</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

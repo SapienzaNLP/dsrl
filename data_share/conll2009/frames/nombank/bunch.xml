@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bunch">
+<roleset id="bunch.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a whole bunch of people
+</text>
+<rel>bunch</rel>
+<arg n="1">of people</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a whole bunch of stuff that 's money good
+</text>
+<rel>bunch</rel>
+<arg n="1">of stuff</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

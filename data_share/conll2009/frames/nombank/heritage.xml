@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="heritage">
+<roleset id="heritage.01" name="get from predecessor" source="verb-inherit.01" vncls="13.5.2">
+<roles>
+
+<role descr="inheritor" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="inheritance" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="predecessor" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our terrestrial heritage
+</text>
+<arg n="0">our</arg>
+<arg n="2">terrestrial</arg>
+<arg f="REF" n="1">heritage</arg>
+<rel>heritage</rel>
+</example>
+
+<example name="autogen2">
+<text>
+citizens of Polish heritage
+</text>
+<arg n="0">citizens</arg>
+<arg n="2">Polish</arg>
+<arg f="REF" n="1">heritage</arg>
+<rel>heritage</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

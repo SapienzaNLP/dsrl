@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="audit">
+<roleset id="audit.01" name="assess" source="verb-audit.01" vncls="34">
+<roles>
+
+<role descr="auditor" n="0">
+<vnrole vncls="34" vntheta="Agent"/></role>
+
+<role descr="audited" n="1">
+<vnrole vncls="34" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its audit of GM 's Vauxhill unit
+</text>
+<arg n="0">its</arg>
+<rel>audit</rel>
+<arg n="1">of GM 's Vauxhill unit</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The targeted audit groups
+</text>
+<rel>audit</rel>
+<arg n="1">groups</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

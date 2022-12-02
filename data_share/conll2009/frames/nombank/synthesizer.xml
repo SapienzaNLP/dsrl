@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="synthesizer">
+<roleset id="synthesizer.01" name="create" source="verb-synthesize.01" vncls="26.4">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="thing created" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.4" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+<role descr="attribute, secondary predication" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a speech synthesizer
+</text>
+<arg n="1">speech</arg>
+<arg n="0">synthesizer</arg>
+<rel>synthesizer</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the voice synthesizer in this effort
+</text>
+<arg n="1">voice</arg>
+<arg n="0">synthesizer</arg>
+<rel>synthesizer</rel>
+<arg f="LOC" n="M">in this effort</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deterrence">
+<roleset id="deterrence.01" name="deter, scare away" source="verb-deter.01">
+<roles>
+
+<role descr="agent, deterer" n="0"></role>
+
+<role descr="patient, entity deterred" n="1"></role>
+
+<role descr="secondary action (deter from x" n="2"></role>
+
+<role descr="instrument, if separate from arg0" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its deterrence value
+</text>
+<arg n="0">its</arg>
+<rel>deterrence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

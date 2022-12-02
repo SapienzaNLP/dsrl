@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="observer">
+<roleset id="observer.01" name="nom" source="verb-observe.01" vncls="30.2">
+<roles>
+
+<role descr="observer" n="0">
+<vnrole vncls="30.2" vntheta="Agent"/></role>
+
+<role descr="thing looked at" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+most market observers
+</text>
+<arg n="1">market</arg>
+<arg n="0">observers</arg>
+<rel>observers</rel>
+</example>
+
+<example name="autogen3">
+<text>
+retailing observers
+</text>
+<arg n="1">retailing</arg>
+<arg n="0">observers</arg>
+<rel>observers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

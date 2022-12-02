@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="insurer">
+<roleset id="insurer.01" name="act like an insurance agency" source="verb-insure.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+<role descr="danger" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+about $ 4 billion in costs to insurers from Hurricane Hugo
+</text>
+<arg n="2">about $ 4 billion</arg>
+<arg n="Support">$ in costs to</arg>
+<arg n="0">insurers</arg>
+<rel>insurers</rel>
+<arg n="4">from Hurricane Hugo</arg>
+</example>
+
+<example name="autogen2">
+<text>
+portfolio insurers
+</text>
+<arg n="1">portfolio</arg>
+<arg n="0">insurers</arg>
+<rel>insurers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sin">
+<roleset id="sin.01" name="nom-sin/nomlike" source="verb-rebel.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="against" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the sins of the Ottoman Empire
+</text>
+<rel>sins</rel>
+<arg n="0">of the Ottoman Empire</arg>
+</example>
+
+<example name="autogen2">
+<text>
+her sin
+</text>
+<arg n="0">her</arg>
+<rel>sin</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accolade">
+<roleset id="accolade.01" name="give an award" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="award" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Bravo Zulu award , the Navy accolade for a `` job well done ,
+'' is bestowed on Federal 's workers who surpass the call of duty
+.
+</text>
+<arg n="Support">award bestowed</arg>
+<arg n="0">Navy</arg>
+<arg n="1">accolade</arg>
+<rel>accolade</rel>
+<arg n="2">on Federal 's workers who surpass the call of duty</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the most undeserved and ridiculous accolade handed out by the
+awarding committee
+</text>
+<arg f="MNR" n="M">ridiculous</arg>
+<arg n="1">accolade</arg>
+<rel>accolade</rel>
+<arg n="Support">handed</arg>
+<arg n="0">by the awarding committee</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

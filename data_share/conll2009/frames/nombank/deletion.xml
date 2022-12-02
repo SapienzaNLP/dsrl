@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deletion">
+<roleset id="deletion.01" name="remove" source="verb-delete.01" vncls="10.1">
+<roles>
+
+<role descr="entity removing" n="0">
+<vnrole vncls="10.1" vntheta="Agent"/></role>
+
+<role descr="thing being removed" n="1">
+<vnrole vncls="10.1" vntheta="Theme"/></role>
+
+<role descr="removed from" n="2">
+<vnrole vncls="10.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+genetic deletions
+</text>
+<arg n="1">genetic</arg>
+<rel>deletions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

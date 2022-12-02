@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="condition">
+<roleset id="condition.01" name="environment/attribute">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+FirstSouth 's shaky financial condition
+</text>
+<arg n="3">FirstSouth 's</arg>
+<arg n="2">shaky</arg>
+<arg n="1">financial</arg>
+<rel>condition</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an abnormal condition
+</text>
+<arg n="2">abnormal</arg>
+<rel>condition</rel>
+</example>
+
+</roleset>
+<roleset id="condition.02" name="to make dependent on a condition" source="verb-condition.01">
+<roles>
+
+<role descr="causer of dependence, agent" n="0"></role>
+
+<role descr="entity made dependent" n="1"></role>
+
+<role descr="dependent on" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Among the conditions of the offer is that Pace shareholders
+tender a majority of the company 's shares outstanding .
+</text>
+<rel>conditions</rel>
+<arg n="1">of the offer</arg>
+<arg n="2">
+that Pace shareholders tender a majority of the company 's shares
+outstanding</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the hotel 's conditions for undertaking necessary expansion
+</text>
+<arg n="0">the hotel 's</arg>
+<arg f="REF" n="2">conditions</arg>
+<rel>conditions</rel>
+<arg n="1">for undertaking necessary expansion</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

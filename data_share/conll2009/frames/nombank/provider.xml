@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="provider">
+<roleset id="provider.01" name="cf give" source="verb-provide.01" vncls="13.4.1">
+<roles>
+
+<role descr="provider" n="0">
+<vnrole vncls="13.4.1" vntheta="Agent"/></role>
+
+<role descr="thing provided" n="1">
+<vnrole vncls="13.4.1" vntheta="Theme"/></role>
+
+<role descr="entity provided for (beneficiary" n="2">
+<vnrole vncls="13.4.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a bellwether provider of operating systems and software for
+personal-computer makers and users
+</text>
+<arg n="0">provider</arg>
+<rel>provider</rel>
+<arg n="1">of operating systems and software</arg>
+<arg n="2">for personal-computer makers and users</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a world-wide provider of health-care products and services ,
+seeds and speciality chemicals
+</text>
+<arg n="2">world-wide</arg>
+<arg n="0">provider</arg>
+<rel>provider</rel>
+<arg n="1">
+of health-care products and services , seeds and speciality
+chemicals</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

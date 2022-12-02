@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gallon">
+<roleset id="gallon.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+25 million gallons of fuel
+</text>
+<rel>gallons</rel>
+<arg n="1">of fuel</arg>
+</example>
+
+<example name="autogen2">
+<text>
+almost 150,000 gallons of oil
+</text>
+<rel>gallons</rel>
+<arg n="1">of oil</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wholesaler">
+<roleset id="wholesaler.01" name="commerce: seller" source="verb-sell.01" vncls="13.1-1">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing sold" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="price paid" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The wholesaler of cash and carry merchandise
+</text>
+<arg n="0">wholesaler</arg>
+<rel>wholesaler</rel>
+<arg n="1">of cash and carry merchandise</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a food wholesaler and building products maker
+</text>
+<arg n="1">food</arg>
+<arg n="0">wholesaler</arg>
+<rel>wholesaler</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

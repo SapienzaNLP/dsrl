@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="titan">
+<roleset id="titan.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+corporate titans
+</text>
+<arg n="1">corporate</arg>
+<arg n="0">titans</arg>
+<rel>titans</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The junk-mail titans
+</text>
+<arg n="1">junk-mail</arg>
+<arg n="0">titans</arg>
+<rel>titans</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="virus">
+<roleset id="virus.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+people infected with the AIDS virus
+</text>
+<arg n="1">people ---> *</arg>
+<arg n="Support">infected with</arg>
+<arg n="2">AIDS</arg>
+<rel>virus</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the national-service virus
+</text>
+<arg n="2">national-service</arg>
+<rel>virus</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

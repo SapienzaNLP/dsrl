@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="refocusing">
+<roleset id="refocusing.01" name="to focus again" source="verb-refocus.01">
+<roles>
+
+<role descr="focusser, agent" n="0"></role>
+
+<role descr="thing focussed" n="1"></role>
+
+<role descr="focussed on" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's business improvement and refocusing program
+</text>
+<arg n="0">the company 's</arg>
+<rel>refocusing</rel>
+<arg n="Support">program</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

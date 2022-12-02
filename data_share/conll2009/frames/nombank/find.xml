@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="find">
+<roleset id="find.01" name="discovery" source="verb-find.01" vncls="29.4">
+<roles>
+
+<role descr="finder" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="thing found" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="beneficiary, found for" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Recently Saudi Arabia and Venezuela , traditional heavy-crude
+producers , have boasted of new finds of light , low-sulfur oil
+by their national oil companies .
+</text>
+<arg n="0">Saudi Arabia and Venezuela , traditional heavy-crude producers ,</arg>
+<arg n="Support">boasted of</arg>
+<arg f="TMP" n="M">new</arg>
+<rel>finds</rel>
+<arg n="1">of light , low-sulfur oil</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

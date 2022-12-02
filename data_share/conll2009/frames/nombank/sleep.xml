@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sleep">
+<roleset id="sleep.01" name="sleep" source="verb-sleep.01" vncls="40.4">
+<roles>
+
+<role descr="sleeper" n="0">
+<vnrole vncls="40.4" vntheta="Agent"/></role>
+
+<role descr="cognate object" n="1"></role>
+
+<role descr="expected terminus of sleep" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your first three weeks of sleep deprivation
+</text>
+<arg n="0">your</arg>
+<arg n="Support">weeks of deprivation</arg>
+<rel>sleep</rel>
+</example>
+
+<example name="autogen2">
+<text>
+I have n't been able to get a decent night 's sleep since this
+has been going on
+</text>
+<arg n="0">I ---> *</arg>
+<arg n="Support">get</arg>
+<rel>sleep</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

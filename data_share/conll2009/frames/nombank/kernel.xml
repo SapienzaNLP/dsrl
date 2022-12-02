@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="kernel">
+<roleset id="kernel.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the kernel of that idea
+</text>
+<arg n="0">kernel</arg>
+<rel>kernel</rel>
+<arg n="1">of that idea</arg>
+</example>
+
+</roleset>
+<roleset id="kernel.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+15 kernels of popcorn
+</text>
+<rel>kernels</rel>
+<arg n="1">of popcorn</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

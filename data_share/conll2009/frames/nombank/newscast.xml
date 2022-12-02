@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="newscast">
+<roleset id="newscast.01" name="work-of-art" source="verb-broadcast.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient/audience" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the network newscasts
+</text>
+<arg n="0">network</arg>
+<rel>newscasts</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the same TV newscasts
+</text>
+<arg n="3">TV</arg>
+<rel>newscasts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="characteristic">
+<roleset id="characteristic.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their common characteristic
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">characteristic</arg>
+<rel>characteristic</rel>
+</example>
+
+<example name="autogen2">
+<text>
+performance characteristics
+</text>
+<arg n="1">performance</arg>
+<arg f="REF" n="2">characteristics</arg>
+<rel>characteristics</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

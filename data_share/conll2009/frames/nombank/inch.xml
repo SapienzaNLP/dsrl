@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inch">
+<roleset id="inch.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Weighing 6.7 pounds with battery , the notebook measures 8.2 by
+11.7 inches , has a 20-megabyte hard disk drive and boasts a
+backlit screen that is 22 % larger than Compaq 's .
+</text>
+<arg n="1">the notebook</arg>
+<arg n="Support">measures</arg>
+<rel>inches</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Sago is relatively rare and grows only a couple of inches a
+year
+</text>
+<arg n="1">the Sago</arg>
+<arg n="Support">grows couple of</arg>
+<rel>inches</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

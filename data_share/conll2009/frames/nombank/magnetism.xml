@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="magnetism">
+<roleset id="magnetism.01" name="attribute/nomadj-magnetic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her magnetism
+</text>
+<arg n="1">her</arg>
+<arg f="REF" n="2">magnetism</arg>
+<rel>magnetism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

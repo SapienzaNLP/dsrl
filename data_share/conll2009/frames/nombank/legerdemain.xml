@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="legerdemain">
+<roleset id="legerdemain.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fiscal legerdemain
+</text>
+<arg n="1">fiscal</arg>
+<rel>legerdemain</rel>
+</example>
+
+<example name="autogen2">
+<text>
+legislative legerdemain by Houston Republicans on behalf of HEI
+Corp. of Texas to retroactively `` move '' a Missouri hospital
+from one county to the next to justify higher Medicare
+reimbursements
+</text>
+<rel>legerdemain</rel>
+<arg n="0">by Houston Republicans</arg>
+<arg n="2">on behalf of HEI Corp. of Texas</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

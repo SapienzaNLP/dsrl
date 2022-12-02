@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dealership">
+<roleset id="dealership.01" name="handle, deal with" source="verb-deal.01">
+<roles>
+
+<role descr="dealer" n="0"></role>
+
+<role descr="thing dealt with or in" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Chrysler dealership
+</text>
+<arg n="1">Chrysler</arg>
+<arg n="0">dealership</arg>
+<rel>dealership</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a Lexus dealership
+</text>
+<arg n="1">Lexus</arg>
+<arg n="0">dealership</arg>
+<rel>dealership</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

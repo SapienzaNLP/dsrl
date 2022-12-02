@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="playing">
+<roleset id="playing.01" name="play a game" source="verb-play.01" vncls="26.7-1">
+<roles>
+
+<role descr="player" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="game/music" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+recorded tracks of his or her own playing
+</text>
+<arg n="1">recorded tracks</arg>
+<arg n="0">his or her</arg>
+<rel>playing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the fluid playing of the St. Louis Symphony under Leonard Slatkin
+'s direction
+</text>
+<arg f="MNR" n="M">fluid</arg>
+<rel>playing</rel>
+<arg n="0">of the St. Louis Symphony</arg>
+</example>
+
+</roleset>
+<roleset id="playing.02" name="play a role" source="verb-play.02">
+<roles>
+
+<role descr="actor" n="0"></role>
+
+<role descr="role" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Hildebrandt course enables students to brush up on
+negotiation skills by role playing in simulated deals .
+</text>
+<arg n="Support">enables by</arg>
+<arg n="0">students</arg>
+<arg n="1">role</arg>
+<rel>playing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+role-playing
+</text>
+<arg n="1">role-playing</arg>
+<rel>role-playing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

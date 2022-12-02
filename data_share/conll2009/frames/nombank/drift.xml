@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drift">
+<roleset id="drift.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the downward drift
+</text>
+<arg n="2">downward</arg>
+<rel>drift</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the court 's conservative drift
+</text>
+<arg n="1">the court 's</arg>
+<arg n="2">conservative</arg>
+<rel>drift</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

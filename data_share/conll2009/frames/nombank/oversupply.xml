@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="oversupply">
+<roleset id="oversupply.01" name="nom/partitive-quant" source="verb-supply.01" vncls="13.4.1">
+<roles>
+
+<role descr="provider" n="0">
+<vnrole vncls="13.4.1" vntheta="Agent"/></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="entity provided for (beneficiary" n="2">
+<vnrole vncls="13.4.1" vntheta="Recipient"/></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an oversupply of bonds
+</text>
+<rel>oversupply</rel>
+<arg n="1">of bonds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

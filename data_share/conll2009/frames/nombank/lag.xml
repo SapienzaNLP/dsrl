@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lag">
+<roleset id="lag.01" name="be different" source="verb-differ.02" vncls="45.6">
+<roles>
+
+<role descr="things that are different" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext or mnr, how different" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="seperated arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Lotus Development Corp. has slashed the lag between U.S. and
+Japan product introductions to six months from three years .
+</text>
+<arg n="Support">slashed</arg>
+<rel>lag</rel>
+<arg n="1">between U.S. and Japan product introductions</arg>
+<arg n="2">to six months</arg>
+</example>
+
+<example name="autogen2">
+<text>
+floating returns that track market interest rates , with a slight
+lag
+</text>
+<arg n="1">floating returns ---> that ---> *T*-1</arg>
+<arg n="Support">track with</arg>
+<arg n="3">market interest rates</arg>
+<arg f="MNR" n="M">slight</arg>
+<rel>lag</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

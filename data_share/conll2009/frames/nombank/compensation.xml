@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="compensation">
+<roleset id="compensation.01" name="pay back" source="verb-compensate.01" vncls="33">
+<roles>
+
+<role descr="payer or buyer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="thing bought or paid for" n="1">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+<role descr="seller or person being paid" n="2">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="price paid (unlikely" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+compensation to French enterprises for contracts broken by the
+Khomeini regime
+</text>
+<rel>compensation</rel>
+<arg n="2">to French enterprises</arg>
+<arg n="1">for contracts broken by the Khomeini regime</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Italy refuses to pay compensation for more than 30 years of
+colonial rule
+</text>
+<arg n="0">Italy ---> *-1</arg>
+<arg n="Support">pay</arg>
+<rel>compensation</rel>
+<arg n="1">for more than 30 years of colonial rule</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

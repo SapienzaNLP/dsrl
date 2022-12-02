@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hour">
+<roleset id="hour.01" name="environment for proposition">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its global-news hour
+</text>
+<arg n="3">its</arg>
+<arg n="1">global-news</arg>
+<rel>hour</rel>
+</example>
+
+<example name="autogen2">
+<text>
+conventional 9-5 hours
+</text>
+<arg n="1">conventional</arg>
+<arg n="2">9-5</arg>
+<rel>hours</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

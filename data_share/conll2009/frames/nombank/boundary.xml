@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="boundary">
+<roleset id="boundary.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the boundaries of the debate
+</text>
+<rel>boundaries</rel>
+<arg n="1">of the debate</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the city 's eastern boundary and piers
+</text>
+<arg n="1">the city 's</arg>
+<rel>boundary</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

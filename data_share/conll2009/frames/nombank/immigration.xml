@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="immigration">
+<roleset id="immigration.01" name="move population" source="verb-immigrate.01">
+<roles>
+
+<role descr="population" n="0"></role>
+
+<role descr="destination" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Japanese immigration authorities
+</text>
+<arg n="1">Japanese</arg>
+<rel>immigration</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

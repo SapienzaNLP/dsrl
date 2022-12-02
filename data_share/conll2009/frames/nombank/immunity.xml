@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="immunity">
+<roleset id="immunity.01" name="nomadj-immune" source="verb-resist.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+an immunity to whooping cough
+</text>
+<rel>immunity</rel>
+<arg n="1">to whooping cough</arg>
+</example>
+
+<example name="autogen3">
+<text>
+immunity to whooping cough
+</text>
+<rel>immunity</rel>
+<arg n="1">to whooping cough</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

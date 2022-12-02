@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lecture">
+<roleset id="lecture.01" name="to deliver a lecture" source="verb-lecture.01">
+<roles>
+
+<role descr="lecturer, agent" n="0"></role>
+
+<role descr="audience" n="1"></role>
+
+<role descr="topic or utterance" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Jaime Escalante , the Los Angeles high-school mathematics teacher
+featured in the film `` Stand and Deliver , '' to come to Harvard
+for a guest lecture
+</text>
+<arg n="Support">come for</arg>
+<arg n="1">to Harvard</arg>
+<arg n="0">guest</arg>
+<rel>lecture</rel>
+</example>
+
+<example name="autogen2">
+<text>
+she put it in a 1987 lecture at the Harvard Graduate School of
+Design
+</text>
+<arg n="0">she</arg>
+<arg n="Support">put in</arg>
+<arg f="TMP" n="M">1987</arg>
+<rel>lecture</rel>
+<arg n="1">at the Harvard Graduate School of Design</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

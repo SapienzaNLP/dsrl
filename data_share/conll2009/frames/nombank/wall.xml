@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wall">
+<roleset id="wall.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a room with thicker walls
+</text>
+<arg n="1">a room</arg>
+<rel>walls</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the walls of CenTrust
+</text>
+<rel>walls</rel>
+<arg n="1">of CenTrust</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

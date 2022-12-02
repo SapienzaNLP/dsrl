@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="refiner">
+<roleset id="refiner.01" name="to purify" source="verb-refine.01">
+<roles>
+
+<role descr="purifier, agent" n="0"></role>
+
+<role descr="entity refined" n="1"></role>
+
+<role descr="impurities" n="2"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+The oil refiner
+</text>
+<arg n="1">oil</arg>
+<arg n="0">refiner</arg>
+<rel>refiner</rel>
+</example>
+
+<example name="autogen3">
+<text>
+other oil producers and refiners
+</text>
+<arg n="1">oil</arg>
+<arg n="0">refiners</arg>
+<rel>refiners</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

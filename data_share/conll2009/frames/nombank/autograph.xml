@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="autograph">
+<roleset id="autograph.01" name="to sign" source="verb-autograph.01">
+<roles>
+
+<role descr="celebrity, autographer, agent" n="0"></role>
+
+<role descr="entity autographed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Not his autograph
+</text>
+<arg n="0">his</arg>
+<rel>autograph</rel>
+</example>
+
+<example name="autogen2">
+<text>
+to turn the ball over to him in return for an autograph
+</text>
+<arg n="Support">turn in return for</arg>
+<arg n="0">to him</arg>
+<rel>autograph</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

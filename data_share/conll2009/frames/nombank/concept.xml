@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="concept">
+<roleset id="concept.01" name="think of" source="verb-conceive.01">
+<roles>
+
+<role descr="conceiver, thinker" n="0"></role>
+
+<role descr="thought" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Britain 's concept of both
+</text>
+<arg n="0">Britain 's</arg>
+<rel>concept</rel>
+<arg n="1">of both</arg>
+</example>
+
+<example name="autogen2">
+<text>
+your Oct. 23 Centennial Journal item recognized the money-fund
+concept as one of the significant events of the past century
+</text>
+<arg n="1">money-fund</arg>
+<rel>concept</rel>
+<arg n="2">as one of the significant events of the past century</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

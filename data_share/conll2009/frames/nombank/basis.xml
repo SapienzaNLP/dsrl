@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="basis">
+<roleset id="basis.01" name="justified by" source="verb-base.01">
+<roles>
+
+<role descr="agent (rarely seen" n="0"></role>
+
+<role descr="decision" n="1"></role>
+
+<role descr="justification" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+procedural bases on which this case will be appealed further
+</text>
+<arg n="2">procedural</arg>
+<rel>bases</rel>
+<arg n="1">this case will be appealed further</arg>
+</example>
+
+<example name="autogen2">
+<text>
+discrimination on the basis of sex and pregnancy
+</text>
+<arg n="1">discrimination</arg>
+<rel>basis</rel>
+<arg n="2">of sex and pregnancy</arg>
+</example>
+
+</roleset>
+<roleset id="basis.02" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+basis for the gain
+</text>
+<arg n="0">basis</arg>
+<rel>basis</rel>
+<arg n="1">for the gain</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

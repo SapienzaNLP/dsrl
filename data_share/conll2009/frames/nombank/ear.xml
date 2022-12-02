@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ear">
+<roleset id="ear.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their ears
+</text>
+<arg n="1">their</arg>
+<rel>ears</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her left , not right , ear
+</text>
+<arg n="1">her</arg>
+<rel>ear</rel>
+</example>
+
+</roleset>
+<roleset id="ear.02" name="nomlike" source="verb-listen.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+RADIO MALAISE draws the ear of the Federal Communications
+Commission .
+</text>
+<arg n="1">RADIO MALAISE</arg>
+<arg n="Support">draws</arg>
+<rel>ear</rel>
+<arg n="0">of the Federal Communications Commission</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Bosses have big ears these days .
+</text>
+<arg n="0">Bosses</arg>
+<arg n="Support">have</arg>
+<rel>ears</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

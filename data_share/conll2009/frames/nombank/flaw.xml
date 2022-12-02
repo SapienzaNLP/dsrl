@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flaw">
+<roleset id="flaw.01" name="cause to) be defective" source="verb-flaw.01">
+<roles>
+
+<role descr="causer of flaw, agent (rare" n="0"></role>
+
+<role descr="entity flawed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the product 's flaws
+</text>
+<arg n="1">the product 's</arg>
+<arg n="0">flaws</arg>
+<rel>flaws</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the flaws and shortcomings of the institution
+</text>
+<arg n="0">flaws</arg>
+<rel>flaws</rel>
+<arg n="1">of the institution</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

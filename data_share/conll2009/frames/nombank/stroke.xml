@@ -1,0 +1,80 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stroke">
+<roleset id="stroke.01" name="stroke" source="verb-stroke.01" vncls="20">
+<roles>
+
+<role descr="stroker" n="0">
+<vnrole vncls="20" vntheta="Agent"/></role>
+
+<role descr="thing stroked" n="1">
+<vnrole vncls="20" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2">
+<vnrole vncls="20" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Garber depicts these moral qualities with the broad brush
+strokes of a satire that occasionally descends to the realm of
+cliched caricatures .
+</text>
+<arg n="0">Mr. Garber</arg>
+<arg n="Support">depicts with</arg>
+<arg n="1">these moral qualities</arg>
+<arg f="MNR" n="M">broad</arg>
+<arg n="2">brush</arg>
+<rel>strokes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+As for the humor that Gorky 's text provides , when repainted in
+such broad strokes -LRB- particularly by the lesser members of
+the ensemble -RRB- it looks and sounds forced .
+</text>
+<arg n="1">* ---> it</arg>
+<arg n="Support">repainted in</arg>
+<arg f="MNR" n="M">broad</arg>
+<rel>strokes</rel>
+<arg n="0">the lesser members of the ensemble</arg>
+</example>
+
+</roleset>
+<roleset id="stroke.02" name="attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+stroke patients '
+</text>
+<arg f="REF" n="2">stroke</arg>
+<rel>stroke</rel>
+<arg n="0">patients</arg>
+</example>
+
+<example name="autogen2">
+<text>
+for example , in the midst of a great social occasion -LRB- such
+as an international conference on revising the Versailles Treaty
+in 1923 -RRB- , one 's 72-yearold father , himself a great butler
+once , should happen to die of a stroke
+</text>
+<arg n="0">one 's 72-yearold father , himself a great butler once , ---> *-1</arg>
+<arg n="Support">die of</arg>
+<rel>stroke</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

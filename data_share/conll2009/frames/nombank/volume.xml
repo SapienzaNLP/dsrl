@@ -1,0 +1,84 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="volume">
+<roleset id="volume.01" name="trade attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+higher world-wide lighting volume
+</text>
+<arg n="2">higher</arg>
+<arg n="3">world-wide</arg>
+<arg n="1">lighting</arg>
+<rel>volume</rel>
+</example>
+
+<example name="autogen2">
+<text>
+heavy volume of 416,290,000 shares
+</text>
+<rel>volume</rel>
+<arg n="2">of 416,290,000 shares</arg>
+</example>
+
+</roleset>
+<roleset id="volume.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+volumes of documents
+</text>
+<rel>volumes</rel>
+<arg n="2">of documents</arg>
+</example>
+
+<example name="autogen2">
+<text>
+actual Saudi volume
+</text>
+<arg n="1">Saudi</arg>
+<arg f="REF" n="2">volume</arg>
+<rel>volume</rel>
+</example>
+
+</roleset>
+<roleset id="volume.03" name="sound attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the orchestra -LCB- volume -RCB-
+</text>
+<arg n="1">orchestra</arg>
+<rel>volume</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="foundation">
+<roleset id="foundation.01" name="establish" source="verb-found.01">
+<roles>
+
+<role descr="agent, setter" n="0"></role>
+
+<role descr="thing set" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In 1976 , as an upstart in the eyes of Switzerland 's
+establishment , Mr. Rey laid the foundations of his present-day
+prominence with an unheard-of raid on Bally , the country 's
+traditional shoemaker .
+</text>
+<arg n="0">Mr. Rey</arg>
+<arg n="Support">laid</arg>
+<rel>foundations</rel>
+<arg n="1">of his present-day prominence</arg>
+</example>
+
+<example name="autogen4">
+<text>
+their foundations
+</text>
+<arg n="1">their</arg>
+<rel>foundations</rel>
+</example>
+
+</roleset>
+<roleset id="foundation.02" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A family foundation set up by late founder Henry Dunker
+</text>
+<arg n="1">family</arg>
+<rel>foundation</rel>
+<arg n="Support">set</arg>
+<arg n="2">by late founder Henry Dunker</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a university foundation
+</text>
+<arg n="2">university</arg>
+<rel>foundation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

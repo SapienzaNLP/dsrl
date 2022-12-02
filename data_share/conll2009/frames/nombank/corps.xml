@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="corps">
+<roleset id="corps.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their own service or conservation corps
+</text>
+<arg n="2">their</arg>
+<arg n="1">service or conservation</arg>
+<rel>corps</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the White House press corps
+</text>
+<arg n="2">White House</arg>
+<arg n="1">press</arg>
+<rel>corps</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

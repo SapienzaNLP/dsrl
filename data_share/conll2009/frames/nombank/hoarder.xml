@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hoarder">
+<roleset id="hoarder.01" name="to accumulate a hoard" source="verb-hoard.01" vncls="15.2">
+<roles>
+
+<role descr="entity accumulating" n="0">
+<vnrole vncls="15.2" vntheta="Agent"/></role>
+
+<role descr="substance accumulated" n="1">
+<vnrole vncls="15.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+this cash hoarder 's
+</text>
+<arg n="1">cash</arg>
+<arg n="0">hoarder</arg>
+<rel>hoarder</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

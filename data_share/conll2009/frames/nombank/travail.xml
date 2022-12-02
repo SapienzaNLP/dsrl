@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="travail">
+<roleset id="travail.01" name="suffer and work" source="verb-labor.01">
+<roles>
+
+<role descr="theme, 'laborer' sorta but not really" n="0"></role>
+
+<role descr="onus" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his travails
+</text>
+<arg n="0">his</arg>
+<arg n="1">travails</arg>
+<rel>travails</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

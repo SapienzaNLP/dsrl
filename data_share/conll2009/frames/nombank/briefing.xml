@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="briefing">
+<roleset id="briefing.01" name="give a summary of information" source="verb-brief.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Bush got his first earthquake briefing of the day at 6:30
+a.m. from chief of staff John Sununu
+</text>
+<arg n="Support">got</arg>
+<arg n="2">his</arg>
+<arg f="TMP" n="M">first</arg>
+<arg n="1">earthquake</arg>
+<rel>briefing</rel>
+<arg f="TMP" n="M">of the day</arg>
+<arg n="0">from chief of staff John Sununu</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A daily news briefing from the company librarian
+</text>
+<arg f="TMP" n="M">daily</arg>
+<arg n="1">news</arg>
+<rel>briefing</rel>
+<arg n="0">from the company librarian</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

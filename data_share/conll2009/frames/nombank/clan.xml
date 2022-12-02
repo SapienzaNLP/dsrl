@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clan">
+<roleset id="clan.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his minority Mareham clan
+</text>
+<arg n="2">his</arg>
+<arg n="1">Mareham</arg>
+<rel>clan</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the rival Issak clan
+</text>
+<arg n="1">Issak</arg>
+<rel>clan</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

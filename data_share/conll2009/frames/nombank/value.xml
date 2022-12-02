@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="value">
+<roleset id="value.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the C$ 6.3 million carrying value of its Windflower gold property
+in British Columbia
+</text>
+<arg n="2">C$ 6.3 million</arg>
+<arg n="1">carrying</arg>
+<rel>value</rel>
+<arg n="3">of its Windflower gold property in British Columbia</arg>
+</example>
+
+<example name="autogen2">
+<text>
+good value
+</text>
+<arg n="2">good</arg>
+<rel>value</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

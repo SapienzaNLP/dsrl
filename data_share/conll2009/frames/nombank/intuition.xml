@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="intuition">
+<roleset id="intuition.01" name="nomlike/think/intuit" source="verb-think.01" vncls="29.4">
+<roles>
+
+<role descr="thinker" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="thought" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="attributive" n="2">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the creative intuition of their executives
+</text>
+<arg f="MNR" n="M">creative</arg>
+<rel>intuition</rel>
+<arg n="0">of their executives</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` The computer 's mind is too straight , too primitive , ''
+lacking the intuition and creativity needed to reach the top
+</text>
+<arg n="0">The computer 's mind ---> *-1</arg>
+<arg f="NEG" n="M">lacking</arg>
+<arg n="Support">lacking</arg>
+<rel>intuition</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

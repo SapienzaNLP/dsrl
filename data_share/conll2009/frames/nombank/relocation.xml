@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="relocation">
+<roleset id="relocation.01" name="to change residence" source="verb-relocate.01">
+<roles>
+
+<role descr="agent, causer" n="0"></role>
+
+<role descr="entity relocated" n="1"></role>
+
+<role descr="destination" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the relocation of the company 's registered office to Toronto
+from Vancouver
+</text>
+<rel>relocation</rel>
+<arg n="1">of the company 's registered office</arg>
+<arg n="2">to Toronto</arg>
+<arg n="3">from Vancouver</arg>
+</example>
+
+<example name="autogen2">
+<text>
+plant relocations
+</text>
+<arg n="1">plant</arg>
+<rel>relocations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

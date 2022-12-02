@@ -1,0 +1,106 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mark">
+<roleset id="mark.01" name="make a mark" source="verb-mark.02" vncls="25.1">
+<roles>
+
+<role descr="agent, marker" n="0">
+<vnrole vncls="25.1" vntheta="Agent"/></role>
+
+<role descr="mark" n="1">
+<vnrole vncls="25.1" vntheta="Theme"/></role>
+
+<role descr="surface, marked-on" n="2">
+<vnrole vncls="25.1" vntheta="Destination"/></role>
+
+<role descr="instrument, marker" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a writer uses quotation marks in reporting what someone has said
+</text>
+<arg n="0">a writer</arg>
+<arg n="Support">uses</arg>
+<arg n="3">quotation</arg>
+<arg n="1">marks</arg>
+<rel>marks</rel>
+<arg n="2">in reporting what someone has said</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it left grease marks on his carpet
+</text>
+<arg n="0">it</arg>
+<arg n="Support">left</arg>
+<arg n="3">grease</arg>
+<arg n="1">marks</arg>
+<rel>marks</rel>
+<arg n="2">on his carpet</arg>
+</example>
+
+</roleset>
+<roleset id="mark.02" name="take aim at" source="verb-target.01">
+<roles>
+
+<role descr="targeter" n="0"></role>
+
+<role descr="thing aimed at" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Here , too , Mr. Roberts is way off the mark .
+</text>
+<arg n="0">Mr. Roberts</arg>
+<arg n="1">mark</arg>
+<rel>mark</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Going by official forecasts of GDP , which measures the colony 's
+output of goods and services , minus foreign income , Mr. Mushkat
+'s `` realists '' seem relatively close to the mark .
+</text>
+<arg n="0">Mr. Mushkat 's `` realists ''</arg>
+<arg n="1">mark</arg>
+<rel>mark</rel>
+</example>
+
+</roleset>
+<roleset id="mark.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+question marks about that
+</text>
+<arg n="2">question</arg>
+<rel>marks</rel>
+<arg n="1">about that</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the high-water mark of far-left opposition
+</text>
+<arg n="2">high-water</arg>
+<rel>mark</rel>
+<arg n="1">of far-left opposition</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

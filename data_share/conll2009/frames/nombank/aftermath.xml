@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aftermath">
+<roleset id="aftermath.01" name="be subsequent, temporally or spatially" source="verb-follow.01" vncls="47.8">
+<roles>
+
+<role descr="thing following, coming after" n="1">
+<vnrole vncls="47.8" vntheta="Theme1"/></role>
+
+<role descr="thing followed, coming before" n="2">
+<vnrole vncls="47.8" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the aftermath of the 1987 debacle
+</text>
+<arg n="1">aftermath</arg>
+<rel>aftermath</rel>
+<arg n="2">of the 1987 debacle</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the aftermath of a Bay area earthquake
+</text>
+<arg n="1">aftermath</arg>
+<rel>aftermath</rel>
+<arg n="2">of a Bay area earthquake</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pallor">
+<roleset id="pallor.01" name="attribute/nomadj-pale">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The prime minister , whose hair is thinning and gray and whose
+face has a perpetual pallor ,
+</text>
+<arg n="1">whose face ---> *T*-299</arg>
+<arg n="Support">has</arg>
+<arg f="TMP" n="M">perpetual</arg>
+<arg f="REF" n="2">pallor</arg>
+<rel>pallor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

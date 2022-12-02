@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="charm">
+<roleset id="charm.01" name="attribute/nomadj-charming">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its charm
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">charm</arg>
+<rel>charm</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a little charm
+</text>
+<arg n="2">little</arg>
+<rel>charm</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

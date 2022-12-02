@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sociologist">
+<roleset id="sociologist.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Virginia Commonwealth University sociologist David Bromley
+</text>
+<arg n="2">Virginia Commonwealth University</arg>
+<arg n="0">sociologist</arg>
+<rel>sociologist</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the University of Florida sociologist
+</text>
+<arg n="2">University of Florida</arg>
+<arg n="0">sociologist</arg>
+<rel>sociologist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="antagonist">
+<roleset id="antagonist.01" name="to provoke the hostility of" source="verb-antagonize.01" vncls="31.1">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="entity antagonized" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his U.S. antagonists
+</text>
+<arg n="1">his</arg>
+<arg f="LOC" n="M">U.S.</arg>
+<arg n="0">antagonists</arg>
+<rel>antagonists</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

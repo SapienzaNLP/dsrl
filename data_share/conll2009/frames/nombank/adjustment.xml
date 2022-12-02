@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="adjustment">
+<roleset id="adjustment.01" name="change (slightly" source="verb-adjust.01">
+<roles>
+
+<role descr="causer of transformation" n="0"></role>
+
+<role descr="thing changing" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+<role descr="purpose, reason for adjustment" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Crawford evaluates health care plans , manages medical and
+disability aspects of worker 's compensation injuries and is
+involved in claims adjustments for insurance companies .
+</text>
+<arg n="0">Crawford ---> *-1</arg>
+<arg n="Support">involved in</arg>
+<arg n="1">claims</arg>
+<rel>adjustments</rel>
+<arg n="4">for insurance companies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+adjustments to reserves for workers ' compensation claims
+</text>
+<rel>adjustments</rel>
+<arg n="1">to reserves</arg>
+<arg n="4">for workers ' compensation claims</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

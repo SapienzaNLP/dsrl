@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="liquidator">
+<roleset id="liquidator.01" name="cause to cease to exist" source="verb-liquidate.01" vncls="42.1">
+<roles>
+
+<role descr="liquidator, agent" n="0">
+<vnrole vncls="42.1" vntheta="Agent"/></role>
+
+<role descr="thing being liquidated" n="1">
+<vnrole vncls="42.1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+a court-appointed provisional liquidator
+</text>
+<arg f="MNR" n="M">provisional</arg>
+<arg n="0">liquidator</arg>
+<rel>liquidator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

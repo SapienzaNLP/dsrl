@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="erosion">
+<roleset id="erosion.01" name="wear away by water or wind" source="verb-erode.01" vncls="47.2">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="substance worn away" n="1">
+<vnrole vncls="47.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an erosion of the customer base , development capital , and
+insurability
+</text>
+<rel>erosion</rel>
+<arg n="1">of the customer base , development capital , and insurability</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the internal erosion of their state
+</text>
+<rel>erosion</rel>
+<arg n="1">of their state</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

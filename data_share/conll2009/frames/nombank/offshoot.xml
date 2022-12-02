@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="offshoot">
+<roleset id="offshoot.01" name="defrel" source="verb-spin.02">
+<roles>
+
+<role descr="relation holder" n="0" source="1"></role>
+
+<role descr="relation receptor" n="1" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+offshoots of the intifadah , the Palestinian rebellion in the
+occupied territories , which the U.S. does n't classify as
+terrorism
+</text>
+<arg n="0">offshoots</arg>
+<rel>offshoots</rel>
+<arg n="1">
+of the intifadah , the Palestinian rebellion in the occupied
+territories , which the U.S. does n't classify as terrorism</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its offshoot
+</text>
+<arg n="1">its</arg>
+<arg n="0">offshoot</arg>
+<rel>offshoot</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

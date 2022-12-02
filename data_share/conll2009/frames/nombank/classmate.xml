@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="classmate">
+<roleset id="classmate.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their grammar-school classmates
+</text>
+<arg n="2">their</arg>
+<arg n="1">grammar-school</arg>
+<arg n="0">classmates</arg>
+<rel>classmates</rel>
+</example>
+
+<example name="autogen2">
+<text>
+His violin classmates
+</text>
+<arg n="2">His</arg>
+<arg n="1">violin</arg>
+<arg n="0">classmates</arg>
+<rel>classmates</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

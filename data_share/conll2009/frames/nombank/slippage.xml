@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="slippage">
+<roleset id="slippage.01" name="fall" source="verb-slip.01">
+<roles>
+
+<role descr="logical subject, patient, thing falling" n="1"></role>
+
+<role descr="ext, amount fallen" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point, end state of arg1" n="4"></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some slippage in Mr. Dinkins 's support among Jewish voters
+</text>
+<rel>slippage</rel>
+<arg n="1">in Mr. Dinkins 's support among Jewish voters</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

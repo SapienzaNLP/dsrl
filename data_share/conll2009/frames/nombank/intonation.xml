@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="intonation">
+<roleset id="intonation.01" name="say solemnly" source="verb-intone.01">
+<roles>
+
+<role descr="speaker" n="0"></role>
+
+<role descr="utterance" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my intonation
+</text>
+<arg n="0">my</arg>
+<rel>intonation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="presence">
+<roleset id="presence.01" name="be" source="verb-exist.01" vncls="39.6">
+<roles>
+
+<role descr="thing existing" n="1">
+<vnrole vncls="39.6" vntheta="Theme"/></role>
+
+<role descr="secondary attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its presence
+</text>
+<arg n="1">its</arg>
+<rel>presence</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Unilab 's presence
+</text>
+<arg n="1">Unilab 's</arg>
+<rel>presence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

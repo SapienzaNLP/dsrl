@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="control">
+<roleset id="control.01" name="have power over" source="verb-control.01">
+<roles>
+
+<role descr="controller" n="0"></role>
+
+<role descr="controlled" n="1"></role>
+
+<role descr="instrumental, controlled with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its control of Guangdong , which has been the main laboratory for
+the open-door policy and economic reforms
+</text>
+<arg n="0">its</arg>
+<rel>control</rel>
+<arg n="1">
+of Guangdong , which has been the main laboratory for the
+open-door policy and economic reforms</arg>
+</example>
+
+<example name="autogen2">
+<text>
+pollution control revenue bonds
+</text>
+<arg n="1">pollution</arg>
+<rel>control</rel>
+<arg n="2">bonds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

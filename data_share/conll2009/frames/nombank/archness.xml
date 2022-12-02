@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="archness">
+<roleset id="archness.01" name="attribute/nomadjlike-saucy">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Vanity Fair 's gossipy archness
+</text>
+<arg n="1">Vanity Fair 's</arg>
+<arg f="REF" n="2">archness</arg>
+<rel>archness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

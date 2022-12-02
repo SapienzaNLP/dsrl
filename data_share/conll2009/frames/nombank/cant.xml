@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cant">
+<roleset id="cant.01" name="sing" source="verb-sing.01" vncls="26.7-1">
+<roles>
+
+<role descr="singer" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="song" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="audience" n="2">
+<vnrole vncls="26.7-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+pious cant
+</text>
+<arg f="MNR" n="M">pious</arg>
+<rel>cant</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

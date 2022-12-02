@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="form">
+<roleset id="form.01" name="type/version/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some form of service
+</text>
+<arg f="REF" n="2">form</arg>
+<rel>form</rel>
+<arg n="1">of service</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a constructive form of mischief
+</text>
+<arg f="REF" n="2">form</arg>
+<rel>form</rel>
+<arg n="1">of mischief</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

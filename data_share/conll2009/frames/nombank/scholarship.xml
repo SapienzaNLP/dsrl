@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scholarship">
+<roleset id="scholarship.01" name="examine closely" source="verb-study.01" vncls="30.2">
+<roles>
+
+<role descr="student" n="0">
+<vnrole vncls="30.2" vntheta="Agent"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="30.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+historical scholarship
+</text>
+<arg n="1">historical</arg>
+<rel>scholarship</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

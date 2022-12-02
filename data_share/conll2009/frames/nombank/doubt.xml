@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="doubt">
+<roleset id="doubt.01" name="doubt, disbelieve" source="verb-doubt.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Lenders had doubts about the project even before June 4
+</text>
+<arg n="0">Lenders</arg>
+<arg n="Support">had</arg>
+<rel>doubts</rel>
+<arg n="1">about the project</arg>
+</example>
+
+<example name="autogen2">
+<text>
+doubt about the collectability of receivables owed to National
+Heritage by some of the real estate partnerships it manages
+</text>
+<rel>doubt</rel>
+<arg n="1">
+about the collectability of receivables owed to National Heritage
+by some of the real estate partnerships it manages</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

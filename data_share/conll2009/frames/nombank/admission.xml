@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="admission">
+<roleset id="admission.01" name="acknowledge truth" source="verb-admit.01" vncls="29.5">
+<roles>
+
+<role descr="admitter" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="truth" n="1">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any admission or denial of guilt by Mr. Holmes
+</text>
+<rel>admission</rel>
+<arg n="1">of guilt</arg>
+<arg n="0">by Mr. Holmes</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Tony was four years older than most of his fellow cadets , and
+gained admission to the academy because his brother had falsified
+his birth certificate .
+</text>
+<arg n="1">Tony</arg>
+<arg n="Support">gained</arg>
+<rel>admission</rel>
+<arg n="2">to the academy</arg>
+</example>
+
+</roleset>
+<roleset id="admission.02" name="allow to enter" source="verb-admit.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+gaining them admission in the first category
+</text>
+<arg n="Support">gaining</arg>
+<arg n="1">them</arg>
+<rel>admission</rel>
+<arg n="2">in the first category</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it bids for new agreements , new loans and indeed admission to
+the civilized world
+</text>
+<arg n="0">it</arg>
+<arg n="Support">bids for</arg>
+<rel>admission</rel>
+<arg n="2">to the civilized world</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fertilization">
+<roleset id="fertilization.01" name="bring male and female together" source="verb-fertilize.01">
+<roles>
+
+<role descr="male part" n="0"></role>
+
+<role descr="female part" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+IN VITRO fertilization
+</text>
+<arg f="LOC" n="M">IN VITRO</arg>
+<rel>fertilization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

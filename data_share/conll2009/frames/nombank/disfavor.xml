@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disfavor">
+<roleset id="disfavor.01" name="nomlike" source="verb-favor.01" vncls="31.2">
+<roles>
+
+<role descr="liker" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fast-growing private and semi-private `` township ''
+enterprises , which have fallen into disfavor as China 's leaders
+re-emphasize an orthodox Marxist preference for public ownership
+</text>
+<arg n="1">
+the fast-growing private and semi-private `` township ''
+enterprises ---> which ---> *T*-2</arg>
+<arg n="Support">fallen into</arg>
+<rel>disfavor</rel>
+<arg f="CAU" n="M">
+as China 's leaders re-emphasize an orthodox Marxist preference
+for public ownership</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

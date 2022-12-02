@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="storm">
+<roleset id="storm.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+last week 's storm of resignations and reshufflings
+</text>
+<rel>storm</rel>
+<arg n="1">of resignations and reshufflings</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the storm of sell orders from small private investors
+</text>
+<rel>storm</rel>
+<arg n="1">of sell orders from small private investors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

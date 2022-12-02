@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="entirety">
+<roleset id="entirety.01" name="nomadj-entire/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their entirety
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">entirety</arg>
+<rel>entirety</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

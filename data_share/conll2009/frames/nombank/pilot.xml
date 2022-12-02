@@ -1,0 +1,83 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pilot">
+<roleset id="pilot.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Army helicopter pilots
+</text>
+<arg n="2">Army</arg>
+<arg n="1">helicopter</arg>
+<arg n="0">pilots</arg>
+<rel>pilots</rel>
+</example>
+
+<example name="autogen2">
+<text>
+UAL pilots ,
+</text>
+<arg n="2">UAL</arg>
+<arg n="0">pilots</arg>
+<rel>pilots</rel>
+</example>
+
+</roleset>
+<roleset id="pilot.02" name="defrel-co-pilot">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his co-pilot
+</text>
+<arg n="1">his</arg>
+<arg n="0">co-pilot</arg>
+<rel>co-pilot</rel>
+</example>
+
+</roleset>
+<roleset id="pilot.03" name="nomadjlike-preliminary">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its Seniors ' Housing Opportunities pilot program
+</text>
+<rel>pilot</rel>
+<arg n="1">program</arg>
+</example>
+
+<example name="autogen2">
+<text>
+pilot centers
+</text>
+<rel>pilot</rel>
+<arg n="1">centers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

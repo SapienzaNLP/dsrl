@@ -1,0 +1,93 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="edge">
+<roleset id="edge.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the edge of the financial district
+</text>
+<rel>edge</rel>
+<arg n="1">of the financial district</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the shadowy outer edges and implications of most judicial
+decisions
+</text>
+<rel>edges</rel>
+<arg n="1">of most judicial decisions</arg>
+</example>
+
+</roleset>
+<roleset id="edge.02" name="advantage" source="verb-gain.02">
+<roles>
+
+<role descr="exploiter" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="loser" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+products that offer a technical edge over the competition
+</text>
+<arg n="0">products ---> that ---> *T*-2</arg>
+<arg n="Support">offer</arg>
+<arg n="1">technical</arg>
+<rel>edge</rel>
+<arg n="2">over the competition</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its edge as being the best place to raise capital
+</text>
+<arg n="0">its</arg>
+<rel>edge</rel>
+<arg n="1">as being the best place to raise capital</arg>
+</example>
+
+</roleset>
+<roleset id="edge.03" name="nomadj-nervous/unbalanced">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="cause" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Either way , the overhang is big enough to keep delicately
+balanced oil markets on edge .
+</text>
+<arg n="1">the overhang ---> *</arg>
+<arg n="Support">keep</arg>
+<arg n="0">delicately balanced oil markets</arg>
+<rel>edge</rel>
+</example>
+
+<example name="autogen2">
+<text>
+And hardly surprising , many residents trying to cope with the
+city 's other problems are constantly on edge , one ethnic group
+scrapping with another .
+</text>
+<arg n="0">many residents trying to cope with the city 's other problems</arg>
+<rel>edge</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

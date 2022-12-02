@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="length">
+<roleset id="length.01" name="attribute/nomadj-long">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a piece of indeterminate length
+</text>
+<arg n="1">a piece</arg>
+<arg n="2">indeterminate</arg>
+<rel>length</rel>
+</example>
+
+<example name="autogen2">
+<text>
+arm 's length
+</text>
+<arg n="1">arm 's</arg>
+<arg f="REF" n="2">length</arg>
+<rel>length</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

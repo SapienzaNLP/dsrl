@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disloyalty">
+<roleset id="disloyalty.01" name="nomadj-disloyal">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+such strong brand disloyalty
+</text>
+<arg n="1">brand</arg>
+<rel>disloyalty</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

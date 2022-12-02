@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="skepticism">
+<roleset id="skepticism.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his skepticism of the Utah claims
+</text>
+<arg n="0">his</arg>
+<rel>skepticism</rel>
+<arg n="1">of the Utah claims</arg>
+</example>
+
+<example name="autogen2">
+<text>
+U.S. officials expressed skepticism over an Israeli effort to
+show the PLO continues to practice terrorism .
+</text>
+<arg n="0">U.S. officials</arg>
+<arg n="Support">expressed</arg>
+<rel>skepticism</rel>
+<arg n="1">
+over an Israeli effort to show the PLO continues to practice
+terrorism</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

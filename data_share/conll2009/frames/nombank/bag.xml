@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bag">
+<roleset id="bag.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the two bags of ice she needs to keep her children 's food edible
+</text>
+<rel>bags</rel>
+<arg n="1">of ice</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a small child and bag of groceries
+</text>
+<rel>bag</rel>
+<arg n="1">of groceries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

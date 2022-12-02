@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cleaner">
+<roleset id="cleaner.01" name="to free from dirt" source="verb-clean.01" vncls="26.3-2">
+<roles>
+
+<role descr="cleaner, agent" n="0">
+<vnrole vncls="26.3-2" vntheta="Agent"/></role>
+
+<role descr="thing cleaned" n="1">
+<vnrole vncls="26.3-2" vntheta="Patient"/></role>
+
+<role descr="beneficiary, clean for" n="2">
+<vnrole vncls="26.3-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+the rug cleaner
+</text>
+<arg n="1">rug</arg>
+<rel>cleaner</rel>
+<arg n="0">cleaner</arg>
+</example>
+
+</roleset>
+<roleset id="cleaner.02" name="nomlike/idiomatic-take-to-cleaners" source="verb-cheat.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+with the Rubens he got absolutely taken to the cleaners
+</text>
+<arg n="1">he ---> *-1</arg>
+<arg n="Support">taken to</arg>
+<rel>cleaners</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

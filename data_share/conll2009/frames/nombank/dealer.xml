@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dealer">
+<roleset id="dealer.01" name="handle, deal with" source="verb-deal.01">
+<roles>
+
+<role descr="dealer" n="0"></role>
+
+<role descr="thing dealt with or in" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an art dealer and collector
+</text>
+<arg n="1">art</arg>
+<arg n="0">dealer</arg>
+<rel>dealer</rel>
+</example>
+
+<example name="autogen2">
+<text>
+young , high-flying dealers
+</text>
+<arg f="MNR" n="M">high-flying</arg>
+<arg n="0">dealers</arg>
+<rel>dealers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="locution">
+<roleset id="locution.01" name="say" source="verb-say.01" vncls="37.7">
+<roles>
+
+<role descr="sayer" n="0">
+<vnrole vncls="37.7" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.7" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.7" vntheta="Recipient"/></role>
+
+<role descr="attributive" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+especially the locutions of its domestic servants
+</text>
+<rel>locutions</rel>
+<arg n="0">of its domestic servants</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

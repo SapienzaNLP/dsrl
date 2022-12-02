@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rearrangement">
+<roleset id="rearrangement.01" name="to change the arrangement of" source="verb-rearrange.01">
+<roles>
+
+<role descr="arranger, agent" n="0"></role>
+
+<role descr="item being rearranged" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The B/T gene rearrangement test
+</text>
+<arg n="1">gene</arg>
+<rel>rearrangement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

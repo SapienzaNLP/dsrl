@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aesthetic">
+<roleset id="aesthetic.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the aesthetic of the novel we 're reading
+</text>
+<rel>aesthetic</rel>
+<arg n="1">of the novel we 're reading</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="credit">
+<roleset id="credit.01" name="give someone credit for smth" source="verb-credit.01">
+<roles>
+
+<role descr="giver of credit" n="0"></role>
+
+<role descr="entity credited" n="1"></role>
+
+<role descr="credited for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+We give them a lot of credit for taking this case
+</text>
+<arg n="0">We</arg>
+<arg n="Support">give lot of</arg>
+<arg n="1">them</arg>
+<rel>credit</rel>
+<arg f="PRD" n="2">for taking this case</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Messrs. Guber and Peters take credit for the film
+</text>
+<arg n="1">Messrs. Guber and Peters</arg>
+<arg n="Support">take</arg>
+<rel>credit</rel>
+<arg n="2">for the film</arg>
+</example>
+
+</roleset>
+<roleset id="credit.02" name="to enter as a credit" source="verb-credit.02">
+<roles>
+
+<role descr="bookkeeper, agent" n="0"></role>
+
+<role descr="amount credited" n="1"></role>
+
+<role descr="account, credited to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Or we might provide a tax credit for working students .
+</text>
+<arg n="0">we</arg>
+<arg n="Support">provide</arg>
+<arg n="1">tax</arg>
+<rel>credit</rel>
+<arg n="2">for working students</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Bank credit for China investments
+</text>
+<arg n="0">Bank</arg>
+<arg f="REF" n="1">credit</arg>
+<rel>credit</rel>
+<arg n="2">for China investments</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

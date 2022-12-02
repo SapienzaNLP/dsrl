@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reaching">
+<roleset id="reaching.01" name="contact" source="verb-reach.02">
+<roles>
+
+<role descr="reacher" n="0"></role>
+
+<role descr="reached" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the reaching for it
+</text>
+<rel>reaching</rel>
+<arg n="1">for it</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

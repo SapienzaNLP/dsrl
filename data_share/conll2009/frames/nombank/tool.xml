@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tool">
+<roleset id="tool.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the communist regime 's principal tool for stamping young Germans
+into socialist citizens
+</text>
+<arg n="0">the communist regime 's</arg>
+<rel>tool</rel>
+<arg f="PRD" n="1">for stamping young Germans into socialist citizens</arg>
+</example>
+
+<example name="autogen2">
+<text>
+programming tools
+</text>
+<arg n="1">programming</arg>
+<rel>tools</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

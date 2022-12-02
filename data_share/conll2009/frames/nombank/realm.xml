@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="realm">
+<roleset id="realm.01" name="environment for thing">
+<roles>
+
+<role descr="thing existing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the realm of reporting
+</text>
+<rel>realm</rel>
+<arg n="1">of reporting</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the realm of cliched caricatures
+</text>
+<rel>realm</rel>
+<arg n="1">of cliched caricatures</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

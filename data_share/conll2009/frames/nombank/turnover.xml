@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="turnover">
+<roleset id="turnover.01" name="substitute" source="verb-replace.01">
+<roles>
+
+<role descr="replacer" n="0"></role>
+
+<role descr="old thing" n="1"></role>
+
+<role descr="new thing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+member turnover
+</text>
+<arg n="1">member</arg>
+<rel>turnover</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the natural turnover of tenants
+</text>
+<rel>turnover</rel>
+<arg n="1">of tenants</arg>
+</example>
+
+</roleset>
+<roleset id="turnover.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+slower turnover on the Tokyo Stock Exchange during July and
+August
+</text>
+<arg n="2">slower</arg>
+<rel>turnover</rel>
+<arg n="1">on the Tokyo Stock Exchange</arg>
+</example>
+
+<example name="autogen2">
+<text>
+turnover of 885,800
+</text>
+<rel>turnover</rel>
+<arg n="2">of 885,800</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

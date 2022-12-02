@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="star">
+<roleset id="star.01" name="defrel/nom" source="verb-star.01">
+<roles>
+
+<role descr="relation holder" n="0" source="1"></role>
+
+<role descr="relation receptor" n="1" source="2"></role>
+
+<role descr="attribute" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the economic star in a loser league
+</text>
+<arg n="3">economic</arg>
+<arg n="0">star</arg>
+<rel>star</rel>
+<arg n="1">in a loser league</arg>
+</example>
+
+<example name="autogen2">
+<text>
+rock star Jon Bon Jovi
+</text>
+<arg n="3">rock</arg>
+<arg n="0">star</arg>
+<rel>star</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

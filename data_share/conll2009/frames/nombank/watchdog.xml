@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="watchdog">
+<roleset id="watchdog.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary/consultant" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+<role descr="employer" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the nation 's corporate watchdog agency
+</text>
+<arg n="2">the nation 's</arg>
+<arg n="1">corporate</arg>
+<arg n="0">watchdog</arg>
+<rel>watchdog</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its watchdogs
+</text>
+<arg n="2">its</arg>
+<arg n="0">watchdogs</arg>
+<rel>watchdogs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

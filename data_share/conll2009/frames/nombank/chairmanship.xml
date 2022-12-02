@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chairmanship">
+<roleset id="chairmanship.01" name="job" source="verb-govern.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+John Craven , group chief executive officer , is taking over the
+chairmanship of the merchant banking group from Sir Peter Carey ,
+who is retiring
+</text>
+<arg n="0">John Craven , group chief executive officer ,</arg>
+<arg n="Support">taking</arg>
+<arg n="1">chairmanship</arg>
+<rel>chairmanship</rel>
+<arg n="2">of the merchant banking group</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his chairmanship
+</text>
+<arg n="0">his</arg>
+<arg n="1">chairmanship</arg>
+<rel>chairmanship</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

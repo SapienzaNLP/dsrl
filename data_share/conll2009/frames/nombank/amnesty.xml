@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="amnesty">
+<roleset id="amnesty.01" name="relieve of guilt" source="verb-pardon.01" vncls="10.6">
+<roles>
+
+<role descr="pardoner" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="guilty party" n="1">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Lawmakers in Hungary approved legislation granting amnesty to
+many people convicted of crimes punishable by less than three
+years in prison .
+</text>
+<arg n="0">Lawmakers in Hungary</arg>
+<arg n="Support">approved legislation granting</arg>
+<rel>amnesty</rel>
+<arg n="1">
+to many people convicted of crimes punishable by less than three
+years in prison</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

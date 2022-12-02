@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unity">
+<roleset id="unity.01" name="make into one" source="verb-unite.01" vncls="22.2">
+<roles>
+
+<role descr="uniter, agent" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="first) thing(s) being unified" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="other things, if separate from arg1" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+<role descr="unified whole" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Western European economic and monetary unity
+</text>
+<arg n="0">Western European</arg>
+<arg n="1">economic and monetary</arg>
+<rel>unity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+European political and economic unity
+</text>
+<arg n="0">European</arg>
+<arg n="1">political and economic</arg>
+<rel>unity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

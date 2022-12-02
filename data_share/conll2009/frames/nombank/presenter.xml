@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="presenter">
+<roleset id="presenter.01" name="give" source="verb-present.01" vncls="13.4.1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.4.1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.4.1" vntheta="Theme"/></role>
+
+<role descr="given to" n="2">
+<vnrole vncls="13.4.1" vntheta="Recipient"/></role>
+
+<role descr="secondary attribute of thing given" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a presenter of research findings
+</text>
+<arg n="0">presenter</arg>
+<rel>presenter</rel>
+<arg n="1">of research findings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

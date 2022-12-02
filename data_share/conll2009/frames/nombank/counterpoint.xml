@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="counterpoint">
+<roleset id="counterpoint.01" name="point out differences" source="verb-contrast.01" vncls="22.2">
+<roles>
+
+<role descr="first item in comparison" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="second item in comparison" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the counterpoint of the Chancellor 's difficulties
+</text>
+<arg n="1">counterpoint</arg>
+<rel>counterpoint</rel>
+<arg n="2">of the Chancellor 's difficulties</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rise">
+<roleset id="rise.01" name="go up" source="verb-rise.01" vncls="47.6">
+<roles>
+
+<role descr="logical subject, patient, thing rising" n="1">
+<vnrole vncls="47.6" vntheta="Theme"/></role>
+
+<role descr="ext, amount risen" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4">
+<vnrole vncls="51.1-2" vntheta="Location"/></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a monthly rise of 0.2 % in September from August
+</text>
+<arg f="TMP" n="M">monthly</arg>
+<rel>rise</rel>
+<arg n="2">of 0.2 %</arg>
+<arg n="4">in September</arg>
+<arg n="3">from August</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a 6 % rise in revenue to $ 323.2 million from $ 305.7 million
+</text>
+<arg n="2">6 %</arg>
+<rel>rise</rel>
+<arg n="1">in revenue</arg>
+<arg n="4">to $ 323.2 million</arg>
+<arg n="3">from $ 305.7 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

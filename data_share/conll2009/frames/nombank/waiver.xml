@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="waiver">
+<roleset id="waiver.01" name="waive, relinquish, give up" source="verb-waive.01">
+<roles>
+
+<role descr="waiver" n="0"></role>
+
+<role descr="thing waived, usually rights" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Shannon was seeking a waiver of NRC policy that ignores
+financial considerations in making licensing decisions .
+</text>
+<arg n="2">Mr. Shannon</arg>
+<arg n="Support">seeking</arg>
+<rel>waiver</rel>
+<arg n="1">
+of NRC policy that ignores financial considerations in making
+licensing decisions</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Anchor obtain a waiver from its bank lenders of existing covenant
+defaults under its bank facilities
+</text>
+<arg n="2">Anchor</arg>
+<arg n="Support">obtain</arg>
+<rel>waiver</rel>
+<arg n="0">
+from its bank lenders of existing covenant defaults under its
+bank facilities</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

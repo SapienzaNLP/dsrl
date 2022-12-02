@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="astonishment">
+<roleset id="astonishment.01" name="surprise, astound" source="verb-astonish.01">
+<roles>
+
+<role descr="cause" n="0"></role>
+
+<role descr="experiencer" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+To the astonishment and dismay of her superiors and legal
+authorities -- and perhaps as a measure of the unpopularity of
+standardized tests -- Mrs . Yeargin won widespread local support
+.
+</text>
+<rel>astonishment</rel>
+<arg n="1">of her superiors and legal authorities</arg>
+<arg n="0">Mrs . Yeargin won widespread local support</arg>
+</example>
+
+<example name="autogen2">
+<text>
+One floor trader noted in astonishment that nobody seemed to mind
+the news that British Airways is n't making a special effort to
+revive the UAL buy-out .
+</text>
+<arg n="1">One floor trader</arg>
+<rel>astonishment</rel>
+<arg n="0">
+that nobody seemed to mind the news that British Airways is n't
+making a special effort to revive the UAL buy-out</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

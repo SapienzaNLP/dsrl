@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hiking">
+<roleset id="hiking.01" name="walk" source="verb-walk.01" vncls="51.3.2">
+<roles>
+
+<role descr="walker" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="path" n="1">
+<vnrole vncls="51.3.2" vntheta="Location"/></role>
+
+<role descr="causative agent" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+nearly all hiking paths in state parks
+</text>
+<rel>hiking</rel>
+<arg n="1">paths</arg>
+<arg f="LOC" n="M">in state parks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

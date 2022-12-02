@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consortium">
+<roleset id="consortium.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+TransCanada 's Polar Gas consortium
+</text>
+<arg n="2">TransCanada 's</arg>
+<arg n="1">Polar Gas</arg>
+<rel>consortium</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the private consortium 's
+</text>
+<arg n="2">private</arg>
+<rel>consortium</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

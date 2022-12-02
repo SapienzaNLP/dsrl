@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spree">
+<roleset id="spree.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an international buying spree
+</text>
+<arg n="0">international</arg>
+<arg n="1">buying</arg>
+<rel>spree</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Andersson 's shopping spree
+</text>
+<arg n="0">Mr. Andersson 's</arg>
+<arg n="1">shopping</arg>
+<rel>spree</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

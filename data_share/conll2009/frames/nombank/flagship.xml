@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flagship">
+<roleset id="flagship.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its flagship
+</text>
+<arg n="1">its</arg>
+<arg n="0">flagship</arg>
+<rel>flagship</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his flagship
+</text>
+<arg n="1">his</arg>
+<arg n="0">flagship</arg>
+<rel>flagship</rel>
+</example>
+
+</roleset>
+<roleset id="flagship.02" name="nomadjlike-significant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the flagship stores
+</text>
+<rel>flagship</rel>
+<arg n="1">stores</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Circus Circus 's flagship casino
+</text>
+<rel>flagship</rel>
+<arg n="1">casino</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

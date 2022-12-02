@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="purification">
+<roleset id="purification.01" name="make pure, remove impurities" source="verb-purify.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="source" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the paper , water-purification and textile industries
+</text>
+<arg n="2">water-purification</arg>
+<rel>water-purification</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

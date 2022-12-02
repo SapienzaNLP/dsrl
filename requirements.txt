@@ -1,0 +1,4 @@
+classy-core==0.1.2
+Levenshtein==0.18.1
+plotly==5.8.2
+kaleido=0.2.1

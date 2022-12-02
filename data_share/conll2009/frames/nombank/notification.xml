@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="notification">
+<roleset id="notification.01" name="tell, alert" source="verb-notify.01">
+<roles>
+
+<role descr="notifier, teller" n="0"></role>
+
+<role descr="utterance" n="1" source="2"></role>
+
+<role descr="hearer" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 10-day notification to cancel
+</text>
+<arg f="TMP" n="M">10-day</arg>
+<rel>notification</rel>
+<arg f="PRD" n="1">to cancel</arg>
+</example>
+
+<example name="autogen2">
+<text>
+pre-merger notifications to the Justice Department
+</text>
+<arg f="TMP" n="M">pre-merger</arg>
+<rel>notifications</rel>
+<arg n="2">to the Justice Department</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

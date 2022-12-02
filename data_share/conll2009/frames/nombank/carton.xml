@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="carton">
+<roleset id="carton.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a carton of apple juice
+</text>
+<rel>carton</rel>
+<arg n="1">of apple juice</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

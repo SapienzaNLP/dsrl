@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="protein">
+<roleset id="protein.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+synthetic viral proteins
+</text>
+<arg n="1">viral</arg>
+<rel>proteins</rel>
+</example>
+
+<example name="autogen2">
+<text>
+human proteins
+</text>
+<arg n="1">human</arg>
+<rel>proteins</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

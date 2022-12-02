@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="swearing">
+<roleset id="swearing.01" name="nomlike" source="verb-appoint.01" vncls="29.1">
+<roles>
+
+<role descr="appointer, employer" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="appointee, employee" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="job, position" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his swearing in as President Judge of Cambria County
+</text>
+<arg n="1">his</arg>
+<rel>swearing</rel>
+<arg n="2">as President Judge of Cambria County</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

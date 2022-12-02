@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discontinuance">
+<roleset id="discontinuance.01" name="to stop doing or manufacturing" source="verb-discontinue.01" vncls="55.2">
+<roles>
+
+<role descr="entity ending something, agent" n="0">
+<vnrole vncls="55.2" vntheta="Agent"/></role>
+
+<role descr="thing discontinued" n="1">
+<vnrole vncls="55.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the sale and discontinuance of several lines at a plant
+</text>
+<rel>discontinuance</rel>
+<arg n="1">of several lines at a plant</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

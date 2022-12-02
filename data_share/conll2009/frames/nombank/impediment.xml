@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="impediment">
+<roleset id="impediment.01" name="hinder, try to stop" source="verb-impede.01">
+<roles>
+
+<role descr="entity attempting to stop something" n="0"></role>
+
+<role descr="theme (action or object being prevented" n="1"></role>
+
+<role descr="secondary predication or action" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+budget impediments
+</text>
+<arg n="1">budget</arg>
+<rel>impediments</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an impediment to a takeover of the company , which is being
+stalked by General Motors and Ford
+</text>
+<arg f="REF" n="0">impediment</arg>
+<rel>impediment</rel>
+<arg n="2">
+to a takeover of the company , which is being stalked by General
+Motors and Ford</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

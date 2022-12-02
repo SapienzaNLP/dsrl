@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="landscape">
+<roleset id="landscape.01" name="attribute/environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the landscape of our country alone
+</text>
+<rel>landscape</rel>
+<arg n="1">of our country</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a barren urban landscape
+</text>
+<arg n="1">urban</arg>
+<rel>landscape</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

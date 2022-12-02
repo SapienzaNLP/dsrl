@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="servant">
+<roleset id="servant.01" name="act, work" source="verb-serve.01" vncls="29.6">
+<roles>
+
+<role descr="worker" n="0">
+<vnrole vncls="29.6" vntheta="Agent"/></role>
+
+<role descr="job, project" n="1">
+<vnrole vncls="29.6" vntheta="Predicate"/></role>
+
+<role descr="employer" n="2">
+<vnrole vncls="29.6" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+other civil servants
+</text>
+<arg n="2">civil</arg>
+<arg n="0">servants</arg>
+<rel>servants</rel>
+</example>
+
+<example name="autogen2">
+<text>
+overpaid and underworked civil servants
+</text>
+<arg n="2">civil</arg>
+<arg n="0">servants</arg>
+<rel>servants</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fingerprint">
+<roleset id="fingerprint.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the owner 's fingerprints
+</text>
+<arg n="1">the owner 's</arg>
+<arg f="REF" n="2">fingerprints</arg>
+<rel>fingerprints</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

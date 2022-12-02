@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prize">
+<roleset id="prize.01" name="give an award" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="award" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+<role descr="reason" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It awarded the largest cash prize of any film festival to young
+and first-time film makers
+</text>
+<arg n="0">It</arg>
+<arg n="Support">awarded</arg>
+<arg f="MNR" n="M">largest</arg>
+<arg n="1">cash</arg>
+<rel>prize</rel>
+<arg n="2">to young and first-time film makers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+recipients were guaranteed cash prizes , and could win up to an
+additional $ 1,000 on top of them , if they contributed as little
+as $ 7
+</text>
+<arg n="2">recipients</arg>
+<arg n="Support">guaranteed</arg>
+<arg n="1">cash</arg>
+<rel>prizes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

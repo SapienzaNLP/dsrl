@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="exemption">
+<roleset id="exemption.01" name="to free from an obligation" source="verb-exempt.01">
+<roles>
+
+<role descr="releaser, agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="beneficiary" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an import exemption for a California airplane museum
+</text>
+<arg n="1">import</arg>
+<rel>exemption</rel>
+<arg n="2">for a California airplane museum</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a federal statute to grant Medtronic , a medical device
+manufacturer , an exemption to infringe a patent under certain
+circumstances
+</text>
+<arg n="0">a federal statute</arg>
+<arg n="Support">grant</arg>
+<arg n="2">Medtronic , a medical device manufacturer ,</arg>
+<rel>exemption</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

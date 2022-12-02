@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="speed">
+<roleset id="speed.01" name="attribute/nomadj-speedy">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Congress to move with supersonic speed to protect incumbent
+airline managements
+</text>
+<arg n="1">Congress to move</arg>
+<arg n="2">supersonic</arg>
+<rel>speed</rel>
+</example>
+
+<example name="autogen2">
+<text>
+greater speed
+</text>
+<arg n="2">greater</arg>
+<rel>speed</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

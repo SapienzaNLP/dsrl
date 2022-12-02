@@ -1,0 +1,114 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sweep">
+<roleset id="sweep.01" name="nomlike/win" source="verb-win.01" vncls="13.5.1">
+<roles>
+
+<role descr="winner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing won (contest or prize" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="loser, giver of prize" n="3"></role>
+
+<role descr="in-exchange-for" n="4"></role>
+
+<role descr="score" n="5"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Oakland Athletics ' four-game sweep over the San Francisco
+Giants in the World Series
+</text>
+<arg n="0">The Oakland Athletics '</arg>
+<arg n="1">four-game</arg>
+<rel>sweep</rel>
+<arg n="3">over the San Francisco Giants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Oakland Athletics won baseball 's World Series , defeating
+the San Francisco Giants in a four-game sweep .
+</text>
+<arg n="0">The Oakland Athletics ---> *-1</arg>
+<arg n="Support">defeating in</arg>
+<arg n="3">the San Francisco Giants</arg>
+<arg n="1">four-game</arg>
+<rel>sweep</rel>
+</example>
+
+</roleset>
+<roleset id="sweep.02" name="attribute/nomadj-sweeping">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Published in 1949 , it follows the decline of a Cairo family with
+the saga-like sweep and rich detail that critics often compare to
+Dickens , Balzac and Galsworthy .
+</text>
+<arg n="1">it</arg>
+<arg n="2">saga-like</arg>
+<rel>sweep</rel>
+</example>
+
+</roleset>
+<roleset id="sweep.03" name="cause to) move in a sweeping manner" source="verb-sweep.02" vncls="51.3.2">
+<roles>
+
+<role descr="cause of motion" n="0"></role>
+
+<role descr="thing in motion" n="1">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="location" n="2">
+<vnrole vncls="51.3.2" vntheta="Location"/></role>
+
+<role descr="destination" n="3">
+<vnrole vncls="51.3.2" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the global sweep of the financial markets
+</text>
+<rel>sweep</rel>
+<arg n="1">of the financial markets</arg>
+</example>
+
+</roleset>
+<roleset id="sweep.04" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the wide sweep of scandals over the past 30 years
+</text>
+<rel>sweep</rel>
+<arg n="1">of scandals over the past 30 years</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

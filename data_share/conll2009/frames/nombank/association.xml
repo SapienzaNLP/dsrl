@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="association">
+<roleset id="association.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+Cambria County 's 150-member bar association
+</text>
+<arg n="2">Cambria County 's</arg>
+<arg n="1">150-member</arg>
+<arg n="3">bar</arg>
+<rel>association</rel>
+</example>
+
+<example name="autogen3">
+<text>
+a transit-association executive
+</text>
+<arg n="1">transit-association</arg>
+<rel>transit-association</rel>
+<arg n="2">executive</arg>
+</example>
+
+</roleset>
+<roleset id="association.02" name="include in some group" source="verb-associate.01" vncls="22.2">
+<roles>
+
+<role descr="agent, entity causing some grouping, making an   association" n="0"></role>
+
+<role descr="theme, thing being included in some group" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="group, associated-with" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+all its sad associations
+</text>
+<arg n="1">its</arg>
+<arg n="2">sad</arg>
+<rel>associations</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his association with CenTrust
+</text>
+<arg n="1">his</arg>
+<rel>association</rel>
+<arg n="2">with CenTrust</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

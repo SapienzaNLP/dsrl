@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="zip">
+<roleset id="zip.01" name="attribute/nomadj-zippy">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+products ranging from egg bread to eclairs lose some zip when the
+eggs come in 30-pound cans instead of shells
+</text>
+<arg n="1">products ranging from egg bread to eclairs</arg>
+<arg n="Support">lose</arg>
+<arg f="REF" n="2">zip</arg>
+<rel>zip</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

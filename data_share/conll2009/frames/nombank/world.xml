@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="world">
+<roleset id="world.01" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the London media world of Thatcherite Britain
+</text>
+<arg f="LOC" n="M">London</arg>
+<arg n="1">media</arg>
+<rel>world</rel>
+<arg n="3">of Thatcherite Britain</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the once-balkanized world of European arms manufacture
+</text>
+<rel>world</rel>
+<arg n="1">of European arms manufacture</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

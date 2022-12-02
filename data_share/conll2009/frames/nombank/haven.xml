@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="haven">
+<roleset id="haven.01" name="shield from danger" source="verb-protect.01">
+<roles>
+
+<role descr="protector" n="0"></role>
+
+<role descr="protected" n="1"></role>
+
+<role descr="danger" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a major haven for boiler rooms
+</text>
+<arg n="3">haven</arg>
+<rel>haven</rel>
+<arg n="1">for boiler rooms</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a haven for low-lifes
+</text>
+<arg n="3">haven</arg>
+<rel>haven</rel>
+<arg n="1">for low-lifes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

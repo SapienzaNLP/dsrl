@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dosage">
+<roleset id="dosage.01" name="distribute" source="dispense.02">
+<roles>
+
+<role descr="dispenser" n="0"></role>
+
+<role descr="thing dispensed" n="1"></role>
+
+<role descr="dispensed to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the dosage of cyclosporine and other drugs
+</text>
+<rel>dosage</rel>
+<arg n="1">of cyclosporine and other drugs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

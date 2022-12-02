@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="component">
+<roleset id="component.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Other components of the long leading indicator
+</text>
+<rel>components</rel>
+<arg n="1">of the long leading indicator</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the equity component of the deals
+</text>
+<rel>component</rel>
+<arg n="1">of the deals</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

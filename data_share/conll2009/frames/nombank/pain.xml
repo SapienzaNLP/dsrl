@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pain">
+<roleset id="pain.01" name="cause damage" source="verb-harm.01">
+<roles>
+
+<role descr="agent, causer" n="0"></role>
+
+<role descr="entity damaged" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the pain of past and , no doubt , future droughts
+</text>
+<rel>pain</rel>
+<arg n="1">of past and , no doubt , future droughts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+growing pains
+</text>
+<arg n="2">growing</arg>
+<rel>pains</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

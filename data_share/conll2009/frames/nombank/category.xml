@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="category">
+<roleset id="category.01" name="type/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value/name" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the general-purpose and broker-dealer fund categories
+</text>
+<arg n="2">general-purpose and broker-dealer</arg>
+<arg n="1">fund</arg>
+<rel>categories</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the minimum-wage category
+</text>
+<arg n="2">minimum-wage</arg>
+<rel>category</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="extrusion">
+<roleset id="extrusion.01" name="extract or insert by means of pressure" source="verb-squeeze.02" vncls="10.4.1">
+<roles>
+
+<role descr="squeezer" n="0">
+<vnrole vncls="10.4.1" vntheta="Agent"/></role>
+
+<role descr="extracted material" n="1">
+<vnrole vncls="10.4.1" vntheta="Theme"/></role>
+
+<role descr="source or destination" n="2">
+<vnrole vncls="10.4.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its aluminum unit 's extrusion division
+</text>
+<arg n="0">its aluminum unit 's</arg>
+<rel>extrusion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

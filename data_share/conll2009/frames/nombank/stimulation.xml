@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stimulation">
+<roleset id="stimulation.01" name="nomlike" source="verb-stir.03" vncls="11.2">
+<roles>
+
+<role descr="mover" n="0">
+<vnrole vncls="11.2" vntheta="Agent"/></role>
+
+<role descr="moved" n="1">
+<vnrole vncls="11.2" vntheta="Theme"/></role>
+
+<role descr="destination" n="2">
+<vnrole vncls="11.2" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a handy , compact magnet for brain stimulation
+</text>
+<arg n="0">a handy , compact magnet</arg>
+<arg n="1">brain</arg>
+<rel>stimulation</rel>
+</example>
+
+<example name="autogen3">
+<text>
+anesthetized brains are more resistant to magnetic stimulation
+than awake ones
+</text>
+<arg n="1">anesthetized brains</arg>
+<arg n="Support">resistant to</arg>
+<arg n="0">magnetic</arg>
+<rel>stimulation</rel>
+</example>
+
+</roleset>
+<roleset id="stimulation.02" name="cause an increase (in interest, etc" source="verb-stimulate.01" vncls="31.1">
+<roles>
+
+<role descr="cause of increase" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="thing increasing" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if agent also present" n="2"></role>
+
+<role descr="end state of arg1" n="3"></role>
+
+</roles>
+
+<example name="web example">
+<text>
+The stimulation of interest by the teacher
+</text>
+<rel>stimulation</rel>
+<arg n="1">of interest</arg>
+<arg n="0">by the teacher</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

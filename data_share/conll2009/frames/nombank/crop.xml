@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crop">
+<roleset id="crop.01" name="partitive-quant/nomlike" source="verb-produce.01" vncls="26.7-2">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="theme/quantified/creation" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the U.S. corn crop
+</text>
+<arg n="0">U.S.</arg>
+<arg n="1">corn</arg>
+<rel>crop</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the potato crop
+</text>
+<arg n="1">potato</arg>
+<rel>crop</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

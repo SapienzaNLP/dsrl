@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tally">
+<roleset id="tally.01" name="count, enumerate, come to a total" source="verb-tally.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its annual tally of investment returns
+</text>
+<arg n="0">its</arg>
+<arg f="TMP" n="M">annual</arg>
+<rel>tally</rel>
+<arg n="1">of investment returns</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the S&amp;P tally
+</text>
+<arg n="0">S&amp;P</arg>
+<rel>tally</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

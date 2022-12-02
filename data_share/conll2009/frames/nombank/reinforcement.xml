@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reinforcement">
+<roleset id="reinforcement.01" name="to strengthen" source="verb-reinforce.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+improper reinforcement of the columns that supported the decks
+</text>
+<arg n="2">improper</arg>
+<rel>reinforcement</rel>
+<arg n="1">of the columns that supported the decks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the kind of steel reinforcement used in highways today
+</text>
+<arg n="2">steel</arg>
+<rel>reinforcement</rel>
+<arg n="Support">used</arg>
+<arg n="1">in highways</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="location">
+<roleset id="location.01" name="cause to) be located in" source="verb-locate.01">
+<roles>
+
+<role descr="causer of location" n="0"></role>
+
+<role descr="institution, thing located" n="1"></role>
+
+<role descr="location" n="2" source="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its location astride one of the world 's great natural harbors
+</text>
+<arg n="1">its</arg>
+<rel>location</rel>
+<arg n="2">astride one of the world 's great natural harbors</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Budapest location
+</text>
+<arg n="2">Budapest</arg>
+<rel>location</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

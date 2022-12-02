@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="language">
+<roleset id="language.01" name="work-of-art" source="verb-word.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Senate Appropriations Committee Chairman Robert Byrd -LRB- D. ,
+W.Va . -RRB- even added report language listing $ 49.4 million in
+projects he wants in the budget next year .
+</text>
+<arg n="0">
+Senate Appropriations Committee Chairman Robert Byrd -LRB- D. ,
+W.Va . -RRB-</arg>
+<arg n="Support">added</arg>
+<arg n="2">report</arg>
+<rel>language</rel>
+<arg n="1">
+listing $ 49.4 million in projects he wants in the budget next
+year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its plain language
+</text>
+<arg n="2">its</arg>
+<rel>language</rel>
+</example>
+
+</roleset>
+<roleset id="language.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Their books are written in idiomatic , contemporary language and
+usually carry hefty dashes of Americana .
+</text>
+<arg n="1">Their books</arg>
+<arg n="Support">written in</arg>
+<arg n="2">idiomatic , contemporary</arg>
+<rel>language</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their own language
+</text>
+<arg n="1">their</arg>
+<arg f="REF" n="2">language</arg>
+<rel>language</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

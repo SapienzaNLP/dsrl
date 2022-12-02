@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="symptom">
+<roleset id="symptom.01" name="attribute/nomadj-symptomatic">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mrs. Glaser , who bears her infection without any symptoms
+</text>
+<arg n="0">Mrs. Glaser ---> who ---> *T*-1</arg>
+<arg n="Support">bears without</arg>
+<arg n="1">her infection</arg>
+<arg f="NEG" n="M">without</arg>
+<arg f="REF" n="2">symptoms</arg>
+<rel>symptoms</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Beebes ' symptoms
+</text>
+<arg n="0">the Beebes '</arg>
+<arg f="REF" n="2">symptoms</arg>
+<rel>symptoms</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

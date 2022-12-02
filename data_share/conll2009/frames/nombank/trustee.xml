@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trustee">
+<roleset id="trustee.01" name="nom/subject/actrel" source="verb-entrust.01">
+<roles>
+
+<role descr="job holder" n="0" source="2"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2" source="0"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Asset Trust 's executive trustee
+</text>
+<arg n="2">the Asset Trust 's</arg>
+<arg n="3">executive</arg>
+<arg n="0">trustee</arg>
+<rel>trustee</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the trust 's associate executive trustee
+</text>
+<arg n="2">the trust 's</arg>
+<arg n="3">associate executive</arg>
+<arg n="0">trustee</arg>
+<rel>trustee</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

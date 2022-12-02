@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="logic">
+<roleset id="logic.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Continental 's logic : It does n't want business companions
+abusing the promotion by falsely claiming to be related .
+</text>
+<arg n="0">Continental 's</arg>
+<rel>logic</rel>
+<arg n="1">
+It does n't want business companions abusing the promotion by
+falsely claiming to be related</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the board 's logic
+</text>
+<arg n="0">the board 's</arg>
+<rel>logic</rel>
+</example>
+
+</roleset>
+<roleset id="logic.02" name="nomadj-logical">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+This has some logic .
+</text>
+<arg n="1">This</arg>
+<arg n="Support">has</arg>
+<rel>logic</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the logic in using a language as widespread as English
+</text>
+<rel>logic</rel>
+<arg n="1">in using a language as widespread as English</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

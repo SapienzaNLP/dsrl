@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="virility">
+<roleset id="virility.01" name="nomadj-virile">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their virility
+</text>
+<arg n="0">their</arg>
+<rel>virility</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

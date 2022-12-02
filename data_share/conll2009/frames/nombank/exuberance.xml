@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="exuberance">
+<roleset id="exuberance.01" name="nomadj-exuberant">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+With a splendid cast led by David Darlow as Alceste , Christina
+Haag as Celimene and , especially , William Brown as a Philinte
+who plays the Hollywood game but harbors authentic values and
+feelings , the Goodman production barrels through an all-night
+Hollywood party with exuberance and wit .
+</text>
+<arg n="0">the Goodman production</arg>
+<arg n="Support">barrels with</arg>
+<rel>exuberance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

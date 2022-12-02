@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="school">
+<roleset id="school.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the read-my-lips school of politics
+</text>
+<rel>school</rel>
+<arg n="1">of politics</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Austrian or Chicago schools of economic thought
+</text>
+<rel>schools</rel>
+<arg n="1">of economic thought</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

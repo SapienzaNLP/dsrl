@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="insult">
+<roleset id="insult.01" name="call names" source="verb-insult.01" vncls="31.1">
+<roles>
+
+<role descr="insulter" n="0">
+<vnrole vncls="31.1" vntheta="Agent"/></role>
+
+<role descr="insulted" n="1">
+<vnrole vncls="31.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an insult to the citizens of the Mississippi Delta
+</text>
+<rel>insult</rel>
+<arg n="1">to the citizens of the Mississippi Delta</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Adding insult to injury , United 's 25,000-member Machinists '
+union , which helped scuttle financing for the first bid ,
+yesterday asked UAL Chairman Stephen Wolf and other UAL directors
+to resign .
+</text>
+<arg n="0">
+*-2 ---> United 's 25,000-member Machinists ' union , which
+helped scuttle financing for the first bid ,</arg>
+<arg n="Support">Adding</arg>
+<rel>insult</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

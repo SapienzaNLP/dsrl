@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spoiler">
+<roleset id="spoiler.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the car 's unusual double-wing rear spoiler
+</text>
+<arg n="1">the car 's</arg>
+<rel>spoiler</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

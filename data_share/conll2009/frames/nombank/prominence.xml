@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prominence">
+<roleset id="prominence.01" name="nomadj-prominent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="domain" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+liquids have gained prominence over powders
+</text>
+<arg n="1">liquids</arg>
+<arg n="Support">gained</arg>
+<rel>prominence</rel>
+<arg n="2">over powders</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he will return Kidder to prominence as a great investment bank
+</text>
+<arg n="Support">return to</arg>
+<arg n="1">Kidder</arg>
+<rel>prominence</rel>
+<arg n="2">as a great investment bank</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

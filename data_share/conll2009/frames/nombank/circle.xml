@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="circle">
+<roleset id="circle.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their traditional tony circle
+</text>
+<arg n="2">their</arg>
+<arg n="1">tony</arg>
+<rel>circle</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Dinkins 's inner circle of advisers
+</text>
+<arg n="2">Mr. Dinkins 's</arg>
+<rel>circle</rel>
+<arg n="1">of advisers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="depositor">
+<roleset id="depositor.01" name="put" source="verb-deposit.01">
+<roles>
+
+<role descr="depositor, agent" n="0"></role>
+
+<role descr="thing deposited" n="1"></role>
+
+<role descr="where" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their creditors and depositors
+</text>
+<arg n="2">their</arg>
+<arg n="0">depositors</arg>
+<rel>depositors</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the bank 's 631,163 depositors
+</text>
+<arg n="2">the bank 's</arg>
+<arg n="0">depositors</arg>
+<rel>depositors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

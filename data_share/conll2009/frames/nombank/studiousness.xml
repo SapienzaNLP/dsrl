@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="studiousness">
+<roleset id="studiousness.01" name="nomadj-studious">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his eagerness and studiousness
+</text>
+<arg n="0">his</arg>
+<rel>studiousness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

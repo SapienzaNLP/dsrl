@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mania">
+<roleset id="mania.01" name="monomania" source="verb-obsess.01" vncls="31.3">
+<roles>
+
+<role descr="obsessed entity" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="obsession" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The takeover mania
+</text>
+<arg n="1">takeover</arg>
+<rel>mania</rel>
+</example>
+
+<example name="autogen2">
+<text>
+merger mania
+</text>
+<arg n="1">merger</arg>
+<rel>mania</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

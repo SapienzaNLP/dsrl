@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="courtship">
+<roleset id="courtship.01" name="pursue (romantically" source="verb-court.01" vncls="36.2">
+<roles>
+
+<role descr="suitor" n="0">
+<vnrole vncls="36.2" vntheta="Actor1"/></role>
+
+<role descr="courted" n="1">
+<vnrole vncls="36.2" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Pemex 's courtship with private companies , and especially
+foreign ones ,
+</text>
+<arg n="0">Pemex 's</arg>
+<rel>courtship</rel>
+<arg n="1">with private companies , and especially foreign ones ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+courtship between the assimilated offspring of Jewish and Irish
+immigrants
+</text>
+<rel>courtship</rel>
+<arg n="0">between the assimilated offspring of Jewish and Irish immigrants</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

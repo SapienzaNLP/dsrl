@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="attack">
+<roleset id="attack.01" name="to make an attack, criticize strongly" source="verb-attack.01">
+<roles>
+
+<role descr="attacker" n="0"></role>
+
+<role descr="entity attacked" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+As early as move six , Mr. Kasparov deviated from a well-known
+sequence of moves , developing a knight instead of making a
+standard bishop attack against the computer 's advanced knight .
+</text>
+<arg n="0">Mr. Kasparov ---> *-1</arg>
+<arg n="Support">making</arg>
+<arg f="MNR" n="M">standard</arg>
+<arg n="2">bishop</arg>
+<rel>attack</rel>
+<arg n="1">against the computer 's advanced knight</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their attacks on program trading and its contributions to the
+stock market 's wild price swings
+</text>
+<arg n="0">their</arg>
+<rel>attacks</rel>
+<arg n="1">
+on program trading and its contributions to the stock market 's
+wild price swings</arg>
+</example>
+
+</roleset>
+<roleset id="attack.02" name="physical attack" source="verb-attack.02">
+<roles>
+
+<role descr="attacker" n="0"></role>
+
+<role descr="entity attacked" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a sabotage attack on a Sandinista arsenal in Nicaragua
+</text>
+<arg n="2">sabotage</arg>
+<rel>attack</rel>
+<arg n="1">on a Sandinista arsenal in Nicaragua</arg>
+</example>
+
+<example name="autogen2">
+<text>
+For months the resistance has been defenseless against air attack
+.
+</text>
+<arg n="1">the resistance</arg>
+<arg n="Support">defenseless against</arg>
+<arg n="2">air</arg>
+<rel>attack</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

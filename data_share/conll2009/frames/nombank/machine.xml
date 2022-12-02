@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="machine">
+<roleset id="machine.01" name="to make automatic" source="verb-automate.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme/product/action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the washing machine
+</text>
+<arg n="1">washing</arg>
+<arg n="0">machine</arg>
+<rel>machine</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their Quotron electronic-data machines
+</text>
+<arg n="1">electronic-data</arg>
+<arg n="0">machines</arg>
+<rel>machines</rel>
+</example>
+
+</roleset>
+<roleset id="machine.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its dilapidated economic machine
+</text>
+<arg n="3">its</arg>
+<arg n="1">economic</arg>
+<rel>machine</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the great Japanese investment machine
+</text>
+<arg n="3">Japanese</arg>
+<arg n="1">investment</arg>
+<rel>machine</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

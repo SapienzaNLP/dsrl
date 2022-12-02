@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="murderer">
+<roleset id="murderer.01" name="cause to die" source="verb-murder.01" vncls="42.1">
+<roles>
+
+<role descr="killer" n="0">
+<vnrole vncls="42.1" vntheta="Agent"/></role>
+
+<role descr="corpse" n="1">
+<vnrole vncls="42.1" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="42.1" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+mass-murderer Ted Bundy
+</text>
+<arg n="0">mass-murderer</arg>
+<arg f="MNR" n="M">mass-murderer</arg>
+<rel>mass-murderer</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the `` Yorkshire Ripper '' mass murderer
+</text>
+<arg f="MNR" n="M">mass</arg>
+<arg n="0">murderer</arg>
+<rel>murderer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

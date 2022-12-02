@@ -1,0 +1,87 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="leg">
+<roleset id="leg.01" name="partitive-part/meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its leg
+</text>
+<arg n="1">its</arg>
+<rel>leg</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its legs
+</text>
+<arg n="1">its</arg>
+<rel>legs</rel>
+</example>
+
+</roleset>
+<roleset id="leg.02" name="nomlike/advantage/leg-up" source="verb-gain.02">
+<roles>
+
+<role descr="exploiter" n="0"></role>
+
+<role descr="entity used" n="1"></role>
+
+<role descr="entity which loses advantage" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The operational freedom has also given Federal a leg up on
+archrival United Parcel Service Inc. , the nation 's largest
+employer of United Brotherhood of Teamsters members .
+</text>
+<arg n="Support">given</arg>
+<arg n="0">Federal</arg>
+<rel>leg</rel>
+<arg n="2">
+on archrival United Parcel Service Inc. , the nation 's largest
+employer of United Brotherhood of Teamsters members</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's gilded brand image would give Ford a badly needed
+leg up in the high end of the luxury markets in both Europe and
+the U.S.
+</text>
+<arg n="Support">give</arg>
+<arg n="0">Ford</arg>
+<rel>leg</rel>
+<arg n="1">in the high end of the luxury markets in both Europe and the U.S.</arg>
+</example>
+
+</roleset>
+<roleset id="leg.03" name="nomlike" source="verb-stabilize.01">
+<roles>
+
+<role descr="cause of stability, agent" n="0"></role>
+
+<role descr="thing stabilized" n="1"></role>
+
+<role descr="stabilized at" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its legs
+</text>
+<arg n="1">its</arg>
+<rel>legs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

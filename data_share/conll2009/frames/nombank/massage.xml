@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="massage">
+<roleset id="massage.01" name="lay on hands" source="verb-massage.01">
+<roles>
+
+<role descr="masseur/masseuse" n="0"></role>
+
+<role descr="lucky patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+massage therapists
+</text>
+<rel>massage</rel>
+<arg n="0">therapists</arg>
+</example>
+
+<example name="autogen2">
+<text>
+your massage
+</text>
+<arg n="1">your</arg>
+<rel>massage</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

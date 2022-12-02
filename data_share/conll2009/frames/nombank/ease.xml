@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ease">
+<roleset id="ease.01" name="nomadj-easy">
+<roles>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+junk bonds can not necessarily be bought and sold with the ease
+of common stocks and many investment-grade bonds
+</text>
+<arg n="1">junk bonds can not necessarily be bought and sold</arg>
+<rel>ease</rel>
+</example>
+
+<example name="autogen2">
+<text>
+ease in moving and finding workers
+</text>
+<rel>ease</rel>
+<arg n="1">in moving and finding workers</arg>
+</example>
+
+</roleset>
+<roleset id="ease.02" name="at-ease/nomadjlike-comfortable">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+By a 2-to-1 ratio , voters appear more at ease with Mr. Florio 's
+stance on abortion
+</text>
+<arg n="0">voters</arg>
+<rel>ease</rel>
+<arg n="1">with Mr. Florio 's stance on abortion</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Not everyone , however , is at ease with office massage .
+</text>
+<arg n="0">Not everyone</arg>
+<rel>ease</rel>
+<arg n="1">with office massage</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

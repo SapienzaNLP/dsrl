@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="misadventure">
+<roleset id="misadventure.01" name="have a sensation or experience" source="verb-experience.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Panamanian 's misadventures
+</text>
+<arg n="0">the Panamanian 's</arg>
+<rel>misadventures</rel>
+</example>
+
+<example name="autogen2">
+<text>
+sexual misadventures
+</text>
+<arg n="1">sexual</arg>
+<rel>misadventures</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

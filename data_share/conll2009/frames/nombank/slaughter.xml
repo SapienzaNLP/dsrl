@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="slaughter">
+<roleset id="slaughter.01" name="kill indiscriminately" source="verb-slaughter.01" vncls="42.1">
+<roles>
+
+<role descr="killer" n="0">
+<vnrole vncls="42.1" vntheta="Agent"/></role>
+
+<role descr="corpse(s" n="1">
+<vnrole vncls="42.1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Feedlots fatten cattle for slaughter
+</text>
+<arg n="0">Feedlots</arg>
+<arg n="Support">fatten for</arg>
+<arg n="1">cattle</arg>
+<rel>slaughter</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Feedlots fatten young cattle for slaughter
+</text>
+<arg n="0">Feedlots</arg>
+<arg n="Support">fatten for</arg>
+<arg n="1">young cattle</arg>
+<rel>slaughter</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="irregularity">
+<roleset id="irregularity.01" name="nomadj-irregular/nomlike" source="verb-err.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme/action" n="1"></role>
+
+<role descr="project" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+invoicing irregularities in a company audit
+</text>
+<arg n="1">invoicing</arg>
+<rel>irregularities</rel>
+<arg n="2">in a company audit</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the management lapses and allegedly pervasive billing
+irregularities
+</text>
+<arg n="1">billing</arg>
+<rel>irregularities</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

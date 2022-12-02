@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="emergency">
+<roleset id="emergency.01" name="event">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+balance-of-payments emergencies
+</text>
+<arg n="1">balance-of-payments</arg>
+<rel>emergencies</rel>
+</example>
+
+<example name="autogen2">
+<text>
+they had an emergency
+</text>
+<arg n="0">they</arg>
+<arg n="Support">had</arg>
+<rel>emergency</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

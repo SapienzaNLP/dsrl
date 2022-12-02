@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spelling">
+<roleset id="spelling.01" name="attribute" source="verb-spell.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+spelling of ` catsup '
+</text>
+<arg f="REF" n="2">spelling</arg>
+<rel>spelling</rel>
+<arg n="1">of ` catsup '</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

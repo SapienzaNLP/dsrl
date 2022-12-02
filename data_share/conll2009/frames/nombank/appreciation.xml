@@ -1,0 +1,80 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="appreciation">
+<roleset id="appreciation.01" name="increase in value" source="verb-appreciate.01" vncls="45.6">
+<roles>
+
+<role descr="thing increasing" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an 18 % appreciation of the Canadian dollar against its U.S.
+counterpart in the past three years that has made Canadian goods
+more costly in the U.S.
+</text>
+<arg n="2">18 %</arg>
+<rel>appreciation</rel>
+<arg n="1">of the Canadian dollar</arg>
+<arg f="TMP" n="M">in the past three years</arg>
+</example>
+
+<example name="autogen3">
+<text>
+art appreciation
+</text>
+<arg n="1">art</arg>
+<rel>appreciation</rel>
+</example>
+
+</roleset>
+<roleset id="appreciation.02" name="esteem, value, have a fondness for" source="verb-appreciate.02" vncls="31.2">
+<roles>
+
+<role descr="emoter" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="thing appreciated" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Broadcasters have a healthy appreciation of the role
+entertainment values play in captivating an audience .
+</text>
+<arg n="0">Broadcasters</arg>
+<arg n="Support">have</arg>
+<arg f="MNR" n="M">healthy</arg>
+<rel>appreciation</rel>
+<arg n="1">of the role entertainment values play in captivating an audience</arg>
+</example>
+
+<example name="autogen2">
+<text>
+He had developed a hatred for the hacker and a grudging
+appreciation of the federal `` spooks '' who make national
+security their business .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">developed</arg>
+<arg f="MNR" n="M">grudging</arg>
+<rel>appreciation</rel>
+<arg n="1">
+of the federal `` spooks '' who make national security their
+business</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="problem">
+<roleset id="problem.01" name="attribute/nomadj-problematic">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Campbell-Mithun-Esty , for example , has had big problems at its
+New York office , but offers strong offices in other areas of the
+country , including Minneapolis and Chicago .
+</text>
+<arg n="1">Campbell-Mithun-Esty</arg>
+<arg n="Support">had</arg>
+<arg n="2">big</arg>
+<rel>problems</rel>
+<arg n="3">at its New York office</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the financing problems of the UAL takeover
+</text>
+<arg n="2">financing</arg>
+<rel>problems</rel>
+<arg n="1">of the UAL takeover</arg>
+</example>
+
+</roleset>
+<roleset id="problem.02" name="try very hard" source="verb-struggle.02">
+<roles>
+
+<role descr="entity trying" n="0"></role>
+
+<role descr="predicative action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+customers ' problems complying with recent Environmental
+Protection Agency regulations
+</text>
+<arg n="0">customers '</arg>
+<rel>problems</rel>
+<arg n="1">complying with recent Environmental Protection Agency regulations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+serious problems for commerce in and out of the Bay area
+</text>
+<arg f="MNR" n="M">serious</arg>
+<rel>problems</rel>
+<arg n="1">for commerce in and out of the Bay area</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="amenity">
+<roleset id="amenity.01" name="give advantage to" source="verb-benefit.01">
+<roles>
+
+<role descr="giver" n="0"></role>
+
+<role descr="beneficiary, given-to" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And resorts are adding other amenities , such as pricey
+restaurants , health spas and vacation packages with a twist .
+</text>
+<arg n="0">resorts</arg>
+<arg n="Support">adding</arg>
+<rel>amenities</rel>
+</example>
+
+<example name="autogen2">
+<text>
+`` Amenities '' planned for Chicago 's new Parkshore Tower
+apartments
+</text>
+<rel>Amenities</rel>
+<arg n="Support">planned</arg>
+<arg n="1">for Chicago 's new Parkshore Tower apartments</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

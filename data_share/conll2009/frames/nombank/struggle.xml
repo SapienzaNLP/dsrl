@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="struggle">
+<roleset id="struggle.01" name="struggle" source="verb-struggle.01" vncls="36.1">
+<roles>
+
+<role descr="first struggler" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="topic or prize" n="1" source="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+<role descr="second struggler" n="2" source="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ms. McFadden had been forced out in July in a bitter power
+struggle with Z. Lou Guttman , chairman and a longtime floor
+trader on the exchange .
+</text>
+<arg n="0">Ms. McFadden</arg>
+<arg f="MNR" n="M">bitter</arg>
+<arg n="1">power</arg>
+<rel>struggle</rel>
+<arg n="2">
+with Z. Lou Guttman , chairman and a longtime floor trader on the
+exchange</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The struggle over capital gains
+</text>
+<rel>struggle</rel>
+<arg n="1">over capital gains</arg>
+</example>
+
+</roleset>
+<roleset id="struggle.02" name="try very hard" source="verb-struggle.02">
+<roles>
+
+<role descr="entity trying" n="0"></role>
+
+<role descr="predicative action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+this nouveau riche struggle for respectability , which has its
+tawdry aspects
+</text>
+<arg n="0">nouveau riche</arg>
+<rel>struggle</rel>
+<arg n="1">for respectability</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Hoffman 's ultimately unsuccessful struggle with depression
+</text>
+<arg n="0">Mr. Hoffman 's</arg>
+<rel>struggle</rel>
+<arg n="1">with depression</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

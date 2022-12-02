@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="arbitrage">
+<roleset id="arbitrage.01" name="work" source="verb-work.01">
+<roles>
+
+<role descr="worker" n="0"></role>
+
+<role descr="job, project" n="1"></role>
+
+<role descr="employer" n="2"></role>
+
+<role descr="coworker" n="3"></role>
+
+<role descr="instrumental" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+-LRB- In stock-index arbitrage , traders buy or sell big baskets
+of stocks against offsetting positions in futures . -RRB-
+</text>
+<arg f="MNR" n="M">stock-index</arg>
+<rel>arbitrage</rel>
+<arg n="0">traders</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In index arbitrage , program traders buy and sell stocks and
+stock-index futures to profit from small price discrepancies
+between the markets .
+</text>
+<arg f="MNR" n="M">index</arg>
+<rel>arbitrage</rel>
+<arg n="0">program traders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,80 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cry">
+<roleset id="cry.01" name="speak loudly, yell, speak   while weeping" source="verb-cry.01" vncls="37.3">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="37.3" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.3" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a cry for help from those who make the costly show possible
+</text>
+<rel>cry</rel>
+<arg n="1">for help</arg>
+<arg n="0">from those who make the costly show possible</arg>
+</example>
+
+<example name="autogen3">
+<text>
+Among Big Board specialists , the cry was `` Pull your offers ''
+-- meaning that specialists soon expected to get higher prices
+for their shares .
+</text>
+<arg n="0">Among Big Board specialists</arg>
+<rel>cry</rel>
+<arg n="1">`` Pull your offers ''</arg>
+</example>
+
+</roleset>
+<roleset id="cry.02" name="nomadjlike-distant">
+<roles>
+
+<role descr="source" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="goal" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a far cry from the previous treatment of the network , which had
+to overcome jamming of its frequencies and intimidation of local
+correspondents -LRB- who filed reports to the network by phone ,
+secret messengers or letters -RRB-
+</text>
+<arg n="2">far</arg>
+<rel>cry</rel>
+<arg n="3">
+from the previous treatment of the network , which had to
+overcome jamming of its frequencies and intimidation of local
+correspondents -LRB- who filed reports to the network by phone ,
+secret messengers or letters -RRB-</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a far cry from the ideal presented in civics texts and
+memorialized on the movie screen
+</text>
+<arg n="2">far</arg>
+<rel>cry</rel>
+<arg n="3">
+from the ideal presented in civics texts and memorialized on the
+movie screen</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

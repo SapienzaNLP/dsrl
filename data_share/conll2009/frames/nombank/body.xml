@@ -1,0 +1,81 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="body">
+<roleset id="body.01" name="partitive-part/meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their bodies
+</text>
+<arg n="1">their</arg>
+<rel>bodies</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his body
+</text>
+<arg n="1">his</arg>
+<rel>body</rel>
+</example>
+
+</roleset>
+<roleset id="body.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the vast body of premium down at the bottom end which acts as a
+steadying influence '' against catastrophic losses
+</text>
+<rel>body</rel>
+<arg n="1">of premium</arg>
+</example>
+
+</roleset>
+<roleset id="body.03" name="group/partitive-quant/partitive-part">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the chief rule-making body for accountants
+</text>
+<arg n="3">rule-making</arg>
+<rel>body</rel>
+<arg n="1">for accountants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A governing body of both the Financial Accounting Standards Board
+and the Governmental Accounting Standards Board
+</text>
+<arg n="1">governing</arg>
+<rel>body</rel>
+<arg n="2">
+of both the Financial Accounting Standards Board and the
+Governmental Accounting Standards Board</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

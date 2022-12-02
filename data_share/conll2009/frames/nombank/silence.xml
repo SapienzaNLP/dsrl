@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="silence">
+<roleset id="silence.01" name="nomadj-silent/silent-about">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the administration 's public silence on the Fed
+</text>
+<arg n="0">the administration 's</arg>
+<arg n="2">public</arg>
+<rel>silence</rel>
+<arg n="1">on the Fed</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the first to use silences and sentence fragments and menacing
+stares , almost to the exclusion of what we previously understood
+to be theatrical dialogue
+</text>
+<arg n="0">the first ---> 0 ---> *T*-1</arg>
+<arg n="Support">use</arg>
+<rel>silences</rel>
+</example>
+
+</roleset>
+<roleset id="silence.02" name="attribute/nomadj-silent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But `` an eerie silence pervaded '' the junk market Friday as
+prices tumbled on hundreds of high-yield bonds despite `` no
+active trading
+</text>
+<arg f="REF" n="2">silence</arg>
+<rel>silence</rel>
+<arg n="Support">pervaded</arg>
+<arg n="1">the junk market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

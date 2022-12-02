@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stop">
+<roleset id="stop.01" name="stop" source="verb-stop.01" vncls="55.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme (action or object being stopped" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the government put a stop to real-estate speculation
+</text>
+<arg n="0">the government</arg>
+<arg n="Support">put</arg>
+<rel>stop</rel>
+<arg n="1">to real-estate speculation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In 1988 , for the first time , economic growth came to a dead
+stop .
+</text>
+<arg n="1">economic growth</arg>
+<arg n="Support">came to</arg>
+<arg f="MNR" n="M">dead</arg>
+<rel>stop</rel>
+</example>
+
+</roleset>
+<roleset id="stop.02" name="visit briefly" source="verb-stop.02">
+<roles>
+
+<role descr="visitor" n="0"></role>
+
+<role descr="place visited" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his stop in nearby Chicago
+</text>
+<arg n="0">his</arg>
+<rel>stop</rel>
+<arg n="1">in nearby Chicago</arg>
+</example>
+
+<example name="autogen2">
+<text>
+during a stop in Italy Ms. Volokh dropped $ 80 on a black velvet
+suit
+</text>
+<rel>stop</rel>
+<arg n="1">in Italy</arg>
+<arg n="0">Ms. Volokh</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

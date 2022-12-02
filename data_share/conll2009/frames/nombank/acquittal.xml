@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="acquittal">
+<roleset id="acquittal.01" name="relieve of guilt" source="verb-acquit.01" vncls="10.6">
+<roles>
+
+<role descr="remover of guilt" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="un)guilty party" n="1">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+<role descr="explicit mention of guilt" n="2">
+<vnrole vncls="10.6" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+acquittal of the judge
+</text>
+<rel>acquittal</rel>
+<arg n="1">of the judge</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

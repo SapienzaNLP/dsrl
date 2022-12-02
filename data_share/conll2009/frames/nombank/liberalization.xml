@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="liberalization">
+<roleset id="liberalization.01" name="become more liberal" source="verb-liberalize.01">
+<roles>
+
+<role descr="agent of liberalization" n="0"></role>
+
+<role descr="thing becoming more liberal (if separate from arg0" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his trail-blazing liberalization of the Indian economy
+</text>
+<arg n="0">his</arg>
+<arg f="MNR" n="M">trail-blazing</arg>
+<rel>liberalization</rel>
+<arg n="1">of the Indian economy</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a `` trade liberalization program
+</text>
+<arg n="1">trade</arg>
+<rel>liberalization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

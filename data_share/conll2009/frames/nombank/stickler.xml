@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stickler">
+<roleset id="stickler.01" name="require, insist" source="verb-insist.01">
+<roles>
+
+<role descr="insister" n="0"></role>
+
+<role descr="thing insisted, required" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a stickler for ethical standards who refuses to accept
+honorariums and who believes in conducting official business in
+the open
+</text>
+<arg n="0">stickler</arg>
+<rel>stickler</rel>
+<arg n="1">for ethical standards</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

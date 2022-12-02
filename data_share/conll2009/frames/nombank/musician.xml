@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="musician">
+<roleset id="musician.01" name="actrel/nomlike" source="verb-play.01" vncls="26.7-1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the chamber musicians
+</text>
+<arg n="1">chamber</arg>
+<arg n="0">musicians</arg>
+<rel>musicians</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its musicians
+</text>
+<arg n="2">its</arg>
+<arg n="0">musicians</arg>
+<rel>musicians</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

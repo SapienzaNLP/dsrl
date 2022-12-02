@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="profitability">
+<roleset id="profitability.01" name="attribute/nomadj-profitable" source="verb-profit.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bank-holding company 's increased profitability
+</text>
+<arg n="1">the bank-holding company 's</arg>
+<arg n="2">increased</arg>
+<rel>profitability</rel>
+</example>
+
+<example name="autogen3">
+<text>
+improved profitability
+</text>
+<arg n="2">improved</arg>
+<rel>profitability</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

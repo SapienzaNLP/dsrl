@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tracking">
+<roleset id="tracking.01" name="follow" source="verb-track.01" vncls="51.6">
+<roles>
+
+<role descr="thing following" n="0">
+<vnrole vncls="51.6" vntheta="Agent"/></role>
+
+<role descr="thing followed" n="1">
+<vnrole vncls="51.6" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+retail-sales tracking
+</text>
+<arg n="1">retail-sales</arg>
+<rel>tracking</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

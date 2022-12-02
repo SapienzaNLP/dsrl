@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="militia">
+<roleset id="militia.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Lebanon 's largest Christian militia
+</text>
+<arg n="2">Lebanon 's</arg>
+<arg n="1">Christian</arg>
+<rel>militia</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Lebanon 's two main Shiite militias
+</text>
+<arg n="2">Lebanon 's</arg>
+<arg n="1">Shiite</arg>
+<rel>militias</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

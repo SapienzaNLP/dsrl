@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="acceptance">
+<roleset id="acceptance.01" name="take willingly" source="verb-accept.01" vncls="29.2">
+<roles>
+
+<role descr="acceptor" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing accepted" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="accepted-from" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="attribute" n="3">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+government acceptance of its bid for control of Jaguar
+</text>
+<arg n="0">government</arg>
+<rel>acceptance</rel>
+<arg n="1">of its bid for control of Jaguar</arg>
+</example>
+
+<example name="autogen2">
+<text>
+acceptances for its offer of 253 pence -LRB- $ 4.05 -RRB- per
+share representing at least 67 % of Ross Catherall 's issued
+share capital , or 12.7 million ordinary shares
+</text>
+<rel>acceptances</rel>
+<arg n="1">
+for its offer of 253 pence -LRB- $ 4.05 -RRB- per share
+representing at least 67 % of Ross Catherall 's issued share
+capital , or 12.7 million ordinary shares</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

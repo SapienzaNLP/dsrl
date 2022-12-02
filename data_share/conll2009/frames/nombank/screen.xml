@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="screen">
+<roleset id="screen.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole/function" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A computer screen
+</text>
+<arg n="1">computer</arg>
+<rel>screen</rel>
+</example>
+
+<example name="autogen2">
+<text>
+monitor screens
+</text>
+<arg n="1">monitor</arg>
+<rel>screens</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

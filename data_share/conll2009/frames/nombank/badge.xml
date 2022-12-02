@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="badge">
+<roleset id="badge.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Employees wore identification badges listing not only their names
+but also their dates of hire .
+</text>
+<arg n="0">Employees</arg>
+<arg n="Support">wore</arg>
+<arg n="1">identification</arg>
+<rel>badges</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="subcontractor">
+<roleset id="subcontractor.01" name="nom/actrel" source="verb-subcontract.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a government-owned assembly plant in Kansas , run by a private
+subcontractor , that makes cluster bombs for GenCorp 's Aerojet
+Ordnance business
+</text>
+<arg f="MNR" n="M">private</arg>
+<arg n="0">subcontractor</arg>
+<rel>subcontractor</rel>
+<arg n="1">makes cluster bombs for GenCorp 's Aerojet Ordnance business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Digital 's subcontractors on the project
+</text>
+<arg n="2">Digital 's</arg>
+<arg n="0">subcontractors</arg>
+<rel>subcontractors</rel>
+<arg n="1">on the project</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

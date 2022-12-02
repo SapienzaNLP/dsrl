@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="technocrat">
+<roleset id="technocrat.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+government technocrats
+</text>
+<arg n="2">government</arg>
+<arg n="0">technocrats</arg>
+<rel>technocrats</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

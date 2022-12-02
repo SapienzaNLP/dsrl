@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fax">
+<roleset id="fax.01" name="to send by fax" source="verb-fax.01">
+<roles>
+
+<role descr="sender, agent" n="0"></role>
+
+<role descr="entity sent, faxed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+To confirm Mr. Guy 's identification , Sotheby 's and IFAR
+exchanged photos by fax
+</text>
+<arg n="0">Sotheby 's and IFAR</arg>
+<arg n="Support">exchanged by</arg>
+<arg n="1">photos</arg>
+<rel>fax</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

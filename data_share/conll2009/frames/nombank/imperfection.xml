@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="imperfection">
+<roleset id="imperfection.01" name="nomadj-imperfect/nomlike" source="verb-flaw.01">
+<roles>
+
+<role descr="causer/agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+capital-market imperfections
+</text>
+<arg n="1">capital-market</arg>
+<rel>imperfections</rel>
+</example>
+
+<example name="autogen2">
+<text>
+market imperfections
+</text>
+<arg n="1">market</arg>
+<rel>imperfections</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

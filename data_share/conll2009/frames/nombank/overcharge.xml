@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="overcharge">
+<roleset id="overcharge.01" name="asking price" source="verb-charge.01" vncls="54.5">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="asking price" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+overcharges from 1983 to 1985
+</text>
+<arg f="REF" n="1">overcharges</arg>
+<rel>overcharges</rel>
+<arg f="TMP" n="M">from 1983 to 1985</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

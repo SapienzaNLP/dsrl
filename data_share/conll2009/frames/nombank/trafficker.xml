@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trafficker">
+<roleset id="trafficker.01" name="exchange" source="verb-trade.01" vncls="13.1">
+<roles>
+
+<role descr="agent, entity trading" n="0">
+<vnrole vncls="13.1" vntheta="Agent"/></role>
+
+<role descr="thing being traded (away" n="1">
+<vnrole vncls="13.1" vntheta="Theme"/></role>
+
+<role descr="other exchanger" n="2"></role>
+
+<role descr="other item in exchange, price, or premium, traded for or at" n="3">
+<vnrole vncls="13.6" vntheta="Theme2"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="13.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cocaine traffickers
+</text>
+<arg n="1">cocaine</arg>
+<arg n="0">traffickers</arg>
+<rel>traffickers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+arrested drug traffickers
+</text>
+<arg n="1">drug</arg>
+<arg n="0">traffickers</arg>
+<rel>traffickers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

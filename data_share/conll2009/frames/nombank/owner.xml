@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="owner">
+<roleset id="owner.01" name="nom/share" source="verb-own.01">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="possession/quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+CNN 's distributors and part owners
+</text>
+<arg n="1">CNN 's</arg>
+<arg n="2">part</arg>
+<arg n="0">owners</arg>
+<rel>owners</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the new owner
+</text>
+<arg f="TMP" n="M">new</arg>
+<arg n="0">owner</arg>
+<rel>owner</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suspicion">
+<roleset id="suspicion.01" name="have a suspicion about something" source="verb-suspect.01" vncls="29.5">
+<roles>
+
+<role descr="experiencer" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="suspicion" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="beneficiary/suspect" n="2">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his suspicion that the unrecognized inflationary culprit is the
+budget surplus
+</text>
+<arg n="0">his</arg>
+<rel>suspicion</rel>
+<arg n="1">that the unrecognized inflationary culprit is the budget surplus</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their suspicions of each other
+</text>
+<arg n="0">their</arg>
+<rel>suspicions</rel>
+<arg n="2">of each other</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="speech">
+<roleset id="speech.01" name="speak" source="verb-speak.01" vncls="37.5">
+<roles>
+
+<role descr="talker" n="0">
+<vnrole vncls="37.5" vntheta="Actor1"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="37.5" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.5" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his first major arms-control speech
+</text>
+<arg n="0">his</arg>
+<arg n="1">arms-control</arg>
+<rel>speech</rel>
+</example>
+
+<example name="autogen2">
+<text>
+In a speech to the Mortgage Bankers Association , Mr. Kemp broke
+the administration 's public silence on the Fed and complained
+that `` interest rates are too high . ''
+</text>
+<rel>speech</rel>
+<arg n="2">to the Mortgage Bankers Association</arg>
+<arg n="0">Mr. Kemp</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

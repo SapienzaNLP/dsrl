@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="panel">
+<roleset id="panel.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+staff director of the ethics panel
+</text>
+<arg n="2">staff director</arg>
+<arg n="1">ethics</arg>
+<rel>panel</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Senate panel
+</text>
+<arg n="2">Senate</arg>
+<rel>panel</rel>
+</example>
+
+</roleset>
+<roleset id="panel.02" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a boxy Buick station wagon with wood-grain side panels
+</text>
+<arg n="1">a boxy Buick station wagon</arg>
+<rel>panels</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

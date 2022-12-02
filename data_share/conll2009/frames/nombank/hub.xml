@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hub">
+<roleset id="hub.01" name="nomadjlike-central">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="institution/beneficiary" n="2"></role>
+
+<role descr="domain" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the hub for communications within large networks of desk-top
+machines
+</text>
+<arg n="1">hub</arg>
+<rel>hub</rel>
+<arg n="3">for communications within large networks of desk-top machines</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its Philadelphia hub
+</text>
+<arg n="2">its</arg>
+<arg f="LOC" n="M">Philadelphia</arg>
+<arg n="1">hub</arg>
+<rel>hub</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

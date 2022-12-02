@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="moonlighting">
+<roleset id="moonlighting.01" name="hold a second job" source="verb-moonlight.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Col. Noriega 's moonlighting
+</text>
+<arg n="0">Col. Noriega 's</arg>
+<rel>moonlighting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

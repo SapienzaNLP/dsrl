@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="payer">
+<roleset id="payer.01" name="cf buy and sell" source="verb-pay.01" vncls="13.1-1">
+<roles>
+
+<role descr="payer or buyer" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="money or attention" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="person being paid, destination of attention" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="commodity, paid for what" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a payer of alimony
+</text>
+<arg n="0">payer</arg>
+<rel>payer</rel>
+<arg n="1">of alimony</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its current and former ratepayers
+</text>
+<arg n="2">its</arg>
+<arg n="0">ratepayers</arg>
+<rel>ratepayers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="moderation">
+<roleset id="moderation.01" name="make moderate, mild" source="verb-moderate.01">
+<roles>
+
+<role descr="moderator" n="0"></role>
+
+<role descr="thing that would be extreme otherwise" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his recent moderation and renunciation of terrorism
+</text>
+<arg n="1">his</arg>
+<rel>moderation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+tones of moderation
+</text>
+<arg n="0">tones</arg>
+<rel>moderation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

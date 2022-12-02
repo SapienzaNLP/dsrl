@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="plug">
+<roleset id="plug.01" name="advertise" source="verb-plug.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Toyota 's upscale Lexus division , a sponsor of the World Series
+, also put in a plug for Red Cross donations in a World Series
+game it sponsored .
+</text>
+<arg n="0">
+Toyota 's upscale Lexus division , a sponsor of the World Series
+,</arg>
+<arg n="Support">put</arg>
+<rel>plug</rel>
+<arg n="1">for Red Cross donations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The only plug for the sponsor
+</text>
+<rel>plug</rel>
+<arg n="1">for the sponsor</arg>
+</example>
+
+</roleset>
+<roleset id="plug.02" name="stop from" source="verb-stop.01" vncls="55.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme (action or object being stopped" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company had pulled the plug on its century-old power
+generation business
+</text>
+<arg n="0">the company</arg>
+<arg n="Support">pulled</arg>
+<rel>plug</rel>
+<arg n="1">on its century-old power generation business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+American liberalism had pulled the arms plug on the Contras and
+their friend Ronald Reagan
+</text>
+<arg n="0">American liberalism</arg>
+<arg n="Support">pulled</arg>
+<rel>plug</rel>
+<arg n="1">on the Contras and their friend Ronald Reagan</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

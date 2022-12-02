@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="idea">
+<roleset id="idea.01" name="work-of-art/nomadjlike-acceptable/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the government 's idea of `` service
+</text>
+<arg n="0">the government 's</arg>
+<rel>idea</rel>
+<arg n="1">of `` service</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Annuities are rarely a good idea at age 35 because of the
+withdrawal restrictions .
+</text>
+<arg n="1">Annuities</arg>
+<arg n="2">good</arg>
+<rel>idea</rel>
+</example>
+
+</roleset>
+<roleset id="idea.02" name="show" source="verb-indicate.01">
+<roles>
+
+<role descr="indicator" n="0"></role>
+
+<role descr="thing indicated" n="1"></role>
+
+<role descr="indicated to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A look at a Thursday night practice at St. Mary Abbot church in
+the Kensington district of London gives an idea of the work
+involved .
+</text>
+<arg n="0">
+A look at a Thursday night practice at St. Mary Abbot church in
+the Kensington district of London</arg>
+<arg n="Support">gives</arg>
+<rel>idea</rel>
+<arg n="1">of the work involved</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Laband gives us an idea why economists ' predictions are
+usually wrong .
+</text>
+<arg n="0">Mr. Laband</arg>
+<arg n="Support">gives</arg>
+<arg n="2">us</arg>
+<rel>idea</rel>
+<arg n="1">why economists ' predictions are usually wrong</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

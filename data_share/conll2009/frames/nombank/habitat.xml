@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="habitat">
+<roleset id="habitat.01" name="environment for a thing">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the habitats of organization men in gray-flannel suits
+</text>
+<rel>habitats</rel>
+<arg n="1">of organization men in gray-flannel suits</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a habitat for rare white tigers , which will star in performances
+by the famed illusionist team of Siegfried &amp; Roy
+</text>
+<rel>habitat</rel>
+<arg n="1">
+for rare white tigers , which will star in performances by the
+famed illusionist team of Siegfried &amp; Roy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

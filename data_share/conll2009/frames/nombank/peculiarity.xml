@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="peculiarity">
+<roleset id="peculiarity.01" name="attribute/nomadj-peculiar">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the peculiarities of each type of crop
+</text>
+<arg f="REF" n="2">peculiarities</arg>
+<rel>peculiarities</rel>
+<arg n="1">of each type of crop</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

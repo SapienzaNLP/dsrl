@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="watercolor">
+<roleset id="watercolor.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Paul Gauguin watercolor
+</text>
+<arg n="0">Paul Gauguin</arg>
+<rel>watercolor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

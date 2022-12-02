@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tension">
+<roleset id="tension.01" name="argue with" source="verb-argue.02" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+economic tension between the U.S. and Japan
+</text>
+<arg n="2">economic</arg>
+<rel>tension</rel>
+<arg n="0">between the U.S. and Japan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+tensions with the Soviet Union
+</text>
+<rel>tensions</rel>
+<arg n="1">with the Soviet Union</arg>
+</example>
+
+</roleset>
+<roleset id="tension.02" name="attribute/nomadj-tense">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+enough pent-up energy tension
+</text>
+<arg n="2">enough</arg>
+<arg n="1">energy</arg>
+<rel>tension</rel>
+</example>
+
+<example name="autogen2">
+<text>
+tension around the head or neck
+</text>
+<arg f="REF" n="2">tension</arg>
+<rel>tension</rel>
+<arg n="1">around the head or neck</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="embassy">
+<roleset id="embassy.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Soviet embassy here
+</text>
+<arg n="2">Soviet</arg>
+<arg n="0">embassy</arg>
+<rel>embassy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The West German embassies in Prague , Budapest and Warsaw
+</text>
+<arg n="2">West German</arg>
+<arg n="0">embassies</arg>
+<rel>embassies</rel>
+<arg n="1">in Prague , Budapest and Warsaw</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

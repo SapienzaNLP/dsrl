@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stuff">
+<roleset id="stuff.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his stuff
+</text>
+<arg n="1">his</arg>
+<arg f="REF" n="2">stuff</arg>
+<rel>stuff</rel>
+</example>
+
+</roleset>
+<roleset id="stuff.02" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the stuff of dreams , but also of traumas
+</text>
+<rel>stuff</rel>
+<arg n="1">of dreams , but also of traumas</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

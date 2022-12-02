@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="franchisee">
+<roleset id="franchisee.01" name="sell a representative   example of a chain" source="verb-franchise.01">
+<roles>
+
+<role descr="franchiser" n="0"></role>
+
+<role descr="example of chain" n="1"></role>
+
+<role descr="franchisee" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its bottling franchisee in that country
+</text>
+<arg n="0">its</arg>
+<arg n="1">bottling</arg>
+<arg n="2">franchisee</arg>
+<rel>franchisee</rel>
+<arg f="LOC" n="M">in that country</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a New York franchisee of Grand Metropolitan PLC 's Burger King
+chain
+</text>
+<arg f="LOC" n="M">New York</arg>
+<arg n="2">franchisee</arg>
+<rel>franchisee</rel>
+<arg n="1">of Grand Metropolitan PLC 's Burger King chain</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

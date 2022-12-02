@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="carry-forward">
+<roleset id="carry-forward.01" name="carry over: continue" source="verb-carry.04">
+<roles>
+
+<role descr="carrier" n="0"></role>
+
+<role descr="thing continuing" n="1"></role>
+
+<role descr="from) whence" n="2"></role>
+
+<role descr="to) whither" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Because of tax-loss carry-forward , Leucadia said it expects to
+escape taxes on `` a substantial portion of the gain . ''
+</text>
+<arg n="1">tax-loss</arg>
+<rel>carry-forward</rel>
+<arg n="0">Leucadia</arg>
+</example>
+
+<example name="autogen3">
+<text>
+a $ 700,000 taxlow carry-forward
+</text>
+<arg n="1">taxlow</arg>
+<rel>carry-forward</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="publicist">
+<roleset id="publicist.01" name="actrel/nom" source="verb-publicize.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a literary publicist
+</text>
+<arg n="1">literary</arg>
+<arg n="0">publicist</arg>
+<rel>publicist</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a financial publicist in New York
+</text>
+<arg n="1">financial</arg>
+<arg n="0">publicist</arg>
+<rel>publicist</rel>
+<arg f="LOC" n="M">in New York</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

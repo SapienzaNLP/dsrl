@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spell">
+<roleset id="spell.01" name="nomlike" source="verb-experience.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="experienced" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+fainting spells
+</text>
+<arg n="1">fainting</arg>
+<rel>spells</rel>
+</example>
+
+<example name="autogen2">
+<text>
+One devoted fan who fell under Baker 's spell in 1963 and began
+collecting Baker memorabilia
+</text>
+<arg n="0">One devoted fan ---> who ---> *T*-1</arg>
+<arg n="Support">fell under</arg>
+<arg n="1">Baker 's</arg>
+<rel>spell</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

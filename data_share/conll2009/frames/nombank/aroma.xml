@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="aroma">
+<roleset id="aroma.01" name="environment for thing">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The aroma of patronage
+</text>
+<rel>aroma</rel>
+<arg n="1">of patronage</arg>
+</example>
+
+</roleset>
+<roleset id="aroma.02" name="notice an odor" source="verb-smell.01" vncls="30.4">
+<roles>
+
+<role descr="stinky thing" n="1">
+<vnrole vncls="30.4" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+The aroma of fried chicken
+</text>
+<rel>aroma</rel>
+<arg n="1">of fried chicken</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

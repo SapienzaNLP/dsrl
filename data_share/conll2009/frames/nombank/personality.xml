@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="personality">
+<roleset id="personality.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the split personality displayed by Americans in the voting booth
+</text>
+<arg n="2">split</arg>
+<rel>personality</rel>
+<arg n="Support">displayed</arg>
+<arg n="1">by Americans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Though Ms. Volokh is a small woman , she has an outsized
+personality and dramatic flair that seem perfectly suited to
+capitalism as it is practiced in Hollywood .
+</text>
+<arg n="1">she</arg>
+<arg n="Support">has</arg>
+<arg n="2">outsized</arg>
+<rel>personality</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

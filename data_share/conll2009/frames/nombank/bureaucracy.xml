@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bureaucracy">
+<roleset id="bureaucracy.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the mighty Soviet airline bureaucracy
+</text>
+<arg n="2">Soviet</arg>
+<arg n="1">airline</arg>
+<rel>bureaucracy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Command 's huge bureaucracy
+</text>
+<arg n="2">The Command 's</arg>
+<rel>bureaucracy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

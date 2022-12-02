@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="diary">
+<roleset id="diary.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the diaries of the late Andy Warhol
+</text>
+<rel>diaries</rel>
+<arg n="0">of the late Andy Warhol</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his diaries
+</text>
+<arg n="0">his</arg>
+<rel>diaries</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sandwich">
+<roleset id="sandwich.01" name="put between two things" source="verb-sandwich.01">
+<roles>
+
+<role descr="sandwich builder" n="0"></role>
+
+<role descr="lunch meat (eg" n="1"></role>
+
+<role descr="bread (eg" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the freeway made giant concrete sandwiches of itself
+</text>
+<arg n="0">the freeway</arg>
+<arg n="Support">made</arg>
+<arg n="2">concrete</arg>
+<rel>sandwiches</rel>
+<arg n="1">of itself</arg>
+</example>
+
+<example name="autogen2">
+<text>
+grilled roast beef , cheese and jalapeno pepper sandwich on whole
+wheat
+</text>
+<arg n="1">grilled roast beef , cheese and jalapeno pepper</arg>
+<rel>sandwich</rel>
+<arg n="2">on whole wheat</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

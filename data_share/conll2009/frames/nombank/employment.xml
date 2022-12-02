@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="employment">
+<roleset id="employment.01" name="pay for working" source="verb-employ.01" vncls="29.2">
+<roles>
+
+<role descr="employer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="employee" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="job" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And before the week was out , Sony had offered Mr. Guber and his
+partner , Jon Peters , the most lucrative employment contracts in
+the history of the movie business .
+</text>
+<arg n="0">Sony</arg>
+<arg n="Support">offered contracts</arg>
+<arg n="1">Mr. Guber and his partner , Jon Peters ,</arg>
+<rel>employment</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the players ' employment
+</text>
+<arg n="1">the players '</arg>
+<rel>employment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="adventure">
+<roleset id="adventure.01" name="have a sensation or experience" source="verb-experience.01">
+<roles>
+
+<role descr="experiencer" n="1"></role>
+
+<role descr="experienced" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Paul 's aesthetic adventure
+</text>
+<arg n="1">Mr. Paul 's</arg>
+<arg n="2">aesthetic</arg>
+<rel>adventure</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The third principal in the South Gardens adventure
+</text>
+<arg n="1">The third principal</arg>
+<arg n="2">South Gardens</arg>
+<rel>adventure</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

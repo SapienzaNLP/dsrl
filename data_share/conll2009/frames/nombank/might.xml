@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="might">
+<roleset id="might.01" name="attribute/nomadj-mighty">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the full legal might of a wrathful multinational
+</text>
+<arg f="REF" n="2">might</arg>
+<rel>might</rel>
+<arg n="1">of a wrathful multinational</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Soviet Union 's military might
+</text>
+<arg n="1">the Soviet Union 's</arg>
+<arg f="REF" n="2">might</arg>
+<rel>might</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

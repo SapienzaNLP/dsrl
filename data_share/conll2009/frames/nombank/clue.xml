@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clue">
+<roleset id="clue.01" name="nomlike" source="verb-hint.01" vncls="37.1-1">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.1-1" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+leaving voters with little clue as to who will be more
+influential
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">leaving with</arg>
+<arg n="2">voters</arg>
+<rel>clue</rel>
+<arg n="1">as to who will be more influential</arg>
+</example>
+
+<example name="autogen2">
+<text>
+And before the opening of trading here yesterday , all eyes were
+on early trading in Tokyo for a clue as to how widespread the
+fallout might be .
+</text>
+<arg n="2">all eyes</arg>
+<rel>clue</rel>
+<arg n="1">as to how widespread the fallout might be</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

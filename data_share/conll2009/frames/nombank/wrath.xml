@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wrath">
+<roleset id="wrath.01" name="nomadjlike-angry/nomlike" source="verb-anger.01" vncls="31.1">
+<roles>
+
+<role descr="experiencer" n="0" source="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="cause of anger" n="1" source="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The target of their wrath ?
+</text>
+<arg n="1">The target</arg>
+<arg n="Support">target of</arg>
+<arg n="0">their</arg>
+<rel>wrath</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the wrath of banks
+</text>
+<rel>wrath</rel>
+<arg n="0">of banks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

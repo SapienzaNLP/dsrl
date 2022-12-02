@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="assurance">
+<roleset id="assurance.01" name="calm someone's nerves" source="verb-assure.01">
+<roles>
+
+<role descr="causer of assurance" n="0"></role>
+
+<role descr="assured one" n="1"></role>
+
+<role descr="assurance, utterance" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it had received the reasonable assurance of Chase Manhattan Bank
+N.A. that the financing can be obtained
+</text>
+<arg n="1">it</arg>
+<arg n="Support">received</arg>
+<arg f="MNR" n="M">reasonable</arg>
+<rel>assurance</rel>
+<arg n="0">of Chase Manhattan Bank N.A.</arg>
+<arg n="2">that the financing can be obtained</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the assurance from government rate setters of available funds
+adequate for safe operation
+</text>
+<rel>assurance</rel>
+<arg n="0">from government rate setters</arg>
+<arg n="2">of available funds adequate for safe operation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="announcer">
+<roleset id="announcer.01" name="say for all to hear" source="verb-announce.01" vncls="37.7">
+<roles>
+
+<role descr="announcer" n="0">
+<vnrole vncls="37.7" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.7" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.7" vntheta="Recipient"/></role>
+
+<role descr="attribute of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an announcer at the end of the ads would tell customers where to
+`` find the true performance label
+</text>
+<arg n="0">announcer</arg>
+<rel>announcer</rel>
+<arg n="Support">tell</arg>
+<arg n="2">customers</arg>
+<arg n="1">where to `` find the true performance label</arg>
+</example>
+
+<example name="autogen2">
+<text>
+only to be urged by the British announcer to `` stay tuned for
+the further adventures of Skippy the Kangaroo
+</text>
+<arg n="0">announcer</arg>
+<rel>announcer</rel>
+<arg f="PRD" n="1">
+to `` stay tuned for the further adventures of Skippy the
+Kangaroo</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

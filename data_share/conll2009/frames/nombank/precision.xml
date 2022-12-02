@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="precision">
+<roleset id="precision.01" name="attribute/nomadj-precise">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+thin metal precision parts
+</text>
+<arg f="REF" n="2">precision</arg>
+<rel>precision</rel>
+<arg n="1">parts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the precision routine
+</text>
+<arg f="REF" n="2">precision</arg>
+<rel>precision</rel>
+<arg n="1">routine</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

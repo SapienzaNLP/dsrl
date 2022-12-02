@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mess">
+<roleset id="mess.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a mess of pottage
+</text>
+<rel>mess</rel>
+<arg n="1">of pottage</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a mess of mayonnaise , wine , and everything else all over the
+floors of the big old general store and the People 's Co-op
+</text>
+<rel>mess</rel>
+<arg n="1">of mayonnaise , wine , and everything else</arg>
+</example>
+
+</roleset>
+<roleset id="mess.02" name="nom/nomadj-messy" source="verb-mess.02">
+<roles>
+
+<role descr="causer/agent/experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its economic and social mess
+</text>
+<arg n="0">its</arg>
+<arg n="1">economic and social</arg>
+<rel>mess</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the mess it 's in
+</text>
+<rel>mess</rel>
+<arg n="1">it</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

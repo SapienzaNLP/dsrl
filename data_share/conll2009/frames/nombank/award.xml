@@ -1,0 +1,92 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="award">
+<roleset id="award.01" name="to distribute again in a different way" source="verb-redistribute.01">
+<roles>
+
+<role descr="distributor, agent" n="0"></role>
+
+<role descr="entity redistributed" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+<role descr="reason" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The high court , leaving intact a $ 4.25 million damage award
+against General Dynamics Corp. , declined to resolve questions
+about a legal defense against civil lawsuits often used by
+government contractors .
+</text>
+<arg n="0">The high court ---> *-1</arg>
+<arg n="Support">leaving intact</arg>
+<arg n="1">$ 4.25 million</arg>
+<arg n="4">damage</arg>
+<rel>award</rel>
+<arg n="3">against General Dynamics Corp.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 960,000 libel award to Sonia Sutcliffe , the estranged wife
+of the `` Yorkshire Ripper '' mass murderer
+</text>
+<arg n="1">$ 960,000</arg>
+<arg n="4">libel</arg>
+<rel>award</rel>
+<arg n="2">
+to Sonia Sutcliffe , the estranged wife of the `` Yorkshire
+Ripper '' mass murderer</arg>
+</example>
+
+</roleset>
+<roleset id="award.02" name="give an award" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="award" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+<role descr="reason" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+By comparison , Cannes now gives $ 39,000 to the winner of its
+young director 's award .
+</text>
+<arg n="Support">gives to winner of</arg>
+<arg n="1">$ 39,000</arg>
+<arg n="2">to the winner</arg>
+<arg n="0">its</arg>
+<arg n="3">young director 's</arg>
+<rel>award</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The National Academy of Engineering gives two inventors of the
+semiconductor microchip a $ 350,000 achievement award
+</text>
+<arg n="0">The National Academy of Engineering</arg>
+<arg n="Support">gives</arg>
+<arg n="2">two inventors of the semiconductor microchip</arg>
+<arg n="1">$ 350,000</arg>
+<arg n="3">achievement</arg>
+<rel>award</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hedge">
+<roleset id="hedge.01" name="protect, minimize the loss" source="verb-hedge.01">
+<roles>
+
+<role descr="entity seeking to minimize a loss" n="0"></role>
+
+<role descr="thing protected" n="1"></role>
+
+<role descr="protected from" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a hedge against inflation for consumers
+</text>
+<arg n="3">hedge</arg>
+<rel>hedge</rel>
+<arg n="2">against inflation</arg>
+<arg n="1">for consumers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In the pension accounts he manages , Mr. Fleckenstein has raised
+cash positions and invested in gold and natural gas stocks ,
+partly as an inflation hedge .
+</text>
+<arg n="0">Mr. Fleckenstein</arg>
+<arg n="2">inflation</arg>
+<arg n="3">hedge</arg>
+<rel>hedge</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

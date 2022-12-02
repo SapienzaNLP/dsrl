@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clone">
+<roleset id="clone.01" name="copy" source="verb-clone.01">
+<roles>
+
+<role descr="cloner, agent" n="0"></role>
+
+<role descr="original" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Seiko Epson Corp. , a newcomer to the industry , fought off a
+legal challenge and started selling NEC clones last year .
+</text>
+<arg n="0">Seiko Epson Corp. , a newcomer to the industry ,</arg>
+<arg n="Support">started selling</arg>
+<arg n="1">NEC</arg>
+<rel>clones</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The designer , whose line of modular , one-size-fits-all clothing
+has spawned a host of clones ,
+</text>
+<arg n="1">
+The designer ---> whose line of modular , one-size-fits-all
+clothing ---> *T*-1</arg>
+<arg n="Support">spawned host of</arg>
+<rel>clones</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

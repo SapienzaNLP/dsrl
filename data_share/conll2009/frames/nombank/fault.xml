@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fault">
+<roleset id="fault.01" name="assign culpability" source="verb-fault.01" vncls="33">
+<roles>
+
+<role descr="blamer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="entity blamed" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="blamed for what" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it is basically their fault they ca n't attract new employees
+</text>
+<arg n="1">their</arg>
+<rel>fault</rel>
+<arg n="2">they ca n't attract new employees</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Baltimore Orioles ' fault
+</text>
+<arg n="1">the Baltimore Orioles '</arg>
+<rel>fault</rel>
+</example>
+
+</roleset>
+<roleset id="fault.02" name="break, but not into pieces" source="verb-crack.02" vncls="45.1">
+<roles>
+
+<role descr="breaker" n="0">
+<vnrole vncls="45.1" vntheta="Agent"/></role>
+
+<role descr="thing broken" n="1">
+<vnrole vncls="45.1" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="45.1" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fault is in the stairs from the bell tower that are located
+next to the altar
+</text>
+<rel>fault</rel>
+<arg n="1">
+in the stairs from the bell tower that are located next to the
+altar</arg>
+</example>
+
+<example name="autogen2">
+<text>
+three very dangerous faults
+</text>
+<arg f="MNR" n="M">very dangerous</arg>
+<rel>faults</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

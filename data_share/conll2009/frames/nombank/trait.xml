@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trait">
+<roleset id="trait.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+plants possessing a high-production trait
+</text>
+<arg n="1">plants</arg>
+<arg n="Support">possessing</arg>
+<arg n="2">high-production</arg>
+<rel>trait</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The new generation of plants will possess the flourishing ,
+high-production trait known as `` hybrid vigor , '' similar to
+that now seen in hybrid corn .
+</text>
+<arg n="1">The new generation of plants</arg>
+<arg n="Support">possess</arg>
+<arg n="2">high-production</arg>
+<rel>trait</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

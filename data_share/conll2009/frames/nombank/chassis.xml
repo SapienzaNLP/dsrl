@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chassis">
+<roleset id="chassis.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a new auto chassis
+</text>
+<arg n="1">auto</arg>
+<rel>chassis</rel>
+</example>
+
+<example name="autogen2">
+<text>
+chassis for recreational vehicles
+</text>
+<rel>chassis</rel>
+<arg n="1">for recreational vehicles</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

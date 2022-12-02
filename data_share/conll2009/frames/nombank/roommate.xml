@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="roommate">
+<roleset id="roommate.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Charles Manson 's roommate
+</text>
+<arg n="1">Charles Manson 's</arg>
+<arg n="0">roommate</arg>
+<rel>roommate</rel>
+</example>
+
+<example name="autogen2">
+<text>
+my roommate
+</text>
+<arg n="1">my</arg>
+<arg n="0">roommate</arg>
+<rel>roommate</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

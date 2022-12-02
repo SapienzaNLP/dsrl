@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="power">
+<roleset id="power.01" name="ability/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+<role descr="value" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their mighty shock-damping power
+</text>
+<arg n="0">their</arg>
+<arg n="3">mighty</arg>
+<arg n="1">shock-damping</arg>
+<rel>power</rel>
+</example>
+
+<example name="autogen2">
+<text>
+As a result , both may now have virtual veto power over any UAL
+transaction .
+</text>
+<arg n="0">both</arg>
+<arg n="Support">have</arg>
+<arg n="1">veto</arg>
+<rel>power</rel>
+<arg n="2">over any UAL transaction</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

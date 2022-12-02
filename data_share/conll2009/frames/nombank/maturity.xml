@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="maturity">
+<roleset id="maturity.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an average 120-day maturity of high-grade paper
+</text>
+<arg n="2">120-day</arg>
+<rel>maturity</rel>
+<arg n="1">of high-grade paper</arg>
+</example>
+
+<example name="autogen2">
+<text>
+longer maturities
+</text>
+<arg n="2">longer</arg>
+<rel>maturities</rel>
+</example>
+
+</roleset>
+<roleset id="maturity.02" name="grow up" source="verb-mature.01" vncls="26.2">
+<roles>
+
+<role descr="thing aging" n="1">
+<vnrole vncls="26.2" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their gestational age , weight and lung maturity
+</text>
+<arg n="1">lung</arg>
+<rel>maturity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+I can show signs of maturity
+</text>
+<arg n="1">I</arg>
+<arg n="Support">show signs of</arg>
+<rel>maturity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="replay">
+<roleset id="replay.01" name="nomlike" source="verb-recur.01">
+<roles>
+
+<role descr="event" n="1" source="0"></role>
+
+<role descr="value" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+as many as 650 replays
+</text>
+<arg n="2">as many as 650</arg>
+<rel>replays</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a replay of Friday
+</text>
+<rel>replay</rel>
+<arg n="1">of Friday</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

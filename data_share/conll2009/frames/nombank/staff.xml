@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="staff">
+<roleset id="staff.01" name="group/actrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's 2,500-person adminstrative staff
+</text>
+<arg n="2">the company 's</arg>
+<arg n="1">2,500-person</arg>
+<arg n="3">adminstrative</arg>
+<arg n="0">staff</arg>
+<rel>staff</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the network 's staff
+</text>
+<arg n="2">the network 's</arg>
+<arg n="0">staff</arg>
+<rel>staff</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

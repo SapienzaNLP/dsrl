@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hallmark">
+<roleset id="hallmark.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Spielvogel 's hallmark
+</text>
+<arg n="1">Mr. Spielvogel 's</arg>
+<arg n="0">hallmark</arg>
+<rel>hallmark</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a hallmark of federal credit
+</text>
+<arg n="0">hallmark</arg>
+<rel>hallmark</rel>
+<arg n="1">of federal credit</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

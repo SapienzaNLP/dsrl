@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="receiver">
+<roleset id="receiver.01" name="get" source="verb-receive.01" vncls="13.5.2">
+<roles>
+
+<role descr="receiver" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing gotten" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="received from" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="price, in exchange for" n="3"></role>
+
+<role descr="attribute of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+An FM receiver
+</text>
+<arg n="1">FM</arg>
+<arg n="0">receiver</arg>
+<rel>receiver</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a commercially available microwave receiver
+</text>
+<arg n="1">microwave</arg>
+<arg n="0">receiver</arg>
+<rel>receiver</rel>
+</example>
+
+</roleset>
+<roleset id="receiver.02" name="nomlike" source="verb-liquidate.01" vncls="42.1">
+<roles>
+
+<role descr="liquidator, agent" n="0">
+<vnrole vncls="42.1" vntheta="Agent"/></role>
+
+<role descr="thing being liquidated" n="1">
+<vnrole vncls="42.1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their receiver
+</text>
+<arg n="1">their</arg>
+<arg n="0">receiver</arg>
+<rel>receiver</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

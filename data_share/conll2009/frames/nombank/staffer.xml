@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="staffer">
+<roleset id="staffer.01" name="actrel" source="verb-employ.01" vncls="29.2">
+<roles>
+
+<role descr="relation holder" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1" source="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+<role descr="beneficiary" n="2" source="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The SEC has only about 200 staffers assigned to keep tabs on
+investment advisers -- about the same as in 1980 -- even though
+the number of advisers has tripled to about 15,000 over the past
+decade .
+</text>
+<arg n="2">The SEC</arg>
+<arg n="Support">has</arg>
+<arg n="0">staffers</arg>
+<rel>staffers</rel>
+<arg n="Support">assigned</arg>
+<arg f="PRD" n="1">to keep tabs on investment advisers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+15,000 congressional staffers
+</text>
+<arg n="2">congressional</arg>
+<arg n="0">staffers</arg>
+<rel>staffers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

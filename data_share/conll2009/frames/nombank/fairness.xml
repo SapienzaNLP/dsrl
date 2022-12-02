@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fairness">
+<roleset id="fairness.01" name="attribute/nomadj-fair">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+we proceed with exemplary fairness
+</text>
+<arg n="0">we</arg>
+<arg n="2">exemplary</arg>
+<rel>fairness</rel>
+</example>
+
+<example name="autogen2">
+<text>
+they merely were trying to ensure fairness for a constituent
+</text>
+<arg n="0">they ---> *-1</arg>
+<arg n="Support">ensure</arg>
+<arg f="REF" n="2">fairness</arg>
+<rel>fairness</rel>
+<arg n="3">for a constituent</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

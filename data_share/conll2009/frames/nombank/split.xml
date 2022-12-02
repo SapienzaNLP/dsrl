@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="split">
+<roleset id="split.01" name="divide, separate" source="verb-split.01" vncls="23.2">
+<roles>
+
+<role descr="entity causing separation" n="0">
+<vnrole vncls="23.2" vntheta="Agent"/></role>
+
+<role descr="thing being divided" n="1">
+<vnrole vncls="23.2" vntheta="Patient"/></role>
+
+<role descr="divided among/between, if separate from arg0" n="2">
+<vnrole vncls="23.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Pentagon 's proposed split of 60-40 between domestic and
+foreign bases
+</text>
+<arg n="0">the Pentagon 's</arg>
+<rel>split</rel>
+<arg n="1">of 60-40</arg>
+<arg n="2">between domestic and foreign bases</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a split between the internal and external wings of the ANC and
+between the newly freed leaders and those activists who have
+emerged as leaders inside the country during their imprisonment
+</text>
+<rel>split</rel>
+<arg n="1">
+between the internal and external wings of the ANC and between
+the newly freed leaders and those activists who have emerged as
+leaders inside the country during their imprisonment</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

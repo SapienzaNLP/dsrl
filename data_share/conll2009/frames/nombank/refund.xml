@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="refund">
+<roleset id="refund.01" name="pay back" source="verb-refund.01" vncls="13.1-1">
+<roles>
+
+<role descr="refunder" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="amount refunded" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="refunded to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="in exchange for (might not be present" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+-- Prevent companies that have made leveraged buy-outs from
+getting federal tax refunds resulting from losses caused by
+interest payments on debt issued to finance the buy-outs ,
+effective Aug. 2 , 1989 .
+</text>
+<arg n="2">companies that have made leveraged buy-outs ---> *-1</arg>
+<arg n="Support">getting</arg>
+<arg n="0">federal</arg>
+<arg n="1">tax</arg>
+<rel>refunds</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a California Public Utilities Commission refund for an American
+Telephone &amp; Telegraph Co. billing adjustment
+</text>
+<arg n="0">California Public Utilities Commission</arg>
+<arg f="REF" n="1">refund</arg>
+<rel>refund</rel>
+<arg n="3">for an American Telephone &amp; Telegraph Co. billing adjustment</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

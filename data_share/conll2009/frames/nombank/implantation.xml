@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="implantation">
+<roleset id="implantation.01" name="put in" source="verb-implant.01">
+<roles>
+
+<role descr="putter" n="0"></role>
+
+<role descr="thing implanted" n="1"></role>
+
+<role descr="implanted into" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A healthy embryo can be picked for implantation
+</text>
+<arg n="1">A healthy embryo ---> *-1</arg>
+<arg n="Support">picked for</arg>
+<rel>implantation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

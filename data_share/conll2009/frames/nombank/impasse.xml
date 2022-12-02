@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="impasse">
+<roleset id="impasse.01" name="disagree" source="verb-disagree.01" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a long impasse between the congressional leaders and the White
+House over the wage issue
+</text>
+<arg f="TMP" n="M">long</arg>
+<rel>impasse</rel>
+<arg n="0">between the congressional leaders and the White House</arg>
+<arg n="2">over the wage issue</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a long impasse between Democrats and the president
+</text>
+<arg f="TMP" n="M">long</arg>
+<rel>impasse</rel>
+<arg n="0">between Democrats and the president</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

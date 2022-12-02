@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="examination">
+<roleset id="examination.01" name="look at closely" source="verb-examine.01" vncls="30.2">
+<roles>
+
+<role descr="examiner" n="0">
+<vnrole vncls="30.2" vntheta="Agent"/></role>
+
+<role descr="thing examined" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his cross examination of Mr. Lorin
+</text>
+<arg n="0">his</arg>
+<rel>examination</rel>
+<arg n="1">of Mr. Lorin</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Lincoln 's examination reports
+</text>
+<arg n="1">Lincoln 's</arg>
+<rel>examination</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="outfit">
+<roleset id="outfit.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an Army mass delousing outfit
+</text>
+<arg n="0">Army</arg>
+<arg n="1">mass delousing</arg>
+<rel>outfit</rel>
+</example>
+
+<example name="autogen2">
+<text>
+More than 200 catalog outfits
+</text>
+<arg n="1">catalog</arg>
+<rel>outfits</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

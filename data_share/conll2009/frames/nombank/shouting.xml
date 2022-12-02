@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shouting">
+<roleset id="shouting.01" name="talk very loudly" source="verb-shout.01" vncls="37.3">
+<roles>
+
+<role descr="shouter" n="0">
+<vnrole vncls="37.3" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.3" vntheta="Topic"/></role>
+
+<role descr="listener" n="2">
+<vnrole vncls="37.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+although there will be a studio audience , viewers will no longer
+have to endure the shouting of `` Mort ! Mort ! Mort ! ''
+</text>
+<arg n="2">viewers ---> *-1</arg>
+<arg n="Support">endure</arg>
+<rel>shouting</rel>
+<arg n="1">of `` Mort ! Mort ! Mort ! ''</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="buffer">
+<roleset id="buffer.01" name="nomlike" source="verb-bar.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+act as a buffer against steep market declines
+</text>
+<arg n="0">buffer</arg>
+<rel>buffer</rel>
+<arg n="1">against steep market declines</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a small buffer against a stock-market decline
+</text>
+<arg n="0">buffer</arg>
+<rel>buffer</rel>
+<arg n="1">against a stock-market decline</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

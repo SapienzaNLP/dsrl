@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="solidarity">
+<roleset id="solidarity.01" name="to share the feelings or ideas" source="verb-sympathize.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="shared feelings or ideas" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The solidarity of the uncensored media world-wide against drug
+terrorism
+</text>
+<rel>solidarity</rel>
+<arg n="0">of the uncensored media world-wide</arg>
+<arg n="1">against drug terrorism</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

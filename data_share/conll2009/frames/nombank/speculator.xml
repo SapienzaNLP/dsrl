@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="speculator">
+<roleset id="speculator.01" name="prognosticate" source="verb-speculate.01">
+<roles>
+
+<role descr="speculator" n="0"></role>
+
+<role descr="thing speculated on" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+stock speculators
+</text>
+<arg n="1">stock</arg>
+<arg n="0">speculators</arg>
+<rel>speculators</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Wall Street 's takeover-stock speculators , or `` risk
+arbitragers , ''
+</text>
+<arg n="1">takeover-stock</arg>
+<arg n="0">speculators</arg>
+<rel>speculators</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recommendation">
+<roleset id="recommendation.01" name="recommend" source="verb-recommend.01" vncls="29.2">
+<roles>
+
+<role descr="recommender" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing recommended" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="recommended to" n="2">
+<vnrole vncls="29.2" vntheta="Recipient"/></role>
+
+<role descr="secondary attribute" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it has had a buy recommendation on the stock for about two years
+</text>
+<arg n="0">it</arg>
+<arg n="Support">had</arg>
+<arg n="1">buy</arg>
+<rel>recommendation</rel>
+<arg n="3">on the stock</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a `` buy/hold '' recommendation on the stock
+</text>
+<arg n="1">buy/hold</arg>
+<rel>recommendation</rel>
+<arg n="3">on the stock</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

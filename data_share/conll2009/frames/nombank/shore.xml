@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shore">
+<roleset id="shore.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the shores of Albion
+</text>
+<rel>shores</rel>
+<arg n="1">of Albion</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the New Jersey shore
+</text>
+<arg n="1">New Jersey</arg>
+<rel>shore</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

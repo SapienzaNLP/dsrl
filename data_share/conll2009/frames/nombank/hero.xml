@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hero">
+<roleset id="hero.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his sports hero
+</text>
+<arg n="2">his</arg>
+<arg n="1">sports</arg>
+<arg n="0">hero</arg>
+<rel>hero</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a hero of the Dutch-descended Afrikaners
+</text>
+<arg n="0">hero</arg>
+<rel>hero</rel>
+<arg n="2">of the Dutch-descended Afrikaners</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

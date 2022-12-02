@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="office">
+<roleset id="office.01" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+viable candidates for congressional office
+</text>
+<arg n="0">viable candidates</arg>
+<arg n="1">congressional</arg>
+<rel>office</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the republic 's highest office
+</text>
+<arg n="2">the republic 's</arg>
+<rel>office</rel>
+</example>
+
+</roleset>
+<roleset id="office.02" name="partitive-part/group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Inspector General 's office of the Health and Human Services
+Department
+</text>
+<arg n="2">the Inspector General 's</arg>
+<rel>office</rel>
+<arg n="1">of the Health and Human Services Department</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Sen. DeConcini 's office
+</text>
+<arg n="2">Sen. DeConcini 's</arg>
+<rel>office</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

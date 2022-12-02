@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cutter">
+<roleset id="cutter.01" name="cut up: cut completely" source="verb-cut.08">
+<roles>
+
+<role descr="cutter" n="0"></role>
+
+<role descr="thing now in pieces" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+bolt cutters
+</text>
+<arg n="1">bolt</arg>
+<arg n="0">cutters</arg>
+<rel>cutters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,78 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bond">
+<roleset id="bond.01" name="enter into a contract" source="verb-contract.02">
+<roles>
+
+<role descr="purchaser/owner" n="0"></role>
+
+<role descr="purpose/collateral" n="1"></role>
+
+<role descr="borrower/issuer" n="2"></role>
+
+<role descr="yield" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its 12 7/8 % first mortgage bonds
+</text>
+<arg n="2">its</arg>
+<arg n="3">12 7/8 %</arg>
+<arg n="1">first mortgage</arg>
+<rel>bonds</rel>
+</example>
+
+<example name="autogen2">
+<text>
+to get rid of some nearly worthless Japanese bonds
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">get rid of</arg>
+<arg n="3">nearly worthless</arg>
+<arg n="2">Japanese</arg>
+<rel>bonds</rel>
+</example>
+
+</roleset>
+<roleset id="bond.02" name="attach, as with glue" source="verb-bond.01">
+<roles>
+
+<role descr="attacher, agent" n="0"></role>
+
+<role descr="focus of attachment" n="1"></role>
+
+<role descr="thing bonded to" n="2"></role>
+
+<role descr="instrument of bonding, glue" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the country 's colonial bonds to the U.S.
+</text>
+<arg n="1">colonial</arg>
+<arg n="3">colonial</arg>
+<rel>bonds</rel>
+<arg n="2">to the U.S.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` Too often , advertising imagery has n't done a good job of
+forging a special emotional bond between a brand and the consumer
+. ''
+</text>
+<arg n="0">advertising imagery ---> *-1</arg>
+<arg n="Support">forging</arg>
+<arg f="MNR" n="M">special</arg>
+<arg n="3">emotional</arg>
+<rel>bond</rel>
+<arg n="1">between a brand and the consumer</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="boardroom">
+<roleset id="boardroom.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the boardrooms of corporations
+</text>
+<rel>boardrooms</rel>
+<arg n="1">of corporations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Corporate Boardrooms
+</text>
+<arg n="1">Corporate</arg>
+<rel>Boardrooms</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

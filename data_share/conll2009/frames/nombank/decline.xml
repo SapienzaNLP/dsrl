@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="decline">
+<roleset id="decline.01" name="fall" source="verb-decline.01" vncls="45.6">
+<roles>
+
+<role descr="logical subject, patient, thing declining" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext, amount declined by" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point, end state of arg1" n="4"></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Corning Inc. posted a 38 % decline in third-quarter net income to
+$ 76.5 million , or 80 cents a share , from $ 123.9 million , or
+$ 1.37 a share , a year earlier .
+</text>
+<arg n="1">Corning Inc.</arg>
+<arg n="Support">posted</arg>
+<arg n="2">38 %</arg>
+<rel>decline</rel>
+<arg f="TMP" n="M">in third-quarter net income</arg>
+<arg n="4">to $ 76.5 million , or 80 cents a share</arg>
+<arg n="3">from $ 123.9 million , or $ 1.37 a share , a year earlier</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 1.1 billion decline in reserve assets in August to $ 62.36
+billion
+</text>
+<arg n="2">$ 1.1 billion</arg>
+<rel>decline</rel>
+<arg n="1">in reserve assets</arg>
+<arg f="TMP" n="M">in August</arg>
+<arg n="4">to $ 62.36 billion</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prerequisite">
+<roleset id="prerequisite.01" name="need" source="verb-require.01">
+<roles>
+
+<role descr="requirer" n="0"></role>
+
+<role descr="thing required" n="1"></role>
+
+<role descr="required-of, required-from ('ablative" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+dozens of school systems made community service a prerequisite to
+high-school graduation
+</text>
+<arg n="0">dozens of school systems</arg>
+<arg n="Support">made</arg>
+<arg n="1">community service</arg>
+<rel>prerequisite</rel>
+<arg n="2">to high-school graduation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

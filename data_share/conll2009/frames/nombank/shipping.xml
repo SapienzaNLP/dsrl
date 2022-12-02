@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shipping">
+<roleset id="shipping.01" name="send a package" source="verb-ship.01" vncls="11.1-1">
+<roles>
+
+<role descr="sender" n="0">
+<vnrole vncls="11.1-1" vntheta="Agent"/></role>
+
+<role descr="package" n="1">
+<vnrole vncls="11.1-1" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="11.1-1" vntheta="Destination"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="11.1-1" vntheta="Source"/></role>
+
+<role descr="path" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+shipping concern
+</text>
+<rel>shipping</rel>
+<arg n="0">concern</arg>
+</example>
+
+<example name="autogen2">
+<text>
+rail , air and ocean-shipping links
+</text>
+<arg n="4">ocean-shipping</arg>
+<rel>ocean-shipping</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

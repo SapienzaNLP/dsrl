@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consuming">
+<roleset id="consuming.01" name="eat, use up" source="verb-consume.01" vncls="39.4">
+<roles>
+
+<role descr="consumer" n="0">
+<vnrole vncls="39.4" vntheta="Agent"/></role>
+
+<role descr="consumed" n="1">
+<vnrole vncls="39.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+consuming industries
+</text>
+<rel>consuming</rel>
+<arg n="0">industries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their consuming years
+</text>
+<arg n="0">their</arg>
+<rel>consuming</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

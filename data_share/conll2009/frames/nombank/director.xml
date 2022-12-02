@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="director">
+<roleset id="director.01" name="actrel/nom" source="verb-direct.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+executive vice president , deputy creative director at Grey
+Advertising , New York
+</text>
+<arg n="3">deputy</arg>
+<arg n="1">creative</arg>
+<arg n="0">director</arg>
+<rel>director</rel>
+<arg n="2">at Grey Advertising , New York</arg>
+</example>
+
+<example name="autogen2">
+<text>
+managing director of Playmates
+</text>
+<arg n="3">managing</arg>
+<arg n="0">director</arg>
+<rel>director</rel>
+<arg n="2">of Playmates</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

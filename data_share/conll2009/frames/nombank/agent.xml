@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="agent">
+<roleset id="agent.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its exclusive agent for the stock buy-back program
+</text>
+<arg n="2">its</arg>
+<arg n="0">agent</arg>
+<rel>agent</rel>
+<arg n="1">for the stock buy-back program</arg>
+</example>
+
+<example name="autogen2">
+<text>
+agent for a customer
+</text>
+<arg n="0">agent</arg>
+<rel>agent</rel>
+<arg n="2">for a customer</arg>
+</example>
+
+</roleset>
+<roleset id="agent.02" name="to initiate change" source="verb-catalyze.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="resultant state" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+foaming agents
+</text>
+<arg n="1">foaming</arg>
+<arg n="0">agents</arg>
+<rel>agents</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the rival anti-clotting agent streptokinase
+</text>
+<arg n="1">anti-clotting</arg>
+<arg n="0">agent</arg>
+<rel>agent</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

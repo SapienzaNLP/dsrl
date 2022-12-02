@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="patron">
+<roleset id="patron.01" name="give money to" source="verb-patronize.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his patron
+</text>
+<arg n="1">his</arg>
+<arg n="0">patron</arg>
+<rel>patron</rel>
+</example>
+
+<example name="autogen2">
+<text>
+this congressional patron
+</text>
+<arg n="1">congressional</arg>
+<arg n="0">patron</arg>
+<rel>patron</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

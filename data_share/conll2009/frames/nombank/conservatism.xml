@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conservatism">
+<roleset id="conservatism.01" name="nomadj-conservative">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his conservatism
+</text>
+<arg n="0">his</arg>
+<rel>conservatism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

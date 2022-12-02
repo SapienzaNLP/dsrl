@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consent">
+<roleset id="consent.01" name="agree to" source="verb-consent.01">
+<roles>
+
+<role descr="agreer, consenter" n="0"></role>
+
+<role descr="thing consented to" n="1"></role>
+
+<role descr="consent beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+TransAtlantic , whose Transol Investments Ltd. unit owns the
+largest minority stake in Sun Life , has agreed not to make a
+takeover bid for the British life insurer without the prior
+consent of the French company , known as UAP .
+</text>
+<arg n="2">
+TransAtlantic , whose Transol Investments Ltd. unit owns the
+largest minority stake in Sun Life , ---> *-2</arg>
+<arg n="1">make a takeover bid for the British life insurer</arg>
+<arg f="TMP" n="M">prior</arg>
+<rel>consent</rel>
+<arg n="0">of the French company , known as UAP</arg>
+</example>
+
+<example name="autogen3">
+<text>
+shareholder consents
+</text>
+<arg n="0">shareholder</arg>
+<rel>consents</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

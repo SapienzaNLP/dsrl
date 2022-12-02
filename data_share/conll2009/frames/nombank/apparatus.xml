@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="apparatus">
+<roleset id="apparatus.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its security apparatus
+</text>
+<arg n="0">its</arg>
+<arg n="1">security</arg>
+<rel>apparatus</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the yeast genetic apparatus
+</text>
+<arg n="0">yeast</arg>
+<arg n="1">genetic</arg>
+<rel>apparatus</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

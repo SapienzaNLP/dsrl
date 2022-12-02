@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="forecasting">
+<roleset id="forecasting.01" name="tell the future" source="verb-forecast.01">
+<roles>
+
+<role descr="fortune teller" n="0"></role>
+
+<role descr="prediction" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Washington economic forecasting firm
+</text>
+<arg n="1">economic</arg>
+<rel>forecasting</rel>
+<arg n="0">firm</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a Bala Cynwyd , Pa. , forecasting company
+</text>
+<rel>forecasting</rel>
+<arg n="0">company</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

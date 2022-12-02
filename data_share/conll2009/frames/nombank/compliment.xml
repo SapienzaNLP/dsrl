@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="compliment">
+<roleset id="compliment.01" name="give a compliment to" source="verb-compliment.01" vncls="33">
+<roles>
+
+<role descr="giver of compliment" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Early in 1987 , Mr. Honecker and his team stopped paying thin
+compliments to Mr. Gorbachev and joined with Romania in rejecting
+any necessity for adjustments in their systems .
+</text>
+<arg n="0">Mr. Honecker and his team ---> *-1</arg>
+<arg n="Support">paying</arg>
+<arg f="MNR" n="M">thin</arg>
+<rel>compliments</rel>
+<arg n="2">to Mr. Gorbachev</arg>
+</example>
+
+<example name="autogen2">
+<text>
+When his wife , Betsy , came down the aisle on their wedding day
+in 1966 , Mr. Engelken -- no slouch on the romantic front -- gave
+her the ultimate compliment : `` You look prettier than Bobby
+Thomson 's home run . ''
+</text>
+<arg n="0">Mr. Engelken -- no slouch on the romantic front --</arg>
+<arg n="Support">gave</arg>
+<arg n="2">her</arg>
+<arg f="MNR" n="M">ultimate</arg>
+<rel>compliment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,106 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trail">
+<note>
+  Frames file for 'trail' based on sentences in financial subcorpus.
+  No access to verbnet.  Comparison to 'follow'.
+</note>
+
+<roleset id="trail.01" name="be subsequent, temporally or spatially, or less than" vncls="51.6">
+<roles>
+  <role descr="thing following" n="0">
+	<vnrole vncls="51.6" vntheta="Agent"/></role>
+  <role descr="thing followed" n="1">
+	<vnrole vncls="51.6" vntheta="Theme"/></role>
+</roles>
+
+<example name="be less than">
+<text>
+    Hit by higher costs and lower sales, Caterpillar Inc. said
+    third-quarter earnings tumbled 43% and full-year earnings will
+    trail last year's results. 
+</text>
+        <arg n="0">full-year earnings</arg>
+        <arg f="MOD" n="M">will</arg>
+        <rel>trail</rel>
+        <arg n="1">last year's results</arg>
+</example>
+
+<example name="spatial">
+  <text>
+    John trailed the ferocious bunny rabbit through the woods.
+  </text>
+  <arg n="0">John</arg>
+  <rel>trailed</rel>
+  <arg n="1">the ferocious bunny rabbit</arg>
+  <arg f="DIR" n="m">through the woods</arg>
+</example>
+
+</roleset>
+
+<roleset id="trail.03" vncls="-" name="drag, draw, trail">
+<roles>
+  <role n="0"  descr="dragger, drawer"/>
+  <role n="1"  descr="trailer"/>
+</roles>
+
+<example name="redundant locative">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+ In the very front rank , two men were wounded and staggered along , [*-1] trailing blood behind them .
+</text>
+	<arg n="0">[*-1] ->  two men</arg>
+	<rel>trailing</rel>
+	<arg n="1">blood</arg>
+	<arg n="M" f="LOC">behind them</arg>
+</example>
+
+<example name="stationary trailing">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+ His rock [*ICH*-1] was to the right of a V-shaped inlet , a big , brown , lumpy rock trailing seaweed whiskers .
+</text>
+	<arg n="0">a big , brown , lumpy rock</arg>
+	<rel>trailing</rel>
+	<arg n="1">seaweed whiskers</arg>
+</example>
+
+<example name="inverted syntax">
+<inflection person="ns" tense="past" aspect="ns" voice="active" form="full"/>
+<text>
+ He had taken a carbine down from the wall and it trailed from his hand , the stock bumping on the wood floor .
+</text>
+	<arg n="1">it</arg>
+	<rel>trailed</rel>
+	<arg n="0" f="from">from his hand</arg>
+	<arg n="M" f="ADV">the stock bumping on the wood floor</arg>
+</example>
+
+</roleset>
+</predicate>
+
+<predicate lemma="trail_off">
+
+<roleset id="trail.02" name="trail off: come to an end" vncls="-">
+<roles>
+  <role descr="thing ending" n="1"/>
+</roles>
+
+<example name="a sticky end">
+<text>
+    Commodore has said it expects sales to rebound, but market
+    researchers have said that sales of the low-end products may
+    finally be trailing off. 
+</text>
+        <arg n="1">sales of the low-end products</arg>
+        <arg f="MOD" n="M">may</arg>
+        <arg f="TMP" n="M">finally</arg>
+        <rel>[ trailing] [ off]</rel>
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+</frameset>

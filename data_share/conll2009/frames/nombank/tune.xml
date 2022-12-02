@@ -1,0 +1,83 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tune">
+<roleset id="tune.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ms. Collins 's signature tune
+</text>
+<arg n="0">Ms. Collins 's</arg>
+<rel>tune</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a snappy tune sung by a popular Japanese vocalist
+</text>
+<rel>tune</rel>
+<arg n="Support">sung</arg>
+<arg n="0">by a popular Japanese vocalist</arg>
+</example>
+
+</roleset>
+<roleset id="tune.02" name="to-the-tune-of/nomadv-approximately">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the tune of 53 Australian cents a share
+</text>
+<rel>tune</rel>
+<arg n="1">of 53 Australian cents a share</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the tune of an 85 % average subscription renewal rate
+</text>
+<rel>tune</rel>
+<arg n="1">of an 85 % average subscription renewal rate</arg>
+</example>
+
+</roleset>
+<roleset id="tune.03" name="nomadjlike-harmonious">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="standard" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the only note that 's truly in tune
+</text>
+<arg n="1">the only note ---> that ---> *T*-1</arg>
+<rel>tune</rel>
+</example>
+
+<example name="autogen2">
+<text>
+we were in tune with the marketplace
+</text>
+<arg n="1">we</arg>
+<rel>tune</rel>
+<arg n="2">with the marketplace</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

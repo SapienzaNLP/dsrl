@@ -1,0 +1,13 @@
+_target_: src.multi_dataset_evaluation.MultiDatasetEvaluation
+evaluations:
+  conll2009:
+    _target_: src.multi_dataset_evaluation.DatasetSpecificEvaluation
+    dataset_id: conll2009
+    evaluation:
+      _target_: src.conll2009_evaluation.Conll2009Evaluation
+      frames_path: data_share/conll2009/frames/conll2009_frames.json
+      argm_definitions_path: data_share/conll2009/frames/conll2009_argm_definitions.json
+      conll_path: data_share/conll2009/original/CoNLL2009_test-ood.txt
+      output_path: CoNLL2009_test-ood.pred.txt
+      scorer_path: scripts/scorers/eval09.pl
+      language_model_name: princeton-nlp/sup-simcse-roberta-base

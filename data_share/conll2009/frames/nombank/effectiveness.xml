@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="effectiveness">
+<roleset id="effectiveness.01" name="nomadj-effective">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Its effectiveness
+</text>
+<arg n="1">Its</arg>
+<rel>effectiveness</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the code 's effectiveness
+</text>
+<arg n="1">the code 's</arg>
+<rel>effectiveness</rel>
+</example>
+
+</roleset>
+<roleset id="effectiveness.02" name="nomadj-in-effect">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the effectiveness of its registration statement for $ 125 million
+of 6 3/8 % convertible subordinated debentures due Oct. 15 , 1999
+</text>
+<rel>effectiveness</rel>
+<arg n="1">
+of its registration statement for $ 125 million of 6 3/8 %
+convertible subordinated debentures due Oct. 15 , 1999</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

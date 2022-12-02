@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nemesis">
+<roleset id="nemesis.01" name="destroy" source="verb-ruin.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its longtime nemesis
+</text>
+<arg n="1">its</arg>
+<arg f="TMP" n="M">longtime</arg>
+<arg n="0">nemesis</arg>
+<rel>nemesis</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Lawson 's nemesis
+</text>
+<arg n="1">Mr. Lawson 's</arg>
+<arg n="0">nemesis</arg>
+<rel>nemesis</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

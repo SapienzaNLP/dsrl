@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="switcher">
+<roleset id="switcher.01" name="ex)change" source="verb-switch.02">
+<roles>
+
+<role descr="causer of transformation" n="0"></role>
+
+<role descr="thing changing" n="1"></role>
+
+<role descr="end state, attribute of arg1" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+brand switchers
+</text>
+<arg n="1">brand</arg>
+<arg n="0">switchers</arg>
+<rel>switchers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

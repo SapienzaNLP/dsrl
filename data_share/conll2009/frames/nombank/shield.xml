@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shield">
+<roleset id="shield.01" name="protect" source="verb-shield.01">
+<roles>
+
+<role descr="protector" n="0"></role>
+
+<role descr="protected" n="1"></role>
+
+<role descr="danger" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The collagen corneal shield
+</text>
+<arg n="0">collagen</arg>
+<arg n="1">corneal</arg>
+<rel>shield</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Fifth Amendment shield against self-incrimination
+</text>
+<arg n="0">Fifth Amendment</arg>
+<rel>shield</rel>
+<arg n="2">against self-incrimination</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

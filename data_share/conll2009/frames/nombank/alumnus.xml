@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="alumnus">
+<roleset id="alumnus.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Greenville High School 's alumni association
+</text>
+<arg n="1">Greenville High School 's</arg>
+<arg n="0">alumni</arg>
+<rel>alumni</rel>
+</example>
+
+<example name="autogen2">
+<text>
+another Steinhardt Partners alumnus
+</text>
+<arg n="1">Steinhardt Partners</arg>
+<arg n="0">alumnus</arg>
+<rel>alumnus</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

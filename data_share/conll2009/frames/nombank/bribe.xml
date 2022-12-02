@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bribe">
+<roleset id="bribe.01" name="to make illegal payments in exchange for favors" source="verb-bribe.01">
+<roles>
+
+<role descr="briber, agent" n="0"></role>
+
+<role descr="person  bribed" n="1"></role>
+
+<role descr="favor" n="2"></role>
+
+<role descr="ammount exchanged" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he conspired with a Washington lawyer to obtain a $ 150,000 bribe
+from defendants in a criminal case before the judge , in return
+for leniency
+</text>
+<arg n="1">he ---> *-1</arg>
+<arg n="Support">obtain</arg>
+<arg n="3">$ 150,000</arg>
+<rel>bribe</rel>
+<arg n="0">from defendants in a criminal case before the judge</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In 1983 , Mr. Hastings was found not guilty of accepting a $
+150,000 bribe in a case before him , the central charge on which
+the Senate convicted him .
+</text>
+<arg n="1">Mr. Hastings ---> *-1 ---> *</arg>
+<arg n="Support">accepting</arg>
+<arg n="3">$ 150,000</arg>
+<rel>bribe</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

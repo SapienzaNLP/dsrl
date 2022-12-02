@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="protocol">
+<roleset id="protocol.01" name="to direct" source="verb-guide.01">
+<roles>
+
+<role descr="guide, agent" n="0"></role>
+
+<role descr="entity guided" n="1"></role>
+
+<role descr="guided in/through" n="2"></role>
+
+<role descr="signposts along the way" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Funded by a $ 1 million gift from Tokio Marine &amp; Fire Insurance ,
+the service will follow Japanese medical protocols , including
+emphasis on preventative medicine .
+</text>
+<arg n="1">the service</arg>
+<arg n="Support">follow</arg>
+<arg n="0">Japanese</arg>
+<arg n="2">medical</arg>
+<rel>protocols</rel>
+</example>
+
+<example name="autogen2">
+<text>
+These research protocols
+</text>
+<arg n="2">research</arg>
+<rel>protocols</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

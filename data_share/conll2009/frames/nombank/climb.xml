@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="climb">
+<roleset id="climb.01" name="intentional climber" source="verb-climb.01" vncls="51.3.2">
+<roles>
+
+<role descr="climber" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="thing climbed (clomb" n="1">
+<vnrole vncls="51.3.2" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to make the spiral climb up 294 steps to the top of the
+800-year-old marble tower
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">make</arg>
+<arg f="MNR" n="M">spiral</arg>
+<rel>climb</rel>
+<arg n="1">up 294 steps</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this year 's market climb
+</text>
+<arg f="TMP" n="M">this year 's</arg>
+<arg n="1">market</arg>
+<rel>climb</rel>
+</example>
+
+</roleset>
+<roleset id="climb.02" name="non-intentional climber; cf rise" source="verb-climb.02" vncls="47.7">
+<roles>
+
+<role descr="climber" n="1">
+<vnrole vncls="47.7" vntheta="Theme"/></role>
+
+<role descr="ext, amount risen" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its steady climb back to health
+</text>
+<arg n="1">its</arg>
+<arg f="MNR" n="M">steady</arg>
+<rel>climb</rel>
+<arg n="4">back to health</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the climb in oil prices last month
+</text>
+<rel>climb</rel>
+<arg n="1">in oil prices</arg>
+<arg f="TMP" n="M">last month</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

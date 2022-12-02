@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="offensive">
+<roleset id="offensive.01" name="to make an attack, criticize strongly" source="verb-attack.01">
+<roles>
+
+<role descr="attacker" n="0"></role>
+
+<role descr="entity attacked" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And Hitachi went on the offensive against the U.S. 's Motorola
+Inc. earlier this month with a suit charging that Motorola 's new
+MC88200 chip infringes on a Hitachi patent .
+</text>
+<arg n="0">Hitachi</arg>
+<arg n="Support">went on</arg>
+<rel>offensive</rel>
+<arg n="1">against the U.S. 's Motorola Inc.</arg>
+<arg n="2">
+with a suit charging that Motorola 's new MC88200 chip infringes
+on a Hitachi patent</arg>
+</example>
+
+<example name="autogen2">
+<text>
+IBM go on the offensive against Digital Equipment Corp. on the
+plant floor
+</text>
+<arg n="0">IBM</arg>
+<arg n="Support">go on</arg>
+<rel>offensive</rel>
+<arg n="1">against Digital Equipment Corp.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

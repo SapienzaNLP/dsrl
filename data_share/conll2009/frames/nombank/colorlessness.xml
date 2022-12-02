@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="colorlessness">
+<roleset id="colorlessness.01" name="nomadj-colorless">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the seed 's colorlessness and size
+</text>
+<arg n="1">the seed 's</arg>
+<rel>colorlessness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

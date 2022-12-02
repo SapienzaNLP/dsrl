@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deadline">
+<roleset id="deadline.01" name="attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its cost-sharing deadline
+</text>
+<arg n="0">its</arg>
+<arg n="1">cost-sharing</arg>
+<rel>deadline</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the administration 's year-end deadline
+</text>
+<arg n="0">the administration 's</arg>
+<arg n="2">year-end</arg>
+<rel>deadline</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

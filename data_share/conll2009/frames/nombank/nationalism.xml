@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nationalism">
+<roleset id="nationalism.01" name="attribute/nomadj-nationalistic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mexican nationalism
+</text>
+<arg n="2">Mexican</arg>
+<rel>nationalism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

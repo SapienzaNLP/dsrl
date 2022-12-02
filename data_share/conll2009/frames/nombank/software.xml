@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="software">
+<roleset id="software.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="medium" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its airline yield-management software
+</text>
+<arg n="0">its</arg>
+<arg n="2">airline</arg>
+<arg n="1">yield-management</arg>
+<rel>software</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Commodore 64 and 128 , mainly used for children 's
+educational software and games ,
+</text>
+<arg n="3">The Commodore 64 and 128</arg>
+<arg n="Support">used for</arg>
+<arg n="2">children 's</arg>
+<arg n="1">educational</arg>
+<rel>software</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

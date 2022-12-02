@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="compiler">
+<roleset id="compiler.01" name="collect" source="verb-compile.01" vncls="26.1">
+<roles>
+
+<role descr="agent, entity acquiring something" n="0">
+<vnrole vncls="26.1" vntheta="Agent"/></role>
+
+<role descr="thing acquired" n="1">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="26.1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a compiler of educational information
+</text>
+<arg n="0">compiler</arg>
+<rel>compiler</rel>
+<arg n="1">of educational information</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

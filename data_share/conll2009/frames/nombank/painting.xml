@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="painting">
+<roleset id="painting.01" name="work-of-art" source="verb-paint.02" vncls="26.7-2">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Trotter 's painting showed a wall of wood boards with painted
+ribbons tacked down in a rectangle
+</text>
+<arg n="0">Mr. Trotter 's</arg>
+<rel>painting</rel>
+<arg n="Support">showed</arg>
+<arg n="1">
+a wall of wood boards with painted ribbons tacked down in a
+rectangle</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Preti painting
+</text>
+<arg n="0">Preti</arg>
+<rel>painting</rel>
+</example>
+
+</roleset>
+<roleset id="painting.02" name="put paint on a surface" source="verb-paint.01" vncls="25.1">
+<roles>
+
+<role descr="agent, painter" n="0">
+<vnrole vncls="25.1" vntheta="Agent"/></role>
+
+<role descr="surface" n="1">
+<vnrole vncls="25.1" vntheta="Destination"/></role>
+
+<role descr="explicit mention of paint" n="2">
+<vnrole vncls="25.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+robotic painting
+</text>
+<arg n="0">robotic</arg>
+<rel>painting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

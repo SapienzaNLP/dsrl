@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="coincidence">
+<roleset id="coincidence.01" name="nomadj-coincidental" source="verb-coincide.01" vncls="22.2">
+<roles>
+
+<role descr="thing(s) happening" n="1">
+<vnrole vncls="22.2" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any coincidence about the departures
+</text>
+<rel>coincidence</rel>
+<arg n="1">about the departures</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the timing was a coincidence
+</text>
+<arg n="1">the timing</arg>
+<rel>coincidence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

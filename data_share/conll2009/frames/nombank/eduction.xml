@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="eduction">
+<roleset id="eduction.01" name="teach" source="verb-educate.01">
+<roles>
+
+<role descr="teacher" n="0"></role>
+
+<role descr="student(s" n="1"></role>
+
+<role descr="subject" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your child 's eduction
+</text>
+<arg n="1">your child 's</arg>
+<rel>eduction</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

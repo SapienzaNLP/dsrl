@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sensitivity">
+<roleset id="sensitivity.01" name="nomadj-sensitive">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its sensitivity to an economic slowdown
+</text>
+<arg n="0">its</arg>
+<rel>sensitivity</rel>
+<arg n="1">to an economic slowdown</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his keen political sensitivities
+</text>
+<arg n="0">his</arg>
+<arg n="1">political</arg>
+<rel>sensitivities</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="remain">
+<roleset id="remain.01" name="be left behind" source="verb-remain.01" vncls="47.1-1">
+<roles>
+
+<role descr="thing remaining" n="1">
+<vnrole vncls="47.1-1" vntheta="Theme"/></role>
+
+<role descr="beneficiary, entity who gets the remainder" n="2"></role>
+
+<role descr="attribute of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the squashed and distorted fossil remains
+</text>
+<arg n="3">fossil</arg>
+<arg f="REF" n="1">remains</arg>
+<rel>remains</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the remains of sunken ships
+</text>
+<rel>remains</rel>
+<arg n="1">of sunken ships</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

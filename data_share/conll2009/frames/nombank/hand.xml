@@ -1,0 +1,341 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hand">
+<roleset id="hand.01" name="participate/control/possess/lose-control/possession/credit" source="verb-participate.01">
+<roles>
+
+<role descr="agent, entity participating" n="0"></role>
+
+<role descr="theme/activity/controlled" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the enterprises still in state hands
+</text>
+<arg n="1">the enterprises</arg>
+<arg n="0">state</arg>
+<rel>hands</rel>
+</example>
+
+<example name="autogen2">
+<text>
+credit cards in hand
+</text>
+<arg n="1">credit cards</arg>
+<rel>hand</rel>
+</example>
+
+</roleset>
+<roleset id="hand.02" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+the soothing hands of Sabina Vidunas
+</text>
+<rel>hands</rel>
+<arg n="1">of Sabina Vidunas</arg>
+</example>
+
+<example name="autogen4">
+<text>
+his right hand
+</text>
+<arg n="1">his</arg>
+<rel>hand</rel>
+</example>
+
+</roleset>
+<roleset id="hand.03" name="discourse-connective">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="contrast/background" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Much has been accomplished and public opinion decisively supports
+the government and the army -- but , on the other hand , none of
+the key drug barons have been captured .
+</text>
+<arg n="2">
+Much has been accomplished and public opinion decisively supports
+the government and the army</arg>
+<rel>hand</rel>
+<arg n="1">none of the key drug barons have been captured</arg>
+</example>
+
+<example name="autogen2">
+<text>
+On the other hand , it 's not necessarily a good time to jump in
+and buy .
+</text>
+<rel>hand</rel>
+<arg n="1">it 's not necessarily a good time to jump in and buy</arg>
+</example>
+
+</roleset>
+<roleset id="hand.04" name="upper-hand" source="verb-gain.02">
+<roles>
+
+<role descr="exploiter" n="0"></role>
+
+<role descr="theme/opportunity/victim" n="1"></role>
+
+<role descr="against/rival" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Japanese companies will buy American know-how and use it to
+obtain the upper hand in biotechnology trade and competition
+</text>
+<arg n="0">Japanese companies ---> *-2</arg>
+<arg n="Support">obtain</arg>
+<rel>hand</rel>
+<arg n="1">in biotechnology trade and competition</arg>
+</example>
+
+<example name="autogen2">
+<text>
+But the chairman 's supporters have the upper hand as federal
+regulators press a $ 1.1 billion fraud suit against Mr. Keating
+and others .
+</text>
+<arg n="0">the chairman 's supporters</arg>
+<arg n="Support">have</arg>
+<rel>hand</rel>
+</example>
+
+</roleset>
+<roleset id="hand.05" name="hand-in-hand" source="verb-accompany.01" vncls="51.7">
+<roles>
+
+<role descr="subject accompanier" n="0">
+<vnrole vncls="51.7" vntheta="Agent"/></role>
+
+<role descr="object accompanied" n="1">
+<vnrole vncls="51.7" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the coming infantile congressional political rhetoric that seems
+to go hand in hand with the process
+</text>
+<arg n="0">
+the coming infantile congressional political rhetoric ---> that
+---> *T*-1 ---> *-2</arg>
+<arg n="Support">go</arg>
+<rel>hand</rel>
+<arg n="1">with the process</arg>
+</example>
+
+</roleset>
+<roleset id="hand.06" name="attribute/hand-in-cards">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the hands of the advertising agencies
+</text>
+<arg f="REF" n="2">hands</arg>
+<rel>hands</rel>
+<arg n="1">of the advertising agencies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the hands of these two labor groups
+</text>
+<arg f="REF" n="2">hands</arg>
+<rel>hands</rel>
+<arg n="1">of these two labor groups</arg>
+</example>
+
+</roleset>
+<roleset id="hand.07" name="nomadjlike-available/happening/on-hand/at-hand">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a veteran anti-apartheid activist on hand to welcome Mr. Sisulu
+</text>
+<arg n="1">a veteran anti-apartheid activist</arg>
+<rel>hand</rel>
+</example>
+
+<example name="autogen2">
+<text>
+half his cash on hand
+</text>
+<arg n="1">half his cash</arg>
+<rel>hand</rel>
+</example>
+
+</roleset>
+<roleset id="hand.08" name="clap/give-hand" source="verb-applaud.01" vncls="33">
+<roles>
+
+<role descr="clapper" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="thing approved of" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="grounds, reason for approval" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+Last week 's discerning audience gave a bigger hand to a
+greenhouse than to the tenor Neil Shicoff , who sang an aria
+inside it .
+</text>
+<arg n="0">Last week 's discerning audience</arg>
+<arg n="Support">gave</arg>
+<arg f="MNR" n="M">bigger</arg>
+<rel>hand</rel>
+<arg n="1">to the tenor Neil Shicoff , who sang an aria inside it</arg>
+</example>
+
+</roleset>
+<roleset id="hand.09" name="befriend/help" source="verb-befriend.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient/new-friend" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+CHRISTMAS SHOPPERS find a helping hand from some catalog
+companies .
+</text>
+<arg n="1">CHRISTMAS SHOPPERS</arg>
+<arg n="Support">find</arg>
+<rel>hand</rel>
+<arg n="0">from some catalog companies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the ANC , given the chance to hold a rally , would extend a hand
+, albeit warily , to the government
+</text>
+<arg n="0">the ANC , given the chance to hold a rally ,</arg>
+<arg n="Support">extend</arg>
+<rel>hand</rel>
+<arg n="1">to the government</arg>
+</example>
+
+</roleset>
+<roleset id="hand.10" name="attempt" source="verb-try.01">
+<roles>
+
+<role descr="agent/entity trying" n="0"></role>
+
+<role descr="thing tried" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Backer Spielvogel Bates , Ogilvy &amp; Mather , and possibly others
+to try their hand at developing new creative work
+</text>
+<arg n="Support">try</arg>
+<arg n="0">their</arg>
+<rel>hand</rel>
+<arg n="1">at developing new creative work</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to try its hand at creative work for the big account , which has
+been at Wells Rich Greene Inc. since 1966
+</text>
+<arg n="0">its</arg>
+<rel>hand</rel>
+<arg n="1">
+at creative work for the big account , which has been at Wells
+Rich Greene Inc. since 1966</arg>
+</example>
+
+</roleset>
+<roleset id="hand.11" name="shake hands" source="verb-greet.01" vncls="33">
+<roles>
+
+<role descr="greeter" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="thing greeted" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+WALL STREET , SHAKE hands with George Orwell .
+</text>
+<arg n="0">WALL STREET ---> *</arg>
+<arg n="Support">SHAKE</arg>
+<rel>hands</rel>
+<arg n="1">with George Orwell</arg>
+</example>
+
+</roleset>
+<roleset id="hand.12" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And with the quiet pragmatism of Mr. Guzman Cabrera replacing the
+prickly populism of La Quina , government technocrats have been
+given a free hand to open the petrochemical sector to wider
+private and foreign investment .
+</text>
+<arg n="0">government technocrats ---> *-1</arg>
+<arg n="Support">given</arg>
+<rel>hand</rel>
+<arg n="1">
+to open the petrochemical sector to wider private and foreign
+investment</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

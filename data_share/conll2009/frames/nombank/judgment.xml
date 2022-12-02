@@ -1,0 +1,80 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="judgment">
+<roleset id="judgment.01" name="make a judgement" source="verb-judge.01" vncls="29.4">
+<roles>
+
+<role descr="judge" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="judged" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="judgement, attribute of arg1" n="2">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+<role descr="on what grounds" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the combined financial judgment of all market participants
+</text>
+<arg n="1">financial</arg>
+<rel>judgment</rel>
+<arg n="0">of all market participants</arg>
+</example>
+
+<example name="autogen3">
+<text>
+your own judgment
+</text>
+<arg n="0">your</arg>
+<rel>judgment</rel>
+</example>
+
+</roleset>
+<roleset id="judgment.02" name="judgement with award" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+<role descr="defendant" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Minpeco , which won a $ 132 million judgment against Mr. Hunt ,
+his brother Nelson Bunker Hunt and other defendants last year in
+a case stemming from their alleged attempts to corner the silver
+market in
+</text>
+<arg n="2">Minpeco ---> which ---> *T*-2</arg>
+<arg n="Support">won</arg>
+<arg n="1">$ 132 million</arg>
+<rel>judgment</rel>
+<arg n="3">
+against Mr. Hunt , his brother Nelson Bunker Hunt and other
+defendants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a judgment against Sunbelt Savings
+</text>
+<rel>judgment</rel>
+<arg n="3">against Sunbelt Savings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="eloquence">
+<roleset id="eloquence.01" name="nomadj-eloquent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+That done , Ms. Volokh spoke with rampant eloquence about the
+many attributes she feels she was born with : an understanding of
+food , business , Russian culture , human nature , and parties .
+</text>
+<arg n="1">
+Ms. Volokh spoke about the many attributes she feels she was born
+with : an understanding of food , business , Russian culture ,
+human nature , and parties</arg>
+<rel>eloquence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

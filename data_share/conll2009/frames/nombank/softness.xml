@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="softness">
+<roleset id="softness.01" name="attribute/nomadj-soft">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+softness in ad volume at the Boston newspaper
+</text>
+<arg f="REF" n="2">softness</arg>
+<rel>softness</rel>
+<arg n="1">in ad volume</arg>
+</example>
+
+<example name="autogen3">
+<text>
+The softness of the core
+</text>
+<arg f="REF" n="2">softness</arg>
+<rel>softness</rel>
+<arg n="1">of the core</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

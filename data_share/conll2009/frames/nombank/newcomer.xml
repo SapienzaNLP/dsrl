@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="newcomer">
+<roleset id="newcomer.01" name="nomadj-new">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+newcomers to the Texas banking market
+</text>
+<arg n="0">newcomers</arg>
+<rel>newcomers</rel>
+<arg n="1">to the Texas banking market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a newcomer to the industry
+</text>
+<arg n="0">newcomer</arg>
+<rel>newcomer</rel>
+<arg n="1">to the industry</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

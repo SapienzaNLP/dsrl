@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="general">
+<roleset id="general.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the retired Air Force general
+</text>
+<arg n="2">Air Force</arg>
+<arg n="0">general</arg>
+<rel>general</rel>
+</example>
+
+</roleset>
+<roleset id="general.02" name="to reduce to a general form" source="verb-generalize.01">
+<roles>
+
+<role descr="entity making a generalization" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the stock market in general
+</text>
+<arg n="1">the stock market</arg>
+<rel>general</rel>
+</example>
+
+<example name="autogen2">
+<text>
+economic efficiency in general
+</text>
+<arg n="1">economic efficiency</arg>
+<rel>general</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

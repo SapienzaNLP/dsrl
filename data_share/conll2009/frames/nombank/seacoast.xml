@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="seacoast">
+<roleset id="seacoast.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the American seacoast
+</text>
+<arg n="1">American</arg>
+<rel>seacoast</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

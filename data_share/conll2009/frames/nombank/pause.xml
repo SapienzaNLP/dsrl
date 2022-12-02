@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pause">
+<roleset id="pause.01" name="to suspend an action, to hesitate" source="verb-pause.01">
+<roles>
+
+<role descr="thing pausing, agent or action" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a pause in Newark 's Columbus Day parade
+</text>
+<rel>pause</rel>
+<arg n="0">in Newark 's Columbus Day parade</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a pause at the Chicago Mercantile Exchange
+</text>
+<rel>pause</rel>
+<arg f="LOC" n="M">at the Chicago Mercantile Exchange</arg>
+</example>
+
+</roleset>
+<roleset id="pause.02" name="worry about" source="verb-concern.01" vncls="31.1">
+<roles>
+
+<role descr="causer of concern" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="worried entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+that did n't give pause to clients of one Alabama planner
+</text>
+<arg n="0">that</arg>
+<arg n="Support">give</arg>
+<rel>pause</rel>
+<arg n="1">to clients of one Alabama planner</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

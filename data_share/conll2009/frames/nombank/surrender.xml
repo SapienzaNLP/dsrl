@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="surrender">
+<roleset id="surrender.01" name="give up (eg, a fight" source="verb-surrender.01" vncls="13.2">
+<roles>
+
+<role descr="one surrendering" n="0">
+<vnrole vncls="13.2" vntheta="Agent"/></role>
+
+<role descr="fight" n="1">
+<vnrole vncls="13.2" vntheta="Theme"/></role>
+
+<role descr="victor" n="2">
+<vnrole vncls="13.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to entice Nekoosa into negotiating a friendly surrender
+</text>
+<arg n="0">Nekoosa ---> *</arg>
+<arg n="Support">negotiating</arg>
+<arg f="MNR" n="M">friendly</arg>
+<rel>surrender</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the surrender be made to his forces
+</text>
+<rel>surrender</rel>
+<arg n="Support">made</arg>
+<arg n="2">to his forces</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

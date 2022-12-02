@@ -1,0 +1,97 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="head">
+<roleset id="head.01" name="actrel/nom" source="verb-head.03">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The firm 's new head of mergers and acquisitions under Mr.
+Newquist
+</text>
+<arg n="2">The firm 's</arg>
+<arg n="0">head</arg>
+<rel>head</rel>
+<arg n="1">of mergers and acquisitions</arg>
+<arg n="3">under Mr. Newquist</arg>
+</example>
+
+<example name="autogen2">
+<text>
+head of mergers and acquisitions at Shearson Lehman Hutton
+</text>
+<arg n="0">head</arg>
+<rel>head</rel>
+<arg n="1">of mergers and acquisitions</arg>
+<arg n="2">at Shearson Lehman Hutton</arg>
+</example>
+
+</roleset>
+<roleset id="head.02" name="meronym/partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+magnetic recording heads for disk drives
+</text>
+<rel>heads</rel>
+<arg n="1">for disk drives</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the heads of disliked relatives
+</text>
+<rel>heads</rel>
+<arg n="1">of disliked relatives</arg>
+</example>
+
+</roleset>
+<roleset id="head.03" name="reach a maximum" source="verb-peak.01">
+<roles>
+
+<role descr="thing being described" n="1"></role>
+
+<role descr="maximum" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The issue came to a head last year , officials recalled , partly
+because the Reagan administration had sought unsuccessfully to
+win committee approval of funding for new Panama coup efforts .
+</text>
+<arg n="1">The issue</arg>
+<arg n="Support">came to</arg>
+<rel>head</rel>
+</example>
+
+<example name="autogen2">
+<text>
+brought the naval issue to a head
+</text>
+<arg n="Support">brought to</arg>
+<arg n="1">the naval issue</arg>
+<rel>head</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

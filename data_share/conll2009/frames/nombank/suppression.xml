@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suppression">
+<roleset id="suppression.01" name="attempt to) conceal, push down" source="verb-suppress.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Tacit Rainbow defense-suppression missile
+</text>
+<arg n="1">defense-suppression</arg>
+<rel>defense-suppression</rel>
+<arg n="0">missile</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Beijing 's bloody suppression of pro-democracy demonstrators in
+June
+</text>
+<arg n="0">Beijing 's</arg>
+<rel>suppression</rel>
+<arg n="1">of pro-democracy demonstrators</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

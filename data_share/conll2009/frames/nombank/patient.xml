@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="patient">
+<roleset id="patient.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my colon-cancer patients
+</text>
+<arg n="2">my</arg>
+<arg n="1">colon-cancer</arg>
+<arg n="0">patients</arg>
+<rel>patients</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Pittsburgh patients
+</text>
+<arg n="2">Pittsburgh</arg>
+<arg n="0">patients</arg>
+<rel>patients</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

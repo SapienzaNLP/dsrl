@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="confirmation">
+<roleset id="confirmation.01" name="confirm, attest the truth of a proposition" source="verb-confirm.01" vncls="29.2">
+<roles>
+
+<role descr="confirmer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing confirmed, statement or proposition" n="1">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+<role descr="beneficiary, hearer" n="2">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+We 're happy , we guess , to receive confirmation of the
+Krasnoyarsk violation from the Soviets , five years after we
+started writing about it .
+</text>
+<arg n="2">We ---> *-1</arg>
+<arg n="Support">receive</arg>
+<rel>confirmation</rel>
+<arg n="1">of the Krasnoyarsk violation</arg>
+<arg n="0">from the Soviets</arg>
+</example>
+
+<example name="autogen2">
+<text>
+court confirmation of its plan
+</text>
+<arg n="0">court</arg>
+<rel>confirmation</rel>
+<arg n="1">of its plan</arg>
+</example>
+
+</roleset>
+<roleset id="confirmation.02" name="name to a position, hire" source="verb-appoint.01" vncls="29.1">
+<roles>
+
+<role descr="appointer, employer" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="appointee, employee" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="job, position" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his unsuccessful bid to win confirmation as secretary of defense
+</text>
+<arg n="1">his ---> *</arg>
+<arg n="Support">win</arg>
+<rel>confirmation</rel>
+<arg n="2">as secretary of defense</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the degrading Bork confirmation circus
+</text>
+<arg n="1">Bork</arg>
+<rel>confirmation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

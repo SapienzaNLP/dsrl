@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="excursus">
+<roleset id="excursus.01" name="nomlike" source="verb-ramble.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In an excursus of little relevance to his central point about
+private enforcement suits by environmental groups , Michael S.
+Greve informs your readers , `` ... the Clean Water Act is
+written upon the presumption -- the pretense , rather -- that
+nothing but zero risk will do ; it establishes a legal standard
+of zero discharge '' -LRB- `` Congress's Environmental Buccaneers
+, '' Sept. 18 -RRB- .
+</text>
+<rel>excursus</rel>
+<arg n="0">Michael S. Greve</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

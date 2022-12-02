@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trespass">
+<roleset id="trespass.01" name="to intrude,  take advantage, overstep" source="verb-trespass.01">
+<roles>
+
+<role descr="trespasser, agent" n="0"></role>
+
+<role descr="entity trespassed on" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their trespasses
+</text>
+<arg n="0">their</arg>
+<rel>trespasses</rel>
+</example>
+
+<example name="autogen2">
+<text>
+criminal trespass charges against anti-abortion demonstrators who
+blocked access to Reproductive Health Services , an abortion
+clinic in St. Louis
+</text>
+<rel>trespass</rel>
+<arg n="Support">charges</arg>
+<arg n="0">
+against anti-abortion demonstrators who blocked access to
+Reproductive Health Services , an abortion clinic in St. Louis</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

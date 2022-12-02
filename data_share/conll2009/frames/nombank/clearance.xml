@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clearance">
+<roleset id="clearance.01" name="assent to" source="verb-approve.01" vncls="31.3">
+<roles>
+
+<role descr="approver" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="thing approved" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+<role descr="secondary attribute" n="2"></role>
+
+<role descr="seeker of approval" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it received U.S. antitrust clearance to boost its holding
+</text>
+<arg n="3">it</arg>
+<arg n="Support">received</arg>
+<arg n="0">U.S.</arg>
+<arg n="2">antitrust</arg>
+<rel>clearance</rel>
+<arg f="PRD" n="1">to boost its holding</arg>
+</example>
+
+<example name="autogen2">
+<text>
+personnel and security clearances
+</text>
+<arg n="3">personnel</arg>
+<arg n="2">security</arg>
+<rel>clearances</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

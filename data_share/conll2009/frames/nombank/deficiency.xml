@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deficiency">
+<roleset id="deficiency.01" name="nomadj-defincient/attribute" source="verb-lack.01">
+<roles>
+
+<role descr="theme" n="1" source="0"></role>
+
+<role descr="value" n="2" source="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the safety and health deficiencies at the plants
+</text>
+<arg n="1">safety and health</arg>
+<arg f="REF" n="2">deficiencies</arg>
+<rel>deficiencies</rel>
+<arg n="3">at the plants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+deficiencies in the system
+</text>
+<arg f="REF" n="2">deficiencies</arg>
+<rel>deficiencies</rel>
+<arg n="1">in the system</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="love">
+<roleset id="love.01" name="object of affection" source="verb-love.01" vncls="31.2">
+<roles>
+
+<role descr="lover" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="loved" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+They fall in love with my hands
+</text>
+<arg n="0">They</arg>
+<arg n="Support">fall in</arg>
+<rel>love</rel>
+<arg n="1">with my hands</arg>
+</example>
+
+<example name="autogen2">
+<text>
+all the French fell in love with her
+</text>
+<arg n="0">all the French</arg>
+<arg n="Support">fell in</arg>
+<rel>love</rel>
+<arg n="1">with her</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

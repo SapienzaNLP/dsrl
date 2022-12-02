@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="screenplay">
+<roleset id="screenplay.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a screenplay for a `` Flashdance
+</text>
+<rel>screenplay</rel>
+<arg n="1">for a `` Flashdance</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he wrote the screenplay for `` Racing With the Moon , '' a lovely
+coming-of-age picture set in the '40s
+</text>
+<arg n="0">he</arg>
+<arg n="Support">wrote</arg>
+<rel>screenplay</rel>
+<arg n="1">
+for `` Racing With the Moon , '' a lovely coming-of-age picture
+set in the '40s</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

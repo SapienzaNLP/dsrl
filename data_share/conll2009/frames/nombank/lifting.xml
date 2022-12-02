@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lifting">
+<roleset id="lifting.01" name="cause increase in elevation" source="verb-lift.01" vncls="9.4">
+<roles>
+
+<role descr="elevator, agent" n="0">
+<vnrole vncls="9.4" vntheta="Agent"/></role>
+
+<role descr="logical subject, patient, thing rising" n="1">
+<vnrole vncls="9.4" vntheta="Theme"/></role>
+
+<role descr="ext, amount risen" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the first lifting of the minimum wage since a four-year law was
+enacted in 1977 , raising the wage to $ 3.35 an hour from $ 2.65
+</text>
+<rel>lifting</rel>
+<arg n="1">of the minimum wage</arg>
+</example>
+
+</roleset>
+<roleset id="lifting.02" name="to revoke, annul" source="verb-repeal.01">
+<roles>
+
+<role descr="revoker, agent" n="0"></role>
+
+<role descr="entity repealed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the lifting of trade restraints in 1992
+</text>
+<rel>lifting</rel>
+<arg n="1">of trade restraints</arg>
+<arg f="TMP" n="M">in 1992</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a lifting of the suspension
+</text>
+<rel>lifting</rel>
+<arg n="1">of the suspension</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

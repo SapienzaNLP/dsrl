@@ -1,0 +1,80 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="complaint">
+<roleset id="complaint.01" name="put a complaint before someone, or the court">
+<roles>
+
+<role descr="claimant" n="0"></role>
+
+<role descr="reason" n="1"></role>
+
+<role descr="adjudicator or listener" n="2"></role>
+
+<role descr="defendant" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Israeli Manufacturers ' Association filed a police complaint
+against an Arab pasta maker for using the four colors of the
+outlawed Palestinian flag on spaghetti packages .
+</text>
+<arg n="0">The Israeli Manufacturers ' Association</arg>
+<arg n="Support">filed</arg>
+<arg n="2">police</arg>
+<rel>complaint</rel>
+<arg n="3">against an Arab pasta maker</arg>
+<arg n="1">
+for using the four colors of the outlawed Palestinian flag on
+spaghetti packages</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an attractive target for complaint by politicians
+</text>
+<arg n="3">an attractive target</arg>
+<arg f="REF" n="1">complaint</arg>
+<rel>complaint</rel>
+<arg n="0">by politicians</arg>
+</example>
+
+</roleset>
+<roleset id="complaint.02" name="bitch and moan" source="verb-complain.01" vncls="37.8">
+<roles>
+
+<role descr="complainer" n="0">
+<vnrole vncls="37.8" vntheta="Agent"/></role>
+
+<role descr="cause, complain of or about" n="1">
+<vnrole vncls="37.8" vntheta="Topic"/></role>
+
+<role descr="hearer, complain to" n="2">
+<vnrole vncls="37.8" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+no public overseas complaints about the issue
+</text>
+<arg f="NEG" n="M">no</arg>
+<arg f="MNR" n="M">public</arg>
+<arg n="0">overseas</arg>
+<rel>complaints</rel>
+<arg n="1">about the issue</arg>
+</example>
+
+<example name="autogen2">
+<text>
+customer complaints
+</text>
+<arg n="0">customer</arg>
+<arg f="REF" n="1">complaints</arg>
+<rel>complaints</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

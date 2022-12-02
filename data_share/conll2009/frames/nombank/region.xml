@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="region">
+<roleset id="region.01" name="partitive-part/division">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="theme" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's Philadelphia region
+</text>
+<arg n="1">the company 's</arg>
+<arg n="2">Philadelphia</arg>
+<rel>region</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Eastern region
+</text>
+<arg n="2">Eastern</arg>
+<rel>region</rel>
+</example>
+
+</roleset>
+<roleset id="region.02" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their regions
+</text>
+<arg n="1">their</arg>
+<rel>regions</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the quake region
+</text>
+<arg n="1">quake</arg>
+<rel>region</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

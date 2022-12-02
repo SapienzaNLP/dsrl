@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flair">
+<roleset id="flair.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a man with a flair for deal-making and marketing
+</text>
+<arg n="0">a man</arg>
+<rel>flair</rel>
+<arg n="1">for deal-making and marketing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its tactical flair at wriggling out of horrible positions
+</text>
+<arg n="0">its</arg>
+<rel>flair</rel>
+<arg n="1">at wriggling out of horrible positions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

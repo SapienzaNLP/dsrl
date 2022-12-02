@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="maneuver">
+<roleset id="maneuver.01" name="to direct the course" source="verb-maneuver.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="entity maneuvered" n="1"></role>
+
+<role descr="destination" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+DARMAN'S MANEUVERS on the budget and capital gains
+</text>
+<arg n="0">DARMAN'S</arg>
+<rel>MANEUVERS</rel>
+<arg n="1">on the budget and capital gains</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a second-rate rook maneuver
+</text>
+<arg n="0">rook</arg>
+<rel>maneuver</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

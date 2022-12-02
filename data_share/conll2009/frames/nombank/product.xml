@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="product">
+<roleset id="product.01" name="create" source="verb-produce.01" vncls="26.7-2">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="source" n="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+<role descr="beneficiary" n="3">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a forest and building products concern
+</text>
+<arg n="2">forest</arg>
+<arg n="3">building</arg>
+<arg f="REF" n="1">products</arg>
+<rel>products</rel>
+<arg n="0">concern</arg>
+</example>
+
+<example name="autogen2">
+<text>
+synthetic-leather products for the interiors of cold-weather
+vehicles , which my cousin got into and sort of regrets to this
+day
+</text>
+<arg n="2">synthetic-leather</arg>
+<arg f="REF" n="1">products</arg>
+<rel>products</rel>
+<arg n="3">for the interiors of cold-weather vehicles</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

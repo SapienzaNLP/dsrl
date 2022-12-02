@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="claimant">
+<roleset id="claimant.01" name="court claim and tax deduction claim">
+<roles>
+
+<role descr="claimant" n="0"></role>
+
+<role descr="reason" n="1"></role>
+
+<role descr="defendant" n="2"></role>
+
+<role descr="award sought" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Dalkon Shield claimants
+</text>
+<arg n="1">Dalkon Shield</arg>
+<arg n="0">claimants</arg>
+<rel>claimants</rel>
+</example>
+
+<example name="autogen2">
+<text>
+DALKON SHIELD CLAIMANTS
+</text>
+<arg n="1">DALKON SHIELD</arg>
+<arg n="0">CLAIMANTS</arg>
+<rel>CLAIMANTS</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

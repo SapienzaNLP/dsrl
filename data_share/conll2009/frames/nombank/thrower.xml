@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thrower">
+<roleset id="thrower.01" name="throw" source="verb-throw.01" vncls="17.1">
+<roles>
+
+<role descr="thrower" n="0">
+<vnrole vncls="17.1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+dart throwers
+</text>
+<arg n="1">dart</arg>
+<arg n="0">throwers</arg>
+<rel>throwers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

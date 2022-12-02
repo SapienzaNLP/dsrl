@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blacklisting">
+<roleset id="blacklisting.01" name="nomlike" source="verb-ban.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="secondary agent" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their recent blacklisting by several institutional investors
+</text>
+<arg n="1">their</arg>
+<arg f="TMP" n="M">recent</arg>
+<rel>blacklisting</rel>
+<arg n="0">by several institutional investors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

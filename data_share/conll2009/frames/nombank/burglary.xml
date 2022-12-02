@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="burglary">
+<roleset id="burglary.01" name="nomlike" source="verb-rob.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+burglary insurance for homeowners and businesses
+</text>
+<rel>burglary</rel>
+<arg n="Support">insurance</arg>
+<arg n="1">for homeowners and businesses</arg>
+</example>
+
+<example name="autogen2">
+<text>
+16 robberies or burglaries on the premises
+</text>
+<rel>burglaries</rel>
+<arg f="LOC" n="M">on the premises</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

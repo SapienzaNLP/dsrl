@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bringing">
+<roleset id="bringing.01" name="carry along with" source="verb-bring.01" vncls="11.3">
+<roles>
+
+<role descr="bringer" n="0">
+<vnrole vncls="11.3" vntheta="Agent"/></role>
+
+<role descr="thing brought" n="1">
+<vnrole vncls="11.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary, brought-for, brought-to" n="2">
+<vnrole vncls="11.3" vntheta="Destination"/></role>
+
+<role descr="attribute" n="3"></role>
+
+<role descr="ablative, brought-from" n="4">
+<vnrole vncls="11.3" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` development , evaluation and bringing to the marketplace of
+new improved contraceptive devices , drugs and methods
+</text>
+<rel>bringing</rel>
+<arg n="2">to the marketplace</arg>
+<arg n="1">of new improved contraceptive devices , drugs and methods</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

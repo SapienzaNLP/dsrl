@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drilling">
+<roleset id="drilling.01" name="put holes into" source="verb-drill.01" vncls="21.2-2">
+<roles>
+
+<role descr="driller, agent" n="0">
+<vnrole vncls="21.2-2" vntheta="Agent"/></role>
+
+<role descr="thing drilled, gaining holes" n="1">
+<vnrole vncls="21.2-2" vntheta="Patient"/></role>
+
+<role descr="drill" n="2">
+<vnrole vncls="21.2-2" vntheta="Instrument"/></role>
+
+<role descr="seeking (oil" n="3"></role>
+
+<role descr="holes" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an oil drilling bit seal
+</text>
+<arg n="3">oil</arg>
+<rel>drilling</rel>
+<arg n="2">bit seal</arg>
+</example>
+
+<example name="autogen2">
+<text>
+drilling pipe
+</text>
+<rel>drilling</rel>
+<arg n="2">pipe</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="preference">
+<roleset id="preference.01" name="to choose as more desirable" source="verb-prefer.01">
+<roles>
+
+<role descr="chooser, agent" n="0"></role>
+
+<role descr="entity chosen" n="1"></role>
+
+<role descr="entity compared to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their preference for the F-18 on operational grounds
+</text>
+<arg n="0">their</arg>
+<rel>preference</rel>
+<arg n="1">for the F-18</arg>
+</example>
+
+<example name="autogen2">
+<text>
+capital-gains preference
+</text>
+<arg n="1">capital-gains</arg>
+<rel>preference</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

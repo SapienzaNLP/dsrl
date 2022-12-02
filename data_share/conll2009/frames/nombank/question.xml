@@ -1,0 +1,75 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="question">
+<roleset id="question.01" name="ask a question, express doubts" source="verb-question.01">
+<roles>
+
+<role descr="asker" n="0"></role>
+
+<role descr="question or thing in doubt" n="1"></role>
+
+<role descr="entity asked, hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+I have a question for Mr. Laband : How do I explain to the single
+mother of three standing in line next to me for the past three
+hours that the two bags of ice she needs to keep her children 's
+food edible will take her last $ 20 ?
+</text>
+<arg n="0">I</arg>
+<arg n="Support">have</arg>
+<rel>question</rel>
+<arg n="2">for Mr. Laband</arg>
+<arg n="1">
+How do I explain to the single mother of three standing in line
+next to me for the past three hours that the two bags of ice she
+needs to keep her children 's food edible will take her last $ 20
+?</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an attorney 's question about whether we would go after attorney
+'s fees , and that is different from actually doing it , although
+we reserve that right
+</text>
+<arg n="0">an attorney 's</arg>
+<rel>question</rel>
+<arg n="1">
+about whether we would go after attorney 's fees , and that is
+different from actually doing it , although we reserve that right</arg>
+</example>
+
+</roleset>
+<roleset id="question.02" name="nomadjlike-unthinkable/out-of-the-question">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+renewing military aid had been considered out of the question ,
+rejected by Congress and de-emphasized by the Bush administration
+</text>
+<arg n="1">renewing military aid ---> *T*-1</arg>
+<rel>question</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Sometimes repairs are out of the question .
+</text>
+<arg n="1">repairs</arg>
+<rel>question</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

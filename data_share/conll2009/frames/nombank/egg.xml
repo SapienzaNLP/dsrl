@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="egg">
+<roleset id="egg.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their eggs
+</text>
+<arg n="1">their</arg>
+<arg n="0">eggs</arg>
+<rel>eggs</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the woman 's eggs
+</text>
+<arg n="1">the woman 's</arg>
+<arg n="0">eggs</arg>
+<rel>eggs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

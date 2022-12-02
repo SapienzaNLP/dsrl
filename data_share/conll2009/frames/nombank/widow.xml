@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="widow">
+<roleset id="widow.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the widow of a construction worker killed in January 1987 while
+working on a new Houston convention center
+</text>
+<arg n="0">widow</arg>
+<rel>widow</rel>
+<arg n="1">
+of a construction worker killed in January 1987 while working on
+a new Houston convention center</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the man 's widow
+</text>
+<arg n="1">the man 's</arg>
+<arg n="0">widow</arg>
+<rel>widow</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

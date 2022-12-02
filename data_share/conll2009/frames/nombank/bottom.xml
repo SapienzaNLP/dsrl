@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bottom">
+<roleset id="bottom.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bottom of the heap
+</text>
+<rel>bottom</rel>
+<arg n="1">of the heap</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the `` bottom of the order
+</text>
+<rel>bottom</rel>
+<arg n="1">of the order</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

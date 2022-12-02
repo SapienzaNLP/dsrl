@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="peril">
+<roleset id="peril.01" name="put into danger" source="verb-imperil.01">
+<roles>
+
+<role descr="causer of danger (agent or instrument" n="0"></role>
+
+<role descr="entity in danger" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The peril of unlimited liability looms large for a number of them
+now .
+</text>
+<rel>peril</rel>
+<arg n="0">of unlimited liability</arg>
+<arg n="Support">looms</arg>
+<arg n="1">for a number of them</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their peril
+</text>
+<arg n="1">their</arg>
+<rel>peril</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

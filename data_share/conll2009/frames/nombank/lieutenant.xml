@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lieutenant">
+<roleset id="lieutenant.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his lieutenants
+</text>
+<arg n="2">his</arg>
+<arg n="0">lieutenants</arg>
+<rel>lieutenants</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Andersson and a handful of loyal lieutenants
+</text>
+<arg n="2">Mr. Andersson</arg>
+<arg n="Support">handful of</arg>
+<arg n="0">lieutenants</arg>
+<rel>lieutenants</rel>
+</example>
+
+</roleset>
+<roleset id="lieutenant.02" name="help, assist" source="verb-assist.01">
+<roles>
+
+<role descr="assistant" n="0"></role>
+
+<role descr="project" n="1" source="2"></role>
+
+<role descr="assisted" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Virginia GOP lieutenant governor candidate Eddy Dalton
+</text>
+<arg n="1">Virginia GOP</arg>
+<arg n="0">lieutenant</arg>
+<rel>lieutenant</rel>
+<arg n="2">governor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a lieutenant colonel
+</text>
+<arg n="0">lieutenant</arg>
+<rel>lieutenant</rel>
+<arg n="2">colonel</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="folding">
+<roleset id="folding.01" name="terminate) a failing business" source="verb-fold.06">
+<roles>
+
+<role descr="business owner" n="0"></role>
+
+<role descr="failing business" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the recent folding of rival Venture , another magazine for
+growing companies
+</text>
+<arg f="TMP" n="M">recent</arg>
+<rel>folding</rel>
+<arg n="1">of rival Venture , another magazine for growing companies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

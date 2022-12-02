@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prevention">
+<roleset id="prevention.01" name="stop, prevent" source="verb-prevent.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme (action or object being prevented" n="1"></role>
+
+<role descr="secondary predication or action" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Smoking prevention programs
+</text>
+<arg n="1">Smoking</arg>
+<rel>prevention</rel>
+</example>
+
+<example name="autogen2">
+<text>
+crime prevention
+</text>
+<arg n="1">crime</arg>
+<rel>prevention</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

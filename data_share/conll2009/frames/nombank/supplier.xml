@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="supplier">
+<roleset id="supplier.01" name="provide" source="verb-supply.01" vncls="13.4.1">
+<roles>
+
+<role descr="provider" n="0">
+<vnrole vncls="13.4.1" vntheta="Agent"/></role>
+
+<role descr="thing provided" n="1">
+<vnrole vncls="13.4.1" vntheta="Theme"/></role>
+
+<role descr="entity provided for (beneficiary" n="2">
+<vnrole vncls="13.4.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The airport 's biggest supplier of aircraft fuel
+</text>
+<arg n="2">The airport 's</arg>
+<arg n="0">supplier</arg>
+<rel>supplier</rel>
+<arg n="1">of aircraft fuel</arg>
+</example>
+
+<example name="autogen2">
+<text>
+private-sector suppliers
+</text>
+<arg n="2">private-sector</arg>
+<arg n="0">suppliers</arg>
+<rel>suppliers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

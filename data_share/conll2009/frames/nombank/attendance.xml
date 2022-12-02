@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="attendance">
+<roleset id="attendance.01" name="belong with or at" source="verb-attend.01">
+<roles>
+
+<role descr="thing attending" n="0"></role>
+
+<role descr="thing attended" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they did on class attendance and homework combined
+</text>
+<arg n="0">they</arg>
+<arg n="Support">did</arg>
+<arg n="1">class</arg>
+<rel>attendance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Democratic House attendance rate
+</text>
+<arg n="1">House</arg>
+<rel>attendance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

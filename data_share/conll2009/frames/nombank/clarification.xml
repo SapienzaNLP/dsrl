@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clarification">
+<roleset id="clarification.01" name="make clear(er" source="verb-clarify.01">
+<roles>
+
+<role descr="causer of clarification, agent" n="0"></role>
+
+<role descr="thing becoming clearer" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+PLO leader Arafat asked Egypt to seek clarifications from the
+U.S. on Secretary of State Baker 's plan for Mideast peace talks
+</text>
+<arg n="2">Egypt ---> *-2</arg>
+<arg n="Support">seek</arg>
+<rel>clarifications</rel>
+<arg n="1">
+*ICH*-1 ---> on Secretary of State Baker 's plan for Mideast
+peace talks</arg>
+<arg n="0">from the U.S.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it wo n't take a position on a revised tender offer by McCaw
+Cellular Communications Inc. to buy LIN and has asked for
+clarification of the offer
+</text>
+<arg n="2">it</arg>
+<arg n="Support">has asked for</arg>
+<rel>clarification</rel>
+<arg n="1">of the offer</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

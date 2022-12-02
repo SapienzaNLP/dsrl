@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="north">
+<roleset id="north.01" name="nomadj-north">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its giant Fremont plant , to the north of the Valley ,
+</text>
+<arg n="1">its giant Fremont plant</arg>
+<rel>north</rel>
+<arg n="2">of the Valley</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Jutting out just to the north of us is the Blackjack Peninsula
+-LRB- after the oak , not the game -RRB- which forms the core of
+the Aransas Wildlife Refuge .
+</text>
+<arg n="Support">Jutting to</arg>
+<rel>north</rel>
+<arg n="2">of us</arg>
+<arg n="1">
+the Blackjack Peninsula -LRB- after the oak , not the game -RRB-
+which forms the core of the Aransas Wildlife Refuge</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

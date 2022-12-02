@@ -1,0 +1,122 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="act">
+<roleset id="act.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Hart-Scott-Rodino antitrust act
+</text>
+<arg n="0">Hart-Scott-Rodino</arg>
+<arg n="1">antitrust</arg>
+<rel>act</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the reinvestment act
+</text>
+<arg n="1">reinvestment</arg>
+<rel>act</rel>
+</example>
+
+</roleset>
+<roleset id="act.02" name="play a role" source="verb-act.01" vncls="29.6">
+<roles>
+
+<role descr="player" n="0">
+<vnrole vncls="29.6" vntheta="Agent"/></role>
+
+<role descr="role" n="1">
+<vnrole vncls="29.6" vntheta="Predicate"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Among other things , they said , Mr. Azoff would develop musical
+acts for a new record label .
+</text>
+<arg n="0">Mr. Azoff</arg>
+<arg n="Support">develop</arg>
+<arg n="1">musical</arg>
+<rel>acts</rel>
+<arg n="2">for a new record label</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the thrift industry 's shrinking act
+</text>
+<arg n="0">the thrift industry 's</arg>
+<arg n="1">shrinking</arg>
+<rel>act</rel>
+</example>
+
+</roleset>
+<roleset id="act.03" name="do something" source="verb-act.02">
+<roles>
+
+<role descr="actor" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Their cowardly acts of civil disobedience , which they tried to
+hide under the cloak of outrage at a war they characterized as ``
+immoral , ''
+</text>
+<arg n="0">Their</arg>
+<arg f="MNR" n="M">cowardly</arg>
+<rel>acts</rel>
+<arg n="1">of civil disobedience</arg>
+</example>
+
+<example name="autogen2">
+<text>
+acts of war
+</text>
+<rel>acts</rel>
+<arg n="1">of war</arg>
+</example>
+
+</roleset>
+<roleset id="act.04" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+The fifth act of Hamlet
+</text>
+<rel>act</rel>
+<arg n="1">of Hamlet</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="signing">
+<roleset id="signing.01" name="affix a signature" source="verb-sign.01" vncls="25.1">
+<roles>
+
+<role descr="signer" n="0">
+<vnrole vncls="25.1" vntheta="Agent"/></role>
+
+<role descr="document" n="1">
+<vnrole vncls="25.1" vntheta="Destination"/></role>
+
+<role descr="signature" n="2">
+<vnrole vncls="25.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the signing of a commercial lease
+</text>
+<rel>signing</rel>
+<arg n="1">of a commercial lease</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the signing of a comprehensive labor agreement
+</text>
+<rel>signing</rel>
+<arg n="1">of a comprehensive labor agreement</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fee">
+<roleset id="fee.01" name="cf cost" source="verb-price.01" vncls="54.4">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="54.4" vntheta="Agent"/></role>
+
+<role descr="commodity" n="1">
+<vnrole vncls="54.4" vntheta="Theme"/></role>
+
+<role descr="price" n="2">
+<vnrole vncls="54.4" vntheta="Attribute"/></role>
+
+<role descr="buyer" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Inco paid Morgan an advisory fee of about $ 250,000 , a paltry
+figure by today 's measures .
+</text>
+<arg n="3">Inco</arg>
+<arg n="Support">paid</arg>
+<arg n="0">Morgan</arg>
+<arg n="1">advisory</arg>
+<rel>fee</rel>
+<arg n="2">of about $ 250,000 , a paltry figure by today 's measures</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its $ 309 million rights fee
+</text>
+<arg n="0">its</arg>
+<arg n="2">$ 309 million</arg>
+<arg n="1">rights</arg>
+<rel>fee</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

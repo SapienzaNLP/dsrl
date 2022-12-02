@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="decliner">
+<roleset id="decliner.01" name="fall" source="verb-decline.01" vncls="45.6">
+<roles>
+
+<role descr="logical subject, patient, thing declining" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext, amount declined by" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point, end state of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Advancing stocks led decliners on the New York Stock Exchange by
+847 to 644 .
+</text>
+<arg n="1">decliners</arg>
+<rel>decliners</rel>
+<arg f="LOC" n="M">on the New York Stock Exchange</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Decliners on the Big Board
+</text>
+<arg n="1">Decliners</arg>
+<rel>Decliners</rel>
+<arg f="LOC" n="M">on the Big Board</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="columnist">
+<roleset id="columnist.01" name="set pen to paper" source="verb-write.01" vncls="26.7-2">
+<roles>
+
+<role descr="writer" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="thing written" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Globe sports columnist
+</text>
+<arg n="2">Globe</arg>
+<arg n="1">sports</arg>
+<arg n="0">columnist</arg>
+<rel>columnist</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Globe columnists
+</text>
+<arg n="2">Globe</arg>
+<arg n="0">columnists</arg>
+<rel>columnists</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

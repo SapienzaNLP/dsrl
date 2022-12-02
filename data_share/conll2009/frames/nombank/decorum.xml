@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="decorum">
+<roleset id="decorum.01" name="to conduct (oneself) in a specified way" source="verb-behave.01">
+<roles>
+
+<role descr="agent, entity behaving" n="0"></role>
+
+<role descr="manner" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+usual Senate decorum
+</text>
+<arg n="0">Senate</arg>
+<rel>decorum</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="result">
+<roleset id="result.01" name="nom/discourse-connective-as-result-of" source="verb-result.01" vncls="48.1.1">
+<roles>
+
+<role descr="theme, prior condition" n="1">
+<vnrole vncls="48.1.1" vntheta="Theme"/></role>
+
+<role descr="goal, end condition" n="2">
+<vnrole vncls="48.1.1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+major problems as a result of margin calls
+</text>
+<arg n="2">major problems</arg>
+<rel>result</rel>
+<arg n="1">of margin calls</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Result : a landscape littered with lemons , huge debt burdens
+crushing down upon the arch and spans of corporate America .
+</text>
+<rel>Result</rel>
+<arg n="2">
+a landscape littered with lemons , huge debt burdens crushing
+down upon the arch and spans of corporate America</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

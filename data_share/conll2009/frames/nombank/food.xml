@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="food">
+<roleset id="food.01" name="cause to eat" source="verb-feed.01" vncls="13.1-2">
+<roles>
+
+<role descr="causal agent" n="0">
+<vnrole vncls="13.1-2" vntheta="Agent"/></role>
+
+<role descr="food" n="1">
+<vnrole vncls="13.1-2" vntheta="Theme"/></role>
+
+<role descr="eater" n="2">
+<vnrole vncls="13.1-2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Soviet Union was reported to be airlifting arms and food to
+Kabul 's forces
+</text>
+<arg n="0">the Soviet Union ---> *-1</arg>
+<arg n="Support">airlifting</arg>
+<arg n="1">food</arg>
+<rel>food</rel>
+<arg n="2">to Kabul 's forces</arg>
+</example>
+
+<example name="autogen2">
+<text>
+her children 's food
+</text>
+<arg n="2">her children 's</arg>
+<arg n="1">food</arg>
+<rel>food</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

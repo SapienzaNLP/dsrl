@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cachet">
+<roleset id="cachet.01" name="attribute/nomadjlike-acclaimed">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The project has already acquired a certain New York cachet .
+</text>
+<arg n="1">The project</arg>
+<arg n="Support">acquired</arg>
+<arg n="2">New York</arg>
+<rel>cachet</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

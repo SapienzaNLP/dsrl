@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="store">
+<note>
+  Frames file for 'store' based on sentences in financial subcorpus.
+  Verbnet entry keep 15.2, no other framed members.  Comparison with
+  'stock'.
+</note>
+
+<roleset id="store.01" name="store" vncls="15.2">
+<roles>
+  <role descr="storer" n="0">
+	  <vnrole vncls="15.2" vntheta="Agent"/></role>
+  <role descr="commodity" n="1">
+	  <vnrole vncls="15.2" vntheta="Theme"/></role>
+  <role descr="benefactive" n="2"/>
+</roles>
+
+<example name="cutting-edge technology">
+<text>
+    Although it is not the first company to produce the thinner
+    drives, which *trace* store information in personal computers,
+    MiniScribe says it is the first with an 80-megabyte drive; the
+    company plans to introduce a 120-megabyte drive next year. 
+</text>
+        <arg n="0">*trace* -&gt;  which -&gt;  the thinner drives</arg>
+        <rel>store</rel>
+        <arg n="1">information</arg>
+        <arg f="LOC" n="M">in personal computers</arg>
+</example>
+
+<example name="with benefactive">
+<text>
+    Operationally, Maxtor benefited from robust sales of products that
+    *trace* store data for high-end personal computers and computer
+    workstations. 
+</text>
+        <arg n="0">*trace* -&gt;  that -&gt;  products</arg>
+        <rel>store</rel>
+        <arg n="1">data</arg>
+        <arg f="for" n="2">high-end personal computers and computer
+        workstations</arg> 
+</example>
+
+<note>
+</note>
+
+</roleset>
+</predicate>
+
+<predicate lemma="store_up">
+
+<roleset id="store.02" name="store up: same as store.01" vncls="15.2">
+<roles>
+  <role descr="storer" n="0">
+	  <vnrole vncls="15.2" vntheta="Agent"/></role>
+  <role descr="commodity" n="1">
+	  <vnrole vncls="15.2" vntheta="Theme"/></role>
+  <role descr="benefactive" n="2"/>
+</roles>
+
+<example name="redundant particle">
+<inflection person="ns" tense="ns" aspect="progressive" voice="active" form="participle"/>
+<text>
+ At the same time he started walking the streets , [*-1] peering at the people passing or shopping at the stalls , storing up fresh impressions of what they looked like [*T*-2] , how they moved [*T*-3] .
+</text>
+	<arg n="0">[*-1] ->  he</arg>
+	<rel>[ storing] [ up]</rel>
+	<arg n="1">fresh impressions of what they looked like [*T*-2] , how they moved [*T*-3]</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

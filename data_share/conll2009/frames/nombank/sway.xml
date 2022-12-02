@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sway">
+<roleset id="sway.01" name="persuade (per-sway-d" source="verb-sway.02">
+<roles>
+
+<role descr="persuader" n="0"></role>
+
+<role descr="persuaded" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it 's clearly Max 's wife who held sway here until her death
+</text>
+<arg n="0">Max 's ---> who ---> *T*-1</arg>
+<arg n="Support">held</arg>
+<rel>sway</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's sway in the polyethylene business , where market
+share is often taken through sheer capacity
+</text>
+<arg n="0">the company 's</arg>
+<rel>sway</rel>
+<arg n="1">
+in the polyethylene business , where market share is often taken
+through sheer capacity</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

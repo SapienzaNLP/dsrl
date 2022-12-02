@@ -1,0 +1,72 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="intelligence">
+<roleset id="intelligence.01" name="attribute/nomadj-intelligent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But Mr. Hahn rose swiftly through the ranks , demonstrating a raw
+intelligence that he says he knew he possessed early on .
+</text>
+<arg n="1">Mr. Hahn ---> *-1</arg>
+<arg n="Support">demonstrating</arg>
+<arg f="REF" n="2">intelligence</arg>
+<rel>intelligence</rel>
+</example>
+
+<example name="autogen2">
+<text>
+When Isabella -LRB- Ellen Lauren -RRB- confronts her brother
+Claudio -LRB- Matt Loney -RRB- in his cell , explaining the price
+she has been asked to secure his freedom ; when Isabella and the
+disguised Duke -LRB- Philip Kerr -RRB- conspire to trick Angelo ;
+and when Mariana -LRB- Annalee Jefferies -RRB- , a woman wronged
+by Angelo , confronts him with his past misdeeds , the performers
+bring the dramatic high points to life with intense energy and
+intelligence .
+</text>
+<arg n="1">the performers</arg>
+<arg n="Support">bring with</arg>
+<arg f="REF" n="2">intelligence</arg>
+<rel>intelligence</rel>
+</example>
+
+</roleset>
+<roleset id="intelligence.02" name="cause to know" source="verb-inform.01">
+<roles>
+
+<role descr="informer" n="0"></role>
+
+<role descr="informed" n="1"></role>
+
+<role descr="information" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+military intelligence for officers
+</text>
+<arg n="2">military</arg>
+<rel>intelligence</rel>
+<arg n="1">for officers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a U.S. intelligence report
+</text>
+<arg n="1">U.S.</arg>
+<rel>intelligence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

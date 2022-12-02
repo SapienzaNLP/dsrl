@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="butt">
+<roleset id="butt.01" name="nomlike/bring-along" source="verb-bring.04" vncls="11.3">
+<roles>
+
+<role descr="bringer" n="0">
+<vnrole vncls="11.3" vntheta="Agent"/></role>
+
+<role descr="thing brought" n="1">
+<vnrole vncls="11.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary, brought-for, brought-to" n="2">
+<vnrole vncls="11.3" vntheta="Destination"/></role>
+
+<role descr="attribute" n="3"></role>
+
+<role descr="ablative, brought-from" n="4">
+<vnrole vncls="11.3" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he was taking my butt to the Central Committee so they can
+</text>
+<arg n="0">he</arg>
+<arg n="Support">taking</arg>
+<arg n="1">my</arg>
+<rel>butt</rel>
+<arg n="2">to the Central Committee</arg>
+</example>
+
+</roleset>
+<roleset id="butt.02" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+The cigarette butt
+</text>
+<arg n="1">cigarette</arg>
+<rel>butt</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

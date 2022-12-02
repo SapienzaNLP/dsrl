@@ -1,0 +1,87 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="counsel">
+<roleset id="counsel.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Hilton 's general counsel
+</text>
+<arg n="2">Hilton 's</arg>
+<arg n="3">general</arg>
+<arg n="0">counsel</arg>
+<rel>counsel</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Kodak 's patent counsel
+</text>
+<arg n="2">Kodak 's</arg>
+<arg n="1">patent</arg>
+<arg n="0">counsel</arg>
+<rel>counsel</rel>
+</example>
+
+</roleset>
+<roleset id="counsel.02" name="give advice" source="verb-advise.01" vncls="37.9-1">
+<roles>
+
+<role descr="entity giving advice" n="0">
+<vnrole vncls="37.9-1" vntheta="Agent"/></role>
+
+<role descr="advice, impelled action" n="1" source="2">
+<vnrole vncls="37.9-1" vntheta="Topic"/></role>
+
+<role descr="entity getting advice, impelled agent" n="2" source="1">
+<vnrole vncls="37.9-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+After all , he had the counsel of `` curators from the most
+reputable museums in the world . ''
+</text>
+<arg n="2">he</arg>
+<arg n="Support">had</arg>
+<arg f="REF" n="1">counsel</arg>
+<rel>counsel</rel>
+<arg n="0">of `` curators from the most reputable museums in the world</arg>
+</example>
+
+<example name="autogen2">
+<text>
+These statesmen might take counsel from William Robinson , author
+of `` The English Flower Garden '' -- the gardener 's bible since
+1883 -- who seems to have had a Jennifer Bartlett in mind when he
+wrote : `` Unhappily , our gardeners for ages have suffered at
+the hands of the decorative artist when applying his ` designs '
+to the garden ... .
+</text>
+<arg n="2">These statesmen</arg>
+<arg n="Support">take</arg>
+<arg f="REF" n="1">counsel</arg>
+<rel>counsel</rel>
+<arg n="0">
+from William Robinson , author of `` The English Flower Garden ''
+-- the gardener 's bible since 1883 -- who seems to have had a
+Jennifer Bartlett in mind when he wrote : `` Unhappily , our
+gardeners for ages have suffered at the hands of the decorative
+artist when applying his ` designs ' to the garden</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

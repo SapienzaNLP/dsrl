@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="attribute">
+<roleset id="attribute.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its own attributes
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">attributes</arg>
+<rel>attributes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a market attribute
+</text>
+<arg n="1">market</arg>
+<arg f="REF" n="2">attribute</arg>
+<rel>attribute</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="objectivity">
+<roleset id="objectivity.01" name="nomadj-objective">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+After hours of conflict and debate , that jury focuses on the
+facts with near-perfect objectivity .
+</text>
+<arg n="0">that jury</arg>
+<arg n="Support">focuses with</arg>
+<arg n="1">on the facts</arg>
+<rel>objectivity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its objectivity
+</text>
+<arg n="0">its</arg>
+<rel>objectivity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="extraction">
+<roleset id="extraction.01" name="to remove or obtain" source="verb-extract.01" vncls="10.1">
+<roles>
+
+<role descr="remover, agent" n="0">
+<vnrole vncls="10.1" vntheta="Agent"/></role>
+
+<role descr="thing extracted" n="1">
+<vnrole vncls="10.1" vntheta="Theme"/></role>
+
+<role descr="entity extracted from" n="2">
+<vnrole vncls="10.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="invented example">
+<text>
+The computer program's extraction of information from text
+</text>
+<arg n="0">The computer program's</arg>
+<rel>extraction</rel>
+<arg n="1">of information</arg>
+<arg n="2">from the text</arg>
+</example>
+
+</roleset>
+<roleset id="extraction.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+old-fashioned elegant gentlemen , who happened to be of German
+Jewish extraction
+</text>
+<arg n="1">old-fashioned elegant gentlemen ---> who ---> *T*-1 ---> *-2</arg>
+<arg n="2">German Jewish</arg>
+<rel>extraction</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

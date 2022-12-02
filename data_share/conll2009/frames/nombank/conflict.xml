@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conflict">
+<roleset id="conflict.01" name="to come into conflict, be in opposition" source="verb-clash.01" vncls="36.1">
+<roles>
+
+<role descr="agentive clasher" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="entity clashed with" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="entity clashed over" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he was prepared to risk a policy conflict with the U.S. over an
+Egyptian plan to hold direct Israeli-Palestinian talks , which
+the premier 's Likud bloc opposes
+</text>
+<arg n="0">he ---> *-2</arg>
+<arg n="Support">risk</arg>
+<rel>conflict</rel>
+<arg n="1">with the U.S.</arg>
+<arg n="2">
+over an Egyptian plan to hold direct Israeli-Palestinian talks ,
+which the premier 's Likud bloc opposes</arg>
+</example>
+
+<example name="autogen2">
+<text>
+profound cultural conflicts in American life between the `` smart
+set , '' whose spokesman was H.L. Mencken , and the religious
+fundamentalists , whom Mencken derided as benighted primitives
+</text>
+<arg f="MNR" n="M">profound</arg>
+<rel>conflicts</rel>
+<arg n="2">in American life</arg>
+<arg n="0">
+between the `` smart set , '' whose spokesman was H.L. Mencken ,
+and the religious fundamentalists , whom Mencken derided as
+benighted primitives</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

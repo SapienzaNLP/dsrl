@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="occupancy">
+<roleset id="occupancy.01" name="be in a certain place" source="verb-occupy.01">
+<roles>
+
+<role descr="occupier" n="0"></role>
+
+<role descr="occupied" n="1"></role>
+
+<role descr="secondary predication on arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+80%-plus occupancy
+</text>
+<arg f="EXT" n="M">80%-plus</arg>
+<rel>occupancy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+long-term occupancy
+</text>
+<arg f="TMP" n="M">long-term</arg>
+<rel>occupancy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

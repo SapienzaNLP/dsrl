@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ego">
+<roleset id="ego.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Trump , whose towering ego had been viewed by some as a
+reason to believe he would n't back out ,
+</text>
+<arg n="1">Mr. Trump ---> whose</arg>
+<arg n="2">towering</arg>
+<rel>ego</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their own egos
+</text>
+<arg n="1">their</arg>
+<rel>egos</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

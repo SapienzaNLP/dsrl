@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="kind">
+<roleset id="kind.01" name="type">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some kind of religious symbol
+</text>
+<rel>kind</rel>
+<arg n="1">of religious symbol</arg>
+</example>
+
+<example name="autogen2">
+<text>
+many kinds of behavior
+</text>
+<rel>kinds</rel>
+<arg n="1">of behavior</arg>
+</example>
+
+</roleset>
+<roleset id="kind.02" name="nomadj-quasi/nomadv-kind-of">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It 's been kind of annoying , to say the least
+</text>
+<rel>kind</rel>
+<arg n="1">annoying</arg>
+</example>
+
+<example name="autogen2">
+<text>
+I felt kind of safe
+</text>
+<rel>kind</rel>
+<arg n="1">safe</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="common">
+<roleset id="common.01" name="share" source="verb-share.01">
+<roles>
+
+<role descr="sharer" n="0"></role>
+
+<role descr="thing shared" n="1"></role>
+
+<role descr="shared with, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+she has much in common with Baker
+</text>
+<arg n="0">she</arg>
+<arg n="Support">has much in</arg>
+<rel>common</rel>
+<arg n="2">with Baker</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Unitil 's common
+</text>
+<arg n="1">Unitil 's</arg>
+<rel>common</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

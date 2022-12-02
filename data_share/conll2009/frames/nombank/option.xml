@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="option">
+<roleset id="option.01" name="nom/financial-instrument" source="verb-opt.01">
+<roles>
+
+<role descr="chooser/owner" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="price" n="2"></role>
+
+<role descr="type" n="3"></role>
+
+<role descr="time" n="9"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Put option March 31 , 1992 , at 107 3/4 to yield a fixed 3.52 % .
+</text>
+<arg n="3">Put</arg>
+<rel>option</rel>
+<arg n="9">March 31 , 1992 ,</arg>
+<arg n="2">at 107 3/4</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` put '' options , either on the individual stocks they own or
+on a broad market index
+</text>
+<arg n="3">put</arg>
+<rel>options</rel>
+<arg n="1">
+either on the individual stocks they own or on a broad market
+index</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

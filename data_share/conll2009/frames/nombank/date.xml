@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="date">
+<roleset id="date.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Citibank extended the expiration date of its commitment for
+senior secured financing to Nov. 15
+</text>
+<arg n="Support">extended</arg>
+<arg n="1">expiration</arg>
+<rel>date</rel>
+<arg n="3">of its commitment for senior secured financing</arg>
+<arg n="2">to Nov. 15</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a delivery date for the planes
+</text>
+<arg n="1">delivery</arg>
+<rel>date</rel>
+<arg n="3">for the planes</arg>
+</example>
+
+</roleset>
+<roleset id="date.02" name="get together with" source="verb-meet.03" vncls="36.3">
+<roles>
+
+<role descr="one party" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="reason to meet" n="1"></role>
+
+<role descr="other party" n="2" source="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+<role descr="time of meeting" n="8"></role>
+
+<role descr="location of meeting" n="9"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+people like his friend Travis would take a psychiatrist on a date
+to analyze what Travis was doing wrong
+</text>
+<arg n="0">people like his friend Travis</arg>
+<arg n="Support">take</arg>
+<arg n="2">a psychiatrist</arg>
+<rel>date</rel>
+<arg f="PNC" n="M">to analyze what Travis was doing wrong</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

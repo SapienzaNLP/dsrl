@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="incinerator">
+<roleset id="incinerator.01" name="nomlike" source="verb-burn.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+garbage-incinerator plants
+</text>
+<arg n="0">garbage-incinerator</arg>
+<arg n="1">garbage-incinerator</arg>
+<rel>garbage-incinerator</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a hazardous-waste incinerator in his county
+</text>
+<arg n="1">hazardous-waste</arg>
+<arg n="0">incinerator</arg>
+<rel>incinerator</rel>
+<arg f="LOC" n="M">in his county</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

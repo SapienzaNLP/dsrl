@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="priest">
+<roleset id="priest.01" name="consultant/actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+<role descr="employer" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Russian Orthodox priests
+</text>
+<arg n="4">Russian Orthodox</arg>
+<arg n="0">priests</arg>
+<rel>priests</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ground">
+<roleset id="ground.01" name="have, own" source="verb-possess.01">
+<roles>
+
+<role descr="possessor" n="0"></role>
+
+<role descr="possession" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a traditional stomping ground for small investors
+</text>
+<arg n="1">ground</arg>
+<rel>ground</rel>
+<arg n="0">for small investors</arg>
+</example>
+
+<example name="autogen2">
+<text>
+my grounds and lodgings
+</text>
+<arg n="0">my</arg>
+<arg n="1">grounds</arg>
+<rel>grounds</rel>
+</example>
+
+</roleset>
+<roleset id="ground.02" name="nomlike" source="verb-base.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="decision" n="1"></role>
+
+<role descr="justification" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+one carrier to underwrite on social grounds
+</text>
+<arg n="0">one carrier</arg>
+<arg f="PRD" n="1">underwrite</arg>
+<arg n="2">social</arg>
+<rel>grounds</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their preference for the F-18 on operational grounds
+</text>
+<arg n="1">their preference for the F-18</arg>
+<arg n="2">operational</arg>
+<rel>grounds</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

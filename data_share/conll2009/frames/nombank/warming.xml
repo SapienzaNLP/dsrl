@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="warming">
+<roleset id="warming.01" name="cause to) become warm1" source="verb-warm.01" vncls="45.4">
+<roles>
+
+<role descr="cause of warmth" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing becoming warm" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the capitalist-exploiters-greedy-American-consumers-global -
+warming scenario
+</text>
+<arg n="1">capitalist-exploiters-greedy-American-consumers-global</arg>
+<rel>warming</rel>
+</example>
+
+<example name="autogen3">
+<text>
+This global warming
+</text>
+<arg n="1">global</arg>
+<rel>warming</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

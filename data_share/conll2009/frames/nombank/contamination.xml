@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="contamination">
+<roleset id="contamination.01" name="befoul" source="verb-contaminate.01" vncls="9.8">
+<roles>
+
+<role descr="causer of contamination" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="theme" n="1" source="2">
+<vnrole vncls="9.8" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2" source="1">
+<vnrole vncls="9.8" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+contamination of hundreds of miles of shoreline along Prince
+William Sound
+</text>
+<rel>contamination</rel>
+<arg n="2">of hundreds of miles of shoreline along Prince William Sound</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the mushroom contamination
+</text>
+<arg n="2">mushroom</arg>
+<rel>contamination</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

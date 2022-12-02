@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="seminar">
+<roleset id="seminar.01" name="try to) make learn" source="verb-teach.01" vncls="37.1-1">
+<roles>
+
+<role descr="teacher" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="37.1-1" vntheta="Topic"/></role>
+
+<role descr="student(s" n="2">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And a Fannie Mae seminar this week promises to draw hundreds of
+prospective investors , who can be expected to channel tens of
+billions of dollars into the market in the next few years .
+</text>
+<arg n="0">Fannie Mae</arg>
+<rel>seminar</rel>
+<arg n="Support">draw</arg>
+<arg n="2">
+hundreds of prospective investors , who can be expected to
+channel tens of billions of dollars into the market in the next
+few years</arg>
+</example>
+
+<example name="autogen2">
+<text>
+As a consultant , he has given seminars at agencies including
+Ogilvy &amp; Mather on how to win new business .
+</text>
+<arg n="0">he</arg>
+<arg n="Support">given</arg>
+<rel>seminars</rel>
+<arg n="1">*ICH*-1 ---> on how to win new business</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

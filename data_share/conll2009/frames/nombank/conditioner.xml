@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conditioner">
+<roleset id="conditioner.01" name="to accustom, to adapt" source="verb-condition.02">
+<roles>
+
+<role descr="causer of adaptation, agent" n="0"></role>
+
+<role descr="entity adapted" n="1"></role>
+
+<role descr="adapted to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+air conditioners
+</text>
+<arg n="1">air</arg>
+<arg n="0">conditioners</arg>
+<rel>conditioners</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Japanese air-conditioner maker Daikin Industries Ltd.
+</text>
+<arg n="0">air-conditioner</arg>
+<arg n="1">air-conditioner</arg>
+<rel>air-conditioner</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shake-up">
+<roleset id="shake-up.01" name="tremble very badly" source="verb-shake.03">
+<roles>
+
+<role descr="cause of shaking" n="0"></role>
+
+<role descr="thing trembling" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's management shakeup
+</text>
+<arg n="1">management</arg>
+<rel>shakeup</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The British shakeup
+</text>
+<arg n="1">British</arg>
+<rel>shakeup</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,171 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lead">
+<roleset id="lead.01" name="directed motion" source="verb-lead.01" vncls="51.7">
+<roles>
+
+<role descr="leader" n="0">
+<vnrole vncls="51.7" vntheta="Agent"/></role>
+
+<role descr="thing led" n="1">
+<vnrole vncls="51.7" vntheta="Theme"/></role>
+
+<role descr="extent" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Compaq has at least a six-month lead on the competition
+</text>
+<arg n="0">Compaq</arg>
+<arg n="Support">has</arg>
+<arg n="2">six-month</arg>
+<rel>lead</rel>
+<arg n="1">on the competition</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a 33-point lead in the polls over Mr. Giuliani
+</text>
+<arg n="2">33-point</arg>
+<rel>lead</rel>
+<arg f="LOC" n="M">in the polls</arg>
+<arg n="1">over Mr. Giuliani</arg>
+</example>
+
+</roleset>
+<roleset id="lead.02" name="act as project leader" source="verb-lead.02" vncls="51.7">
+<roles>
+
+<role descr="leader" n="0">
+<vnrole vncls="51.7" vntheta="Agent"/></role>
+
+<role descr="project or group" n="1">
+<vnrole vncls="51.7" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Kidder 's `` lead business
+</text>
+<arg n="1">Kidder 's</arg>
+<rel>lead</rel>
+<arg n="0">business</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the lead bank
+</text>
+<rel>lead</rel>
+<arg n="0">bank</arg>
+</example>
+
+</roleset>
+<roleset id="lead.03" name="resulted" source="verb-lead.03">
+<roles>
+
+<role descr="factors" n="0"></role>
+
+<role descr="led entity" n="1"></role>
+
+<role descr="result, action or attribute on arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it had a lead of three to six months on competitors
+</text>
+<arg n="0">it</arg>
+<arg n="Support">had</arg>
+<rel>lead</rel>
+<arg n="2">of three to six months</arg>
+<arg n="1">on competitors</arg>
+</example>
+
+<example name="autogen2">
+<text>
+citywide projections now put his lead at between four and 20
+percentage points
+</text>
+<arg n="0">his</arg>
+<rel>lead</rel>
+<arg n="2">at between four and 20 percentage points</arg>
+</example>
+
+</roleset>
+<roleset id="lead.04" name="begin" source="verb-lead.04">
+<roles>
+
+<role descr="creator, beginner, agent" n="0"></role>
+
+<role descr="theme(-creation" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="secondary predication of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+harder `` leads
+</text>
+<arg f="MNR" n="M">harder</arg>
+<rel>leads</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a lead story
+</text>
+<rel>lead</rel>
+<arg n="0">story</arg>
+</example>
+
+</roleset>
+<roleset id="lead.05" name="follow-lead" source="verb-mimic.01">
+<roles>
+
+<role descr="copy" n="0"></role>
+
+<role descr="domain/theme" n="1"></role>
+
+<role descr="original" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Canada were to follow the U.S. lead in the OAS
+</text>
+<arg n="0">Canada ---> *-1</arg>
+<arg n="Support">follow</arg>
+<arg n="2">U.S.</arg>
+<rel>lead</rel>
+<arg n="1">in the OAS</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The state of California , following the lead of some regional
+parks , recently adopted regulations that closed nearly all
+hiking paths in state parks to mountain bicycles .
+</text>
+<arg n="0">The state of California ---> *-2</arg>
+<arg n="Support">following</arg>
+<rel>lead</rel>
+<arg n="2">of some regional parks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

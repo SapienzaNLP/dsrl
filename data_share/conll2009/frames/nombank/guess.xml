@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="guess">
+<roleset id="guess.01" name="default" source="verb-guess.01" vncls="29.5">
+<roles>
+
+<role descr="guesser" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="guess" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+anybody 's guess
+</text>
+<arg n="0">anybody 's</arg>
+<arg f="REF" n="1">guess</arg>
+<rel>guess</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Unfortunately , by my rough guess , he used better than 5,000
+words heaping scorn on the witnesses for exercising the Fifth .
+</text>
+<arg n="0">my</arg>
+<arg f="MNR" n="M">rough</arg>
+<rel>guess</rel>
+<arg n="1">
+he used better than 5,000 words heaping scorn on the witnesses
+for exercising the Fifth</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

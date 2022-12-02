@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nickname">
+<roleset id="nickname.01" name="assign a nickname" source="verb-nickname.01" vncls="29.3">
+<roles>
+
+<role descr="namer" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="named" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="name" n="2">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Wall Street 's nickname for the monthly simultaneous expiration
+of a variety of stock index futures , index options and options
+on individual stocks
+</text>
+<arg n="0">Wall Street 's</arg>
+<arg n="2">nickname</arg>
+<rel>nickname</rel>
+<arg n="1">
+for the monthly simultaneous expiration of a variety of stock
+index futures , index options and options on individual stocks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A nickname for measures to stop the market from plunging too far
+too fast .
+</text>
+<arg n="2">nickname</arg>
+<rel>nickname</rel>
+<arg n="1">for measures to stop the market from plunging too far too fast</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="countersuit">
+<roleset id="countersuit.01" name="call to court" source="verb-sue.01">
+<roles>
+
+<role descr="litigant" n="0"></role>
+
+<role descr="defender" n="1"></role>
+
+<role descr="crime" n="2"></role>
+
+<role descr="intended prize" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Separately , AT&amp;T filed a countersuit against MCI accusing it of
+misleading consumers through allegedly `` false and deceptive ''
+advertising .
+</text>
+<arg n="0">AT&amp;T</arg>
+<arg n="Support">filed</arg>
+<rel>countersuit</rel>
+<arg n="1">against MCI</arg>
+<arg n="2">
+accusing it of misleading consumers through allegedly `` false
+and deceptive '' advertising</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Exxon 's countersuit
+</text>
+<arg n="0">Exxon 's</arg>
+<rel>countersuit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

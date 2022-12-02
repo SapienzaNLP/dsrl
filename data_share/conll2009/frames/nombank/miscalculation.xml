@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="miscalculation">
+<roleset id="miscalculation.01" name="to count or estimate incorrectly" source="verb-miscalculate.01">
+<roles>
+
+<role descr="calculator, agent" n="0"></role>
+
+<role descr="thing calculated" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The computer 's miscalculation
+</text>
+<arg n="0">The computer 's</arg>
+<rel>miscalculation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

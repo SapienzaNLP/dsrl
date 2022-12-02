@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hole">
+<roleset id="hole.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to find eight holes in his front yard where his prized miniature
+palms , called cycads , once stood
+</text>
+<rel>holes</rel>
+<arg n="1">
+in his front yard where his prized miniature palms , called
+cycads , once stood</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a small hole in the high ceiling of the ringing chamber
+</text>
+<rel>hole</rel>
+<arg n="1">in the high ceiling of the ringing chamber</arg>
+</example>
+
+</roleset>
+<roleset id="hole.02" name="nomlike/idiom" source="verb-trouble.01" vncls="31.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="patient" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument or manner" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Holy See is out of the hole
+</text>
+<arg n="1">the Holy See</arg>
+<arg f="NEG" n="M">out of</arg>
+<arg n="Support">out of</arg>
+<rel>hole</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Federal Housing Administration , which loans out money for
+private home mortgages and has just been discovered to be $ 4
+billion in the hole
+</text>
+<arg n="1">the Federal Housing Administration ---> which ---> *-1</arg>
+<arg f="EXT" n="M">$ 4 billion</arg>
+<rel>hole</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

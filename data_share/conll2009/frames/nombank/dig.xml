@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dig">
+<roleset id="dig.01" name="turn over, remove soil" source="verb-dig.01" vncls="26.4-1">
+<roles>
+
+<role descr="digger, agent" n="0">
+<vnrole vncls="26.4-1" vntheta="Agent"/></role>
+
+<role descr="entity removed" n="1">
+<vnrole vncls="26.4-1" vntheta="Product"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="19" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the world 's most inhospitable diamond dig
+</text>
+<arg f="MNR" n="M">most inhospitable</arg>
+<arg n="1">diamond</arg>
+<rel>dig</rel>
+</example>
+
+</roleset>
+<roleset id="dig.02" name="to reside or be present in" source="verb-inhabit.01">
+<roles>
+
+<role descr="resident" n="0"></role>
+
+<role descr="place of residence" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the artist 's own digs
+</text>
+<arg n="0">the artist 's</arg>
+<rel>digs</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its present digs
+</text>
+<arg n="0">its</arg>
+<arg f="TMP" n="M">present</arg>
+<rel>digs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

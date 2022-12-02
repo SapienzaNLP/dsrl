@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="decade">
+<roleset id="decade.01" name="environment">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+nearly two decades of iron-handed leadership during which Mr.
+Honecker , now 77 years old , built East Germany into the most
+economically advanced nation in the Soviet bloc
+</text>
+<rel>decades</rel>
+<arg n="1">of iron-handed leadership</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a decade of increased Republican influence here
+</text>
+<rel>decade</rel>
+<arg n="1">of increased Republican influence here</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

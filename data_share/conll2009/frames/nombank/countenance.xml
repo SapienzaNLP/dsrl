@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="countenance">
+<roleset id="countenance.01" name="seeming" source="verb-look.02">
+<roles>
+
+<role descr="seemer" n="0"></role>
+
+<role descr="seemed like, attribute of arg0" n="1"></role>
+
+<role descr="seemed to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his shadowy countenance
+</text>
+<arg n="0">his</arg>
+<arg n="1">shadowy</arg>
+<rel>countenance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

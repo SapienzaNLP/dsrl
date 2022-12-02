@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tube">
+<roleset id="tube.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a free tube of toothpaste , a commodity in chronically short
+supply here
+</text>
+<rel>tube</rel>
+<arg n="1">of toothpaste , a commodity in chronically short supply here</arg>
+</example>
+
+</roleset>
+<roleset id="tube.02" name="partitive-part/meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+television picture tubes
+</text>
+<arg n="1">television</arg>
+<rel>tubes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

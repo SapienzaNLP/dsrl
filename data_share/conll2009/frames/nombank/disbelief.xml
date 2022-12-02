@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disbelief">
+<roleset id="disbelief.01" name="not believe" source="verb-disbelieve.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Many in the Bay Area 's pastry community express disbelief that
+Ms. Shere kept only one copy of such valuable notes
+</text>
+<arg n="0">Many in the Bay Area 's pastry community</arg>
+<arg n="Support">express</arg>
+<rel>disbelief</rel>
+<arg n="1">that Ms. Shere kept only one copy of such valuable notes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

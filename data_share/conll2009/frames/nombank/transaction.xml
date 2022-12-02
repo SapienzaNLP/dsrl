@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="transaction">
+<roleset id="transaction.01" name="perform a transaction" source="verb-transact.01">
+<roles>
+
+<role descr="entity performing the transaction" n="0"></role>
+
+<role descr="thing transacted" n="1"></role>
+
+<role descr="co-transactor" n="2"></role>
+
+<role descr="value of transaction" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And in a separate transaction , Beghin-Say will sell its
+remaining 25 % interest in A.T.B. , a holding company for
+international trading assets , to an unspecified unit of Ferruzzi
+for 258 million francs .
+</text>
+<arg n="Support">in sell</arg>
+<arg f="MNR" n="M">separate</arg>
+<rel>transaction</rel>
+<arg n="0">Beghin-Say</arg>
+<arg n="1">
+its remaining 25 % interest in A.T.B. , a holding company for
+international trading assets ,</arg>
+<arg n="2">to an unspecified unit of Ferruzzi</arg>
+<arg n="3">for 258 million francs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+anyone who receives more than $ 10,000 in cash from a client or
+customer in one or more related transactions `` in the course of
+trade or business ''
+</text>
+<arg n="0">anyone ---> who ---> *T*-126</arg>
+<arg n="1">more than $ 10,000 in cash</arg>
+<arg n="2">from a client or customer</arg>
+<rel>transactions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

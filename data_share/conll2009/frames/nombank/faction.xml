@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="faction">
+<roleset id="faction.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the state 's la-la factions
+</text>
+<arg n="2">the state 's</arg>
+<arg n="1">la-la</arg>
+<rel>factions</rel>
+</example>
+
+<example name="autogen2">
+<text>
+union factions
+</text>
+<arg n="2">union</arg>
+<rel>factions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

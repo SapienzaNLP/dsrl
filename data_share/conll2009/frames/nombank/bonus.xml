@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bonus">
+<roleset id="bonus.01" name="transfer" source="verb-give.01" vncls="13.1-1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+To head off arguments , Infiniti offers dealers cash bonuses and
+low-interest construction loans .
+</text>
+<arg n="0">Infiniti</arg>
+<arg n="Support">offers</arg>
+<arg n="2">dealers</arg>
+<arg n="1">cash</arg>
+<rel>bonuses</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 575,000 bonus
+</text>
+<arg n="1">$ 575,000</arg>
+<rel>bonus</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

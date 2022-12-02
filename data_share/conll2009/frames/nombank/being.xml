@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="being">
+<roleset id="being.01" name="nom/attribute" source="verb-be.02">
+<roles>
+
+<role descr="thing that is" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+health and well-being
+</text>
+<arg n="1">well-being</arg>
+<arg n="2">well-being</arg>
+<rel>well-being</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the nation 's economic well-being
+</text>
+<arg n="1">the nation 's</arg>
+<arg n="2">well-being</arg>
+<rel>well-being</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

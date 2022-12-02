@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sinking">
+<roleset id="sinking.01" name="cause to) go down, esp into water" source="verb-sink.01" vncls="45.4">
+<roles>
+
+<role descr="causer of sinking" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing sinking" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="ext" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+<role descr="instrument" n="5">
+<vnrole vncls="45.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The company 's 7.9 % sinking fund debentures
+</text>
+<rel>sinking</rel>
+<arg n="1">debentures</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the city 's slow sinking into its lagoon
+</text>
+<arg n="1">the city 's</arg>
+<rel>sinking</rel>
+<arg n="4">into its lagoon</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

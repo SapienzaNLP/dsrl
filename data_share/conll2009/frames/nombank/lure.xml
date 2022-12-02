@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lure">
+<roleset id="lure.01" name="attract, draw near" source="verb-lure.01">
+<roles>
+
+<role descr="cause" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="goal" n="2" source="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+<role descr="source" n="4" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+For some players , the lure is money -- up to $ 15,000 a month .
+</text>
+<arg n="1">For some players</arg>
+<arg f="REF" n="0">lure</arg>
+<rel>lure</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the lure of big returns
+</text>
+<rel>lure</rel>
+<arg n="0">of big returns</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

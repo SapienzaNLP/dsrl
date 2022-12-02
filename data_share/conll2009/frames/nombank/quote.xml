@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="quote">
+<roleset id="quote.01" name="quote" source="verb-quote.01" vncls="37.1-1">
+<roles>
+
+<role descr="quoter" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="topic" n="1" source="2">
+<vnrole vncls="37.1-1" vntheta="Topic"/></role>
+
+<role descr="source" n="2" source="1">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the announcer reads favorable quotes about the model from Motor
+Trend and Road &amp; Track magazines
+</text>
+<arg n="0">the announcer</arg>
+<arg n="Support">reads</arg>
+<rel>quotes</rel>
+<arg n="1">about the model</arg>
+<arg n="2">from Motor Trend and Road &amp; Track magazines</arg>
+</example>
+
+<example name="autogen2">
+<text>
+other dealers ' price quotes
+</text>
+<arg n="2">other dealers '</arg>
+<arg n="1">price</arg>
+<rel>quotes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

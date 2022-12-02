@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="associate">
+<roleset id="associate.01" name="include in some group" source="verb-associate.01" vncls="22.2">
+<roles>
+
+<role descr="agent, entity causing some grouping, making an   association" n="0"></role>
+
+<role descr="theme, thing being included in some group" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="group, associated-with" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Associates of 81-year-old Justice Marshall
+</text>
+<arg n="1">Associates</arg>
+<rel>Associates</rel>
+<arg n="2">of 81-year-old Justice Marshall</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an associate of ex-Attorney General Meese
+</text>
+<arg n="1">associate</arg>
+<rel>associate</rel>
+<arg n="2">of ex-Attorney General Meese</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="page">
+<roleset id="page.01" name="partitive-quant/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="quantified" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the magazine 's advertising pages and circulation
+</text>
+<arg n="1">the magazine 's</arg>
+<arg n="2">advertising</arg>
+<rel>pages</rel>
+</example>
+
+<example name="autogen2">
+<text>
+total ad pages
+</text>
+<arg n="2">ad</arg>
+<rel>pages</rel>
+</example>
+
+</roleset>
+<roleset id="page.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a male congressional page
+</text>
+<arg n="2">congressional</arg>
+<arg n="0">page</arg>
+<rel>page</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commissioner">
+<roleset id="commissioner.01" name="actrel/nom" source="verb-commission.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Gov. Kean 's own insurance commissioner
+</text>
+<arg n="2">Gov. Kean 's</arg>
+<arg n="1">insurance</arg>
+<arg n="0">commissioner</arg>
+<rel>commissioner</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an SEC commissioner
+</text>
+<arg n="2">SEC</arg>
+<arg n="0">commissioner</arg>
+<rel>commissioner</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

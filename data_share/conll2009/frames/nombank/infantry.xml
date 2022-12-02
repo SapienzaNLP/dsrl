@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="infantry">
+<roleset id="infantry.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the regular Afghan infantry
+</text>
+<arg n="1">Afghan</arg>
+<arg n="0">infantry</arg>
+<rel>infantry</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

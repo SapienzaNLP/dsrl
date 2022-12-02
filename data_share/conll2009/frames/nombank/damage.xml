@@ -1,0 +1,76 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="damage">
+<roleset id="damage.01" name="to harm or spoil" source="verb-damage.01">
+<roles>
+
+<role descr="agent, causer" n="0"></role>
+
+<role descr="entity damaged" n="1"></role>
+
+<role descr="amount of damage" n="2" source="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any major damage to facilities as a result of the quake
+</text>
+<arg n="2">major</arg>
+<rel>damage</rel>
+<arg n="1">to facilities</arg>
+<arg n="0">as a result of the quake</arg>
+</example>
+
+<example name="autogen2">
+<text>
+only minor damage to headquarters building
+</text>
+<arg n="2">only minor</arg>
+<rel>damage</rel>
+<arg n="1">to headquarters building</arg>
+</example>
+
+</roleset>
+<roleset id="damage.02" name="pay back" source="verb-compensate.01" vncls="33">
+<roles>
+
+<role descr="payer or buyer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="thing bought or paid for" n="1">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+<role descr="seller or person being paid" n="2">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="price paid (unlikely" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Polaroid Corp. 's patent-infringement damages case against
+Eastman Kodak Co. , one of the highest stakes corporate trials
+ever ,
+</text>
+<arg n="2">Polaroid Corp. 's</arg>
+<arg n="1">patent-infringement</arg>
+<arg f="REF" n="3">damages</arg>
+<rel>damages</rel>
+<arg n="Support">case</arg>
+<arg n="0">against Eastman Kodak Co.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 4.25 million damage award against General Dynamics Corp.
+</text>
+<arg n="3">$ 4.25 million</arg>
+<rel>damage</rel>
+<arg n="0">against General Dynamics Corp.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

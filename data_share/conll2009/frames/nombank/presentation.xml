@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="presentation">
+<roleset id="presentation.01" name="give" source="verb-present.01" vncls="13.4.1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.4.1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.4.1" vntheta="Theme"/></role>
+
+<role descr="given to" n="2">
+<vnrole vncls="13.4.1" vntheta="Recipient"/></role>
+
+<role descr="secondary attribute of thing given" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her inept presentation of advocacy journalism
+</text>
+<arg n="0">her</arg>
+<arg f="MNR" n="M">inept</arg>
+<rel>presentation</rel>
+<arg n="1">of advocacy journalism</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it would require neither bicameral action in Congress nor
+presentation to the president for his signature or veto
+</text>
+<arg n="1">it</arg>
+<arg n="Support">require</arg>
+<rel>presentation</rel>
+<arg n="2">to the president</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

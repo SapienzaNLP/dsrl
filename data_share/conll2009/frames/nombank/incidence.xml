@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="incidence">
+<roleset id="incidence.01" name="occur, take place" source="verb-occur.01" vncls="48.3">
+<roles>
+
+<role descr="event" n="1">
+<vnrole vncls="48.3" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a much higher incidence of audits than average
+</text>
+<rel>incidence</rel>
+<arg n="1">of audits</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the incidence of lung cancer
+</text>
+<rel>incidence</rel>
+<arg n="1">of lung cancer</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

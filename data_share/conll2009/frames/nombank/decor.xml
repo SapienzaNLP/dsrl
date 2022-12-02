@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="decor">
+<roleset id="decor.01" name="attribute" source="verb-decorate.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a `` plaid knot garden '' decor
+</text>
+<arg n="2">`` plaid knot garden ''</arg>
+<rel>decor</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the thrust of casinos was all high rollers , with no windows and
+clocks and lots of red and black decor ,
+</text>
+<arg n="1">the thrust of casinos</arg>
+<arg n="Support">lots of</arg>
+<arg n="2">red and black</arg>
+<rel>decor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drinking">
+<roleset id="drinking.01" name="ingest liquids" source="verb-drink.01" vncls="39.1">
+<roles>
+
+<role descr="drinker" n="0">
+<vnrole vncls="39.1" vntheta="Agent"/></role>
+
+<role descr="liquid" n="1">
+<vnrole vncls="39.1" vntheta="Patient"/></role>
+
+<role descr="source of liquid" n="2"></role>
+
+</roles>
+
+<example name="autogen4">
+<text>
+An ancient red-figured Greek kylix , or drinking cup ,
+</text>
+<rel>drinking</rel>
+<arg n="2">cup</arg>
+</example>
+
+<example name="autogen5">
+<text>
+drinking water
+</text>
+<rel>drinking</rel>
+<arg n="1">water</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

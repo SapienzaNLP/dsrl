@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="squad">
+<roleset id="squad.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Panama 's Battalion-2000 squad
+</text>
+<arg n="2">Panama 's</arg>
+<arg n="1">Battalion-2000</arg>
+<rel>squad</rel>
+</example>
+
+<example name="autogen2">
+<text>
+local police squads
+</text>
+<arg n="2">local</arg>
+<arg n="1">police</arg>
+<rel>squads</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

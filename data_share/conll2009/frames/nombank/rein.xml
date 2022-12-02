@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rein">
+<roleset id="rein.01" name="to stop, slow up or control" source="verb-rein.01">
+<roles>
+
+<role descr="slower, stopper, agent" n="0"></role>
+
+<role descr="entity reined" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Dozen is taking over the reins of a securities company that
+does very well in its domestic market but that is still seeking
+to realize its potential in global investment banking and
+securities dealing .
+</text>
+<arg n="0">Mr. Dozen</arg>
+<arg n="Support">taking</arg>
+<rel>reins</rel>
+<arg n="1">
+of a securities company that does very well in its domestic
+market but that is still seeking to realize its potential in
+global investment banking and securities dealing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he handed over the reins to successor Charles A. Corry
+</text>
+<arg n="0">he</arg>
+<arg n="Support">handed</arg>
+<rel>reins</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

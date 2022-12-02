@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="applause">
+<roleset id="applause.01" name="clap, sometimes metaphorically" source="verb-applaud.01" vncls="33">
+<roles>
+
+<role descr="clapper" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="thing approved of" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="grounds, reason for approval" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it was greeted with applause by the Bush administration and the
+financial markets
+</text>
+<arg n="1">it ---> *-1</arg>
+<arg n="Support">greeted with</arg>
+<rel>applause</rel>
+<arg n="0">by the Bush administration and the financial markets</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Applause for `` Sometimes , Talk Is the Best Medicine , '' in
+your Oct. 5 Marketplace section .
+</text>
+<rel>Applause</rel>
+<arg n="1">
+for `` Sometimes , Talk Is the Best Medicine , '' in your Oct. 5
+Marketplace section</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

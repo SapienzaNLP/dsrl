@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cohort">
+<roleset id="cohort.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their cohorts in political consulting and product marketing
+</text>
+<arg n="2">their</arg>
+<arg n="0">cohorts</arg>
+<rel>cohorts</rel>
+<arg n="1">in political consulting and product marketing</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

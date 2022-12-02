@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blocker">
+<roleset id="blocker.01" name="oppose, halt, stop" source="verb-block.01" vncls="16">
+<roles>
+
+<role descr="blocker, agent" n="0">
+<vnrole vncls="16" vntheta="Agent"/></role>
+
+<role descr="theme (action or object being stopped" n="1">
+<vnrole vncls="16" vntheta="Theme"/></role>
+
+<role descr="secondary predication" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the `` beta-blocker '' high-blood-pressure drug Kerlone
+</text>
+<arg n="0">beta-blocker</arg>
+<arg n="1">beta-blocker</arg>
+<rel>beta-blocker</rel>
+</example>
+
+<example name="autogen3">
+<text>
+a calcium channel blocker
+</text>
+<arg n="1">calcium channel</arg>
+<arg n="0">blocker</arg>
+<rel>blocker</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

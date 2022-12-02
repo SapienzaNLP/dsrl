@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="colonel">
+<roleset id="colonel.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a former Panamanian colonel
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg n="1">Panamanian</arg>
+<arg n="0">colonel</arg>
+<rel>colonel</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a lieutenant colonel
+</text>
+<arg n="3">lieutenant</arg>
+<arg n="0">colonel</arg>
+<rel>colonel</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="absorber">
+<roleset id="absorber.01" name="suck up" source="verb-absorb.01">
+<roles>
+
+<role descr="absorber" n="0"></role>
+
+<role descr="absorbed, us. liquid" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its circuit breakers and shock absorbers
+</text>
+<arg n="1">shock</arg>
+<arg n="0">absorbers</arg>
+<rel>absorbers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

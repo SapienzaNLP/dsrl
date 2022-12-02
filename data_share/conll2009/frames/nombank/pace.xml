@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pace">
+<roleset id="pace.01" name="move at same speed" source="verb-pace.01">
+<roles>
+
+<role descr="subject-level mover" n="0"></role>
+
+<role descr="object-level mover" n="1"></role>
+
+<role descr="pace quantified" n="2"></role>
+
+<role descr="secondary-predicate" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Nissan 's pace of new-model hits
+</text>
+<arg n="3">Nissan 's</arg>
+<rel>pace</rel>
+<arg n="1">of new-model hits</arg>
+</example>
+
+<example name="autogen2">
+<text>
+wages are n't keeping pace with inflation
+</text>
+<arg n="0">wages</arg>
+<arg n="Support">keeping</arg>
+<rel>pace</rel>
+<arg n="1">with inflation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

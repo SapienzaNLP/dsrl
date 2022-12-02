@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="demonstrator">
+<roleset id="demonstrator.01" name="show (off" source="verb-demonstrate.01">
+<roles>
+
+<role descr="demonstrator" n="0"></role>
+
+<role descr="thing demonstrated" n="1"></role>
+
+<role descr="watcher" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+anti-abortion demonstrators
+</text>
+<arg n="1">anti-abortion</arg>
+<arg n="0">demonstrators</arg>
+<rel>demonstrators</rel>
+</example>
+
+<example name="autogen2">
+<text>
+at least 120,000 demonstrators
+</text>
+<arg f="EXT" n="M">at least 120,000</arg>
+<arg n="0">demonstrators</arg>
+<rel>demonstrators</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

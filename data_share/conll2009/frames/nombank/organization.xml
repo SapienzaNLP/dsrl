@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="organization">
+<roleset id="organization.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an organization of investment clubs and individual investors
+</text>
+<rel>organization</rel>
+<arg n="1">of investment clubs and individual investors</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mexico 's most powerful labor organization
+</text>
+<arg n="1">labor</arg>
+<rel>organization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

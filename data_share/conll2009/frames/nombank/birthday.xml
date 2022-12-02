@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="birthday">
+<roleset id="birthday.01" name="honor with memorial, be a memorial" source="verb-commemorate.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="number" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her slightly eccentric husband 's 50th birthday
+</text>
+<arg n="1">her slightly eccentric husband 's</arg>
+<arg n="2">50th</arg>
+<rel>birthday</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her husband 's 50th birthday
+</text>
+<arg n="1">her husband 's</arg>
+<arg n="2">50th</arg>
+<rel>birthday</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

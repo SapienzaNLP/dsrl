@@ -1,0 +1,142 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="area">
+<roleset id="area.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="subpart/description" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Great Plains ' wheat-growing areas
+</text>
+<arg n="1">the Great Plains '</arg>
+<arg n="2">wheat-growing</arg>
+<rel>areas</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Washington area
+</text>
+<arg n="2">Washington</arg>
+<rel>area</rel>
+</example>
+
+</roleset>
+<roleset id="area.02" name="environment">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a metro area with millions of Bear fans
+</text>
+<arg n="3">metro</arg>
+<rel>area</rel>
+<arg n="1">with millions of Bear fans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the business area of the franchise being sold
+</text>
+<arg n="1">business</arg>
+<rel>area</rel>
+<arg n="3">of the franchise being sold</arg>
+</example>
+
+</roleset>
+<roleset id="area.03" name="field">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the area of `` original intent
+</text>
+<rel>area</rel>
+<arg n="1">of `` original intent</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the junk-bond area
+</text>
+<arg n="1">junk-bond</arg>
+<rel>area</rel>
+</example>
+
+</roleset>
+<roleset id="area.04" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the corporation 's financial and legal areas
+</text>
+<arg n="0">the corporation 's</arg>
+<arg n="1">financial and legal</arg>
+<rel>areas</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the subscriber 's interest area
+</text>
+<arg n="0">the subscriber 's</arg>
+<arg n="1">interest</arg>
+<rel>area</rel>
+</example>
+
+</roleset>
+<roleset id="area.05" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 12-county area of Northern California affected by the quake
+</text>
+<arg n="1">12-county</arg>
+<rel>area</rel>
+<arg n="3">of Northern California</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A four-square-block area of the Marina District
+</text>
+<arg n="1">four-square-block</arg>
+<rel>area</rel>
+<arg n="3">of the Marina District</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

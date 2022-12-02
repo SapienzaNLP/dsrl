@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="watt">
+<roleset id="watt.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+1.0 to 1.5 watts more heat
+</text>
+<rel>watts</rel>
+<arg n="1">more</arg>
+</example>
+
+<example name="autogen2">
+<text>
+as much as 10 watts of energy
+</text>
+<rel>watts</rel>
+<arg n="1">of energy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

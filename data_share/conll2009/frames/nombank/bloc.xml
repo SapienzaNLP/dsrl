@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bloc">
+<roleset id="bloc.01" name="group/partitive-quant/partitive-part">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/member/whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the premier 's Likud bloc
+</text>
+<arg n="2">the premier 's</arg>
+<arg n="1">Likud</arg>
+<rel>bloc</rel>
+</example>
+
+<example name="autogen4">
+<text>
+other Soviet bloc nations
+</text>
+<arg n="1">Soviet</arg>
+<rel>bloc</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

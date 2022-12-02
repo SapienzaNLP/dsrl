@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drumroll">
+<roleset id="drumroll.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a drumroll of economic statistics suggesting that the British war
+on inflation will be more bruising than previously assumed
+</text>
+<rel>drumroll</rel>
+<arg n="1">
+of economic statistics suggesting that the British war on
+inflation will be more bruising than previously assumed</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

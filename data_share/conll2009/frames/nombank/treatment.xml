@@ -1,0 +1,147 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="treatment">
+<roleset id="treatment.01" name="assume that something has a particular attribute" source="verb-treat.01" vncls="29.2">
+<roles>
+
+<role descr="assumer of attribute" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="attribute" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+duty-free treatment for many types of watches , covered by 58
+different U.S. tariff classifications
+</text>
+<arg n="2">duty-free</arg>
+<rel>treatment</rel>
+<arg n="1">
+for many types of watches , covered by 58 different U.S. tariff
+classifications</arg>
+</example>
+
+<example name="autogen2">
+<text>
+duty-free treatment for imports of certain types of watches that
+are n't produced in `` significant quantities '' in the U.S. ,
+the Virgin Islands and other U.S. possessions
+</text>
+<arg n="2">duty-free</arg>
+<rel>treatment</rel>
+<arg n="1">
+for imports of certain types of watches that are n't produced in
+`` significant quantities '' in the U.S. , the Virgin Islands and
+other U.S. possessions</arg>
+</example>
+
+</roleset>
+<roleset id="treatment.02" name="medical treatment" source="verb-treat.03">
+<roles>
+
+<role descr="doctor (etc" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="illness or injury" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a new drug for the treatment of a condition in which the heart
+beats between 150 and 200 beats a minute
+</text>
+<arg n="3">a new drug</arg>
+<rel>treatment</rel>
+<arg n="2">
+of a condition in which the heart beats between 150 and 200 beats
+a minute</arg>
+</example>
+
+<example name="autogen2">
+<text>
+without psychiatric treatment , you may well be unable to fend
+for yourself ever again
+</text>
+<arg n="2">psychiatric</arg>
+<rel>treatment</rel>
+<arg n="1">you</arg>
+</example>
+
+</roleset>
+<roleset id="treatment.03" name="affect a change in s.t. by applying a substance" source="verb-treat.04">
+<roles>
+
+<role descr="cause of change, agent" n="0"></role>
+
+<role descr="thing changing" n="1"></role>
+
+<role descr="substance" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a waste-treatment plant
+</text>
+<arg n="1">waste-treatment</arg>
+<rel>waste-treatment</rel>
+<arg n="0">plant</arg>
+</example>
+
+<example name="autogen2">
+<text>
+sewage - and water-treatment plants
+</text>
+<arg n="1">water-treatment</arg>
+<rel>water-treatment</rel>
+</example>
+
+</roleset>
+<roleset id="treatment.04" name="handle" source="verb-treat.05">
+<roles>
+
+<role descr="treater" n="0"></role>
+
+<role descr="patient/topic" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Senate and House bills to provide special casualty-loss treatment
+and other tax relief for timber growers in the hurricane disaster
+areas
+</text>
+<arg n="0">Senate and House bills ---> 0 ---> *T*-1</arg>
+<arg n="Support">provide</arg>
+<arg f="MNR" n="M">special</arg>
+<arg n="1">casualty-loss</arg>
+<rel>treatment</rel>
+<arg n="2">for timber growers in the hurricane disaster areas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Lincoln 's treatment by former thrift regulators , in an agency
+disbanded by the new law ,
+</text>
+<arg n="1">Lincoln 's</arg>
+<rel>treatment</rel>
+<arg n="0">by former thrift regulators</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

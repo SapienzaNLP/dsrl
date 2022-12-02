@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="anathema">
+<roleset id="anathema.01" name="nomadjlike-unpopular">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+anathema to the environmental community
+</text>
+<rel>anathema</rel>
+<arg n="0">to the environmental community</arg>
+</example>
+
+<example name="autogen2">
+<text>
+anathema to the Afghan public
+</text>
+<rel>anathema</rel>
+<arg n="0">to the Afghan public</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

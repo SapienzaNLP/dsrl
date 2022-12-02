@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="indecisiveness">
+<roleset id="indecisiveness.01" name="nomadj-indecisive">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But even in his front-runner campaign , he has shown signs of the
+indecisiveness and confusion that some say has plagued his tenure
+as Manhattan borough president -- and might hinder him as mayor .
+</text>
+<arg n="0">he</arg>
+<arg n="Support">shown signs of</arg>
+<rel>indecisiveness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

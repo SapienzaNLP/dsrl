@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="poll">
+<roleset id="poll.01" name="survey, as of voters" source="verb-poll.01">
+<roles>
+
+<role descr="poller" n="0"></role>
+
+<role descr="people asked" n="1"></role>
+
+<role descr="topic" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the public-opinion polls
+</text>
+<arg n="1">public-opinion</arg>
+<arg n="2">public-opinion</arg>
+<rel>polls</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Among other services , the firm provides pre-trial opinion polls
+, creates profiles of `` ideal '' jurors , sets up mock trials
+and `` shadow '' juries , coaches lawyers and witnesses , and
+designs courtroom graphics .
+</text>
+<arg n="0">the firm</arg>
+<arg n="Support">provides</arg>
+<arg f="TMP" n="M">pre-trial</arg>
+<arg n="2">opinion</arg>
+<rel>polls</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

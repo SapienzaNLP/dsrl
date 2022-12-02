@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="refunding">
+<roleset id="refunding.01" name="pay back" source="verb-refund.01" vncls="13.1-1">
+<roles>
+
+<role descr="refunder" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="amount refunded" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="refunded to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="in exchange for (might not be present" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the government 's big quarterly refunding of the federal debt ,
+which takes place sometime in November
+</text>
+<arg n="0">the government 's</arg>
+<arg f="EXT" n="M">big</arg>
+<arg f="TMP" n="M">quarterly</arg>
+<rel>refunding</rel>
+<arg n="1">of the federal debt</arg>
+</example>
+
+<example name="autogen2">
+<text>
+gas and electric revenue refunding bonds
+</text>
+<arg n="1">revenue</arg>
+<rel>refunding</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

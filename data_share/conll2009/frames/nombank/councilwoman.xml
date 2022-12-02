@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="councilwoman">
+<roleset id="councilwoman.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Manhattan city councilwoman
+</text>
+<arg n="2">Manhattan</arg>
+<arg n="1">city</arg>
+<arg n="0">councilwoman</arg>
+<rel>councilwoman</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

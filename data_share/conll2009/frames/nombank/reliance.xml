@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reliance">
+<roleset id="reliance.01" name="need" source="verb-rely.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Kidder 's reliance on index arbitrage as a major business
+</text>
+<arg n="0">Kidder 's</arg>
+<rel>reliance</rel>
+<arg n="1">on index arbitrage</arg>
+<arg n="2">as a major business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the toy makers ' reliance on factories across the border
+</text>
+<arg n="0">the toy makers '</arg>
+<rel>reliance</rel>
+<arg n="1">on factories across the border</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

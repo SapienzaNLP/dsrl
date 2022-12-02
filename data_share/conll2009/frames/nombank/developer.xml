@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="developer">
+<roleset id="developer.01" name="create" source="verb-develop.02" vncls="26.1">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.1" vntheta="Agent"/></role>
+
+<role descr="thing created" n="1">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3" source="2">
+<vnrole vncls="26.1" vntheta="Material"/></role>
+
+<role descr="attribute, secondary predication" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the developers of the Valley Ranch , best known as the training
+center for the Dallas Cowboys football team
+</text>
+<arg n="0">developers</arg>
+<rel>developers</rel>
+<arg n="1">
+of the Valley Ranch , best known as the training center for the
+Dallas Cowboys football team</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Australian developer George Herscu
+</text>
+<arg f="LOC" n="M">Australian</arg>
+<arg n="0">developer</arg>
+<rel>developer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

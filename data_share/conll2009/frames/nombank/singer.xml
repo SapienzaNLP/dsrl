@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="singer">
+<roleset id="singer.01" name="sing" source="verb-sing.01" vncls="26.7-1">
+<roles>
+
+<role descr="singer" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="song" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="audience" n="2">
+<vnrole vncls="26.7-1" vntheta="Recipient"/></role>
+
+<role descr="employer" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Baker Boys ' girl singer
+</text>
+<arg n="4">the Baker Boys '</arg>
+<arg n="0">singer</arg>
+<rel>singer</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a singer in her church choir
+</text>
+<arg n="0">singer</arg>
+<rel>singer</rel>
+<arg n="4">in her church choir</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

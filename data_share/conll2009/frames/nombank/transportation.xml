@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="transportation">
+<roleset id="transportation.01" name="move from one place to   another" source="verb-transport.01" vncls="11.1">
+<roles>
+
+<role descr="causer of motion" n="0">
+<vnrole vncls="11.1" vntheta="Agent"/></role>
+
+<role descr="thing in motion" n="1">
+<vnrole vncls="11.1" vntheta="Theme"/></role>
+
+<role descr="destination" n="2">
+<vnrole vncls="11.1" vntheta="Destination"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="11.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Canadian gas transportation east of Alberta
+</text>
+<arg n="0">Canadian</arg>
+<arg n="1">gas</arg>
+<rel>transportation</rel>
+<arg f="LOC" n="M">east of Alberta</arg>
+</example>
+
+<example name="autogen2">
+<text>
+marine transportation
+</text>
+<arg n="1">marine</arg>
+<rel>transportation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

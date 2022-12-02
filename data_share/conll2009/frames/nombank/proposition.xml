@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proposition">
+<roleset id="proposition.01" name="cf offer" source="verb-propose.01" vncls="37.7">
+<roles>
+
+<role descr="entity proposing" n="0">
+<vnrole vncls="37.7" vntheta="Agent"/></role>
+
+<role descr="thing proposed, proposition" n="1">
+<vnrole vncls="37.7" vntheta="Topic"/></role>
+
+<role descr="label" n="2"></role>
+
+<role descr="beneficiary or entity proposed to" n="3">
+<vnrole vncls="37.7" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to be a large-scale , high-risk proposition for taxpayers
+</text>
+<arg n="2">large-scale , high-risk</arg>
+<arg f="REF" n="1">proposition</arg>
+<rel>proposition</rel>
+<arg n="3">for taxpayers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a `` break-even '' proposition for Bear Stearns
+</text>
+<arg n="2">`` break-even ''</arg>
+<arg f="REF" n="1">proposition</arg>
+<rel>proposition</rel>
+<arg n="3">for Bear Stearns</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="privatization">
+<roleset id="privatization.01" name="sell off government property" source="verb-privatize.01">
+<roles>
+
+<role descr="government, usually" n="0"></role>
+
+<role descr="property, usually industry" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its privatization program
+</text>
+<arg n="0">its</arg>
+<rel>privatization</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Upon privatization , National Power will be responsible for 70 %
+of the country 's power generating business .
+</text>
+<rel>privatization</rel>
+<arg n="1">National Power</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="spokesman">
+<roleset id="spokesman.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the family 's elder spokesman
+</text>
+<arg n="2">the family 's</arg>
+<arg n="3">elder</arg>
+<arg n="0">spokesman</arg>
+<rel>spokesman</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the department 's chief spokesman
+</text>
+<arg n="2">the department 's</arg>
+<arg n="3">chief</arg>
+<arg n="0">spokesman</arg>
+<rel>spokesman</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

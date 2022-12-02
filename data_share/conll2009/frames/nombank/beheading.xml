@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="beheading">
+<roleset id="beheading.01" name="remove the head" source="verb-behead.01" vncls="10.7">
+<roles>
+
+<role descr="axeman, agent" n="0">
+<vnrole vncls="10.7" vntheta="Agent"/></role>
+
+<role descr="patient" n="1">
+<vnrole vncls="10.7" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the beheading of 16 terrorists by Riyadh 's government in
+September
+</text>
+<rel>beheading</rel>
+<arg n="1">of 16 terrorists</arg>
+<arg n="0">by Riyadh 's government</arg>
+<arg f="TMP" n="M">in September</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the beheading of Hugo Spadafora , his most outspoken political
+opponent and the first man to publicly finger Mr. Noriega on drug
+trafficking charges
+</text>
+<rel>beheading</rel>
+<arg n="1">
+of Hugo Spadafora , his most outspoken political opponent and the
+first man to publicly finger Mr. Noriega on drug trafficking
+charges</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

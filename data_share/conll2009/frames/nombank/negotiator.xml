@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="negotiator">
+<roleset id="negotiator.01" name="work out terms of agreement" source="verb-negotiate.01" vncls="36.1">
+<roles>
+
+<role descr="negotiator" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="agreement" n="1" source="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+<role descr="explicit other party" n="2" source="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+America 's chief trade negotiator
+</text>
+<arg n="1">trade</arg>
+<arg n="0">negotiator</arg>
+<rel>negotiator</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mexico 's top debt negotiator
+</text>
+<arg n="1">debt</arg>
+<arg n="0">negotiator</arg>
+<rel>negotiator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

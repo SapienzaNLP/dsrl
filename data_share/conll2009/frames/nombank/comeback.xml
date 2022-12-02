@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="comeback">
+<roleset id="comeback.01" name="come back" source="verb-return.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="extent" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Junk bonds opened as much as four points lower but staged a
+modest comeback as stock prices firmed .
+</text>
+<arg n="1">Junk bonds</arg>
+<arg n="Support">staged</arg>
+<arg n="2">modest</arg>
+<rel>comeback</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a tremendous comeback
+</text>
+<arg n="2">tremendous</arg>
+<rel>comeback</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

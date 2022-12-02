@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="intruder">
+<roleset id="intruder.01" name="put into without invitation" source="verb-intrude.01" vncls="48.1.2">
+<roles>
+
+<role descr="putter" n="0">
+<vnrole vncls="48.1.2" vntheta="Agent"/></role>
+
+<role descr="thing put" n="1">
+<vnrole vncls="48.1.2" vntheta="Theme"/></role>
+
+<role descr="where put" n="2">
+<vnrole vncls="48.1.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the NASA intruder
+</text>
+<arg n="2">NASA</arg>
+<arg n="1">intruder</arg>
+<rel>intruder</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

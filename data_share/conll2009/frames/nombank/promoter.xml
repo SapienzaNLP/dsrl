@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="promoter">
+<roleset id="promoter.01" name="advertise" source="verb-promote.02">
+<roles>
+
+<role descr="advertiser" n="0"></role>
+
+<role descr="thing being pitched, advertised" n="1"></role>
+
+<role descr="audience" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some city promoters
+</text>
+<arg n="1">city</arg>
+<arg n="0">promoters</arg>
+<rel>promoters</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a stock promoter
+</text>
+<arg n="1">stock</arg>
+<arg n="0">promoter</arg>
+<rel>promoter</rel>
+</example>
+
+</roleset>
+<roleset id="promoter.02" name="to cause" source="verb-induce.01">
+<roles>
+
+<role descr="causer" n="0"></role>
+
+<role descr="event induced" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The league 's promoters
+</text>
+<arg n="1">The league 's</arg>
+<arg n="0">promoters</arg>
+<rel>promoters</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a major psyllium buyer and promoter
+</text>
+<arg n="1">psyllium</arg>
+<arg n="0">promoter</arg>
+<rel>promoter</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ruler">
+<roleset id="ruler.01" name="show leadership" source="verb-rule.03">
+<roles>
+
+<role descr="ruler, leader" n="0"></role>
+
+<role descr="unwashed masses, minions" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the country 's rulers
+</text>
+<arg n="1">the country 's</arg>
+<arg n="0">rulers</arg>
+<rel>rulers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Beijing 's rulers
+</text>
+<arg n="1">Beijing 's</arg>
+<arg n="0">rulers</arg>
+<rel>rulers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

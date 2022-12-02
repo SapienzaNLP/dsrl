@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="allegiance">
+<roleset id="allegiance.01" name="nomadjlike-loyal/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his allegiance was first to the Americans
+</text>
+<arg n="0">his</arg>
+<arg f="REF" n="2">allegiance</arg>
+<rel>allegiance</rel>
+<arg n="1">first to the Americans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+East Germany 's allegiance to Communist orthodoxy
+</text>
+<arg n="0">East Germany 's</arg>
+<arg f="REF" n="2">allegiance</arg>
+<rel>allegiance</rel>
+<arg n="1">to Communist orthodoxy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

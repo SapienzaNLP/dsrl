@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lagging">
+<roleset id="lagging.01" name="move more slowly" source="verb-lag.01">
+<roles>
+
+<role descr="entity moving slower" n="0"></role>
+
+<role descr="entity moving faster" n="1"></role>
+
+<role descr="margin" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its price lagging relative to gold
+</text>
+<arg n="0">its price</arg>
+<rel>lagging</rel>
+<arg n="Support">relative</arg>
+<arg n="1">to gold</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

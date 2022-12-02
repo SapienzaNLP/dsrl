@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="freeze">
+<roleset id="freeze.01" name="cause to be frozen" source="verb-freeze.01" vncls="26.5">
+<roles>
+
+<role descr="causer of freezing" n="0">
+<vnrole vncls="26.5" vntheta="Agent"/></role>
+
+<role descr="thing freezing" n="1">
+<vnrole vncls="26.5" vntheta="Patient"/></role>
+
+<role descr="totally unnecessary secondary predication on arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And the agency , which operated throughout fiscal 1989 with a $
+360 million budget shortfall , has been under a hiring freeze
+since last fall .
+</text>
+<arg n="1">
+the agency , which operated throughout fiscal 1989 with a $ 360
+million budget shortfall ,</arg>
+<arg n="2">hiring</arg>
+<rel>freeze</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The plan would impose a brief freeze on physician fees next year
+.
+</text>
+<arg n="0">The plan</arg>
+<arg n="Support">impose</arg>
+<arg f="TMP" n="M">brief</arg>
+<rel>freeze</rel>
+<arg n="1">on physician fees</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

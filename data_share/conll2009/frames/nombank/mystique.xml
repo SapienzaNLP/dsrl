@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mystique">
+<roleset id="mystique.01" name="attribute/nomadj-mysterious">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the family 's mystique
+</text>
+<arg n="1">the family 's</arg>
+<arg f="REF" n="2">mystique</arg>
+<rel>mystique</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its high-minded mystique
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">mystique</arg>
+<rel>mystique</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

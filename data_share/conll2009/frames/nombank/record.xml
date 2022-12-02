@@ -1,0 +1,169 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="record">
+<roleset id="record.01" name="make a permanent record" source="verb-record.01" vncls="25.4">
+<roles>
+
+<role descr="recorder" n="0">
+<vnrole vncls="25.4" vntheta="Agent"/></role>
+
+<role descr="record" n="1">
+<vnrole vncls="25.4" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Dunde ice-core record
+</text>
+<arg n="0">Dunde</arg>
+<arg n="1">ice-core</arg>
+<rel>record</rel>
+</example>
+
+<example name="autogen2">
+<text>
+could have expunged the charges and the conviction from her
+record
+</text>
+<arg n="Support">expunged from</arg>
+<arg n="1">the charges and the conviction</arg>
+<arg n="2">her</arg>
+<rel>record</rel>
+</example>
+
+</roleset>
+<roleset id="record.02" name="attribute/world-record">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Nissan had record net income of 114.63 billion yen -LRB- $ 868
+million -RRB- in the fiscal year ended last March 31 , a
+remarkable recovery from the 20.39 billion yen of two years
+earlier , when the company lost money on operations .
+</text>
+<arg n="3">Nissan</arg>
+<arg n="Support">had income</arg>
+<rel>record</rel>
+<arg n="1">net income</arg>
+<arg n="2">of 114.63 billion yen -LRB- $ 868 million -RRB-</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a record price for the artist
+</text>
+<arg f="REF" n="2">record</arg>
+<rel>record</rel>
+<arg n="3">price</arg>
+<arg n="1">for the artist</arg>
+</example>
+
+</roleset>
+<roleset id="record.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Franklin 's `` troubled diversification record in the securities
+business ''
+</text>
+<arg n="3">Franklin 's</arg>
+<arg n="2">troubled</arg>
+<arg n="1">diversification</arg>
+<rel>record</rel>
+<arg f="LOC" n="M">in the securities business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the government has a dismal record of collecting bad debts
+</text>
+<arg n="3">the government</arg>
+<arg n="Support">has</arg>
+<arg n="2">dismal</arg>
+<rel>record</rel>
+<arg n="1">of collecting bad debts</arg>
+</example>
+
+</roleset>
+<roleset id="record.04" name="assign to a role" source="verb-designate.01" vncls="29.1">
+<roles>
+
+<role descr="designator" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="designated" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="role of arg1" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a high-quality management team with a good track record
+</text>
+<arg n="1">a high-quality management team</arg>
+<arg n="2">good</arg>
+<rel>record</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the `` network of record '' during major crises
+</text>
+<arg n="1">the `` network</arg>
+<rel>record</rel>
+</example>
+
+</roleset>
+<roleset id="record.05" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his track record in magazine publishing in general
+</text>
+<arg n="0">his</arg>
+<rel>record</rel>
+<arg n="1">in magazine publishing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the men 's track record
+</text>
+<arg n="0">the men 's</arg>
+<rel>record</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

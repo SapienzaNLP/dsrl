@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accountability">
+<roleset id="accountability.01" name="deal with, explain" source="verb-account.01">
+<roles>
+
+<role descr="accounter" n="0"></role>
+
+<role descr="thing accounted for, dealt with, explained" n="1"></role>
+
+<role descr="instrumental, accounted for with or by" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+each local manager will have both the authority and
+accountability for profitable and technically sound operations
+</text>
+<arg n="0">each local manager</arg>
+<arg n="Support">have</arg>
+<rel>accountability</rel>
+<arg n="1">for profitable and technically sound operations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+industrial accountability
+</text>
+<arg n="0">industrial</arg>
+<rel>accountability</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

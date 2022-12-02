@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="interpretation">
+<roleset id="interpretation.01" name="to explain, make sense" source="verb-interpret.01">
+<roles>
+
+<role descr="interpreter" n="0"></role>
+
+<role descr="entity interpreted" n="1"></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his interpretation of Vietnamese culture
+</text>
+<arg n="0">his</arg>
+<rel>interpretation</rel>
+<arg n="1">of Vietnamese culture</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the squalid cash interpretation put on the word success
+</text>
+<arg f="MNR" n="M">squalid</arg>
+<arg n="2">cash</arg>
+<rel>interpretation</rel>
+<arg n="Support">put</arg>
+<arg n="1">on the word success</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="story">
+<roleset id="story.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your recent news stories on the banking industry 's reserve
+additions and concomitant threats to cease making new loans to
+less-developed countries
+</text>
+<arg n="0">your</arg>
+<arg n="3">news</arg>
+<rel>stories</rel>
+<arg n="1">
+on the banking industry 's reserve additions and concomitant
+threats to cease making new loans to less-developed countries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the great success stories of U.S. business
+</text>
+<arg n="3">success</arg>
+<rel>stories</rel>
+<arg n="1">of U.S. business</arg>
+</example>
+
+</roleset>
+<roleset id="story.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+50 stories of commercial space
+</text>
+<rel>stories</rel>
+<arg n="1">of commercial space</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

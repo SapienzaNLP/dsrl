@@ -1,0 +1,60 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="union">
+<roleset id="union.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="setting" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+55,000 Machinists union members
+</text>
+<arg n="3">Machinists</arg>
+<rel>union</rel>
+<arg n="1">members</arg>
+</example>
+
+<example name="autogen2">
+<text>
+30 top pilot union leaders
+</text>
+<arg n="1">pilot</arg>
+<rel>union</rel>
+<arg n="2">leaders</arg>
+</example>
+
+</roleset>
+<roleset id="union.02" name="make into one" source="verb-uinte.01" vncls="22.2">
+<roles>
+
+<role descr="uniter, agent" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="first) thing(s) being unified" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="other things, if separate from arg1" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+<role descr="unified whole" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+speedy economic and monetary union
+</text>
+<arg n="1">economic and monetary</arg>
+<rel>union</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

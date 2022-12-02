@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="governor">
+<roleset id="governor.01" name="to control or influence/actrel" source="verb-govern.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="beneficiary/governed" n="2" source="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Virginia GOP lieutenant governor candidate Eddy Dalton
+</text>
+<arg n="2">Virginia</arg>
+<arg n="3">lieutenant</arg>
+<arg n="0">governor</arg>
+<rel>governor</rel>
+<arg n="Support">candidate</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Postal Service board of governors
+</text>
+<arg n="2">the Postal Service board</arg>
+<arg n="0">governors</arg>
+<rel>governors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

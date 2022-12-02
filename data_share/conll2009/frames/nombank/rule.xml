@@ -1,0 +1,76 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rule">
+<roleset id="rule.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its ability to operate its national television network under
+Australian broadcast license rules
+</text>
+<arg n="2">its ---> *</arg>
+<arg n="0">Australian</arg>
+<arg n="3">broadcast license</arg>
+<arg f="REF" n="1">rules</arg>
+<rel>rules</rel>
+</example>
+
+<example name="autogen2">
+<text>
+A reinstatement of the uptick rule for program traders
+</text>
+<arg n="Support">reinstatement of</arg>
+<arg n="3">uptick</arg>
+<arg f="REF" n="1">rule</arg>
+<rel>rule</rel>
+<arg n="2">for program traders</arg>
+</example>
+
+</roleset>
+<roleset id="rule.02" name="show leadership" source="verb-rule.03">
+<roles>
+
+<role descr="ruler, leader" n="0"></role>
+
+<role descr="unwashed masses, minions" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In the play , the Duke of Vienna despairs over the licentiousness
+of his subjects and turns over the rule of the city to the
+puritanical Angelo , hoping he can set things right .
+</text>
+<arg n="0">the Duke of Vienna</arg>
+<arg n="Support">turns</arg>
+<rel>rule</rel>
+<arg n="1">of the city</arg>
+</example>
+
+<example name="autogen2">
+<text>
+hard-line leader Honecker , whose rule has been challenged by
+mass emigration and calls for democratic freedoms
+</text>
+<arg n="0">whose</arg>
+<rel>rule</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

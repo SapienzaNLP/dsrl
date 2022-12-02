@@ -1,0 +1,109 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="table">
+<roleset id="table.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your `` World-Wide Tax Revolution '' table
+</text>
+<arg n="0">your</arg>
+<arg n="1">Tax</arg>
+<rel>table</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the investment tables
+</text>
+<arg n="1">investment</arg>
+<rel>tables</rel>
+</example>
+
+</roleset>
+<roleset id="table.02" name="nomlike/turn-tables" source="verb-succeed.02">
+<roles>
+
+<role descr="successor" n="0"></role>
+
+<role descr="entity being replaced" n="1"></role>
+
+<role descr="attributive, role, function" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Japan has turned the tables on U.S. business
+</text>
+<arg n="0">Japan</arg>
+<arg n="Support">turned</arg>
+<rel>tables</rel>
+<arg n="1">on U.S. business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Shioya has turned the tables .
+</text>
+<arg n="0">Mr. Shioya</arg>
+<arg n="Support">turned</arg>
+<rel>tables</rel>
+</example>
+
+</roleset>
+<roleset id="table.03" name="nomadjlike-negotiable/possible">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+no other offers on the table
+</text>
+<arg n="1">no other offers</arg>
+<rel>table</rel>
+</example>
+
+<example name="autogen2">
+<text>
+While Mr. Dallara and Japanese officials say the question of
+investors ' access to the U.S. and Japanese markets may get a
+disproportionate share of the public 's attention , a number of
+other important economic issues will be on the table at next week
+'s talks .
+</text>
+<arg n="1">a number of other important economic issues</arg>
+<rel>table</rel>
+</example>
+
+</roleset>
+<roleset id="table.04" name="nomadjlike-forthright">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Now , with the opening of Maxim Gorky 's bourgeois-bashing ``
+Summerfolk , '' Ms. Bogart has laid her cards on the table .
+</text>
+<arg n="0">Ms. Bogart</arg>
+<arg n="Support">laid</arg>
+<rel>table</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

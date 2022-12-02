@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="confine">
+<roleset id="confine.01" name="confine, restrict" source="verb-confine.01">
+<roles>
+
+<role descr="agent, confiner" n="0"></role>
+
+<role descr="entity confined, restricted" n="1"></role>
+
+<role descr="confined-to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the sunny confines of resort towns like Boca Raton and Hot
+Springs
+</text>
+<rel>confines</rel>
+<arg n="2">of resort towns like Boca Raton and Hot Springs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Pale Pachyderms propelled six of 'em out of the unfriendly
+confines of Candlestick Park during the two games en route to
+13-7 and 9-6 wins over the San Francisco Giants .
+</text>
+<arg n="Support">propelled out of</arg>
+<arg n="1">six of 'em</arg>
+<arg f="MNR" n="M">unfriendly</arg>
+<rel>confines</rel>
+<arg n="2">of Candlestick Park</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="code">
+<roleset id="code.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they met San Francisco 's stringent building codes
+</text>
+<arg n="2">they</arg>
+<arg n="Support">met</arg>
+<arg n="0">San Francisco 's</arg>
+<arg f="MNR" n="M">stringent</arg>
+<arg n="1">building</arg>
+<rel>codes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+City building codes
+</text>
+<arg n="0">City</arg>
+<arg n="1">building</arg>
+<rel>codes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="setting">
+<roleset id="setting.01" name="environment">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the meeting 's setting at sea
+</text>
+<arg n="1">the meeting 's</arg>
+<rel>setting</rel>
+<arg n="2">at sea</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the December meeting , which was announced simultaneously in
+Moscow , will be held in the unusual setting of ships at sea to
+hold down the `` fanfare '' and force the two sides to limit
+participation to just small groups of advisers
+</text>
+<arg n="1">
+the December meeting , which was announced simultaneously in
+Moscow ,</arg>
+<arg n="Support">held in</arg>
+<rel>setting</rel>
+<arg n="2">of ships at sea</arg>
+</example>
+
+</roleset>
+<roleset id="setting.02" name="put, place" source="verb-set.01" vncls="9.1">
+<roles>
+
+<role descr="agent, setter" n="0">
+<vnrole vncls="9.1" vntheta="Agent"/></role>
+
+<role descr="thing set" n="1">
+<vnrole vncls="9.1" vntheta="Theme"/></role>
+
+<role descr="location or position" n="2">
+<vnrole vncls="9.1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Douglas 's lush setting of a Gaelic blessing , `` Deep Peace
+</text>
+<arg n="0">Mr. Douglas 's</arg>
+<rel>setting</rel>
+<arg n="1">of a Gaelic blessing , `` Deep Peace</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the setting of monetary policy
+</text>
+<rel>setting</rel>
+<arg n="1">of monetary policy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

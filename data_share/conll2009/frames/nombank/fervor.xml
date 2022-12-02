@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fervor">
+<roleset id="fervor.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Such fervor for cycling
+</text>
+<rel>fervor</rel>
+<arg n="1">for cycling</arg>
+</example>
+
+<example name="autogen2">
+<text>
+He also professes an `` evangelical '' fervor to develop a
+corporate culture that rewards managers who produce and where
+decision-making is shared .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">professes</arg>
+<arg n="1">evangelical</arg>
+<rel>fervor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

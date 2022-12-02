@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="popularity">
+<roleset id="popularity.01" name="attribute/nomadj-popluar">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his charisma and popularity among the many former military fliers
+</text>
+<arg n="1">his</arg>
+<arg f="REF" n="2">popularity</arg>
+<rel>popularity</rel>
+<arg n="3">among the many former military fliers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the popularity of share exchanges has grown among European
+carriers
+</text>
+<arg f="REF" n="2">popularity</arg>
+<rel>popularity</rel>
+<arg n="1">of share exchanges</arg>
+<arg n="Support">grown</arg>
+<arg n="3">among European carriers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

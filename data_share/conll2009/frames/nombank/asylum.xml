@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="asylum">
+<roleset id="asylum.01" name="nomlike" source="verb-shelter.01" vncls="16">
+<roles>
+
+<role descr="agent, putter in shelter" n="0">
+<vnrole vncls="16" vntheta="Agent"/></role>
+
+<role descr="thing in shelter (if separate from arg0" n="1">
+<vnrole vncls="47.1" vntheta="Theme"/></role>
+
+<role descr="shelter" n="2">
+<vnrole vncls="47.1" vntheta="Location"/></role>
+
+<role descr="danger, sheltered from" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The State Department denied asylum to a Vietnamese man who
+escaped from his homeland by lashing himself to the rudder
+housing of a tanker for two days in monsoon seas .
+</text>
+<arg n="0">The State Department</arg>
+<arg n="Support">denied</arg>
+<rel>asylum</rel>
+<arg n="1">
+to a Vietnamese man who escaped from his homeland by lashing
+himself to the rudder housing of a tanker for two days in monsoon
+seas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Panamanian dictator Torrijos , he was told , had granted the shah
+of Iran asylum in Panama as a favor to Washington .
+</text>
+<arg n="0">Panamanian dictator Torrijos</arg>
+<arg n="Support">granted</arg>
+<arg n="1">the shah of Iran</arg>
+<rel>asylum</rel>
+<arg n="2">in Panama</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

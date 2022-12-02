@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="truculence">
+<roleset id="truculence.01" name="nomadj-truculent">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his world-weary truculence
+</text>
+<arg n="0">his</arg>
+<rel>truculence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

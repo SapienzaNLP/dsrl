@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="appropriation">
+<roleset id="appropriation.01" name="to take possession of" source="verb-appropriate.01">
+<roles>
+
+<role descr="taker of possession, agent" n="0"></role>
+
+<role descr="entity appropriated" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Congress approves a $ 479 million appropriation for federal
+law-enforcement and drug-interdiction agencies
+</text>
+<arg n="0">Congress</arg>
+<arg n="Support">approves</arg>
+<arg n="1">$ 479 million</arg>
+<rel>appropriation</rel>
+<arg n="2">for federal law-enforcement and drug-interdiction agencies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to bring its appropriations to $ 2.07 billion
+</text>
+<arg n="2">its</arg>
+<rel>appropriations</rel>
+<arg n="1">to $ 2.07 billion</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

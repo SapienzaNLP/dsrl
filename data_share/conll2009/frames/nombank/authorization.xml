@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="authorization">
+<roleset id="authorization.01" name="allow" source="verb-authorize.01">
+<roles>
+
+<role descr="allower" n="0"></role>
+
+<role descr="action allowed" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="purpose" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In addition , as of Sept. 30 , the company still had
+authorization to buy $ 368 million of stock under a prior
+repurchase program .
+</text>
+<arg n="2">the company</arg>
+<arg n="Support">had</arg>
+<rel>authorization</rel>
+<arg f="PRD" n="1">to buy $ 368 million of stock</arg>
+<arg n="0">under a prior repurchase program</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its existing authorization to acquire as many as 650,000 shares
+</text>
+<arg n="0">its</arg>
+<rel>authorization</rel>
+<arg f="PRD" n="1">to acquire as many as 650,000 shares</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

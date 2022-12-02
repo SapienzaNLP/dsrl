@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="experimentation">
+<roleset id="experimentation.01" name="to conduct an experiment" source="verb-experiment.01">
+<roles>
+
+<role descr="scientist, agent" n="0"></role>
+
+<role descr="experimental subject" n="1"></role>
+
+<role descr="experimental method" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+experimentation in space
+</text>
+<rel>experimentation</rel>
+<arg f="LOC" n="M">in space</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Japan does n't have enough AIDS patients to do significant
+experimentation in that country
+</text>
+<arg n="0">Japan ---> *-1</arg>
+<arg n="Support">do</arg>
+<arg f="MNR" n="M">significant</arg>
+<rel>experimentation</rel>
+<arg f="LOC" n="M">in that country</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

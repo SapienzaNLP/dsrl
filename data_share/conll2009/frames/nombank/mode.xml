@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mode">
+<roleset id="mode.01" name="ability-with-agent/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Now shifting his scene from the country he left at five to the
+England he has lived in for nearly 30 years , he has fashioned a
+novel in the mode of Henry James and E.M. Forster .
+</text>
+<arg n="0">he</arg>
+<arg n="Support">fashioned in</arg>
+<arg n="1">a novel</arg>
+<rel>mode</rel>
+<arg n="2">of Henry James and E.M. Forster</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his standup mode
+</text>
+<arg n="0">his</arg>
+<arg n="1">standup</arg>
+<rel>mode</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

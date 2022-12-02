@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="holiday">
+<roleset id="holiday.01" name="have a party" source="verb-celebrate.02">
+<roles>
+
+<role descr="celebrator(s" n="0"></role>
+
+<role descr="party, occasion" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Christmas holidays
+</text>
+<arg n="1">Christmas</arg>
+<rel>holidays</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a national holiday
+</text>
+<arg n="0">national</arg>
+<arg f="REF" n="1">holiday</arg>
+<rel>holiday</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

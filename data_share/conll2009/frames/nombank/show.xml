@@ -1,0 +1,76 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="show">
+<roleset id="show.01" name="to transmit or announce" source="verb-broadcast.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="message" n="1"></role>
+
+<role descr="audience" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Europe 's TV shows
+</text>
+<arg n="0">Europe 's</arg>
+<arg n="3">TV</arg>
+<arg f="REF" n="1">shows</arg>
+<rel>shows</rel>
+</example>
+
+<example name="autogen2">
+<text>
+`` Given a choice , everybody will watch a home-produced show .
+''
+</text>
+<arg n="2">everybody</arg>
+<arg n="Support">watch</arg>
+<arg n="0">home-produced</arg>
+<arg f="REF" n="1">show</arg>
+<rel>show</rel>
+</example>
+
+</roleset>
+<roleset id="show.02" name="cause to see" source="verb-show.01" vncls="29.5">
+<roles>
+
+<role descr="shower" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing seen/shown" n="1">
+<vnrole vncls="29.5" vntheta="Patient"/></role>
+
+<role descr="seer" n="2">
+<vnrole vncls="29.5" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` We 're not running that ad campaign any more , '' Mr.
+Straszheim snaps in a rare show of irritation .
+</text>
+<arg n="0">Mr. Straszheim</arg>
+<arg n="Support">snaps in</arg>
+<arg f="TMP" n="M">rare</arg>
+<rel>show</rel>
+<arg n="1">of irritation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a show of strength
+</text>
+<rel>show</rel>
+<arg n="1">of strength</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

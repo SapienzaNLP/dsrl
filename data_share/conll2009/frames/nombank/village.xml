@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="village">
+<roleset id="village.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our little sand village of cars
+</text>
+<rel>village</rel>
+<arg n="1">of cars</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a global village of listeners and viewers
+</text>
+<rel>village</rel>
+<arg n="1">of listeners and viewers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

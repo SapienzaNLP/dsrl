@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="acceleration">
+<roleset id="acceleration.01" name="make be faster" source="verb-accelerate.01" vncls="45.4">
+<roles>
+
+<role descr="agent, causing acceleration" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing acceleration" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="ext" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The U.S. and Canada , which do more trade than any other pair of
+nations , are to meet next month to arrange an acceleration of
+planned tariff cuts under the U.S.-Canada free trade agreement .
+</text>
+<arg n="0">
+The U.S. and Canada , which do more trade than any other pair of
+nations , ---> *-2 ---> *-3</arg>
+<arg n="Support">arrange</arg>
+<rel>acceleration</rel>
+<arg n="1">of planned tariff cuts under the U.S.-Canada free trade agreement</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an acceleration of revenue
+</text>
+<rel>acceleration</rel>
+<arg n="1">of revenue</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sovereignty">
+<roleset id="sovereignty.01" name="nomadj-sovereign">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+national sovereignty
+</text>
+<arg n="1">national</arg>
+<rel>sovereignty</rel>
+</example>
+
+<example name="autogen4">
+<text>
+China 's sovereignty
+</text>
+<arg n="1">China 's</arg>
+<rel>sovereignty</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

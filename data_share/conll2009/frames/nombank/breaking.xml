@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="breaking">
+<roleset id="breaking.01" name="break, cause to not be whole" source="verb-break.01" vncls="23.2">
+<roles>
+
+<role descr="breaker" n="0">
+<vnrole vncls="23.2" vntheta="Agent"/></role>
+
+<role descr="thing broken" n="1">
+<vnrole vncls="23.2" vntheta="Patient"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="45.1" vntheta="Instrument"/></role>
+
+<role descr="pieces" n="3">
+<vnrole vncls="23.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Maynard 's automatic egg-breaking machine
+</text>
+<arg n="0">Mr. Maynard 's</arg>
+<arg n="1">egg-breaking</arg>
+<rel>egg-breaking</rel>
+<arg n="2">machine</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its breaking point
+</text>
+<arg n="1">its</arg>
+<rel>breaking</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

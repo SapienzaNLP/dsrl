@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stardom">
+<roleset id="stardom.01" name="job">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a University of Maryland basketball star ticketed for sure pro
+stardom
+</text>
+<arg n="0">a University of Maryland basketball star ---> *</arg>
+<arg n="Support">ticketed for</arg>
+<arg f="REF" n="1">stardom</arg>
+<rel>stardom</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a film critic and actor who always seems to be just on the brink
+of stardom
+</text>
+<arg n="0">a film critic and actor ---> who ---> *T*-1 ---> *-2</arg>
+<arg n="Support">brink of</arg>
+<arg f="REF" n="1">stardom</arg>
+<rel>stardom</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

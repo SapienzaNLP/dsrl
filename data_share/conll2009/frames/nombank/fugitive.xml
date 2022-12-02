@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fugitive">
+<roleset id="fugitive.01" name="default" source="verb-escape.01" vncls="51.1-1">
+<roles>
+
+<role descr="entity escaping" n="1" source="0">
+<vnrole vncls="51.1-1" vntheta="Theme"/></role>
+
+<role descr="place or thing escaped" n="2" source="1">
+<vnrole vncls="51.1-1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+fugitives from a potential century apiece of jail sentences
+</text>
+<arg n="1">fugitives</arg>
+<rel>fugitives</rel>
+<arg n="2">from a potential century apiece of jail sentences</arg>
+</example>
+
+<example name="autogen2">
+<text>
+U.S. fugitives
+</text>
+<arg n="2">U.S.</arg>
+<arg n="1">fugitives</arg>
+<rel>fugitives</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="absence">
+<roleset id="absence.01" name="nomadj-absent/nom" source="verb-absent.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Lipstein 's absence from the meeting here
+</text>
+<arg n="1">Mr. Lipstein 's</arg>
+<rel>absence</rel>
+<arg n="2">from the meeting here</arg>
+</example>
+
+<example name="autogen3">
+<text>
+school absences
+</text>
+<arg n="2">school</arg>
+<rel>absences</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

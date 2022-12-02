@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="skid">
+<roleset id="skid.01" name="cause to) skid" source="verb-skid.01">
+<roles>
+
+<role descr="causal agent" n="0"></role>
+
+<role descr="thing skidding" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+someone is going to hit the skids on this
+</text>
+<arg n="1">someone ---> *-1</arg>
+<arg n="Support">hit</arg>
+<rel>skids</rel>
+<arg n="0">on this</arg>
+</example>
+
+<example name="autogen2">
+<text>
+it puts some of these LBOs on the skids
+</text>
+<arg n="0">it</arg>
+<arg n="Support">puts on</arg>
+<arg n="1">some of these LBOs</arg>
+<rel>skids</rel>
+</example>
+
+</roleset>
+<roleset id="skid.02" name="quantifiable motion" source="verb-skid.02">
+<roles>
+
+<role descr="thing in motion" n="1"></role>
+
+<role descr="ext" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its skid
+</text>
+<arg n="1">its</arg>
+<rel>skid</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

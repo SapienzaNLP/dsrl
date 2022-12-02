@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pack">
+<roleset id="pack.01" name="group/partitive-quant">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Tokyo 's brat pack
+</text>
+<arg n="2">Tokyo 's</arg>
+<arg n="1">brat</arg>
+<rel>pack</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The battery packs
+</text>
+<arg n="1">battery</arg>
+<rel>packs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

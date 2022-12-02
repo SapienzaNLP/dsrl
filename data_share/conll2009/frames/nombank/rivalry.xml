@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rivalry">
+<roleset id="rivalry.01" name="to attempt to equal or surpass" source="verb-rival.01">
+<roles>
+
+<role descr="competitor" n="0"></role>
+
+<role descr="competing with" n="1"></role>
+
+<role descr="competion goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the continuing rivalry between France 's two largest investment
+banking groups
+</text>
+<arg f="TMP" n="M">continuing</arg>
+<rel>rivalry</rel>
+<arg n="0">between France 's two largest investment banking groups</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their longstanding rivalry
+</text>
+<arg n="0">their</arg>
+<arg f="TMP" n="M">longstanding</arg>
+<rel>rivalry</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

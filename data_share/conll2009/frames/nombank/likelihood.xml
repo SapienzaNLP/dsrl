@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="likelihood">
+<roleset id="likelihood.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Their likelihood of reversing us is very slim
+</text>
+<rel>likelihood</rel>
+<arg n="1">of reversing us</arg>
+<arg n="2">very slim</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` little likelihood '' of a health problem
+</text>
+<arg n="2">little</arg>
+<rel>likelihood</rel>
+<arg n="1">of a health problem</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

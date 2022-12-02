@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="supporter">
+<roleset id="supporter.01" name="lend aid, credence to" source="verb-support.01" vncls="31.2">
+<roles>
+
+<role descr="helper" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="person or project being supported" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Senate supporters of the trimmer legislation
+</text>
+<arg n="0">supporters</arg>
+<rel>supporters</rel>
+<arg n="1">of the trimmer legislation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Supporters of the legislation
+</text>
+<arg n="0">Supporters</arg>
+<rel>Supporters</rel>
+<arg n="1">of the legislation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

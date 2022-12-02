@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="absenteeism">
+<roleset id="absenteeism.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+yesterday 's absenteeism at the bank holding company
+</text>
+<arg f="TMP" n="M">yesterday 's</arg>
+<rel>absenteeism</rel>
+<arg n="1">at the bank holding company</arg>
+</example>
+
+<example name="autogen2">
+<text>
+increased absenteeism
+</text>
+<arg n="2">increased</arg>
+<rel>absenteeism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

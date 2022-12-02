@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ascent">
+<roleset id="ascent.01" name="to rise, go up" source="verb-ascend.01" vncls="51.1-1">
+<roles>
+
+<role descr="entity rising" n="0">
+<vnrole vncls="51.1-1" vntheta="Theme"/></role>
+
+<role descr="location" n="1">
+<vnrole vncls="51.1-1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their steep ascent
+</text>
+<arg n="0">their</arg>
+<arg f="MNR" n="M">steep</arg>
+<rel>ascent</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dictatorship">
+<roleset id="dictatorship.01" name="job/actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="job title" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Sandinista dictatorship
+</text>
+<arg n="0">Sandinista</arg>
+<arg n="1">dictatorship</arg>
+<rel>dictatorship</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Barre dictatorship
+</text>
+<arg n="0">Barre</arg>
+<arg n="1">dictatorship</arg>
+<rel>dictatorship</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

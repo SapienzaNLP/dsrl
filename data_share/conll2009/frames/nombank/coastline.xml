@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="coastline">
+<roleset id="coastline.01" name="partitive-part">
+<roles>
+
+<role descr="theme/land" n="1"></role>
+
+<role descr="theme2/water" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its north-south coastline
+</text>
+<arg n="1">its</arg>
+<arg f="LOC" n="M">north-south</arg>
+<rel>coastline</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

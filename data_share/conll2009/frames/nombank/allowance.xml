@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="allowance">
+<roleset id="allowance.01" name="allocate" source="verb-allow.02">
+<roles>
+
+<role descr="allocator" n="0"></role>
+
+<role descr="thing allocated (us. time" n="1"></role>
+
+<role descr="to some task" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it added $ 121 million to its allowance for losses on loans and
+for real estate owned
+</text>
+<arg n="0">it</arg>
+<arg n="Support">added to</arg>
+<arg n="1">$ 121 million</arg>
+<arg n="2">its</arg>
+<rel>allowance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The bank 's total allowance for credit losses
+</text>
+<arg n="0">The bank 's</arg>
+<arg f="REF" n="1">allowance</arg>
+<rel>allowance</rel>
+<arg n="2">for credit losses</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

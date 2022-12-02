@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chest">
+<roleset id="chest.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Cap 's chest
+</text>
+<arg n="1">Cap 's</arg>
+<rel>chest</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

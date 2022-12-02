@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="restorer">
+<roleset id="restorer.01" name="like new" source="verb-restore.02">
+<roles>
+
+<role descr="restorer" n="0"></role>
+
+<role descr="thing restored, renewed" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a professional art restorer
+</text>
+<arg f="MNR" n="M">professional</arg>
+<arg n="1">art</arg>
+<arg n="0">restorer</arg>
+<rel>restorer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

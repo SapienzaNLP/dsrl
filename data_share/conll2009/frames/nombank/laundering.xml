@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="laundering">
+<roleset id="laundering.01" name="wash" source="verb-launder.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The firm was indicted in Tampa , Fla. , on money-laundering
+charges .
+</text>
+<arg n="0">The firm ---> *-1</arg>
+<arg n="Support">indicted on charges</arg>
+<arg n="1">money-laundering</arg>
+<rel>money-laundering</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the laundering of drug money
+</text>
+<rel>laundering</rel>
+<arg n="1">of drug money</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

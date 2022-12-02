@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="description">
+<roleset id="description.01" name="assign a label or attribute" source="verb-describe.01" vncls="29.2">
+<roles>
+
+<role descr="describer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing described" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="secondary attribute, described-as" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Masson 's description of himself as a `` private asset but a
+public liability '' to Anna Freud
+</text>
+<arg n="0">Mr. Masson 's</arg>
+<rel>description</rel>
+<arg n="1">of himself</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Gould 's minute descriptions of these creatures
+</text>
+<arg n="0">Mr. Gould 's</arg>
+<arg f="MNR" n="M">minute</arg>
+<rel>descriptions</rel>
+<arg n="1">of these creatures</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

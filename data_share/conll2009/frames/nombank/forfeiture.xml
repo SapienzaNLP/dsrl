@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="forfeiture">
+<roleset id="forfeiture.01" name="give up (to" source="verb-forfeit.01" vncls="13.2">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.2" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.2" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+forfeiture of attorney 's fees to drug cases
+</text>
+<rel>forfeiture</rel>
+<arg n="1">of attorney 's fees</arg>
+<arg n="2">to drug cases</arg>
+</example>
+
+<example name="autogen2">
+<text>
+$ 23.8 million in forfeiture
+</text>
+<arg n="1">$ 23.8 million</arg>
+<rel>forfeiture</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

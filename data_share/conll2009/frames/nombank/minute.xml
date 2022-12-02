@@ -1,0 +1,88 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="minute">
+<roleset id="minute.01" name="partitive-quant/environment">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+long-distance minutes of use
+</text>
+<arg n="1">long-distance</arg>
+<rel>minutes</rel>
+<arg n="3">of use</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the last 45 minutes of trading
+</text>
+<rel>minutes</rel>
+<arg n="1">of trading</arg>
+</example>
+
+</roleset>
+<roleset id="minute.02" name="partitive-part">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+65 minutes on Tuesday
+</text>
+<rel>minutes</rel>
+<arg n="1">on Tuesday</arg>
+</example>
+
+<example name="autogen2">
+<text>
+75 minutes on Monday
+</text>
+<rel>minutes</rel>
+<arg n="1">on Monday</arg>
+</example>
+
+</roleset>
+<roleset id="minute.03" name="nomlike" source="verb-record.01" vncls="25.4">
+<roles>
+
+<role descr="recorder" n="0">
+<vnrole vncls="25.4" vntheta="Agent"/></role>
+
+<role descr="record" n="1">
+<vnrole vncls="25.4" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+no minutes
+</text>
+<arg f="NEG" n="M">no</arg>
+<arg n="1">minutes</arg>
+<rel>minutes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Fed 's minutes
+</text>
+<arg n="0">the Fed 's</arg>
+<arg n="1">minutes</arg>
+<rel>minutes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

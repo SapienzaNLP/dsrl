@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="beginning">
+<roleset id="beginning.01" name="start" source="verb-begin.01" vncls="55.1">
+<roles>
+
+<role descr="beginner, agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme(-creation" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+the beginning of a six-day motor expedition from Oxfordshire to
+Cornwall , where a former housekeeper resides , perhaps the
+victim of an unhappy 20-year marriage , perhaps -LRB- he hopes
+with more fervor than he will ever acknowledge -RRB- not
+disinclined to return to domestic service
+</text>
+<rel>beginning</rel>
+<arg n="1">
+of a six-day motor expedition from Oxfordshire to Cornwall ,
+where a former housekeeper resides , perhaps the victim of an
+unhappy 20-year marriage , perhaps -LRB- he hopes with more
+fervor than he will ever acknowledge -RRB- not disinclined to
+return to domestic service</arg>
+</example>
+
+<example name="autogen4">
+<text>
+the beginning or end of the magazine
+</text>
+<rel>beginning</rel>
+<arg n="1">of the magazine</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

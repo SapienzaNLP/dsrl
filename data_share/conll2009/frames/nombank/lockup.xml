@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lockup">
+<roleset id="lockup.01" name="secure" source="verb-lock.04">
+<roles>
+
+<role descr="entity making something secure" n="0"></role>
+
+<role descr="thing made secure" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the defendants are seeking to ensure a `` lockup '' of the
+purchase of Unitel , thereby discouraging other bids
+</text>
+<arg n="0">the defendants ---> *-1</arg>
+<arg n="Support">ensure</arg>
+<rel>lockup</rel>
+<arg n="1">of the purchase of Unitel</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

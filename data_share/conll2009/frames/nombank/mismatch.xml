@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mismatch">
+<roleset id="mismatch.01" name="match" source="verb-match.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="theme2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a mismatch in the maturities of its assets and liabilities
+</text>
+<rel>mismatch</rel>
+<arg n="1">in the maturities of its assets and liabilities</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this left-right mismatch
+</text>
+<arg n="1">left-right</arg>
+<rel>mismatch</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

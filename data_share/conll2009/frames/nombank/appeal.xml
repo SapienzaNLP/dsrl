@@ -1,0 +1,103 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="appeal">
+<roleset id="appeal.01" name="legal transaction" source="verb-appeal.01">
+<roles>
+
+<role descr="appealer" n="0"></role>
+
+<role descr="decision disagreed with" n="1"></role>
+
+<role descr="appealed to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Vermont 's appeal of that decision is pending before the U.S.
+Second Circuit Court of Appeals in Manhattan
+</text>
+<arg n="0">Vermont 's</arg>
+<rel>appeal</rel>
+<arg n="1">of that decision</arg>
+<arg n="Support">pending</arg>
+<arg n="2">before the U.S. Second Circuit Court of Appeals in Manhattan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the broker 's appeal of the disciplinary measures
+</text>
+<arg n="0">the broker 's</arg>
+<rel>appeal</rel>
+<arg n="1">of the disciplinary measures</arg>
+</example>
+
+</roleset>
+<roleset id="appeal.02" name="beg" source="verb-appeal.02">
+<roles>
+
+<role descr="begger, appealer" n="0"></role>
+
+<role descr="begged/appealed for" n="1" source="2"></role>
+
+<role descr="appealed to, begged from" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Catholics had responded generously to an appeal last year to give
+more money after 1987 's record $ 63 million deficit
+</text>
+<arg n="2">Catholics</arg>
+<arg n="Support">responded to</arg>
+<rel>appeal</rel>
+<arg f="PRD" n="1">*ICH*-1 ---> to give more money</arg>
+<arg f="TMP" n="M">last year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a recent fund-raising appeal
+</text>
+<arg f="TMP" n="M">recent</arg>
+<arg n="1">fund-raising</arg>
+<rel>appeal</rel>
+</example>
+
+</roleset>
+<roleset id="appeal.03" name="be attractive" source="verb-appeal.03" vncls="31.4">
+<roles>
+
+<role descr="appealing thing" n="0">
+<vnrole vncls="31.4" vntheta="Cause"/></role>
+
+<role descr="entity attracted" n="1">
+<vnrole vncls="31.4" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their repertoire and audience appeal
+</text>
+<arg n="0">their</arg>
+<arg n="1">audience</arg>
+<rel>appeal</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the appeal of small business , he says , where investors often
+have a degree of influence
+</text>
+<rel>appeal</rel>
+<arg n="0">
+of small business , he says , where investors often have a degree
+of influence</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

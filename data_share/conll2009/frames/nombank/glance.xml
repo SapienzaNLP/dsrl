@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="glance">
+<roleset id="glance.01" name="look at briefly" source="verb-glance.01" vncls="30.3">
+<roles>
+
+<role descr="looker" n="0">
+<vnrole vncls="30.3" vntheta="Experiencer"/></role>
+
+<role descr="looked-at" n="1">
+<vnrole vncls="30.3" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A glance through the television listings
+</text>
+<rel>glance</rel>
+<arg n="1">through the television listings</arg>
+</example>
+
+<example name="autogen2">
+<text>
+anything which arouses our interest at first glance
+</text>
+<arg n="1">anything ---> which ---> *T*-1</arg>
+<rel>glance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

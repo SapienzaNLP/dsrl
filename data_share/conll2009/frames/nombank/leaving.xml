@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="leaving">
+<roleset id="leaving.01" name="move away from" source="verb-leave.01" vncls="51.2">
+<roles>
+
+<role descr="entity leaving" n="0">
+<vnrole vncls="51.2" vntheta="Theme"/></role>
+
+<role descr="place left" n="1">
+<vnrole vncls="51.2" vntheta="Source"/></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his leaving
+</text>
+<arg n="0">his</arg>
+<rel>leaving</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

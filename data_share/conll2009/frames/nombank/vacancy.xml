@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vacancy">
+<roleset id="vacancy.01" name="nomlike" source="verb-fill.02">
+<roles>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="goal" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Since 1984 , the president has filled four vacancies in the
+Federal Circuit court with non-patent lawyers .
+</text>
+<arg n="Support">filled</arg>
+<rel>vacancies</rel>
+<arg n="2">in the Federal Circuit court</arg>
+<arg n="1">with non-patent lawyers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Rising office vacancy rates
+</text>
+<arg n="2">office</arg>
+<rel>vacancy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

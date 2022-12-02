@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="schedule">
+<roleset id="schedule.01" name="plan a time" source="verb-schedule.01">
+<roles>
+
+<role descr="planner" n="0"></role>
+
+<role descr="event" n="1"></role>
+
+<role descr="scheduled for or because of" n="2"></role>
+
+<role descr="time of event" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an advertiser 's big ad schedule for their magazine
+</text>
+<arg n="0">an advertiser 's</arg>
+<arg f="EXT" n="M">big</arg>
+<arg n="1">ad</arg>
+<rel>schedule</rel>
+<arg n="2">for their magazine</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its schedule of regular quarterly dividends
+</text>
+<arg n="1">its</arg>
+<rel>schedule</rel>
+<arg n="2">of regular quarterly dividends</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

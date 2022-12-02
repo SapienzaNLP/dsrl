@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ratio">
+<roleset id="ratio.01" name="compare" source="verb-compare.01" vncls="22.2">
+<roles>
+
+<role descr="entity making comparison" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="first item in comparison" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="second item in comparison, usually prepositional" n="3" source="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+stocks whose price/earnings ratio is less than their growth rate
+</text>
+<arg n="0">whose</arg>
+<arg n="1">price/earnings</arg>
+<arg n="3">price/earnings</arg>
+<rel>ratio</rel>
+<arg n="2">less than their growth rate</arg>
+</example>
+
+<example name="autogen2">
+<text>
+low price-earnings ratios
+</text>
+<arg n="2">low</arg>
+<arg n="1">price-earnings</arg>
+<arg n="3">price-earnings</arg>
+<rel>ratios</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

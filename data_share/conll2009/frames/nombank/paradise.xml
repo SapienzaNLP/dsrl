@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="paradise">
+<roleset id="paradise.01" name="environment for thing">
+<roles>
+
+<role descr="thing existing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a consumer paradise
+</text>
+<arg n="1">consumer</arg>
+<rel>paradise</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

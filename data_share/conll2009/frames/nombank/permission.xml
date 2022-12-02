@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="permission">
+<roleset id="permission.01" name="permit, let, allow" source="verb-permit.01">
+<roles>
+
+<role descr="allower" n="0"></role>
+
+<role descr="action allowed" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But they have obtained 8300 forms without court permission and
+used the information to help develop criminal cases .
+</text>
+<arg n="2">they</arg>
+<arg n="1">have obtained 8300 forms</arg>
+<arg n="0">court</arg>
+<rel>permission</rel>
+</example>
+
+<example name="autogen2">
+<text>
+But a few days later the police accused him of stealing
+electricity , acquiring rubber without permission and buying
+stolen property .
+</text>
+<arg n="2">him ---> *-1</arg>
+<arg n="1">acquiring rubber</arg>
+<rel>permission</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

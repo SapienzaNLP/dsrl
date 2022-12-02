@@ -1,0 +1,100 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="strike">
+<roleset id="strike.01" name="hit" source="verb-strike.01" vncls="18.1">
+<roles>
+
+<role descr="agent, hitter - animate only" n="0">
+<vnrole vncls="18.1" vntheta="Agent"/></role>
+
+<role descr="thing hit" n="1">
+<vnrole vncls="18.1" vntheta="Patient"/></role>
+
+<role descr="instrument, thing hit by or with" n="2">
+<vnrole vncls="18.1" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a pre-emptive strike by Foothills
+</text>
+<arg f="PNC" n="M">pre-emptive</arg>
+<rel>strike</rel>
+<arg n="0">by Foothills</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` first strike '' nuclear arms
+</text>
+<arg f="TMP" n="M">first</arg>
+<rel>strike</rel>
+</example>
+
+</roleset>
+<roleset id="strike.02" name="refrain from working" source="verb-strike.02">
+<roles>
+
+<role descr="workers" n="0"></role>
+
+<role descr="employer" n="1"></role>
+
+<role descr="purpose or demands" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the strike by 55,000 Machinists union members against Boeing Co.
+</text>
+<rel>strike</rel>
+<arg n="0">by 55,000 Machinists union members</arg>
+<arg n="1">against Boeing Co.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Colombia 's judges launched a 72-hour strike to press security
+demands following Tuesday 's murder of a High Court justice in
+Medellin .
+</text>
+<arg n="0">Colombia 's judges</arg>
+<arg n="Support">launched</arg>
+<arg f="TMP" n="M">72-hour</arg>
+<rel>strike</rel>
+<arg f="PRD" n="2">to press security demands</arg>
+</example>
+
+</roleset>
+<roleset id="strike.03" name="baseball" source="verb-strike.06">
+<roles>
+
+<role descr="batter" n="0"></role>
+
+<role descr="with respect to" n="1"></role>
+
+<role descr="pitcher" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+several strikes against it
+</text>
+<rel>strikes</rel>
+<arg n="0">against it</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Thomson took a called strike ,
+</text>
+<arg n="1">Thomson</arg>
+<arg n="Support">took</arg>
+<rel>strike</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

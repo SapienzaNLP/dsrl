@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="footage">
+<roleset id="footage.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+news footage of the devastated South Bronx
+</text>
+<rel>footage</rel>
+<arg n="1">of the devastated South Bronx</arg>
+</example>
+
+<example name="autogen2">
+<text>
+footage of the devastation in San Francisco and Charleston , S.C.
+,
+</text>
+<rel>footage</rel>
+<arg n="1">of the devastation in San Francisco and Charleston , S.C. ,</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

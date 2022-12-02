@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="objective">
+<roleset id="objective.01" name="attempt" source="verb-try.01">
+<roles>
+
+<role descr="agent/entity trying" n="0"></role>
+
+<role descr="thing tried" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his objective of carrying out a set of tasks through the efforts
+of his subordinates
+</text>
+<arg n="0">his</arg>
+<rel>objective</rel>
+<arg n="1">
+of carrying out a set of tasks through the efforts of his
+subordinates</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the price-stability objective
+</text>
+<arg n="1">price-stability</arg>
+<rel>objective</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

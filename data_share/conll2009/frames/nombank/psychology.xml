@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="psychology">
+<roleset id="psychology.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+crowd psychology
+</text>
+<arg n="1">crowd</arg>
+<arg f="REF" n="2">psychology</arg>
+<rel>psychology</rel>
+</example>
+
+<example name="autogen2">
+<text>
+incredible negative psychology
+</text>
+<arg n="2">negative</arg>
+<rel>psychology</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

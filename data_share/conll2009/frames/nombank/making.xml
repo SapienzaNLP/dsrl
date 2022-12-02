@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="making">
+<roleset id="making.01" name="create1" source="verb-make.01" vncls="26.1-1">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.1-1" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.1-1" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.1-1" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2">
+<vnrole vncls="26.1-1" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+President Bush 's economic policy-making
+</text>
+<arg n="0">President Bush 's</arg>
+<arg n="1">policy-making</arg>
+<rel>policy-making</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a price rout in the making
+</text>
+<arg n="1">a price rout</arg>
+<rel>making</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

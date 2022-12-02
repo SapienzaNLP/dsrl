@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="breast">
+<roleset id="breast.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Her bare breasts
+</text>
+<arg n="1">Her</arg>
+<rel>breasts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

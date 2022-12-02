@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="telecast">
+<roleset id="telecast.01" name="to transmit or announce" source="verb-broadcast.01">
+<roles>
+
+<role descr="transmitter, agent" n="0"></role>
+
+<role descr="message" n="1"></role>
+
+<role descr="audience" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A World Series telecast
+</text>
+<arg n="1">World Series</arg>
+<rel>telecast</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

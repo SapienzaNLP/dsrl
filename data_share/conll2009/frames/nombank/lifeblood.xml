@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lifeblood">
+<roleset id="lifeblood.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Our lifeblood
+</text>
+<arg n="1">Our</arg>
+<arg n="0">lifeblood</arg>
+<rel>lifeblood</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

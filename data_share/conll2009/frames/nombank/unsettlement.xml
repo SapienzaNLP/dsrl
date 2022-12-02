@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unsettlement">
+<roleset id="unsettlement.01" name="cause anxiety" source="verb-unsettle.01" vncls="31.1">
+<roles>
+
+<role descr="causer of anxiety" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="anxious entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+there 's a lot of unsettlement in this market
+</text>
+<arg n="Support">lot of</arg>
+<rel>unsettlement</rel>
+<arg n="1">in this market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

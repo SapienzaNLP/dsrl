@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="anthem">
+<roleset id="anthem.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the state 's anthem
+</text>
+<arg n="1">the state 's</arg>
+<arg n="0">anthem</arg>
+<rel>anthem</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

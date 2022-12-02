@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pennant">
+<roleset id="pennant.01" name="give an award" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="award" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the National League pennant
+</text>
+<arg n="0">National League</arg>
+<arg f="REF" n="1">pennant</arg>
+<rel>pennant</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the American League pennant
+</text>
+<arg n="0">American League</arg>
+<arg f="REF" n="1">pennant</arg>
+<rel>pennant</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

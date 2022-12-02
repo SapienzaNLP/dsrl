@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="photo">
+<roleset id="photo.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Galileo 's photos of Europa
+</text>
+<arg n="0">Galileo 's</arg>
+<rel>photos</rel>
+<arg n="1">of Europa</arg>
+</example>
+
+<example name="autogen2">
+<text>
+news photos of the police dragging limp protesters from some
+building or thoroughfare in one of our cities
+</text>
+<arg n="3">news</arg>
+<rel>photos</rel>
+<arg n="1">
+of the police dragging limp protesters from some building or
+thoroughfare in one of our cities</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

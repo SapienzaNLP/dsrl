@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="behalf">
+<roleset id="behalf.01" name="nomlike" source="verb-help.01">
+<roles>
+
+<role descr="helper" n="0"></role>
+
+<role descr="project" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Barry Ostrager of Simpson Thacher &amp; Bartlett , who recently won a
+huge case on behalf of insurers against Shell Oil Co
+</text>
+<arg n="0">Simpson Thacher &amp; Bartlett ---> who ---> *T*-1</arg>
+<arg n="1">a huge case</arg>
+<rel>behalf</rel>
+<arg n="2">of insurers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+provisions inserted on behalf of owners of private beaches in the
+Virgin Islands
+</text>
+<arg n="1">provisions</arg>
+<arg n="Support">inserted on</arg>
+<rel>behalf</rel>
+<arg n="2">of owners of private beaches in the Virgin Islands</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

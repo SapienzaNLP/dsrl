@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stockholding">
+<roleset id="stockholding.01" name="grasp, bear" source="verb-hold.01" vncls="15.1">
+<roles>
+
+<role descr="holder" n="0">
+<vnrole vncls="15.1" vntheta="Agent"/></role>
+
+<role descr="thing held" n="1">
+<vnrole vncls="15.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="secondary attribute of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The younger couple 's stockholdings
+</text>
+<arg n="0">The younger couple 's</arg>
+<rel>stockholdings</rel>
+</example>
+
+<example name="autogen2">
+<text>
+mutual funds , which can be forced to sell stockholdings when
+investors rush to withdraw money
+</text>
+<arg n="0">mutual funds ---> which ---> *T*-1 ---> *-2</arg>
+<arg n="Support">sell</arg>
+<rel>stockholdings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

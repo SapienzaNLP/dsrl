@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="visit">
+<roleset id="visit.01" name="visit, meet with" source="verb-visit.01" vncls="36.3">
+<roles>
+
+<role descr="one party" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="other party" n="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to compare her visit to Mr. Mosbacher 's
+</text>
+<arg n="0">her</arg>
+<rel>visit</rel>
+<arg n="1">to Mr. Mosbacher 's</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an office visit
+</text>
+<arg n="1">office</arg>
+<rel>visit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

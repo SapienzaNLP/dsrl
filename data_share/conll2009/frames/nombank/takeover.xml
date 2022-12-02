@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="takeover">
+<roleset id="takeover.01" name="take over: become dominant" source="verb-take.12">
+<roles>
+
+<role descr="entity becoming dominant" n="0"></role>
+
+<role descr="entity being taken over" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its much-publicized proposed takeover by Coniston Partners
+</text>
+<arg n="1">its</arg>
+<rel>takeover</rel>
+<arg n="0">by Coniston Partners</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the UAL takeover
+</text>
+<arg n="1">UAL</arg>
+<rel>takeover</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

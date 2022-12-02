@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="senator">
+<roleset id="senator.01" name="actrel/consultant/nomlike" source="verb-represent.01" vncls="29.2">
+<roles>
+
+<role descr="job holder" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="employer" n="4" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 36-year-old state senator from Bay St. Louis
+</text>
+<arg f="TMP" n="M">36-year-old</arg>
+<arg n="4">state</arg>
+<arg n="0">senator</arg>
+<rel>senator</rel>
+<arg n="2">from Bay St. Louis</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Ohio senator
+</text>
+<arg n="2">Ohio</arg>
+<arg n="0">senator</arg>
+<rel>senator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

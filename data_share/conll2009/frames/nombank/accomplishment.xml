@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accomplishment">
+<roleset id="accomplishment.01" name="do, pull off" source="verb-accomplish.01">
+<roles>
+
+<role descr="doer" n="0"></role>
+
+<role descr="deed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+His theoretical approach and its publication in this venerable
+paper are no doubt a noteworthy accomplishment for him .
+</text>
+<arg f="REF" n="1">accomplishment</arg>
+<rel>accomplishment</rel>
+<arg n="0">for him</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his accomplishments
+</text>
+<arg n="0">his</arg>
+<arg f="REF" n="1">accomplishments</arg>
+<rel>accomplishments</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

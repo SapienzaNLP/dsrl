@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cloture">
+<roleset id="cloture.01" name="stop" source="verb-stop.01" vncls="55.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme (action or object being stopped" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+We do n't have the votes for cloture today
+</text>
+<arg n="0">We</arg>
+<arg n="Support">have votes for</arg>
+<rel>cloture</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The Senate had refused late Friday to invoke cloture and limit
+debate
+</text>
+<arg n="0">The Senate ---> *-1</arg>
+<arg n="Support">invoke</arg>
+<rel>cloture</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

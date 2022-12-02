@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="doctorate">
+<roleset id="doctorate.01" name="give someone credit for smth" source="verb-credit.01">
+<roles>
+
+<role descr="giver of credit" n="0"></role>
+
+<role descr="entity credited" n="1"></role>
+
+<role descr="credited for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He earned his doctorate in nuclear physics from the Massachusetts
+Institute of Technology .
+</text>
+<arg n="Support">earned</arg>
+<arg n="1">his</arg>
+<rel>doctorate</rel>
+<arg n="2">in nuclear physics</arg>
+<arg n="0">from the Massachusetts Institute of Technology</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a former patent agent with a doctorate in organic chemistry
+</text>
+<arg n="1">a former patent agent</arg>
+<rel>doctorate</rel>
+<arg n="2">in organic chemistry</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

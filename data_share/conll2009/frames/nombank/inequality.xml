@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inequality">
+<roleset id="inequality.01" name="attribute/nomadj-unequal">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+huge economic inequalities
+</text>
+<arg n="2">huge</arg>
+<arg n="1">economic</arg>
+<rel>inequalities</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the alleged racial inequality of death sentencing
+</text>
+<arg f="ADV" n="M">alleged</arg>
+<arg n="1">racial</arg>
+<rel>inequality</rel>
+<arg n="3">of death sentencing</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

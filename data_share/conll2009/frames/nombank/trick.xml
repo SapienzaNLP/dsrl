@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trick">
+<roleset id="trick.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a popular editing/electronic mail program called Gnu-Emacs could
+do tricks with the widely used Unix operating system created by
+AT&amp;T
+</text>
+<arg n="0">a popular editing/electronic mail program called Gnu-Emacs</arg>
+<arg n="Support">do</arg>
+<rel>tricks</rel>
+<arg n="1">with the widely used Unix operating system created by AT&amp;T</arg>
+</example>
+
+<example name="autogen2">
+<text>
+And jewelry makers are beginning to use many of the same
+marketing tricks honed in the aggressive world of cosmetics .
+</text>
+<arg n="0">jewelry makers ---> *-1</arg>
+<arg n="Support">use many of</arg>
+<arg n="1">marketing</arg>
+<rel>tricks</rel>
+</example>
+
+</roleset>
+<roleset id="trick.02" name="to deceive" source="verb-trick.01">
+<roles>
+
+<role descr="deceiver, agent" n="0"></role>
+
+<role descr="entity tricked" n="1"></role>
+
+</roles>
+
+<example name="web example">
+<text>
+her friends played a trick on her
+</text>
+<arg n="0">her friends</arg>
+<arg n="Support">played</arg>
+<rel>a trick</rel>
+<arg n="1">on her</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

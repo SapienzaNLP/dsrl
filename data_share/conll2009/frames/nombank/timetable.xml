@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="timetable">
+<roleset id="timetable.01" name="plan a time" source="verb-schedule.01">
+<roles>
+
+<role descr="planner" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its expansion timetable
+</text>
+<arg n="0">its</arg>
+<arg n="1">expansion</arg>
+<rel>timetable</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a timetable for disbanding the anti-Sandinista rebels
+</text>
+<rel>timetable</rel>
+<arg n="1">for disbanding the anti-Sandinista rebels</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

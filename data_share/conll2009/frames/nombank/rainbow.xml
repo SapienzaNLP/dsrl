@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rainbow">
+<roleset id="rainbow.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a rainbow of dress shirts tied in a knot
+</text>
+<rel>rainbow</rel>
+<arg n="1">of dress shirts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

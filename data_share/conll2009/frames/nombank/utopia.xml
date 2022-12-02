@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="utopia">
+<roleset id="utopia.01" name="environment">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a `` new utopia '' of `` creative socialism
+</text>
+<rel>utopia</rel>
+<arg n="1">of `` creative socialism</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

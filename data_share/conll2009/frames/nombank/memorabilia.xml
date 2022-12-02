@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="memorabilia">
+<roleset id="memorabilia.01" name="to cause to remember" source="verb-remind.01">
+<roles>
+
+<role descr="cause/agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+One devoted fan who fell under Baker 's spell in 1963 and began
+collecting Baker memorabilia
+</text>
+<arg n="2">One devoted fan ---> who ---> *T*-1 ---> *-2</arg>
+<arg n="Support">collecting</arg>
+<arg n="1">Baker</arg>
+<arg n="0">memorabilia</arg>
+<rel>memorabilia</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prostitution">
+<roleset id="prostitution.01" name="activity">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+induces or coerces women into prostitution
+</text>
+<arg n="Support">induces coerces into</arg>
+<arg n="0">women</arg>
+<rel>prostitution</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

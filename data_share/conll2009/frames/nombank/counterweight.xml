@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="counterweight">
+<roleset id="counterweight.01" name="point out differences" source="verb-contrast.01" vncls="22.2">
+<roles>
+
+<role descr="first item in comparison" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="second item in comparison" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a desirable counterweight to Japanese influence
+</text>
+<arg n="1">counterweight</arg>
+<rel>counterweight</rel>
+<arg n="2">to Japanese influence</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a counterweight to the U.S. , which for many years tended to
+dominate the 32-nation organization
+</text>
+<arg n="1">counterweight</arg>
+<rel>counterweight</rel>
+<arg n="2">
+to the U.S. , which for many years tended to dominate the
+32-nation organization</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

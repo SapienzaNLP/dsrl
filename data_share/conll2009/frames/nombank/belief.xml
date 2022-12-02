@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="belief">
+<roleset id="belief.01" name="believe" source="verb-believe.01" vncls="29.4">
+<roles>
+
+<role descr="believer" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="belief" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Pierce 's own belief that his testimony could help convict
+him of a crime
+</text>
+<arg n="0">Mr. Pierce 's</arg>
+<rel>belief</rel>
+<arg n="1">that his testimony could help convict him of a crime</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the belief that there was going to be an imminent easing of
+monetary policy
+</text>
+<rel>belief</rel>
+<arg n="1">that there was going to be an imminent easing of monetary policy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

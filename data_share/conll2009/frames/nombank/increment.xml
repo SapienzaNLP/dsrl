@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="increment">
+<roleset id="increment.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the smallest price increment
+</text>
+<arg n="2">smallest</arg>
+<arg n="1">price</arg>
+<rel>increment</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The debentures will be available in book-entry form only in a
+minimum amount of $ 5,000 and additional increments of $ 5,000 .
+</text>
+<arg n="1">The debentures</arg>
+<arg n="Support">available in</arg>
+<rel>increments</rel>
+<arg n="2">of $ 5,000</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

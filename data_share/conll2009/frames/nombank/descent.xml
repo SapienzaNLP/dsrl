@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="descent">
+<roleset id="descent.01" name="to come down, lower oneself, or arrive" source="verb-descend.01" vncls="51.1-1">
+<roles>
+
+<role descr="entity rising" n="1" source="0">
+<vnrole vncls="51.1-1" vntheta="Theme"/></role>
+
+<role descr="location, descend on or to" n="2" source="1">
+<vnrole vncls="51.1-1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his accelerating descent
+</text>
+<arg n="1">his</arg>
+<arg f="MNR" n="M">accelerating</arg>
+<rel>descent</rel>
+</example>
+
+<example name="autogen2">
+<text>
+steep descents into hysteria
+</text>
+<arg f="MNR" n="M">steep</arg>
+<rel>descents</rel>
+<arg n="2">into hysteria</arg>
+</example>
+
+</roleset>
+<roleset id="descent.02" name="nomlike" source="verb-come.03" vncls="48.1.1">
+<roles>
+
+<role descr="thing (state) arising" n="1">
+<vnrole vncls="48.1.1" vntheta="Theme"/></role>
+
+<role descr="source (from or in or of" n="2">
+<vnrole vncls="48.1.1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an immigrant stonemason of Slovenian descent
+</text>
+<arg n="1">an immigrant stonemason</arg>
+<arg n="2">Slovenian</arg>
+<rel>descent</rel>
+</example>
+
+<example name="autogen2">
+<text>
+more than 500,000 people of German descent
+</text>
+<arg n="1">more than 500,000 people</arg>
+<arg n="2">German</arg>
+<rel>descent</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="urgency">
+<roleset id="urgency.01" name="attribute/nomadj-urgent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the sense of urgency behind efforts to enact tax incentives and
+other measures to increase the rate of growth in productivity and
+real GNP
+</text>
+<arg n="Support">sense of</arg>
+<arg f="REF" n="2">urgency</arg>
+<rel>urgency</rel>
+<arg n="1">
+behind efforts to enact tax incentives and other measures to
+increase the rate of growth in productivity and real GNP</arg>
+</example>
+
+<example name="autogen2">
+<text>
+As a result , the effort by some oil ministers to get OPEC to
+approve a new permanent production-sharing agreement next month
+is taking on increasing urgency .
+</text>
+<arg n="1">
+the effort by some oil ministers to get OPEC to approve a new
+permanent production-sharing agreement next month</arg>
+<arg n="Support">taking</arg>
+<arg f="MNR" n="M">increasing</arg>
+<arg f="REF" n="2">urgency</arg>
+<rel>urgency</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

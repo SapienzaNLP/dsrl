@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="forecast">
+<roleset id="forecast.01" name="tell the future" source="verb-forecast.01">
+<roles>
+
+<role descr="fortune teller" n="0"></role>
+
+<role descr="prediction" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its forecast for economic growth in the EC in 1989
+</text>
+<arg n="0">its</arg>
+<rel>forecast</rel>
+<arg n="1">for economic growth in the EC in 1989</arg>
+</example>
+
+<example name="autogen2">
+<text>
+price forecasts of C$ 5.25 per thousand cubic feet by 2005
+</text>
+<arg n="1">price</arg>
+<rel>forecasts</rel>
+<arg n="3">of C$ 5.25 per thousand cubic feet by 2005</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

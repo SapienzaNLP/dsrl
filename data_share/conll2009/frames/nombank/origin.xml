@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="origin">
+<roleset id="origin.01" name="create, come about" source="verb-originate.01">
+<roles>
+
+<role descr="creator" n="0"></role>
+
+<role descr="thing originated" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+<role descr="attribute of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the origin of the woman 's injuries
+</text>
+<rel>origin</rel>
+<arg n="1">of the woman 's injuries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the insurance market 's origins in a coffeehouse in 17th century
+London
+</text>
+<arg n="1">the insurance market 's</arg>
+<rel>origins</rel>
+<arg f="LOC" n="M">in a coffeehouse</arg>
+<arg f="TMP" n="M">in 17th century London</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

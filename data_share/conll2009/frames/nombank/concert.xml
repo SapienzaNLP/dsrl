@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="concert">
+<roleset id="concert.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+classical-music concerts
+</text>
+<arg n="1">classical-music</arg>
+<rel>concerts</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a Philip Glass concert
+</text>
+<arg n="0">Philip Glass</arg>
+<rel>concert</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

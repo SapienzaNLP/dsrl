@@ -1,0 +1,160 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="interest">
+<roleset id="interest.01" name="provoke interest" source="verb-interest.01" vncls="31.4">
+<roles>
+
+<role descr="agent, causer of interest" n="0">
+<vnrole vncls="31.4" vntheta="Cause"/></role>
+
+<role descr="interested in" n="1" source="2">
+<vnrole vncls="31.4" vntheta="Theme"/></role>
+
+<role descr="interested entity" n="2" source="1">
+<vnrole vncls="31.4" vntheta="Experiencer"/></role>
+
+<role descr="seondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The gains also sparked buying interest in other real-estate
+companies
+</text>
+<arg n="0">The gains</arg>
+<arg n="Support">sparked</arg>
+<arg n="1">buying</arg>
+<rel>interest</rel>
+<arg n="3">in other real-estate companies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+P&amp;G 's interest in a superconcentrated detergent
+</text>
+<arg n="2">P&amp;G 's</arg>
+<rel>interest</rel>
+<arg n="1">in a superconcentrated detergent</arg>
+</example>
+
+</roleset>
+<roleset id="interest.02" name="give a dividend" source="verb-yield.03">
+<roles>
+
+<role descr="thing providing a dividend" n="0"></role>
+
+<role descr="dividend, earnings" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In the meantime , the money can continue to earn interest for the
+card holder -- often more than 1 % during that `` float '' period
+alone .
+</text>
+<arg n="0">the money ---> *-1</arg>
+<arg n="Support">earn</arg>
+<rel>interest</rel>
+<arg n="1">*ICH*-2 ---> more than 1 % during that `` float '' period alone</arg>
+<arg n="2">for the card holder</arg>
+</example>
+
+<example name="autogen2">
+<text>
+refunds without much interest
+</text>
+<arg n="0">refunds</arg>
+<arg f="NEG" n="M">without</arg>
+<arg n="1">much</arg>
+<rel>interest</rel>
+</example>
+
+</roleset>
+<roleset id="interest.03" name="share">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Time Warner 's 50 % interest in Working Woman and Working Mother
+</text>
+<arg n="0">Time Warner 's</arg>
+<arg n="2">50 %</arg>
+<rel>interest</rel>
+<arg n="1">in Working Woman and Working Mother</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a passive , minority interest in a program-maker
+</text>
+<arg n="2">minority</arg>
+<rel>interest</rel>
+<arg n="1">in a program-maker</arg>
+</example>
+
+</roleset>
+<roleset id="interest.04" name="group">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+educational and minority interests
+</text>
+<arg n="1">educational and minority</arg>
+<rel>interests</rel>
+</example>
+
+<example name="autogen2">
+<text>
+foreign interests
+</text>
+<arg n="1">foreign</arg>
+<rel>interests</rel>
+</example>
+
+</roleset>
+<roleset id="interest.05" name="in your interest" source="verb-benefit.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it is not in the public interest
+</text>
+<arg n="1">it</arg>
+<arg n="2">public</arg>
+<rel>interest</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the public interest
+</text>
+<arg n="2">public</arg>
+<rel>interest</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

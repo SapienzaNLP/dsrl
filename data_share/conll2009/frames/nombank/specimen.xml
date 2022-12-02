@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="specimen">
+<roleset id="specimen.01" name="serve as an example of" source="verb-exemplify.01">
+<roles>
+
+<role descr="example" n="0"></role>
+
+<role descr="of what" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+such wonderfully representative specimens of their class and
+generation
+</text>
+<arg n="0">specimens</arg>
+<rel>specimens</rel>
+<arg n="1">of their class and generation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

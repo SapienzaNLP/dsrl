@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="borrower">
+<roleset id="borrower.01" name="get temporarily" source="verb-borrow.01" vncls="13.5.2">
+<roles>
+
+<role descr="borrower" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing borrowed" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="loaner" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="collateral" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the world 's biggest borrower of money
+</text>
+<arg n="0">borrower</arg>
+<rel>borrower</rel>
+<arg n="1">of money</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Malaysia 's Banking Secrecy Act prohibited the bank from
+identifying delinquent borrowers
+</text>
+<arg n="2">the bank ---> *-1</arg>
+<arg n="Support">identifying</arg>
+<arg n="0">borrowers</arg>
+<rel>borrowers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

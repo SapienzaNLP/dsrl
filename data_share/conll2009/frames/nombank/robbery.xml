@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="robbery">
+<roleset id="robbery.01" name="to engage in or commit robbery" source="verb-rob.01" vncls="10.6">
+<roles>
+
+<role descr="robber, thief" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="person robbed" n="1">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a robbery suspect
+</text>
+<rel>robbery</rel>
+<arg n="0">suspect</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the robberies are usually pulled off by two to five men , who
+walk into the agencies near closing or lunch time , when few
+employees are there
+</text>
+<rel>robberies</rel>
+<arg n="Support">pulled</arg>
+<arg n="0">
+by two to five men , who walk into the agencies near closing or
+lunch time , when few employees are there</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

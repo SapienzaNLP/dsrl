@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="legitimacy">
+<roleset id="legitimacy.01" name="attribute/nomadj-legitimate">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the `` legitimacy of Canada 's position on the use of these
+landing requirements to conserve and manage these important
+fisheries
+</text>
+<arg f="REF" n="2">legitimacy</arg>
+<rel>legitimacy</rel>
+<arg n="1">
+of Canada 's position on the use of these landing requirements to
+conserve and manage these important fisheries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the legitimacy of his state
+</text>
+<arg f="REF" n="2">legitimacy</arg>
+<rel>legitimacy</rel>
+<arg n="1">of his state</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

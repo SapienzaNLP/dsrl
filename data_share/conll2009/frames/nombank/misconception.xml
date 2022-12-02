@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="misconception">
+<roleset id="misconception.01" name="nomlike/nomadjlike-mistaken" source="verb-err.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="project" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It 's a misconception that physical fitness is something for the
+young and middle-aged
+</text>
+<arg n="1">
+It ---> that physical fitness is something for the young and
+middle-aged</arg>
+<rel>misconception</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

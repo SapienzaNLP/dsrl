@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="companion">
+<roleset id="companion.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her two companions
+</text>
+<arg n="1">her</arg>
+<arg n="0">companions</arg>
+<rel>companions</rel>
+</example>
+
+<example name="autogen2">
+<text>
+My American companion
+</text>
+<arg n="1">My</arg>
+<arg n="0">companion</arg>
+<rel>companion</rel>
+</example>
+
+</roleset>
+<roleset id="companion.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+business companions
+</text>
+<arg n="1">business</arg>
+<arg n="0">companions</arg>
+<rel>companions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

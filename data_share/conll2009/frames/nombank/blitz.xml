@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blitz">
+<roleset id="blitz.01" name="partitive-quant/nom" source="verb-escalate.01">
+<roles>
+
+<role descr="theme/quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+program-selling blitzes
+</text>
+<arg n="1">program-selling</arg>
+<rel>blitzes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an advertising blitz
+</text>
+<arg n="1">advertising</arg>
+<rel>blitz</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

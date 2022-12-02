@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="forehead">
+<roleset id="forehead.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Madden 's `` rapidly growing forehead ''
+</text>
+<arg n="1">Mr. Madden 's</arg>
+<rel>forehead</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unification">
+<roleset id="unification.01" name="join together" source="verb-unify.01" vncls="22.2">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="first) thing(s) being unified" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="other things, if separate from arg1" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+<role descr="unified whole" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+1992 unification
+</text>
+<arg f="TMP" n="M">1992</arg>
+<rel>unification</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the European Community 's planned market unification
+</text>
+<arg n="0">the European Community 's</arg>
+<arg n="1">market</arg>
+<rel>unification</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

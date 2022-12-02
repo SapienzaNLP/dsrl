@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="restraint">
+<roleset id="restraint.01" name="stop, prevent" source="verb-restrain.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme (action or object being prevented" n="1"></role>
+
+<role descr="secondary predication or action" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+production restraint by some members
+</text>
+<arg n="1">production</arg>
+<rel>restraint</rel>
+<arg n="0">by some members</arg>
+</example>
+
+<example name="autogen2">
+<text>
+reducing fin-syn restraints
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">reducing</arg>
+<arg n="1">fin-syn</arg>
+<arg f="REF" n="3">restraints</arg>
+<rel>restraints</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

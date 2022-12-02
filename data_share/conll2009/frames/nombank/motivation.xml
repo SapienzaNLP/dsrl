@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="motivation">
+<roleset id="motivation.01" name="impelled action" source="verb-motivate.01">
+<roles>
+
+<role descr="cause" n="0"></role>
+
+<role descr="experiencer" n="1"></role>
+
+<role descr="goal" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the motivation for the two-year reduction to 19.6 % is budgetary
+</text>
+<rel>motivation</rel>
+<arg n="2">for the two-year reduction to 19.6 %</arg>
+<arg n="0">budgetary</arg>
+</example>
+
+<example name="autogen2">
+<text>
+That way , they figure , someone else has an even stronger
+motivation to make sure the deal is going to work , because they
+would be losing their money before the banks lost theirs .
+</text>
+<arg n="1">someone else</arg>
+<arg n="Support">has</arg>
+<rel>motivation</rel>
+<arg n="2">to make sure the deal is going to work</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

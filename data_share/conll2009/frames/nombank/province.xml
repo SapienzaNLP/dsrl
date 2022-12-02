@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="province">
+<roleset id="province.01" name="partitive-part/division">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="theme" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+China 's Guangdong province
+</text>
+<arg n="1">China 's</arg>
+<rel>province</rel>
+</example>
+
+<example name="autogen2">
+<text>
+China 's provinces
+</text>
+<arg n="1">China 's</arg>
+<rel>provinces</rel>
+</example>
+
+</roleset>
+<roleset id="province.02" name="nomadjlike-responsible/ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+This had been the exclusive province of those rich enough to use
+six-figure sums to get income that was figured beyond the third
+or fourth decimal place .
+</text>
+<arg n="1">This</arg>
+<rel>province</rel>
+<arg n="0">
+of those rich enough to use six-figure sums to get income that
+was figured beyond the third or fourth decimal place</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

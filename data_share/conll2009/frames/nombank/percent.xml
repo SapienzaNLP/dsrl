@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="percent">
+<roleset id="percent.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Y percent of that
+</text>
+<rel>percent</rel>
+<arg n="1">of that</arg>
+</example>
+
+<example name="autogen3">
+<text>
+a percent of household assets
+</text>
+<rel>percent</rel>
+<arg n="1">of household assets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

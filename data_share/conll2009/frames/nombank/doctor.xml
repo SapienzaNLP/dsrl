@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="doctor">
+<roleset id="doctor.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their doctor of philosophy degrees
+</text>
+<arg n="1">their</arg>
+<rel>doctor</rel>
+<arg n="2">of philosophy</arg>
+<arg n="Support">degrees</arg>
+</example>
+
+</roleset>
+<roleset id="doctor.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their doctors
+</text>
+<arg n="2">their</arg>
+<arg n="0">doctors</arg>
+<rel>doctors</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Even the president 's doctor
+</text>
+<arg n="2">the president 's</arg>
+<arg n="0">doctor</arg>
+<rel>doctor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

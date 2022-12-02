@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cartoon">
+<roleset id="cartoon.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+77 Prince Valiant Sunday cartoons by Hal Foster
+</text>
+<arg n="1">Prince Valiant</arg>
+<arg f="TMP" n="M">Sunday</arg>
+<rel>cartoons</rel>
+<arg n="0">by Hal Foster</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the old Warner Bros . `` Road Runner '' cartoons
+</text>
+<arg f="TMP" n="M">old</arg>
+<arg n="0">Warner Bros .</arg>
+<arg n="1">`` Road Runner ''</arg>
+<rel>cartoons</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

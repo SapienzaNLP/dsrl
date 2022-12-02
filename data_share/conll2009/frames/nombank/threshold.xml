@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="threshold">
+<roleset id="threshold.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Despite the increase , the British currency slid below a
+perceived threshold of three marks early last week .
+</text>
+<arg n="1">the British currency</arg>
+<arg n="Support">slid below</arg>
+<rel>threshold</rel>
+<arg n="2">of three marks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the income threshold
+</text>
+<arg n="1">income</arg>
+<arg f="REF" n="2">threshold</arg>
+<rel>threshold</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

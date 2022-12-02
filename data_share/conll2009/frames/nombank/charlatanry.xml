@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="charlatanry">
+<roleset id="charlatanry.01" name="lie to" source="verb-deceive.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="hearer" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the charlatanry profferred by their `` wealthy Hollywood weepers
+</text>
+<arg f="REF" n="1">charlatanry</arg>
+<rel>charlatanry</rel>
+<arg n="Support">profferred</arg>
+<arg n="0">by their `` wealthy Hollywood weepers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mutiny">
+<roleset id="mutiny.01" name="to refuse allegiance to" source="verb-rebel.01">
+<roles>
+
+<role descr="rebel, agent" n="0"></role>
+
+<role descr="rebel against" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a near-mutiny within the Fed 's ranks
+</text>
+<rel>near-mutiny</rel>
+<arg n="0">within the Fed 's ranks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mutinies wrack his armed forces -LRB- really just an armed gang
+-RRB- , which control less than half the country .
+</text>
+<rel>Mutinies</rel>
+<arg n="Support">wrack</arg>
+<arg n="0">
+his armed forces -LRB- really just an armed gang -RRB- , which
+control less than half the country</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

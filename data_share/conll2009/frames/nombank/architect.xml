@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="architect">
+<roleset id="architect.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+apartheid 's architect
+</text>
+<arg n="1">apartheid 's</arg>
+<arg n="0">architect</arg>
+<rel>architect</rel>
+</example>
+
+<example name="autogen2">
+<text>
+architect for the trade center
+</text>
+<arg n="0">architect</arg>
+<rel>architect</rel>
+<arg n="1">for the trade center</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

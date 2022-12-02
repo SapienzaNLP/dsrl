@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="frailty">
+<roleset id="frailty.01" name="attribute/nomadj-frail">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+human frailties
+</text>
+<arg n="1">human</arg>
+<arg f="REF" n="2">frailties</arg>
+<rel>frailties</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

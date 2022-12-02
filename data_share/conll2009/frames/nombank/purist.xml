@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="purist">
+<roleset id="purist.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Verdi purists
+</text>
+<arg n="1">Verdi</arg>
+<arg n="0">purists</arg>
+<rel>purists</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="minister">
+<roleset id="minister.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Iran 's vice minister of foreign affairs
+</text>
+<arg n="2">Iran 's</arg>
+<arg n="3">vice</arg>
+<arg n="0">minister</arg>
+<rel>minister</rel>
+<arg n="1">of foreign affairs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his prime minister
+</text>
+<arg n="2">his</arg>
+<arg n="3">prime</arg>
+<arg n="0">minister</arg>
+<rel>minister</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

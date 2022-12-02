@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="liner">
+<roleset id="liner.01" name="provide a lining, accompany in line-like fashion" source="verb-line.01" vncls="9.8">
+<roles>
+
+<role descr="agent only" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="thing lined" n="1">
+<vnrole vncls="9.8" vntheta="Destination"/></role>
+
+<role descr="instrument, lining proper" n="2">
+<vnrole vncls="9.8" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+shirt-pocket liners
+</text>
+<arg n="1">shirt-pocket</arg>
+<arg n="2">liners</arg>
+<rel>liners</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

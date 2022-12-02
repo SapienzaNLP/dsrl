@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="remainder">
+<roleset id="remainder.01" name="partitive-part/attribute">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the remainder of about $ 128 million
+</text>
+<rel>remainder</rel>
+<arg n="2">of about $ 128 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the remainder of Soo Line
+</text>
+<arg f="REF" n="2">remainder</arg>
+<rel>remainder</rel>
+<arg n="1">of Soo Line</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

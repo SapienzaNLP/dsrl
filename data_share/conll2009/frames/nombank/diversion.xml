@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="diversion">
+<roleset id="diversion.01" name="cause to turn away" source="verb-divert.01">
+<roles>
+
+<role descr="cause" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+<role descr="goal" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the mere diversion of funds from other parts of the economy and
+from other forms of housing -LRB- such as low-income -RRB- to the
+single-family home market
+</text>
+<arg f="ADV" n="M">mere</arg>
+<rel>diversion</rel>
+<arg n="1">of funds</arg>
+<arg n="2">
+from other parts of the economy and from other forms of housing
+-LRB- such as low-income -RRB-</arg>
+<arg n="3">to the single-family home market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Gorbachev badly needs a diversion from the serious economic
+problems and ethnic unrest he faces at home .
+</text>
+<arg n="1">Mr. Gorbachev</arg>
+<arg n="Support">needs</arg>
+<arg f="REF" n="0">diversion</arg>
+<rel>diversion</rel>
+<arg n="2">
+from the serious economic problems and ethnic unrest he faces at
+home</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

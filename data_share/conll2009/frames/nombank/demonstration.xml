@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="demonstration">
+<roleset id="demonstration.01" name="object to something" source="verb-protest.01">
+<roles>
+
+<role descr="protester" n="0"></role>
+
+<role descr="objectionable thing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a neighborhood demonstration to protest speeding on a certain
+road or a careless accident involving a police car
+</text>
+<arg n="0">neighborhood</arg>
+<rel>demonstration</rel>
+<arg n="Support">protest</arg>
+<arg n="1">
+speeding on a certain road or a careless accident involving a
+police car</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a demonstration -- where protesters would gather quietly near the
+science building and raise their hands , classroom style
+</text>
+<rel>demonstration</rel>
+<arg n="0">protesters</arg>
+</example>
+
+</roleset>
+<roleset id="demonstration.02" name="show (off" source="verb-demonstrate.01">
+<roles>
+
+<role descr="demonstrator" n="0"></role>
+
+<role descr="thing demonstrated" n="1"></role>
+
+<role descr="watcher" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+On a demonstration board , emcee Shelby Lyman showed a quick kill
+initiated by a knight sacrifice
+</text>
+<arg n="Support">On board showed</arg>
+<rel>demonstration</rel>
+<arg n="0">emcee Shelby Lyman</arg>
+<arg n="1">a quick kill initiated by a knight sacrifice</arg>
+</example>
+
+<example name="autogen2">
+<text>
+At the same time , my share in a wide variety of entertainment
+pursuits has given perhaps the most dramatic demonstration of the
+benefits of creative personal financial planning .
+</text>
+<arg n="0">my share in a wide variety of entertainment pursuits</arg>
+<arg n="Support">given</arg>
+<arg f="MNR" n="M">most dramatic</arg>
+<rel>demonstration</rel>
+<arg n="1">of the benefits of creative personal financial planning</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

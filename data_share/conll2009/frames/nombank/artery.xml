@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="artery">
+<roleset id="artery.01" name="stretch" source="verb-stretch.01">
+<roles>
+
+<role descr="ext or tmp, by how much or until when" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the main artery into San Francisco from the east
+</text>
+<rel>artery</rel>
+<arg n="4">into San Francisco</arg>
+<arg n="3">from the east</arg>
+</example>
+
+</roleset>
+<roleset id="artery.02" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the tiny neck arteries of rats
+</text>
+<arg n="1">neck</arg>
+<rel>arteries</rel>
+<arg n="3">of rats</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

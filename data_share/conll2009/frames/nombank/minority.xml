@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="minority">
+<roleset id="minority.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Even the minority of them who must register with the Securities
+and Exchange Commission as `` investment advisers '' -- people
+who are in the business of counseling others on the buying and
+selling of securities specifically --
+</text>
+<rel>minority</rel>
+<arg n="1">of them</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a passive , minority interest in a program-maker
+</text>
+<rel>minority</rel>
+<arg n="Support">interest</arg>
+<arg n="1">in a program-maker</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

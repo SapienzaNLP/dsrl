@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="temptation">
+<roleset id="temptation.01" name="tempt, entice" source="verb-tempt.01">
+<roles>
+
+<role descr="agent, tempter" n="0"></role>
+
+<role descr="patient, tempted" n="1"></role>
+
+<role descr="instrument, tempted with or by" n="2"></role>
+
+<role descr="induced action of arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the `` temptation for managements to ease this profit pressure by
+taking greater risks
+</text>
+<rel>temptation</rel>
+<arg f="PRD" n="3">*ICH*-2 ---> to ease this profit pressure by taking greater risks</arg>
+<arg n="1">for managements</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Some casino owners have resisted the temptation to add rooms .
+</text>
+<arg n="0">Some casino owners</arg>
+<arg n="Support">resisted</arg>
+<rel>temptation</rel>
+<arg f="PRD" n="3">to add rooms</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

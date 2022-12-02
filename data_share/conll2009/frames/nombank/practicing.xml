@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="practicing">
+<roleset id="practicing.01" name="practice" source="verb-practice.01">
+<roles>
+
+<role descr="practicer" n="0"></role>
+
+<role descr="skill" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my practicing
+</text>
+<arg n="0">my</arg>
+<rel>practicing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

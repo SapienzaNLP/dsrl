@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="competitor">
+<roleset id="competitor.01" name="compete, vie" source="verb-compete.01" vncls="36.1">
+<roles>
+
+<role descr="competitor" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="opponent" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="prize" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+GEC 's main competitor
+</text>
+<arg n="1">GEC 's</arg>
+<arg n="0">competitor</arg>
+<rel>competitor</rel>
+</example>
+
+<example name="autogen2">
+<text>
+bitter competitors for Middle East and Third World weapons
+contracts
+</text>
+<arg f="MNR" n="M">bitter</arg>
+<arg n="0">competitors</arg>
+<rel>competitors</rel>
+<arg n="2">for Middle East and Third World weapons contracts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

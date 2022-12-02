@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="report">
+<roleset id="report.01" name="nom/work-of-art" source="verb-report.01" vncls="29.1">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="entity reported to" n="2">
+<vnrole vncls="29.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its report to Congress on international economic policies
+</text>
+<arg n="0">its</arg>
+<rel>report</rel>
+<arg n="2">to Congress</arg>
+<arg n="1">on international economic policies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the trade report
+</text>
+<arg n="1">trade</arg>
+<rel>report</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

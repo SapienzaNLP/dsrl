@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hurdle">
+<roleset id="hurdle.01" name="to block" source="verb-obstruct.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+enough senators to overcome any procedural hurdle the Democratic
+leadership might erect
+</text>
+<arg n="1">enough senators ---> 0 ---> *T*-1</arg>
+<arg n="Support">overcome</arg>
+<arg n="2">procedural</arg>
+<rel>hurdle</rel>
+<arg n="0">the Democratic leadership</arg>
+<arg n="Support">erect</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Democratic procedural hurdles
+</text>
+<arg n="0">Democratic</arg>
+<arg n="2">procedural</arg>
+<rel>hurdles</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

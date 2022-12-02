@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drenching">
+<roleset id="drenching.01" name="nom-drench/nomlike" source="verb-soak.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the traditional champagne drenching during the
+back-on-terra-firma toast
+</text>
+<arg n="2">champagne</arg>
+<rel>drenching</rel>
+<arg f="TMP" n="M">during the back-on-terra-firma toast</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

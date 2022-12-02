@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="friend">
+<roleset id="friend.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her sexpot friend
+</text>
+<arg n="1">her</arg>
+<arg n="0">friend</arg>
+<rel>friend</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a lifelong friend
+</text>
+<arg f="TMP" n="M">lifelong</arg>
+<arg n="0">friend</arg>
+<rel>friend</rel>
+</example>
+
+</roleset>
+<roleset id="friend.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a college friend of Mr. Lane 's who earns his living playing the
+double bass in classical music ensembles
+</text>
+<arg n="1">college</arg>
+<arg n="0">friend</arg>
+<rel>friend</rel>
+<arg n="2">of Mr. Lane 's</arg>
+</example>
+
+<example name="autogen2">
+<text>
+developer friends
+</text>
+<arg n="1">developer</arg>
+<arg n="0">friends</arg>
+<rel>friends</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

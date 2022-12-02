@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="confluence">
+<roleset id="confluence.01" name="combine, mix" source="verb-combine.01" vncls="22.1-1">
+<roles>
+
+<role descr="agent, mixer" n="0">
+<vnrole vncls="22.1-1" vntheta="Agent"/></role>
+
+<role descr="ingredient one" n="1">
+<vnrole vncls="22.1-1" vntheta="Patient1"/></role>
+
+<role descr="ingredient two" n="2">
+<vnrole vncls="22.1-1" vntheta="Patient2"/></role>
+
+<role descr="end product" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a confluence of high-mindedness and self-interest
+</text>
+<rel>confluence</rel>
+<arg n="1">of high-mindedness</arg>
+<arg n="2">and self-interest</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

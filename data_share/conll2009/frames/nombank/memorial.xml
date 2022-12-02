@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="memorial">
+<roleset id="memorial.01" name="to cause to remember" source="verb-remind.01">
+<roles>
+
+<role descr="cause/agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the memorial to his dead partner David
+</text>
+<arg n="0">memorial</arg>
+<rel>memorial</rel>
+<arg n="1">to his dead partner David</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

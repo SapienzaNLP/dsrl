@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="substitute">
+<roleset id="substitute.01" name="exchange one thing for another" source="verb-substitute.01" vncls="13.6">
+<roles>
+
+<role descr="agent, entity trading" n="0">
+<vnrole vncls="13.6" vntheta="Agent"/></role>
+
+<role descr="thing being preferred, new thing" n="1">
+<vnrole vncls="13.6" vntheta="Theme2"/></role>
+
+<role descr="other item in exchange, old thing" n="3">
+<vnrole vncls="13.6" vntheta="Theme1"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their own substitutes
+</text>
+<arg n="0">their</arg>
+<arg n="1">substitutes</arg>
+<rel>substitutes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a potential substitute for CFCs
+</text>
+<arg n="1">substitute</arg>
+<rel>substitute</rel>
+<arg n="3">for CFCs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

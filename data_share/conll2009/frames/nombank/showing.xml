@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="showing">
+<roleset id="showing.01" name="cause to see" source="verb-show.01" vncls="29.5">
+<roles>
+
+<role descr="shower" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing seen/shown" n="1">
+<vnrole vncls="29.5" vntheta="Patient"/></role>
+
+<role descr="seer" n="2">
+<vnrole vncls="29.5" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+According to department policy , prosecutors must make a strong
+showing that lawyers ' fees came from assets tainted by illegal
+profits before any attempts at seizure are made .
+</text>
+<arg n="0">prosecutors</arg>
+<arg n="Support">make</arg>
+<arg f="EXT" n="M">strong</arg>
+<rel>showing</rel>
+<arg n="1">that lawyers ' fees came from assets tainted by illegal profits</arg>
+</example>
+
+<example name="autogen2">
+<text>
+any showing of willful misconduct
+</text>
+<rel>showing</rel>
+<arg n="1">of willful misconduct</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

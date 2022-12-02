@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="predicament">
+<roleset id="predicament.01" name="attribute/nomadlike-difficult">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his predicament
+</text>
+<arg n="0">his</arg>
+<arg f="REF" n="2">predicament</arg>
+<rel>predicament</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

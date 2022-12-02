@@ -1,0 +1,74 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="march">
+<roleset id="march.01" name="move forwards" source="verb-progress.01">
+<roles>
+
+<role descr="thing moving" n="1"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the forced marches of the ethnic Turks out of Bulgaria over the
+past five months
+</text>
+<rel>marches</rel>
+<arg n="1">of the ethnic Turks</arg>
+<arg n="3">out of Bulgaria</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a gradual , predictable march from primordial slime to human
+consciousness
+</text>
+<arg f="ADV" n="M">gradual , predictable</arg>
+<rel>march</rel>
+<arg n="3">from primordial slime</arg>
+<arg n="4">to human consciousness</arg>
+</example>
+
+</roleset>
+<roleset id="march.02" name="summon to a cause" source="verb-rally.01">
+<roles>
+
+<role descr="summoner" n="0"></role>
+
+<role descr="summoned" n="1"></role>
+
+<role descr="cause" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the approximately 200 sponsors of the recent march in Washington
+for the homeless
+</text>
+<arg n="0">the approximately 200 sponsors</arg>
+<arg f="TMP" n="M">recent</arg>
+<rel>march</rel>
+<arg f="LOC" n="M">in Washington</arg>
+<arg n="2">for the homeless</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Despite the pledge by the Communist rulers , tens of thousands of
+people across the country staged marches over the weekend to
+demand democratic freedoms .
+</text>
+<arg n="1">tens of thousands of people across the country</arg>
+<arg n="Support">staged</arg>
+<rel>marches</rel>
+<arg f="PRD" n="2">to demand democratic freedoms</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

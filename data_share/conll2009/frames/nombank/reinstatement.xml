@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reinstatement">
+<roleset id="reinstatement.01" name="put (back) into some role" source="verb-reinstate.01" vncls="29.2">
+<roles>
+
+<role descr="namer, assigner of a role" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="entity playing the role" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="attribute, role" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Cuba 's reinstatement
+</text>
+<arg n="1">Cuba 's</arg>
+<rel>reinstatement</rel>
+</example>
+
+<example name="autogen2">
+<text>
+reinstatement of retired judges
+</text>
+<rel>reinstatement</rel>
+<arg n="1">of retired judges</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

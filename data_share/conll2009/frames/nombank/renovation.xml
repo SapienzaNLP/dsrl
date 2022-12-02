@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="renovation">
+<roleset id="renovation.01" name="make new-looking" source="verb-renovate.01">
+<roles>
+
+<role descr="renovator, agent" n="0"></role>
+
+<role descr="thing becoming new" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the renovation for socialism
+</text>
+<rel>renovation</rel>
+<arg n="1">for socialism</arg>
+</example>
+
+<example name="autogen2">
+<text>
+residential renovation
+</text>
+<arg n="1">residential</arg>
+<rel>renovation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

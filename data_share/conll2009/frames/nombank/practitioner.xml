@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="practitioner">
+<roleset id="practitioner.01" name="practice" source="verb-practice.01">
+<roles>
+
+<role descr="practicer" n="0"></role>
+
+<role descr="skill" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a practitioner of ethnic humor from the old days on the Borscht
+Belt , live television and the nightclub circuit
+</text>
+<arg n="0">practitioner</arg>
+<rel>practitioner</rel>
+<arg n="1">of ethnic humor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+public-relations practitioners
+</text>
+<arg n="1">public-relations</arg>
+<arg n="0">practitioners</arg>
+<rel>practitioners</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="penchant">
+<roleset id="penchant.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their own penchant for book writing
+</text>
+<arg n="0">their</arg>
+<rel>penchant</rel>
+<arg n="1">for book writing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Wall Street 's new penchant for leveraged buy-outs and junk bonds
+</text>
+<arg n="0">Wall Street 's</arg>
+<rel>penchant</rel>
+<arg n="1">for leveraged buy-outs and junk bonds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

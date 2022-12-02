@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bedrock">
+<roleset id="bedrock.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bedrock of society
+</text>
+<arg n="0">bedrock</arg>
+<rel>bedrock</rel>
+<arg n="1">of society</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

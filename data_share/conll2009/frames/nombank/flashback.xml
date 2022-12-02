@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flashback">
+<roleset id="flashback.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+frequent flashbacks to the rape
+</text>
+<arg f="TMP" n="M">frequent</arg>
+<rel>flashbacks</rel>
+<arg n="1">to the rape</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="obeisance">
+<roleset id="obeisance.01" name="obey, follow the rules" source="verb-obey.01">
+<roles>
+
+<role descr="obeyer" n="0"></role>
+
+<role descr="rule or rule-giver" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The SEC has historically paid obeisance to the ideal of a level
+playing field
+</text>
+<arg n="0">The SEC</arg>
+<arg n="Support">paid</arg>
+<rel>obeisance</rel>
+<arg n="1">to the ideal of a level playing field</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

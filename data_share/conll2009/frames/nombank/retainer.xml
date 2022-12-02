@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="retainer">
+<roleset id="retainer.01" name="nomlike" source="verb-pay.01" vncls="13.1-1">
+<roles>
+
+<role descr="payer" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="money" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="purpose" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Although it ultimately was n't offered to him , he will be on
+retainer to American Express as an adviser on international
+matters .
+</text>
+<arg n="2">he</arg>
+<rel>retainer</rel>
+<arg n="0">to American Express</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Noriega 's initial retainer
+</text>
+<arg n="2">Mr. Noriega 's</arg>
+<arg f="TMP" n="M">initial</arg>
+<arg f="REF" n="1">retainer</arg>
+<rel>retainer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

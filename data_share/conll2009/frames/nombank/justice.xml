@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="justice">
+<roleset id="justice.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Britain 's chief justice
+</text>
+<arg n="2">Britain 's</arg>
+<arg n="3">chief</arg>
+<arg n="0">justice</arg>
+<rel>justice</rel>
+</example>
+
+<example name="autogen2">
+<text>
+justices on the Supreme Court
+</text>
+<arg n="0">justices</arg>
+<rel>justices</rel>
+<arg n="2">on the Supreme Court</arg>
+</example>
+
+</roleset>
+<roleset id="justice.02" name="nom" source="verb-judge.01" vncls="29.4">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+President Bush has sworn to bring him to justice .
+</text>
+<arg n="0">President Bush ---> *-1</arg>
+<arg n="Support">bring to</arg>
+<arg n="2">him</arg>
+<rel>justice</rel>
+</example>
+
+<example name="autogen2">
+<text>
+rural justice issues
+</text>
+<arg n="2">rural</arg>
+<rel>justice</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proportion">
+<roleset id="proportion.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And unlike Europe and the U.S. , where populations are aging ,
+the Pacific Basin countries have growing proportions of youths --
+the heaviest consumers of Coca-Cola and other sodas .
+</text>
+<arg n="3">the Pacific Basin countries</arg>
+<arg n="Support">have</arg>
+<arg n="2">growing</arg>
+<rel>proportions</rel>
+<arg n="1">of youths -- the heaviest consumers of Coca-Cola and other sodas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A higher proportion of black men
+</text>
+<arg n="2">higher</arg>
+<rel>proportion</rel>
+<arg n="1">of black men</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

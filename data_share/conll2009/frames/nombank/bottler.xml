@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bottler">
+<roleset id="bottler.01" name="to place in a bottle" source="verb-bottle.01" vncls="9.10">
+<roles>
+
+<role descr="bottler, agent" n="0">
+<vnrole vncls="9.10" vntheta="Agent"/></role>
+
+<role descr="entity bottled" n="1">
+<vnrole vncls="9.10" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+soda bottlers
+</text>
+<arg n="1">soda</arg>
+<arg n="0">bottlers</arg>
+<rel>bottlers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Domestic soft-drink bottler case sales
+</text>
+<arg f="LOC" n="M">Domestic</arg>
+<arg n="1">soft-drink</arg>
+<arg n="0">bottler</arg>
+<rel>bottler</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

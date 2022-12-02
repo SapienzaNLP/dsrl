@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="swagger">
+<roleset id="swagger.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+That has taken some of the swagger out of natives who like to
+brag that Texas is the only state that was once a nation
+</text>
+<arg n="Support">taken some of</arg>
+<arg f="REF" n="2">swagger</arg>
+<rel>swagger</rel>
+<arg n="1">
+out of natives who like to brag that Texas is the only state that
+was once a nation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

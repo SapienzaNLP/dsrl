@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="plantation">
+<roleset id="plantation.01" name="to put or place" source="verb-plant.01" vncls="9.7">
+<roles>
+
+<role descr="putter, agent" n="0">
+<vnrole vncls="9.7" vntheta="Agent"/></role>
+
+<role descr="entity planted" n="1">
+<vnrole vncls="9.7" vntheta="Theme"/></role>
+
+<role descr="location" n="2">
+<vnrole vncls="9.7" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+United Fruit Co. 's banana plantations in Bocas del Toros and
+Puerto Armuelles
+</text>
+<arg n="0">United Fruit Co. 's</arg>
+<arg n="1">banana</arg>
+<arg n="2">plantations</arg>
+<rel>plantations</rel>
+<arg f="LOC" n="M">in Bocas del Toros and Puerto Armuelles</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The eucalyptus plantation and pulp mill
+</text>
+<arg n="1">eucalyptus</arg>
+<arg n="2">plantation</arg>
+<rel>plantation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proclamation">
+<roleset id="proclamation.01" name="to announce officially and publicly" source="verb-proclaim.01" vncls="37.3">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="37.3" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.3" vntheta="Topic"/></role>
+
+<role descr="recipient" n="2">
+<vnrole vncls="37.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+By noon , Mr. Bush had taken two phone calls from Vice President
+Dan Quayle , who was in California ; made a televised statement
+of concern ; signed a disaster proclamation ; received a written
+report from the Federal Emergency Management Agency ; and visited
+FEMA headquarters .
+</text>
+<arg n="0">Mr. Bush</arg>
+<arg n="Support">signed</arg>
+<arg n="1">disaster</arg>
+<rel>proclamation</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a proclamation , issued by the South African administrator
+general earlier this year , which made it a crime punishable by
+two years in prison for any person to `` insult , disparate or
+belittle '' the election commission
+</text>
+<arg f="REF" n="1">proclamation</arg>
+<rel>proclamation</rel>
+<arg n="Support">issued</arg>
+<arg n="0">by the South African administrator general</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

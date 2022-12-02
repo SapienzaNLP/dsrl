@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mountain">
+<roleset id="mountain.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a mountain of debt
+</text>
+<rel>mountain</rel>
+<arg n="1">of debt</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a mountain of evidence
+</text>
+<rel>mountain</rel>
+<arg n="1">of evidence</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

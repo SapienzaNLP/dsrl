@@ -1,0 +1,100 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="application">
+<roleset id="application.01" name="ask for" source="verb-apply.01">
+<roles>
+
+<role descr="applier" n="0"></role>
+
+<role descr="thing applied for" n="1"></role>
+
+<role descr="entity applied to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+data submitted in their original approval applications before the
+FDA
+</text>
+<arg n="0">their</arg>
+<arg f="TMP" n="M">original</arg>
+<arg n="1">approval</arg>
+<rel>applications</rel>
+<arg n="2">before the FDA</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Larsen &amp; Toubro started accepting applications for its giant
+issue earlier this month
+</text>
+<arg n="2">Larsen &amp; Toubro ---> *-2</arg>
+<arg n="Support">accepting</arg>
+<rel>applications</rel>
+<arg n="1">for its giant issue</arg>
+</example>
+
+</roleset>
+<roleset id="application.02" name="associate with, work at or on" source="verb-apply.02">
+<roles>
+
+<role descr="applier" n="0"></role>
+
+<role descr="thing applied, associated, worked" n="1"></role>
+
+<role descr="applied to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their application to a particular new financial product
+</text>
+<arg n="1">their</arg>
+<rel>application</rel>
+<arg n="2">to a particular new financial product</arg>
+</example>
+
+<example name="autogen2">
+<text>
+laser applications for military space
+</text>
+<arg n="1">laser</arg>
+<rel>applications</rel>
+<arg n="2">for military space</arg>
+</example>
+
+</roleset>
+<roleset id="application.03" name="painting" source="verb-apply.03">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="paint" n="1"></role>
+
+<role descr="surface" n="2"></role>
+
+<role descr="instrument, brush" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The application of herbicide
+</text>
+<rel>application</rel>
+<arg n="1">of herbicide</arg>
+</example>
+
+<example name="autogen2">
+<text>
+application guidelines for lubricants
+</text>
+<rel>application</rel>
+<arg n="1">for lubricants</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

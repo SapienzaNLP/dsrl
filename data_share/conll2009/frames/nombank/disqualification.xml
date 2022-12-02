@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disqualification">
+<roleset id="disqualification.01" name="to declare unqualified" source="verb-disqualify.01">
+<roles>
+
+<role descr="declarer, agent" n="0"></role>
+
+<role descr="entity disqualified" n="1"></role>
+
+<role descr="entity disqualified from" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+These days , the secretary suffers the further disqualification
+that he is a member of a club of seven finance ministers who meet
+occasionally to decide what exchange rates should be , which is a
+diversion from the real business of the Federal Reserve to
+stabilize the price level .
+</text>
+<arg n="1">the secretary</arg>
+<arg n="Support">suffers</arg>
+<arg f="EXT" n="M">further</arg>
+<rel>disqualification</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

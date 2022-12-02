@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="probation">
+<roleset id="probation.01" name="to subject to a penalty for an offense" source="verb-punish.01">
+<roles>
+
+<role descr="punisher, agent" n="0"></role>
+
+<role descr="person punished" n="1"></role>
+
+<role descr="punished for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a letter from his manager putting him on probation for
+insubordination
+</text>
+<arg n="Support">putting on</arg>
+<arg n="1">him</arg>
+<rel>probation</rel>
+<arg n="2">for insubordination</arg>
+</example>
+
+<example name="autogen2">
+<text>
+-LRB- Mr. Blodgett , who was convicted in Florida state court of
+selling unregistered securities and in California state court of
+unlawful use of the telephone to defraud and deceive , is now on
+probation .
+</text>
+<arg n="1">
+Mr. Blodgett , who was convicted in Florida state court of
+selling unregistered securities and in California state court of
+unlawful use of the telephone to defraud and deceive</arg>
+<rel>probation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

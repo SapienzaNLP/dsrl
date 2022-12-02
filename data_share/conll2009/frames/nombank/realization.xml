@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="realization">
+<roleset id="realization.01" name="come to know" source="verb-realize.01">
+<roles>
+
+<role descr="new knower" n="0"></role>
+
+<role descr="new knowledge" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the company 's realization that the industry 's poor performance
+stems from its failure to give customers what they want -- rather
+than from increasing competition from gasoline stations and
+24-hour grocery stores
+</text>
+<arg n="0">the company 's</arg>
+<rel>realization</rel>
+<arg n="1">
+that the industry 's poor performance stems from its failure to
+give customers what they want -- rather than from increasing
+competition from gasoline stations and 24-hour grocery stores</arg>
+</example>
+
+<example name="autogen2">
+<text>
+there is `` growing realization '' around the world that denial
+of intellectual-property rights harms all trading nations , and
+particularly the `` creativity and inventiveness of an -LCB-
+offending -RCB- country 's own citizens
+</text>
+<rel>realization</rel>
+<arg n="0">around the world</arg>
+<arg n="1">
+that denial of intellectual-property rights harms all trading
+nations , and particularly the `` creativity and inventiveness of
+an -LCB- offending -RCB- country 's own citizens</arg>
+</example>
+
+</roleset>
+<roleset id="realization.02" name="cause to come about, create" source="verb-realize.02">
+<roles>
+
+<role descr="creator" n="0"></role>
+
+<role descr="thing created" n="1"></role>
+
+<role descr="source, created from" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+average gold price realization
+</text>
+<arg n="1">gold price</arg>
+<rel>realization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dichotomy">
+<roleset id="dichotomy.01" name="separate" source="verb-separate.01" vncls="23.1">
+<roles>
+
+<role descr="entity causing separation" n="0">
+<vnrole vncls="23.1" vntheta="Agent"/></role>
+
+<role descr="thing being divided" n="1">
+<vnrole vncls="23.1" vntheta="Theme"/></role>
+
+<role descr="source, separated from" n="2">
+<vnrole vncls="23.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the dichotomy between what is professed and what is practiced
+</text>
+<rel>dichotomy</rel>
+<arg n="1">between what is professed and what is practiced</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

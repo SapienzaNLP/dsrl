@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="web">
+<roleset id="web.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a web of strings
+</text>
+<rel>web</rel>
+<arg n="1">of strings</arg>
+</example>
+
+<example name="autogen2">
+<text>
+webs of cross-shareholdings between friendly Japanese companies
+</text>
+<rel>webs</rel>
+<arg n="1">of cross-shareholdings between friendly Japanese companies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

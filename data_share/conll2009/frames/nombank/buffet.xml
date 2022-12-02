@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="buffet">
+<roleset id="buffet.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a buffet of salmon and sushi in honor of Kobe Steel Ltd. , USX 's
+partner in a steel mill in Lorain , Ohio
+</text>
+<rel>buffet</rel>
+<arg n="1">of salmon and sushi</arg>
+</example>
+
+<example name="autogen2">
+<text>
+cold-cuts buffet
+</text>
+<arg n="1">cold-cuts</arg>
+<rel>buffet</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

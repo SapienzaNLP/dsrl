@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="regulation">
+<roleset id="regulation.01" name="supervise, watch over" source="verb-regulate.01">
+<roles>
+
+<role descr="regulator" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+British takeover regulations
+</text>
+<arg n="0">British</arg>
+<arg n="1">takeover</arg>
+<arg f="REF" n="2">regulations</arg>
+<rel>regulations</rel>
+</example>
+
+<example name="autogen2">
+<text>
+fin-syn regulations
+</text>
+<arg n="1">fin-syn</arg>
+<arg f="REF" n="2">regulations</arg>
+<rel>regulations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proceeds">
+<roleset id="proceeds.01" name="wages" source="verb-earn.01" vncls="13.5.1">
+<roles>
+
+<role descr="earner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="wages" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it would realize net proceeds from the sale of $ 2.6 billion ,
+with an after-tax gain of $ 1.2 billion
+</text>
+<arg n="0">it</arg>
+<arg n="Support">realize</arg>
+<rel>proceeds</rel>
+<arg n="3">from the sale</arg>
+<arg n="1">of $ 2.6 billion</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its expected net proceeds from the offerings
+</text>
+<arg n="0">its</arg>
+<arg f="REF" n="1">proceeds</arg>
+<rel>proceeds</rel>
+<arg n="3">from the offerings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

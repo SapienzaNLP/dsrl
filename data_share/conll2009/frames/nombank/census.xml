@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="census">
+<roleset id="census.01" name="nomlike" source="verb-tally.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a government quarterly census
+</text>
+<arg n="0">government</arg>
+<arg f="TMP" n="M">quarterly</arg>
+<rel>census</rel>
+</example>
+
+<example name="autogen2">
+<text>
+next year 's census
+</text>
+<arg f="TMP" n="M">next year 's</arg>
+<rel>census</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

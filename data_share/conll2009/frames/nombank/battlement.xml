@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="battlement">
+<roleset id="battlement.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="web example">
+<text>
+the original castle battlement
+</text>
+<arg f="TMP" n="M">original</arg>
+<arg n="1">castle</arg>
+<rel>battlement</rel>
+</example>
+
+</roleset>
+<roleset id="battlement.02" name="nomlike" source="verb-defend.01">
+<roles>
+
+<role descr="defender" n="0"></role>
+
+<role descr="defended" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="against" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+AG 's battlements
+</text>
+<arg n="1">AG 's</arg>
+<rel>battlements</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

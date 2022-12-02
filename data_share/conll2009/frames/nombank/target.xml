@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="target">
+<roleset id="target.01" name="take aim at" source="verb-target.01">
+<roles>
+
+<role descr="targeter" n="0"></role>
+
+<role descr="thing aimed at" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="function" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its initial Oct. 1 target date
+</text>
+<arg n="0">its</arg>
+<arg n="1">Oct. 1</arg>
+<rel>target</rel>
+<arg n="3">date</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a deficit target of $ 100 billion for fiscal 1990
+</text>
+<arg n="3">deficit</arg>
+<rel>target</rel>
+<arg n="1">of $ 100 billion</arg>
+</example>
+
+</roleset>
+<roleset id="target.02" name="on-target/ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+we 're on target in looking for renewed economic deterioration
+</text>
+<arg n="0">we</arg>
+<rel>target</rel>
+<arg f="PRD" n="1">in looking for renewed economic deterioration</arg>
+</example>
+
+<example name="autogen2">
+<text>
+We continue to be on target for ... increasing TPA sales 20 % to
+25 % this year
+</text>
+<arg n="0">We ---> *-1</arg>
+<rel>target</rel>
+<arg f="PRD" n="1">for ... increasing TPA sales 20 % to 25 % this year</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

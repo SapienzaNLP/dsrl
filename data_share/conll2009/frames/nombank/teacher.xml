@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="teacher">
+<roleset id="teacher.01" name="actrel/nom" source="verb-teach.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Young McDuffie 's first violin teacher
+</text>
+<arg n="2">Young McDuffie 's</arg>
+<arg n="1">violin</arg>
+<arg n="0">teacher</arg>
+<rel>teacher</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their teachers
+</text>
+<arg n="2">their</arg>
+<arg n="0">teachers</arg>
+<rel>teachers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

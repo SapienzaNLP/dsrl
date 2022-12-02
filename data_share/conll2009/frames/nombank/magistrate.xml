@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="magistrate">
+<roleset id="magistrate.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Rome magistrates
+</text>
+<arg n="1">Rome</arg>
+<arg n="0">magistrates</arg>
+<rel>magistrates</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Italian magistrates
+</text>
+<arg n="1">Italian</arg>
+<arg n="0">magistrates</arg>
+<rel>magistrates</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

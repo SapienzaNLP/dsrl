@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="warrant">
+<roleset id="warrant.01" name="call for, require, justify" source="verb-warrant.01">
+<roles>
+
+<role descr="requirer" n="0"></role>
+
+<role descr="thing required" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Apogee 's existing stock purchase warrants
+</text>
+<arg n="0">Apogee 's</arg>
+<arg n="1">stock purchase</arg>
+<rel>warrants</rel>
+</example>
+
+<example name="autogen2">
+<text>
+warrants for Hong Kong stocks
+</text>
+<rel>warrants</rel>
+<arg n="1">for Hong Kong stocks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

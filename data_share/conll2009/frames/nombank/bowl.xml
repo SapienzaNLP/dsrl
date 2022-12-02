@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bowl">
+<roleset id="bowl.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a bowl of psyllium
+</text>
+<rel>bowl</rel>
+<arg n="1">of psyllium</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the punch bowl
+</text>
+<arg n="1">punch</arg>
+<rel>bowl</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

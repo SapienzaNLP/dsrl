@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="grader">
+<roleset id="grader.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Greenville 11th grader
+</text>
+<arg n="1">Greenville</arg>
+<arg n="3">11th</arg>
+<arg n="0">grader</arg>
+<rel>grader</rel>
+</example>
+
+<example name="autogen3">
+<text>
+fifth graders
+</text>
+<arg n="3">fifth</arg>
+<arg n="0">graders</arg>
+<rel>graders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

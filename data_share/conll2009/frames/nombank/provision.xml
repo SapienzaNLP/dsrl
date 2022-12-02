@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="provision">
+<roleset id="provision.01" name="cf give" source="verb-provide.01" vncls="13.4.1">
+<roles>
+
+<role descr="provider" n="0">
+<vnrole vncls="13.4.1" vntheta="Agent"/></role>
+
+<role descr="thing provided" n="1">
+<vnrole vncls="13.4.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary/purpose" n="2">
+<vnrole vncls="13.4.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its $ 110 million provision for credit losses and $ 11 million
+provision for other real estate owned
+</text>
+<arg n="0">its</arg>
+<arg n="1">$ 110 million</arg>
+<rel>provision</rel>
+<arg n="2">for credit losses</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 3.1 million provision for doubtful accounts
+</text>
+<arg n="1">$ 3.1 million</arg>
+<rel>provision</rel>
+<arg n="2">for doubtful accounts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

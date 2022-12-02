@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="planning">
+<roleset id="planning.01" name="expect" source="verb-plan.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2" source="3"></role>
+
+<role descr="secondary-theme" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the alliance 's nuclear planning group
+</text>
+<arg n="0">the alliance 's</arg>
+<arg n="1">nuclear</arg>
+<rel>planning</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's corporate planning and policy committee
+</text>
+<arg n="0">the company 's</arg>
+<arg n="2">corporate</arg>
+<rel>planning</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="posture">
+<roleset id="posture.01" name="to assume a pose or mental attitude" source="verb-posture.01">
+<roles>
+
+<role descr="assumer of pose" n="0"></role>
+
+<role descr="pose" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our trade posture
+</text>
+<arg n="0">our</arg>
+<arg n="1">trade</arg>
+<rel>posture</rel>
+</example>
+
+<example name="autogen2">
+<text>
+them strike a friendly posture on behalf of an important
+constituency
+</text>
+<arg n="0">them</arg>
+<arg n="Support">strike</arg>
+<arg n="1">friendly</arg>
+<rel>posture</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

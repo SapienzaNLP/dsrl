@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dam">
+<roleset id="dam.01" name="to block" source="verb-obstruct.01">
+<roles>
+
+<role descr="blocker, obstruction" n="0"></role>
+
+<role descr="thing obstructed" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+the tax dam
+</text>
+<arg n="1">tax</arg>
+<arg n="0">dam</arg>
+<rel>dam</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the dam on taxes
+</text>
+<arg n="0">dam</arg>
+<rel>dam</rel>
+<arg n="1">on taxes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

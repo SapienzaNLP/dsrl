@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mob">
+<roleset id="mob.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Japanese mob
+</text>
+<arg n="1">Japanese</arg>
+<rel>mob</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the trading mob
+</text>
+<arg n="1">trading</arg>
+<rel>mob</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

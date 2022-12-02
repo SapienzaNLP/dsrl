@@ -1,0 +1,84 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="argument">
+<roleset id="argument.01" name="provide an argument, say" source="verb-argue.01" vncls="37.6">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="37.6" vntheta="Actor1"/></role>
+
+<role descr="theme/argument" n="1">
+<vnrole vncls="37.6" vntheta="Topic"/></role>
+
+<role descr="listener" n="2">
+<vnrole vncls="37.6" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The NRC rejected Mr. Shannon 's argument that Public Service Co.
+of New Hampshire , which owns the largest share of Seabrook , and
+11 other owners are financially unable to guarantee the plant 's
+safe operation .
+</text>
+<arg n="2">The NRC</arg>
+<arg n="Support">rejected</arg>
+<arg n="0">Mr. Shannon 's</arg>
+<rel>argument</rel>
+<arg f="PRD" n="1">
+that Public Service Co. of New Hampshire , which owns the largest
+share of Seabrook , and 11 other owners are financially unable to
+guarantee the plant 's safe operation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+arguments before the U.S. Supreme Court over whether the Free
+Press should be allowed to enter into a joint operating pact with
+Gannett Co. 's Detroit News
+</text>
+<rel>arguments</rel>
+<arg n="2">before the U.S. Supreme Court</arg>
+<arg n="1">
+over whether the Free Press should be allowed to enter into a
+joint operating pact with Gannett Co. 's Detroit News</arg>
+</example>
+
+</roleset>
+<roleset id="argument.02" name="argue with" source="verb-argue.02" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+I do n't have any argument with those who came to different
+conclusions
+</text>
+<arg n="0">I</arg>
+<arg n="Support">have</arg>
+<rel>argument</rel>
+<arg n="1">with those who came to different conclusions</arg>
+</example>
+
+<example name="autogen2">
+<text>
+arguments among various stock exchanges and futures markets
+</text>
+<rel>arguments</rel>
+<arg n="0">among various stock exchanges and futures markets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

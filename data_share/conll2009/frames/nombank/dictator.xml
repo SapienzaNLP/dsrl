@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dictator">
+<roleset id="dictator.01" name="to impose or command" source="verb-dictate.01" vncls="37.1-1">
+<roles>
+
+<role descr="dictator, agent" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="entity dictated" n="1">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Panamanian dictator Torrijos
+</text>
+<arg n="1">Panamanian</arg>
+<arg n="0">dictator</arg>
+<rel>dictator</rel>
+</example>
+
+<example name="autogen2">
+<text>
+populist dictator Torrijos
+</text>
+<arg f="MNR" n="M">populist</arg>
+<arg n="0">dictator</arg>
+<rel>dictator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

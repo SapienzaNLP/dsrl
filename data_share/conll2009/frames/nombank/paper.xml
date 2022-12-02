@@ -1,0 +1,111 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="paper">
+<roleset id="paper.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+Mr. Dinkins 's position papers
+</text>
+<arg n="0">Mr. Dinkins 's</arg>
+<arg n="1">position</arg>
+<rel>papers</rel>
+</example>
+
+<example name="autogen3">
+<text>
+a researcher who had co-authored a scientific paper with Dr.
+Baltimore
+</text>
+<arg n="0">a researcher ---> who ---> *T*-3</arg>
+<arg n="Support">co-authored</arg>
+<arg n="1">scientific</arg>
+<rel>paper</rel>
+<arg f="MNR" n="M">with Dr. Baltimore</arg>
+</example>
+
+</roleset>
+<roleset id="paper.02" name="enter into a contract" source="verb-contract.02">
+<roles>
+
+<role descr="causer of contract" n="0"></role>
+
+<role descr="reason, purpose" n="1"></role>
+
+<role descr="contracted with" n="2"></role>
+
+<role descr="payment ammount" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+$ 50 million in commercial paper backed by lease-rental
+receivables
+</text>
+<arg n="3">$ 50 million</arg>
+<arg n="1">commercial</arg>
+<rel>paper</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Provigo 's commercial paper and debentures
+</text>
+<arg n="0">Provigo 's</arg>
+<arg n="1">commercial</arg>
+<rel>paper</rel>
+</example>
+
+</roleset>
+<roleset id="paper.03" name="court claim/complaint">
+<roles>
+
+<role descr="claimant" n="0"></role>
+
+<role descr="reason" n="1"></role>
+
+<role descr="adjudicator or listener" n="2"></role>
+
+<role descr="defendant" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In papers filed with the federal district court in Pittsburgh ,
+the Justice Department alleged that the ordinance , by limiting
+the number of group homes that can be established in the township
+, makes housing unavailable on account of handicap .
+</text>
+<arg n="Support">In alleged</arg>
+<rel>papers</rel>
+<arg n="Support">filed</arg>
+<arg n="2">with the federal district court in Pittsburgh</arg>
+<arg n="0">the Justice Department</arg>
+<arg n="1">
+that the ordinance , by limiting the number of group homes that
+can be established in the township , makes housing unavailable on
+account of handicap</arg>
+</example>
+
+<example name="autogen2">
+<text>
+charging companies $ 20,000 for the honor of filing the required
+papers under the Hart-Scott-Rodino law
+</text>
+<arg n="0">companies ---> *</arg>
+<arg n="Support">filing</arg>
+<rel>papers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="camp">
+<roleset id="camp.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the team 's 30-acre practice camp
+</text>
+<arg n="2">the team 's</arg>
+<arg n="1">practice</arg>
+<rel>camp</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Dinkins camp
+</text>
+<arg n="2">Dinkins</arg>
+<rel>camp</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

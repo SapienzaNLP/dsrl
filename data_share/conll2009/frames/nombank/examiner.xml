@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="examiner">
+<roleset id="examiner.01" name="look at closely" source="verb-examine.01" vncls="30.2">
+<roles>
+
+<role descr="examiner" n="0">
+<vnrole vncls="30.2" vntheta="Agent"/></role>
+
+<role descr="thing examined" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an S&amp;L examiner
+</text>
+<arg n="1">S&amp;L</arg>
+<arg n="0">examiner</arg>
+<rel>examiner</rel>
+</example>
+
+<example name="autogen2">
+<text>
+State thrift examiner Eugene Stelzer
+</text>
+<arg n="1">thrift</arg>
+<arg n="0">examiner</arg>
+<rel>examiner</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

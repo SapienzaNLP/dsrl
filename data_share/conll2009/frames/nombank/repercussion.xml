@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="repercussion">
+<roleset id="repercussion.01" name="impelled action" source="verb-cause.01" vncls="27">
+<roles>
+
+<role descr="forcer, causer" n="0">
+<vnrole vncls="27" vntheta="Theme1"/></role>
+
+<role descr="impelled action" n="1">
+<vnrole vncls="27" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the social repercussions of the crime
+</text>
+<arg n="1">repercussions</arg>
+<rel>repercussions</rel>
+<arg n="0">of the crime</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In addition to increasing costs as a result of greater financial
+exposure for members , these measures could have other ,
+far-reaching repercussions .
+</text>
+<arg n="0">these measures</arg>
+<arg n="Support">have</arg>
+<arg n="1">repercussions</arg>
+<rel>repercussions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="syndicate">
+<roleset id="syndicate.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Underwriting syndicates at Lloyd 's , the world 's largest
+insurance market ,
+</text>
+<arg n="1">Underwriting</arg>
+<rel>syndicates</rel>
+<arg n="2">at Lloyd 's , the world 's largest insurance market ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Outhwaite syndicate
+</text>
+<arg n="2">Outhwaite</arg>
+<rel>syndicate</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

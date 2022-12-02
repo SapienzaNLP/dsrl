@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="existence">
+<roleset id="existence.01" name="be" source="verb-exist.01" vncls="39.6">
+<roles>
+
+<role descr="thing existing" n="1">
+<vnrole vncls="39.6" vntheta="Theme"/></role>
+
+<role descr="secondary attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Artist 's vagabond existence
+</text>
+<arg n="1">the Artist 's</arg>
+<arg n="2">vagabond</arg>
+<rel>existence</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the capital-gains cut , which has had a roller-coaster existence
+since the beginning of the year , when it was considered dead and
+then suddenly revived and was passed by the House
+</text>
+<arg n="1">the capital-gains cut ---> which ---> *T*-1</arg>
+<arg n="Support">had</arg>
+<arg n="2">roller-coaster</arg>
+<rel>existence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="projection">
+<roleset id="projection.01" name="tell the future" source="verb-project.02">
+<roles>
+
+<role descr="fortune teller" n="0"></role>
+
+<role descr="prediction" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+corporate officials liable for false sales projections on new
+products
+</text>
+<arg n="0">corporate officials</arg>
+<arg n="Support">liable for</arg>
+<arg f="MNR" n="M">false</arg>
+<arg n="1">sales</arg>
+<rel>projections</rel>
+<arg n="3">on new products</arg>
+</example>
+
+<example name="autogen2">
+<text>
+revised analysts ' projections that the company would report
+earnings of between 62 cents and 64 cents a share , compared with
+the 53 cents a share it reported for the 1988 third quarter
+</text>
+<arg n="0">analysts '</arg>
+<rel>projections</rel>
+<arg n="1">
+that the company would report earnings of between 62 cents and 64
+cents a share , compared with the 53 cents a share it reported
+for the 1988 third quarter</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

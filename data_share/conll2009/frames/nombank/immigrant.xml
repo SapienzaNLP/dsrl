@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="immigrant">
+<roleset id="immigrant.01" name="move population" source="verb-immigrate.01">
+<roles>
+
+<role descr="population" n="0"></role>
+
+<role descr="destination" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+illegal immigrants from China
+</text>
+<arg f="MNR" n="M">illegal</arg>
+<arg n="0">immigrants</arg>
+<rel>immigrants</rel>
+<arg n="2">from China</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Jewish and Irish immigrants
+</text>
+<arg n="2">Jewish and Irish</arg>
+<arg n="0">immigrants</arg>
+<rel>immigrants</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

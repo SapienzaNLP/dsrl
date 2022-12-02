@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ruling">
+<roleset id="ruling.01" name="decide" source="verb-rule.01" vncls="29.3">
+<roles>
+
+<role descr="decider" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="decision" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="attribute of arg1" n="3">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Canada will comply with the panel 's ruling '' that the ``
+landing requirement '' also must be ended
+</text>
+<arg n="2">Canada</arg>
+<arg n="Support">comply with</arg>
+<arg n="0">the panel 's</arg>
+<rel>ruling</rel>
+<arg f="PRD" n="1">that the `` landing requirement '' also must be ended</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a district judge 's ruling that the insurer had to defend the
+company in such proceedings
+</text>
+<arg n="0">a district judge 's</arg>
+<rel>ruling</rel>
+<arg f="PRD" n="1">that the insurer had to defend the company in such proceedings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="similarity">
+<roleset id="similarity.01" name="disagree, argue" source="verb-differ.01" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their similarity to the actual test
+</text>
+<arg n="0">their</arg>
+<rel>similarity</rel>
+<arg n="2">to the actual test</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Secondly , the two companies found a similarity in their business
+and development philosophies and intend to cooperate in a range
+of activities from real estate to telecommunications .
+</text>
+<arg n="0">the two companies</arg>
+<arg n="Support">found</arg>
+<rel>similarity</rel>
+<arg n="2">in their business and development philosophies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,14 @@
+{
+    "AM-ADV": "adverbial modifier",
+    "AM-CAU": "cause or reason",
+    "AM-DIR": "direction or source",
+    "AM-DIS": "discourse connective",
+    "AM-EXT": "amount or extent",
+    "AM-LOC": "location or position",
+    "AM-MNR": "instrument or manner",
+    "AM-MOD": "modal auxiliary",
+    "AM-NEG": "negation marker",
+    "AM-PNC": "purpose, not cause",
+    "AM-PRD": "secondary predication",
+    "AM-TMP": "time or duration"
+}

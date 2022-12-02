@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="listing">
+<roleset id="listing.01" name="enumerate" source="verb-list.01">
+<roles>
+
+<role descr="lister" n="0"></role>
+
+<role descr="item" n="1"></role>
+
+<role descr="list" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Biscayne has n't any telephone listing
+</text>
+<arg n="1">Biscayne</arg>
+<arg n="Support">has</arg>
+<arg n="2">telephone</arg>
+<rel>listing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+any such listings for asset-backed securities
+</text>
+<rel>listings</rel>
+<arg n="1">for asset-backed securities</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="revival">
+<roleset id="revival.01" name="bring back to life" source="verb-revive.01">
+<roles>
+
+<role descr="the reanimator" n="0"></role>
+
+<role descr="thing brought back to life" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Finland 's post-war economic revival
+</text>
+<arg n="0">Finland 's</arg>
+<arg f="TMP" n="M">post-war</arg>
+<arg n="1">economic</arg>
+<rel>revival</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the black-and-white revival
+</text>
+<arg n="1">black-and-white</arg>
+<rel>revival</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

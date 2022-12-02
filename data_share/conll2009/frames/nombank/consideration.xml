@@ -1,0 +1,128 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consideration">
+<roleset id="consideration.01" name="think to be" source="verb-consider.01" vncls="29.1">
+<roles>
+
+<role descr="thinker" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="object, thing under consideration" n="1">
+<vnrole vncls="29.1" vntheta="Theme"/></role>
+
+<role descr="attribute on arg1" n="2">
+<vnrole vncls="29.1" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he was under consideration to succeed Joshua Lederberg as head of
+the prestigious Rockefeller research institution
+</text>
+<arg n="1">he</arg>
+<rel>consideration</rel>
+<arg f="PRD" n="2">
+to succeed Joshua Lederberg as head of the prestigious
+Rockefeller research institution</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its consideration of an Ellesmere Port site for its first major
+engine plant in Britain
+</text>
+<arg n="0">its</arg>
+<rel>consideration</rel>
+<arg n="1">
+of an Ellesmere Port site for its first major engine plant in
+Britain</arg>
+</example>
+
+</roleset>
+<roleset id="consideration.02" name="contemplate an action" source="verb-consider.02">
+<roles>
+
+<role descr="thinker" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a main consideration
+</text>
+<arg f="MNR" n="M">main</arg>
+<rel>consideration</rel>
+</example>
+
+</roleset>
+<roleset id="consideration.03" name="issue">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Technical considerations
+</text>
+<arg n="1">Technical</arg>
+<rel>considerations</rel>
+</example>
+
+<example name="autogen3">
+<text>
+various legal and financial considerations
+</text>
+<arg n="1">legal and financial</arg>
+<rel>considerations</rel>
+</example>
+
+</roleset>
+<roleset id="consideration.04" name="cf buy and sell" source="verb-pay.01" vncls="13.1-1">
+<roles>
+
+<role descr="payer or buyer" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="money or attention" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="person being paid, destination of attention" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="commodity, paid for what" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it intends to acquire J&amp;L America Inc. for $ 44 million plus a
+consideration of as much as an additional $ 12 million , payable
+over five years
+</text>
+<arg n="0">it ---> *-1</arg>
+<arg n="Support">acquire for</arg>
+<arg n="3">J&amp;L America Inc.</arg>
+<rel>consideration</rel>
+<arg n="1">
+of as much as an additional $ 12 million , payable over five
+years</arg>
+</example>
+
+<example name="autogen2">
+<text>
+neither I nor any member of my family has received any
+consideration in these transactions
+</text>
+<arg n="2">neither I nor any member of my family</arg>
+<arg n="Support">received</arg>
+<rel>consideration</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

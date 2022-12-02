@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="revolution">
+<roleset id="revolution.01" name="transform" source="verb-change.01" vncls="26.6">
+<roles>
+
+<role descr="causer of transformation" n="0">
+<vnrole vncls="26.6" vntheta="Agent"/></role>
+
+<role descr="thing changing" n="1">
+<vnrole vncls="26.6" vntheta="Patient"/></role>
+
+<role descr="end state" n="2">
+<vnrole vncls="26.6" vntheta="Product"/></role>
+
+<role descr="start state" n="3">
+<vnrole vncls="26.6" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The technology revolution
+</text>
+<arg n="1">technology</arg>
+<rel>revolution</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a revolution in the way desktop computers are designed and used
+</text>
+<rel>revolution</rel>
+<arg n="1">in the way desktop computers are designed and used</arg>
+</example>
+
+</roleset>
+<roleset id="revolution.02" name="to refuse allegiance to" source="verb-rebel.01">
+<roles>
+
+<role descr="rebel, agent" n="0"></role>
+
+<role descr="rebel against" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a `` revolution '' against big , out-of-state bank-holding
+companies
+</text>
+<rel>revolution</rel>
+<arg n="1">against big , out-of-state bank-holding companies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the French revolution
+</text>
+<arg n="0">French</arg>
+<rel>revolution</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

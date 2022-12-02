@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reward">
+<roleset id="reward.01" name="give a reward" source="verb-reward.01" vncls="33">
+<roles>
+
+<role descr="entity giving reward" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="entity being given to" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="because of what" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his reward for working until 11 p.m. seven days a week to cover
+his $ 3,000 a month rent
+</text>
+<arg n="1">his</arg>
+<rel>reward</rel>
+<arg n="2">
+for working until 11 p.m. seven days a week to cover his $ 3,000
+a month rent</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The government offered a reward for the return of the antiquities
+</text>
+<arg n="0">The government</arg>
+<arg n="Support">offered</arg>
+<rel>reward</rel>
+<arg n="2">for the return of the antiquities</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

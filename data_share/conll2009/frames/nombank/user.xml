@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="user">
+<roleset id="user.01" name="take advantage of, utilise" source="verb-use.01" vncls="29.2">
+<roles>
+
+<role descr="user" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing used" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="purpose" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The HyperCard program allows users to design applications for
+Macintosh computers without having to be hardcore programmers and
+is distributed with every Macintosh sold .
+</text>
+<arg n="1">The HyperCard program</arg>
+<arg n="Support">allows</arg>
+<arg n="0">users</arg>
+<rel>users</rel>
+<arg f="PRD" n="2">
+to design applications for Macintosh computers without having to
+be hardcore programmers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+users of Coast Guard services
+</text>
+<arg n="0">users</arg>
+<rel>users</rel>
+<arg n="1">of Coast Guard services</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

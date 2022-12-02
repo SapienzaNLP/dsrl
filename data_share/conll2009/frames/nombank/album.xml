@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="album">
+<roleset id="album.01" name="work-of-art/partitive-quant">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In `` Josephine Baker '' -LRB- Jonathan Cape , 304 pages , $ 35
+-RRB- , which was published in Britain last year and distributed
+in the U.S. this month , Mr. Hammond has used his collection to
+produce an album of photographs and drawings of the star .
+</text>
+<arg n="0">Mr. Hammond ---> *-3</arg>
+<arg n="Support">produce</arg>
+<rel>album</rel>
+<arg n="1">of photographs and drawings of the star</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the family album
+</text>
+<arg n="1">family</arg>
+<rel>album</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

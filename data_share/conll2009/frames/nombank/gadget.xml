@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gadget">
+<roleset id="gadget.01" name="ability-without-agent">
+<roles>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+other snooping gadgets
+</text>
+<arg n="1">snooping</arg>
+<rel>gadgets</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

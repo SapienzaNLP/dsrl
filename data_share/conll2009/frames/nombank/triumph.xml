@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="triumph">
+<roleset id="triumph.01" name="win" source="verb-triumph.01">
+<roles>
+
+<role descr="winner" n="0"></role>
+
+<role descr="loser" n="1"></role>
+
+<role descr="competition" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+last season 's champs , the Los Angeles Dodgers , who rode a
+miracle home run by Kirk Gibson and two faultless pitching
+performances by Orel Hershiser to a five-game triumph over a
+bewitched , bothered Oakland crew
+</text>
+<arg n="0">the Los Angeles Dodgers ---> who ---> *T*-1</arg>
+<arg n="Support">rode to</arg>
+<arg n="2">five-game</arg>
+<rel>triumph</rel>
+<arg n="1">over a bewitched , bothered Oakland crew</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a triumph of either apathy or civility
+</text>
+<rel>triumph</rel>
+<arg n="0">of either apathy or civility</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

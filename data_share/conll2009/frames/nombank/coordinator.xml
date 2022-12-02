@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="coordinator">
+<roleset id="coordinator.01" name="actrel" source="verb-coordinate.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the group 's associate state legislative coordinator
+</text>
+<arg n="2">the group 's</arg>
+<arg n="3">associate</arg>
+<arg n="1">state legislative</arg>
+<arg n="0">coordinator</arg>
+<rel>coordinator</rel>
+</example>
+
+<example name="autogen2">
+<text>
+trails coordinator of the East Bay Regional Park District
+</text>
+<arg n="1">trails</arg>
+<arg n="0">coordinator</arg>
+<rel>coordinator</rel>
+<arg n="2">of the East Bay Regional Park District</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

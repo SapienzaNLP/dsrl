@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thrust">
+<roleset id="thrust.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But her main thrust was to promote the importance of world-wide
+free trade and open competition .
+</text>
+<arg n="1">her</arg>
+<rel>thrust</rel>
+<arg f="PRD" n="2">
+to promote the importance of world-wide free trade and open
+competition</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In general , the thrust of the department 's directive is to
+encourage prosecutors to limit pretrial asset seizures if there
+are less intrusive means of protecting assets the government may
+subsequently be able to seize after a conviction
+</text>
+<rel>thrust</rel>
+<arg n="1">of the department 's directive</arg>
+<arg f="PRD" n="2">
+to encourage prosecutors to limit pretrial asset seizures if
+there are less intrusive means of protecting assets the
+government may subsequently be able to seize after a conviction</arg>
+</example>
+
+</roleset>
+<roleset id="thrust.02" name="nom" source="verb-thrust.01" vncls="12">
+<roles>
+
+<role descr="agent, causer" n="0">
+<vnrole vncls="12" vntheta="Agent"/></role>
+
+<role descr="entity pushed" n="1">
+<vnrole vncls="12" vntheta="Theme"/></role>
+
+<role descr="direction" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a key pawn thrust
+</text>
+<arg n="1">pawn</arg>
+<rel>thrust</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

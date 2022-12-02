@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="specification">
+<roleset id="specification.01" name="set, establish, decide" source="verb-specify.01">
+<roles>
+
+<role descr="decider, specifier" n="0"></role>
+
+<role descr="thing specified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Specifically , Fujitsu won the right to design the specifications
+for a computerized system that will show water lines throughout
+the city .
+</text>
+<arg n="0">Fujitsu ---> *</arg>
+<arg n="Support">design</arg>
+<rel>specifications</rel>
+<arg n="1">
+for a computerized system that will show water lines throughout
+the city</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the scam artists ' specifications
+</text>
+<arg n="0">the scam artists '</arg>
+<rel>specifications</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

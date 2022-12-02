@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hauteur">
+<roleset id="hauteur.01" name="nomadjlike-arrogance/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Paul 's characteristic hauteur
+</text>
+<arg n="1">Mr. Paul 's</arg>
+<arg f="REF" n="2">hauteur</arg>
+<rel>hauteur</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="slash">
+<roleset id="slash.01" name="reduce" source="verb-slash.02">
+<roles>
+
+<role descr="cutter" n="0"></role>
+
+<role descr="thing reduced" n="1"></role>
+
+<role descr="amount reduced by" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+rate slashes of 35 % to 60 % below pre-May 1 levels
+</text>
+<arg n="1">rate</arg>
+<rel>slashes</rel>
+<arg n="2">of 35 % to 60 % below pre-May 1 levels</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a 60 % slash in the common stock dividend
+</text>
+<arg n="2">60 %</arg>
+<rel>slash</rel>
+<arg n="1">in the common stock dividend</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

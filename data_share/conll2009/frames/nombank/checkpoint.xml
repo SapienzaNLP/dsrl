@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="checkpoint">
+<roleset id="checkpoint.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+border checkpoints
+</text>
+<arg n="1">border</arg>
+<arg n="0">checkpoints</arg>
+<rel>checkpoints</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

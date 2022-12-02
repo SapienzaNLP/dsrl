@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cord">
+<roleset id="cord.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its cord
+</text>
+<arg n="1">its</arg>
+<rel>cord</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

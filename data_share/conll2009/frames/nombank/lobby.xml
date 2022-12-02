@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lobby">
+<roleset id="lobby.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the self-styled citizens lobby
+</text>
+<arg n="1">citizens</arg>
+<rel>lobby</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the green lobby
+</text>
+<arg n="1">green</arg>
+<rel>lobby</rel>
+</example>
+
+</roleset>
+<roleset id="lobby.02" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+office lobbies
+</text>
+<arg n="1">office</arg>
+<rel>lobbies</rel>
+</example>
+
+<example name="autogen2">
+<text>
+hotel lobbies
+</text>
+<arg n="1">hotel</arg>
+<rel>lobbies</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

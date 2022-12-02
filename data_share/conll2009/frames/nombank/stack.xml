@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stack">
+<roleset id="stack.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+stacks of paper
+</text>
+<rel>stacks</rel>
+<arg n="1">of paper</arg>
+</example>
+
+<example name="autogen2">
+<text>
+stacks of policies
+</text>
+<rel>stacks</rel>
+<arg n="1">of policies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

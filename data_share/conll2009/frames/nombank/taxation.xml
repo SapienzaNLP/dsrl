@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="taxation">
+<roleset id="taxation.01" name="government charging money" source="verb-tax.01" vncls="54.5">
+<roles>
+
+<role descr="taxer" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="amount of tax" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="taxpayer" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The bonds are subject to federal taxation in the U.S. , including
+income taxes .
+</text>
+<arg n="3">The bonds</arg>
+<arg n="Support">subject to</arg>
+<arg n="0">federal</arg>
+<rel>taxation</rel>
+<arg f="LOC" n="M">in the U.S.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+taxation as to principal and interest
+</text>
+<rel>taxation</rel>
+<arg n="3">as to principal and interest</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

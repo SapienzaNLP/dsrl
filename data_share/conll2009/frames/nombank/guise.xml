@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="guise">
+<roleset id="guise.01" name="make-believe" source="verb-pretend.01">
+<roles>
+
+<role descr="pretender" n="0"></role>
+
+<role descr="premise" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Under the guise of `` healing the wounds of the nation , ''
+President Carter pardoned thousands of draft evaders , thus
+giving dignity to their allegations of the war 's `` immorality .
+''
+</text>
+<rel>guise</rel>
+<arg n="1">of `` healing the wounds of the nation</arg>
+<arg n="0">President Carter</arg>
+</example>
+
+<example name="autogen2">
+<text>
+monthly payments of $ 1,000 to $ 2,000 to Appleyard in the guise
+of a `` special production fee ''
+</text>
+<arg n="0">monthly payments</arg>
+<rel>guise</rel>
+<arg n="1">of a `` special production fee ''</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

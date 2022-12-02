@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trade">
+<roleset id="trade.01" name="exchange" source="verb-trade.01" vncls="13.1">
+<roles>
+
+<role descr="agent, entity trading" n="0">
+<vnrole vncls="13.1" vntheta="Agent"/></role>
+
+<role descr="thing being traded (away" n="1">
+<vnrole vncls="13.1" vntheta="Theme"/></role>
+
+<role descr="other exchanger" n="2"></role>
+
+<role descr="other item in exchange, price, or premium, traded for or at" n="3">
+<vnrole vncls="13.6" vntheta="Theme2"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="13.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a U.S.-Japan construction trade agreement
+</text>
+<arg n="0">U.S.-Japan</arg>
+<arg n="2">U.S.-Japan</arg>
+<arg n="1">construction</arg>
+<rel>trade</rel>
+<arg n="Support">agreement</arg>
+</example>
+
+<example name="autogen2">
+<text>
+world ivory trade
+</text>
+<arg n="0">world</arg>
+<arg n="1">ivory</arg>
+<rel>trade</rel>
+</example>
+
+</roleset>
+<roleset id="trade.02" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her trade
+</text>
+<arg n="0">her</arg>
+<arg f="REF" n="1">trade</arg>
+<rel>trade</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the professionals in the trade
+</text>
+<arg n="0">the professionals</arg>
+<arg f="REF" n="1">trade</arg>
+<rel>trade</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

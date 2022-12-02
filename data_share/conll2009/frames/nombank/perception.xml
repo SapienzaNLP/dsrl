@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="perception">
+<roleset id="perception.01" name="to become aware of, understand" source="verb-perceive.01" vncls="30.2">
+<roles>
+
+<role descr="perceiver" n="0">
+<vnrole vncls="30.2" vntheta="Experiencer"/></role>
+
+<role descr="entity perceived" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+<role descr="secondary predication, perceived as" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+shareholders ' perception of Blue Arrow as a company in turmoil
+</text>
+<arg n="0">shareholders '</arg>
+<rel>perception</rel>
+<arg n="1">of Blue Arrow</arg>
+<arg n="2">as a company in turmoil</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the perception of Mr. Honecker as an out-of-touch old man
+</text>
+<rel>perception</rel>
+<arg n="1">of Mr. Honecker</arg>
+<arg n="2">as an out-of-touch old man</arg>
+</example>
+
+</roleset>
+<roleset id="perception.02" name="believe" source="verb-believe.01" vncls="29.4">
+<roles>
+
+<role descr="believer" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="belief" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the perception , on the part of many people in network TV , that
+their only hope of keeping viewers from defecting to cable is to
+fill the airwaves with an increasingly raw sensationalism
+</text>
+<rel>perception</rel>
+<arg n="1">
+*ICH*-1 ---> that their only hope of keeping viewers from
+defecting to cable is to fill the airwaves with an increasingly
+raw sensationalism</arg>
+<arg n="0">on the part of many people in network TV</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the perception that legislation in this area may be hastily
+approved
+</text>
+<rel>perception</rel>
+<arg n="1">that legislation in this area may be hastily approved</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

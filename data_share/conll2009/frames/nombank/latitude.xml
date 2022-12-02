@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="latitude">
+<roleset id="latitude.01" name="ability-with-agent/attribute">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+AT&amp;T , which has been striving since the breakup of the phone
+system for greater latitude in pricing and reduced regulation
+</text>
+<arg n="0">AT&amp;T</arg>
+<arg n="Support">striving for</arg>
+<arg n="2">greater</arg>
+<rel>latitude</rel>
+<arg n="1">in pricing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+That rule gives boards of directors wide latitude in deciding how
+to deal with dissident shareholders .
+</text>
+<arg n="Support">gives</arg>
+<arg n="0">boards of directors</arg>
+<arg n="2">wide</arg>
+<rel>latitude</rel>
+<arg n="1">in deciding how to deal with dissident shareholders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ideology">
+<roleset id="ideology.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its anti-Western ideology , financial corruption and top
+leadership
+</text>
+<arg n="0">its</arg>
+<arg n="1">anti-Western</arg>
+<rel>ideology</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their ideology and methods
+</text>
+<arg n="0">their</arg>
+<rel>ideology</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

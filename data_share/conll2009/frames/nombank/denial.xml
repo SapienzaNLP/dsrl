@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="denial">
+<roleset id="denial.01" name="turn down, reject" source="verb-deny.01" vncls="29.5">
+<roles>
+
+<role descr="denier" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing denied" n="1">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Justin 's denial of Sony 's charges
+</text>
+<arg n="0">Justin 's</arg>
+<rel>denial</rel>
+<arg n="1">of Sony 's charges</arg>
+</example>
+
+<example name="autogen2">
+<text>
+any admission or denial of guilt by Mr. Holmes
+</text>
+<rel>denial</rel>
+<arg n="1">of guilt</arg>
+<arg n="0">by Mr. Holmes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="saying">
+<roleset id="saying.01" name="say" source="verb-say.01" vncls="37.7">
+<roles>
+
+<role descr="sayer" n="0">
+<vnrole vncls="37.7" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.7" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.7" vntheta="Recipient"/></role>
+
+<role descr="attributive" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the old saying , `` The whole is greater than the sum of its
+parts
+</text>
+<arg f="TMP" n="M">old</arg>
+<rel>saying</rel>
+<arg n="1">The whole is greater than the sum of its parts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a saying says `` there are no fixed rules . ''
+</text>
+<rel>saying</rel>
+<arg n="Support">says</arg>
+<arg n="1">`` there are no fixed rules . ''</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

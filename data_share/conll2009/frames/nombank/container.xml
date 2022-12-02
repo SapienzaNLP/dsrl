@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="container">
+<roleset id="container.01" name="hold inside" source="verb-contain.01">
+<roles>
+
+<role descr="container" n="0"></role>
+
+<role descr="contents" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+plastic food containers
+</text>
+<arg n="1">food</arg>
+<arg n="0">containers</arg>
+<rel>containers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+containers carrying U.S. exports to Asia
+</text>
+<arg n="0">containers</arg>
+<rel>containers</rel>
+<arg n="Support">carrying</arg>
+<arg n="1">U.S. exports</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

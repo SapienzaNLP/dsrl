@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gyration">
+<roleset id="gyration.01" name="move repeatedly in circular fashion" source="verb-gyrate.01" vncls="49">
+<roles>
+
+<role descr="causer of gyration" n="0">
+<vnrole vncls="49" vntheta="Agent"/></role>
+
+<role descr="thing gyrating" n="1">
+<vnrole vncls="49" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+program trading comes under renewed attack for causing stock
+market gyrations
+</text>
+<arg n="0">program trading ---> *</arg>
+<arg n="Support">causing</arg>
+<arg n="1">stock market</arg>
+<rel>gyrations</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the market 's gyrations
+</text>
+<arg n="1">the market 's</arg>
+<rel>gyrations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

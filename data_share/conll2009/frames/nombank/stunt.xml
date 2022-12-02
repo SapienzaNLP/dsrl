@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stunt">
+<roleset id="stunt.01" name="act" source="verb-do.02">
+<roles>
+
+<role descr="agent, doer" n="0"></role>
+
+<role descr="thing done" n="1"></role>
+
+<role descr="beneficiary, done for or about" n="2"></role>
+
+<role descr="instrumental" n="3"></role>
+
+<role descr="comitative, companion while doing" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a publicity stunt
+</text>
+<arg n="2">publicity</arg>
+<rel>stunt</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

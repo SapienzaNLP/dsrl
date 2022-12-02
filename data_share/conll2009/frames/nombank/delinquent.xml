@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="delinquent">
+<roleset id="delinquent.01" name="nomadj-delinquent">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+tax delinquents
+</text>
+<arg n="1">tax</arg>
+<arg n="0">delinquents</arg>
+<rel>delinquents</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

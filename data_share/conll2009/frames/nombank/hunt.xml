@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hunt">
+<roleset id="hunt.01" name="to pursue, search for" source="verb-hunt.01" vncls="35.1">
+<roles>
+
+<role descr="hunter" n="0">
+<vnrole vncls="35.1" vntheta="Agent"/></role>
+
+<role descr="entity hunted for" n="1">
+<vnrole vncls="35.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The occasional media witch hunt
+</text>
+<arg n="0">media</arg>
+<arg n="1">witch</arg>
+<rel>hunt</rel>
+</example>
+
+<example name="autogen2">
+<text>
+investors went on a bargain hunt
+</text>
+<arg n="0">investors</arg>
+<arg n="Support">went on</arg>
+<arg n="1">bargain</arg>
+<rel>hunt</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

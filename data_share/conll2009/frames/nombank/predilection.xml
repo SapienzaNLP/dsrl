@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="predilection">
+<roleset id="predilection.01" name="to choose as more desirable" source="verb-prefer.01">
+<roles>
+
+<role descr="chooser, agent" n="0"></role>
+
+<role descr="entity chosen" n="1"></role>
+
+<role descr="entity compared to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his predilection for conservative , 20th-century American
+composers such as David Diamond and Samuel Barber
+</text>
+<arg n="0">his</arg>
+<rel>predilection</rel>
+<arg n="1">
+for conservative , 20th-century American composers such as David
+Diamond and Samuel Barber</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

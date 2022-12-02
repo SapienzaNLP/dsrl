@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="receptor">
+<roleset id="receptor.01" name="get" source="verb-receive.01" vncls="13.5.2">
+<roles>
+
+<role descr="receiver" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="thing gotten" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="received from" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="price, in exchange for" n="3"></role>
+
+<role descr="attribute of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+The IL-4 receptor
+</text>
+<arg n="1">IL-4</arg>
+<arg n="0">receptor</arg>
+<rel>receptor</rel>
+</example>
+
+<example name="autogen4">
+<text>
+the interleukin-4 receptor
+</text>
+<arg n="1">interleukin-4</arg>
+<arg n="0">receptor</arg>
+<rel>receptor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

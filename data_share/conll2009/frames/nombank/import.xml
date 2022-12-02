@@ -1,0 +1,55 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="import">
+<roleset id="import.01" name="get a commodity in trade" source="verb-import.01">
+<roles>
+
+<role descr="importer" n="0"></role>
+
+<role descr="commodity" n="1"></role>
+
+<role descr="exporter" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` They 'll be more timorous in tackling their own voters , like
+opening up more to agricultural imports from America , hurting
+their farmers . ''
+</text>
+<arg n="0">They ---> *-1 ---> *</arg>
+<arg n="Support">opening to</arg>
+<arg n="1">agricultural</arg>
+<rel>imports</rel>
+<arg n="2">from America</arg>
+</example>
+
+<example name="autogen2">
+<text>
+net U.S. crude imports
+</text>
+<arg n="0">U.S.</arg>
+<arg n="1">crude</arg>
+<rel>imports</rel>
+</example>
+
+</roleset>
+<roleset id="import.02" name="nomadj-important">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the import of the meeting
+</text>
+<rel>import</rel>
+<arg n="1">of the meeting</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

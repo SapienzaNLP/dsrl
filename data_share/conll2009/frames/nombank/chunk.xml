@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chunk">
+<roleset id="chunk.01" name="share/partitive-part">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Labor takes the biggest single chunk out of the ` food dollar
+</text>
+<arg n="0">Labor</arg>
+<arg n="Support">takes</arg>
+<arg n="2">single</arg>
+<rel>chunk</rel>
+<arg n="1">out of the ` food dollar</arg>
+</example>
+
+<example name="autogen2">
+<text>
+A `` big chunk '' of that additional spending
+</text>
+<arg n="2">big</arg>
+<rel>chunk</rel>
+<arg n="1">of that additional spending</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

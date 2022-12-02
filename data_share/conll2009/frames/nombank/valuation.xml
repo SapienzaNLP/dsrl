@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="valuation">
+<roleset id="valuation.01" name="establish a cost, value" source="verb-value.01" vncls="29.2">
+<roles>
+
+<role descr="entity establishing value" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="commodity being valued" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="value" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+market valuations for the junk bonds
+</text>
+<arg n="0">market</arg>
+<rel>valuations</rel>
+<arg n="1">for the junk bonds</arg>
+</example>
+
+<example name="autogen2">
+<text>
+better valuations of growth stocks
+</text>
+<rel>valuations</rel>
+<arg n="1">of growth stocks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

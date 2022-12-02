@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="looting">
+<roleset id="looting.01" name="pillage, etc" source="verb-loot.01">
+<roles>
+
+<role descr="looter" n="0"></role>
+
+<role descr="ill-gotten goods" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Petty criminals and street people looking for excitement attach
+themselves like remora to the fringes of the crowd and use the
+protest as an excuse for rock throwing , auto trashing , arson ,
+window breaking , looting , pocket picking and general
+hooliganism .
+</text>
+<arg n="0">Petty criminals and street people looking for excitement</arg>
+<arg n="Support">use as excuse for</arg>
+<rel>looting</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the alleged looting of Lincoln by their friend and political
+benefactor , Charles Keating Jr. , principal stockholder of
+Lincoln 's parent company , American Continental Corp. of Phoenix
+, Ariz
+</text>
+<rel>looting</rel>
+<arg n="1">of Lincoln</arg>
+<arg n="0">
+by their friend and political benefactor , Charles Keating Jr. ,
+principal stockholder of Lincoln 's parent company , American
+Continental Corp. of Phoenix , Ariz</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

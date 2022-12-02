@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="remark">
+<roleset id="remark.01" name="to express briefly" source="verb-remark.01" vncls="37.7">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="37.7" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.7" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.7" vntheta="Recipient"/></role>
+
+<role descr="attributive" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He made his remarks to a PLO gathering in Baghdad .
+</text>
+<arg n="0">his</arg>
+<arg f="REF" n="1">remarks</arg>
+<rel>remarks</rel>
+<arg n="2">to a PLO gathering in Baghdad</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Bebear made his remarks at a breakfast meeting with reporters
+here yesterday as part of a tour in which he is trying to rally
+support in the U.S. for the proposed acquisition .
+</text>
+<arg n="0">his</arg>
+<arg f="REF" n="1">remarks</arg>
+<rel>remarks</rel>
+<arg n="2">at a breakfast meeting with reporters</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

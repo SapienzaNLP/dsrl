@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nutrition">
+<roleset id="nutrition.01" name="cause to eat" source="verb-feed.01" vncls="13.1-2">
+<roles>
+
+<role descr="causal agent" n="0">
+<vnrole vncls="13.1-2" vntheta="Agent"/></role>
+
+<role descr="food" n="1">
+<vnrole vncls="13.1-2" vntheta="Theme"/></role>
+
+<role descr="eater" n="2">
+<vnrole vncls="13.1-2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+family health and nutrition
+</text>
+<arg n="2">family</arg>
+<rel>nutrition</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

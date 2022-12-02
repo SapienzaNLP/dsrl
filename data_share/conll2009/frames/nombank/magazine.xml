@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="magazine">
+<roleset id="magazine.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a fashion magazine published by Diamandis Communications Inc.
+</text>
+<arg n="1">fashion</arg>
+<rel>magazine</rel>
+<arg n="Support">published</arg>
+<arg n="0">by Diamandis Communications Inc.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a news magazine
+</text>
+<arg n="1">news</arg>
+<rel>magazine</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

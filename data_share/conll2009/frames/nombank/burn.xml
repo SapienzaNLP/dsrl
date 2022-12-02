@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="burn">
+<roleset id="burn.01" name="cause to) be on fire" source="verb-burn.01">
+<roles>
+
+<role descr="pyromaniac" n="0"></role>
+
+<role descr="thing burning" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the woman has `` psychic burns '' on her back from the
+confrontation
+</text>
+<arg n="1">the woman</arg>
+<arg n="Support">has</arg>
+<arg n="0">psychic</arg>
+<rel>burns</rel>
+<arg f="LOC" n="M">on her back</arg>
+</example>
+
+<example name="autogen2">
+<text>
+her bruises and cigarette burns
+</text>
+<arg n="0">cigarette</arg>
+<rel>burns</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

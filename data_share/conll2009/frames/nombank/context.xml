@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="context">
+<roleset id="context.01" name="environment for thing">
+<roles>
+
+<role descr="thing existing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its context -LRB- s -RRB-
+</text>
+<arg n="1">its</arg>
+<rel>context</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the context of a larger , world-wide process '' of profound
+change toward free-market economics , especially in the statist
+countries
+</text>
+<rel>context</rel>
+<arg n="1">
+of a larger , world-wide process '' of profound change toward
+free-market economics , especially in the statist countries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

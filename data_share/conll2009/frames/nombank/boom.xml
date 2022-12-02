@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="boom">
+<roleset id="boom.01" name="be successful" source="verb-boom.02">
+<roles>
+
+<role descr="successful thing" n="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the export boom
+</text>
+<arg n="0">export</arg>
+<rel>boom</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the art boom
+</text>
+<arg n="0">art</arg>
+<rel>boom</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

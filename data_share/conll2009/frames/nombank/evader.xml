@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="evader">
+<roleset id="evader.01" name="stay away from" source="verb-evade.01" vncls="52">
+<roles>
+
+<role descr="avoider" n="0">
+<vnrole vncls="52" vntheta="Agent"/></role>
+
+<role descr="thing avoided" n="1">
+<vnrole vncls="52" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+draft evaders
+</text>
+<arg n="1">draft</arg>
+<arg n="0">evaders</arg>
+<rel>evaders</rel>
+</example>
+
+<example name="autogen2">
+<text>
+tax evaders
+</text>
+<arg n="1">tax</arg>
+<arg n="0">evaders</arg>
+<rel>evaders</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

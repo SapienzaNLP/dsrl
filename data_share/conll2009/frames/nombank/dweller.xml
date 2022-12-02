@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dweller">
+<roleset id="dweller.01" name="reside, linger" source="verb-dwell.01">
+<roles>
+
+<role descr="dweller, inhabitant, entity in discourse" n="0"></role>
+
+<role descr="location, place, dwelling, topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a dweller on one of the two islands off the coast of America
+</text>
+<arg n="0">dweller</arg>
+<rel>dweller</rel>
+<arg n="1">on one of the two islands off the coast of America</arg>
+</example>
+
+<example name="autogen2">
+<text>
+City dwellers
+</text>
+<arg n="1">City</arg>
+<arg n="0">dwellers</arg>
+<rel>dwellers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

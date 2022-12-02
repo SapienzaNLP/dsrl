@@ -1,0 +1,7 @@
+num_beams: 1
+min_length: 0
+max_length: 1024
+length_penalty: 1.0
+repetition_penalty: 1.0
+early_stopping: False
+no_repeat_ngram_size: 0

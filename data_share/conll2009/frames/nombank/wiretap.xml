@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wiretap">
+<roleset id="wiretap.01" name="access, as a phone or water tap" source="verb-tap.03">
+<roles>
+
+<role descr="accessor, agent" n="0"></role>
+
+<role descr="thing tapped" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+wiretaps of Gen. Torrijos 's own phone
+</text>
+<rel>wiretaps</rel>
+<arg n="1">of Gen. Torrijos 's own phone</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Papandreou personally ordered or directed the wiretaps
+</text>
+<arg n="0">Mr. Papandreou</arg>
+<arg n="Support">directed ordered</arg>
+<rel>wiretaps</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

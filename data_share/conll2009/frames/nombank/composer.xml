@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="composer">
+<roleset id="composer.01" name="to create, produce art" source="verb-compose.02" vncls="26.7-2">
+<roles>
+
+<role descr="artist, agent" n="0">
+<vnrole vncls="26.7-2" vntheta="Agent"/></role>
+
+<role descr="entity composed" n="1">
+<vnrole vncls="26.7-2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="26.7-2" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a strange piece written by 13 different Italian composers to
+honor Rossini after his death in 1868
+</text>
+<arg n="1">a strange piece</arg>
+<arg n="Support">written by</arg>
+<arg f="LOC" n="M">Italian</arg>
+<arg n="0">composers</arg>
+<rel>composers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+conservative , 20th-century American composers
+</text>
+<arg f="MNR" n="M">conservative</arg>
+<arg f="LOC" n="M">20th-century American</arg>
+<arg n="0">composers</arg>
+<rel>composers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="patience">
+<roleset id="patience.01" name="nomadj-patient">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+patience over U.S. demands for the opening of Seoul 's markets to
+more American goods
+</text>
+<rel>patience</rel>
+<arg n="1">
+over U.S. demands for the opening of Seoul 's markets to more
+American goods</arg>
+</example>
+
+<example name="autogen2">
+<text>
+With a little patience , these businesses will perform very
+satisfactorily
+</text>
+<arg f="EXT" n="M">a little</arg>
+<rel>patience</rel>
+<arg n="0">these businesses</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

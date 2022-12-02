@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="diagnosis">
+<roleset id="diagnosis.01" name="discover a sickness" source="verb-diagnose.01">
+<roles>
+
+<role descr="doctor" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="illness" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+diagnosis and treatment of leukemia and lymph cancer
+</text>
+<rel>diagnosis</rel>
+<arg n="1">of leukemia and lymph cancer</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the diagnosis of brain and nerve disorders such as strokes and
+multiple sclerosis
+</text>
+<rel>diagnosis</rel>
+<arg n="2">
+of brain and nerve disorders such as strokes and multiple
+sclerosis</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

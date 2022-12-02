@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="outlay">
+<roleset id="outlay.01" name="nomlike" source="verb-allocate.01" vncls="13.3">
+<roles>
+
+<role descr="granter" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="thing granted" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary, granted-to" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+<role descr="purpose" n="3"></role>
+
+<role descr="source" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its research outlays
+</text>
+<arg n="0">its</arg>
+<arg n="3">research</arg>
+<arg f="REF" n="1">outlays</arg>
+<rel>outlays</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the initial # 390-million -LRB- $ 622 million -RRB- outlay for a
+15 % stake in the airline
+</text>
+<arg f="TMP" n="M">initial</arg>
+<arg n="1"># 390-million -LRB- $ 622 million -RRB-</arg>
+<rel>outlay</rel>
+<arg n="3">for a 15 % stake in the airline</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="horn">
+<roleset id="horn.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an antelope horn
+</text>
+<arg n="1">antelope</arg>
+<rel>horn</rel>
+</example>
+
+<example name="autogen3">
+<text>
+its horns
+</text>
+<arg n="1">its</arg>
+<rel>horns</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

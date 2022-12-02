@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="observation">
+<roleset id="observation.01" name="say, state" source="verb-observe.02" vncls="29.5">
+<roles>
+
+<role descr="sayer" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="29.5" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="29.5" vntheta="Recipient"/></role>
+
+<role descr="attributive" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his observations about Japanese management style
+</text>
+<arg n="0">his</arg>
+<rel>observations</rel>
+<arg n="1">about Japanese management style</arg>
+</example>
+
+<example name="autogen2">
+<text>
+One of Mr. Roberts 's observations is that the Bank 's own loan
+portfolio is in deep trouble because of its lending to developing
+countries .
+</text>
+<arg n="0">Mr. Roberts 's</arg>
+<rel>observations</rel>
+<arg n="1">
+that the Bank 's own loan portfolio is in deep trouble because of
+its lending to developing countries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

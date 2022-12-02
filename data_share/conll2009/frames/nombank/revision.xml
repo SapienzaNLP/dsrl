@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="revision">
+<roleset id="revision.01" name="change, modify" source="verb-revise.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a lot more downward revisions of earnings forecasts than upward
+revisions
+</text>
+<arg n="2">downward</arg>
+<rel>revisions</rel>
+<arg n="1">of earnings forecasts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+upward revisions
+</text>
+<arg n="2">upward</arg>
+<rel>revisions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

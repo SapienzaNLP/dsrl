@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="furor">
+<roleset id="furor.01" name="nomadj-furious" source="verb-anger.01">
+<roles>
+
+<role descr="experiencer" n="0" source="1"></role>
+
+<role descr="theme" n="1" source="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the U.S. furor over their activities
+</text>
+<arg n="0">U.S.</arg>
+<rel>furor</rel>
+<arg n="1">over their activities</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the furor over drug trafficking
+</text>
+<rel>furor</rel>
+<arg n="1">over drug trafficking</arg>
+</example>
+
+</roleset>
+<roleset id="furor.02" name="be part of a trend" source="verb-trend.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="domain" n="2"></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The UAL news had already caused a selling furor in the so-called
+third market , in which firms buy and sell stock away from the
+exchange floor .
+</text>
+<arg n="Support">caused</arg>
+<arg n="1">selling</arg>
+<rel>furor</rel>
+<arg n="2">
+in the so-called third market , in which firms buy and sell stock
+away from the exchange floor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Asquith , whose study on junk bond defaults caused a furor on
+Wall Street when it was disclosed last April ,
+</text>
+<arg n="1">whose study on junk bond defaults ---> *T*-2</arg>
+<arg n="Support">caused</arg>
+<rel>furor</rel>
+<arg n="2">on Wall Street</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

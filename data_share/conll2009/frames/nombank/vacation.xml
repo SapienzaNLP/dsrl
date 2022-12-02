@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vacation">
+<roleset id="vacation.01" name="go on holiday" source="verb-vacation.01">
+<roles>
+
+<role descr="vacationer(s" n="0"></role>
+
+<role descr="location of vacation" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Keating 's vacation home
+</text>
+<arg n="0">Mr. Keating 's</arg>
+<rel>vacation</rel>
+<arg n="1">home</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Take Your Vacation In a Hurricane Area
+</text>
+<arg n="0">Your</arg>
+<rel>Vacation</rel>
+<arg n="1">In a Hurricane Area</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

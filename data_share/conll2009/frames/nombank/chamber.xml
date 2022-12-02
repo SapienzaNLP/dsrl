@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chamber">
+<roleset id="chamber.01" name="partitive-part/division">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="theme" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the lower chamber of Congress
+</text>
+<arg n="2">lower</arg>
+<rel>chamber</rel>
+<arg n="1">of Congress</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the policy chambers of the Politburo
+</text>
+<arg n="2">policy</arg>
+<rel>chambers</rel>
+<arg n="1">of the Politburo</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

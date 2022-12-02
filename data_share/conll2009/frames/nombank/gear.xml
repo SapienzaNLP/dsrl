@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gear">
+<roleset id="gear.01" name="ability-without-agent">
+<roles>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+steering gear
+</text>
+<arg n="1">steering</arg>
+<rel>gear</rel>
+</example>
+
+<example name="autogen2">
+<text>
+communications gear
+</text>
+<arg n="1">communications</arg>
+<rel>gear</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

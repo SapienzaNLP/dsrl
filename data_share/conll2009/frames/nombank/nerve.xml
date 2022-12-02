@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nerve">
+<roleset id="nerve.01" name="meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her motor nerves
+</text>
+<arg n="1">her</arg>
+<arg n="2">motor</arg>
+<rel>nerves</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the sensory nerves
+</text>
+<arg n="2">sensory</arg>
+<rel>nerves</rel>
+</example>
+
+</roleset>
+<roleset id="nerve.02" name="nomadj-nervous" source="verb-worry.02">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the big-souled German maestro with the shaky nerves who so often
+cancels
+</text>
+<arg n="0">the big-souled German maestro</arg>
+<rel>nerves</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Just when it seemed safe to go back into stocks , Wall Street
+suffered another severe attack of nerves .
+</text>
+<arg n="0">Wall Street</arg>
+<arg n="Support">suffered attack of</arg>
+<rel>nerves</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

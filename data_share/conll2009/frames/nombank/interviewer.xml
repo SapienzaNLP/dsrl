@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="interviewer">
+<roleset id="interviewer.01" name="speak with" source="verb-interview.01">
+<roles>
+
+<role descr="interviewer" n="0"></role>
+
+<role descr="interviewee" n="1"></role>
+
+<role descr="purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a senior executive of Daimler-Benz , the auto maker , told a
+British television interviewer during the weekend that the West
+German company held talks with the luxury auto maker over
+possible joint ventures
+</text>
+<arg n="1">a senior executive of Daimler-Benz , the auto maker ,</arg>
+<arg n="Support">told</arg>
+<arg n="0">interviewer</arg>
+<rel>interviewer</rel>
+</example>
+
+<example name="autogen2">
+<text>
+`` Nonsense , '' she told an interviewer yesterday on London
+Weekend Television .
+</text>
+<arg n="1">she</arg>
+<arg n="Support">told</arg>
+<arg n="0">interviewer</arg>
+<rel>interviewer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

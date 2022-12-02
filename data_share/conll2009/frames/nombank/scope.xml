@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scope">
+<roleset id="scope.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+men 's broader fashion scope
+</text>
+<arg n="3">men 's</arg>
+<arg n="2">broader</arg>
+<arg n="1">fashion</arg>
+<rel>scope</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the full scope of the penalties
+</text>
+<arg n="2">full</arg>
+<rel>scope</rel>
+<arg n="1">of the penalties</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

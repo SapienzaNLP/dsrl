@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="quake">
+<roleset id="quake.01" name="event">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the devastating earthquake in northern California
+</text>
+<rel>earthquake</rel>
+<arg n="1">in northern California</arg>
+</example>
+
+<example name="autogen4">
+<text>
+Our quake
+</text>
+<arg n="1">Our</arg>
+<rel>quake</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

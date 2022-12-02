@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="eavesdropping">
+<roleset id="eavesdropping.01" name="listen surreptitiously" source="verb-eavesdrop.01">
+<roles>
+
+<role descr="listener" n="0"></role>
+
+<role descr="listened-to" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Eavesdropping by individuals
+</text>
+<rel>Eavesdropping</rel>
+<arg n="0">by individuals</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Soviets ' eavesdropping
+</text>
+<arg n="0">The Soviets '</arg>
+<rel>eavesdropping</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

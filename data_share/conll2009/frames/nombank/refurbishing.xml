@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="refurbishing">
+<roleset id="refurbishing.01" name="update structure" source="verb-refurbish.01">
+<roles>
+
+<role descr="refurbisher" n="0"></role>
+
+<role descr="thing refurbished" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Wednesday , it will unveil a $ 7 million refurbishing at its
+flagship store on Madison Avenue .
+</text>
+<arg n="0">it</arg>
+<arg n="Support">unveil</arg>
+<rel>refurbishing</rel>
+<arg n="1">at its flagship store on Madison Avenue</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the refurbishing of our industrial system
+</text>
+<rel>refurbishing</rel>
+<arg n="1">of our industrial system</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

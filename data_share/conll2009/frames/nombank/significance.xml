@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="significance">
+<roleset id="significance.01" name="nom/nomadj-significant/attribute" source="verb-signify.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it saw little significance in Mr. Petrie selling his stock to
+Petrie Stores
+</text>
+<arg n="0">it</arg>
+<arg n="Support">saw</arg>
+<arg n="2">little</arg>
+<rel>significance</rel>
+<arg n="1">in Mr. Petrie selling his stock to Petrie Stores</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Natural Disasters of National Significance
+</text>
+<arg n="1">Natural Disasters</arg>
+<arg n="0">National</arg>
+<arg f="REF" n="2">Significance</arg>
+<rel>Significance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

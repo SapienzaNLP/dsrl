@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="maid">
+<roleset id="maid.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his father 's maid
+</text>
+<arg n="2">his father 's</arg>
+<arg n="0">maid</arg>
+<rel>maid</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

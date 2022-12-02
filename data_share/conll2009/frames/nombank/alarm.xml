@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="alarm">
+<roleset id="alarm.01" name="to give warning to, frighten" source="verb-alarm.01" vncls="31.1">
+<roles>
+
+<role descr="warning" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="entity alarmed" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+alarm in Venice over a plan to tap gas fields off the city 's
+coast
+</text>
+<rel>alarm</rel>
+<arg f="LOC" n="M">in Venice</arg>
+<arg n="0">over a plan to tap gas fields off the city 's coast</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the shutdown would n't be a cause for alarm even if it were to
+persist for several days
+</text>
+<arg n="0">the shutdown</arg>
+<arg n="Support">cause for</arg>
+<rel>alarm</rel>
+</example>
+
+</roleset>
+<roleset id="alarm.02" name="give a warning" source="verb-warn.01" vncls="37.9-1">
+<roles>
+
+<role descr="entity giving warning" n="0">
+<vnrole vncls="37.9-1" vntheta="Agent"/></role>
+
+<role descr="warning, impelled action" n="1">
+<vnrole vncls="37.9-1" vntheta="Topic"/></role>
+
+<role descr="entity getting warning, impelled agent" n="2">
+<vnrole vncls="37.9-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+flashlights and fire alarms
+</text>
+<arg n="1">fire</arg>
+<arg f="REF" n="0">alarms</arg>
+<rel>alarms</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Air-raid sirens sounded the alarm at 2:25 a.m. , summoning 12,000
+air wardens to duty .
+</text>
+<arg n="0">Air-raid sirens</arg>
+<arg n="Support">sounded</arg>
+<rel>alarm</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

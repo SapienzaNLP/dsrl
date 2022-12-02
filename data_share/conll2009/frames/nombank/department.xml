@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="department">
+<roleset id="department.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the union 's GM department
+</text>
+<arg n="1">the union 's</arg>
+<rel>department</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the applied photography department at Rochester Institute of
+Technology
+</text>
+<rel>department</rel>
+<arg n="1">at Rochester Institute of Technology</arg>
+</example>
+
+</roleset>
+<roleset id="department.02" name="field">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the engine department
+</text>
+<arg n="1">engine</arg>
+<rel>department</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

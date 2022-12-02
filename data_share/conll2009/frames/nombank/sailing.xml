@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sailing">
+<roleset id="sailing.01" name="to move along, navigate" source="verb-sail.01" vncls="51.4.2">
+<roles>
+
+<role descr="entity sailing" n="0">
+<vnrole vncls="51.4.2" vntheta="Agent"/></role>
+
+<role descr="vessel" n="1">
+<vnrole vncls="51.4.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+frequently goes sailing with Mr. Agnelli
+</text>
+<arg n="1">NIL</arg>
+<arg n="Support">goes</arg>
+<rel>sailing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Not even all the brokerage firms see clear sailing ahead .
+</text>
+<arg n="0">Not even all the brokerage firms</arg>
+<arg n="Support">see</arg>
+<arg f="MNR" n="M">clear</arg>
+<rel>sailing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

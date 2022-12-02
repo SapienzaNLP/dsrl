@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="object">
+<roleset id="object.01" name="crisscross/victim">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the objects of takeovers or feared takeovers
+</text>
+<rel>objects</rel>
+<arg n="1">of takeovers or feared takeovers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the standard object of suggestions for organizational and
+institutional changes
+</text>
+<rel>object</rel>
+<arg n="1">of suggestions for organizational and institutional changes</arg>
+</example>
+
+</roleset>
+<roleset id="object.02" name="nomlike" source="verb-try.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The object is to capture profits from fleeting price
+discrepancies between the futures and options and the stocks
+themselves .
+</text>
+<rel>object</rel>
+<arg f="PRD" n="1">
+to capture profits from fleeting price discrepancies between the
+futures and options and the stocks themselves</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

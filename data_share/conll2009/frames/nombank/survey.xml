@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="survey">
+<roleset id="survey.01" name="to examine, inspect carefully" source="verb-survey.01" vncls="30.2">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="30.2" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1" source="2">
+<vnrole vncls="35.4" vntheta="Theme"/></role>
+
+<role descr="hearer" n="2" source="1"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The consumer confidence survey , covering 5,000 U.S. households ,
+is conducted in the first two weeks of each month for the
+Conference Board by National Family Opinion Inc. , a Toledo ,
+Ohio , market researcher .
+</text>
+<arg n="2">consumer</arg>
+<arg n="1">confidence</arg>
+<rel>survey</rel>
+<arg n="Support">conducted</arg>
+<arg n="3">for the Conference Board</arg>
+<arg n="0">
+by National Family Opinion Inc. , a Toledo , Ohio , market
+researcher</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its survey of 2,508 such employees
+</text>
+<arg n="0">its</arg>
+<rel>survey</rel>
+<arg n="2">of 2,508 such employees</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

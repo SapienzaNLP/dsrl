@@ -1,0 +1,94 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="book">
+<roleset id="book.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his travel book
+</text>
+<arg n="0">his</arg>
+<arg n="1">travel</arg>
+<rel>book</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an `` off-the-record '' production book
+</text>
+<arg n="1">production</arg>
+<rel>book</rel>
+</example>
+
+</roleset>
+<roleset id="book.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+discount-coupon books
+</text>
+<arg n="1">discount-coupon</arg>
+<rel>books</rel>
+</example>
+
+<example name="autogen2">
+<text>
+such a lopsided book of options
+</text>
+<rel>book</rel>
+<arg n="1">of options</arg>
+</example>
+
+</roleset>
+<roleset id="book.03" name="ledger/record/nomlike" source="verb-register.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="intrument" n="2"></role>
+
+<role descr="secondary predication" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+By concealing the non-enforcement agreement , certain
+transactions with Messrs. Taylor and Watson were entered on
+FirstSouth 's books as loans , allowing the thrift to report fees
+and interest as current income , according to the U.S. attorney
+'s office in Little Rock , Ark .
+</text>
+<arg n="1">certain transactions with Messrs. Taylor and Watson ---> *-1</arg>
+<arg n="Support">entered on</arg>
+<arg n="0">FirstSouth 's</arg>
+<rel>books</rel>
+<arg n="3">as loans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+stock on their books
+</text>
+<arg n="1">stock</arg>
+<arg n="0">their</arg>
+<rel>books</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

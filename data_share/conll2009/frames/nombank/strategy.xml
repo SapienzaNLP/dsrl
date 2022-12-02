@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="strategy">
+<roleset id="strategy.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their computerized trading strategies
+</text>
+<arg n="0">their</arg>
+<arg n="1">trading</arg>
+<rel>strategies</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a revamped sales strategy
+</text>
+<arg n="1">sales</arg>
+<rel>strategy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

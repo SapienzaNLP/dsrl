@@ -1,0 +1,100 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="track">
+<roleset id="track.01" name="look at" source="verb-watch.01" vncls="30.2">
+<roles>
+
+<role descr="observer" n="0">
+<vnrole vncls="30.2" vntheta="Experiencer"/></role>
+
+<role descr="thing looked at" n="1">
+<vnrole vncls="30.2" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to keep better track of income by selling prepaid cards for
+pachinko
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">keep</arg>
+<rel>track</rel>
+<arg n="1">of income</arg>
+</example>
+
+<example name="autogen2">
+<text>
+She keeps track of the rest of her hats by stapling Polaroid
+snapshots to the outside of each hatbox .
+</text>
+<arg n="0">She</arg>
+<arg n="Support">keeps</arg>
+<rel>track</rel>
+<arg n="1">of the rest of her hats</arg>
+</example>
+
+</roleset>
+<roleset id="track.02" name="make a permanent record" source="verb-record.01" vncls="25.4">
+<roles>
+
+<role descr="recorder" n="0">
+<vnrole vncls="25.4" vntheta="Agent"/></role>
+
+<role descr="record" n="1">
+<vnrole vncls="25.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+recorded tracks of his or her own playing
+</text>
+<rel>tracks</rel>
+<arg n="1">of his or her own playing</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the few visible tracks
+</text>
+<arg f="MNR" n="M">visible</arg>
+<arg f="REF" n="1">tracks</arg>
+<rel>tracks</rel>
+</example>
+
+</roleset>
+<roleset id="track.03" name="travel" source="verb-travel.01" vncls="51.3.2">
+<roles>
+
+<role descr="traveller" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="destination or path" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the bank will be on track to report a pretax profit of between M$
+160 million and M$ 170 million for the fiscal year ending March
+31
+</text>
+<arg n="0">the bank</arg>
+<rel>track</rel>
+<arg f="PRD" n="1">
+to report a pretax profit of between M$ 160 million and M$ 170
+million for the fiscal year ending March 31</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its operations were on track
+</text>
+<arg n="0">its operations</arg>
+<rel>track</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

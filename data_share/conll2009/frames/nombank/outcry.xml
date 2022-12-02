@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="outcry">
+<roleset id="outcry.01" name="nomlike" source="verb-cry.01" vncls="37.3">
+<roles>
+
+<role descr="speaker" n="0">
+<vnrole vncls="37.3" vntheta="Agent"/></role>
+
+<role descr="utterance" n="1">
+<vnrole vncls="37.3" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the public outcry against computer-driven program trading
+</text>
+<arg n="0">public</arg>
+<rel>outcry</rel>
+<arg n="1">against computer-driven program trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the renewed outcry against program trading
+</text>
+<rel>outcry</rel>
+<arg n="1">against program trading</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

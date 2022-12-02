@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="closeness">
+<roleset id="closeness.01" name="attribute/nomadj-close">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="standard" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the closeness of test preparatives to the fifth-grade CAT
+</text>
+<arg f="REF" n="2">closeness</arg>
+<rel>closeness</rel>
+<arg n="1">of test preparatives</arg>
+<arg n="3">to the fifth-grade CAT</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The closeness of Soviet perestroika to the fascist social
+blueprint of Mussolini
+</text>
+<arg f="REF" n="2">closeness</arg>
+<rel>closeness</rel>
+<arg n="1">of Soviet perestroika</arg>
+<arg n="3">to the fascist social blueprint of Mussolini</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

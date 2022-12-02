@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="servicing">
+<roleset id="servicing.01" name="do things to" source="verb-service.01">
+<roles>
+
+<role descr="doer" n="0"></role>
+
+<role descr="thing worked on" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Minneapolis-based Control Data 's overall computer-servicing
+business
+</text>
+<arg n="0">Minneapolis-based Control Data 's</arg>
+<arg n="1">computer-servicing</arg>
+<rel>computer-servicing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+mortgages servicing
+</text>
+<arg n="1">mortgages</arg>
+<rel>servicing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

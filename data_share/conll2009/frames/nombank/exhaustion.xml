@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="exhaustion">
+<roleset id="exhaustion.01" name="cause to become used up, tired" source="verb-exhaust.01" vncls="31.1">
+<roles>
+
+<role descr="causer of tiredness" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="thing becoming exhausted" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Physical exhaustion
+</text>
+<arg f="MNR" n="M">Physical</arg>
+<rel>exhaustion</rel>
+</example>
+
+<example name="autogen2">
+<text>
+it can bring fitness and success Or a state of total exhaustion
+</text>
+<arg n="0">it</arg>
+<arg n="Support">bring state of</arg>
+<arg f="MNR" n="M">total</arg>
+<rel>exhaustion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

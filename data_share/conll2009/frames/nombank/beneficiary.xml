@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="beneficiary">
+<roleset id="beneficiary.01" name="give advantage to" source="verb-benefit.01">
+<roles>
+
+<role descr="giver" n="0"></role>
+
+<role descr="beneficiary, given-to" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Once the chief beneficiaries of the industry 's now fading boom
+</text>
+<arg n="1">beneficiaries</arg>
+<rel>beneficiaries</rel>
+<arg n="0">of the industry 's now fading boom</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The biggest beneficiary of the black-and-white revival
+</text>
+<arg n="1">beneficiary</arg>
+<rel>beneficiary</rel>
+<arg n="0">of the black-and-white revival</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

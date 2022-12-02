@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="giveaway">
+<roleset id="giveaway.01" name="transfer" source="verb-give.01" vncls="13.1-1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Both Newsweek and U.S. News have been gaining circulation in
+recent years without heavy use of electronic giveaways to
+subscribers , such as telephones or watches .
+</text>
+<arg n="0">Both Newsweek and U.S. News</arg>
+<arg n="Support">have gaining without use of</arg>
+<arg n="1">electronic</arg>
+<rel>giveaways</rel>
+<arg n="2">to subscribers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+electronic giveaways
+</text>
+<arg n="1">electronic</arg>
+<rel>giveaways</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

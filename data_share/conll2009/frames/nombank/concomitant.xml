@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="concomitant">
+<roleset id="concomitant.01" name="nomadj-concomitant">
+<roles>
+
+<role descr="theme1" n="1"></role>
+
+<role descr="theme2" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a concomitant of a free press
+</text>
+<arg n="1">concomitant</arg>
+<rel>concomitant</rel>
+<arg n="2">of a free press</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

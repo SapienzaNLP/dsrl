@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="headline">
+<roleset id="headline.01" name="partitive-part/meronym/work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="whole" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Newspapers are full of headlines about companies defaulting on
+their debts and banks writing off real estate loans .
+</text>
+<arg n="2">Newspapers</arg>
+<arg n="Support">full of</arg>
+<rel>headlines</rel>
+<arg n="1">
+about companies defaulting on their debts and banks writing off
+real estate loans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+news headlines
+</text>
+<arg n="1">news</arg>
+<rel>headlines</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

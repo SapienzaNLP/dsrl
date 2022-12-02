@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="phrase">
+<roleset id="phrase.01" name="nomlike" source="verb-pronounce.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a phrase from Mr. de Klerk
+</text>
+<arg n="1">phrase</arg>
+<rel>phrase</rel>
+<arg n="0">from Mr. de Klerk</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a favored phrase of Wall Street
+</text>
+<arg n="1">phrase</arg>
+<rel>phrase</rel>
+<arg n="0">of Wall Street</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

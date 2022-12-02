@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="guide">
+<roleset id="guide.01" name="to direct" source="verb-guide.01">
+<roles>
+
+<role descr="guide, agent" n="0"></role>
+
+<role descr="entity guided" n="1"></role>
+
+<role descr="guided in/through" n="2"></role>
+
+<role descr="signposts along the way" n="3"></role>
+
+</roles>
+
+<example name="autogen4">
+<text>
+a guide to general levels
+</text>
+<arg n="0">guide</arg>
+<rel>guide</rel>
+<arg n="2">to general levels</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

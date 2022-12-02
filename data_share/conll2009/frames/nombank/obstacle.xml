@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="obstacle">
+<roleset id="obstacle.01" name="stop, prevent" source="verb-bar.01">
+<roles>
+
+<role descr="stopper, agent" n="0"></role>
+
+<role descr="action or object being prevented" n="1"></role>
+
+<role descr="secondary predication on action" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Canadian government raised an obstacle to its proposed
+acquisition of Connaught BioSciences Inc. for 942 million
+Canadian dollars -LRB- US$ 801.6 million -RRB-
+</text>
+<arg n="0">the Canadian government</arg>
+<arg n="Support">raised</arg>
+<rel>obstacle</rel>
+<arg n="1">
+to its proposed acquisition of Connaught BioSciences Inc. for 942
+million Canadian dollars -LRB- US$ 801.6 million -RRB-</arg>
+</example>
+
+<example name="autogen2">
+<text>
+One big obstacle is that few drugstores develop the film anymore
+.
+</text>
+<rel>obstacle</rel>
+<arg n="0">that few drugstores develop the film anymore</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

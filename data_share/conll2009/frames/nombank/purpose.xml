@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="purpose">
+<roleset id="purpose.01" name="show to be right" source="verb-justify.01">
+<roles>
+
+<role descr="justifier" n="0"></role>
+
+<role descr="decision or attitude being shown to be right" n="1"></role>
+
+<role descr="explicit instrument" n="2"></role>
+
+<role descr="secondary predication" n="3"></role>
+
+<role descr="beneficiary, justified to" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to waive Gramm-Rudman for purposes of addressing the two
+disasters
+</text>
+<arg n="0">NIL</arg>
+<rel>purposes</rel>
+<arg n="1">of addressing the two disasters</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` investment purposes
+</text>
+<arg n="1">investment</arg>
+<rel>purposes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

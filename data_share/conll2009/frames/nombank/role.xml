@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="role">
+<roleset id="role.01" name="job">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="job" n="1"></role>
+
+<role descr="beneficiary/domain" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his behind-the-scenes role in monitoring the Friday-the-13th
+market plunge and the following Monday 's harrowing morning
+session
+</text>
+<arg n="0">his</arg>
+<arg n="1">behind-the-scenes</arg>
+<rel>role</rel>
+<arg n="2">
+in monitoring the Friday-the-13th market plunge and the following
+Monday 's harrowing morning session</arg>
+</example>
+
+<example name="autogen2">
+<text>
+play a big consulting role in management decisions
+</text>
+<arg n="1">consulting</arg>
+<rel>role</rel>
+<arg n="2">in management decisions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

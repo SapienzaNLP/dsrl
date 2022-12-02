@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="maneuvering">
+<roleset id="maneuvering.01" name="to direct the course" source="verb-maneuver.01">
+<roles>
+
+<role descr="director, agent" n="0"></role>
+
+<role descr="entity maneuvered" n="1"></role>
+
+<role descr="destination" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+pretrial maneuvering in the pending court case , in which
+prosecutors have been demanding access to a host of internal
+company memos , reports and documents
+</text>
+<arg f="TMP" n="M">pretrial</arg>
+<rel>maneuvering</rel>
+<arg f="TMP" n="M">
+in the pending court case , in which prosecutors have been
+demanding access to a host of internal company memos , reports
+and documents</arg>
+</example>
+
+<example name="autogen2">
+<text>
+last week 's maneuverings on the deficit-cutting bill and the
+capital-gains issue
+</text>
+<arg f="TMP" n="M">last week 's</arg>
+<rel>maneuverings</rel>
+<arg n="1">on the deficit-cutting bill and the capital-gains issue</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

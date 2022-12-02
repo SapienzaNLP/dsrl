@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="voter">
+<roleset id="voter.01" name="cast a ballot" source="verb-vote.01">
+<roles>
+
+<role descr="voter" n="0"></role>
+
+<role descr="candidate or ballot issue" n="1"></role>
+
+<role descr="numerical count of vote, margin" n="2"></role>
+
+<role descr="proxy voter" n="A"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+single-issue , pro-life voters giving Mr. Bush about five more
+percentage points of support than pro-choice voters gave Michael
+Dukakis
+</text>
+<arg n="0">voters</arg>
+<rel>voters</rel>
+<arg n="Support">giving</arg>
+<arg n="1">Mr. Bush</arg>
+<arg n="2">about five more percentage points</arg>
+</example>
+
+<example name="autogen2">
+<text>
+one-issue voters
+</text>
+<arg n="1">one-issue</arg>
+<arg n="0">voters</arg>
+<rel>voters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

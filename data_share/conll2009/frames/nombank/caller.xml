@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="caller">
+<roleset id="caller.01" name="visit, make use of" source="verb-call.05">
+<roles>
+
+<role descr="caller" n="0"></role>
+
+<role descr="thing being visited, used" n="1"></role>
+
+<role descr="purpose, attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+callers of 900 numbers
+</text>
+<arg n="0">callers</arg>
+<rel>callers</rel>
+<arg n="1">of 900 numbers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+An anonymous caller to a local radio station
+</text>
+<arg f="MNR" n="M">anonymous</arg>
+<arg n="0">caller</arg>
+<rel>caller</rel>
+<arg n="1">to a local radio station</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

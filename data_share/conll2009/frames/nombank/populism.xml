@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="populism">
+<roleset id="populism.01" name="attribute/nomadjlike-democratic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the prickly populism of La Quina
+</text>
+<arg f="REF" n="2">populism</arg>
+<rel>populism</rel>
+<arg n="1">of La Quina</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

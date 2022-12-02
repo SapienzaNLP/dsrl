@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drink">
+<roleset id="drink.01" name="ingest liquids" source="verb-drink.01" vncls="39.1">
+<roles>
+
+<role descr="drinker" n="0">
+<vnrole vncls="39.1" vntheta="Agent"/></role>
+
+<role descr="liquid" n="1">
+<vnrole vncls="39.1" vntheta="Patient"/></role>
+
+<role descr="source of liquid" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` I was having a drink in Sardi 's , when all of a sudden I saw
+a woman 's backside coming up the steps on the second floor and
+she was wearing sequined slacks .
+</text>
+<arg n="0">I</arg>
+<arg n="Support">having</arg>
+<rel>drink</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

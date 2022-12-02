@@ -1,0 +1,85 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="neighborhood">
+<roleset id="neighborhood.01" name="partitive-quant/partitive-part">
+<roles>
+
+<role descr="theme/inhabitant/characterization" n="1"></role>
+
+<role descr="whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Tokyo 's richest neighborhoods
+</text>
+<arg n="2">Tokyo 's</arg>
+<arg n="1">richest</arg>
+<rel>neighborhoods</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Miami neighborhood
+</text>
+<arg n="2">Miami</arg>
+<rel>neighborhood</rel>
+</example>
+
+</roleset>
+<roleset id="neighborhood.02" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their neighborhoods
+</text>
+<arg n="1">their</arg>
+<arg n="0">neighborhoods</arg>
+<rel>neighborhoods</rel>
+</example>
+
+<example name="autogen2">
+<text>
+your neighborhood
+</text>
+<arg n="1">your</arg>
+<arg n="0">neighborhood</arg>
+<rel>neighborhood</rel>
+</example>
+
+</roleset>
+<roleset id="neighborhood.03" name="nomadv-approximately">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the neighborhood of 50 cents a share to 75 cents , compared with
+a restated $ 1.65 a share a year earlier , when profit was $
+107.8 million on sales of $ 435.5 million
+</text>
+<rel>neighborhood</rel>
+<arg n="1">
+of 50 cents a share to 75 cents , compared with a restated $ 1.65
+a share a year earlier , when profit was $ 107.8 million on sales
+of $ 435.5 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="handling">
+<roleset id="handling.01" name="hold, metaphorically deal with" source="verb-handle.01" vncls="15.1">
+<roles>
+
+<role descr="handler" n="0">
+<vnrole vncls="15.1" vntheta="Agent"/></role>
+
+<role descr="thing handled" n="1">
+<vnrole vncls="15.1" vntheta="Theme"/></role>
+
+<role descr="handled for" n="2"></role>
+
+<role descr="handled with" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his handling of Lincoln S&amp;L
+</text>
+<arg n="0">his</arg>
+<rel>handling</rel>
+<arg n="1">of Lincoln S&amp;L</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the handling of harmful chemicals
+</text>
+<rel>handling</rel>
+<arg n="1">of harmful chemicals</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

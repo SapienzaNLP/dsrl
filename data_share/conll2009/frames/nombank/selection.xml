@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="selection">
+<roleset id="selection.01" name="to make a choice, to pick out" source="verb-select.01" vncls="13.5.2">
+<roles>
+
+<role descr="selector" n="0">
+<vnrole vncls="13.5.2" vntheta="Agent"/></role>
+
+<role descr="entity selected" n="1">
+<vnrole vncls="13.5.2" vntheta="Theme"/></role>
+
+<role descr="selected from" n="2">
+<vnrole vncls="13.5.2" vntheta="Source"/></role>
+
+<role descr="attribute, selected for/as" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her selection by Dr. Sullivan
+</text>
+<arg n="1">her</arg>
+<rel>selection</rel>
+<arg n="0">by Dr. Sullivan</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its criteria for enforcement , audit selection , and use of
+resources
+</text>
+<arg n="0">its</arg>
+<arg n="Support">criteria for</arg>
+<arg n="3">audit</arg>
+<rel>selection</rel>
+</example>
+
+</roleset>
+<roleset id="selection.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Thin merchandise selections
+</text>
+<arg n="2">Thin</arg>
+<arg n="1">merchandise</arg>
+<rel>selections</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its selection of merchandise
+</text>
+<arg n="3">its</arg>
+<arg f="REF" n="2">selection</arg>
+<rel>selection</rel>
+<arg n="1">of merchandise</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

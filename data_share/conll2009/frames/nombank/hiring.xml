@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hiring">
+<roleset id="hiring.01" name="initiate employment" source="verb-hire.01" vncls="29.2">
+<roles>
+
+<role descr="employer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="new employee" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="job" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Kidder 's hiring binge involving executive-level staffers , some
+with multiple-year contract guarantees ,
+</text>
+<arg n="0">Kidder 's</arg>
+<rel>hiring</rel>
+<arg n="Support">binge</arg>
+<arg n="1">
+involving executive-level staffers , some with multiple-year
+contract guarantees ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+BROKERAGE HIRING
+</text>
+<arg n="0">BROKERAGE</arg>
+<rel>HIRING</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

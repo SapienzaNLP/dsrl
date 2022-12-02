@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="responsibility">
+<roleset id="responsibility.01" name="attribute/nomadj-responsible">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="setting" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+But Congress and the president accept no responsibility for the
+exercise of the power they have given the Fed .
+</text>
+<arg n="0">Congress and the president</arg>
+<arg n="Support">accept</arg>
+<arg n="2">no</arg>
+<rel>responsibility</rel>
+<arg n="1">for the exercise of the power they have given the Fed</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its responsibility to protect fragile financial markets , banks
+and highly leveraged corporations
+</text>
+<arg n="0">its</arg>
+<rel>responsibility</rel>
+<arg f="PRD" n="1">
+to protect fragile financial markets , banks and highly leveraged
+corporations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

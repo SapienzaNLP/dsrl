@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="calm">
+<roleset id="calm.01" name="nomadj-calm/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The relative calm in Tokyo
+</text>
+<arg n="2">relative</arg>
+<rel>calm</rel>
+<arg n="1">in Tokyo</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they observe them in relative calm
+</text>
+<arg n="1">them</arg>
+<arg n="2">relative</arg>
+<rel>calm</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

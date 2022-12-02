@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="quirk">
+<roleset id="quirk.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+National Geographic has some quirks that make it especially
+unattractive during a soft market
+</text>
+<arg n="1">National Geographic</arg>
+<arg n="Support">has</arg>
+<arg f="REF" n="2">quirks</arg>
+<rel>quirks</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reunion">
+<roleset id="reunion.01" name="unite again, bring back together" source="verb-reunite.01">
+<roles>
+
+<role descr="unifier" n="0"></role>
+
+<role descr="first) thing(s) being unified" n="1"></role>
+
+<role descr="other things, if separate from arg1" n="2"></role>
+
+<role descr="unified whole" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+semi-celebrities seeking out their grammar-school classmates for
+on-air reunions
+</text>
+<arg n="1">semi-celebrities</arg>
+<arg n="Support">seeking for</arg>
+<arg n="2">their grammar-school classmates</arg>
+<arg f="LOC" n="M">on-air</arg>
+<rel>reunions</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Such family reunions
+</text>
+<arg n="1">family</arg>
+<rel>reunions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

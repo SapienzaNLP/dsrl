@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reality">
+<roleset id="reality.01" name="nomadj-real/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="context" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The reality of life in modern America is that if you want to
+wreck something that works , let it fall into the hands of
+Congress .
+</text>
+<rel>reality</rel>
+<arg n="1">of life in modern America</arg>
+<arg n="2">
+that if you want to wreck something that works , let it fall into
+the hands of Congress</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In California , this is the reality .
+</text>
+<arg n="2">this</arg>
+<rel>reality</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

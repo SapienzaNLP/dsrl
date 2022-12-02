@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="biography">
+<roleset id="biography.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they should write history and biography
+</text>
+<arg n="0">they</arg>
+<arg n="Support">write</arg>
+<rel>biography</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a biography of the founder of the Church of Scientology
+</text>
+<rel>biography</rel>
+<arg n="1">of the founder of the Church of Scientology</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

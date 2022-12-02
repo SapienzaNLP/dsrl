@@ -1,0 +1,84 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pass">
+<roleset id="pass.01" name="allow to go by" source="verb-pass.04">
+<roles>
+
+<role descr="allower" n="0"></role>
+
+<role descr="thing let go by" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And investors , at least for now , took a pass .
+</text>
+<arg n="0">investors</arg>
+<arg n="Support">took</arg>
+<rel>pass</rel>
+</example>
+
+</roleset>
+<roleset id="pass.02" name="to deal playfully or superficially" source="verb-flirt.01">
+<roles>
+
+<role descr="flirt, agent" n="0"></role>
+
+<role descr="entity flirted with" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Josh makes clumsy passes at Kate when she 's seething with anger
+and fear
+</text>
+<arg n="0">Josh</arg>
+<arg n="Support">makes</arg>
+<arg f="MNR" n="M">clumsy</arg>
+<rel>passes</rel>
+<arg n="1">at Kate</arg>
+</example>
+
+</roleset>
+<roleset id="pass.03" name="throw" source="verb-throw.01" vncls="17.1">
+<roles>
+
+<role descr="thrower" n="0">
+<vnrole vncls="17.1" vntheta="Agent"/></role>
+
+<role descr="thing thrown" n="1">
+<vnrole vncls="17.1" vntheta="Patient"/></role>
+
+<role descr="thrown at, to, over, etc" n="2">
+<vnrole vncls="17.1" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+star flanker Irving Fryar `` threw '' the 1984 Orange Bowl game
+by intentionally dropping a pass in the end zone
+</text>
+<arg n="2">star flanker Irving Fryar ---> *-2</arg>
+<arg n="Support">dropping</arg>
+<rel>pass</rel>
+</example>
+
+<example name="autogen2">
+<text>
+With three minutes left on the clock , Mr. Aikman takes the snap
+, steps back and fires a 21-yard pass -- straight into the hands
+of an Atlanta defensive back .
+</text>
+<arg n="0">Mr. Aikman</arg>
+<arg n="Support">fires</arg>
+<arg f="EXT" n="M">21-yard</arg>
+<rel>pass</rel>
+<arg n="2">straight into the hands of an Atlanta defensive back</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

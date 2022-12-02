@@ -1,0 +1,63 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="talent">
+<roleset id="talent.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his reportorial talents
+</text>
+<arg n="0">his</arg>
+<arg n="1">reportorial</arg>
+<rel>talents</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the best production talent
+</text>
+<arg n="1">production</arg>
+<arg n="0">talent</arg>
+<rel>talent</rel>
+</example>
+
+</roleset>
+<roleset id="talent.02" name="actrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+even more developing-country energy and talent
+</text>
+<arg n="2">developing-country</arg>
+<arg n="0">talent</arg>
+<rel>talent</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its talent
+</text>
+<arg n="2">its</arg>
+<arg n="0">talent</arg>
+<rel>talent</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

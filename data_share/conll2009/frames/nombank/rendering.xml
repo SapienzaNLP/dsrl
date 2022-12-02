@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rendering">
+<roleset id="rendering.01" name="to translate" source="verb-render.03">
+<roles>
+
+<role descr="translator" n="0"></role>
+
+<role descr="entity rendered" n="1"></role>
+
+<role descr="rendered into" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a dramatic rendering by an actor of Mr. Hoffman 's ultimately
+unsuccessful struggle with depression
+</text>
+<arg f="MNR" n="M">dramatic</arg>
+<rel>rendering</rel>
+<arg n="0">by an actor</arg>
+<arg n="1">
+of Mr. Hoffman 's ultimately unsuccessful struggle with
+depression</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the renderings of colleagues Michael Madden -LRB- `` appears to
+be a pervert '' -RRB- , Will McDonough -LRB- `` looks as if he
+drove for Abe Lincoln '' -RRB- or Bella English , whose `` little
+girl now screams hysterically every time she sees a newspaper
+</text>
+<rel>renderings</rel>
+<arg n="1">
+of colleagues Michael Madden -LRB- `` appears to be a pervert ''
+-RRB- , Will McDonough -LRB- `` looks as if he drove for Abe
+Lincoln '' -RRB- or Bella English , whose `` little girl now
+screams hysterically every time she sees a newspaper</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="breadth">
+<roleset id="breadth.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its breadth
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">breadth</arg>
+<rel>breadth</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the breadth of inquiries
+</text>
+<arg f="REF" n="2">breadth</arg>
+<rel>breadth</rel>
+<arg n="1">of inquiries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

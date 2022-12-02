@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="equity">
+<roleset id="equity.01" name="establish a cost, value" source="verb-value.01" vncls="29.2">
+<roles>
+
+<role descr="entity establishing value" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="commodity being valued" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="value" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his entire equity investment of about $ 100 million in SCI TV
+</text>
+<arg n="0">his</arg>
+<rel>equity</rel>
+<arg n="2">of about $ 100 million</arg>
+<arg n="1">in SCI TV</arg>
+</example>
+
+<example name="autogen2">
+<text>
+almost $ 10 of equity for each Columbia share , including
+convertible preferred shares
+</text>
+<arg n="2">almost $ 10</arg>
+<rel>equity</rel>
+<arg n="1">for each Columbia share , including convertible preferred shares</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

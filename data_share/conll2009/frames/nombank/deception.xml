@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="deception">
+<roleset id="deception.01" name="lie to" source="verb-deceive.01">
+<roles>
+
+<role descr="liar" n="0"></role>
+
+<role descr="lied to" n="1"></role>
+
+<role descr="lied about" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He 's had a history of deception
+</text>
+<arg n="0">He</arg>
+<arg n="Support">had history of</arg>
+<rel>deception</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="odds">
+<roleset id="odds.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+10-to-1 odds that a capital-gains tax cut of some sort would be
+approved this year , though it probably wo n't be included in the
+pending deficit-reduction bill
+</text>
+<arg n="2">10-to-1</arg>
+<rel>odds</rel>
+<arg n="1">
+that a capital-gains tax cut of some sort would be approved this
+year , though it probably wo n't be included in the pending
+deficit-reduction bill</arg>
+</example>
+
+<example name="autogen2">
+<text>
+`` The best odds are with your core franchise .
+</text>
+<arg n="2">best</arg>
+<rel>odds</rel>
+<arg n="1">with your core franchise</arg>
+</example>
+
+</roleset>
+<roleset id="odds.02" name="to be or come into opposition" source="verb-conflict.01" vncls="36.1">
+<roles>
+
+<role descr="troublesome thing" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="entity conflicted with" n="2" source="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a vision so at odds with the playwright 's that the two points of
+view nullify , rather than illuminate , each other
+</text>
+<arg n="0">a vision</arg>
+<rel>odds</rel>
+<arg n="2">with the playwright 's</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they are at odds with them
+</text>
+<arg n="1">they</arg>
+<rel>odds</rel>
+<arg n="2">with them</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="witness">
+<roleset id="witness.01" name="to observe, see, or be a site of" source="verb-witness.01" vncls="29.8">
+<roles>
+
+<role descr="agent, entity witnessing" n="0">
+<vnrole vncls="29.8" vntheta="Agent"/></role>
+
+<role descr="thing witnessed" n="1">
+<vnrole vncls="29.8" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+witnesses in Voronezh
+</text>
+<arg n="0">witnesses</arg>
+<rel>witnesses</rel>
+<arg f="LOC" n="M">in Voronezh</arg>
+</example>
+
+</roleset>
+<roleset id="witness.02" name="actrel/nom" source="verb-witness.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme/case" n="1"></role>
+
+<role descr="court/judge" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its star witness
+</text>
+<arg n="2">its</arg>
+<arg n="0">witness</arg>
+<rel>witness</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the government 's chief witnesses
+</text>
+<arg n="2">the government 's</arg>
+<arg f="MNR" n="M">chief</arg>
+<arg n="0">witnesses</arg>
+<rel>witnesses</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="enactment">
+<roleset id="enactment.01" name="pass legislation" source="verb-enact.01">
+<roles>
+
+<role descr="legislative body" n="0"></role>
+
+<role descr="law" n="1"></role>
+
+<role descr="redundant mention of law" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they urge a prohibition for enactment into law
+</text>
+<arg n="Support">urge for</arg>
+<arg n="1">a prohibition</arg>
+<rel>enactment</rel>
+<arg n="2">into law</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the enactment of laws that limit advertising , boost tobacco
+prices and promote anti-smoking education
+</text>
+<rel>enactment</rel>
+<arg n="1">
+of laws that limit advertising , boost tobacco prices and promote
+anti-smoking education</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

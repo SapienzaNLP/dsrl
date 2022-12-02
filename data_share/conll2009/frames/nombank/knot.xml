@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="knot">
+<roleset id="knot.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the knot of his tie
+</text>
+<rel>knot</rel>
+<arg n="1">of his tie</arg>
+</example>
+
+</roleset>
+<roleset id="knot.02" name="nomlike/to change form,  shape, etc" source="verb-twist.01" vncls="9.6">
+<roles>
+
+<role descr="cause of change, agent" n="0">
+<vnrole vncls="9.6" vntheta="Agent"/></role>
+
+<role descr="entity twisted" n="1">
+<vnrole vncls="9.6" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a rainbow of dress shirts tied in a knot
+</text>
+<arg n="1">a rainbow ---> *</arg>
+<arg n="Support">tied in</arg>
+<rel>knot</rel>
+</example>
+
+<example name="autogen2">
+<text>
+My back is still in knots
+</text>
+<arg n="1">My back</arg>
+<rel>knots</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

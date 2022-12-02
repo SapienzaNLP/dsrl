@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="survival">
+<roleset id="survival.01" name="live despite" source="verb-survive.01">
+<roles>
+
+<role descr="survivor" n="0"></role>
+
+<role descr="adverse circumstances" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a threat to the survival of victimized U.S. firms
+</text>
+<arg n="1">a threat</arg>
+<arg n="Support">threat to</arg>
+<rel>survival</rel>
+<arg n="0">of victimized U.S. firms</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his survival
+</text>
+<arg n="0">his</arg>
+<rel>survival</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

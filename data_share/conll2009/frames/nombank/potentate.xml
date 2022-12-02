@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="potentate">
+<roleset id="potentate.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+various Arab potentates
+</text>
+<arg n="2">Arab</arg>
+<arg n="0">potentates</arg>
+<rel>potentates</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

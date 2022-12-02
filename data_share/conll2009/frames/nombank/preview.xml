@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="preview">
+<roleset id="preview.01" name="to view or  exhibit in advance" source="verb-preview.01">
+<roles>
+
+<role descr="pre-viewer, agent" n="0"></role>
+
+<role descr="entity previewed" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Chrysler 's 1990 model preview
+</text>
+<arg n="0">Chrysler 's</arg>
+<arg n="1">1990 model</arg>
+<rel>preview</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Last year the public was afforded a preview of Ms. Bartlett 's
+creation in a tablemodel version , at a BPC exhibition .
+</text>
+<arg n="0">the public ---> *-1</arg>
+<arg n="Support">afforded</arg>
+<rel>preview</rel>
+<arg n="1">of Ms. Bartlett 's creation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

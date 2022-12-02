@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="turbulence">
+<roleset id="turbulence.01" name="attribute/nomadj-turbulent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Japan 's recent political turbulence
+</text>
+<arg n="3">Japan 's</arg>
+<arg f="TMP" n="M">recent</arg>
+<arg n="1">political</arg>
+<arg f="REF" n="2">turbulence</arg>
+<rel>turbulence</rel>
+</example>
+
+<example name="autogen2">
+<text>
+stock-market turbulence
+</text>
+<arg n="1">stock-market</arg>
+<arg f="REF" n="2">turbulence</arg>
+<rel>turbulence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

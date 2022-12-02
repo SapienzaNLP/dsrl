@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="career">
+<roleset id="career.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his political career
+</text>
+<arg n="0">his</arg>
+<arg n="1">political</arg>
+<rel>career</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a management career path
+</text>
+<arg n="1">management</arg>
+<rel>career</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

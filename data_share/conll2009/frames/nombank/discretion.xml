@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discretion">
+<roleset id="discretion.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+holders to buy additional shares at 50 % of the then current
+market price or , at the board 's discretion , to receive
+securities or assets
+</text>
+<arg n="0">the board 's</arg>
+<rel>discretion</rel>
+<arg n="1">to receive securities or assets</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to use dispersant during such an incident at the discretion of
+the U.S. Coast Guard
+</text>
+<arg n="1">use dispersant during such an incident</arg>
+<rel>discretion</rel>
+<arg n="0">of the U.S. Coast Guard</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

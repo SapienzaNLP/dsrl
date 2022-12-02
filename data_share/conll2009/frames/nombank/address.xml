@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="address">
+<roleset id="address.01" name="put an address on an envelope" source="verb-address.01" vncls="25.3">
+<roles>
+
+<role descr="caller" n="0">
+<vnrole vncls="25.3" vntheta="Agent"/></role>
+
+<role descr="item being labelled" n="1">
+<vnrole vncls="25.3" vntheta="Destination"/></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Dalai Lama 's first public address in the U.S.
+</text>
+<arg n="0">the Dalai Lama 's</arg>
+<arg f="TMP" n="M">first</arg>
+<arg f="MNR" n="M">public</arg>
+<rel>address</rel>
+<arg f="LOC" n="M">in the U.S.</arg>
+</example>
+
+</roleset>
+<roleset id="address.02" name="nomlike" source="verb-speak.01" vncls="37.5">
+<roles>
+
+<role descr="talker" n="0">
+<vnrole vncls="37.5" vntheta="Actor1"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="37.5" vntheta="Topic"/></role>
+
+<role descr="hearer" n="2">
+<vnrole vncls="37.5" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In a foreign-policy address before the Soviet legislature , the
+foreign minister conceded that the radar station in Krasnoyarsk
+breached the superpower Anti-Ballistic Missile treaty and said it
+would be dismantled .
+</text>
+<arg n="1">foreign-policy</arg>
+<rel>address</rel>
+<arg n="2">before the Soviet legislature</arg>
+<arg n="0">the foreign minister</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an address on economic policy by John Major , the new Chancellor
+of the Exchequer
+</text>
+<rel>address</rel>
+<arg n="1">on economic policy</arg>
+<arg n="0">by John Major , the new Chancellor of the Exchequer</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

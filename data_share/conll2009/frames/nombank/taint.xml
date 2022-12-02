@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="taint">
+<roleset id="taint.01" name="nom/nomadj-tainted" source="verb-taint.01" vncls="9.8">
+<roles>
+
+<role descr="cause/source of contamination" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Paramount Chairman Martin Davis wanted to avoid the possible
+taint of being perceived as a corporate raider in his
+controversial bid for Time
+</text>
+<arg n="1">Paramount Chairman Martin Davis ---> *-2</arg>
+<arg n="Support">avoid</arg>
+<arg f="ADV" n="M">possible</arg>
+<rel>taint</rel>
+<arg n="0">
+of being perceived as a corporate raider in his controversial bid
+for Time</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the taint it is today
+</text>
+<rel>taint</rel>
+<arg n="1">it</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

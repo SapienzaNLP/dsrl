@@ -1,0 +1,111 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="note">
+<roleset id="note.01" name="to express briefly" source="verb-remark.01">
+<roles>
+
+<role descr="speaker" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Indeed , in a note to the results , directors said if the `` true
+worth '' of some of the group 's assets were taken into account
+instead of using book values , the negative net asset backing a
+share would turn into `` a substantial positive '' one .
+</text>
+<arg n="Support">said in</arg>
+<rel>note</rel>
+<arg n="2">to the results</arg>
+<arg n="0">directors</arg>
+<arg n="1">
+if the `` true worth '' of some of the group 's assets were taken
+into account instead of using book values , the negative net
+asset backing a share would turn into `` a substantial positive
+'' one</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The framers hardly discussed the appropriations clause at the
+Constitutional Convention of 1787 , according to Madison 's notes
+.
+</text>
+<arg n="1">
+The framers hardly discussed the appropriations clause at the
+Constitutional Convention of 1787</arg>
+<arg n="0">Madison 's</arg>
+<rel>notes</rel>
+</example>
+
+</roleset>
+<roleset id="note.02" name="become aware of" source="verb-notice.01" vncls="30.1">
+<roles>
+
+<role descr="noticer" n="0">
+<vnrole vncls="30.1" vntheta="Experiencer"/></role>
+
+<role descr="noticed" n="1">
+<vnrole vncls="30.1" vntheta="Stimulus"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+traders took note of the stock market 's partial recovery
+yesterday
+</text>
+<arg n="0">traders</arg>
+<arg n="Support">took</arg>
+<rel>note</rel>
+<arg n="1">of the stock market 's partial recovery</arg>
+</example>
+
+<example name="autogen2">
+<text>
+China 's People 's Daily took note of the growing problem of
+computer fraud .
+</text>
+<arg n="0">China 's People 's Daily</arg>
+<arg n="Support">took</arg>
+<rel>note</rel>
+<arg n="1">of the growing problem of computer fraud</arg>
+</example>
+
+</roleset>
+<roleset id="note.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+this plaintive , high-minded note of assurance
+</text>
+<arg n="2">plaintive , high-minded</arg>
+<rel>note</rel>
+<arg n="1">of assurance</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a cautionary note
+</text>
+<arg n="2">cautionary</arg>
+<rel>note</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

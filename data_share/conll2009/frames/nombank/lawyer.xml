@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lawyer">
+<roleset id="lawyer.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary/consultant" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+<role descr="employer" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an environmental lawyer with the Natural Resources Defense
+Council
+</text>
+<arg n="1">environmental</arg>
+<arg n="0">lawyer</arg>
+<rel>lawyer</rel>
+<arg n="2">with the Natural Resources Defense Council</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a lawyer for the Dorrance estate with the Philadelphia law firm
+of Morgan , Lewis &amp; Bockius
+</text>
+<arg n="0">lawyer</arg>
+<rel>lawyer</rel>
+<arg n="2">for the Dorrance estate</arg>
+<arg n="4">with the Philadelphia law firm of Morgan , Lewis &amp; Bockius</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

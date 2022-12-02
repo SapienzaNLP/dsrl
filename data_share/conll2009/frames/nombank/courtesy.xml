@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="courtesy">
+<roleset id="courtesy.01" name="nomadj-courteous">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Bush wo n't be extending the Nicaraguan leader any special
+courtesies
+</text>
+<arg n="0">Mr. Bush</arg>
+<arg n="Support">extending</arg>
+<arg n="2">the Nicaraguan leader</arg>
+<arg f="REF" n="1">courtesies</arg>
+<rel>courtesies</rel>
+</example>
+
+<example name="autogen2">
+<text>
+courtesy of -- you guessed it -- outsiders
+</text>
+<rel>courtesy</rel>
+<arg n="0">of -- you guessed it -- outsiders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

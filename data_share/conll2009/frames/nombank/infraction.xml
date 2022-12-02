@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="infraction">
+<roleset id="infraction.01" name="break some rule" source="verb-violate.01">
+<roles>
+
+<role descr="violator" n="0"></role>
+
+<role descr="thing violated, usually a rule" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+even minor rule infractions
+</text>
+<arg n="1">rule</arg>
+<rel>infractions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

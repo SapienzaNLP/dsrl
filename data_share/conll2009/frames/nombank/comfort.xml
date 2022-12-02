@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="comfort">
+<roleset id="comfort.01" name="cause to be comfortable or happy" source="verb-comfort.01" vncls="31.1">
+<roles>
+
+<role descr="comforter" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="patient, comforted" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument or manner" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+At the very least , the establishment here is taking comfort from
+the nation 's success in handling the last go-around .
+</text>
+<arg n="1">the establishment here</arg>
+<arg n="Support">taking</arg>
+<rel>comfort</rel>
+<arg n="2">from the nation 's success in handling the last go-around</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a comfort to those who want to buy the stock that there is a
+-LCB- price -RCB- floor
+</text>
+<rel>comfort</rel>
+<arg n="1">to those who want to buy the stock</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

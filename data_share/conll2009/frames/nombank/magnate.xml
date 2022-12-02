@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="magnate">
+<roleset id="magnate.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="expert" n="0"></role>
+
+<role descr="domain" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Australian press magnate Rupert Murdoch
+</text>
+<arg n="1">press</arg>
+<arg n="0">magnate</arg>
+<rel>magnate</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The oil magnate
+</text>
+<arg n="1">oil</arg>
+<arg n="0">magnate</arg>
+<rel>magnate</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="experiment">
+<roleset id="experiment.01" name="to conduct an experiment" source="verb-experiment.01">
+<roles>
+
+<role descr="scientist, agent" n="0"></role>
+
+<role descr="experimental subject" n="1"></role>
+
+<role descr="experimental method" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your yearlong experiment on stock picking
+</text>
+<arg n="0">your</arg>
+<arg f="TMP" n="M">yearlong</arg>
+<rel>experiment</rel>
+<arg n="1">on stock picking</arg>
+</example>
+
+<example name="autogen2">
+<text>
+laboratory test-tube experiments
+</text>
+<arg f="LOC" n="M">laboratory</arg>
+<arg n="2">test-tube</arg>
+<rel>experiments</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

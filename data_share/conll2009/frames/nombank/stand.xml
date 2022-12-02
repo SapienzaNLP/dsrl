@@ -1,0 +1,111 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stand">
+<roleset id="stand.01" name="require, insist" source="verb-insist.01">
+<roles>
+
+<role descr="insister" n="0"></role>
+
+<role descr="thing insisted, required" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a populist stand against monied interests
+</text>
+<arg n="0">populist</arg>
+<rel>stand</rel>
+<arg n="1">against monied interests</arg>
+</example>
+
+<example name="autogen2">
+<text>
+apartheid 's last stand
+</text>
+<arg n="0">apartheid 's</arg>
+<rel>stand</rel>
+</example>
+
+</roleset>
+<roleset id="stand.02" name="to present, exhibit" source="verb-display.01">
+<roles>
+
+<role descr="displayer, agent" n="0"></role>
+
+<role descr="entity displayed" n="1"></role>
+
+<role descr="location" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the IBM stand
+</text>
+<arg n="0">IBM</arg>
+<arg n="2">stand</arg>
+<rel>stand</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his stand
+</text>
+<arg n="0">his</arg>
+<arg n="2">stand</arg>
+<rel>stand</rel>
+</example>
+
+</roleset>
+<roleset id="stand.03" name="exchange one thing for another" source="verb-substitute.01" vncls="13.6">
+<roles>
+
+<role descr="agent, entity trading" n="0">
+<vnrole vncls="13.6" vntheta="Agent"/></role>
+
+<role descr="thing being preferred, new thing" n="1">
+<vnrole vncls="13.6" vntheta="Theme2"/></role>
+
+<role descr="other item in exchange, old thing" n="3">
+<vnrole vncls="13.6" vntheta="Theme1"/></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Gelbart 's stand in for Col. Oliver North
+</text>
+<rel>stand</rel>
+<arg n="3">for Col. Oliver North</arg>
+</example>
+
+</roleset>
+<roleset id="stand.04" name="give testimony, provide evidence" source="verb-testify.01">
+<roles>
+
+<role descr="witness, agent" n="0"></role>
+
+<role descr="testimony, evidence for" n="1"></role>
+
+<role descr="person testified for/against" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Thus , in a criminal case , a prosecutor can not comment on a
+defendant 's failure to testify nor can the defendant be
+compelled to take the stand as a witness , thus forcing him to ``
+take the Fifth . ''
+</text>
+<arg n="0">the defendant ---> *-1</arg>
+<arg n="Support">take</arg>
+<rel>stand</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,64 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="division">
+<roleset id="division.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+<role descr="theme" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fledging luxury-car division of Toyota Motor Corp
+</text>
+<arg n="2">luxury-car</arg>
+<rel>division</rel>
+<arg n="1">of Toyota Motor Corp</arg>
+</example>
+
+<example name="autogen2">
+<text>
+guided-missile divisions
+</text>
+<arg n="2">guided-missile</arg>
+<rel>divisions</rel>
+</example>
+
+</roleset>
+<roleset id="division.02" name="separate" source="verb-divide.02" vncls="23.1">
+<roles>
+
+<role descr="entity causing separation" n="0">
+<vnrole vncls="23.1" vntheta="Agent"/></role>
+
+<role descr="thing being divided" n="1">
+<vnrole vncls="23.1" vntheta="Patient"/></role>
+
+<role descr="divided among/between, if separate from arg1" n="2">
+<vnrole vncls="23.1" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+old regional divisions in the Democratic majority
+</text>
+<arg n="2">regional</arg>
+<rel>divisions</rel>
+<arg n="1">in the Democratic majority</arg>
+</example>
+
+<example name="autogen2">
+<text>
+unhealed divisions among several competing agencies
+</text>
+<rel>divisions</rel>
+<arg n="1">among several competing agencies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

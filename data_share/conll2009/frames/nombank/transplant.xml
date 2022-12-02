@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="transplant">
+<roleset id="transplant.01" name="move from one place to another" source="verb-transplant.01">
+<roles>
+
+<role descr="mover, agent" n="0"></role>
+
+<role descr="thing moved" n="1"></role>
+
+<role descr="destination" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+patients who had received kidney , liver , heart and pancreas
+transplants
+</text>
+<arg n="2">patients ---> who ---> *T*-1</arg>
+<arg n="Support">received</arg>
+<arg n="1">kidney , liver , heart and pancreas</arg>
+<rel>transplants</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the approximately 30,000 organ transplants
+</text>
+<arg n="1">organ</arg>
+<rel>transplants</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

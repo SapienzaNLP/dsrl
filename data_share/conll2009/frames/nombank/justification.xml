@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="justification">
+<roleset id="justification.01" name="show to be right" source="verb-justify.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="instrument/reason" n="2"></role>
+
+<role descr="secondary predication" n="3"></role>
+
+<role descr="beneficiary, justified to" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the state has a `` reasonable '' justification for adopting it
+</text>
+<arg n="0">the state</arg>
+<arg n="Support">has</arg>
+<arg f="MNR" n="M">reasonable</arg>
+<rel>justification</rel>
+<arg n="1">for adopting it</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the justification for its watchdogs and its Wall
+</text>
+<rel>justification</rel>
+<arg n="1">for its watchdogs and its Wall</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

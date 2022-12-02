@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sincerity">
+<roleset id="sincerity.01" name="nomadj-sincere">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the obvious sincerity with which Mr. Stoltzman chooses his
+selections
+</text>
+<rel>sincerity</rel>
+<arg n="0">Mr. Stoltzman</arg>
+<arg n="1">chooses his selections</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

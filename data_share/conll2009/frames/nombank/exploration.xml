@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="exploration">
+<roleset id="exploration.01" name="explore, discover new places or things" source="verb-explore.01" vncls="35.4">
+<roles>
+
+<role descr="explorer" n="0">
+<vnrole vncls="35.4" vntheta="Agent"/></role>
+
+<role descr="thing (place, stuff) explored" n="1">
+<vnrole vncls="35.4" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its gas exploration and production subsidiary
+</text>
+<arg n="0">its</arg>
+<arg n="1">gas</arg>
+<rel>exploration</rel>
+</example>
+
+<example name="autogen2">
+<text>
+gas exploration
+</text>
+<arg n="1">gas</arg>
+<rel>exploration</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

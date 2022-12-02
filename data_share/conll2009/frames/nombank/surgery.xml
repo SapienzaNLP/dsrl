@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="surgery">
+<roleset id="surgery.01" name="medical treatment" source="verb-treat.03">
+<roles>
+
+<role descr="doctor (etc" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="illness or injury" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+animal eye surgery
+</text>
+<arg n="1">animal</arg>
+<arg n="2">eye</arg>
+<rel>surgery</rel>
+</example>
+
+<example name="autogen3">
+<text>
+eye surgery
+</text>
+<arg n="2">eye</arg>
+<rel>surgery</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="guesswork">
+<roleset id="guesswork.01" name="default" source="verb-guess.01" vncls="29.5">
+<roles>
+
+<role descr="guesser" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="guess" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+using some guesswork about the likelihood of such an event
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">using</arg>
+<rel>guesswork</rel>
+<arg n="1">about the likelihood of such an event</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

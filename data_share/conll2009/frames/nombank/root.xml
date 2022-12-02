@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="root">
+<roleset id="root.01" name="create, come about" source="verb-originate.01">
+<roles>
+
+<role descr="creator" n="0"></role>
+
+<role descr="thing originated" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+<role descr="attribute of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his Arkansas roots
+</text>
+<arg n="1">his</arg>
+<arg n="2">Arkansas</arg>
+<rel>roots</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their products ' Pacific roots
+</text>
+<arg n="1">their products '</arg>
+<arg n="2">Pacific</arg>
+<rel>roots</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

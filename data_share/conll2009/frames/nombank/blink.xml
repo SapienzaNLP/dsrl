@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blink">
+<roleset id="blink.01" name="close eyes for a second" source="verb-blink.01" vncls="40.3.1-1">
+<roles>
+
+<role descr="blinker" n="0">
+<vnrole vncls="40.3.1-1" vntheta="Agent"/></role>
+
+<role descr="eyes, usually unstated" n="1">
+<vnrole vncls="40.3.1-1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the blink of an eye
+</text>
+<rel>blink</rel>
+<arg n="1">of an eye</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an eye-blink
+</text>
+<arg n="1">eye-blink</arg>
+<rel>eye-blink</rel>
+</example>
+
+</roleset>
+<roleset id="blink.02" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a four-year blink of history
+</text>
+<rel>blink</rel>
+<arg n="1">of history</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

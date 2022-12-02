@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reflection">
+<roleset id="reflection.01" name="cast an image back" source="verb-reflect.01">
+<roles>
+
+<role descr="thing casting a reflection" n="1"></role>
+
+<role descr="surface casting the reflection, image being reflected" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a reflection of history -- their parents were shipped in as
+laborers during the decades when Japan occupied Korea before
+World War II -- and the discrimination that still faces Koreans
+in Japanese society
+</text>
+<rel>reflection</rel>
+<arg n="1">
+of history -- their parents were shipped in as laborers during
+the decades when Japan occupied Korea before World War II -- and
+the discrimination that still faces Koreans in Japanese society</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a reflection of a shift away from U.S. assets by Japanese
+investors into West German investments
+</text>
+<rel>reflection</rel>
+<arg n="1">
+of a shift away from U.S. assets by Japanese investors into West
+German investments</arg>
+</example>
+
+</roleset>
+<roleset id="reflection.02" name="think about" source="verb-reflect.02">
+<roles>
+
+<role descr="thinker" n="0"></role>
+
+<role descr="thoughts" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In another reflection that the growth of the economy is leveling
+off , the government said that orders for manufactured goods and
+spending on construction failed to rise in September .
+</text>
+<rel>reflection</rel>
+<arg f="PRD" n="1">that the growth of the economy is leveling off</arg>
+<arg n="0">the government</arg>
+</example>
+
+<example name="autogen2">
+<text>
+, on reflection , anyone could view the VOA materials , not just
+the reporters , scholars , researchers and congressmen who are
+mentioned in the statute
+</text>
+<rel>reflection</rel>
+<arg n="0">anyone</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

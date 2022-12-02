@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="resentment">
+<roleset id="resentment.01" name="resent" source="verb-resent.01" vncls="31.2">
+<roles>
+
+<role descr="resenter" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="thing or person resented" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+<role descr="because-of" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their legendary resentment of outsiders
+</text>
+<arg n="0">their</arg>
+<arg f="MNR" n="M">legendary</arg>
+<rel>resentment</rel>
+<arg n="1">of outsiders</arg>
+</example>
+
+<example name="autogen2">
+<text>
+resentment among permanent workers paid lesser amounts to do the
+same jobs
+</text>
+<rel>resentment</rel>
+<arg n="0">among permanent workers paid lesser amounts to do the same jobs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

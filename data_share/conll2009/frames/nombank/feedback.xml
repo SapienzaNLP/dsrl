@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="feedback">
+<roleset id="feedback.01" name="nom/work-of-art" source="verb-respond.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+feedback '' it received from selected customers now testing
+Version 1.1
+</text>
+<arg f="REF" n="1">feedback</arg>
+<rel>feedback</rel>
+<arg n="2">it</arg>
+<arg n="Support">received</arg>
+<arg n="0">from selected customers now testing Version 1.1</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

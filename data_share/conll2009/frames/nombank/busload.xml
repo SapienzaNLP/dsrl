@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="busload">
+<roleset id="busload.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+busloads of executives and their wives
+</text>
+<rel>busloads</rel>
+<arg n="1">of executives and their wives</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a busload of extraneous matter
+</text>
+<rel>busload</rel>
+<arg n="1">of extraneous matter</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

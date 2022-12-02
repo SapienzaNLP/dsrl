@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="respectability">
+<roleset id="respectability.01" name="nomadj-respectable/nom" source="verb-respect.01">
+<roles>
+
+<role descr="regarder, respecter, agent" n="0"></role>
+
+<role descr="entity respected" n="1"></role>
+
+<role descr="secondary predicate" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Rey 's respectability among the Swiss
+</text>
+<arg n="1">Mr. Rey 's</arg>
+<rel>respectability</rel>
+<arg n="0">among the Swiss</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this nouveau riche struggle for respectability , which has its
+tawdry aspects
+</text>
+<arg n="1">nouveau riche</arg>
+<arg n="Support">struggle for</arg>
+<rel>respectability</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

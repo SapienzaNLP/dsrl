@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="surtax">
+<roleset id="surtax.01" name="government charging money" source="verb-tax.01" vncls="54.5">
+<roles>
+
+<role descr="taxer" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="amount of tax" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="taxpayer" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her catastrophic surtax of $ 496
+</text>
+<arg n="2">her</arg>
+<rel>surtax</rel>
+<arg n="1">of $ 496</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an unpopular income surtax paid by about 40 % of the wealthier
+Medicare beneficiaries
+</text>
+<arg n="3">income</arg>
+<rel>surtax</rel>
+<arg n="Support">paid</arg>
+<arg n="2">by about 40 % of the wealthier Medicare beneficiaries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dissident">
+<roleset id="dissident.01" name="nomlike-dissent" source="verb-dissent.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1" source="2"></role>
+
+<role descr="beneficiary" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+political dissidents
+</text>
+<arg n="1">political</arg>
+<arg n="0">dissidents</arg>
+<rel>dissidents</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a political dissident
+</text>
+<arg n="1">political</arg>
+<arg n="0">dissident</arg>
+<rel>dissident</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

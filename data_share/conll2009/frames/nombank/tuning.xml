@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tuning">
+<roleset id="tuning.01" name="to adopt or adjust" source="verb-tune.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some fine-tuning
+</text>
+<arg f="MNR" n="M">fine-tuning</arg>
+<rel>fine-tuning</rel>
+</example>
+
+<example name="autogen2">
+<text>
+it is slated for fine-tuning
+</text>
+<arg n="1">it ---> *-1</arg>
+<arg n="Support">slated for</arg>
+<arg f="MNR" n="M">fine-tuning</arg>
+<rel>fine-tuning</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

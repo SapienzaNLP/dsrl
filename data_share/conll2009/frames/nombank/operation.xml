@@ -1,0 +1,70 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="operation">
+<roleset id="operation.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the studio 's syndication operations
+</text>
+<arg n="0">the studio 's</arg>
+<arg n="1">syndication</arg>
+<rel>operations</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the currently suspended air-charter operations
+</text>
+<arg n="1">air-charter</arg>
+<rel>operations</rel>
+</example>
+
+</roleset>
+<roleset id="operation.02" name="cf work" source="verb-operate.01" vncls="45.4">
+<roles>
+
+<role descr="agent, operator" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing operated" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="explicit patient (thing operated on" n="2"></role>
+
+<role descr="explicit role" n="3"></role>
+
+<role descr="explicit instrument (with or on, ususally" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the operation of public utilities as efficient , autonomous
+agencies
+</text>
+<rel>operation</rel>
+<arg n="1">of public utilities</arg>
+<arg n="3">as efficient , autonomous agencies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to improve the operation of capital markets
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">improve</arg>
+<rel>operation</rel>
+<arg n="1">of capital markets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="summit">
+<roleset id="summit.01" name="get together with" source="verb-meet.03" vncls="36.3">
+<roles>
+
+<role descr="one party" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="reason to meet" n="1"></role>
+
+<role descr="other party" n="2">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+<role descr="time of meeting" n="M"></role>
+
+<role descr="location of meeting" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+July 's economic summit of major industrialized nations
+</text>
+<arg f="TMP" n="M">July 's</arg>
+<arg n="1">economic</arg>
+<rel>summit</rel>
+<arg n="0">of major industrialized nations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a Commonwealth summit in Kuala Lumpur , Malaysia ,
+</text>
+<arg n="0">Commonwealth</arg>
+<rel>summit</rel>
+<arg f="LOC" n="M">in Kuala Lumpur , Malaysia ,</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

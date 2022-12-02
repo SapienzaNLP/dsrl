@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discouragement">
+<roleset id="discouragement.01" name="to deprive of confidence, induce inaction" source="verb-discourage.01">
+<roles>
+
+<role descr="entity removing confidence, agent" n="0"></role>
+
+<role descr="entity discouraged" n="1"></role>
+
+<role descr="discouraged from" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a salesperson to fight off feelings of discouragement
+</text>
+<arg n="1">a salesperson</arg>
+<arg n="Support">fight feelings of</arg>
+<rel>discouragement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

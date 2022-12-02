@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="processing">
+<roleset id="processing.01" name="do something to" source="verb-process.01">
+<roles>
+
+<role descr="processor" n="0"></role>
+
+<role descr="thing processed" n="1"></role>
+
+<role descr="end state" n="2"></role>
+
+<role descr="start state" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some spreadsheets and word processing programs
+</text>
+<arg n="1">word</arg>
+<rel>processing</rel>
+<arg n="0">programs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+petrochemical processing
+</text>
+<arg n="1">petrochemical</arg>
+<rel>processing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

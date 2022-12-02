@@ -1,0 +1,102 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="class">
+<roleset id="class.01" name="try to) make learn" source="verb-teach.01" vncls="37.1-1">
+<roles>
+
+<role descr="teacher" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="37.1-1" vntheta="Topic"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Laura Dobson , a freshman at the University of South Carolina who
+had Mrs. Yeargin in the teacher-cadet class last year
+</text>
+<arg n="2">
+a freshman at the University of South Carolina ---> who --->
+*T*-90</arg>
+<arg n="Support">had in</arg>
+<arg n="0">Mrs. Yeargin</arg>
+<arg n="1">teacher-cadet</arg>
+<rel>class</rel>
+</example>
+
+<example name="autogen2">
+<text>
+my MBA class
+</text>
+<arg n="0">my</arg>
+<arg n="1">MBA</arg>
+<rel>class</rel>
+</example>
+
+</roleset>
+<roleset id="class.02" name="student-body-for-one-year">
+<roles>
+
+<role descr="agent/school" n="0"></role>
+
+<role descr="descriptor/year" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+-- Football player , class unspecified .
+</text>
+<arg n="2">Football player</arg>
+<rel>class</rel>
+<arg n="1">unspecified</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Yale class of 1963
+</text>
+<arg n="0">Yale</arg>
+<rel>class</rel>
+<arg n="1">of 1963</arg>
+</example>
+
+</roleset>
+<roleset id="class.03" name="type/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the heavyweight class among industrialized nations
+</text>
+<arg n="2">heavyweight</arg>
+<rel>class</rel>
+<arg n="1">among industrialized nations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+first class
+</text>
+<arg n="2">first</arg>
+<rel>class</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

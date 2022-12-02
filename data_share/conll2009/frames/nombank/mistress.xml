@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mistress">
+<roleset id="mistress.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his full-time mistress
+</text>
+<arg n="1">his</arg>
+<arg f="TMP" n="M">full-time</arg>
+<arg n="0">mistress</arg>
+<rel>mistress</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their mistresses
+</text>
+<arg n="1">their</arg>
+<arg n="0">mistresses</arg>
+<rel>mistresses</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

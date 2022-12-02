@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="kingpin">
+<roleset id="kingpin.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the world 's diamond kingpins
+</text>
+<arg n="2">the world 's</arg>
+<arg n="1">diamond</arg>
+<arg n="0">kingpins</arg>
+<rel>kingpins</rel>
+</example>
+
+<example name="autogen3">
+<text>
+other kingpins of Congress
+</text>
+<arg n="0">kingpins</arg>
+<rel>kingpins</rel>
+<arg n="2">of Congress</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

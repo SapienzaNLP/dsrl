@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="invention">
+<roleset id="invention.01" name="create" source="verb-invent.01" vncls="26.4">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="thing created" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Marxist invention
+</text>
+<arg n="0">Marxist</arg>
+<arg f="REF" n="1">invention</arg>
+<rel>invention</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Soviet inventions
+</text>
+<arg n="0">Soviet</arg>
+<arg f="REF" n="1">inventions</arg>
+<rel>inventions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

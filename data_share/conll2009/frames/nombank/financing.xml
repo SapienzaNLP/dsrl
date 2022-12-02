@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="financing">
+<roleset id="financing.01" name="provide money for, get money for" source="verb-finance.01">
+<roles>
+
+<role descr="financ(i)er" n="0"></role>
+
+<role descr="thing financed" n="1"></role>
+
+<role descr="money" n="2"></role>
+
+<role descr="beneficiary of financing" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it had received about $ 1 billion of senior debt financing from
+Chemical Bank and six other banks
+</text>
+<arg n="3">it</arg>
+<arg n="Support">received $ of</arg>
+<arg n="2">about $ 1 billion</arg>
+<arg n="1">debt</arg>
+<rel>financing</rel>
+<arg n="0">from Chemical Bank and six other banks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+$ 509 million in bank financing for the buy-out offer
+</text>
+<arg n="2">$ 509 million</arg>
+<arg n="0">bank</arg>
+<rel>financing</rel>
+<arg n="1">for the buy-out offer</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

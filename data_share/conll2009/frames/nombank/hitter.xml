@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hitter">
+<roleset id="hitter.01" name="strike" source="verb-hit.01" vncls="18.1">
+<roles>
+
+<role descr="agent, hitter - animate only" n="0">
+<vnrole vncls="18.1" vntheta="Agent"/></role>
+
+<role descr="thing hit" n="1">
+<vnrole vncls="18.4" vntheta="Theme"/></role>
+
+<role descr="instrument, thing hit by or with" n="2">
+<vnrole vncls="18.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the A's , whose pitchers and home-run hitters dominated the
+injury-prone Giants ,
+</text>
+<arg n="1">home-run</arg>
+<arg n="0">hitters</arg>
+<rel>hitters</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Giants ' 3-4-5 hitters
+</text>
+<arg f="LOC" n="M">3-4-5</arg>
+<arg n="0">hitters</arg>
+<rel>hitters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

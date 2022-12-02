@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="adviser">
+<roleset id="adviser.01" name="give advice" source="verb-advise.01" vncls="37.9-1">
+<roles>
+
+<role descr="entity giving advice" n="0">
+<vnrole vncls="37.9-1" vntheta="Agent"/></role>
+
+<role descr="advice, impelled action" n="1" source="2">
+<vnrole vncls="37.9-1" vntheta="Topic"/></role>
+
+<role descr="entity getting advice, impelled agent" n="2" source="1">
+<vnrole vncls="37.9-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its investment adviser
+</text>
+<arg n="2">its</arg>
+<arg n="1">investment</arg>
+<arg n="0">adviser</arg>
+<rel>adviser</rel>
+</example>
+
+<example name="autogen2">
+<text>
+senior adviser to Carlyle Group
+</text>
+<arg n="0">adviser</arg>
+<rel>adviser</rel>
+<arg n="2">to Carlyle Group</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="believer">
+<roleset id="believer.01" name="believe" source="verb-believe.01" vncls="29.4">
+<roles>
+
+<role descr="believer" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="belief" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a true believer
+</text>
+<arg f="MNR" n="M">true</arg>
+<arg n="0">believer</arg>
+<rel>believer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

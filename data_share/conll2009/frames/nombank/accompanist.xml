@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accompanist">
+<roleset id="accompanist.01" name="go along with" source="verb-accompany.01" vncls="51.7">
+<roles>
+
+<role descr="subject accompanier" n="0">
+<vnrole vncls="51.7" vntheta="Agent"/></role>
+
+<role descr="object accompanied" n="1">
+<vnrole vncls="51.7" vntheta="Theme"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the violinist , who performed the work with a piano accompanist
+at the composer 's apartment
+</text>
+<arg n="1">the violinist ---> who ---> *T*-1</arg>
+<arg n="Support">performed work with</arg>
+<arg n="0">accompanist</arg>
+<rel>accompanist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

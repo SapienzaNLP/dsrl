@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="therapist">
+<roleset id="therapist.01" name="medical treatment" source="verb-treat.03">
+<roles>
+
+<role descr="doctor (etc" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="illness or injury" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+massage therapists
+</text>
+<arg n="3">massage</arg>
+<arg n="0">therapists</arg>
+<rel>therapists</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

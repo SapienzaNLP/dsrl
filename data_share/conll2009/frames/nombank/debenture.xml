@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="debenture">
+<roleset id="debenture.01" name="give temporarily" source="verb-loan.01" vncls="13.1-1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a $ 475 million debenture offering by Chicago &amp; North Western
+Acquisition Corp. that was still being negotiated late last night
+</text>
+<arg n="1">$ 475 million</arg>
+<rel>debenture</rel>
+<arg n="0">by Chicago &amp; North Western Acquisition Corp.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+For each $ 1,000 face amount of debentures , holders received $
+250 of Series B 11 % senior secured convertible notes due Oct. 15
+, 1998 , and 200 common shares .
+</text>
+<arg n="1">each $ 1,000 face amount</arg>
+<arg n="Support">amount of</arg>
+<rel>debentures</rel>
+<arg n="2">holders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

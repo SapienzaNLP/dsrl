@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sentiment">
+<roleset id="sentiment.01" name="express an opinion" source="verb-opine.01">
+<roles>
+
+<role descr="speaker" n="0"></role>
+
+<role descr="opinion" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Despite the strong evidence against Mrs. Yeargin , popular
+sentiment was so strong in her favor , Mrs. Ward says , that `` I
+'m afraid a jury would n't have convicted her .
+</text>
+<arg n="0">popular</arg>
+<rel>sentiment</rel>
+<arg n="1">*ICH*-1 ---> in her favor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+public sentiment
+</text>
+<arg n="0">public</arg>
+<rel>sentiment</rel>
+</example>
+
+</roleset>
+<roleset id="sentiment.02" name="emote" source="verb-feel.01" vncls="30.4">
+<roles>
+
+<role descr="feeler, person experiencing emotion" n="0">
+<vnrole vncls="30.4" vntheta="Experiencer"/></role>
+
+<role descr="emotion or sensation" n="1">
+<vnrole vncls="30.4" vntheta="Stimulus"/></role>
+
+<role descr="entity to or for whom the emotion is directed" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The most-strident anti-outsider sentiment among bankers
+</text>
+<arg n="1">anti-outsider</arg>
+<rel>sentiment</rel>
+<arg n="0">among bankers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+bearish sentiment about Japan 's bond market
+</text>
+<arg n="1">bearish</arg>
+<rel>sentiment</rel>
+<arg n="2">about Japan 's bond market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

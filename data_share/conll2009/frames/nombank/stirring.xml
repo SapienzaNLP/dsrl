@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stirring">
+<roleset id="stirring.01" name="move" source="verb-stir.03" vncls="11.2">
+<roles>
+
+<role descr="mover" n="0">
+<vnrole vncls="11.2" vntheta="Agent"/></role>
+
+<role descr="moved" n="1">
+<vnrole vncls="11.2" vntheta="Theme"/></role>
+
+<role descr="destination" n="2">
+<vnrole vncls="11.2" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the first stirrings of politics
+</text>
+<rel>stirrings</rel>
+<arg n="1">of politics</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the new stirrings are faint
+</text>
+<arg f="TMP" n="M">new</arg>
+<rel>stirrings</rel>
+<arg f="MNR" n="M">faint</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

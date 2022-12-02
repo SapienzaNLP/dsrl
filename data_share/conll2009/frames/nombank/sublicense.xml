@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sublicense">
+<roleset id="sublicense.01" name="give legal rights to property" source="verb-license.01">
+<roles>
+
+<role descr="granter of license" n="0"></role>
+
+<role descr="licensed thing" n="1"></role>
+
+<role descr="beneficiary, licensed-to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Bausch &amp; Lomb sold the softies under a sublicense from National
+Patent Development , which had gained the rights from the
+Czechoslovakia Academy of Sciences .
+</text>
+<arg n="1">Bausch &amp; Lomb</arg>
+<arg n="Support">sold under</arg>
+<arg n="2">the softies</arg>
+<rel>sublicense</rel>
+<arg n="0">
+from National Patent Development , which had gained the rights
+from the Czechoslovakia Academy of Sciences</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

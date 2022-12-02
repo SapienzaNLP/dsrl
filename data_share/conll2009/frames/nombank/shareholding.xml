@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shareholding">
+<roleset id="shareholding.01" name="nom/share" source="verb-own.01">
+<roles>
+
+<role descr="owner" n="0"></role>
+
+<role descr="possession/quantified" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its 30 % shareholding in Societe Commerciale
+</text>
+<arg n="0">its</arg>
+<arg n="2">30 %</arg>
+<rel>shareholding</rel>
+<arg n="1">in Societe Commerciale</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the 32.99 % shareholding
+</text>
+<arg n="2">32.99 %</arg>
+<rel>shareholding</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

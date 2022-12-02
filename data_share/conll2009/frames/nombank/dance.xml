@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dance">
+<roleset id="dance.01" name="dance" source="verb-dance.01" vncls="51.5">
+<roles>
+
+<role descr="dancer" n="0">
+<vnrole vncls="51.5" vntheta="Agent"/></role>
+
+<role descr="dance" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="partner" n="2">
+<vnrole vncls="51.5" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he bullies Kate into a dance that consists of drooling on her
+while trying to break her ribs
+</text>
+<arg n="0">he</arg>
+<arg n="Support">bullies into</arg>
+<arg n="2">Kate</arg>
+<rel>dance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her dance pieces
+</text>
+<arg n="0">her</arg>
+<rel>dance</rel>
+<arg n="Support">pieces</arg>
+</example>
+
+</roleset>
+<roleset id="dance.02" name="move dancingly" source="verb-dance.02" vncls="47.3">
+<roles>
+
+<role descr="mover" n="0">
+<vnrole vncls="47.3" vntheta="Theme"/></role>
+
+<role descr="path" n="1">
+<vnrole vncls="47.3" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Bush 's dance
+</text>
+<arg n="0">Mr. Bush 's</arg>
+<rel>dance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Yesterday , the Dow Jones Industrial Average did a now familiar
+dance : It plunged 60.25 points before lunch , with most of the
+drop occurring in 25 minutes .
+</text>
+<arg n="0">the Dow Jones Industrial Average</arg>
+<arg n="Support">did</arg>
+<rel>dance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

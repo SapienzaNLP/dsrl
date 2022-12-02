@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="definition">
+<roleset id="definition.01" name="assign a label or attribute" source="verb-define.01" vncls="29.2">
+<roles>
+
+<role descr="describer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing defined" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="secondary attribute, described-as, definition" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the SEC has long resisted a legislative definition of insider
+trading
+</text>
+<arg n="0">the SEC</arg>
+<arg n="Support">resisted</arg>
+<arg n="2">legislative</arg>
+<rel>definition</rel>
+<arg n="1">of insider trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Under the exchange 's definitions , program trading also
+describes a number of other strategies that , in the opinion of
+some traders , do n't cause big swings in the market .
+</text>
+<arg n="0">the exchange 's</arg>
+<arg f="REF" n="2">definitions</arg>
+<rel>definitions</rel>
+<arg n="1">program trading</arg>
+</example>
+
+</roleset>
+<roleset id="definition.02" name="cause to become sharp(er" source="verb-sharpen.01" vncls="45.4">
+<roles>
+
+<role descr="sharpener" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing getting sharper" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="instrument, if agent is also present" n="2">
+<vnrole vncls="45.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a superior self-definition
+</text>
+<arg n="0">self-definition</arg>
+<arg n="1">self-definition</arg>
+<rel>self-definition</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the screen and printer need far better definition to depict
+accurately the intricate symbols
+</text>
+<arg n="1">the screen and printer</arg>
+<arg n="Support">need</arg>
+<arg f="MNR" n="M">far better</arg>
+<rel>definition</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

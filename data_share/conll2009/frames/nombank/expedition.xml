@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="expedition">
+<roleset id="expedition.01" name="nomlike" source="verb-go.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2" source="3"></role>
+
+<role descr="goal" n="3" source="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+he and two colleagues went on an overnight fishing expedition off
+the New Jersey shore and caught nothing
+</text>
+<arg n="1">he and two colleagues</arg>
+<arg n="Support">went on</arg>
+<arg f="TMP" n="M">overnight</arg>
+<rel>expedition</rel>
+<arg f="LOC" n="M">off the New Jersey shore</arg>
+</example>
+
+<example name="autogen2">
+<text>
+he stands on a hill at the beginning of a six-day motor
+expedition from Oxfordshire to Cornwall , where a former
+housekeeper resides , perhaps the victim of an unhappy 20-year
+marriage , perhaps -LRB- he hopes with more fervor than he will
+ever acknowledge -RRB- not disinclined to return to domestic
+service
+</text>
+<arg n="1">he</arg>
+<arg n="Support">beginning of</arg>
+<arg f="TMP" n="M">six-day</arg>
+<rel>expedition</rel>
+<arg n="2">from Oxfordshire</arg>
+<arg n="3">
+to Cornwall , where a former housekeeper resides , perhaps the
+victim of an unhappy 20-year marriage , perhaps -LRB- he hopes
+with more fervor than he will ever acknowledge -RRB- not
+disinclined to return to domestic service</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

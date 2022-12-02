@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="territory">
+<roleset id="territory.01" name="have, own" source="verb-possess.01">
+<roles>
+
+<role descr="possessor" n="0"></role>
+
+<role descr="possession" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+Democratic territory
+</text>
+<arg n="0">Democratic</arg>
+<arg n="1">territory</arg>
+<rel>territory</rel>
+</example>
+
+<example name="autogen3">
+<text>
+its own territory
+</text>
+<arg n="0">its</arg>
+<arg n="1">territory</arg>
+<rel>territory</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

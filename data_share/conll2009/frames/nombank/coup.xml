@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="coup">
+<roleset id="coup.01" name="to murder" source="verb-assassinate.01" vncls="42.1">
+<roles>
+
+<role descr="assassin, agent" n="0">
+<vnrole vncls="42.1" vntheta="Agent"/></role>
+
+<role descr="person assassinated" n="1">
+<vnrole vncls="42.1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+leaders of coups against Gen. Noriega
+</text>
+<arg n="0">leaders</arg>
+<rel>coups</rel>
+<arg n="1">against Gen. Noriega</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a coup attempt against him a year earlier
+</text>
+<rel>coup</rel>
+<arg n="1">against him</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

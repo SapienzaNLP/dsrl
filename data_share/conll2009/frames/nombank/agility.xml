@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="agility">
+<roleset id="agility.01" name="attribute/nomadj-agile">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Steinhardt , who runs about $ 1.7 billion for Steinhardt
+Partners , made his name as a gunslinging trader , moving in and
+out of stocks with agility -- enriching himself and his
+investment clients .
+</text>
+<arg n="0">
+Mr. Steinhardt , who runs about $ 1.7 billion for Steinhardt
+Partners , ---> *-4</arg>
+<arg n="1">moving in and out of stocks</arg>
+<arg f="REF" n="2">agility</arg>
+<rel>agility</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

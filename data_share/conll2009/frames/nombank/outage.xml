@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="outage">
+<roleset id="outage.01" name="nomlike" source="verb-stop.01" vncls="55.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme (action or object being stopped" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+unauthorized work outages at the company 's coal operations
+</text>
+<arg n="1">work</arg>
+<rel>outages</rel>
+<arg n="3">at the company 's coal operations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+scheduled plant outages
+</text>
+<arg n="1">plant</arg>
+<rel>outages</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

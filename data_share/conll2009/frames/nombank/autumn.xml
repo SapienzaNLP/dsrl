@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="autumn">
+<roleset id="autumn.01" name="environment for thing">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In autumn last year , for example , the regime garrison at
+Kandahar was prepared to surrender the city to resistance
+moderates .
+</text>
+<rel>autumn</rel>
+<arg n="1">last year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+this land of perpetual autumn
+</text>
+<arg n="1">this land</arg>
+<arg f="TMP" n="M">perpetual</arg>
+<rel>autumn</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,171 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="return">
+<roleset id="return.01" name="come back" source="verb-return.01" vncls="51.1-2">
+<roles>
+
+<role descr="entity in motion" n="1">
+<vnrole vncls="51.1-2" vntheta="Theme"/></role>
+
+<role descr="extent -- rare" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4">
+<vnrole vncls="51.1-2" vntheta="Location"/></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they expect a return to full operations by Saturday
+</text>
+<arg n="1">they</arg>
+<arg n="Support">expect</arg>
+<rel>return</rel>
+<arg n="4">to full operations</arg>
+<arg f="TMP" n="M">by Saturday</arg>
+</example>
+
+<example name="autogen2">
+<text>
+their return to black townships across the country
+</text>
+<arg n="1">their</arg>
+<rel>return</rel>
+<arg n="4">to black townships across the country</arg>
+</example>
+
+</roleset>
+<roleset id="return.02" name="give back" source="verb-return.02" vncls="11.1">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="11.1" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="11.1" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="11.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his return toast to Mr. Nixon
+</text>
+<arg n="0">his</arg>
+<rel>return</rel>
+<arg n="1">toast</arg>
+<arg n="2">to Mr. Nixon</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the return of cheaper shares to the lender
+</text>
+<rel>return</rel>
+<arg n="1">of cheaper shares</arg>
+<arg n="2">to the lender</arg>
+</example>
+
+</roleset>
+<roleset id="return.03" name="bring back" source="verb-return.03" vncls="11.1">
+<roles>
+
+<role descr="entity bring something back" n="0">
+<vnrole vncls="11.1" vntheta="Agent"/></role>
+
+<role descr="thing brought back" n="1">
+<vnrole vncls="11.1" vntheta="Theme"/></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the best punt return , quarterback sack , etc
+</text>
+<arg n="1">punt</arg>
+<rel>return</rel>
+</example>
+
+</roleset>
+<roleset id="return.04" name="give a dividend" source="verb-yield.03">
+<roles>
+
+<role descr="thing providing a dividend" n="0"></role>
+
+<role descr="dividend, earnings" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 0.89 % return on assets for Security Pacific
+</text>
+<arg n="1">0.89 %</arg>
+<rel>return</rel>
+<arg n="0">on assets</arg>
+<arg n="2">for Security Pacific</arg>
+</example>
+
+<example name="autogen2">
+<text>
+On Storer as a whole , KKR racked up compound annual returns of
+60 % in the three years it owned Storer .
+</text>
+<arg n="2">KKR</arg>
+<arg n="Support">racked</arg>
+<arg f="TMP" n="M">annual</arg>
+<rel>returns</rel>
+<arg n="1">of 60 %</arg>
+</example>
+
+</roleset>
+<roleset id="return.05" name="exchange, trade" source="verb-exchange.01" vncls="13.6">
+<roles>
+
+<role descr="agent, entity trading" n="0">
+<vnrole vncls="13.6" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="13.6" vntheta="Theme1"/></role>
+
+<role descr="other exchanger" n="2"></role>
+
+<role descr="theme2" n="3">
+<vnrole vncls="13.6" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+them to price things realistically in return for removing all our
+tariff barriers
+</text>
+<arg n="0">them</arg>
+<arg n="1">to price things realistically</arg>
+<rel>return</rel>
+<arg n="3">for removing all our tariff barriers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In return , Mrs. Thatcher is excoriated from Fleet Street to
+Paris as an obstructionist .
+</text>
+<rel>return</rel>
+<arg n="0">Mrs. Thatcher</arg>
+<arg n="3">is excoriated from Fleet Street to Paris as an obstructionist</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

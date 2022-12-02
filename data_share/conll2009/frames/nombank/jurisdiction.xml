@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="jurisdiction">
+<roleset id="jurisdiction.01" name="surpass" source="verb-dominate.01" vncls="47.8">
+<roles>
+
+<role descr="surpasser" n="0">
+<vnrole vncls="47.8" vntheta="Theme1"/></role>
+
+<role descr="thing surpassed" n="1">
+<vnrole vncls="47.8" vntheta="Theme2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the jurisdiction of the Cuban government over its own territory
+</text>
+<rel>jurisdiction</rel>
+<arg n="0">of the Cuban government</arg>
+<arg n="1">over its own territory</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Fourteen members of the House with jurisdiction over the EEOC
+</text>
+<arg n="0">Fourteen members of the House</arg>
+<rel>jurisdiction</rel>
+<arg n="1">over the EEOC</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="misjudgment">
+<roleset id="misjudgment.01" name="make a judgement" source="verb-judge.01" vncls="29.4">
+<roles>
+
+<role descr="judge" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="judged" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="judgement, attribute of arg1" n="2">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+<role descr="on what grounds" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+government misjudgments
+</text>
+<arg n="0">government</arg>
+<rel>misjudgments</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

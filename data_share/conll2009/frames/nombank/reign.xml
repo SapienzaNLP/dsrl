@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reign">
+<roleset id="reign.01" name="to exercise sovereign power, dominate" source="verb-reign.01">
+<roles>
+
+<role descr="entity reigning" n="0"></role>
+
+<role descr="empire" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Texas 's long reign as banking 's busiest graveyard
+</text>
+<arg n="0">Texas 's</arg>
+<arg f="TMP" n="M">long</arg>
+<rel>reign</rel>
+<arg n="1">as banking 's busiest graveyard</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its record-breaking 68-week reign as the prime-time ratings
+leader
+</text>
+<arg n="0">its</arg>
+<arg f="MNR" n="M">record-breaking</arg>
+<arg f="TMP" n="M">68-week</arg>
+<rel>reign</rel>
+<arg n="1">as the prime-time ratings leader</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

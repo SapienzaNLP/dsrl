@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commencement">
+<roleset id="commencement.01" name="begin" source="verb-commence.01" vncls="55.1">
+<roles>
+
+<role descr="beginner, agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme(-creation" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the commencement of the offer
+</text>
+<rel>commencement</rel>
+<arg n="1">of the offer</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

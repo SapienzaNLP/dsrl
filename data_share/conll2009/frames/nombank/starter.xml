@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="starter">
+<roleset id="starter.01" name="begin" source="verb-start.01" vncls="55.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme(-creation" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` energetic self-starters ''
+</text>
+<arg n="0">self-starters</arg>
+<arg n="1">self-starters</arg>
+<rel>self-starters</rel>
+</example>
+
+</roleset>
+<roleset id="starter.02" name="discourse-adverbial">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+For starters , racehorse buyers have to remember the basic
+problem of such ventures : These beasts do n't come with
+warranties .
+</text>
+<rel>starters</rel>
+<arg n="1">
+racehorse buyers have to remember the basic problem of such
+ventures : These beasts do n't come with warranties</arg>
+</example>
+
+<example name="autogen2">
+<text>
+For starters , some people call Ed and Lorraine Warren .
+</text>
+<rel>starters</rel>
+<arg n="1">some people call Ed and Lorraine Warren</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

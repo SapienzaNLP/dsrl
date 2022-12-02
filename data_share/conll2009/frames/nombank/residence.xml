@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="residence">
+<roleset id="residence.01" name="to live for an extended period" source="verb-reside.01" vncls="47.1-1">
+<roles>
+
+<role descr="entity residing" n="0">
+<vnrole vncls="47.1-1" vntheta="Theme"/></role>
+
+<role descr="location" n="1">
+<vnrole vncls="47.1-1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Three years ago , the exchange took up residence in a space-age
+tower of steel and glass -- evocative of the kind of modern
+architecture that Britain 's Prince Charles has denounced .
+</text>
+<arg n="0">the exchange</arg>
+<arg n="Support">took</arg>
+<rel>residence</rel>
+<arg n="1">
+in a space-age tower of steel and glass -- evocative of the kind
+of modern architecture that Britain 's Prince Charles has
+denounced</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its palatial residence
+</text>
+<arg n="0">its</arg>
+<arg f="REF" n="1">residence</arg>
+<rel>residence</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

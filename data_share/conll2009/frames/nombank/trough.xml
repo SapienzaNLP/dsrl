@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trough">
+<roleset id="trough.01" name="nomlike" source="verb-peak.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="beneficiary" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+both the peaks and the troughs of the plastics market
+</text>
+<arg f="REF" n="2">troughs</arg>
+<rel>troughs</rel>
+<arg n="1">of the plastics market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+revenue is in the trough
+</text>
+<arg n="1">revenue</arg>
+<arg f="REF" n="2">trough</arg>
+<rel>trough</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

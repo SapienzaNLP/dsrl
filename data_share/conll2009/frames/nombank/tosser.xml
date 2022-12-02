@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tosser">
+<roleset id="tosser.01" name="throw randomly" source="verb-toss.01" vncls="17.1">
+<roles>
+
+<role descr="tosser(s" n="0">
+<vnrole vncls="17.1" vntheta="Agent"/></role>
+
+<role descr="thing tossed" n="1">
+<vnrole vncls="17.1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Frisbee tossers
+</text>
+<arg n="1">Frisbee</arg>
+<arg n="0">tossers</arg>
+<rel>tossers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

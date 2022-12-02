@@ -1,0 +1,48 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="quarry">
+<roleset id="quarry.01" name="to pursue, search for" source="verb-hunt.01" vncls="35.1">
+<roles>
+
+<role descr="hunter" n="0">
+<vnrole vncls="35.1" vntheta="Agent"/></role>
+
+<role descr="entity hunted for" n="1">
+<vnrole vncls="35.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his quarry
+</text>
+<arg n="0">his</arg>
+<arg n="1">quarry</arg>
+<rel>quarry</rel>
+</example>
+
+</roleset>
+<roleset id="quarry.02" name="extract (ore or minerals) from the earth" source="verb-mine.01" vncls="10.9">
+<roles>
+
+<role descr="miner, agent" n="0">
+<vnrole vncls="10.9" vntheta="Agent"/></role>
+
+<role descr="thing extracted" n="1">
+<vnrole vncls="10.9" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an amazing fossil quarry high in the Canadian Rockies called the
+Burgess Shale
+</text>
+<arg n="1">fossil</arg>
+<rel>quarry</rel>
+<arg f="LOC" n="M">high in the Canadian Rockies</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

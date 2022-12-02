@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="enemy">
+<roleset id="enemy.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the chief public enemy
+</text>
+<arg n="1">public</arg>
+<arg n="0">enemy</arg>
+<rel>enemy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a former New Democracy Party representative and known political
+enemy of Mr. Mitsotakis
+</text>
+<arg n="0">enemy</arg>
+<rel>enemy</rel>
+<arg n="1">of Mr. Mitsotakis</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

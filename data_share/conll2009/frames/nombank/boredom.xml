@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="boredom">
+<roleset id="boredom.01" name="be dull" source="verb-bore.02">
+<roles>
+
+<role descr="boring entity" n="0"></role>
+
+<role descr="experiencer of boredom" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+people 's boredom
+</text>
+<arg n="1">people 's</arg>
+<rel>boredom</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

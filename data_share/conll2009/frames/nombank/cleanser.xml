@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cleanser">
+<roleset id="cleanser.01" name="make clean, empty" source="verb-cleanse.01">
+<roles>
+
+<role descr="agent, cleaner" n="0"></role>
+
+<role descr="dirt" n="1"></role>
+
+<role descr="dirty thing, now clean" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+facial cleansers
+</text>
+<arg n="2">facial</arg>
+<arg n="0">cleansers</arg>
+<rel>cleansers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

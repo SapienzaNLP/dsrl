@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="divide">
+<roleset id="divide.01" name="separate" source="verb-divide.02" vncls="23.1">
+<roles>
+
+<role descr="entity causing separation" n="0">
+<vnrole vncls="23.1" vntheta="Agent"/></role>
+
+<role descr="thing being divided" n="1">
+<vnrole vncls="23.1" vntheta="Patient"/></role>
+
+<role descr="divided among/between, if separate from arg1" n="2">
+<vnrole vncls="23.1" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the left-right ideological divide
+</text>
+<arg n="2">left-right</arg>
+<arg n="1">ideological</arg>
+<rel>divide</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a huge divide between Mr. Allen 's we're-all-in-this-together
+view and the divisive litigation approach of the civil rights
+groups
+</text>
+<arg f="EXT" n="M">huge</arg>
+<rel>divide</rel>
+<arg n="1">
+between Mr. Allen 's we're-all-in-this-together view and the
+divisive litigation approach of the civil rights groups</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

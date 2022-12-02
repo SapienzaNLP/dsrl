@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dislocation">
+<roleset id="dislocation.01" name="nomlike" source="verb-disrupt.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any dislocation in the financial markets from the California
+earthquake
+</text>
+<rel>dislocation</rel>
+<arg n="1">in the financial markets</arg>
+<arg n="0">from the California earthquake</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The economic dislocation
+</text>
+<arg n="1">economic</arg>
+<rel>dislocation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

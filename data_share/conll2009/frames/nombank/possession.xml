@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="possession">
+<roleset id="possession.01" name="have, own" source="verb-possess.01">
+<roles>
+
+<role descr="possessor" n="0"></role>
+
+<role descr="possession" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a child-as-required-yuppie-possession
+</text>
+<arg n="0">child-as-required-yuppie-possession</arg>
+<arg n="1">child-as-required-yuppie-possession</arg>
+<rel>child-as-required-yuppie-possession</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their papers , whether in their own possession or as donated or
+sold to libraries
+</text>
+<arg n="1">their papers</arg>
+<arg n="0">their</arg>
+<rel>possession</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

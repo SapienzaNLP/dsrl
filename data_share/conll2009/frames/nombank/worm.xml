@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="worm">
+<roleset id="worm.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Galileo worm had n't affected its computers or the computers
+of other government agencies because they had modified their
+systems to reject worms
+</text>
+<arg n="2">Galileo</arg>
+<rel>worm</rel>
+<arg n="Support">affected</arg>
+<arg n="1">its computers or the computers of other government agencies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Galileo worm
+</text>
+<arg n="2">Galileo</arg>
+<rel>worm</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

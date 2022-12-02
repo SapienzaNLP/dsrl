@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="demand">
+<roleset id="demand.01" name="ask a favor, ask a request, ask for" source="verb-demand.01">
+<roles>
+
+<role descr="asker" n="0"></role>
+
+<role descr="favor" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the ANC 's demands on the government to create a climate for
+negotiations
+</text>
+<arg n="0">the ANC 's</arg>
+<rel>demands</rel>
+<arg n="2">on the government</arg>
+<arg f="PRD" n="1">to create a climate for negotiations</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Sun to meet demand for its newest computers
+</text>
+<arg n="2">Sun</arg>
+<arg n="Support">meet</arg>
+<rel>demand</rel>
+<arg n="1">for its newest computers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

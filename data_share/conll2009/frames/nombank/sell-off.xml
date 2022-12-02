@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sell-off">
+<roleset id="sell-off.01" name="commerce: seller" source="verb-sell.01" vncls="13.1-1">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing sold" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="price paid" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the sell-off in Hilton shares
+</text>
+<rel>sell-off</rel>
+<arg n="1">in Hilton shares</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a sell-off in shares of companies with big debt loads on their
+balance sheets
+</text>
+<rel>sell-off</rel>
+<arg n="1">
+in shares of companies with big debt loads on their balance
+sheets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="statehood">
+<roleset id="statehood.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the statehood of a Poland or a Hungary
+</text>
+<arg f="REF" n="2">statehood</arg>
+<rel>statehood</rel>
+<arg n="1">of a Poland or a Hungary</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

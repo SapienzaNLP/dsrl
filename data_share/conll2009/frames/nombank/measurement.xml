@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="measurement">
+<roleset id="measurement.01" name="quantify" source="verb-measure.01" vncls="54.1">
+<roles>
+
+<role descr="measurer" n="0">
+<vnrole vncls="54.1" vntheta="Agent"/></role>
+
+<role descr="thing measured" n="1">
+<vnrole vncls="54.1" vntheta="Theme"/></role>
+
+<role descr="value" n="2" source="3">
+<vnrole vncls="54.1" vntheta="Attribute"/></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+<role descr="standard" n="4" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+metric measurement of volume
+</text>
+<arg n="4">metric</arg>
+<rel>measurement</rel>
+<arg n="1">of volume</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Its Richter Scale measurement
+</text>
+<arg n="1">Its</arg>
+<arg n="4">Richter Scale</arg>
+<arg f="REF" n="2">measurement</arg>
+<rel>measurement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

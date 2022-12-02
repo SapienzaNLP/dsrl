@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="differential">
+<roleset id="differential.01" name="be different" source="verb-differ.02" vncls="45.6">
+<roles>
+
+<role descr="things that are different" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext or mnr, how different" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="seperated arg1" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+narrowing interest-rate differentials between the U.S. and its
+major trading partners
+</text>
+<arg f="MNR" n="M">narrowing</arg>
+<arg n="2">interest-rate</arg>
+<rel>differentials</rel>
+<arg n="1">between the U.S. and its major trading partners</arg>
+</example>
+
+<example name="autogen2">
+<text>
+interest rate differentials between the U.S. and West Germany
+</text>
+<arg n="2">interest rate</arg>
+<rel>differentials</rel>
+<arg n="1">between the U.S. and West Germany</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cold">
+<roleset id="cold.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a regional economy catches cold
+</text>
+<arg n="1">a regional economy</arg>
+<arg n="Support">catches</arg>
+<rel>cold</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="coupon">
+<roleset id="coupon.01" name="reduce in price" source="verb-discount.01">
+<roles>
+
+<role descr="discounter" n="0"></role>
+
+<role descr="commodity" n="1"></role>
+
+<role descr="ext, amount of reduction" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cents-off coupons for mascara
+</text>
+<arg n="2">cents-off</arg>
+<rel>coupons</rel>
+<arg n="1">for mascara</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a 4 % coupon
+</text>
+<arg n="2">4 %</arg>
+<rel>coupon</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

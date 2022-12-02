@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="evening">
+<roleset id="evening.01" name="environment/meronym">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="whole" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Tuesday evening 's temblor
+</text>
+<arg n="2">Tuesday</arg>
+<rel>evening</rel>
+<arg n="1">temblor</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Friday afternoon and evening
+</text>
+<arg n="2">Friday</arg>
+<rel>evening</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

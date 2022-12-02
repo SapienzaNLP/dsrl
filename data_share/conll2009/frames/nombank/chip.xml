@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chip">
+<roleset id="chip.01" name="partitive-part/meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a chip for its mainframes , IBM 's bread-and-butter business
+</text>
+<rel>chip</rel>
+<arg n="1">for its mainframes , IBM 's bread-and-butter business</arg>
+</example>
+
+<example name="autogen2">
+<text>
+COMPUTER chips
+</text>
+<arg n="1">COMPUTER</arg>
+<rel>chips</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

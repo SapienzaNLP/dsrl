@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="intensifier">
+<roleset id="intensifier.01" name="make more intense" source="verb-intensify.01" vncls="45.4">
+<roles>
+
+<role descr="causer of intensity" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing becoming intense" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="instrument, if separate from agent" n="2">
+<vnrole vncls="45.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+certain image intensifier tubes
+</text>
+<arg n="1">image</arg>
+<arg n="0">intensifier</arg>
+<rel>intensifier</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

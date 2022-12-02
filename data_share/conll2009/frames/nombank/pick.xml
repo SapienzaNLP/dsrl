@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pick">
+<roleset id="pick.01" name="select from a group1" source="verb-pick.01" vncls="13.5.1">
+<roles>
+
+<role descr="picker" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing picked" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+<role descr="source" n="3" source="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her OTC picks
+</text>
+<arg n="0">her</arg>
+<arg n="3">OTC</arg>
+<arg n="1">picks</arg>
+<rel>picks</rel>
+</example>
+
+<example name="autogen2">
+<text>
+The pick of the group
+</text>
+<arg n="1">pick</arg>
+<rel>pick</rel>
+<arg n="3">of the group</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scramble">
+<roleset id="scramble.01" name="try, attempt desperately" source="verb-scramble.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a scramble among global groups for the British company 's brands
+</text>
+<rel>scramble</rel>
+<arg n="0">among global groups</arg>
+<arg n="1">for the British company 's brands</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a scramble among distillers
+</text>
+<rel>scramble</rel>
+<arg n="0">among distillers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

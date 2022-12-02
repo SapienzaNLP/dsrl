@@ -1,0 +1,22 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="industrialization">
+<roleset id="industrialization.01" name="acquire industrial capacity" source="verb-industrialize.01">
+<roles>
+
+<role descr="thing becoming industrialized" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the province 's rapid industrialization
+</text>
+<arg n="1">the province 's</arg>
+<arg f="MNR" n="M">rapid</arg>
+<rel>industrialization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

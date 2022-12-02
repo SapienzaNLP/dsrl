@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="worsening">
+<roleset id="worsening.01" name="make or become worse" source="verb-worsen.01" vncls="45.4">
+<roles>
+
+<role descr="agent (rarely occuring" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing getting worse" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="instrument (preferable to agent" n="2">
+<vnrole vncls="45.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a severe worsening of inflation
+</text>
+<arg f="MNR" n="M">severe</arg>
+<rel>worsening</rel>
+<arg n="1">of inflation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

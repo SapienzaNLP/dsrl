@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="guard">
+<roleset id="guard.01" name="stand watch over" source="verb-guard.01" vncls="29.8">
+<roles>
+
+<role descr="guard" n="0">
+<vnrole vncls="29.8" vntheta="Agent"/></role>
+
+<role descr="guarded" n="1">
+<vnrole vncls="29.8" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a security guard
+</text>
+<arg n="2">security</arg>
+<arg n="0">guard</arg>
+<rel>guard</rel>
+</example>
+
+<example name="autogen2">
+<text>
+NASA 's guard
+</text>
+<arg n="1">NASA 's</arg>
+<arg n="0">guard</arg>
+<rel>guard</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

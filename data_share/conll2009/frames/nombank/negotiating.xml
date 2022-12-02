@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="negotiating">
+<roleset id="negotiating.01" name="work out terms of agreement" source="verb-negotiate.01" vncls="36.1">
+<roles>
+
+<role descr="negotiator" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="agreement" n="1" source="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+<role descr="explicit other party" n="2" source="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their current negotiating round
+</text>
+<arg n="0">their</arg>
+<rel>negotiating</rel>
+<arg n="Support">round</arg>
+</example>
+
+<example name="autogen2">
+<text>
+After hours of negotiating that stretched late into Thursday
+night , underwriters priced the 12-year issue of resettable
+senior subordinated debentures at par to yield 14.75 % , higher
+than the 14.5 % that had been expected .
+</text>
+<arg n="Support">hours of</arg>
+<rel>negotiating</rel>
+<arg f="PRD" n="1">
+underwriters priced the 12-year issue of resettable senior
+subordinated debentures at par to yield 14.75 % , higher than the
+14.5 % that had been expected</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

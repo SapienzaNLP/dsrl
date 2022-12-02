@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="happiness">
+<roleset id="happiness.01" name="nomadj-happy">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their perfumed happiness
+</text>
+<arg n="0">their</arg>
+<rel>happiness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

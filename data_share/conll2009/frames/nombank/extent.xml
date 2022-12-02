@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="extent">
+<roleset id="extent.01" name="attribute/nom" source="verb-extend.01">
+<roles>
+
+<role descr="agent, entity making something be longer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The EC and Japan -- the U.S. 's largest steel suppliers -- have
+n't been filling their quotas to the full extent .
+</text>
+<arg n="0">The EC and Japan -- the U.S. 's largest steel suppliers --</arg>
+<arg n="Support">filling to</arg>
+<arg n="1">their quotas</arg>
+<arg n="2">full</arg>
+<rel>extent</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the full extent of the devastation
+</text>
+<arg n="2">full</arg>
+<rel>extent</rel>
+<arg n="1">of the devastation</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

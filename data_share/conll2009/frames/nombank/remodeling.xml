@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="remodeling">
+<roleset id="remodeling.01" name="update structure" source="verb-remodel.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his remodeling of Paul Stuart , the Madison Avenue clothing store
+</text>
+<arg n="0">his</arg>
+<rel>remodeling</rel>
+<arg n="1">of Paul Stuart , the Madison Avenue clothing store</arg>
+</example>
+
+<example name="autogen2">
+<text>
+home repair and remodeling
+</text>
+<arg n="1">home</arg>
+<rel>remodeling</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

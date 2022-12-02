@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="suppressor">
+<roleset id="suppressor.01" name="attempt to) conceal, push down" source="verb-suppress.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the retinoblastoma suppressor gene
+</text>
+<arg n="1">retinoblastoma</arg>
+<arg n="0">suppressor</arg>
+<rel>suppressor</rel>
+</example>
+
+<example name="autogen2">
+<text>
+tumor-suppressors
+</text>
+<arg n="0">tumor-suppressors</arg>
+<arg n="1">tumor-suppressors</arg>
+<rel>tumor-suppressors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

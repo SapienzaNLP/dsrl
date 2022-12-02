@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stockpile">
+<roleset id="stockpile.01" name="nom/partitive-quant" source="verb-stockpile.01">
+<roles>
+
+<role descr="agent, storer" n="0"></role>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="location or destination" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+U.S. corn stockpiles
+</text>
+<arg n="0">U.S.</arg>
+<arg n="1">corn</arg>
+<rel>stockpiles</rel>
+</example>
+
+<example name="autogen2">
+<text>
+But , with profits sagging on Wall Street since the crash ,
+companies have kept smaller share stockpiles on hand .
+</text>
+<arg n="0">companies</arg>
+<arg n="Support">kept</arg>
+<arg n="1">share</arg>
+<rel>stockpiles</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

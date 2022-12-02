@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="distortion">
+<roleset id="distortion.01" name="alter badly" source="verb-distort.01">
+<roles>
+
+<role descr="alterer, agent" n="0"></role>
+
+<role descr="thing distorted" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+outrageous distortions
+</text>
+<arg f="MNR" n="M">outrageous</arg>
+<rel>distortions</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

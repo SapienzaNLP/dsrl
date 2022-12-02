@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prohibition">
+<roleset id="prohibition.01" name="prevent an action" source="verb-prohibit.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme (action or object being prevented" n="1"></role>
+
+<role descr="secondary predication or action" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Canada initially had an export prohibition that was replaced by
+regulations requiring that such fish had to be brought ashore in
+British Columbia by commercial fishermen prior to export .
+</text>
+<arg n="0">Canada</arg>
+<arg n="Support">had</arg>
+<arg n="2">export</arg>
+<rel>prohibition</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a prohibition on using the emergency highway aid to repair toll
+roads
+</text>
+<rel>prohibition</rel>
+<arg n="2">on using the emergency highway aid to repair toll roads</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,87 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="duty">
+<roleset id="duty.01" name="to force to do something" source="verb-oblige.02">
+<roles>
+
+<role descr="causal agent" n="0"></role>
+
+<role descr="obligated" n="1"></role>
+
+<role descr="obligation" n="2"></role>
+
+<role descr="job" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his fiduciary duty to the corporation
+</text>
+<arg n="1">his</arg>
+<arg n="2">fiduciary</arg>
+<rel>duty</rel>
+<arg n="0">to the corporation</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his executive duties
+</text>
+<arg n="1">his</arg>
+<arg n="3">executive</arg>
+<arg f="REF" n="2">duties</arg>
+<rel>duties</rel>
+</example>
+
+</roleset>
+<roleset id="duty.02" name="government charging money" source="verb-tax.01" vncls="54.5">
+<roles>
+
+<role descr="taxer" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="amount of tax" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="taxpayer" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Saying that a surge in low-priced imports had damaged EC
+producers ' profits and led to job losses , the commission
+imposed a duty of 10.2 % on TVs made by Daewoo , a duty of 12.3 %
+on Goldstar Co. , 13 % on Samsung and 19.6 % on TVs made by other
+South Korean producers .
+</text>
+<arg n="0">the commission</arg>
+<arg n="Support">imposed</arg>
+<rel>duty</rel>
+<arg n="1">of 10.2 %</arg>
+<arg n="3">on TVs made by Daewoo</arg>
+</example>
+
+<example name="autogen2">
+<text>
+If both agencies find violations of the U.S. trade law , the U.S.
+would assess penalty duties on the imports , which already are
+subject to import quotas under bilateral textile and apparel
+trade agreements .
+</text>
+<arg n="0">the U.S.</arg>
+<arg n="Support">assess</arg>
+<rel>duties</rel>
+<arg n="3">
+on the imports , which already are subject to import quotas under
+bilateral textile and apparel trade agreements</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

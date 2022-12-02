@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="route">
+<roleset id="route.01" name="travel" source="verb-travel.01" vncls="51.3.2">
+<roles>
+
+<role descr="traveller" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="destination or path" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a pipeline route for the gas
+</text>
+<arg n="1">pipeline</arg>
+<rel>route</rel>
+<arg n="0">for the gas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+numerous new bus routes and train departures
+</text>
+<arg n="0">bus</arg>
+<rel>routes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

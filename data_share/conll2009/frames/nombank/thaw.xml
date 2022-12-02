@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thaw">
+<roleset id="thaw.01" name="to change from a solid to a liquid state" source="verb-melt.01" vncls="26.5">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="26.5" vntheta="Agent"/></role>
+
+<role descr="thing thawed" n="1">
+<vnrole vncls="26.5" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the further thaw in U.S.-Soviet relations
+</text>
+<arg f="EXT" n="M">further</arg>
+<rel>thaw</rel>
+<arg n="1">in U.S.-Soviet relations</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

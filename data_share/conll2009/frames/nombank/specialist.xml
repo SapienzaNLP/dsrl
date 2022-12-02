@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="specialist">
+<roleset id="specialist.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary/consultant" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+<role descr="employer" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a partner and merger specialist with Lazard Freres &amp; Co
+</text>
+<arg n="1">merger</arg>
+<arg n="0">specialist</arg>
+<rel>specialist</rel>
+<arg n="2">with Lazard Freres &amp; Co</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Disney specialist Robert Fagenson
+</text>
+<arg n="2">Disney</arg>
+<arg n="0">specialist</arg>
+<rel>specialist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

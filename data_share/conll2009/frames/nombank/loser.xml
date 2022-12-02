@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="loser">
+<roleset id="loser.01" name="lose, no longer have" source="verb-lose.02">
+<roles>
+
+<role descr="entity losing something" n="0"></role>
+
+<role descr="thing lost" n="1"></role>
+
+<role descr="beneficiary, entity gaining thing lost" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a big revenue loser
+</text>
+<arg f="MNR" n="M">big</arg>
+<arg n="1">revenue</arg>
+<arg n="0">loser</arg>
+<rel>loser</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the only big losers
+</text>
+<arg f="MNR" n="M">big</arg>
+<arg n="0">losers</arg>
+<rel>losers</rel>
+</example>
+
+</roleset>
+<roleset id="loser.02" name="battle" source="verb-lose.03">
+<roles>
+
+<role descr="loser" n="0"></role>
+
+<role descr="battle" n="1"></role>
+
+<role descr="winner" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The only permanent losers
+</text>
+<arg f="MNR" n="M">permanent</arg>
+<arg n="0">losers</arg>
+<rel>losers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+very clear losers
+</text>
+<arg f="MNR" n="M">very clear</arg>
+<arg n="0">losers</arg>
+<rel>losers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

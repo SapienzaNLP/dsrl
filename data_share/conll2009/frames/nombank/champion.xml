@@ -1,0 +1,69 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="champion">
+<roleset id="champion.01" name="lend aid, credence to" source="verb-champion.01" vncls="29.8">
+<roles>
+
+<role descr="helper" n="0">
+<vnrole vncls="29.8" vntheta="Agent"/></role>
+
+<role descr="person or project being supported" n="1">
+<vnrole vncls="29.8" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its champion
+</text>
+<arg n="1">its</arg>
+<arg n="0">champion</arg>
+<rel>champion</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a passionate champion of either cause
+</text>
+<arg f="MNR" n="M">passionate</arg>
+<arg n="0">champion</arg>
+<rel>champion</rel>
+<arg n="1">of either cause</arg>
+</example>
+
+</roleset>
+<roleset id="champion.02" name="nomadjlike-expert">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="domain" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+several recent champions of the world according to us -LRB- as in
+U.S. -RRB-
+</text>
+<arg f="TMP" n="M">recent</arg>
+<arg n="0">champions</arg>
+<rel>champions</rel>
+<arg n="1">of the world according to us -LRB- as in U.S. -RRB-</arg>
+</example>
+
+<example name="autogen2">
+<text>
+no clear-cut champion of reform , that we know of , in the East
+German leadership
+</text>
+<arg f="NEG" n="M">no</arg>
+<arg f="ADV" n="M">clear-cut</arg>
+<arg n="0">champion</arg>
+<rel>champion</rel>
+<arg n="1">of reform</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

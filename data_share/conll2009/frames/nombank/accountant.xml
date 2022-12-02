@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accountant">
+<roleset id="accountant.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+former chief accountant of the Securities and Exchange Commission
+</text>
+<arg n="0">accountant</arg>
+<rel>accountant</rel>
+<arg n="2">of the Securities and Exchange Commission</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his accountant 's
+</text>
+<arg n="2">his</arg>
+<arg n="0">accountant</arg>
+<rel>accountant</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

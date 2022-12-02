@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rumbling">
+<roleset id="rumbling.01" name="nomlike/work-of-art" source="verb-rumor.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+rumblings that , at long last , changes may be in the works
+</text>
+<rel>rumblings</rel>
+<arg n="1">that , at long last , changes may be in the works</arg>
+</example>
+
+<example name="autogen2">
+<text>
+internal rumblings
+</text>
+<arg n="0">internal</arg>
+<rel>rumblings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

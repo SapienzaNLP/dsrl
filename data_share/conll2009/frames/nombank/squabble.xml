@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="squabble">
+<roleset id="squabble.01" name="argue with" source="verb-argue.02" vncls="36.1">
+<roles>
+
+<role descr="first arguer" n="0">
+<vnrole vncls="36.1" vntheta="Actor1"/></role>
+
+<role descr="second arguer" n="1">
+<vnrole vncls="36.1" vntheta="Actor2"/></role>
+
+<role descr="topic" n="2">
+<vnrole vncls="36.1" vntheta="Topic"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Lawson resigned from his six-year post because of a policy
+squabble with other cabinet members
+</text>
+<arg n="0">Mr. Lawson</arg>
+<arg n="2">policy</arg>
+<rel>squabble</rel>
+<arg n="1">with other cabinet members</arg>
+</example>
+
+<example name="autogen2">
+<text>
+internal squabbles
+</text>
+<arg f="LOC" n="M">internal</arg>
+<rel>squabbles</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

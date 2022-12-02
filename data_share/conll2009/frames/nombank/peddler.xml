@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="peddler">
+<roleset id="peddler.01" name="to sell or offer for sale" source="verb-peddle.01" vncls="13.1-1">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing peddled" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="peddled to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="price" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a penny-stock peddler
+</text>
+<arg n="1">penny-stock</arg>
+<arg n="0">peddler</arg>
+<rel>peddler</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

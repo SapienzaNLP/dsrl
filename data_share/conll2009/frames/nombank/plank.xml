@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="plank">
+<roleset id="plank.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Dinkins 's economic planks
+</text>
+<arg n="0">Mr. Dinkins 's</arg>
+<arg n="1">economic</arg>
+<rel>planks</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

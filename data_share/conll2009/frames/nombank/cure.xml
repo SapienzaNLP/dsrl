@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cure">
+<roleset id="cure.01" name="treat an illness completely" source="verb-cure.01" vncls="10.6">
+<roles>
+
+<role descr="doctor (etc" n="0">
+<vnrole vncls="10.6" vntheta="Agent"/></role>
+
+<role descr="patient" n="1">
+<vnrole vncls="10.6" vntheta="Source"/></role>
+
+<role descr="illness or injury" n="2">
+<vnrole vncls="10.6" vntheta="Theme"/></role>
+
+<role descr="instrument, treatment" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the market has produced as a cure
+</text>
+<arg n="0">the market</arg>
+<arg n="Support">produced as</arg>
+<arg n="3">cure</arg>
+<rel>cure</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a gallstone cure being developed by researchers of the University
+of California at San Diego
+</text>
+<arg n="2">gallstone</arg>
+<arg n="3">cure</arg>
+<rel>cure</rel>
+<arg n="Support">developed</arg>
+<arg n="0">by researchers of the University of California at San Diego</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

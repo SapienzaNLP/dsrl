@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="kid">
+<roleset id="kid.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+your kid 's
+</text>
+<arg n="1">your</arg>
+<arg n="0">kid</arg>
+<rel>kid</rel>
+</example>
+
+<example name="autogen3">
+<text>
+your kids
+</text>
+<arg n="1">your</arg>
+<arg n="0">kids</arg>
+<rel>kids</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

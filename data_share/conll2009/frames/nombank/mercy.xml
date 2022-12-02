@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mercy">
+<roleset id="mercy.01" name="nomadjlike-dependent/nomlike" source="verb-affect.01" vncls="31.1">
+<roles>
+
+<role descr="thing affecting--animate only" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="thing affected" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+We 're really at the mercy of what the construction industry can
+and will do readily
+</text>
+<arg n="1">We</arg>
+<rel>mercy</rel>
+<arg n="0">of what the construction industry can and will do readily</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Cristiani 's government is very much at the mercy of U.S.
+largess and is forced to listen very carefully to Sen. Dodd 's
+likes and dislikes
+</text>
+<arg n="1">Mr. Cristiani 's government</arg>
+<rel>mercy</rel>
+<arg n="0">of U.S. largess</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

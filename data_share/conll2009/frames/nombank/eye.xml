@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="eye">
+<roleset id="eye.01" name="view" source="verb-see.01" vncls="29.2">
+<roles>
+
+<role descr="viewer" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing viewed" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+those with a long-term eye on the vast U.S. retail market
+</text>
+<arg n="0">those</arg>
+<arg f="TMP" n="M">long-term</arg>
+<rel>eye</rel>
+<arg n="1">on the vast U.S. retail market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+All eyes were on Tokyo at the opening because it was the first
+major market to trade since Friday 's 190.58-point plunge on Wall
+Street .
+</text>
+<rel>eyes</rel>
+<arg n="1">on Tokyo</arg>
+</example>
+
+</roleset>
+<roleset id="eye.02" name="meronym">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his pale-blue eyes
+</text>
+<arg n="1">his</arg>
+<rel>eyes</rel>
+</example>
+
+<example name="autogen2">
+<text>
+almost anyone 's eyes
+</text>
+<arg n="1">almost anyone 's</arg>
+<rel>eyes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="frequency">
+<roleset id="frequency.01" name="attribute/nomadj-frequent">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the frequency of corporate credit downgrades
+</text>
+<rel>frequency</rel>
+<arg n="1">of corporate credit downgrades</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the `` frequency of women fainting in peals
+</text>
+<rel>frequency</rel>
+<arg n="1">of women fainting in peals</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

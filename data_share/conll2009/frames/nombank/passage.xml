@@ -1,0 +1,53 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="passage">
+<roleset id="passage.01" name="bill becomes law" source="verb-pass.01">
+<roles>
+
+<role descr="legislative body" n="0"></role>
+
+<role descr="bill, state prior to passing" n="1"></role>
+
+<role descr="law, state after passing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+congressional and presidential passage of an increase in the
+federal debt ceiling
+</text>
+<arg n="0">congressional and presidential</arg>
+<rel>passage</rel>
+<arg n="1">of an increase in the federal debt ceiling</arg>
+</example>
+
+<example name="autogen2">
+<text>
+passage of two constitutional amendment bills
+</text>
+<rel>passage</rel>
+<arg n="1">of two constitutional amendment bills</arg>
+</example>
+
+</roleset>
+<roleset id="passage.02" name="go by" source="verb-pass.03">
+<roles>
+
+<role descr="thing passing" n="1"></role>
+
+<role descr="thing passed by" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+political passage
+</text>
+<arg f="MNR" n="M">political</arg>
+<rel>passage</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

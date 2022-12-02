@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clip">
+<roleset id="clip.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a faster clip
+</text>
+<arg n="2">faster</arg>
+<rel>clip</rel>
+</example>
+
+</roleset>
+<roleset id="clip.02" name="partitive-part/work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+film clips
+</text>
+<arg n="1">film</arg>
+<rel>clips</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

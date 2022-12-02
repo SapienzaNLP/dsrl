@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pot">
+<roleset id="pot.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+many a stagnant pot of porridge
+</text>
+<rel>pot</rel>
+<arg n="1">of porridge</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a honey pot
+</text>
+<arg n="1">honey</arg>
+<rel>pot</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="modernization">
+<roleset id="modernization.01" name="make more up-to-date" source="verb-modernize.01">
+<roles>
+
+<role descr="modernizer" n="0"></role>
+
+<role descr="thing being modernized" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they can spend the next three or four or five or six years of
+their life bringing about the most difficult and costly
+modernization of an information system on the civil side ever
+</text>
+<arg n="0">they ---> *-1</arg>
+<arg n="Support">bringing</arg>
+<rel>modernization</rel>
+<arg n="1">of an information system on the civil side</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the modernization of a pulp and newsprint mill in Alabama
+</text>
+<rel>modernization</rel>
+<arg n="1">of a pulp and newsprint mill in Alabama</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

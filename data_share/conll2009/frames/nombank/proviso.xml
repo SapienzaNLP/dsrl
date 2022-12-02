@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="proviso">
+<roleset id="proviso.01" name="nom/attribute/nomadjlike-prerequisite" source="verb-amend.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+A proviso to that promise is that a minimum of 35 states reach
+settlement agreements before next Tuesday .
+</text>
+<rel>proviso</rel>
+<arg n="1">to that promise</arg>
+<arg n="2">
+that a minimum of 35 states reach settlement agreements before
+next Tuesday</arg>
+</example>
+
+<example name="autogen2">
+<text>
+But now the possibility of `` diplomatic movement '' -LRB-
+Vietnam 's withdrawal , the Baker initiative -RRB- has put that
+plan on hold , with the proviso that if the going got rough , the
+U.S. would then rearm the opposition .
+</text>
+<arg n="1">put that plan on hold</arg>
+<rel>proviso</rel>
+<arg n="2">
+that if the going got rough , the U.S. would then rearm the
+opposition</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

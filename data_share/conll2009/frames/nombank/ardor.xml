@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ardor">
+<roleset id="ardor.01" name="nomadjlike-eager" source="verb-desire.01" vncls="32.1">
+<roles>
+
+<role descr="experiencer" n="0">
+<vnrole vncls="32.1" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="32.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his environmental ardor
+</text>
+<arg n="0">his</arg>
+<arg n="1">environmental</arg>
+<rel>ardor</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Ford 's ardor
+</text>
+<arg n="0">Ford 's</arg>
+<rel>ardor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

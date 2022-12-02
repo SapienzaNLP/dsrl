@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="divisiveness">
+<roleset id="divisiveness.01" name="nomadj-divisive">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a new toughness and divisiveness in Japan 's once-cozy financial
+circles
+</text>
+<rel>divisiveness</rel>
+<arg n="0">in Japan 's once-cozy financial circles</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

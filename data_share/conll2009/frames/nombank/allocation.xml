@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="allocation">
+<roleset id="allocation.01" name="give to, donate" source="verb-allocate.01" vncls="13.3">
+<roles>
+
+<role descr="granter" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="thing granted" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary, granted-to" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our asset allocation in foreign equities
+</text>
+<arg n="0">our</arg>
+<arg n="1">asset</arg>
+<rel>allocation</rel>
+<arg n="2">in foreign equities</arg>
+</example>
+
+<example name="autogen2">
+<text>
+credit allocations for the Federal Housing Administration
+</text>
+<arg n="1">credit</arg>
+<rel>allocations</rel>
+<arg n="2">for the Federal Housing Administration</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

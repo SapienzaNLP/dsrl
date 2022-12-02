@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="digging">
+<roleset id="digging.01" name="turn over, remove soil" source="verb-dig.01" vncls="26.4-1">
+<roles>
+
+<role descr="digger, agent" n="0">
+<vnrole vncls="26.4-1" vntheta="Agent"/></role>
+
+<role descr="entity removed" n="1">
+<vnrole vncls="26.4-1" vntheta="Product"/></role>
+
+<role descr="instrument" n="2">
+<vnrole vncls="19" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his own digging on University of Nebraska football , which is ,
+to date , high and dry as far as the NCAA is concerned
+</text>
+<arg n="0">his</arg>
+<rel>digging</rel>
+<arg n="1">
+on University of Nebraska football , which is , to date , high
+and dry as far as the NCAA is concerned</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

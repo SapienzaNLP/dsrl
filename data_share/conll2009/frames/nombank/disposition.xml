@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disposition">
+<roleset id="disposition.01" name="get rid of" source="verb-dispose.01">
+<roles>
+
+<role descr="agent, entity getting rid of something" n="0"></role>
+
+<role descr="thing gotten rid of" n="1"></role>
+
+<role descr="instrument or manner, if separate from agent" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The company had a one-time charge of $ 14.8 million in the latest
+quarter covering the disposition of certain assets .
+</text>
+<arg n="0">a one-time charge of $ 14.8 million ---> *-1</arg>
+<arg n="Support">covering</arg>
+<rel>disposition</rel>
+<arg n="1">of certain assets</arg>
+</example>
+
+<example name="autogen2">
+<text>
+disposition of assets
+</text>
+<rel>disposition</rel>
+<arg n="1">of assets</arg>
+</example>
+
+</roleset>
+<roleset id="disposition.02" name="be prepared, comport oneself" source="verb-dispose.02">
+<roles>
+
+<role descr="one prepared, with a disposition" n="1"></role>
+
+<role descr="prepared for what, kind of disposition" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its disposition
+</text>
+<arg n="1">its</arg>
+<rel>disposition</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

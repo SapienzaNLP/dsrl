@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="propriety">
+<roleset id="propriety.01" name="attribute/nomadj-proper">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the propriety of a 1986 junk-bond investment
+</text>
+<arg f="REF" n="2">propriety</arg>
+<rel>propriety</rel>
+<arg n="1">of a 1986 junk-bond investment</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the propriety of the preferred-share issue
+</text>
+<arg f="REF" n="2">propriety</arg>
+<rel>propriety</rel>
+<arg n="1">of the preferred-share issue</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

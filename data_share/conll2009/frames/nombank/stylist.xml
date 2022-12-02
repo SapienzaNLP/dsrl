@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stylist">
+<roleset id="stylist.01" name="nom-stylize/actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a food stylist
+</text>
+<arg n="1">food</arg>
+<arg n="0">stylist</arg>
+<rel>stylist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

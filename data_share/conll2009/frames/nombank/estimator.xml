@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="estimator">
+<roleset id="estimator.01" name="guess" source="verb-estimate.01" vncls="54.4">
+<roles>
+
+<role descr="estimator" n="0">
+<vnrole vncls="54.4" vntheta="Agent"/></role>
+
+<role descr="thing estimated" n="1">
+<vnrole vncls="54.4" vntheta="Theme"/></role>
+
+<role descr="estimated-to-be, attribute of arg1" n="2">
+<vnrole vncls="54.4" vntheta="Attribute"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The federal productivity estimators
+</text>
+<arg n="1">productivity</arg>
+<arg n="0">estimators</arg>
+<rel>estimators</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

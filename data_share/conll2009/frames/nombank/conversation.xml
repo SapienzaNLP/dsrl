@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conversation">
+<roleset id="conversation.01" name="nomlike" source="verb-discuss.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="actor2" n="2"></role>
+
+<role descr="medium" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the telephone conversations of prominent figures , including key
+opposition politicians , journalists and PASOK cabinet members
+</text>
+<arg n="3">telephone</arg>
+<rel>conversations</rel>
+<arg n="0">
+of prominent figures , including key opposition politicians ,
+journalists and PASOK cabinet members</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a taped telephone conversation of him proposing to Braniff 's
+president that they both raise fares 20 %
+</text>
+<arg n="3">telephone</arg>
+<rel>conversation</rel>
+<arg n="1">
+of him proposing to Braniff 's president that they both raise
+fares 20 %</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

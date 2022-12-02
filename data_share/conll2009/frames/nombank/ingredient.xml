@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ingredient">
+<roleset id="ingredient.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the most powerful ingredients in the bull market
+</text>
+<rel>ingredients</rel>
+<arg n="1">in the bull market</arg>
+</example>
+
+<example name="autogen2">
+<text>
+pharmaceuticals ingredients
+</text>
+<arg n="1">pharmaceuticals</arg>
+<rel>ingredients</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

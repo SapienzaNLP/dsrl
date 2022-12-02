@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="epicenter">
+<roleset id="epicenter.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the epicenter of Tuesday 's temblor
+</text>
+<arg n="0">epicenter</arg>
+<rel>epicenter</rel>
+<arg n="1">of Tuesday 's temblor</arg>
+</example>
+
+<example name="autogen3">
+<text>
+the earthquake 's epicenter
+</text>
+<arg n="1">the earthquake 's</arg>
+<arg n="0">epicenter</arg>
+<rel>epicenter</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

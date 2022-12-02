@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="acknowledgement">
+<roleset id="acknowledgement.01" name="admit" source="verb-acknowledge.01">
+<roles>
+
+<role descr="admitter, claimer, speaker" n="0"></role>
+
+<role descr="proposition, claim, utterance" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+<role descr="secondary predication" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the U.S. government 's first acknowledgement of what other groups
+, such as the International Monetary Fund , have been predicting
+for months
+</text>
+<arg n="0">the U.S. government 's</arg>
+<arg f="TMP" n="M">first</arg>
+<rel>acknowledgement</rel>
+<arg n="1">
+of what other groups , such as the International Monetary Fund ,
+have been predicting for months</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

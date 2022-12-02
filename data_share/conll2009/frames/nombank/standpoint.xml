@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="standpoint">
+<roleset id="standpoint.01" name="attribute/discourse-connective">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It makes sense from a strategic standpoint . ''
+</text>
+<arg n="1">It makes sense</arg>
+<arg n="2">strategic</arg>
+<rel>standpoint</rel>
+</example>
+
+<example name="autogen2">
+<text>
+From a financial standpoint , the boom could n't come at a better
+time .
+</text>
+<arg n="2">financial</arg>
+<rel>standpoint</rel>
+<arg n="1">the boom could n't come at a better time</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pundit">
+<roleset id="pundit.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+market pundits
+</text>
+<arg n="1">market</arg>
+<arg n="0">pundits</arg>
+<rel>pundits</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

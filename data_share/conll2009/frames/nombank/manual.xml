@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="manual">
+<roleset id="manual.01" name="try to) make learn" source="verb-teach.01" vncls="37.1-1">
+<roles>
+
+<role descr="teacher" n="0">
+<vnrole vncls="37.1-1" vntheta="Agent"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="37.1-1" vntheta="Topic"/></role>
+
+<role descr="student(s" n="2">
+<vnrole vncls="37.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+employee manuals on pensions , health care and other subjects
+</text>
+<arg n="2">employee</arg>
+<arg n="0">manuals</arg>
+<rel>manuals</rel>
+<arg n="1">on pensions , health care and other subjects</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its employee manuals
+</text>
+<arg n="2">employee</arg>
+<arg n="0">manuals</arg>
+<rel>manuals</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sabotage">
+<roleset id="sabotage.01" name="wreck clandestinely" source="verb-sabotage.01">
+<roles>
+
+<role descr="saboteur" n="0"></role>
+
+<role descr="thing wrecked" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And on at least one occasion , in the spring of 1985 , he helped
+arrange a sabotage attack on a Sandinista arsenal in Nicaragua .
+</text>
+<arg n="0">he</arg>
+<arg n="Support">arrange attack</arg>
+<rel>sabotage</rel>
+<arg n="1">on a Sandinista arsenal in Nicaragua</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they were all sentenced to life imprisonment in the first place :
+for sabotage and conspiracy to overthrow the government
+</text>
+<arg n="0">they</arg>
+<arg n="Support">sentenced for</arg>
+<rel>sabotage</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

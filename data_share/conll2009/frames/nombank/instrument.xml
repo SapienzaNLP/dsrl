@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="instrument">
+<roleset id="instrument.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+major government instruments for meeting its financial
+requirements
+</text>
+<arg n="0">government</arg>
+<rel>instruments</rel>
+<arg n="1">for meeting its financial requirements</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the debt instrument
+</text>
+<arg n="1">debt</arg>
+<rel>instrument</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

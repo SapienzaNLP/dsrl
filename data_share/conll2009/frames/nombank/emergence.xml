@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="emergence">
+<roleset id="emergence.01" name="exit" source="verb-emerge.01" vncls="48.1.1">
+<roles>
+
+<role descr="thing exiting" n="0">
+<vnrole vncls="48.1.1" vntheta="Theme"/></role>
+
+<role descr="thing/place exited from" n="1">
+<vnrole vncls="48.1.1" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the re-emergence of computerized program trading
+</text>
+<rel>re-emergence</rel>
+<arg n="0">of computerized program trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the emergence of still electronic photography
+</text>
+<rel>emergence</rel>
+<arg n="0">of still electronic photography</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

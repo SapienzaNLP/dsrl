@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="profile">
+<roleset id="profile.01" name="create a profile" source="verb-profile.01">
+<roles>
+
+<role descr="creator, agent" n="0"></role>
+
+<role descr="entity profiled" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its financial profile
+</text>
+<arg n="3">its</arg>
+<arg n="1">financial</arg>
+<rel>profile</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the risk profile of its current merchant banking exposures
+</text>
+<arg n="1">risk</arg>
+<rel>profile</rel>
+<arg n="3">of its current merchant banking exposures</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cost">
+<roleset id="cost.01" name="requires cash" source="verb-cost.01" vncls="54.2">
+<roles>
+
+<role descr="commodity" n="1">
+<vnrole vncls="54.2" vntheta="Theme"/></role>
+
+<role descr="price" n="2">
+<vnrole vncls="54.2" vntheta="Attribute"/></role>
+
+<role descr="buyer" n="3"></role>
+
+<role descr="secondary-theme" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Industry estimates put Avis 's annual cost of all five programs
+at between $ 8 million and $ 14 million .
+</text>
+<arg n="Support">put</arg>
+<arg n="3">Avis 's</arg>
+<arg f="TMP" n="M">annual</arg>
+<rel>cost</rel>
+<arg n="1">of all five programs</arg>
+<arg n="2">at between $ 8 million and $ 14 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the per-ad cost to Texas Instruments
+</text>
+<arg n="1">per-ad</arg>
+<arg f="REF" n="2">cost</arg>
+<rel>cost</rel>
+<arg n="3">to Texas Instruments</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

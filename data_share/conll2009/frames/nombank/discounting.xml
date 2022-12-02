@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="discounting">
+<roleset id="discounting.01" name="reduce in price" source="verb-discount.01">
+<roles>
+
+<role descr="discounter" n="0"></role>
+
+<role descr="commodity" n="1"></role>
+
+<role descr="ext, amount of reduction" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+major rivals , Philip Morris Co. 's Miller Brewing unit and
+Adolph Coors Co. `` have been following a policy of continuous
+and deep discounting for at least the past 18 months '' on their
+premium brands , pricing their product as much as 25 cents a
+12-pack below Anheuser 's Budweiser label in many markets
+</text>
+<arg n="0">
+major rivals , Philip Morris Co. 's Miller Brewing unit and
+Adolph Coors Co.</arg>
+<arg n="Support">following policy of</arg>
+<arg f="MNR" n="M">continuous and deep</arg>
+<rel>discounting</rel>
+<arg n="1">*ICH*-1 ---> on their premium brands</arg>
+</example>
+
+<example name="autogen2">
+<text>
+price discounting
+</text>
+<arg n="1">price</arg>
+<rel>discounting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flatness">
+<roleset id="flatness.01" name="nomadj-flat/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+steel sheet with more uniform thickness and flatness
+</text>
+<arg n="1">steel sheet</arg>
+<arg f="REF" n="2">flatness</arg>
+<rel>flatness</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

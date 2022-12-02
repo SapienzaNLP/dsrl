@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="precaution">
+<roleset id="precaution.01" name="make ready" source="verb-prepare.02">
+<roles>
+
+<role descr="preparer" n="0"></role>
+
+<role descr="thing made ready" n="1"></role>
+
+<role descr="ready for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they shut down their petroleum pipeline operations as a
+precaution but did n't see any immediate damage
+</text>
+<arg n="0">they</arg>
+<arg f="PRD" n="1">they shut down their petroleum pipeline operations</arg>
+<rel>precaution</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its refinery northeast of San Francisco was operating at a
+slightly reduced rate as a precaution in case of aftershocks
+</text>
+<arg f="PRD" n="1">
+its refinery northeast of San Francisco was operating at a
+slightly reduced rate</arg>
+<arg n="Support">operating as</arg>
+<rel>precaution</rel>
+<arg n="2">in case of aftershocks</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

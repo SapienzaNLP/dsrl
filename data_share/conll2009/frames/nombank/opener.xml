@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="opener">
+<roleset id="opener.01" name="cause to be not closed" source="verb-open.03" vncls="45.4">
+<roles>
+
+<role descr="opener" n="0"></role>
+
+<role descr="thing opening" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="beneficiary" n="2" source="3"></role>
+
+<role descr="instrument" n="3" source="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+eye openers
+</text>
+<arg n="1">eye</arg>
+<arg n="0">openers</arg>
+<rel>openers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

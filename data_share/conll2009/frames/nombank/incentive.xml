@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="incentive">
+<roleset id="incentive.01" name="to persuade" source="verb-induce.02">
+<roles>
+
+<role descr="causal agent" n="0"></role>
+
+<role descr="impelled person" n="1"></role>
+
+<role descr="action or proposition" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Chevrolet already has cash incentives on the 1989 models of these
+vehicles .
+</text>
+<arg n="0">Chevrolet</arg>
+<arg n="Support">has</arg>
+<arg n="3">cash</arg>
+<rel>incentives</rel>
+<arg n="2">on the 1989 models of these vehicles</arg>
+</example>
+
+<example name="autogen2">
+<text>
+tax incentives for industrial investment
+</text>
+<arg n="3">tax</arg>
+<rel>incentives</rel>
+<arg n="2">for industrial investment</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

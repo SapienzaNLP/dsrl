@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="casuistry">
+<roleset id="casuistry.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a chilling casuistry : that what we are seeing is somehow the
+understandable result of the historical sins committed by the
+Turks in the 16th century
+</text>
+<rel>casuistry</rel>
+<arg n="1">
+that what we are seeing is somehow the understandable result of
+the historical sins committed by the Turks in the 16th century</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

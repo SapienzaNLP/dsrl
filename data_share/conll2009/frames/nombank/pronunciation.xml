@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pronunciation">
+<roleset id="pronunciation.01" name="nom/work-of-art/attribute" source="verb-pronounce.01" vncls="29.3">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` Tivoli Motel , '' I read a sign in the usual pronunciation of
+the name as we whoosh through .
+</text>
+<arg n="0">I</arg>
+<arg f="ADV" n="M">usual</arg>
+<arg f="REF" n="2">pronunciation</arg>
+<rel>pronunciation</rel>
+<arg n="1">of the name</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

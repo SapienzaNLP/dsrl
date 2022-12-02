@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="onslaught">
+<roleset id="onslaught.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any onslaught of program trading by players trying to shrug off
+the U.S. furor over their activities and marching abroad with
+their business
+</text>
+<rel>onslaught</rel>
+<arg n="1">of program trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The onslaught of the program selling
+</text>
+<rel>onslaught</rel>
+<arg n="1">of the program selling</arg>
+</example>
+
+</roleset>
+<roleset id="onslaught.02" name="physical attack" source="verb-attack.02">
+<roles>
+
+<role descr="attacker" n="0"></role>
+
+<role descr="entity attacked" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to remove Gen. Manuel Noriega and safeguard their countries from
+a Sandinista onslaught
+</text>
+<arg n="Support">safeguard from</arg>
+<arg n="1">their countries</arg>
+<arg n="0">Sandinista</arg>
+<rel>onslaught</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

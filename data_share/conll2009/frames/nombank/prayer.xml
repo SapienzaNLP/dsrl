@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="prayer">
+<roleset id="prayer.01" name="talk to god" source="verb-pray.01" vncls="32.2">
+<roles>
+
+<role descr="pray-er" n="0">
+<vnrole vncls="32.2" vntheta="Experiencer"/></role>
+
+<role descr="prayer" n="1">
+<vnrole vncls="32.2" vntheta="Theme"/></role>
+
+<role descr="god" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+From time to time he returns to the monastery for prayer ,
+meditation and pro bono legal work .
+</text>
+<arg n="0">he</arg>
+<rel>prayer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

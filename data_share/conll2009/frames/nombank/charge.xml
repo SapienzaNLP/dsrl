@@ -1,0 +1,148 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="charge">
+<roleset id="charge.01" name="asking price" source="verb-charge.01" vncls="54.5">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="54.5" vntheta="Agent"/></role>
+
+<role descr="asking price" n="1">
+<vnrole vncls="54.5" vntheta="Asset"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="54.5" vntheta="Recipient"/></role>
+
+<role descr="commodity" n="3">
+<vnrole vncls="54.5" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The charge on loans to depository institutions by the New York
+Federal Reserve Bank .
+</text>
+<arg f="REF" n="1">charge</arg>
+<rel>charge</rel>
+<arg n="3">on loans</arg>
+<arg n="2">to depository institutions</arg>
+<arg n="0">by the New York Federal Reserve Bank</arg>
+</example>
+
+<example name="autogen2">
+<text>
+taking charges of $ 24 million for insurance reserves and
+canceled real estate leases
+</text>
+<arg n="2">NIL</arg>
+<arg n="Support">taking</arg>
+<rel>charges</rel>
+<arg n="1">of $ 24 million</arg>
+<arg n="3">for insurance reserves and canceled real estate leases</arg>
+</example>
+
+</roleset>
+<roleset id="charge.02" name="walk quickly" source="verb-charge.02" vncls="51.3.2">
+<roles>
+
+<role descr="runner" n="0">
+<vnrole vncls="51.3.2" vntheta="Theme"/></role>
+
+<role descr="course, race, distance" n="1">
+<vnrole vncls="51.3.2" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a public-interest group leading the charge for radical reform
+</text>
+<arg n="0">a public-interest group</arg>
+<arg n="Support">leading</arg>
+<rel>charge</rel>
+<arg n="1">for radical reform</arg>
+</example>
+
+<example name="autogen2">
+<text>
+AT&amp;T assembled three of its top executives in Washington , all
+visibly angry , to try to refute MCI 's charges .
+</text>
+<arg n="1">
+three of its top executives in Washington , all visibly angry
+---> *-1 ---> *-2</arg>
+<arg n="Support">refute</arg>
+<arg n="0">MCI 's</arg>
+<rel>charges</rel>
+</example>
+
+</roleset>
+<roleset id="charge.03" name="assign a role" source="verb-charge.05">
+<roles>
+
+<role descr="assigner" n="0"></role>
+
+<role descr="assigned" n="1"></role>
+
+<role descr="role or crime" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its largely successful defense of antitrust charges by the United
+States Football League
+</text>
+<arg n="1">its</arg>
+<arg n="Support">defense of</arg>
+<arg n="2">antitrust</arg>
+<rel>charges</rel>
+<arg n="0">by the United States Football League</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the vice president in charge of purchasing
+</text>
+<arg n="1">the vice president</arg>
+<rel>charge</rel>
+<arg n="2">of purchasing</arg>
+</example>
+
+</roleset>
+<roleset id="charge.04" name="nomlike" source="verb-entrust.01">
+<roles>
+
+<role descr="agent/assigner-of-responsibility" n="0"></role>
+
+<role descr="experiencer/person-in-charge" n="1"></role>
+
+<role descr="beneficiary/responsibility" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He gave those bureaucrats charge of all naval operations in the
+Persian Gulf and Indian Ocean .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">gave</arg>
+<arg n="1">those bureaucrats</arg>
+<rel>charge</rel>
+<arg n="2">of all naval operations in the Persian Gulf and Indian Ocean</arg>
+</example>
+
+<example name="autogen2">
+<text>
+anyone is in charge of economic policy
+</text>
+<arg n="1">anyone</arg>
+<rel>charge</rel>
+<arg n="2">of economic policy</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

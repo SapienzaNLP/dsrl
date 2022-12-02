@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bushel">
+<roleset id="bushel.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+about 23 million bushels of soybeans
+</text>
+<rel>bushels</rel>
+<arg n="1">of soybeans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+about 13 million fewer bushels of U.S. soybeans
+</text>
+<rel>bushels</rel>
+<arg n="1">of U.S. soybeans</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

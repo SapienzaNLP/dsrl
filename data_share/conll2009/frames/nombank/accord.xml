@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="accord">
+<roleset id="accord.01" name="agree" source="verb-agree.01">
+<roles>
+
+<role descr="agreer" n="0"></role>
+
+<role descr="proposition" n="1"></role>
+
+<role descr="other entity agreeing" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+concluding several commercial accords with the U.S. , possibly at
+his next summit meeting with President Bush
+</text>
+<arg n="0">*</arg>
+<arg n="Support">concluding</arg>
+<arg n="1">commercial</arg>
+<rel>accords</rel>
+<arg n="2">with the U.S.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an accord with the Environmental Protection Agency regarding an
+environmental cleanup of a defunct smelter the company formerly
+operated in Idaho
+</text>
+<rel>accord</rel>
+<arg n="2">with the Environmental Protection Agency</arg>
+<arg n="1">
+regarding an environmental cleanup of a defunct smelter the
+company formerly operated in Idaho</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

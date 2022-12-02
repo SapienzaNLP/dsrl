@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chef">
+<roleset id="chef.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the pastry chef of this city 's Chez Panisse restaurant
+</text>
+<arg n="1">pastry</arg>
+<arg n="0">chef</arg>
+<rel>chef</rel>
+<arg n="2">of this city 's Chez Panisse restaurant</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the world 's great chefs
+</text>
+<arg n="2">the world 's</arg>
+<arg n="0">chefs</arg>
+<rel>chefs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

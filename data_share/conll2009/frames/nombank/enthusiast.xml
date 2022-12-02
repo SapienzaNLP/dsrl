@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="enthusiast">
+<roleset id="enthusiast.01" name="nomadj-enthusiastic">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="cause" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Expo enthusiasts
+</text>
+<arg n="1">Expo</arg>
+<arg n="0">enthusiasts</arg>
+<rel>enthusiasts</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its `` brand enthusiasts
+</text>
+<arg n="1">brand</arg>
+<arg n="0">enthusiasts</arg>
+<rel>enthusiasts</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

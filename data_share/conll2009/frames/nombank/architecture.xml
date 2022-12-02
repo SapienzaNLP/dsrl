@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="architecture">
+<roleset id="architecture.01" name="attribute/work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Wright 's organic architecture
+</text>
+<arg n="0">Wright 's</arg>
+<arg n="2">organic</arg>
+<rel>architecture</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's RISC architecture
+</text>
+<arg n="0">the company 's</arg>
+<arg n="1">RISC</arg>
+<rel>architecture</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="circumstance">
+<roleset id="circumstance.01" name="environment/attribute">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the continued favorable circumstances which affect the consumer
+'s day-to-day economic life
+</text>
+<arg f="TMP" n="M">continued</arg>
+<arg n="2">favorable</arg>
+<rel>circumstances</rel>
+<arg n="Support">affect</arg>
+<arg n="1">the consumer 's day-to-day economic life</arg>
+</example>
+
+<example name="autogen2">
+<text>
+unprecedentedly grim circumstances
+</text>
+<arg n="2">unprecedentedly grim</arg>
+<rel>circumstances</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

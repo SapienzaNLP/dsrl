@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="expense">
+<roleset id="expense.01" name="to spend, consume" source="verb-expend.01">
+<roles>
+
+<role descr="spender, agent" n="0"></role>
+
+<role descr="entity expended" n="1"></role>
+
+<role descr="entity expended on" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Its interest expense surged to $ 21.5 million from $ 12.4 million
+.
+</text>
+<arg n="0">Its</arg>
+<arg n="2">interest</arg>
+<rel>expense</rel>
+<arg n="Support">surged</arg>
+<arg n="1">to $ 21.5 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the rising expense to the federal government of educational
+grants and loans
+</text>
+<rel>expense</rel>
+<arg n="0">to the federal government</arg>
+<arg n="2">of educational grants and loans</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

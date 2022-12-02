@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="trauma">
+<roleset id="trauma.01" name="affect deeply and negatively" source="verb-traumatize.01" vncls="31.1">
+<roles>
+
+<role descr="cause" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="patient" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+South Korea ca n't move quickly on such agricultural trade issues
+`` without causing political and social trauma
+</text>
+<arg n="0">South Korea ---> *-2</arg>
+<arg n="Support">causing</arg>
+<arg n="1">political and social</arg>
+<rel>trauma</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their traumas
+</text>
+<arg n="1">their</arg>
+<rel>traumas</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

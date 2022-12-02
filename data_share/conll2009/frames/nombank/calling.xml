@@ -1,0 +1,90 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="calling">
+<roleset id="calling.01" name="label" source="verb-call.01" vncls="29.3">
+<roles>
+
+<role descr="caller" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="item being labelled" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="attribute of arg1" n="2">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+coast-to-coast name-calling between the White House and San
+Francisco 's Mayor Art Agnos
+</text>
+<arg f="LOC" n="M">coast-to-coast</arg>
+<arg n="1">name-calling</arg>
+<rel>name-calling</rel>
+<arg n="0">between the White House and San Francisco 's Mayor Art Agnos</arg>
+</example>
+
+</roleset>
+<roleset id="calling.02" name="summon" source="verb-call.02" vncls="13.5.1">
+<roles>
+
+<role descr="caller" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing being summoned" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its more lucrative calling
+</text>
+<arg n="1">its</arg>
+<rel>calling</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a heroic calling
+</text>
+<arg f="MNR" n="M">heroic</arg>
+<rel>calling</rel>
+</example>
+
+</roleset>
+<roleset id="calling.03" name="visit, make use of" source="verb-call.05">
+<roles>
+
+<role descr="caller" n="0"></role>
+
+<role descr="thing being visited, used" n="1"></role>
+
+<role descr="purpose, attribute of arg1" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+higher long-distance calling volumes
+</text>
+<arg f="LOC" n="M">long-distance</arg>
+<rel>calling</rel>
+</example>
+
+<example name="autogen2">
+<text>
+long-distance calling
+</text>
+<arg f="LOC" n="M">long-distance</arg>
+<rel>calling</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

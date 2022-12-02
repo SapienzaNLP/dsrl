@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="excitement">
+<roleset id="excitement.01" name="make excited" source="verb-excite.01" vncls="31.1">
+<roles>
+
+<role descr="causer of excitement" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="excited entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+According to the suit , Apple officials created public excitement
+by touting Lisa as an office computer that would revolutionize
+the workplace and be extremely successful in its first year .
+</text>
+<arg n="0">Apple officials</arg>
+<arg n="Support">created</arg>
+<arg n="1">public</arg>
+<rel>excitement</rel>
+<arg f="PRD" n="2">
+by touting Lisa as an office computer that would revolutionize
+the workplace and be extremely successful in its first year</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the headlines created by such scoops will generate excitement for
+its `` branded '' programs , in the way `` 60 Minutes '' did so
+well for CBS
+</text>
+<arg n="0">the headlines created by such scoops</arg>
+<arg n="Support">generate</arg>
+<rel>excitement</rel>
+<arg n="2">for its `` branded '' programs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

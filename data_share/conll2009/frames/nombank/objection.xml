@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="objection">
+<roleset id="objection.01" name="complain about" source="verb-object.01" vncls="37.8">
+<roles>
+
+<role descr="complainer" n="0">
+<vnrole vncls="37.8" vntheta="Agent"/></role>
+
+<role descr="thing objected to" n="1">
+<vnrole vncls="37.8" vntheta="Topic"/></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+FTC objections to some Traditional sales practices
+</text>
+<arg n="0">FTC</arg>
+<rel>objections</rel>
+<arg n="1">to some Traditional sales practices</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a man 's objection that he wants to discuss an investment with
+his wife
+</text>
+<arg n="0">a man 's</arg>
+<rel>objection</rel>
+<arg n="2">that he wants to discuss an investment with his wife</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

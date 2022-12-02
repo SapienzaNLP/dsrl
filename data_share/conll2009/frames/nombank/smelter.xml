@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="smelter">
+<roleset id="smelter.01" name="nomlike" source="verb-extract.01" vncls="10.1">
+<roles>
+
+<role descr="remover, agent" n="0">
+<vnrole vncls="10.1" vntheta="Agent"/></role>
+
+<role descr="thing extracted" n="1">
+<vnrole vncls="10.1" vntheta="Theme"/></role>
+
+<role descr="entity extracted from" n="2">
+<vnrole vncls="10.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an aluminum smelter
+</text>
+<arg n="1">aluminum</arg>
+<arg n="0">smelter</arg>
+<rel>smelter</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a defunct smelter
+</text>
+<arg f="TMP" n="M">defunct</arg>
+<arg n="0">smelter</arg>
+<rel>smelter</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

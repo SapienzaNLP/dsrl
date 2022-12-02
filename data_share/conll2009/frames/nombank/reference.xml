@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reference">
+<roleset id="reference.01" name="call, label" source="verb-refer.01">
+<roles>
+
+<role descr="labeller" n="0"></role>
+
+<role descr="labelled" n="1"></role>
+
+<role descr="label" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its references to Steven Spielberg , Spago and `` thirtysomething
+''
+</text>
+<arg n="0">its</arg>
+<arg f="REF" n="2">references</arg>
+<rel>references</rel>
+<arg n="1">to Steven Spielberg , Spago and `` thirtysomething ''</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In reference to your Oct. 9 page-one article `` Barbara Bush
+Earns Even Higher Ratings Than the President , '' it is
+regrettable that you must continually define blacks by our
+negatives : `` Among liberals , 60 % have positive views of her ,
+while 50 % approve of the president 's job performance .
+</text>
+<rel>reference</rel>
+<arg n="1">
+to your Oct. 9 page-one article `` Barbara Bush Earns Even Higher
+Ratings Than the President</arg>
+<arg n="2">
+it is regrettable that you must continually define blacks by our
+negatives : `` Among liberals , 60 % have positive views of her ,
+while 50 % approve of the president 's job performance</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

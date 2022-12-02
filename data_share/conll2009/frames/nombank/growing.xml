@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="growing">
+<roleset id="growing.01" name="agriculture" source="verb-grow.03" vncls="26.1">
+<roles>
+
+<role descr="grower" n="0">
+<vnrole vncls="26.1" vntheta="Agent"/></role>
+
+<role descr="crop" n="1">
+<vnrole vncls="26.1" vntheta="Product"/></role>
+
+<role descr="source" n="2">
+<vnrole vncls="26.1" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+fruit growing
+</text>
+<arg n="1">fruit</arg>
+<rel>growing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

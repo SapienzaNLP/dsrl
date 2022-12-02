@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="puzzlement">
+<roleset id="puzzlement.01" name="confuse" source="verb-puzzle.01" vncls="31.4">
+<roles>
+
+<role descr="cause, agent" n="0">
+<vnrole vncls="31.4" vntheta="Cause"/></role>
+
+<role descr="entity experiencing confusion" n="1">
+<vnrole vncls="31.4" vntheta="Experiencer"/></role>
+
+<role descr="confused about or over what" n="2">
+<vnrole vncls="31.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In its letter to him , dated March 2 and shared with reporters ,
+Alex Hager , the chief of the thrift-institution bureau in the
+comptroller 's office , expressed puzzlement that the S&amp;L could
+be so profligate when it had reported losses of more than $ 13
+million in its two preceding quarters .
+</text>
+<arg n="1">
+Alex Hager , the chief of the thrift-institution bureau in the
+comptroller 's office ,</arg>
+<arg n="Support">expressed</arg>
+<rel>puzzlement</rel>
+<arg n="0">
+that the S&amp;L could be so profligate when it had reported losses
+of more than $ 13 million in its two preceding quarters</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

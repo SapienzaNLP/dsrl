@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="flooding">
+<roleset id="flooding.01" name="cover with a liquid, to fill with an excess" source="verb-flood.01" vncls="45.4">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="liquid" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the subsidence that makes Venice subject to regular and
+destructive flooding
+</text>
+<arg n="0">the subsidence ---> that ---> *T*-1</arg>
+<arg n="Support">makes subject to</arg>
+<arg n="1">Venice</arg>
+<arg f="MNR" n="M">regular and destructive</arg>
+<rel>flooding</rel>
+</example>
+
+<example name="autogen2">
+<text>
+A substantial warming would melt some of the Earth 's polar ice
+caps , raising the level of the oceans and causing widespread
+flooding of heavily populated coastal areas .
+</text>
+<arg n="0">A substantial warming ---> *-1</arg>
+<arg n="Support">causing</arg>
+<arg f="MNR" n="M">widespread</arg>
+<rel>flooding</rel>
+<arg n="1">of heavily populated coastal areas</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

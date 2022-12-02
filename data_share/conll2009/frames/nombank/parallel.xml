@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="parallel">
+<roleset id="parallel.01" name="nomadj-parallel" source="verb-parallel.01">
+<roles>
+
+<role descr="thing under consideration, figure" n="0"></role>
+
+<role descr="in comparison to, ground" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+many parallels with 1987 , including the emphasis on takeover
+stocks and the re-emergence of computerized program trading
+</text>
+<arg f="REF" n="0">parallels</arg>
+<rel>parallels</rel>
+<arg n="1">with 1987</arg>
+</example>
+
+<example name="autogen2">
+<text>
+yet another unsettling parallel to October 1987
+</text>
+<arg f="ADV" n="M">unsettling</arg>
+<arg f="REF" n="0">parallel</arg>
+<rel>parallel</rel>
+<arg n="1">to October 1987</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

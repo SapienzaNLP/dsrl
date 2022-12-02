@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hypocrisy">
+<roleset id="hypocrisy.01" name="nomadj-hypocritical">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the moral hypocrisy at the heart of `` Settle the Score
+</text>
+<rel>hypocrisy</rel>
+<arg n="1">at the heart of `` Settle the Score</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Vichy government 's hypocrisy
+</text>
+<arg n="0">the Vichy government 's</arg>
+<rel>hypocrisy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

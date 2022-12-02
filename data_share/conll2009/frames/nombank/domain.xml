@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="domain">
+<roleset id="domain.01" name="have, own" source="verb-possess.01">
+<roles>
+
+<role descr="possessor" n="0"></role>
+
+<role descr="possession" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+some that had been in the national domain
+</text>
+<arg n="1">some ---> that ---> *T*-3</arg>
+<arg n="0">national</arg>
+<rel>domain</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the plot has entered the public domain
+</text>
+<arg n="1">the plot</arg>
+<arg n="Support">entered</arg>
+<arg n="0">public</arg>
+<rel>domain</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

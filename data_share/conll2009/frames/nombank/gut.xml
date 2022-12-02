@@ -1,0 +1,68 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gut">
+<roleset id="gut.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` Nobody had the guts to complain . ''
+</text>
+<arg n="0">Nobody</arg>
+<arg n="Support">had</arg>
+<rel>guts</rel>
+<arg n="1">to complain</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his guts
+</text>
+<arg n="0">his</arg>
+<rel>guts</rel>
+</example>
+
+</roleset>
+<roleset id="gut.02" name="have a suspicion about something" source="verb-suspect.01" vncls="29.5">
+<roles>
+
+<role descr="suspecter" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="suspicion" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="about something" n="2">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+My gut feel is that we 'll live with those swings for a while
+</text>
+<arg n="0">My</arg>
+<rel>gut</rel>
+<arg n="Support">feel</arg>
+<arg n="1">that we 'll live with those swings for a while</arg>
+</example>
+
+<example name="autogen2">
+<text>
+My gut feeling is that the Marina properties will be affected
+</text>
+<arg n="0">My</arg>
+<rel>gut</rel>
+<arg n="Support">feeling</arg>
+<arg n="1">that the Marina properties will be affected</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

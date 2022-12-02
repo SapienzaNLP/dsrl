@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="desire">
+<roleset id="desire.01" name="want, crave" source="verb-desire.01" vncls="32.1">
+<roles>
+
+<role descr="wanter" n="0">
+<vnrole vncls="32.1" vntheta="Experiencer"/></role>
+
+<role descr="wanted" n="1">
+<vnrole vncls="32.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+80-lawyer Fenerty Robertson 's desire to develop ties with a U.S.
+firm in light of relaxed trade barriers between the U.S. and
+Canada
+</text>
+<arg n="0">80-lawyer Fenerty Robertson 's</arg>
+<rel>desire</rel>
+<arg f="PRD" n="1">
+to develop ties with a U.S. firm in light of relaxed trade
+barriers between the U.S. and Canada</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the desire to save domestic jobs
+</text>
+<rel>desire</rel>
+<arg f="PRD" n="1">to save domestic jobs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

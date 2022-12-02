@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="theorist">
+<roleset id="theorist.01" name="work-of-art-subject-nom" source="verb-theorize.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an East German party theorist
+</text>
+<arg n="2">party</arg>
+<arg n="0">theorist</arg>
+<rel>theorist</rel>
+</example>
+
+<example name="autogen2">
+<text>
+left legal theorist Ronald Dworkin
+</text>
+<arg n="1">legal</arg>
+<arg n="0">theorist</arg>
+<rel>theorist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

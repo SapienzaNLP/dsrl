@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="list">
+<roleset id="list.01" name="enumerate" source="verb-list.01">
+<roles>
+
+<role descr="lister" n="0"></role>
+
+<role descr="item" n="1"></role>
+
+<role descr="list" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Varity Corp. led the Big Board list of largest short volumes with
+12,822,563 shares .
+</text>
+<arg n="1">Varity Corp.</arg>
+<arg n="Support">led</arg>
+<arg n="0">Big Board</arg>
+<rel>list</rel>
+<arg n="2">of largest short volumes</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the wish-lists of the green lobby : the Sierra Club , the League
+of Conservation Voters , the Natural Resources Defense Council ,
+the National Toxics Campaign and the Citizens for a Better
+Environment
+</text>
+<arg n="2">wish-lists</arg>
+<rel>wish-lists</rel>
+<arg n="0">
+of the green lobby : the Sierra Club , the League of Conservation
+Voters , the Natural Resources Defense Council , the National
+Toxics Campaign and the Citizens for a Better Environment</arg>
+</example>
+
+</roleset>
+<roleset id="list.02" name="give a price" source="verb-list.02">
+<roles>
+
+<role descr="pricer" n="0"></role>
+
+<role descr="item" n="1"></role>
+
+<role descr="price" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+List prices on the heavier Texas Instrument laptops
+</text>
+<rel>List</rel>
+<arg n="2">prices</arg>
+<arg n="1">on the heavier Texas Instrument laptops</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

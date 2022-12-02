@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dynamism">
+<roleset id="dynamism.01" name="attribute/nomadj-dynamic">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the dynamism of France 's state-sector concerns
+</text>
+<arg f="REF" n="2">dynamism</arg>
+<rel>dynamism</rel>
+<arg n="1">of France 's state-sector concerns</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its dynamism
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">dynamism</arg>
+<rel>dynamism</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

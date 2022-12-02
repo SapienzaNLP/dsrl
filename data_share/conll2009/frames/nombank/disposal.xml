@@ -1,0 +1,76 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disposal">
+<roleset id="disposal.01" name="get rid of" source="verb-dispose.01">
+<roles>
+
+<role descr="agent, entity getting rid of something" n="0"></role>
+
+<role descr="thing gotten rid of" n="1"></role>
+
+<role descr="instrument or manner, if separate from agent" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+our use and disposal of precious natural resources
+</text>
+<arg n="0">our</arg>
+<rel>disposal</rel>
+<arg n="1">of precious natural resources</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the discontinued operations and disposal of its Fine Homes
+International Limited Partnership real-estate subsidiary
+</text>
+<rel>disposal</rel>
+<arg n="1">
+of its Fine Homes International Limited Partnership real-estate
+subsidiary</arg>
+</example>
+
+</roleset>
+<roleset id="disposal.02" name="take advantage of, utilise" source="verb-use.01" vncls="29.2">
+<roles>
+
+<role descr="user" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing used" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="purpose" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Bush administration has at its disposal $ 273 million in
+funds remaining from the $ 1.1 billion Congress released for the
+cleanup after Hurricane Hugo .
+</text>
+<arg n="Support">has</arg>
+<arg n="0">its</arg>
+<rel>disposal</rel>
+<arg n="1">
+$ 273 million in funds remaining from the $ 1.1 billion Congress
+released for the cleanup after Hurricane Hugo</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the city has 1,000 hospital beds at its disposal
+</text>
+<arg n="Support">has at</arg>
+<arg n="1">1,000 hospital beds</arg>
+<arg n="0">its</arg>
+<rel>disposal</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

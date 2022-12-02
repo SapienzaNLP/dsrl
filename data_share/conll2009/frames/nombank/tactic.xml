@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tactic">
+<roleset id="tactic.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the guerrilla tactics of his enemies
+</text>
+<arg n="1">guerrilla</arg>
+<rel>tactics</rel>
+<arg n="0">of his enemies</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a classic negotiating tactic
+</text>
+<arg n="1">negotiating</arg>
+<rel>tactic</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="migration">
+<roleset id="migration.01" name="to change location" source="verb-migrate.01">
+<roles>
+
+<role descr="entity in motion" n="0"></role>
+
+<role descr="destination or path" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the largest migrations
+</text>
+<arg f="EXT" n="M">largest</arg>
+<rel>migrations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

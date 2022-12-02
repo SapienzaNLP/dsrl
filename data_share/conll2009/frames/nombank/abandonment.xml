@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="abandonment">
+<roleset id="abandonment.01" name="leave behind" source="verb-abandon.01" vncls="51.2">
+<roles>
+
+<role descr="abandoner" n="0">
+<vnrole vncls="51.2" vntheta="Theme"/></role>
+
+<role descr="thing abandoned, left behind" n="1">
+<vnrole vncls="51.2" vntheta="Source"/></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+abandonment of the pico project
+</text>
+<rel>abandonment</rel>
+<arg n="1">of the pico project</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

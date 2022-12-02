@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="roof">
+<roleset id="roof.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+stronger roofs for light trucks and minivans
+</text>
+<rel>roofs</rel>
+<arg n="1">for light trucks and minivans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the roofs of the other buildings
+</text>
+<rel>roofs</rel>
+<arg n="1">of the other buildings</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="powerhouse">
+<roleset id="powerhouse.01" name="nomadjlike-expert">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+China 's industrial powerhouse
+</text>
+<arg n="2">China 's</arg>
+<arg n="1">industrial</arg>
+<arg n="0">powerhouse</arg>
+<rel>powerhouse</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a major entertainment powerhouse
+</text>
+<arg n="1">entertainment</arg>
+<arg n="0">powerhouse</arg>
+<rel>powerhouse</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

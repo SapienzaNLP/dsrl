@@ -1,0 +1,52 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crest">
+<roleset id="crest.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the crest of the psyllium boom
+</text>
+<rel>crest</rel>
+<arg n="1">of the psyllium boom</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the crest of the hill
+</text>
+<rel>crest</rel>
+<arg n="1">of the hill</arg>
+</example>
+
+</roleset>
+<roleset id="crest.02" name="call" source="verb-name.01" vncls="29.3">
+<roles>
+
+<role descr="namer" n="0">
+<vnrole vncls="29.3" vntheta="Agent"/></role>
+
+<role descr="named" n="1">
+<vnrole vncls="29.3" vntheta="Theme"/></role>
+
+<role descr="name of arg1" n="2">
+<vnrole vncls="29.3" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the store 's crest
+</text>
+<arg n="1">the store 's</arg>
+<rel>crest</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

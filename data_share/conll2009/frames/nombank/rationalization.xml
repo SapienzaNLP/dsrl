@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rationalization">
+<roleset id="rationalization.01" name="make sense of, make   excuses for" source="verb-rationalize.01">
+<roles>
+
+<role descr="rationalizer" n="0"></role>
+
+<role descr="thing rationalized" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It gave the Japanese people a value system , based on the
+rationalization that given the country 's lack of natural
+resources , they must work hard to create value through exports
+and buy food with the surplus .
+</text>
+<arg n="0">It</arg>
+<arg n="Support">gave system based on</arg>
+<rel>rationalization</rel>
+<arg f="PRD" n="1">
+that given the country 's lack of natural resources , they must
+work hard to create value through exports and buy food with the
+surplus</arg>
+</example>
+
+<example name="autogen2">
+<text>
+officials ' rationalizations for why their schools do n't work
+</text>
+<arg n="0">officials '</arg>
+<rel>rationalizations</rel>
+<arg n="1">for why their schools do n't work</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

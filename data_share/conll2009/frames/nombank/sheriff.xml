@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sheriff">
+<roleset id="sheriff.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its firefighters and sheriffs
+</text>
+<arg n="2">its</arg>
+<arg n="0">sheriffs</arg>
+<rel>sheriffs</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

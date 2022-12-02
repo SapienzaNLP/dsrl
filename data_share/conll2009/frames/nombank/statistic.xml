@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="statistic">
+<roleset id="statistic.01" name="investigate, figure out" source="verb-analyze.01" vncls="34">
+<roles>
+
+<role descr="student" n="0">
+<vnrole vncls="34" vntheta="Agent"/></role>
+
+<role descr="subject" n="1">
+<vnrole vncls="34" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his group 's retail-volume statistics
+</text>
+<arg n="0">his group 's</arg>
+<arg n="1">retail-volume</arg>
+<rel>statistics</rel>
+</example>
+
+<example name="autogen3">
+<text>
+growth statistics
+</text>
+<arg n="1">growth</arg>
+<rel>statistics</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

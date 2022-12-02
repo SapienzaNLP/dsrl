@@ -1,0 +1,80 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="plot">
+<roleset id="plot.01" name="to take part in a plot, make a plan, draw" source="verb-plot.01">
+<roles>
+
+<role descr="plotter(s), agent" n="0"></role>
+
+<role descr="plotted action, plan" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a right-wing plot aimed at ousting PASOK and thwarting the course
+of socialism in Greece
+</text>
+<arg n="0">right-wing</arg>
+<rel>plot</rel>
+<arg n="Support">aimed</arg>
+<arg n="1">at ousting PASOK and thwarting the course of socialism in Greece</arg>
+</example>
+
+<example name="autogen2">
+<text>
+certain coup plots
+</text>
+<arg n="1">coup</arg>
+<rel>plots</rel>
+</example>
+
+</roleset>
+<roleset id="plot.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the plots of prime-time shows
+</text>
+<rel>plots</rel>
+<arg n="1">of prime-time shows</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the nutty plot of `` A Wild Sheep Chase ''
+</text>
+<rel>plot</rel>
+<arg n="1">of `` A Wild Sheep Chase ''</arg>
+</example>
+
+</roleset>
+<roleset id="plot.03" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 15-acre plot and main home
+</text>
+<arg n="2">15-acre</arg>
+<rel>plot</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

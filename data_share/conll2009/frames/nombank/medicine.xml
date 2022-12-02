@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="medicine">
+<roleset id="medicine.01" name="shield from danger" source="verb-protect.01">
+<roles>
+
+<role descr="protector" n="0"></role>
+
+<role descr="protected" n="1"></role>
+
+<role descr="danger" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Vitarine won approval to market a version of a blood pressure
+medicine but acknowledged that it substituted a SmithKline
+Beecham PLC product as its own in tests .
+</text>
+<arg n="0">Vitarine ---> *</arg>
+<arg n="Support">market version of</arg>
+<arg n="2">blood pressure</arg>
+<arg n="3">medicine</arg>
+<rel>medicine</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a heart medicine
+</text>
+<arg n="1">heart</arg>
+<arg n="3">medicine</arg>
+<rel>medicine</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

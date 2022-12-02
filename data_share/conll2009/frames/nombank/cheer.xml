@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cheer">
+<roleset id="cheer.01" name="applaud, cheer for" source="verb-cheer.02" vncls="33">
+<roles>
+
+<role descr="clapper" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="thing approved of" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="grounds, reason for approval" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the earlier fertility-control methods released to unblinking ,
+uncritical cheers from educated people who should have known
+better
+</text>
+<arg n="1">the earlier fertility-control methods</arg>
+<arg n="Support">released to</arg>
+<arg f="MNR" n="M">unblinking , uncritical</arg>
+<rel>cheers</rel>
+<arg n="0">from educated people who should have known better</arg>
+</example>
+
+<example name="autogen2">
+<text>
+By 10:25 , the Dow had turned up for the day , prompting cheers
+on trading desks and exchange floors .
+</text>
+<arg n="1">the Dow ---> *</arg>
+<arg n="Support">prompting</arg>
+<rel>cheers</rel>
+<arg n="0">on trading desks and exchange floors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

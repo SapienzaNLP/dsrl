@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lip">
+<roleset id="lip.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the lips of Miss America
+</text>
+<rel>lips</rel>
+<arg n="1">of Miss America</arg>
+</example>
+
+<example name="autogen2">
+<text>
+his lips
+</text>
+<arg n="1">his</arg>
+<rel>lips</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

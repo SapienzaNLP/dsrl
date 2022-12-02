@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="high">
+<roleset id="high.01" name="attribute/nomadj-high">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its high of 5.5 % in 1980 and 1982
+</text>
+<arg n="1">its</arg>
+<rel>high</rel>
+<arg n="2">of 5.5 %</arg>
+</example>
+
+<example name="autogen2">
+<text>
+fresh life-of-contract highs of 14.54 cents and 14.28 cents
+</text>
+<arg n="1">life-of-contract</arg>
+<rel>highs</rel>
+<arg n="2">of 14.54 cents and 14.28 cents</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

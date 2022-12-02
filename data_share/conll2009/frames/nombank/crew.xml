@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crew">
+<roleset id="crew.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its crew of five astronauts
+</text>
+<arg n="2">its</arg>
+<rel>crew</rel>
+<arg n="1">of five astronauts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the shuttle crew
+</text>
+<arg n="2">shuttle</arg>
+<rel>crew</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

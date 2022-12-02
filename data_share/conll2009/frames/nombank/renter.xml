@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="renter">
+<roleset id="renter.01" name="be a renter" source="verb-rent.01" vncls="13.5.1">
+<roles>
+
+<role descr="renter" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing rented (eg, apartment" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="landlord" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="rent" n="3">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+<role descr="term" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+South Korea 's renters
+</text>
+<arg f="LOC" n="M">South Korea 's</arg>
+<arg n="0">renters</arg>
+<rel>renters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tongue">
+<roleset id="tongue.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their tongue or pen
+</text>
+<arg n="1">their</arg>
+<rel>tongue</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

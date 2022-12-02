@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="potential">
+<roleset id="potential.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its profit potential
+</text>
+<arg n="0">its</arg>
+<arg n="1">profit</arg>
+<rel>potential</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the potential of its technology
+</text>
+<rel>potential</rel>
+<arg n="1">of its technology</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

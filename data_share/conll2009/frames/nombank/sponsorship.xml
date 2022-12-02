@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sponsorship">
+<roleset id="sponsorship.01" name="support openly" source="verb-sponsor.01" vncls="29.8">
+<roles>
+
+<role descr="sponsor" n="0">
+<vnrole vncls="29.8" vntheta="Agent"/></role>
+
+<role descr="thing sponsored" n="1">
+<vnrole vncls="29.8" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its sponsorship of black-and-white photography classes
+</text>
+<arg n="0">its</arg>
+<rel>sponsorship</rel>
+<arg n="1">of black-and-white photography classes</arg>
+</example>
+
+<example name="autogen2">
+<text>
+U.S. sponsorship of Radio Costa Rica
+</text>
+<arg n="0">U.S.</arg>
+<rel>sponsorship</rel>
+<arg n="1">of Radio Costa Rica</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

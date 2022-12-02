@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="forecaster">
+<roleset id="forecaster.01" name="tell the future" source="verb-forecast.01">
+<roles>
+
+<role descr="fortune teller" n="0"></role>
+
+<role descr="prediction" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Most forecasters , including those in the Congressional Budget
+Office , assume inflation will be in excess of 4 % in each of
+those five years .
+</text>
+<arg n="0">forecasters</arg>
+<rel>forecasters</rel>
+<arg n="Support">assume</arg>
+<arg n="1">inflation will be in excess of 4 % in each of those five years</arg>
+</example>
+
+<example name="autogen2">
+<text>
+some forecasters to anticipate the start of a new recession
+perhaps before year 's end
+</text>
+<arg n="0">forecasters</arg>
+<rel>forecasters</rel>
+<arg n="Support">anticipate</arg>
+<arg n="1">the start of a new recession</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

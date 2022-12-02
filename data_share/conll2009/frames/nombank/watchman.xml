@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="watchman">
+<roleset id="watchman.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Federal Reserve Bank of Chicago 's night watchman
+</text>
+<arg n="2">the Federal Reserve Bank of Chicago 's</arg>
+<arg f="TMP" n="M">night</arg>
+<arg n="0">watchman</arg>
+<rel>watchman</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

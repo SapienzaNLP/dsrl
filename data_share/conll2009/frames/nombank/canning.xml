@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="canning">
+<roleset id="canning.01" name="put into tins" source="verb-can.01" vncls="9.10">
+<roles>
+
+<role descr="canner, agent" n="0">
+<vnrole vncls="9.10" vntheta="Agent"/></role>
+
+<role descr="substance" n="1">
+<vnrole vncls="9.10" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+four canning manufacturing plants
+</text>
+<rel>canning</rel>
+<arg n="0">plants</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a food and canning concern
+</text>
+<rel>canning</rel>
+<arg n="0">concern</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

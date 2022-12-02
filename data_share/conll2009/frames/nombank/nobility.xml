@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="nobility">
+<roleset id="nobility.01" name="attribute/nomadj-noble">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an Egyptian Raskolnikov who seeks nobility in robbing and killing
+</text>
+<arg n="1">an Egyptian Raskolnikov ---> who ---> *T*-1</arg>
+<arg n="Support">seeks</arg>
+<arg f="REF" n="2">nobility</arg>
+<rel>nobility</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

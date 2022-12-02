@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="conceit">
+<roleset id="conceit.01" name="put on decorations" source="verb-decorate.01" vncls="9.8">
+<roles>
+
+<role descr="decorator" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="thing decorated" n="1">
+<vnrole vncls="9.8" vntheta="Destination"/></role>
+
+<role descr="decorations" n="2">
+<vnrole vncls="9.8" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a conceit of topiary or tartan plaid
+</text>
+<rel>conceit</rel>
+<arg n="2">of topiary or tartan plaid</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a plaid tile floor conceit
+</text>
+<arg n="2">plaid</arg>
+<arg n="1">tile floor</arg>
+<rel>conceit</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

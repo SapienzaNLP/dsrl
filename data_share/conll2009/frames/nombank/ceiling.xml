@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ceiling">
+<roleset id="ceiling.01" name="attribute/ensure something stays below a certain level" source="verb-limit.01">
+<roles>
+
+<role descr="theme/thing limited" n="1"></role>
+
+<role descr="value/limit" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the $ 2.87 trillion debt ceiling
+</text>
+<arg n="2">$ 2.87 trillion</arg>
+<arg n="1">debt</arg>
+<rel>ceiling</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the higher mortgage ceiling
+</text>
+<arg n="2">higher</arg>
+<arg n="1">mortgage</arg>
+<rel>ceiling</rel>
+</example>
+
+</roleset>
+<roleset id="ceiling.02" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the ceiling in his executive suite
+</text>
+<rel>ceiling</rel>
+<arg n="1">in his executive suite</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a building with 14-foot ceilings and big , operable windows
+</text>
+<arg n="1">a building</arg>
+<rel>ceilings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

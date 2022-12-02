@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="glimmer">
+<roleset id="glimmer.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a glimmer of hope for the stock
+</text>
+<rel>glimmer</rel>
+<arg n="1">of hope for the stock</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

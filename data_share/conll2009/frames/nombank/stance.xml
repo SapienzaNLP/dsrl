@@ -1,0 +1,71 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stance">
+<roleset id="stance.01" name="make a judgement" source="verb-judge.01" vncls="29.4">
+<roles>
+
+<role descr="judge" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="judged" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="judgement, attribute of arg1" n="2">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Fed 's tougher stance on enforcing the Community Reinvestment
+Act , a federal law passed in 1977 to help low-income residents
+obtain loans
+</text>
+<arg n="0">the Fed 's</arg>
+<arg n="2">tougher</arg>
+<rel>stance</rel>
+<arg n="1">
+on enforcing the Community Reinvestment Act , a federal law
+passed in 1977 to help low-income residents obtain loans</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a better-safe-than sorry investment stance
+</text>
+<arg n="2">better-safe-than sorry</arg>
+<arg n="1">investment</arg>
+<rel>stance</rel>
+</example>
+
+</roleset>
+<roleset id="stance.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a prize-fighter 's stance
+</text>
+<arg n="1">a prize-fighter 's</arg>
+<arg f="REF" n="2">stance</arg>
+<rel>stance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Breeden 's stance
+</text>
+<arg n="1">Mr. Breeden 's</arg>
+<arg f="REF" n="2">stance</arg>
+<rel>stance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

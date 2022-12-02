@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="coating">
+<roleset id="coating.01" name="cover, apply something to a surface" source="verb-coat.01" vncls="9.8">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="9.8" vntheta="Agent"/></role>
+
+<role descr="patient" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Des Plaines , Ill. , chemical coatings concern
+</text>
+<arg n="2">chemical</arg>
+<rel>coatings</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Whittaker 's chemical coating group
+</text>
+<arg n="2">chemical</arg>
+<rel>coating</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

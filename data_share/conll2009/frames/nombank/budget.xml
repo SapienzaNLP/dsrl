@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="budget">
+<roleset id="budget.01" name="allocate money to some purpose" source="verb-budget.01">
+<roles>
+
+<role descr="allocator" n="0"></role>
+
+<role descr="money" n="1"></role>
+
+<role descr="purpose, project" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+sailing syndicate budgets can easily run to $ 25 million for a
+Cup challenge
+</text>
+<arg n="0">sailing syndicate</arg>
+<rel>budgets</rel>
+<arg n="Support">run</arg>
+<arg n="1">to $ 25 million</arg>
+<arg n="2">for a Cup challenge</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the U.S. Postal Service 's operating budget
+</text>
+<arg n="0">the U.S. Postal Service 's</arg>
+<arg n="2">operating</arg>
+<rel>budget</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

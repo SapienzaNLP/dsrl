@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="simulation">
+<roleset id="simulation.01" name="make believe" source="verb-simulate.01">
+<roles>
+
+<role descr="agent, simulator" n="0"></role>
+
+<role descr="thing simulated, mimicked" n="1"></role>
+
+<role descr="instrumental" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+HDTV already has some military applications , such as creating
+realistic flight simulations and transmitting information to
+combat commanders .
+</text>
+<arg n="0">HDTV ---> *</arg>
+<arg n="Support">creating</arg>
+<arg f="MNR" n="M">realistic</arg>
+<arg n="1">flight</arg>
+<rel>simulations</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its Link Flight Simulation division
+</text>
+<arg n="1">Flight</arg>
+<rel>Simulation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

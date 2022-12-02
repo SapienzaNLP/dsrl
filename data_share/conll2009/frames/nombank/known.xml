@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="known">
+<roleset id="known.01" name="understand" source="verb-know.01" vncls="29.5">
+<roles>
+
+<role descr="knower" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing known or thought" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="attribute of arg1" n="2">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+One hundred and ninety two former greats , near greats , hardly
+knowns and unknowns
+</text>
+<arg f="MNR" n="M">hardly</arg>
+<arg n="1">knowns</arg>
+<rel>knowns</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

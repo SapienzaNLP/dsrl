@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lock">
+<roleset id="lock.01" name="attach" source="verb-lock.01" vncls="22.4">
+<roles>
+
+<role descr="agent, entity doing the locking" n="0">
+<vnrole vncls="22.4" vntheta="Agent"/></role>
+
+<role descr="patient, thing(s) being locked" n="1">
+<vnrole vncls="22.4" vntheta="Patient1"/></role>
+
+<role descr="instrument, string, lock" n="2">
+<vnrole vncls="22.4" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Until recently , Adobe had a lock on the market for image
+software
+</text>
+<arg n="0">Adobe</arg>
+<arg n="Support">had</arg>
+<rel>lock</rel>
+<arg n="1">on the market for image software</arg>
+</example>
+
+<example name="autogen2">
+<text>
+until he does , Sotheby 's has the painting under lock and key
+</text>
+<arg n="0">Sotheby 's</arg>
+<arg n="Support">has under</arg>
+<arg n="1">the painting</arg>
+<rel>lock</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

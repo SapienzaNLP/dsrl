@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="clampdown">
+<roleset id="clampdown.01" name="nomlike" source="verb-restrain.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme (action or object being prevented" n="1"></role>
+
+<role descr="secondary predication or action" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Beijing 's periodic clampdowns on imports
+</text>
+<arg n="0">Beijing 's</arg>
+<arg f="TMP" n="M">periodic</arg>
+<rel>clampdowns</rel>
+<arg n="1">on imports</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Beijing has extended the current clampdown on imports beyond the
+usual target of consumer products to include steel , chemical
+fertilizers and plastics
+</text>
+<arg n="0">Beijing</arg>
+<arg n="Support">extended</arg>
+<arg f="TMP" n="M">current</arg>
+<rel>clampdown</rel>
+<arg n="1">on imports</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

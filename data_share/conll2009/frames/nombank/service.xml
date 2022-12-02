@@ -1,0 +1,107 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="service">
+<roleset id="service.01" name="act, work" source="verb-serve.01" vncls="29.6">
+<roles>
+
+<role descr="worker" n="0">
+<vnrole vncls="29.6" vntheta="Agent"/></role>
+
+<role descr="job, project" n="1">
+<vnrole vncls="29.6" vntheta="Predicate"/></role>
+
+<role descr="employer" n="2">
+<vnrole vncls="29.6" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+animalcare services manager for the SPCA
+</text>
+<arg n="1">animalcare</arg>
+<rel>services</rel>
+<arg n="0">manager</arg>
+<arg n="2">for the SPCA</arg>
+</example>
+
+<example name="autogen2">
+<text>
+my wire service
+</text>
+<arg n="2">my</arg>
+<arg n="1">wire</arg>
+<rel>service</rel>
+</example>
+
+</roleset>
+<roleset id="service.02" name="provide, give" source="verb-serve.02">
+<roles>
+
+<role descr="server" n="0"></role>
+
+<role descr="thing served" n="1"></role>
+
+<role descr="served to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a company that provides disaster recovery services for
+computer-dependent businesses
+</text>
+<arg n="0">a company ---> that ---> *T*-1</arg>
+<arg n="Support">provides</arg>
+<arg n="1">disaster recovery</arg>
+<rel>services</rel>
+<arg n="2">for computer-dependent businesses</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an obligation of government service for all young people
+</text>
+<arg n="2">government</arg>
+<arg f="REF" n="1">service</arg>
+<rel>service</rel>
+<arg n="0">for all young people</arg>
+</example>
+
+</roleset>
+<roleset id="service.03" name="nomlike/religious-service" source="verb-celebrate.01" vncls="33">
+<roles>
+
+<role descr="honorer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="honored" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="for what reason" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Thirty-five percent attend religious services regularly
+</text>
+<arg n="0">Thirty-five percent</arg>
+<arg n="Support">attend</arg>
+<arg n="1">religious</arg>
+<rel>services</rel>
+</example>
+
+<example name="autogen2">
+<text>
+More than 1,000 Muscovites attended the service .
+</text>
+<arg n="0">More than 1,000 Muscovites</arg>
+<arg n="Support">attended</arg>
+<rel>service</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

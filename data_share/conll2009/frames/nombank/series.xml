@@ -1,0 +1,127 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="series">
+<roleset id="series.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a series of setbacks for the junk bond market , where prices
+began weakening last month after Campeau hit a cash crunch
+</text>
+<rel>series</rel>
+<arg n="1">
+of setbacks for the junk bond market , where prices began
+weakening last month after Campeau hit a cash crunch</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a series of steps to soften big stock drops by interrupting
+trading to give market players time to pause and reconsider
+positions
+</text>
+<rel>series</rel>
+<arg n="1">
+of steps to soften big stock drops by interrupting trading to
+give market players time to pause and reconsider positions</arg>
+</example>
+
+</roleset>
+<roleset id="series.02" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="medium" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Its radio series
+</text>
+<arg n="0">Its</arg>
+<arg n="2">radio</arg>
+<rel>series</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the NBC series based on a 1967 feature film about a black
+Philadelphia police detective in a small Southern town
+</text>
+<arg n="0">NBC</arg>
+<rel>series</rel>
+<arg n="1">
+based on a 1967 feature film about a black Philadelphia police
+detective in a small Southern town</arg>
+</example>
+
+</roleset>
+<roleset id="series.03" name="type/attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+BancOklahoma 's series A preferred stock
+</text>
+<rel>series</rel>
+<arg n="2">A</arg>
+<arg n="1">stock</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its privately held 6.5 % convertible Series C preferred stock
+</text>
+<rel>Series</rel>
+<arg n="2">C</arg>
+<arg n="1">stock</arg>
+</example>
+
+</roleset>
+<roleset id="series.04" name="sporting/event">
+<roles>
+
+<role descr="one-participant" n="0"></role>
+
+<role descr="other-participant" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Give me four or five more Series with these guys
+</text>
+<arg n="Support">Give</arg>
+<arg n="0">me</arg>
+<rel>Series</rel>
+<arg n="1">with these guys</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a New York Yankees-Mets series
+</text>
+<arg n="0">New York Yankees-Mets</arg>
+<rel>series</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

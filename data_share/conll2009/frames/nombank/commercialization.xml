@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="commercialization">
+<roleset id="commercialization.01" name="to make commercial" source="verb-commercialize.01">
+<roles>
+
+<role descr="causer, agent" n="0"></role>
+
+<role descr="thing commercialized" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its commercialization
+</text>
+<arg n="1">its</arg>
+<rel>commercialization</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

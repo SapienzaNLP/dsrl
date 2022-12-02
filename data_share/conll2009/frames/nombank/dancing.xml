@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dancing">
+<roleset id="dancing.01" name="dance" source="verb-dance.01" vncls="51.5">
+<roles>
+
+<role descr="dancer" n="0">
+<vnrole vncls="51.5" vntheta="Agent"/></role>
+
+<role descr="dance" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="partner" n="2">
+<vnrole vncls="51.5" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Baker 's dancing
+</text>
+<arg n="0">Baker 's</arg>
+<rel>dancing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her dancing
+</text>
+<arg n="0">her</arg>
+<rel>dancing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

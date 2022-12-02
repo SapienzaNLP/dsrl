@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="advancement">
+<roleset id="advancement.01" name="move forward or upward" source="verb-advance.01" vncls="45.4">
+<roles>
+
+<role descr="agent, causing advance" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing advancing" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="ext, amount advanced by" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Soviet medical advancements
+</text>
+<arg n="0">Soviet</arg>
+<arg n="1">medical</arg>
+<rel>advancements</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

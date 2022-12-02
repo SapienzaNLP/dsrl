@@ -1,0 +1,125 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="score">
+<roleset id="score.01" name="earn points (on exam/competition" source="verb-score.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="points" n="1"></role>
+
+<role descr="domain" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+higher student-test scores
+</text>
+<arg n="1">higher</arg>
+<arg n="0">student-test</arg>
+<arg n="2">student-test</arg>
+<rel>scores</rel>
+</example>
+
+<example name="autogen2">
+<text>
+High test scores
+</text>
+<arg n="1">High</arg>
+<arg n="2">test</arg>
+<rel>scores</rel>
+</example>
+
+</roleset>
+<roleset id="score.02" name="set music, orchestrate" source="verb-score.02">
+<roles>
+
+<role descr="musical composer" n="0"></role>
+
+<role descr="piece of music" n="1"></role>
+
+<role descr="for what, ensemble" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Dave Grusin 's witty score
+</text>
+<arg n="0">Dave Grusin 's</arg>
+<arg f="MNR" n="M">witty</arg>
+<arg f="REF" n="1">score</arg>
+<rel>score</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Composer Marc Marder , a college friend of Mr. Lane 's who earns
+his living playing the double bass in classical music ensembles ,
+has prepared an exciting , eclectic score that tells you what the
+characters are thinking and feeling far more precisely than
+intertitles , or even words , would .
+</text>
+<arg n="0">
+Composer Marc Marder , a college friend of Mr. Lane 's who earns
+his living playing the double bass in classical music ensembles ,</arg>
+<arg n="Support">prepared</arg>
+<arg f="MNR" n="M">exciting , eclectic</arg>
+<arg f="REF" n="1">score</arg>
+<rel>score</rel>
+</example>
+
+</roleset>
+<roleset id="score.03" name="nomlike/idiom-settling-score" source="verb-avenge.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="defendent" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Sohmer seems to be settling a score of his own
+</text>
+<arg n="0">Mr. Sohmer ---> *-1</arg>
+<arg n="Support">settling</arg>
+<arg n="1">score</arg>
+<rel>score</rel>
+</example>
+
+</roleset>
+<roleset id="score.04" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+scores of photography contests at high schools and colleges
+</text>
+<rel>scores</rel>
+<arg n="1">of photography contests at high schools and colleges</arg>
+</example>
+
+<example name="autogen2">
+<text>
+scores of traders
+</text>
+<rel>scores</rel>
+<arg n="1">of traders</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

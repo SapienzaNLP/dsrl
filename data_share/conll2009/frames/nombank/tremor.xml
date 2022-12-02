@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="tremor">
+<roleset id="tremor.01" name="event/nomlike" source="verb-shake.01" vncls="47.3">
+<roles>
+
+<role descr="causer of trembling motion" n="0">
+<vnrole vncls="47.3" vntheta="Agent"/></role>
+
+<role descr="thing trembling" n="1">
+<vnrole vncls="47.3" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+THE EARTHQUAKE in San Francisco has sent few tremors through the
+hearts of real estate investors .
+</text>
+<arg n="0">THE EARTHQUAKE in San Francisco</arg>
+<arg n="Support">sent</arg>
+<rel>tremors</rel>
+<arg n="1">through the hearts of real estate investors</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Stock-market tremors
+</text>
+<arg n="1">Stock-market</arg>
+<rel>tremors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

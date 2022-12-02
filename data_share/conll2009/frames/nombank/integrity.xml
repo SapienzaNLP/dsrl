@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="integrity">
+<roleset id="integrity.01" name="attribute/nomadj-sound">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the integrity of the Arby 's system
+</text>
+<arg f="REF" n="2">integrity</arg>
+<rel>integrity</rel>
+<arg n="1">of the Arby 's system</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a person of integrity
+</text>
+<arg n="1">a person</arg>
+<arg f="REF" n="2">integrity</arg>
+<rel>integrity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

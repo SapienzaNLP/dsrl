@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="immorality">
+<roleset id="immorality.01" name="nomadj-immoral">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the war 's `` immorality
+</text>
+<arg n="1">the war 's</arg>
+<rel>immorality</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="artist">
+<roleset id="artist.01" name="nomadj-artistic">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+takeover artists
+</text>
+<arg n="1">takeover</arg>
+<arg n="0">artists</arg>
+<rel>artists</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a big-league take-out artist
+</text>
+<arg n="1">take-out</arg>
+<arg n="0">artist</arg>
+<rel>artist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

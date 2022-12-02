@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mothballing">
+<roleset id="mothballing.01" name="to render inactive" source="verb-deactivate.01">
+<roles>
+
+<role descr="deactivator, agent" n="0"></role>
+
+<role descr="entity deactivated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a depressed uranium market is responsible for the temporary
+mothballing of the plant
+</text>
+<arg n="0">a depressed uranium market</arg>
+<arg n="Support">responsible for</arg>
+<arg f="TMP" n="M">temporary</arg>
+<rel>mothballing</rel>
+<arg n="1">of the plant</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="glamour">
+<roleset id="glamour.01" name="attribute/nomadj-glamorous">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+all the money and glamour of high finance
+</text>
+<arg f="REF" n="2">glamour</arg>
+<rel>glamour</rel>
+<arg n="1">of high finance</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its glamour
+</text>
+<arg n="1">its</arg>
+<arg f="REF" n="2">glamour</arg>
+<rel>glamour</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

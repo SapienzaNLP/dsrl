@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="datum">
+<roleset id="datum.01" name="cause to know" source="verb-inform.01">
+<roles>
+
+<role descr="informer" n="0"></role>
+
+<role descr="informed" n="1"></role>
+
+<role descr="information" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Salomon , moreover , gets its data on art appreciation from
+Sotheby 's , whose prices go up with clients like Mr. Paul in its
+thrall .
+</text>
+<arg n="Support">gets</arg>
+<arg n="1">its</arg>
+<rel>data</rel>
+<arg n="2">on art appreciation</arg>
+<arg n="0">
+from Sotheby 's , whose prices go up with clients like Mr. Paul
+in its thrall</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its data on television-viewing patterns
+</text>
+<arg n="0">its</arg>
+<rel>data</rel>
+<arg n="2">on television-viewing patterns</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

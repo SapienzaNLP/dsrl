@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fabrication">
+<roleset id="fabrication.01" name="create" source="verb-fabricate.01" vncls="26.4">
+<roles>
+
+<role descr="creator" n="0">
+<vnrole vncls="26.4" vntheta="Agent"/></role>
+
+<role descr="creation" n="1">
+<vnrole vncls="26.4" vntheta="Product"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="26.4" vntheta="Beneficiary"/></role>
+
+<role descr="source, thing changed" n="3" source="2">
+<vnrole vncls="26.4" vntheta="Material"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a modern $ 100 million silicon wafer fabrication plant
+</text>
+<arg n="1">silicon wafer</arg>
+<rel>fabrication</rel>
+<arg n="0">plant</arg>
+</example>
+
+<example name="autogen2">
+<text>
+fabrication equipment
+</text>
+<rel>fabrication</rel>
+<arg n="0">equipment</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

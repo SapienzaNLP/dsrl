@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="brink">
+<roleset id="brink.01" name="start" source="verb-begin.01" vncls="55.1">
+<roles>
+
+<role descr="agent" n="0">
+<vnrole vncls="55.1" vntheta="Agent"/></role>
+
+<role descr="theme(-creation" n="1">
+<vnrole vncls="55.1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+<role descr="secondary predication" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+For just as the Arabs were in the 1960s , the farmers of Sidhpur
+are on the brink of global power and fame .
+</text>
+<arg n="0">the farmers of Sidhpur</arg>
+<rel>brink</rel>
+<arg n="1">of global power and fame</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a film critic and actor who always seems to be just on the brink
+of stardom
+</text>
+<arg n="0">a film critic and actor ---> *T*-1 ---> *-2</arg>
+<rel>brink</rel>
+<arg n="1">of stardom</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

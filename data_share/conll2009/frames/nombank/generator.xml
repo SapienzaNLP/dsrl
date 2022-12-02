@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="generator">
+<roleset id="generator.01" name="create" source="verb-generate.01" vncls="27">
+<roles>
+
+<role descr="creator" n="0"></role>
+
+<role descr="thing created" n="1">
+<vnrole vncls="27" vntheta="Theme2"/></role>
+
+<role descr="beneficiary" n="2" source="3"></role>
+
+<role descr="source" n="3" source="2">
+<vnrole vncls="27" vntheta="Theme1"/></role>
+
+<role descr="attribute, secondary predication" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its power generators
+</text>
+<arg n="2">its</arg>
+<arg n="1">power</arg>
+<arg n="0">generators</arg>
+<rel>generators</rel>
+</example>
+
+<example name="autogen2">
+<text>
+our emergency generator
+</text>
+<arg n="2">our</arg>
+<arg f="PNC" n="M">emergency</arg>
+<arg n="0">generator</arg>
+<rel>generator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

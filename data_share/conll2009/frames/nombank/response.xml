@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="response">
+<roleset id="response.01" name="give an answer, reply" source="verb-respond.01">
+<roles>
+
+<role descr="replier" n="0"></role>
+
+<role descr="in response to" n="1"></role>
+
+<role descr="answer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+prices dropped in response to gains in the stock market and
+losses in Treasury securities
+</text>
+<arg n="0">prices</arg>
+<arg f="PRD" n="2">dropped</arg>
+<rel>response</rel>
+<arg n="1">to gains in the stock market and losses in Treasury securities</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the computer-guided selling in response to those developments
+</text>
+<arg n="2">the computer-guided selling</arg>
+<rel>response</rel>
+<arg n="1">to those developments</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

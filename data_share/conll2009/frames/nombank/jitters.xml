@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="jitters">
+<roleset id="jitters.01" name="prepositional usage" source="verb-worry.02" vncls="31.3">
+<roles>
+
+<role descr="worrier" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="topic of worry" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Though Sir James has said he intends to mount a new bid for B.A.T
+once approval from U.S. insurance regulators is received ,
+jitters over prospects for junk-bond financing and U.S. leverage
+buy-outs are making investors more skeptical about Sir James 's
+prospects .
+</text>
+<rel>jitters</rel>
+<arg n="1">over prospects for junk-bond financing and U.S. leverage buy-outs</arg>
+<arg n="Support">making</arg>
+<arg n="0">investors</arg>
+</example>
+
+<example name="autogen2">
+<text>
+market jitters
+</text>
+<arg n="0">market</arg>
+<rel>jitters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

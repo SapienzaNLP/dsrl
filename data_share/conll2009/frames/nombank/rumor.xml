@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rumor">
+<roleset id="rumor.01" name="nom/work-of-art" source="verb-rumor.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it 's a source of rumors about shady dealings
+</text>
+<arg n="0">it</arg>
+<arg n="Support">source of</arg>
+<rel>rumors</rel>
+<arg n="1">about shady dealings</arg>
+</example>
+
+<example name="autogen2">
+<text>
+rumors that the TVA 's long-awaited offering would be postponed
+because of the debacle in the equity markets
+</text>
+<rel>rumors</rel>
+<arg n="1">
+that the TVA 's long-awaited offering would be postponed because
+of the debacle in the equity markets</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

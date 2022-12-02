@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="maintenance">
+<roleset id="maintenance.01" name="keep (up" source="verb-maintain.01" vncls="29.5">
+<roles>
+
+<role descr="maintainer" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="thing maintained" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="29.5" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to provide maintenance for other manufacturers
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">provide</arg>
+<rel>maintenance</rel>
+<arg n="2">for other manufacturers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+highway design and maintenance cases
+</text>
+<arg n="1">highway</arg>
+<rel>maintenance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,23 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inconvenience">
+<roleset id="inconvenience.01" name="nomadj-inconvenient">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the storm was little more than an inconvenience
+</text>
+<arg n="1">the storm</arg>
+<rel>inconvenience</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

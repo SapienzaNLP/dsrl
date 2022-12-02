@@ -1,0 +1,62 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="host">
+<roleset id="host.01" name="to serve as a host" source="verb-host.01" vncls="29.8">
+<roles>
+
+<role descr="a host" n="0">
+<vnrole vncls="29.8" vntheta="Agent"/></role>
+
+<role descr="guests, social event" n="1">
+<vnrole vncls="29.8" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the show 's host
+</text>
+<arg n="1">the show 's</arg>
+<arg n="0">host</arg>
+<rel>host</rel>
+</example>
+
+<example name="autogen2">
+<text>
+its host
+</text>
+<arg n="1">its</arg>
+<arg n="0">host</arg>
+<rel>host</rel>
+</example>
+
+</roleset>
+<roleset id="host.02" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a host of new programs , trying to lighten up on the traditional
+diet of politics
+</text>
+<rel>host</rel>
+<arg n="1">
+of new programs , trying to lighten up on the traditional diet of
+politics</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a host of smaller exporters , such as Australia and Venezuela
+</text>
+<rel>host</rel>
+<arg n="1">of smaller exporters , such as Australia and Venezuela</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

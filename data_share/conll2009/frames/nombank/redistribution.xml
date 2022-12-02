@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="redistribution">
+<roleset id="redistribution.01" name="to distribute again in a different way" source="verb-redistribute.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="recipient" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+President Roh Tae Woo 's administration has been studying the
+real-estate crisis for the past year with an eye to partial land
+redistribution .
+</text>
+<arg n="0">President Roh Tae Woo 's administration</arg>
+<arg n="Support">eye to</arg>
+<arg f="MNR" n="M">partial</arg>
+<arg n="1">land</arg>
+<rel>redistribution</rel>
+</example>
+
+<example name="autogen2">
+<text>
+income redistribution
+</text>
+<arg n="1">income</arg>
+<rel>redistribution</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

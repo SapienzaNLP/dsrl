@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="abstract">
+<roleset id="abstract.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The humans also write abstracts of articles from some 200
+computer industry publications .
+</text>
+<arg n="0">The humans</arg>
+<arg n="Support">write</arg>
+<rel>abstracts</rel>
+<arg n="1">of articles from some 200 computer industry publications</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

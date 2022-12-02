@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="citizen">
+<roleset id="citizen.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Houston 's richest citizens
+</text>
+<arg n="1">Houston 's</arg>
+<arg n="0">citizens</arg>
+<rel>citizens</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the citizens of River City , Iowa ,
+</text>
+<arg n="0">citizens</arg>
+<rel>citizens</rel>
+<arg n="1">of River City , Iowa ,</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

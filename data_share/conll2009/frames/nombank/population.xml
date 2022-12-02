@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="population">
+<roleset id="population.01" name="attribute">
+<roles>
+
+<role descr="theme/region" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="category" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a country with a high population of vagabonds , murderers and
+rural idiots trudging aimlessly through a dried-out land
+</text>
+<arg n="1">a country</arg>
+<arg n="2">high</arg>
+<rel>population</rel>
+<arg n="3">
+of vagabonds , murderers and rural idiots trudging aimlessly
+through a dried-out land</arg>
+</example>
+
+<example name="autogen2">
+<text>
+swelling inmate populations
+</text>
+<arg n="2">swelling</arg>
+<arg n="3">inmate</arg>
+<rel>populations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="newsman">
+<roleset id="newsman.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 35-year-old former Wall Street Journal newsman
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg n="2">Wall Street Journal</arg>
+<arg n="0">newsman</arg>
+<rel>newsman</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

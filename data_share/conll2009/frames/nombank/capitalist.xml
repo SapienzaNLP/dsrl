@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="capitalist">
+<roleset id="capitalist.01" name="take advantage of" source="verb-capitalize.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="thing exploited" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Other venture capitalists
+</text>
+<arg n="1">venture</arg>
+<arg n="0">capitalists</arg>
+<rel>capitalists</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the venture capitalist
+</text>
+<arg n="1">venture</arg>
+<arg n="0">capitalist</arg>
+<rel>capitalist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

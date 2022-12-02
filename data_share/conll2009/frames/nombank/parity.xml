@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="parity">
+<roleset id="parity.01" name="equal, be the same as" source="verb-equal.01">
+<roles>
+
+<role descr="focus of equation" n="1"></role>
+
+<role descr="other side of equation" n="2"></role>
+
+<role descr="theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it was promised production parity with Kuwait
+</text>
+<arg n="1">it ---> *-1</arg>
+<arg n="Support">promised</arg>
+<arg n="3">production</arg>
+<rel>parity</rel>
+<arg n="2">with Kuwait</arg>
+</example>
+
+<example name="autogen2">
+<text>
+brand parity
+</text>
+<arg n="3">brand</arg>
+<rel>parity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="taker">
+<roleset id="taker.01" name="take, acquire, come to have" source="verb-take.01" vncls="10.5">
+<roles>
+
+<role descr="taker" n="0">
+<vnrole vncls="10.5" vntheta="Agent"/></role>
+
+<role descr="thing taken" n="1">
+<vnrole vncls="10.5" vntheta="Theme"/></role>
+
+<role descr="entity taken from, or prepositional complement of arg1" n="2">
+<vnrole vncls="10.5" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the profit takers
+</text>
+<arg n="1">profit</arg>
+<arg n="0">takers</arg>
+<rel>takers</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an order-taker
+</text>
+<arg n="0">order-taker</arg>
+<arg n="1">order-taker</arg>
+<rel>order-taker</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

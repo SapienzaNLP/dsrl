@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="damper">
+<roleset id="damper.01" name="ensure something stays below a certain level" source="verb-limit.01">
+<roles>
+
+<role descr="agent, limiter" n="0"></role>
+
+<role descr="thing limited" n="1"></role>
+
+<role descr="limit" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+UAL has obviously put a damper on that
+</text>
+<arg n="0">UAL</arg>
+<arg n="Support">put</arg>
+<rel>damper</rel>
+<arg n="1">on that</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The exchange put a bit of a damper on program trading when , last
+year , it simply started to publish monthly statistics of each
+firm 's program-trading volume .
+</text>
+<arg n="0">The exchange</arg>
+<arg n="Support">put bit of</arg>
+<rel>damper</rel>
+<arg n="1">on program trading</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

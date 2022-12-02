@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="guarantor">
+<roleset id="guarantor.01" name="promise" source="verb-guarantee.01" vncls="29.5">
+<roles>
+
+<role descr="entity making guarantee" n="0">
+<vnrole vncls="29.5" vntheta="Agent"/></role>
+
+<role descr="guarantee" n="1">
+<vnrole vncls="29.5" vntheta="Theme"/></role>
+
+<role descr="beneficiary, guaranteed-to" n="2">
+<vnrole vncls="29.5" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+no Chinese guarantor
+</text>
+<arg f="NEG" n="M">no</arg>
+<arg n="0">guarantor</arg>
+<rel>guarantor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

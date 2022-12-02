@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="instructor">
+<roleset id="instructor.01" name="impel action" source="verb-instruct.01" vncls="37.9-1">
+<roles>
+
+<role descr="instructor" n="0">
+<vnrole vncls="37.9-1" vntheta="Agent"/></role>
+
+<role descr="impelled action" n="1" source="2">
+<vnrole vncls="37.9-1" vntheta="Topic"/></role>
+
+<role descr="impelled agent" n="2" source="1">
+<vnrole vncls="37.9-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+young aerobics instructors
+</text>
+<arg n="1">aerobics</arg>
+<arg n="0">instructors</arg>
+<rel>instructors</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his officers and instructors
+</text>
+<arg n="2">his</arg>
+<arg n="0">instructors</arg>
+<rel>instructors</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

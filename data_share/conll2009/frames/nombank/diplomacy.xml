@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="diplomacy">
+<roleset id="diplomacy.01" name="nomadj-diplomatic">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Bush administration 's Latin diplomacy
+</text>
+<arg n="0">the Bush administration 's</arg>
+<arg n="1">Latin</arg>
+<rel>diplomacy</rel>
+</example>
+
+<example name="autogen2">
+<text>
+U.S. diplomacy
+</text>
+<arg n="0">U.S.</arg>
+<rel>diplomacy</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="minimum">
+<roleset id="minimum.01" name="ensure something stays below a certain level" source="verb-limit.01">
+<roles>
+
+<role descr="agent, limiter" n="0"></role>
+
+<role descr="thing limited" n="1"></role>
+
+<role descr="limit" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it will receive a minimum of $ 100 million for the collection ,
+regardless of what the bids for the art works total
+</text>
+<rel>minimum</rel>
+<arg n="2">of $ 100 million</arg>
+<arg n="1">for the collection</arg>
+</example>
+
+<example name="autogen2">
+<text>
+state minimum wage levels
+</text>
+<arg n="0">state</arg>
+<rel>minimum</rel>
+<arg n="1">wage</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

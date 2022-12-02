@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="addict">
+<roleset id="addict.01" name="cause a dependency, as to a drug" source="verb-addict.01">
+<roles>
+
+<role descr="causer of addiction" n="0"></role>
+
+<role descr="addicted entity" n="1"></role>
+
+<role descr="drug etc" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+opium addicts
+</text>
+<arg n="2">opium</arg>
+<arg n="1">addicts</arg>
+<rel>addicts</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the ubiquitous opium addict
+</text>
+<arg n="2">opium</arg>
+<arg n="1">addict</arg>
+<rel>addict</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

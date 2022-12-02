@@ -1,0 +1,83 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blow">
+<roleset id="blow.01" name="strike" source="verb-hit.01" vncls="18.1">
+<roles>
+
+<role descr="agent, hitter - animate only" n="0">
+<vnrole vncls="18.1" vntheta="Agent"/></role>
+
+<role descr="thing hit" n="1">
+<vnrole vncls="18.4" vntheta="Theme"/></role>
+
+<role descr="instrument, thing hit by or with" n="2">
+<vnrole vncls="18.4" vntheta="Instrument"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a fourth-quarter blow to earnings from the California earthquake
+</text>
+<arg f="TMP" n="M">fourth-quarter</arg>
+<rel>blow</rel>
+<arg n="1">to earnings</arg>
+<arg n="0">from the California earthquake</arg>
+</example>
+
+<example name="autogen2">
+<text>
+yet another blow to a sport that its fans claim has been maligned
+unjustly for years
+</text>
+<rel>blow</rel>
+<arg n="1">
+to a sport that its fans claim has been maligned unjustly for
+years</arg>
+</example>
+
+</roleset>
+<roleset id="blow.02" name="strike a blow for humanity" source="verb-win.01" vncls="13.5.1">
+<roles>
+
+<role descr="winner" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing won (contest or prize" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="loser, giver of prize" n="3"></role>
+
+<role descr="in-exchange-for" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The U.S. , therefore , has a historic opportunity both to strike
+a blow for human rights in Somalia and to undo the superpower
+flip-flop of the late 1970s on the Horn of Africa .
+</text>
+<arg n="0">The U.S. ---> *</arg>
+<arg n="Support">strike</arg>
+<arg n="1">blow</arg>
+<rel>blow</rel>
+<arg n="2">for human rights</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a settlement that will strike a blow for his client
+</text>
+<arg n="0">a settlement ---> that ---> *T*-1</arg>
+<arg n="Support">strike</arg>
+<arg n="1">blow</arg>
+<rel>blow</rel>
+<arg n="2">for his client</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

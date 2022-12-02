@@ -1,0 +1,42 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="raid">
+<roleset id="raid.01" name="enter suddenly" source="verb-raid.01" vncls="35.4">
+<roles>
+
+<role descr="raider" n="0">
+<vnrole vncls="35.4" vntheta="Agent"/></role>
+
+<role descr="raided" n="1">
+<vnrole vncls="35.4" vntheta="Location"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+financier Tito Tettamanti , whose secretive raid on the company
+'s stock had led to a bitter battle
+</text>
+<arg n="0">whose</arg>
+<arg f="MNR" n="M">secretive</arg>
+<rel>raid</rel>
+<arg n="1">on the company 's stock</arg>
+</example>
+
+<example name="autogen2">
+<text>
+In 1976 , as an upstart in the eyes of Switzerland 's
+establishment , Mr. Rey laid the foundations of his present-day
+prominence with an unheard-of raid on Bally , the country 's
+traditional shoemaker .
+</text>
+<arg n="0">Mr. Rey</arg>
+<arg n="Support">laid with</arg>
+<arg f="MNR" n="M">unheard-of</arg>
+<rel>raid</rel>
+<arg n="1">on Bally , the country 's traditional shoemaker</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

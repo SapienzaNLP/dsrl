@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="choosing">
+<roleset id="choosing.01" name="choose, pick" source="verb-choose.01" vncls="29.2">
+<roles>
+
+<role descr="picker" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing picked" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="29.2" vntheta="Beneficiary"/></role>
+
+<role descr="group or source" n="3" source="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="secondary attribute on arg1" n="4">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to nominate candidates of his choosing
+</text>
+<arg n="Support">nominate of</arg>
+<arg n="1">candidates</arg>
+<arg n="0">his</arg>
+<rel>choosing</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the company invests that premium in a portfolio of its choosing
+</text>
+<arg n="Support">invests in of</arg>
+<arg n="1">a portfolio</arg>
+<arg n="0">its</arg>
+<rel>choosing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

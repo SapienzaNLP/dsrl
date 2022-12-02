@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="superiority">
+<roleset id="superiority.01" name="nomadj-superior">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="domain" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the superiority of Japanese culture and behavior vs. others
+</text>
+<rel>superiority</rel>
+<arg n="1">of Japanese culture and behavior</arg>
+<arg n="2">vs. others</arg>
+</example>
+
+<example name="autogen2">
+<text>
+that -LCB- Warsaw Pact -RCB- superiority
+</text>
+<arg n="1">Warsaw Pact</arg>
+<rel>superiority</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

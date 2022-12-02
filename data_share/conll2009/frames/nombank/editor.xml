@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="editor">
+<roleset id="editor.01" name="actrel" source="verb-edit.01">
+<roles>
+
+<role descr="editor" n="0"></role>
+
+<role descr="theme" n="1" source="1"></role>
+
+<role descr="periodical/employer" n="2" source="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Globe 's assistant managing editor for design
+</text>
+<arg n="2">the Globe 's</arg>
+<arg n="3">assistant</arg>
+<arg n="3">managing</arg>
+<arg n="0">editor</arg>
+<rel>editor</rel>
+<arg n="1">for design</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the magazine 's executive editor
+</text>
+<arg n="2">the magazine 's</arg>
+<arg n="3">executive</arg>
+<arg n="0">editor</arg>
+<rel>editor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

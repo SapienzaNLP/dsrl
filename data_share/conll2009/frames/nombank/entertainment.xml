@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="entertainment">
+<roleset id="entertainment.01" name="amuse" source="verb-entertain.01" vncls="31.1">
+<roles>
+
+<role descr="entertainer" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="entertained" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Circus Circus lures them with low room rates , inexpensive
+buffets and entertainment for children at no extra charge .
+</text>
+<arg n="0">The Circus Circus</arg>
+<rel>entertainment</rel>
+<arg n="1">for children</arg>
+<arg f="MNR" n="M">at no extra charge</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a major entertainment powerhouse
+</text>
+<rel>entertainment</rel>
+<arg n="0">powerhouse</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

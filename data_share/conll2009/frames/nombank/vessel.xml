@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vessel">
+<roleset id="vessel.01" name="nomlike" source="verb-contain.01">
+<roles>
+
+<role descr="contents" n="1"></role>
+
+<role descr="location" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+such tiny blood vessels
+</text>
+<arg n="1">blood</arg>
+<arg n="2">vessels</arg>
+<rel>vessels</rel>
+</example>
+
+<example name="autogen2">
+<text>
+BLOOD vessels
+</text>
+<arg n="1">BLOOD</arg>
+<arg n="2">vessels</arg>
+<rel>vessels</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

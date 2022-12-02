@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="blast">
+<roleset id="blast.01" name="make a loud noise" source="verb-blast.01">
+<roles>
+
+<role descr="causer, agent" n="0"></role>
+
+<role descr="source of loud noise, noise itself" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+another blast of flame
+</text>
+<rel>blast</rel>
+<arg n="1">of flame</arg>
+</example>
+
+<example name="autogen2">
+<text>
+HUGO'S BLAST
+</text>
+<arg n="0">HUGO'S</arg>
+<rel>BLAST</rel>
+</example>
+
+</roleset>
+<roleset id="blast.02" name="assign blame harshly" source="verb-blast.02">
+<roles>
+
+<role descr="blamer" n="0"></role>
+
+<role descr="blamed" n="1"></role>
+
+<role descr="blamed for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Peterpaul 's blast
+</text>
+<arg n="0">Mr. Peterpaul 's</arg>
+<rel>blast</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

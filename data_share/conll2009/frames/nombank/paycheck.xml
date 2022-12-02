@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="paycheck">
+<roleset id="paycheck.01" name="for your services" source="verb-award.01" vncls="13.3">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.3" vntheta="Agent"/></role>
+
+<role descr="award" n="1">
+<vnrole vncls="13.3" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2">
+<vnrole vncls="13.3" vntheta="Recipient"/></role>
+
+<role descr="reason" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+On the way to that goal , she received her first U.S. paycheck
+for proofreading a book of Polish poetry , attended secretarial
+school , then went to work for a fund-raising organization .
+</text>
+<arg n="2">her</arg>
+<arg n="0">U.S.</arg>
+<arg f="REF" n="1">paycheck</arg>
+<rel>paycheck</rel>
+<arg n="3">for proofreading a book of Polish poetry</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the paychecks of certain farm workers currently exempt from
+withholding
+</text>
+<arg f="REF" n="1">paychecks</arg>
+<rel>paychecks</rel>
+<arg n="2">of certain farm workers currently exempt from withholding</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

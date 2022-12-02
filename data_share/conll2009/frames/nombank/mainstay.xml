@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mainstay">
+<roleset id="mainstay.01" name="hallmark">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a traditional mainstay for both companies ' exports
+</text>
+<arg n="0">mainstay</arg>
+<rel>mainstay</rel>
+<arg n="1">for both companies ' exports</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the mainstay of most serious investors ' portfolios
+</text>
+<arg n="0">mainstay</arg>
+<rel>mainstay</rel>
+<arg n="1">of most serious investors ' portfolios</arg>
+</example>
+
+</roleset>
+<roleset id="mainstay.02" name="nomadjlike-significant">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its mainstay product
+</text>
+<rel>mainstay</rel>
+<arg n="1">product</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the company 's mainstay chemicals and plastics business
+</text>
+<rel>mainstay</rel>
+<arg n="1">chemicals and plastics business</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

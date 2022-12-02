@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="debut">
+<roleset id="debut.01" name="make an appearance for the first time" source="verb-debut.01">
+<roles>
+
+<role descr="causer of appearance" n="0"></role>
+
+<role descr="thing appearing" n="1"></role>
+
+<role descr="domain" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+PLASTIC PENCILS , CODE-NAMED E-71 , made their hush-hush debut in
+children 's pencil boxes at five-and-dime stores in 1973 .
+</text>
+<arg n="1">their</arg>
+<rel>debut</rel>
+<arg n="2">in children 's pencil boxes</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the issue 's London debut
+</text>
+<arg n="1">the issue 's</arg>
+<arg n="2">London</arg>
+<rel>debut</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

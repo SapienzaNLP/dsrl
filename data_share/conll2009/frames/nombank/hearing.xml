@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="hearing">
+<roleset id="hearing.01" name="nomlike/review" source="verb-review.01" vncls="34">
+<roles>
+
+<role descr="reviewer" n="0">
+<vnrole vncls="34" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="34" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Senate hearings on the questions
+</text>
+<arg n="0">Senate</arg>
+<rel>hearings</rel>
+<arg n="1">on the questions</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Breeden 's confirmation hearing
+</text>
+<arg n="2">Mr. Breeden 's</arg>
+<arg n="1">confirmation</arg>
+<rel>hearing</rel>
+</example>
+
+</roleset>
+<roleset id="hearing.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Because of deteriorating hearing , she told colleagues she feared
+she might not be able to teach much longer .
+</text>
+<arg n="2">deteriorating</arg>
+<rel>hearing</rel>
+<arg n="1">she</arg>
+</example>
+
+<example name="autogen2">
+<text>
+good hearing
+</text>
+<arg n="2">good</arg>
+<rel>hearing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

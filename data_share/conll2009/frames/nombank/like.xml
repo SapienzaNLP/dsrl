@@ -1,0 +1,57 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="like">
+<roleset id="like.01" name="nomadj-alike/nomlike" source="verb-resemble.01">
+<roles>
+
+<role descr="copy" n="1"></role>
+
+<role descr="original" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the likes of Convex Computer Corp. and International Business
+Machines Corp.
+</text>
+<arg n="1">likes</arg>
+<rel>likes</rel>
+<arg n="2">
+of Convex Computer Corp. and International Business Machines
+Corp.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the likes of Mr. Lantos , who after all is really a bit player on
+the stage
+</text>
+<arg n="1">likes</arg>
+<rel>likes</rel>
+<arg n="2">of Mr. Lantos , who after all is really a bit player on the stage</arg>
+</example>
+
+</roleset>
+<roleset id="like.02" name="nom" source="verb-like.01" vncls="31.2">
+<roles>
+
+<role descr="experiencer" n="0">
+<vnrole vncls="31.2" vntheta="Experiencer"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="31.2" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Sen. Dodd 's likes and dislikes
+</text>
+<arg n="0">Sen. Dodd 's</arg>
+<rel>likes</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

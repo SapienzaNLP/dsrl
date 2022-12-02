@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="leave">
+<roleset id="leave.01" name="move away from" source="verb-leave.01" vncls="51.2">
+<roles>
+
+<role descr="entity leaving" n="0">
+<vnrole vncls="51.2" vntheta="Theme"/></role>
+
+<role descr="place left" n="1">
+<vnrole vncls="51.2" vntheta="Source"/></role>
+
+<role descr="attribute / secondary predication" n="3"></role>
+
+<role descr="purpose" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Jim Gideon , a lean 36-year-old righthander to take a four-month
+leave from selling insurance in Texas to try out for Mr. Weaver
+'s team
+</text>
+<arg n="0">Jim Gideon , a lean 36-year-old righthander</arg>
+<arg n="Support">take</arg>
+<arg f="TMP" n="M">four-month</arg>
+<rel>leave</rel>
+<arg n="1">from selling insurance in Texas</arg>
+<arg n="4">to try out for Mr. Weaver 's team</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Roth , who has been on leave from his posts ,
+</text>
+<arg n="0">Mr. Roth ---> who ---> *T*-2</arg>
+<rel>leave</rel>
+<arg n="1">from his posts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

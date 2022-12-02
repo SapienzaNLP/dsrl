@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="expansion">
+<roleset id="expansion.01" name="cause to) grow" source="verb-expand.01" vncls="45.4">
+<roles>
+
+<role descr="causer of growth, agent" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing grown" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+<role descr="amount increased by, ext or mnr" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Fluor , based in Irvine , Calif. , will direct expansion of the
+mine 's capacity to 52,000 metric tons a day from 32,000 metric
+tons a day .
+</text>
+<arg n="0">Fluor , based in Irvine , Calif. ,</arg>
+<arg n="Support">direct</arg>
+<rel>expansion</rel>
+<arg n="1">of the mine 's capacity</arg>
+<arg n="4">to 52,000 metric tons a day</arg>
+<arg n="3">from 32,000 metric tons a day</arg>
+</example>
+
+<example name="autogen2">
+<text>
+U.S. economic expansion
+</text>
+<arg n="0">U.S.</arg>
+<arg n="1">economic</arg>
+<rel>expansion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,51 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="muscle">
+<roleset id="muscle.01" name="attribute/nomadjlike-strong">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the money and muscle for the deal
+</text>
+<arg f="REF" n="2">muscle</arg>
+<rel>muscle</rel>
+<arg n="1">for the deal</arg>
+</example>
+
+<example name="autogen2">
+<text>
+our size and muscle
+</text>
+<arg n="1">our</arg>
+<arg f="REF" n="2">muscle</arg>
+<rel>muscle</rel>
+</example>
+
+</roleset>
+<roleset id="muscle.02" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+thigh muscles
+</text>
+<arg n="1">thigh</arg>
+<rel>muscles</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

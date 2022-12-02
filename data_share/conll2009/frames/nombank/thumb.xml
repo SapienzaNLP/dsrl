@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="thumb">
+<roleset id="thumb.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+your thumbs
+</text>
+<arg n="1">your</arg>
+<rel>thumbs</rel>
+</example>
+
+<example name="autogen2">
+<text>
+she had a literal green thumb
+</text>
+<arg n="1">she</arg>
+<arg n="Support">had</arg>
+<rel>thumb</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

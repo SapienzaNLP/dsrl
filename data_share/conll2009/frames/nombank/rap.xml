@@ -1,0 +1,50 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rap">
+<roleset id="rap.01" name="strike lightly" source="verb-rap.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="patient" n="1" source="2"></role>
+
+<role descr="instrument" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a rap on the head
+</text>
+<rel>rap</rel>
+<arg n="1">on the head</arg>
+</example>
+
+</roleset>
+<roleset id="rap.02" name="nomlike" source="verb-blame.01">
+<roles>
+
+<role descr="blamer" n="0"></role>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a savings institution that has taken a bad rap in the press and
+on its bottom line
+</text>
+<arg n="2">a savings institution ---> that ---> *T*-208</arg>
+<arg n="Support">taken</arg>
+<rel>rap</rel>
+<arg n="0">in the press and on its bottom line</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

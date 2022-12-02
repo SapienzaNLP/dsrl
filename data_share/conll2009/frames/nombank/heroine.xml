@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="heroine">
+<roleset id="heroine.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a heroine to her many supporters
+</text>
+<arg n="0">heroine</arg>
+<rel>heroine</rel>
+<arg n="2">to her many supporters</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

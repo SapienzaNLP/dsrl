@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ante">
+<roleset id="ante.01" name="to increase" source="verb-augment.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="entity augmented" n="1"></role>
+
+<role descr="ammount augmented by" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Upping the ante
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">Upping</arg>
+<arg n="1">ante</arg>
+<rel>ante</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his firm did n't raise the ante for a target company earlier this
+month after a stronger bid emerged from a public company that was
+n't concerned about the financing provision
+</text>
+<arg n="0">his firm</arg>
+<arg n="Support">raise</arg>
+<arg n="1">ante</arg>
+<rel>ante</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

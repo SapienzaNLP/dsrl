@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="detective">
+<roleset id="detective.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a former Pinkerton 's detective
+</text>
+<arg f="TMP" n="M">former</arg>
+<arg n="2">Pinkerton 's</arg>
+<arg n="0">detective</arg>
+<rel>detective</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a black Philadelphia police detective
+</text>
+<arg n="2">Philadelphia police</arg>
+<arg n="0">detective</arg>
+<rel>detective</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

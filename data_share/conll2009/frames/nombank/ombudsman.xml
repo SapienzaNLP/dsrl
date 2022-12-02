@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ombudsman">
+<roleset id="ombudsman.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to be an ombudsman for our area
+</text>
+<arg n="0">ombudsman</arg>
+<rel>ombudsman</rel>
+<arg n="2">for our area</arg>
+</example>
+
+<example name="autogen2">
+<text>
+we 're not ombudsman for our area
+</text>
+<arg n="0">ombudsman</arg>
+<rel>ombudsman</rel>
+<arg n="2">for our area</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

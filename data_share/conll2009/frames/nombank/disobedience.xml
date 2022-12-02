@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="disobedience">
+<roleset id="disobedience.01" name="not obey" source="verb-disobey.01">
+<roles>
+
+<role descr="disobeyer" n="0"></role>
+
+<role descr="rule or rule-giver" n="1"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+civil disobedience
+</text>
+<arg n="0">civil</arg>
+<rel>disobedience</rel>
+</example>
+
+<example name="autogen4">
+<text>
+civil disobedience , non-violent or not ,
+</text>
+<arg n="0">civil</arg>
+<rel>disobedience</rel>
+<arg f="MNR" n="M">non-violent or not</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

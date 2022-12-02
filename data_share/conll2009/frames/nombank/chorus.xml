@@ -1,0 +1,61 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chorus">
+<roleset id="chorus.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the swelling chorus of complaints about program trading
+</text>
+<rel>chorus</rel>
+<arg n="1">of complaints about program trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an international chorus of euphoria
+</text>
+<rel>chorus</rel>
+<arg n="1">of euphoria</arg>
+</example>
+
+</roleset>
+<roleset id="chorus.02" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his Stuttgart-based Gaechinger Kantorei chorus
+</text>
+<arg n="2">his</arg>
+<arg f="LOC" n="M">Stuttgart-based</arg>
+<arg n="1">Gaechinger Kantorei</arg>
+<rel>chorus</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an all-black chorus line
+</text>
+<arg n="1">all-black</arg>
+<rel>chorus</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

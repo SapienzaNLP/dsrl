@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="unwillingness">
+<roleset id="unwillingness.01" name="nomadj-unwilling">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a general unwillingness among banks to provide credit for
+debt-financed takeovers
+</text>
+<rel>unwillingness</rel>
+<arg n="0">among banks</arg>
+<arg f="PRD" n="1">to provide credit for debt-financed takeovers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+any unwillingness to finance takeovers
+</text>
+<rel>unwillingness</rel>
+<arg f="PRD" n="1">to finance takeovers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

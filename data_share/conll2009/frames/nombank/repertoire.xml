@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="repertoire">
+<roleset id="repertoire.01" name="perform" source="verb-perform.01" vncls="26.7-1">
+<roles>
+
+<role descr="performer" n="0">
+<vnrole vncls="26.7-1" vntheta="Agent"/></role>
+
+<role descr="performance, thing performed" n="1">
+<vnrole vncls="26.7-1" vntheta="Theme"/></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their repertoire and audience appeal
+</text>
+<arg n="0">their</arg>
+<arg n="1">repertoire</arg>
+<rel>repertoire</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Today , the pixie-like clarinetist has mostly dropped the
+missionary work -LRB- though a touch of the old Tashi still
+survives -RRB- and now goes on the road with piano , bass , a
+slide show , and a repertoire that ranges from light classical to
+light jazz to light pop , with a few notable exceptions .
+</text>
+<arg n="0">the pixie-like clarinetist</arg>
+<arg n="1">repertoire</arg>
+<rel>repertoire</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

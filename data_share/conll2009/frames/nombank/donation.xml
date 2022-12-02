@@ -1,0 +1,46 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="donation">
+<roleset id="donation.01" name="give" source="verb-donate.01" vncls="13.2">
+<roles>
+
+<role descr="giver" n="0">
+<vnrole vncls="13.2" vntheta="Agent"/></role>
+
+<role descr="thing given" n="1">
+<vnrole vncls="13.2" vntheta="Theme"/></role>
+
+<role descr="entity given to" n="2">
+<vnrole vncls="13.2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+$ 200,000 in corporate donations by Mr. Keating to the National
+Council on Public Policy , a political committee controlled by
+Sen. Glenn
+</text>
+<arg n="1">$ 200,000</arg>
+<rel>donations</rel>
+<arg n="0">by Mr. Keating</arg>
+<arg n="2">
+to the National Council on Public Policy , a political committee
+controlled by Sen. Glenn</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the California Democratic party received $ 85,000 in corporate
+donations for a 1986 get-out-the-vote drive that benefited the
+senator 's re-election campaign that year
+</text>
+<arg n="2">the California Democratic party</arg>
+<arg n="Support">received $ in</arg>
+<arg n="1">$ 85,000</arg>
+<rel>donations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

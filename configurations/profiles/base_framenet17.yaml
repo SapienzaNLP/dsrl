@@ -1,0 +1,118 @@
+supported_tasks:
+  - generation
+
+# global params
+transformer_model: facebook/bart-base
+
+# trainer params
+callbacks_monitor: "validation_overall_f1"
+callbacks_mode: "max"
+
+training:
+  pl_trainer:
+    accumulate_grad_batches: 1
+    val_check_interval: 1.0
+    max_steps: 500_000
+  early_stopping_callback:
+    monitor: ${callbacks_monitor}
+    mode: ${callbacks_mode}
+    patience: 10
+  model_checkpoint_callback:
+    _target_: classy.pl_callbacks.best_checkpoint.ModelCheckpointWithBest
+    monitor: ${callbacks_monitor}
+    mode: ${callbacks_mode}
+    save_top_k: 1
+    save_last: True
+    verbose: True
+    dirpath: checkpoints
+
+# model params
+model:
+  _target_: 'src.custom_generation_module.HFCustomGenerationPLModule'
+  transformer_model: ${transformer_model}
+  decoding_clean_up_tokenization_spaces: False
+  decoding_skip_special_tokens: false
+  compositional_rank: 2
+  additional_special_tokens:
+    - <p>
+    - </p>
+    - <reference-to>
+    - <continuation-of>
+    - <framenet>
+    - <propbank>
+    - <span-srl>
+    - <dep-srl>
+  optim_conf:
+    _target_: classy.optim.factories.RAdamFactory
+    lr: 1e-5
+    weight_decay: 0.01
+    no_decay_params:
+      - bias
+      - LayerNorm.weight
+
+data:
+  datamodule:
+    _target_: 'classy.data.data_modules.ClassyDataModule'
+    task: ${task}
+    dataset_path: null  # set via kwargs
+    train_dataset:
+      _target_: 'src.custom_generation_dataset.HFCustomGenerationDataset.from_file'
+      transformer_model: ${transformer_model}
+      additional_special_tokens: "${oc.select:'model.additional_special_tokens',${oc.decode:'[]'}}"
+      min_length: -1
+      max_length: 1024
+      tokens_per_batch: 2048
+      max_batch_size: 20
+      section_size: 10000
+      prebatch: True
+      materialize: False
+      for_inference: False
+    validation_dataset:
+      _target_: 'src.custom_generation_dataset.HFCustomGenerationDataset.from_file'
+      transformer_model: ${transformer_model}
+      additional_special_tokens: "${oc.select:'model.additional_special_tokens',${oc.decode:'[]'}}"
+      min_length: -1
+      max_length: 1024
+      tokens_per_batch: 4096
+      max_batch_size: 40
+      section_size: 10000
+      prebatch: True
+      materialize: True
+      for_inference: False
+    shuffle_dataset: True
+
+prediction:
+  dataset:
+    _target_: 'src.custom_generation_dataset.HFCustomGenerationDataset.from_samples'
+    transformer_model: ${transformer_model}
+    additional_special_tokens: "${oc.select:'model.additional_special_tokens',${oc.decode:'[]'}}"
+    min_length: -1
+    max_length: 1024
+    tokens_per_batch: 4096
+    max_batch_size: 40
+    section_size: 10000
+    prebatch: True
+    materialize: False
+    for_inference: True
+
+evaluation:
+  _target_: src.multi_dataset_evaluation.MultiDatasetEvaluation
+  evaluations:
+    framenet17:
+      _target_: src.multi_dataset_evaluation.DatasetSpecificEvaluation
+      dataset_id: framenet17
+      evaluation:
+        _target_: src.framenet_evaluation.FramenetEvaluation
+        frames_path: data_share/framenet17/frames/framenet_frames.json
+        fr_frames_path: data_share/framenet17/frames/framenet_frames.xml
+        fr_relations_path: data_share/framenet17/frames/frRelation.xml
+        gold_input_path: data_share/framenet17/original/fn1.7.dev.syntaxnet.conll
+        gold_output_path: FrameNet17_dev.gold.txt
+        pred_output_path: FrameNet17_dev.pred.txt
+        scorer_path: scripts/scorers/fnSemScore_modified.pl
+        language_model_name: princeton-nlp/sup-simcse-roberta-base
+
+logging:
+  wandb:
+    entity: srl-team
+    project: dsrl-emnlp

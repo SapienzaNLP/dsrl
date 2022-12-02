@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cousin">
+<roleset id="cousin.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+my cousin
+</text>
+<arg n="1">my</arg>
+<arg n="0">cousin</arg>
+<rel>cousin</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Elie 's younger cousin
+</text>
+<arg n="1">Elie 's</arg>
+<arg n="0">cousin</arg>
+<rel>cousin</rel>
+</example>
+
+</roleset>
+<roleset id="cousin.02" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its Euro-Communist cousin
+</text>
+<arg n="2">its</arg>
+<arg n="1">Euro-Communist</arg>
+<arg n="0">cousin</arg>
+<rel>cousin</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their big blue-chip cousins on the New York Stock Exchange
+</text>
+<arg n="2">their</arg>
+<arg n="1">blue-chip</arg>
+<arg n="0">cousins</arg>
+<rel>cousins</rel>
+<arg f="LOC" n="M">on the New York Stock Exchange</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

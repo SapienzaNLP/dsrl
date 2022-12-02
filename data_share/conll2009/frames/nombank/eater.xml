@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="eater">
+<roleset id="eater.01" name="consume" source="verb-eat.01" vncls="39.1">
+<roles>
+
+<role descr="consumer, eater" n="0">
+<vnrole vncls="39.1" vntheta="Agent"/></role>
+
+<role descr="meal" n="1">
+<vnrole vncls="39.1" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+health-food eaters
+</text>
+<arg n="1">health-food</arg>
+<arg n="0">eaters</arg>
+<rel>eaters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

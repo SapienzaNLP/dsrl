@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="convention">
+<roleset id="convention.01" name="get together (with" source="verb-meet.03" vncls="36.3">
+<roles>
+
+<role descr="one party" n="0">
+<vnrole vncls="36.3" vntheta="Actor1"/></role>
+
+<role descr="other party" n="1">
+<vnrole vncls="36.3" vntheta="Actor2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the GOP convention
+</text>
+<arg n="0">GOP</arg>
+<rel>convention</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the '68 Democratic convention
+</text>
+<arg f="TMP" n="M">'68</arg>
+<arg n="0">Democratic</arg>
+<rel>convention</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

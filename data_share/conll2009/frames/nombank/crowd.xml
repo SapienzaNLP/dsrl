@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="crowd">
+<roleset id="crowd.01" name="group">
+<roles>
+
+<role descr="quantified/descriptor" n="1"></role>
+
+<role descr="employer/leader/pivot" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a crowd of crashing stocks
+</text>
+<rel>crowd</rel>
+<arg n="1">of crashing stocks</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the lunch crowd
+</text>
+<arg n="1">lunch</arg>
+<rel>crowd</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

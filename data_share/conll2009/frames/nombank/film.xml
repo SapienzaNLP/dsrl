@@ -1,0 +1,67 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="film">
+<roleset id="film.01" name="record on film" source="verb-film.01" vncls="25.4">
+<roles>
+
+<role descr="recorder, filmer" n="0">
+<vnrole vncls="25.4" vntheta="Agent"/></role>
+
+<role descr="thing recorded, filmed" n="1">
+<vnrole vncls="25.4" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Errol Morris 's acclaimed film , `` The Thin Blue Line
+</text>
+<arg n="0">Errol Morris 's</arg>
+<rel>film</rel>
+<arg n="1">`` The Thin Blue Line</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the film `` Klute ''
+</text>
+<rel>film</rel>
+<arg n="1">Klute</arg>
+</example>
+
+</roleset>
+<roleset id="film.02" name="put, set, cause to exist at some location" source="verb-lay.01" vncls="9.2">
+<roles>
+
+<role descr="layer" n="0">
+<vnrole vncls="9.2" vntheta="Agent"/></role>
+
+<role descr="thing laid" n="1">
+<vnrole vncls="9.2" vntheta="Theme"/></role>
+
+<role descr="location" n="2">
+<vnrole vncls="9.2" vntheta="Destination"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the packaging 's polystyrene foam , polyproplene and polyester
+film
+</text>
+<arg n="2">the packaging 's</arg>
+<arg n="1">polyproplene and polyester</arg>
+<rel>film</rel>
+</example>
+
+<example name="autogen2">
+<text>
+flexible packaging films
+</text>
+<arg n="2">packaging</arg>
+<rel>films</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

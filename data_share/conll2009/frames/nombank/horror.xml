@@ -1,0 +1,21 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="horror">
+<roleset id="horror.01" name="nomadj-horrible">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the horrors of chemistry
+</text>
+<rel>horrors</rel>
+<arg n="1">of chemistry</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

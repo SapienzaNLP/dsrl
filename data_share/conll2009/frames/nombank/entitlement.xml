@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="entitlement">
+<roleset id="entitlement.01" name="allow" source="verb-entitle.01">
+<roles>
+
+<role descr="allower" n="0"></role>
+
+<role descr="action allowed" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The House joined the Senate in making federal reparations for
+Japanese-Americans held in World War II internment camps a legal
+entitlement requiring the Treasury Department to meet expedited
+payments of an estimated $ 1.25 billion during the next several
+years .
+</text>
+<arg n="0">The House ---> *-1</arg>
+<arg n="Support">making</arg>
+<arg f="MNR" n="M">legal</arg>
+<rel>entitlement</rel>
+<arg n="Support">requiring</arg>
+<arg n="1">
+the Treasury Department to meet expedited payments of an
+estimated $ 1.25 billion during the next several years</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the entitlement programs of Social Security and Medicare
+</text>
+<rel>entitlement</rel>
+<arg n="Support">programs</arg>
+<arg n="0">of Social Security and Medicare</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

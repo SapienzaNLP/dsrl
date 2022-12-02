@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="feeding">
+<roleset id="feeding.01" name="cause to eat" source="verb-feed.01" vncls="13.1-2">
+<roles>
+
+<role descr="causal agent" n="0">
+<vnrole vncls="13.1-2" vntheta="Agent"/></role>
+
+<role descr="food" n="1">
+<vnrole vncls="13.1-2" vntheta="Theme"/></role>
+
+<role descr="eater" n="2">
+<vnrole vncls="13.1-2" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a ` feeding frenzy ' for our projects
+</text>
+<rel>feeding</rel>
+<arg n="Support">frenzy</arg>
+<arg n="1">for our projects</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

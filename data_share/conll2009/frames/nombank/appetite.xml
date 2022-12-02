@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="appetite">
+<roleset id="appetite.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Patients who receive canine or feline visitors are found to have
+lower blood pressure and improved appetite and be more receptive
+to therapy
+</text>
+<arg n="1">Patients who receive canine or feline visitors ---> *-2</arg>
+<arg n="Support">have</arg>
+<arg f="REF" n="2">appetite</arg>
+<rel>appetite</rel>
+</example>
+
+</roleset>
+<roleset id="appetite.02" name="want, crave" source="verb-desire.01" vncls="32.1">
+<roles>
+
+<role descr="wanter" n="0">
+<vnrole vncls="32.1" vntheta="Experiencer"/></role>
+
+<role descr="wanted" n="1">
+<vnrole vncls="32.1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Ford 's appetite to attack -LCB- Jaguar -RCB-
+</text>
+<arg n="0">Ford 's</arg>
+<rel>appetite</rel>
+<arg f="PRD" n="1">to attack -LCB- Jaguar -RCB-</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an appetite for new genres
+</text>
+<rel>appetite</rel>
+<arg n="1">for new genres</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="manipulation">
+<roleset id="manipulation.01" name="force" source="verb-manipulate.02">
+<roles>
+
+<role descr="causal agent" n="0"></role>
+
+<role descr="impelled action" n="1" source="2"></role>
+
+<role descr="impelled agent" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the stock manipulation trial of GAF Corp. and its vice chairman ,
+James T. Sherwin ,
+</text>
+<arg n="2">stock</arg>
+<rel>manipulation</rel>
+<arg n="Support">trial</arg>
+<arg n="0">of GAF Corp. and its vice chairman , James T. Sherwin ,</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the stock-manipulation charges
+</text>
+<arg n="2">stock-manipulation</arg>
+<rel>stock-manipulation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

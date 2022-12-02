@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="rejection">
+<roleset id="rejection.01" name="reject, decline, turn down" source="verb-reject.01" vncls="29.2">
+<roles>
+
+<role descr="rejecter" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing rejected" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="attribute" n="3">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a U.S. rejection of the capital increase -LRB- and transfer of
+shares to Japan -RRB-
+</text>
+<arg n="0">U.S.</arg>
+<rel>rejection</rel>
+<arg n="1">
+of the capital increase -LRB- and transfer of shares to Japan
+-RRB-</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the rejection of transplanted organs
+</text>
+<rel>rejection</rel>
+<arg n="1">of transplanted organs</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

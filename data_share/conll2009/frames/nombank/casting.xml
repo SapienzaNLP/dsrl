@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="casting">
+<roleset id="casting.01" name="name, assign a role" source="verb-cast.02" vncls="29.2">
+<roles>
+
+<role descr="namer, assigner of a role" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="entity playing the role" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="role" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+casting directors
+</text>
+<rel>casting</rel>
+<arg n="0">directors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

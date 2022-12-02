@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="smile">
+<roleset id="smile.01" name="to have or form a smile" source="verb-smile.01">
+<roles>
+
+<role descr="agent smiling" n="0"></role>
+
+<role descr="cognate object" n="1"></role>
+
+<role descr="smiled at" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+In passing the window , Senorita Elvira gives them a smile --
+simply out of habit .
+</text>
+<arg n="0">Senorita Elvira</arg>
+<arg n="Support">gives</arg>
+<arg n="2">them</arg>
+<rel>smile</rel>
+</example>
+
+<example name="autogen2">
+<text>
+I felt the temblor begin and glanced at the table next to mine ,
+smiled that guilty smile
+</text>
+<arg n="0">I</arg>
+<arg n="Support">smiled</arg>
+<arg f="MNR" n="M">guilty</arg>
+<rel>smile</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

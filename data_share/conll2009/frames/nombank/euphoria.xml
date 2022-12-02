@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="euphoria">
+<roleset id="euphoria.01" name="nomadj-euphoric">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+European euphoria over Mr. Gorbachev
+</text>
+<arg n="0">European</arg>
+<rel>euphoria</rel>
+<arg n="1">over Mr. Gorbachev</arg>
+</example>
+
+<example name="autogen2">
+<text>
+an international chorus of euphoria
+</text>
+<arg n="0">international</arg>
+<arg n="Support">chorus of</arg>
+<rel>euphoria</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

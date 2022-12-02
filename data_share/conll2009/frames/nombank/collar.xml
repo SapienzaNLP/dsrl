@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="collar">
+<roleset id="collar.01" name="ensure something stays below a certain level" source="verb-limit.01">
+<roles>
+
+<role descr="agent, limiter" n="0"></role>
+
+<role descr="thing limited" n="1"></role>
+
+<role descr="limit" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+reinstating a `` collar '' on program trading
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">reinstating</arg>
+<arg f="REF" n="2">collar</arg>
+<rel>collar</rel>
+<arg n="1">on program trading</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to circumvent the collar
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">circumvent</arg>
+<arg f="REF" n="2">collar</arg>
+<rel>collar</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="representation">
+<roleset id="representation.01" name="stand for, correspond" source="verb-represent.01" vncls="29.2">
+<roles>
+
+<role descr="item / entity taking place of other" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="item / entity being substituted by the other" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Alexander 's representation of Derr Construction Co. , one of
+several defendants in a wrongful death lawsuit brought by Ms.
+Parks , the widow of a construction worker killed in January 1987
+while working on a new Houston convention center
+</text>
+<arg n="0">Mr. Alexander 's</arg>
+<rel>representation</rel>
+<arg n="1">
+of Derr Construction Co. , one of several defendants in a
+wrongful death lawsuit brought by Ms. Parks , the widow of a
+construction worker killed in January 1987 while working on a new
+Houston convention center</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they may seek board representation
+</text>
+<arg n="1">they</arg>
+<arg n="Support">seek</arg>
+<arg f="LOC" n="M">board</arg>
+<arg f="REF" n="0">representation</arg>
+<rel>representation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

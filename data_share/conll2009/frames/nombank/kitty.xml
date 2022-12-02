@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="kitty">
+<roleset id="kitty.01" name="provide money for, get money for" source="verb-fund.01">
+<roles>
+
+<role descr="theme" n="1" source="2"></role>
+
+<role descr="recipient" n="2" source="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+put about $ 1 million into the kitty for the Connecticut
+Association of Concerned Veterans and the Vietnam Veterans
+Service Center
+</text>
+<arg n="Support">put into</arg>
+<arg n="1">about $ 1 million</arg>
+<rel>kitty</rel>
+<arg n="2">
+for the Connecticut Association of Concerned Veterans and the
+Vietnam Veterans Service Center</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

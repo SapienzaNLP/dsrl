@@ -1,0 +1,66 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="jump">
+<roleset id="jump.01" name="stock prices" source="verb-jump.01" vncls="45.6">
+<roles>
+
+<role descr="thing jumping" n="1">
+<vnrole vncls="45.6" vntheta="Patient"/></role>
+
+<role descr="ext, amount jumped by" n="2">
+<vnrole vncls="45.6" vntheta="Extent"/></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point or end state of arg1" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a 38 % jump in pretax profit for the first half to # 54.8 million
+from # 39.8 million on a 63 % rise in sales
+</text>
+<arg n="2">38 %</arg>
+<rel>jump</rel>
+<arg n="1">in pretax profit</arg>
+<arg f="TMP" n="M">for the first half</arg>
+<arg n="4">to # 54.8 million</arg>
+<arg n="3">from # 39.8 million</arg>
+</example>
+
+<example name="autogen2">
+<text>
+too big a jump from the rental rates of the late 1970s , when
+their leases were signed
+</text>
+<rel>jump</rel>
+<arg n="3">
+from the rental rates of the late 1970s , when their leases were
+signed</arg>
+</example>
+
+</roleset>
+<roleset id="jump.02" name="expect" source="verb-anticipate.01">
+<roles>
+
+<role descr="anticipater" n="0"></role>
+
+<role descr="thing anticipated" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+So this year , the airlines are getting a jump on holiday
+discounts .
+</text>
+<arg n="0">the airlines</arg>
+<arg n="Support">getting</arg>
+<rel>jump</rel>
+<arg n="1">on holiday discounts</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,65 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="second">
+<roleset id="second.01" name="environment for proposition/partitive-quant">
+<roles>
+
+<role descr="action/theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the 15 seconds of the earthquake 's actual duration
+</text>
+<rel>seconds</rel>
+<arg n="1">of the earthquake 's actual duration</arg>
+</example>
+
+<example name="autogen2">
+<text>
+30 seconds of advertising
+</text>
+<rel>seconds</rel>
+<arg n="1">of advertising</arg>
+</example>
+
+</roleset>
+<roleset id="second.02" name="nomadj-second">
+<roles>
+
+<role descr="theme/participant" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="contest" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a distant second to Time 's Home Box Office in the delivery of
+pay-TV networks to cable subscribers
+</text>
+<rel>second</rel>
+<arg n="2">to Time 's Home Box Office</arg>
+<arg n="3">in the delivery of pay-TV networks to cable subscribers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Akzo 's Twaron aramid fiber is a distant second to Du Pont Co. 's
+Kevlar , which dominates the market .
+</text>
+<arg n="1">Akzo 's Twaron aramid fiber</arg>
+<rel>second</rel>
+<arg n="2">to Du Pont Co. 's Kevlar , which dominates the market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

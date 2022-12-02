@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="amendment">
+<roleset id="amendment.01" name="add to or correct" source="verb-amend.01">
+<roles>
+
+<role descr="amender, corrector" n="0"></role>
+
+<role descr="thing amended" n="1"></role>
+
+<role descr="beneficiary" n="2" source="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Senate rejected a constitutional amendment sought by Bush to
+prohibit desecration of the U.S. flag .
+</text>
+<arg n="0">The Senate</arg>
+<arg n="Support">rejected</arg>
+<arg n="1">constitutional</arg>
+<rel>amendment</rel>
+<arg n="Support">sought</arg>
+<arg n="2">by Bush</arg>
+</example>
+
+<example name="autogen2">
+<text>
+two constitutional amendment bills
+</text>
+<arg n="1">constitutional</arg>
+<rel>amendment</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

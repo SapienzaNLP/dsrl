@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="error">
+<roleset id="error.01" name="to make an error or a mistake" source="verb-err.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme/action" n="1"></role>
+
+<role descr="project" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+they may have made a tactical error in accepting the Sony offer
+before taking it up with Warner
+</text>
+<arg n="0">they</arg>
+<arg n="Support">made</arg>
+<arg n="1">tactical</arg>
+<rel>error</rel>
+<arg n="2">in accepting the Sony offer before taking it up with Warner</arg>
+</example>
+
+<example name="autogen2">
+<text>
+judgmental errors by accountants
+</text>
+<arg n="1">judgmental</arg>
+<rel>errors</rel>
+<arg n="0">by accountants</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

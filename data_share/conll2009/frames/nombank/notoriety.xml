@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="notoriety">
+<roleset id="notoriety.01" name="attribute/nomadj-notorious">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Oliver North of Iran-Contra notoriety
+</text>
+<arg n="1">Oliver North</arg>
+<arg n="2">Iran-Contra</arg>
+<rel>notoriety</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the notoriety of her husband
+</text>
+<arg f="REF" n="2">notoriety</arg>
+<rel>notoriety</rel>
+<arg n="1">of her husband</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

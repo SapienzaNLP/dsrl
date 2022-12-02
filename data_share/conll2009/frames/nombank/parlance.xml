@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="parlance">
+<roleset id="parlance.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+art-world parlance
+</text>
+<arg n="1">art-world</arg>
+<arg f="REF" n="2">parlance</arg>
+<rel>parlance</rel>
+</example>
+
+<example name="autogen2">
+<text>
+post-earthquake parlance
+</text>
+<arg n="1">post-earthquake</arg>
+<arg f="REF" n="2">parlance</arg>
+<rel>parlance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

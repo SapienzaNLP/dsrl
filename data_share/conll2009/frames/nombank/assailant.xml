@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="assailant">
+<roleset id="assailant.01" name="to attack viciously" source="verb-assail.01">
+<roles>
+
+<role descr="assailant, agent" n="0"></role>
+
+<role descr="entity assailed" n="1"></role>
+
+<role descr="assailed for" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+her hidden assailant
+</text>
+<arg n="1">her</arg>
+<arg n="0">assailant</arg>
+<rel>assailant</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

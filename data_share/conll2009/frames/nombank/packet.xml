@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="packet">
+<roleset id="packet.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its Chex Party Mix 's three new flavor packets
+</text>
+<arg n="1">flavor</arg>
+<rel>packets</rel>
+</example>
+
+<example name="autogen2">
+<text>
+50 packets of something
+</text>
+<rel>packets</rel>
+<arg n="1">of something</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

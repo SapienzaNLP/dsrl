@@ -1,0 +1,30 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="keyboard">
+<roleset id="keyboard.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Its keyboard
+</text>
+<arg n="1">Its</arg>
+<rel>keyboard</rel>
+</example>
+
+<example name="autogen2">
+<text>
+But those machines are still considered novelties , with
+keyboards only a munchkin could love and screens to match .
+</text>
+<arg n="1">those machines ---> *-1</arg>
+<rel>keyboards</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

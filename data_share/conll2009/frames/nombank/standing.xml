@@ -1,0 +1,58 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="standing">
+<roleset id="standing.01" name="assign a position in a list/attribute" source="verb-rank.01" vncls="29.2">
+<roles>
+
+<role descr="assigner" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="value" n="2">
+<vnrole vncls="29.2" vntheta="Predicate"/></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their standing in the entertainment industry is second to none
+</text>
+<arg n="1">their</arg>
+<rel>standing</rel>
+<arg n="0">in the entertainment industry</arg>
+<arg n="2">second to none</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Mr. Bork 's scholarly standing
+</text>
+<arg n="3">Mr. Bork 's</arg>
+<arg n="1">scholarly</arg>
+<arg f="REF" n="2">standing</arg>
+<rel>standing</rel>
+</example>
+
+</roleset>
+<roleset id="standing.02" name="nomadjlike-current">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the standing price
+</text>
+<rel>standing</rel>
+<arg n="1">price</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

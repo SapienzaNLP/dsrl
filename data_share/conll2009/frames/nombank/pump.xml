@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pump">
+<roleset id="pump.01" name="fill" source="verb-pump.01" vncls="9.7-1">
+<roles>
+
+<role descr="pumper" n="0">
+<vnrole vncls="9.7-1" vntheta="Agent"/></role>
+
+<role descr="container" n="1">
+<vnrole vncls="9.7-1" vntheta="Destination"/></role>
+
+<role descr="liquid" n="2">
+<vnrole vncls="9.7-1" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the gas pumps
+</text>
+<arg n="2">gas</arg>
+<arg n="0">pumps</arg>
+<rel>pumps</rel>
+</example>
+
+<example name="autogen2">
+<text>
+fuel pumps
+</text>
+<arg n="2">fuel</arg>
+<arg n="0">pumps</arg>
+<rel>pumps</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

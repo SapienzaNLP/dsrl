@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="expert">
+<roleset id="expert.01" name="nomadj-expert">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="topic" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a patent expert at George Mason University School of Law
+</text>
+<arg n="1">patent</arg>
+<arg n="0">expert</arg>
+<rel>expert</rel>
+<arg n="2">at George Mason University School of Law</arg>
+</example>
+
+<example name="autogen2">
+<text>
+many experts on the commercial side
+</text>
+<arg n="0">experts</arg>
+<rel>experts</rel>
+<arg n="2">on the commercial side</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

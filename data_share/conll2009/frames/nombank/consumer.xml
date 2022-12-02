@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="consumer">
+<roleset id="consumer.01" name="eat, use up" source="verb-consume.01" vncls="39.4">
+<roles>
+
+<role descr="consumer" n="0">
+<vnrole vncls="39.4" vntheta="Agent"/></role>
+
+<role descr="consumed" n="1">
+<vnrole vncls="39.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+consumer electronics
+</text>
+<arg n="0">consumer</arg>
+<rel>consumer</rel>
+<arg n="1">electronics</arg>
+</example>
+
+<example name="autogen5">
+<text>
+September 's U.S. consumer price data
+</text>
+<arg f="LOC" n="M">U.S.</arg>
+<arg n="0">consumer</arg>
+<rel>consumer</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

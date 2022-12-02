@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="countryside">
+<roleset id="countryside.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Polish countryside
+</text>
+<arg n="1">Polish</arg>
+<rel>countryside</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the Kentucky countryside
+</text>
+<arg n="1">Kentucky</arg>
+<rel>countryside</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

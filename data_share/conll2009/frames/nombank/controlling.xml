@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="controlling">
+<roleset id="controlling.01" name="have power over" source="verb-control.01">
+<roles>
+
+<role descr="controller" n="0"></role>
+
+<role descr="controlled" n="1"></role>
+
+<role descr="instrumental, controlled with" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it may seek a controlling interest in Harley-Davidson , or seek
+representation on the company 's board
+</text>
+<arg n="0">it</arg>
+<arg n="Support">seek interest</arg>
+<rel>controlling</rel>
+<arg n="1">in Harley-Davidson</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

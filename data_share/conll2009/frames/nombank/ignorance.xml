@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ignorance">
+<roleset id="ignorance.01" name="nomadj-ignorant">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their ignorance of important market information
+</text>
+<arg n="0">their</arg>
+<rel>ignorance</rel>
+<arg n="1">of important market information</arg>
+</example>
+
+<example name="autogen2">
+<text>
+your ignorance
+</text>
+<arg n="0">your</arg>
+<rel>ignorance</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

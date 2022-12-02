@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="integration">
+<roleset id="integration.01" name="blend, mix" source="verb-integrate.01" vncls="22.2">
+<roles>
+
+<role descr="mixer, integrater" n="0">
+<vnrole vncls="22.2" vntheta="Agent"/></role>
+
+<role descr="figure" n="1">
+<vnrole vncls="22.2" vntheta="Patient1"/></role>
+
+<role descr="ground" n="2">
+<vnrole vncls="22.2" vntheta="Patient2"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+European economic integration
+</text>
+<arg n="1">European</arg>
+<arg n="2">economic</arg>
+<rel>integration</rel>
+</example>
+
+<example name="autogen2">
+<text>
+1992 's European economic integration
+</text>
+<arg f="TMP" n="M">1992 's</arg>
+<arg n="1">European</arg>
+<arg n="2">economic</arg>
+<rel>integration</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

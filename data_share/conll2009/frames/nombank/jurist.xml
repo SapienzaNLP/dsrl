@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="jurist">
+<roleset id="jurist.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Miami jurist
+</text>
+<arg n="1">Miami</arg>
+<arg n="0">jurist</arg>
+<rel>jurist</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

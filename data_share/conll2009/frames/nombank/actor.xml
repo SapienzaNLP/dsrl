@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="actor">
+<roleset id="actor.01" name="play a role" source="verb-act.01" vncls="29.6">
+<roles>
+
+<role descr="player" n="0">
+<vnrole vncls="29.6" vntheta="Agent"/></role>
+
+<role descr="role" n="1">
+<vnrole vncls="29.6" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the actor who plays Mr. Hoffman
+</text>
+<arg n="0">actor</arg>
+<rel>actor</rel>
+<arg n="Support">plays</arg>
+<arg n="1">Mr. Hoffman</arg>
+</example>
+
+<example name="autogen2">
+<text>
+actors playing Mr. Anderson and former hostages David Jacobsen ,
+the Rev. Benjamin Weir and Father Lawrence Jenco
+</text>
+<arg n="0">actors</arg>
+<rel>actors</rel>
+<arg n="Support">playing</arg>
+<arg n="1">
+Mr. Anderson and former hostages David Jacobsen , the Rev.
+Benjamin Weir and Father Lawrence Jenco</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

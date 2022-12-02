@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="talk">
+<roleset id="talk.01" name="speak" source="verb-talk.01">
+<roles>
+
+<role descr="talker" n="0"></role>
+
+<role descr="subject" n="1"></role>
+
+<role descr="hearer" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its steel talks with the U.S.
+</text>
+<arg n="0">its</arg>
+<arg n="1">steel</arg>
+<rel>talks</rel>
+<arg n="2">with the U.S.</arg>
+</example>
+
+<example name="autogen2">
+<text>
+pay talks
+</text>
+<arg n="1">pay</arg>
+<rel>talks</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

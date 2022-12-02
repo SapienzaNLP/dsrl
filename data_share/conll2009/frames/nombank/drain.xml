@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drain">
+<roleset id="drain.01" name="unfill, empty" source="verb-drain.01">
+<roles>
+
+<role descr="causative agent" n="0"></role>
+
+<role descr="container" n="1"></role>
+
+<role descr="substance" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Population Drain Ends For Midwestern States
+</text>
+<arg n="2">Population</arg>
+<rel>Drain</rel>
+<arg n="Support">Ends</arg>
+<arg n="1">For Midwestern States</arg>
+</example>
+
+<example name="autogen2">
+<text>
+too great a drain on funds
+</text>
+<rel>drain</rel>
+<arg n="2">on funds</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

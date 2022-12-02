@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="stalwart">
+<roleset id="stalwart.01" name="nomadj-stalwart">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+such Steppenwolf stalwarts
+</text>
+<arg n="1">Steppenwolf</arg>
+<arg n="0">stalwarts</arg>
+<rel>stalwarts</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Even such a pro-life stalwart
+</text>
+<arg n="1">pro-life</arg>
+<arg n="0">stalwart</arg>
+<rel>stalwart</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

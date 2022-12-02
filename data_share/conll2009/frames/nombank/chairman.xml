@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="chairman">
+<roleset id="chairman.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+vice chairman of the Business Council
+</text>
+<arg n="3">vice</arg>
+<arg n="0">chairman</arg>
+<rel>chairman</rel>
+<arg n="2">of the Business Council</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the two Democratic chairmen of the House and Senate military
+construction subcommittees
+</text>
+<arg n="1">Democratic</arg>
+<arg n="0">chairmen</arg>
+<rel>chairmen</rel>
+<arg n="2">of the House and Senate military construction subcommittees</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,49 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lift">
+<roleset id="lift.01" name="cause increase in elevation" source="verb-lift.01" vncls="9.4">
+<roles>
+
+<role descr="elevator, agent" n="0">
+<vnrole vncls="9.4" vntheta="Agent"/></role>
+
+<role descr="logical subject, patient, thing rising" n="1">
+<vnrole vncls="9.4" vntheta="Theme"/></role>
+
+<role descr="ext, amount risen" n="2"></role>
+
+<role descr="start point" n="3"></role>
+
+<role descr="end point" n="4"></role>
+
+<role descr="medium" n="M"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The space shuttle Atlantis boosted the Galileo spacecraft on its
+way to Jupiter , giving a big lift as well to an ambitious U.S.
+program of space exploration .
+</text>
+<arg n="0">The space shuttle Atlantis ---> *-1</arg>
+<arg n="Support">giving</arg>
+<arg f="EXT" n="M">big</arg>
+<rel>lift</rel>
+<arg n="1">to an ambitious U.S. program of space exploration</arg>
+</example>
+
+<example name="autogen2">
+<text>
+After watching interest in the sport plummet for years , the ski
+industry is trying to give itself a lift .
+</text>
+<arg n="0">the ski industry ---> *-1</arg>
+<arg n="Support">give</arg>
+<arg n="1">itself</arg>
+<rel>lift</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

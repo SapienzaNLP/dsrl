@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="notion">
+<roleset id="notion.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+American notions of liberty and freedom
+</text>
+<arg n="0">American</arg>
+<rel>notions</rel>
+<arg n="1">of liberty and freedom</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the notion that the delivery service experienced problems in some
+markets where testing has been discontinued
+</text>
+<rel>notion</rel>
+<arg n="1">
+that the delivery service experienced problems in some markets
+where testing has been discontinued</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,100 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bearing">
+<roleset id="bearing.01" name="has relation to" source="verb-bear.06">
+<roles>
+
+<role descr="topic" n="1"></role>
+
+<role descr="related topic" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+company size had a bearing on a manager 's view of the problem
+</text>
+<arg n="1">company size</arg>
+<arg n="Support">had</arg>
+<rel>bearing</rel>
+<arg n="2">on a manager 's view of the problem</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the definition has any bearing on other state laws
+</text>
+<arg n="1">the definition</arg>
+<arg n="Support">has</arg>
+<rel>bearing</rel>
+<arg n="2">on other state laws</arg>
+</example>
+
+</roleset>
+<roleset id="bearing.02" name="to conduct (oneself) in a specified way" source="verb-behave.01">
+<roles>
+
+<role descr="agent, entity behaving" n="0"></role>
+
+<role descr="manner" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the judge 's imperial bearing
+</text>
+<arg n="0">the judge 's</arg>
+<arg n="1">imperial</arg>
+<rel>bearing</rel>
+</example>
+
+</roleset>
+<roleset id="bearing.03" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a Valparaiso , Ind. , ball-bearing manufacturer
+</text>
+<rel>ball-bearing</rel>
+<arg n="0">manufacturer</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a producer of bearings and specialty steel
+</text>
+<arg n="0">a producer</arg>
+<rel>bearings</rel>
+</example>
+
+</roleset>
+<roleset id="bearing.04" name="establish a balance" source="verb-balance.01">
+<roles>
+
+<role descr="balancer, agent" n="0"></role>
+
+<role descr="thing balanced" n="1"></role>
+
+<role descr="in comparison to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their bearings
+</text>
+<arg n="0">their</arg>
+<rel>bearings</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

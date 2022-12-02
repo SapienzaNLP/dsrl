@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="salesman">
+<roleset id="salesman.01" name="commerce: seller" source="verb-sell.01" vncls="13.1-1">
+<roles>
+
+<role descr="seller" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing sold" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="buyer" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+<role descr="price paid" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Bear Stearns 's 650 stock and bond salesmen
+</text>
+<arg n="4">Bear Stearns 's</arg>
+<arg n="1">stock and bond</arg>
+<arg n="0">salesmen</arg>
+<rel>salesmen</rel>
+</example>
+
+<example name="autogen2">
+<text>
+a Justin salesman
+</text>
+<arg n="4">Justin</arg>
+<arg n="0">salesman</arg>
+<rel>salesman</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

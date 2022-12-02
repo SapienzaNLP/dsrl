@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="premium">
+<roleset id="premium.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+NCNB will pay the RTC a premium of $ 40.4 million for $ 1.1
+billion in deposits .
+</text>
+<rel>premium</rel>
+<arg n="2">of $ 40.4 million</arg>
+<arg n="1">for $ 1.1 billion in deposits</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a premium of $ 30.5 million
+</text>
+<rel>premium</rel>
+<arg n="2">of $ 30.5 million</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

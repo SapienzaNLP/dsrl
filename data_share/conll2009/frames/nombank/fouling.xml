@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fouling">
+<roleset id="fouling.01" name="make wrong" source="verb-foul.01">
+<roles>
+
+<role descr="causer of wrongness, agent" n="0"></role>
+
+<role descr="thing gone wrong" n="1"></role>
+
+<role descr="mode-specific description of act of going wrong" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fouling of rivers and lakes
+</text>
+<rel>fouling</rel>
+<arg n="1">of rivers and lakes</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="lending">
+<roleset id="lending.01" name="give temporarily" source="verb-lend.01" vncls="13.1-1">
+<roles>
+
+<role descr="lender" n="0">
+<vnrole vncls="13.1-1" vntheta="Agent"/></role>
+
+<role descr="thing lent" n="1">
+<vnrole vncls="13.1-1" vntheta="Theme"/></role>
+
+<role descr="lent-to" n="2">
+<vnrole vncls="13.1-1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its lending to developing countries
+</text>
+<arg n="0">its</arg>
+<rel>lending</rel>
+<arg n="2">to developing countries</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a surge in building-society lending to a record # 10.2 billion
+-LRB- $ 16.22 billion -RRB- last month , a much higher level than
+economists had predicted
+</text>
+<arg n="Support">surge</arg>
+<arg n="2">building-society</arg>
+<rel>lending</rel>
+<arg n="1">
+to a record # 10.2 billion -LRB- $ 16.22 billion -RRB- last month
+, a much higher level than economists had predicted</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

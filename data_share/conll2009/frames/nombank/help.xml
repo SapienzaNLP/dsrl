@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="help">
+<roleset id="help.01" name="help, aid" source="verb-help.01">
+<roles>
+
+<role descr="helper" n="0"></role>
+
+<role descr="project" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Traders worked with the help of sunlight streaming through
+windows , despite large cracks in the walls and a lack of
+incoming phone calls .
+</text>
+<arg n="2">Traders</arg>
+<arg n="1">worked</arg>
+<rel>help</rel>
+<arg n="0">of sunlight streaming through windows</arg>
+</example>
+
+<example name="autogen2">
+<text>
+they need help to restrain their darker compulsions
+</text>
+<arg n="2">they</arg>
+<arg n="Support">need</arg>
+<rel>help</rel>
+<arg f="PRD" n="1">to restrain their darker compulsions</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="administration">
+<roleset id="administration.01" name="actrel/nom" source="verb-administer.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+vice president of finance and administration for National
+Broadcasting Co. , a unit of General Electric Co
+</text>
+<arg n="3">vice president</arg>
+<rel>administration</rel>
+<arg n="2">for National Broadcasting Co. , a unit of General Electric Co</arg>
+</example>
+
+<example name="autogen2">
+<text>
+vice president for administration and purchasing
+</text>
+<arg n="0">vice president</arg>
+<arg n="3">vice president</arg>
+<arg n="Support">president for</arg>
+<rel>administration</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

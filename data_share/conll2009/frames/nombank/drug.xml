@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="drug">
+<roleset id="drug.01" name="medicine" source="verb-protect.01">
+<roles>
+
+<role descr="patient" n="1"></role>
+
+<role descr="purpose" n="2"></role>
+
+<role descr="instrument" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its anti-cholesterol drug
+</text>
+<arg n="2">anti-cholesterol</arg>
+<arg n="3">drug</arg>
+<rel>drug</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the drugs consumers take
+</text>
+<arg n="3">drugs</arg>
+<rel>drugs</rel>
+<arg n="1">consumers</arg>
+<arg n="Support">take</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

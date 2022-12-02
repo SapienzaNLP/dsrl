@@ -1,0 +1,45 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="choice">
+<roleset id="choice.01" name="choose, pick" source="verb-choose.01" vncls="29.2">
+<roles>
+
+<role descr="picker" n="0">
+<vnrole vncls="29.2" vntheta="Agent"/></role>
+
+<role descr="thing picked" n="1">
+<vnrole vncls="29.2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2" source="3">
+<vnrole vncls="29.2" vntheta="Beneficiary"/></role>
+
+<role descr="group or source" n="3" source="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="secondary attribute on arg1" n="4">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+is the storage device of choice for virtually every desktop
+computer user
+</text>
+<arg n="1">the storage device</arg>
+<rel>choice</rel>
+<arg n="0">for virtually every desktop computer user</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the choice of gold for valuing the currency
+</text>
+<rel>choice</rel>
+<arg n="1">of gold</arg>
+<arg f="PRD" n="4">for valuing the currency</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

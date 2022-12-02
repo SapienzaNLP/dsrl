@@ -1,0 +1,44 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="inference">
+<roleset id="inference.01" name="deduce, come to believe" source="verb-infer.01">
+<roles>
+
+<role descr="agent, entity now believing something" n="0"></role>
+
+<role descr="belief" n="1"></role>
+
+<role descr="source of belief" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+By making clever inferences about how the squashed and distorted
+fossil remains corresponded to three-dimensional structures ,
+this trio was able to piece together a series of wondrous
+beasties quite unlike anything currently on the planet .
+</text>
+<arg n="0">*-2 ---> this trio</arg>
+<arg n="Support">making</arg>
+<arg f="MNR" n="M">clever</arg>
+<rel>inferences</rel>
+<arg n="1">
+about how the squashed and distorted fossil remains corresponded
+to three-dimensional structures</arg>
+</example>
+
+<example name="autogen2">
+<text>
+to draw the adverse inference and to concur with Mr. Pierce 's
+own belief that his testimony could help convict him of a crime
+</text>
+<arg n="0">NIL</arg>
+<arg n="Support">draw</arg>
+<arg f="MNR" n="M">adverse</arg>
+<rel>inference</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

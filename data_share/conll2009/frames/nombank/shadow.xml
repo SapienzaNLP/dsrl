@@ -1,0 +1,82 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shadow">
+<roleset id="shadow.01" name="nom" source="verb-shadow.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the vast shadow government of 15,000 congressional staffers that
+helps create such legislative atrocities as the 1,376 page ,
+13-pound reconciliation bill that claimed to be the budget of the
+United States
+</text>
+<rel>shadow</rel>
+<arg n="0">of 15,000 congressional staffers</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the shadow of the federal colossus
+</text>
+<rel>shadow</rel>
+<arg n="0">of the federal colossus</arg>
+</example>
+
+</roleset>
+<roleset id="shadow.02" name="nomlike" source="verb-spy.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Gen. Torrijos 's inseparable shadow
+</text>
+<arg n="1">Gen. Torrijos 's</arg>
+<arg f="REF" n="0">shadow</arg>
+<rel>shadow</rel>
+</example>
+
+</roleset>
+<roleset id="shadow.03" name="version" source="verb-overshadow.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a shadow of the confident hawk who defended Oliver North before
+national cameras at Iran-Contra hearings two years ago
+</text>
+<rel>shadow</rel>
+<arg n="1">
+of the confident hawk who defended Oliver North before national
+cameras at Iran-Contra hearings two years ago</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the five shadow jurors
+</text>
+<rel>shadow</rel>
+<arg n="1">jurors</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

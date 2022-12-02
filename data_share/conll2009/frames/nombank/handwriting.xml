@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="handwriting">
+<roleset id="handwriting.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+my handwriting
+</text>
+<arg n="1">my</arg>
+<arg f="REF" n="2">handwriting</arg>
+<rel>handwriting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

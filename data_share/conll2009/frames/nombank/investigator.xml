@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="investigator">
+<roleset id="investigator.01" name="actrel/nom" source="verb-investigate.01">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an Internal Revenue Service criminal investigator
+</text>
+<arg n="2">Internal Revenue Service</arg>
+<arg n="1">criminal</arg>
+<arg n="0">investigator</arg>
+<rel>investigator</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his investigator
+</text>
+<arg n="2">his</arg>
+<arg n="0">investigator</arg>
+<rel>investigator</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

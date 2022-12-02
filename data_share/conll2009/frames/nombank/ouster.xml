@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ouster">
+<roleset id="ouster.01" name="cause to cease employment" source="verb-oust.01" vncls="10.1">
+<roles>
+
+<role descr="employer" n="0">
+<vnrole vncls="10.1" vntheta="Agent"/></role>
+
+<role descr="ex-employee" n="1">
+<vnrole vncls="10.1" vntheta="Theme"/></role>
+
+<role descr="job" n="2">
+<vnrole vncls="10.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+officials reportedly sought Honecker 's ouster
+</text>
+<arg n="0">officials</arg>
+<arg n="Support">sought</arg>
+<arg n="1">Honecker 's</arg>
+<rel>ouster</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an outside investor who might try to force the ouster of the
+board through the solicitation of consents
+</text>
+<arg n="0">an outside investor ---> who ---> *T*-1 ---> *-2</arg>
+<arg n="Support">force</arg>
+<rel>ouster</rel>
+<arg n="1">of the board</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

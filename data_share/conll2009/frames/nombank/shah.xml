@@ -1,0 +1,28 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shah">
+<roleset id="shah.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen3">
+<text>
+the shah of Iran
+</text>
+<arg n="0">shah</arg>
+<rel>shah</rel>
+<arg n="2">of Iran</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,36 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="turnaround">
+<roleset id="turnaround.01" name="turn around, change direction" source="verb-reverse.01">
+<roles>
+
+<role descr="causer of reverse" n="0"></role>
+
+<role descr="thing turning around" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their own population turnaround
+</text>
+<arg n="0">their</arg>
+<arg n="1">population</arg>
+<rel>turnaround</rel>
+</example>
+
+<example name="autogen2">
+<text>
+the results signal a turnaround for the maker of wire and wire
+products , which has struggled to remain competitive in the face
+of lower-priced , imported steel
+</text>
+<rel>turnaround</rel>
+<arg n="1">
+for the maker of wire and wire products , which has struggled to
+remain competitive in the face of lower-priced , imported steel</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

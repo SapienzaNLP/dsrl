@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="interval">
+<roleset id="interval.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+to be crowded together at killing intervals of 10 or 16 feet
+</text>
+<arg n="1">to be crowded together</arg>
+<rel>intervals</rel>
+<arg n="2">of 10 or 16 feet</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The quivers move through my house every few minutes at
+unpredictable intervals
+</text>
+<arg n="1">The quivers move through my house every few minutes</arg>
+<arg n="2">unpredictable</arg>
+<rel>intervals</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

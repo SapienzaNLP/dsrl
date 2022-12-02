@@ -1,0 +1,43 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ceremony">
+<roleset id="ceremony.01" name="honor, show respect to" source="verb-celebrate.01" vncls="33">
+<roles>
+
+<role descr="honorer" n="0">
+<vnrole vncls="33" vntheta="Agent"/></role>
+
+<role descr="honored" n="1">
+<vnrole vncls="33" vntheta="Theme"/></role>
+
+<role descr="for what reason" n="2">
+<vnrole vncls="33" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a White House ceremony marking Polish Heritage Month
+</text>
+<arg f="LOC" n="M">White House</arg>
+<rel>ceremony</rel>
+<arg n="Support">marking</arg>
+<arg n="2">Polish Heritage Month</arg>
+</example>
+
+<example name="autogen2">
+<text>
+Soviet Ambassador Yuri Dubinin , who hosted a signing ceremony
+for the venture 's partners at the Soviet embassy here
+</text>
+<arg n="0">Soviet Ambassador Yuri Dubinin ---> who ---> *T*-1</arg>
+<arg n="Support">hosted</arg>
+<arg n="2">signing</arg>
+<rel>ceremony</rel>
+<arg n="1">for the venture 's partners</arg>
+<arg f="LOC" n="M">at the Soviet embassy here</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="fetish">
+<roleset id="fetish.01" name="monomania" source="verb-obsess.01" vncls="31.3">
+<roles>
+
+<role descr="obsessed entity" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="obsession" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the fetish of liquidity
+</text>
+<rel>fetish</rel>
+<arg n="1">of liquidity</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

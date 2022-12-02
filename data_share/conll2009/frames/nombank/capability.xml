@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="capability">
+<roleset id="capability.01" name="ability/nomadj-capable">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The capability of existing fields to deliver oil
+</text>
+<rel>capability</rel>
+<arg n="0">of existing fields</arg>
+<arg n="1">to deliver oil</arg>
+</example>
+
+<example name="autogen2">
+<text>
+new-generation capability
+</text>
+<arg n="1">new-generation</arg>
+<rel>capability</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

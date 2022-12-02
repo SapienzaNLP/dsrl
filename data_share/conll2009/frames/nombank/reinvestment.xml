@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reinvestment">
+<roleset id="reinvestment.01" name="nomlike" source="verb-invest.01" vncls="13.4.2">
+<roles>
+
+<role descr="investor" n="0">
+<vnrole vncls="13.4.2" vntheta="Agent"/></role>
+
+<role descr="theme" n="1">
+<vnrole vncls="13.4.2" vntheta="Theme"/></role>
+
+<role descr="purpose" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` efficient reinvestment '' of cash by Applied
+</text>
+<arg f="MNR" n="M">efficient</arg>
+<rel>reinvestment</rel>
+<arg n="1">of cash</arg>
+<arg n="0">by Applied</arg>
+</example>
+
+<example name="autogen2">
+<text>
+all investors who have requested reinvestment of their bills on
+that date
+</text>
+<arg n="0">all investors ---> who ---> *T*-1</arg>
+<arg n="Support">requested</arg>
+<rel>reinvestment</rel>
+<arg n="1">of their bills</arg>
+<arg f="TMP" n="M">on that date</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

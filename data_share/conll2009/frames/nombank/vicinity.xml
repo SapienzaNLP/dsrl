@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="vicinity">
+<roleset id="vicinity.01" name="attribute/nomadjlike-close">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="standard" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+offices in the vicinity of the area damaged by the quake
+</text>
+<arg n="3">offices</arg>
+<arg f="REF" n="2">vicinity</arg>
+<rel>vicinity</rel>
+<arg n="1">of the area damaged by the quake</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

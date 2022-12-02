@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cooling">
+<roleset id="cooling.01" name="cause to be cool1" source="verb-cool.01" vncls="45.4">
+<roles>
+
+<role descr="person doing the cooling" n="0">
+<vnrole vncls="45.4" vntheta="Agent"/></role>
+
+<role descr="thing cooling" n="1">
+<vnrole vncls="45.4" vntheta="Patient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+cooling in the California market
+</text>
+<rel>cooling</rel>
+<arg n="1">in the California market</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

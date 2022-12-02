@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cushion">
+<roleset id="cushion.01" name="to protect from impact" source="verb-cushion.01">
+<roles>
+
+<role descr="protector, agent" n="0"></role>
+
+<role descr="entity cushioned" n="1"></role>
+
+<role descr="cushioned for/from/against" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+their currency cushion
+</text>
+<arg n="0">their</arg>
+<arg n="1">currency</arg>
+<rel>cushion</rel>
+</example>
+
+<example name="autogen2">
+<text>
+they require a financial cushion on all the loans they purchase
+</text>
+<arg n="0">they</arg>
+<arg n="Support">require</arg>
+<arg f="MNR" n="M">financial</arg>
+<rel>cushion</rel>
+<arg n="1">on all the loans they purchase</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

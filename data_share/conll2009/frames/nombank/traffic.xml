@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="traffic">
+<roleset id="traffic.01" name="attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the rising volume of passenger traffic on this route
+</text>
+<arg n="2">rising</arg>
+<arg n="Support">volume of</arg>
+<arg n="0">passenger</arg>
+<rel>traffic</rel>
+<arg n="1">on this route</arg>
+</example>
+
+<example name="autogen2">
+<text>
+domestic air traffic
+</text>
+<arg n="0">domestic</arg>
+<arg n="1">air</arg>
+<arg f="REF" n="2">traffic</arg>
+<rel>traffic</rel>
+</example>
+
+</roleset>
+<roleset id="traffic.02" name="nomlike" source="verb-deal.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+drug traffic
+</text>
+<arg n="1">drug</arg>
+<rel>traffic</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,47 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="buy-back">
+<roleset id="buy-back.01" name="purchase" source="verb-buy.01" vncls="13.5.1">
+<roles>
+
+<role descr="buyer" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing bought" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="seller" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+<role descr="price paid" n="3">
+<vnrole vncls="13.5.1" vntheta="Asset"/></role>
+
+<role descr="beneficiary" n="4">
+<vnrole vncls="13.5.1" vntheta="Beneficiary"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Lang Communications ' buy-back of Time Warner 's 50 % interest in
+Working Woman and Working Mother
+</text>
+<arg n="0">Lang Communications '</arg>
+<rel>buy-back</rel>
+<arg n="1">
+of Time Warner 's 50 % interest in Working Woman and Working
+Mother</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 1 billion buy-back of its shares
+</text>
+<arg n="3">$ 1 billion</arg>
+<rel>buy-back</rel>
+<arg n="1">of its shares</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

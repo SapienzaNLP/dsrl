@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="humor">
+<roleset id="humor.01" name="attribute">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a practitioner of ethnic humor from the old days on the Borscht
+Belt , live television and the nightclub circuit
+</text>
+<arg n="0">a practitioner</arg>
+<arg n="1">ethnic</arg>
+<arg f="REF" n="2">humor</arg>
+<rel>humor</rel>
+</example>
+
+<example name="autogen2">
+<text>
+ethnic humor
+</text>
+<arg n="1">ethnic</arg>
+<arg f="REF" n="2">humor</arg>
+<rel>humor</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

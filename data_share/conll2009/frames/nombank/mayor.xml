@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="mayor">
+<roleset id="mayor.01" name="actrel">
+<roles>
+
+<role descr="job holder" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="beneficiary" n="2"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+New York City deputy mayor for finance and economic development
+</text>
+<arg n="2">New York City</arg>
+<arg n="3">deputy</arg>
+<arg n="0">mayor</arg>
+<rel>mayor</rel>
+<arg n="1">for finance and economic development</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the mayor of Ava , Mo.
+</text>
+<arg n="0">mayor</arg>
+<rel>mayor</rel>
+<arg n="2">of Ava , Mo.</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

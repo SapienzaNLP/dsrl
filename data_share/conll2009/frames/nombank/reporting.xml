@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="reporting">
+<roleset id="reporting.01" name="report, tell" source="verb-report.01" vncls="29.1">
+<roles>
+
+<role descr="reporter" n="0">
+<vnrole vncls="29.1" vntheta="Agent"/></role>
+
+<role descr="thing reported" n="1">
+<vnrole vncls="29.1" vntheta="Topic"/></role>
+
+<role descr="entity reported to" n="2">
+<vnrole vncls="29.1" vntheta="Recipient"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Epilepsy Institute 's reporting of breakthrough seizures
+</text>
+<arg n="0">The Epilepsy Institute 's</arg>
+<rel>reporting</rel>
+<arg n="1">of breakthrough seizures</arg>
+</example>
+
+<example name="autogen2">
+<text>
+financial reporting purposes
+</text>
+<arg n="1">financial</arg>
+<rel>reporting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

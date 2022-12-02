@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="sympathy">
+<roleset id="sympathy.01" name="to share the feelings or ideas" source="verb-sympathize.01">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="shared feelings or ideas" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a distinguished supply-sider with monetarist sympathies
+</text>
+<arg n="0">a distinguished supply-sider</arg>
+<arg n="1">monetarist</arg>
+<rel>sympathies</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Chairman Gonzalez expresses sympathy for Sen. Riegle , his
+counterpart as chairman of the Senate Banking Committee .
+</text>
+<arg n="0">Chairman Gonzalez</arg>
+<arg n="Support">expresses</arg>
+<rel>sympathy</rel>
+<arg n="1">
+for Sen. Riegle , his counterpart as chairman of the Senate
+Banking Committee</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

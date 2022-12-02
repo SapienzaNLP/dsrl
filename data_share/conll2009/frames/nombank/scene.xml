@@ -1,0 +1,85 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="scene">
+<roleset id="scene.01" name="environment">
+<roles>
+
+<role descr="action" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Hong Kong 's property scene
+</text>
+<arg n="3">Hong Kong 's</arg>
+<arg n="1">property</arg>
+<rel>scene</rel>
+</example>
+
+<example name="autogen2">
+<text>
+Britain 's unsettled political scene
+</text>
+<arg n="3">Britain 's</arg>
+<arg n="1">political</arg>
+<rel>scene</rel>
+</example>
+
+</roleset>
+<roleset id="scene.02" name="work-of-art/meronym">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="whole" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Star Wars desert-battle scene
+</text>
+<arg n="2">Star Wars</arg>
+<arg n="1">desert-battle</arg>
+<rel>scene</rel>
+</example>
+
+<example name="autogen2">
+<text>
+his scene
+</text>
+<arg n="0">his</arg>
+<rel>scene</rel>
+</example>
+
+</roleset>
+<roleset id="scene.03" name="nomadv/idiom-on-the-scene/there">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Meanwhile , the Duke , who set the original scheme in motion ,
+appears on the scene disguised as a friar and becomes involved in
+a series of intrigues that has everyone fearing the worst
+possible outcome until the Duke arranges a last minute reprieve
+for all concerned .
+</text>
+<arg n="1">the Duke , who set the original scheme in motion ,</arg>
+<arg n="Support">appears on</arg>
+<rel>scene</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

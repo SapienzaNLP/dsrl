@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="text">
+<roleset id="text.01" name="version/work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+And my newspaper can print the text of those broadcasts .
+</text>
+<arg n="0">my newspaper</arg>
+<arg n="Support">print</arg>
+<rel>text</rel>
+<arg n="1">of those broadcasts</arg>
+</example>
+
+<example name="autogen2">
+<text>
+full text of relevant articles
+</text>
+<rel>text</rel>
+<arg n="1">of relevant articles</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

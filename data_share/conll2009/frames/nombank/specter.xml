@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="specter">
+<roleset id="specter.01" name="frighten" source="verb-frighten.01" vncls="31.1">
+<roles>
+
+<role descr="cause of fear" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="frightened entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+<role descr="instrument, if separate from arg0" n="2"></role>
+
+<role descr="intensifier" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the specter of drugs
+</text>
+<rel>specter</rel>
+<arg n="0">of drugs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the specter of empty hotel rooms and restaurants
+</text>
+<rel>specter</rel>
+<arg n="0">of empty hotel rooms and restaurants</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

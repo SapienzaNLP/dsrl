@@ -1,0 +1,79 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="assumption">
+<roleset id="assumption.01" name="believe" source="verb-assume.02" vncls="29.4">
+<roles>
+
+<role descr="thinker" n="0">
+<vnrole vncls="29.4" vntheta="Agent"/></role>
+
+<role descr="thought" n="1">
+<vnrole vncls="29.4" vntheta="Theme"/></role>
+
+<role descr="attributive" n="2">
+<vnrole vncls="29.4" vntheta="Predicate"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+His assumption is that the underlying profitability rate will go
+up and the capital assets he bought on the cheap will soon be
+producing profits , thus restoring the market 's faith in them .
+</text>
+<arg n="0">His</arg>
+<rel>assumption</rel>
+<arg n="1">
+that the underlying profitability rate will go up and the capital
+assets he bought on the cheap will soon be producing profits ,
+thus restoring the market 's faith in them</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the assumption that global warming is entirely a result of human
+activity
+</text>
+<rel>assumption</rel>
+<arg n="1">that global warming is entirely a result of human activity</arg>
+</example>
+
+</roleset>
+<roleset id="assumption.02" name="acquire" source="verb-assume.01">
+<roles>
+
+<role descr="entity acquiring something" n="0"></role>
+
+<role descr="thing being acquired" n="1"></role>
+
+<role descr="acquired-from" n="2"></role>
+
+<role descr="price paid" n="3"></role>
+
+<role descr="beneficiary" n="4"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+any assumption of additional responsibility by the politicians
+</text>
+<rel>assumption</rel>
+<arg n="1">of additional responsibility</arg>
+<arg n="0">by the politicians</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the assumption of an estimated $ 300 million in secured
+liabilities on those properties
+</text>
+<rel>assumption</rel>
+<arg n="1">
+of an estimated $ 300 million in secured liabilities on those
+properties</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

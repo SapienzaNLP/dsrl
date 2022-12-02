@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="homage">
+<roleset id="homage.01" name="to regard highly" source="verb-respect.01">
+<roles>
+
+<role descr="regarder, respecter, agent" n="0"></role>
+
+<role descr="entity respected" n="1"></role>
+
+<role descr="secondary predicate" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+an homage to traditional English forms
+</text>
+<rel>homage</rel>
+<arg n="1">to traditional English forms</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ramp">
+<roleset id="ramp.01" name="meronym/partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the pristine concrete ramps of the Stick
+</text>
+<rel>ramps</rel>
+<arg n="1">of the Stick</arg>
+</example>
+
+<example name="autogen2">
+<text>
+highway on-ramps
+</text>
+<arg n="1">highway</arg>
+<rel>on-ramps</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="southeast">
+<roleset id="southeast.01" name="nomadj-southeast">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="source" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Hollister , southeast of San Francisco
+</text>
+<arg n="1">Hollister</arg>
+<rel>southeast</rel>
+<arg n="2">of San Francisco</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,32 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="initiative">
+<roleset id="initiative.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his own crime initiative
+</text>
+<arg n="0">his</arg>
+<arg n="1">crime</arg>
+<rel>initiative</rel>
+</example>
+
+<example name="autogen3">
+<text>
+the Prop. 65 anti-toxic initiative
+</text>
+<arg n="1">anti-toxic</arg>
+<rel>initiative</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

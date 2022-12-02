@@ -1,0 +1,73 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="wave">
+<roleset id="wave.01" name="partitive-quant">
+<roles>
+
+<role descr="quantified" n="1"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen2">
+<text>
+waves of S&amp;P futures contracts
+</text>
+<rel>waves</rel>
+<arg n="1">of S&amp;P futures contracts</arg>
+</example>
+
+<example name="autogen3">
+<text>
+its first wave of sales of big , sick thrifts
+</text>
+<rel>wave</rel>
+<arg n="1">of sales of big , sick thrifts</arg>
+</example>
+
+</roleset>
+<roleset id="wave.02" name="nom" source="verb-agitate.01" vncls="31.1">
+<roles>
+
+<role descr="causer" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="experiencer" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+He last made waves when he dared to defend an Indian girl who had
+been adopted by non-Indian parents off her reservation .
+</text>
+<arg n="0">He</arg>
+<arg n="Support">made</arg>
+<rel>waves</rel>
+</example>
+
+</roleset>
+<roleset id="wave.03" name="nomlike-trend" source="verb-trend.01">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="attribute of arg1" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the wave of the future
+</text>
+<rel>wave</rel>
+<arg f="TMP" n="M">of the future</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

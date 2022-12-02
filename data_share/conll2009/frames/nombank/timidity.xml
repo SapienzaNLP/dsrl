@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="timidity">
+<roleset id="timidity.01" name="nomadj-timid">
+<roles>
+
+<role descr="experiencer" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its combination of ponderousness and timidity , which adds up to
+an utter lack of drama
+</text>
+<arg n="0">its</arg>
+<arg n="Support">combination of</arg>
+<rel>timidity</rel>
+</example>
+
+<example name="autogen2">
+<text>
+`` timidity '' on Panama and elsewhere
+</text>
+<rel>timidity</rel>
+<arg n="1">on Panama and elsewhere</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

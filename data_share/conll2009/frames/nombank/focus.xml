@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="focus">
+<roleset id="focus.01" name="focus, concentrate" source="verb-focus.01">
+<roles>
+
+<role descr="agent, focusser" n="0"></role>
+
+<role descr="thing focussed" n="1"></role>
+
+<role descr="focussed-on" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The bond market 's focus on stock activity
+</text>
+<arg n="0">The bond market 's</arg>
+<rel>focus</rel>
+<arg n="2">on stock activity</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its marketing focus
+</text>
+<arg n="0">its</arg>
+<arg n="1">marketing</arg>
+<rel>focus</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

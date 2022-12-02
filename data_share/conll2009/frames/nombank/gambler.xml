@@ -1,0 +1,24 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="gambler">
+<roleset id="gambler.01" name="to take a risk" source="verb-gamble.01">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a compulsive gambler or two
+</text>
+<arg f="MNR" n="M">compulsive</arg>
+<arg n="0">gambler</arg>
+<rel>gambler</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

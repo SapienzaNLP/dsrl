@@ -1,0 +1,27 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="recuperation">
+<roleset id="recuperation.01" name="get better" source="verb-recover.01">
+<roles>
+
+<role descr="that which was sick, now getting better" n="1"></role>
+
+<role descr="sickness" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Most junk bonds , which have been battered in recent weeks ,
+continued a slow recuperation and ended unchanged to slightly
+higher .
+</text>
+<arg n="1">Most junk bonds , which have been battered in recent weeks ,</arg>
+<arg n="Support">continued</arg>
+<arg f="MNR" n="M">slow</arg>
+<rel>recuperation</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

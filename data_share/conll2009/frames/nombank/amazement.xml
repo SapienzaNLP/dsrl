@@ -1,0 +1,38 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="amazement">
+<roleset id="amazement.01" name="cause astonishment" source="verb-amaze.01" vncls="31.1">
+<roles>
+
+<role descr="causer of amazement" n="0">
+<vnrole vncls="31.1" vntheta="Cause"/></role>
+
+<role descr="amazed entity" n="1">
+<vnrole vncls="31.1" vntheta="Experiencer"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+To the amazement of some traders , takeover stocks were climbing
+again .
+</text>
+<rel>amazement</rel>
+<arg n="1">of some traders</arg>
+<arg n="0">takeover stocks were climbing again</arg>
+</example>
+
+<example name="autogen2">
+<text>
+But his fans , to his constant amazement , never let him forget
+the famous four-bagger .
+</text>
+<arg n="0">his fans never let him forget the famous four-bagger</arg>
+<arg n="1">his</arg>
+<arg f="MNR" n="M">constant</arg>
+<rel>amazement</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

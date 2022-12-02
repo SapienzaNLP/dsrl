@@ -1,0 +1,56 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="custom">
+<roleset id="custom.01" name="work-of-art">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+It must be a local custom , I thought , stamping feet to welcome
+the team .
+</text>
+<arg n="0">local</arg>
+<rel>custom</rel>
+<arg n="1">*ICH*-3 ---> stamping feet to welcome the team</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a few proud local customs
+</text>
+<arg n="0">local</arg>
+<rel>customs</rel>
+</example>
+
+</roleset>
+<roleset id="custom.02" name="adapt for a specific purpose/person" source="verb-customize.01">
+<roles>
+
+<role descr="adaptor, agent" n="0"></role>
+
+<role descr="thing customized" n="1"></role>
+
+<role descr="purpose/beneficiary/target" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The extrusion unit produces bare and painted custom extrusions
+for building products and construction industries .
+</text>
+<arg n="Support">produces extrusions</arg>
+<rel>custom</rel>
+<arg n="1">extrusions</arg>
+<arg n="2">for building products and construction industries</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

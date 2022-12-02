@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="broadcasting">
+<roleset id="broadcasting.01" name="to transmit or announce" source="verb-broadcast.01">
+<roles>
+
+<role descr="transmitter, agent" n="0"></role>
+
+<role descr="message" n="1"></role>
+
+<role descr="audience" n="2"></role>
+
+<role descr="source" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+CBS Inc. , which next season takes over the broadcasting of all
+baseball playoffs in a four-year television contract priced at $
+1.06 billion
+</text>
+<arg n="0">CBS Inc. ---> which ---> *T*-1</arg>
+<arg n="Support">takes</arg>
+<rel>broadcasting</rel>
+<arg n="1">of all baseball playoffs</arg>
+</example>
+
+<example name="autogen2">
+<text>
+its broadcasting and entertainment operations
+</text>
+<arg n="0">its</arg>
+<rel>broadcasting</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

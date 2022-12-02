@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="bagger">
+<roleset id="bagger.01" name="nomlike" source="verb-pack.02">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="theme" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+avaricious ice-baggers
+</text>
+<arg f="MNR" n="M">avaricious</arg>
+<arg n="0">ice-baggers</arg>
+<arg n="1">ice-baggers</arg>
+<rel>ice-baggers</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

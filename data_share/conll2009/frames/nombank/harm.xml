@@ -1,0 +1,40 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="harm">
+<roleset id="harm.01" name="cause damage" source="verb-harm.01">
+<roles>
+
+<role descr="agent, causer" n="0"></role>
+
+<role descr="entity damaged" n="1"></role>
+
+<role descr="instrument" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Some find no harm in the misdemeanors of trespass , minor
+property destruction , blocking traffic and the like .
+</text>
+<arg n="1">Some</arg>
+<arg n="Support">find</arg>
+<arg f="NEG" n="M">no</arg>
+<rel>harm</rel>
+<arg n="0">
+in the misdemeanors of trespass , minor property destruction ,
+blocking traffic and the like</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the harm caused by DES
+</text>
+<rel>harm</rel>
+<arg n="Support">caused</arg>
+<arg n="0">by DES</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

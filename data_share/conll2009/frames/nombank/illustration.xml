@@ -1,0 +1,34 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="illustration">
+<roleset id="illustration.01" name="explain" source="verb-illustrate.01">
+<roles>
+
+<role descr="illustrator" n="0"></role>
+
+<role descr="item being explained" n="1"></role>
+
+<role descr="explained to" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the Equitable 's policy illustration
+</text>
+<arg n="0">the Equitable 's</arg>
+<arg n="1">policy</arg>
+<rel>illustration</rel>
+</example>
+
+<example name="autogen2">
+<text>
+some policy illustrations
+</text>
+<arg n="1">policy</arg>
+<rel>illustrations</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

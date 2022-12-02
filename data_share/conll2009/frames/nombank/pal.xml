@@ -1,0 +1,26 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="pal">
+<roleset id="pal.01" name="defrel">
+<roles>
+
+<role descr="relation holder" n="0"></role>
+
+<role descr="relation receptor" n="1"></role>
+
+<role descr="rank" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Mr. Noriega 's pal
+</text>
+<arg n="1">Mr. Noriega 's</arg>
+<arg n="0">pal</arg>
+<rel>pal</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

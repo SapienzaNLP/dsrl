@@ -1,0 +1,31 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="ethos">
+<roleset id="ethos.01" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+its ethos
+</text>
+<arg n="1">its</arg>
+<rel>ethos</rel>
+</example>
+
+<example name="autogen2">
+<text>
+an ethos of combat
+</text>
+<rel>ethos</rel>
+<arg n="1">of combat</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

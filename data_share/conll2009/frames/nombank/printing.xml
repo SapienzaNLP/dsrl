@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="printing">
+<roleset id="printing.01" name="put pen to paper" source="verb-print.01" vncls="25.2">
+<roles>
+
+<role descr="printer" n="0">
+<vnrole vncls="25.2" vntheta="Agent"/></role>
+
+<role descr="document" n="1">
+<vnrole vncls="25.2" vntheta="Theme"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+printing of `` wrong '' ideas
+</text>
+<rel>printing</rel>
+<arg n="1">of `` wrong '' ideas</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the Colorliner newspaper-printing press
+</text>
+<arg n="1">newspaper-printing</arg>
+<rel>newspaper-printing</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,59 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="art">
+<roleset id="art.01" name="ability-with-agent">
+<roles>
+
+<role descr="agent" n="0"></role>
+
+<role descr="action" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+`` He has mastered the art of survival . ''
+</text>
+<arg n="0">He</arg>
+<arg n="Support">mastered</arg>
+<rel>art</rel>
+<arg n="1">of survival</arg>
+</example>
+
+<example name="autogen2">
+<text>
+The Art of the Deal
+</text>
+<rel>Art</rel>
+<arg n="1">of the Deal</arg>
+</example>
+
+</roleset>
+<roleset id="art.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Cuban art and artists
+</text>
+<arg n="2">Cuban</arg>
+<rel>art</rel>
+</example>
+
+<example name="autogen2">
+<text>
+African art
+</text>
+<arg n="2">African</arg>
+<rel>art</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

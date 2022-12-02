@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="listener">
+<roleset id="listener.01" name="attend to a sound" source="verb-listen.01" vncls="30.3">
+<roles>
+
+<role descr="listener" n="0">
+<vnrole vncls="30.3" vntheta="Agent"/></role>
+
+<role descr="sound or speaker" n="1">
+<vnrole vncls="30.3" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the network 's Hungarian listeners
+</text>
+<arg n="1">the network 's</arg>
+<arg n="0">listeners</arg>
+<rel>listeners</rel>
+</example>
+
+<example name="autogen2">
+<text>
+her listeners
+</text>
+<arg n="1">her</arg>
+<arg n="0">listeners</arg>
+<rel>listeners</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,33 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="protester">
+<roleset id="protester.01" name="object to something" source="verb-protest.01">
+<roles>
+
+<role descr="protester" n="0"></role>
+
+<role descr="objectionable thing" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+anti-nuclear protestors
+</text>
+<arg n="1">anti-nuclear</arg>
+<arg n="0">protestors</arg>
+<rel>protestors</rel>
+</example>
+
+<example name="autogen2">
+<text>
+pro-democracy protesters
+</text>
+<arg n="1">pro-democracy</arg>
+<arg n="0">protesters</arg>
+<rel>protesters</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

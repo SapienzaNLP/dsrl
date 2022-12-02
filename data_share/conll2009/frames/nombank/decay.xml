@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="decay">
+<roleset id="decay.01" name="rot, become unwholesome" source="verb-decay.01">
+<roles>
+
+<role descr="theme" n="1" source="0"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the decay of the traditional nuclear family
+</text>
+<rel>decay</rel>
+<arg n="1">of the traditional nuclear family</arg>
+</example>
+
+<example name="autogen2">
+<text>
+community decay
+</text>
+<arg n="1">community</arg>
+<rel>decay</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

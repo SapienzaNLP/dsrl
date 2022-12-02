@@ -1,0 +1,35 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="evasion">
+<roleset id="evasion.01" name="stay away from" source="verb-evade.01" vncls="52">
+<roles>
+
+<role descr="avoider" n="0">
+<vnrole vncls="52" vntheta="Agent"/></role>
+
+<role descr="thing avoided" n="1">
+<vnrole vncls="52" vntheta="Theme"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+his prison sentence for income-tax evasion
+</text>
+<arg n="0">his</arg>
+<arg n="Support">sentence for</arg>
+<arg n="1">income-tax</arg>
+<rel>evasion</rel>
+</example>
+
+<example name="autogen2">
+<text>
+serious tax evasion
+</text>
+<arg n="1">tax</arg>
+<rel>evasion</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

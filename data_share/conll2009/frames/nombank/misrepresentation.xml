@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="misrepresentation">
+<roleset id="misrepresentation.01" name="portray falsely" source="verb-misrepresent.01">
+<roles>
+
+<role descr="misrepresenter" n="0"></role>
+
+<role descr="thing portrayed" n="1"></role>
+
+<role descr="attribute" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Better Book , now defunct , made misrepresentations in selling
+advertising for the directories and memberships in the bureau
+from 1984 to 1986
+</text>
+<arg n="0">Better Book , now defunct ,</arg>
+<arg n="Support">made</arg>
+<rel>misrepresentations</rel>
+<arg n="1">
+in selling advertising for the directories and memberships in the
+bureau from 1984 to 1986</arg>
+</example>
+
+<example name="autogen2">
+<text>
+all misrepresentations by an agent or employee
+</text>
+<rel>misrepresentations</rel>
+<arg n="0">by an agent or employee</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,25 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="festivity">
+<roleset id="festivity.01" name="honor with memorial, be a memorial" source="verb-commemorate.01">
+<roles>
+
+<role descr="agent, honorer" n="0"></role>
+
+<role descr="thing remembered" n="1"></role>
+
+<role descr="memorial" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a democratic festivity
+</text>
+<arg n="1">democratic</arg>
+<rel>festivity</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

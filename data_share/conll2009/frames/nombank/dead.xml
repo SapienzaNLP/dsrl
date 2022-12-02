@@ -1,0 +1,29 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="dead">
+<roleset id="dead.01" name="partitive-part">
+<roles>
+
+<role descr="whole" n="1"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the dead of winter
+</text>
+<rel>dead</rel>
+<arg n="1">of winter</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the dead of night
+</text>
+<rel>dead</rel>
+<arg n="1">of night</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

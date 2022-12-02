@@ -1,0 +1,41 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="cap">
+<roleset id="cap.01" name="ensure something stays below a certain level" source="verb-limit.01">
+<roles>
+
+<role descr="agent, limiter" n="0"></role>
+
+<role descr="thing limited" n="1"></role>
+
+<role descr="limit" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+it to increase its debt cap to 65 % of the company 's fair market
+value from the 40 % currently allowed
+</text>
+<arg n="Support">increase</arg>
+<arg n="0">its</arg>
+<arg n="1">debt</arg>
+<rel>cap</rel>
+<arg n="2">to 65 % of the company 's fair market value</arg>
+</example>
+
+<example name="autogen2">
+<text>
+a $ 100 million cap on how much any single state can receive in
+emergency funds in a year
+</text>
+<arg n="2">$ 100 million</arg>
+<rel>cap</rel>
+<arg n="1">
+on how much any single state can receive in emergency funds in a
+year</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

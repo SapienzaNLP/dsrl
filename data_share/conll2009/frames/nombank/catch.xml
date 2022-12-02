@@ -1,0 +1,54 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="catch">
+<roleset id="catch.01" name="get" source="verb-catch.01" vncls="13.5.1">
+<roles>
+
+<role descr="receiver" n="0">
+<vnrole vncls="13.5.1" vntheta="Agent"/></role>
+
+<role descr="thing gotten" n="1">
+<vnrole vncls="13.5.1" vntheta="Theme"/></role>
+
+<role descr="giver" n="2">
+<vnrole vncls="13.5.1" vntheta="Source"/></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+the next season 's catch
+</text>
+<arg f="TMP" n="M">the next season 's</arg>
+<rel>catch</rel>
+</example>
+
+</roleset>
+<roleset id="catch.02" name="attribute">
+<roles>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+The Continental catch : Only immediate family members are allowed
+, and they must have the same last name as the buyer of the
+ticket or legal proof they 're related .
+</text>
+<arg n="1">Continental</arg>
+<rel>catch</rel>
+<arg n="2">
+Only immediate family members are allowed , and they must have
+the same last name as the buyer of the ticket or legal proof they
+'re related</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

@@ -1,0 +1,37 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="care">
+<roleset id="care.01" name="to be concerned" source="verb-care.01" vncls="31.3">
+<roles>
+
+<role descr="carer, agent" n="0">
+<vnrole vncls="31.3" vntheta="Experiencer"/></role>
+
+<role descr="thing cared for/about" n="1">
+<vnrole vncls="31.3" vntheta="Cause"/></role>
+
+<role descr="beneficiary" n="2"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+a stated policy on child care for their employees
+</text>
+<arg n="1">child</arg>
+<rel>care</rel>
+<arg n="2">for their employees</arg>
+</example>
+
+<example name="autogen2">
+<text>
+the health care providers group
+</text>
+<arg n="1">health</arg>
+<rel>care</rel>
+<arg n="0">providers</arg>
+</example>
+
+</roleset>
+</predicate>
+</frameset>

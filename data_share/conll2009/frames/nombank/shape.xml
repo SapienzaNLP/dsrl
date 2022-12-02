@@ -1,0 +1,39 @@
+<!DOCTYPE frameset SYSTEM "frameset.dtd">
+<frameset>
+<predicate lemma="shape">
+<roleset id="shape.01" name="attribute/nom" source="verb-shape.01" vncls="26.1-1">
+<roles>
+
+<role descr="shaper" n="0">
+<vnrole vncls="26.1-1" vntheta="Agent"/></role>
+
+<role descr="theme" n="1"></role>
+
+<role descr="value" n="2"></role>
+
+<role descr="secondary-theme" n="3"></role>
+
+</roles>
+
+<example name="autogen1">
+<text>
+Also , traders are in better shape today than in 1987 to survive
+selling binges .
+</text>
+<arg n="1">traders</arg>
+<arg n="2">better</arg>
+<rel>shape</rel>
+</example>
+
+<example name="autogen2">
+<text>
+their economies generally are in good shape
+</text>
+<arg n="1">their economies</arg>
+<arg n="2">good</arg>
+<rel>shape</rel>
+</example>
+
+</roleset>
+</predicate>
+</frameset>
