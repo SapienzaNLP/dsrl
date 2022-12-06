@@ -2,14 +2,14 @@
  
 # Semantic Role Labeling Meets Definition Modeling: Using Natural Language to Describe Predicate-Argument Structures     
 
-[![Paper](http://img.shields.io/badge/paper-ACL--anthology-B31B1B.svg)]()
+[![Paper](http://img.shields.io/badge/paper-ACL--anthology-B31B1B.svg)](https://www.researchgate.net/publication/365946464_Semantic_Role_Labeling_Meets_Definition_Modeling_Using_Natural_Language_to_Describe_Predicate-Argument_Structures)
 [![Conference](http://img.shields.io/badge/EMNLP-2022-4b44ce.svg)](https://2022.emnlp.org/)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 </div>
 
 ## About the project
-This is the repository for the paper [*Semantic Role Labeling Meets Definition Modeling: Using Natural Language to Describe Predicate-Argument Structures*](), published in Findings of EMNLP 2022 and authored by [Simone Conia](https://c-simone.github.io/), [Edoardo Barba](https://edobobo.github.io/), Alessandro Scirè, and [Roberto Navigli](https://www.diag.uniroma1.it/navigli/).
+This is the repository for the paper [*Semantic Role Labeling Meets Definition Modeling: Using Natural Language to Describe Predicate-Argument Structures*](https://www.researchgate.net/publication/365946464_Semantic_Role_Labeling_Meets_Definition_Modeling_Using_Natural_Language_to_Describe_Predicate-Argument_Structures), published in Findings of EMNLP 2022 and authored by [Simone Conia](https://c-simone.github.io/), [Edoardo Barba](https://edobobo.github.io/), Alessandro Scirè, and [Roberto Navigli](https://www.diag.uniroma1.it/navigli/).
 
 ## Abstract
 > One of the common traits of past and present approaches for Semantic Role Labeling (SRL) is that they rely upon discrete labels drawn from a predefined linguistic inventory to classify predicate senses and their arguments. However, we argue this need not be the case. In this paper, we present an approach that leverages Definition Modeling to introduce a generalized formulation of SRL as the task of describing predicate-argument structures using natural language definitions instead of discrete labels. Our novel formulation takes a first step towards placing interpretability and flexibility foremost, and yet our experiments and analyses on PropBank-style and FrameNet-style, dependency-based and span-based SRL also demonstrate that a flexible model with an interpretable output does not necessarily come at the expense of performance.
